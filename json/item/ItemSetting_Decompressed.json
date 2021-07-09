@@ -1,0 +1,453 @@
+/* XDASEA_Xm8R_SPsX */ 
+// Geimini_ItemSetting.xlsx.tmp InitialEquipment 
+
+{"JsonItemSetting":{"initialEquipment_":{
+	"EquipmentSet01":{
+		"job" : "WARRIOR",
+		"sex" : "MALE",
+		"personality" : "TYPE_A",
+		"weapon" : "ITEM_WEPON_0000",
+		"shield" : "ITEM_SHIELD_0000",
+		"head" : "ITEM_HEAD_0000",
+		"body" : "ITEM_ARMOR_0000",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_SHIELD_NON_0000"
+	},
+	"EquipmentSet02":{
+		"job" : "WARRIOR",
+		"sex" : "FEMALE",
+		"personality" : "TYPE_A",
+		"weapon" : "ITEM_WEPON_0000",
+		"shield" : "ITEM_SHIELD_0000",
+		"head" : "ITEM_HEAD_0000",
+		"body" : "ITEM_ARMOR_0000",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_SHIELD_NON_0000"
+	},
+	"EquipmentSet03":{
+		"job" : "WARRIOR",
+		"sex" : "MALE",
+		"personality" : "TYPE_B",
+		"weapon" : "ITEM_WEPON_0005",
+		"shield" : "ITEM_SHIELD_0000",
+		"head" : "ITEM_HEAD_0000",
+		"body" : "ITEM_ARMOR_0000",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_SHIELD_NON_0000"
+	},
+	"EquipmentSet04":{
+		"job" : "WARRIOR",
+		"sex" : "FEMALE",
+		"personality" : "TYPE_B",
+		"weapon" : "ITEM_WEPON_0005",
+		"shield" : "ITEM_SHIELD_0000",
+		"head" : "ITEM_HEAD_0000",
+		"body" : "ITEM_ARMOR_0000",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_SHIELD_NON_0000"
+	},
+	"EquipmentSet05":{
+		"job" : "WARRIOR",
+		"sex" : "MALE",
+		"personality" : "TYPE_C",
+		"weapon" : "ITEM_WEPON_0010",
+		"shield" : "ITEM_SHIELD_0000",
+		"head" : "ITEM_HEAD_0000",
+		"body" : "ITEM_ARMOR_0000",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_SHIELD_NON_0000"
+	},
+	"EquipmentSet06":{
+		"job" : "WARRIOR",
+		"sex" : "FEMALE",
+		"personality" : "TYPE_C",
+		"weapon" : "ITEM_WEPON_0010",
+		"shield" : "ITEM_SHIELD_0000",
+		"head" : "ITEM_HEAD_0000",
+		"body" : "ITEM_ARMOR_0000",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_SHIELD_NON_0000"
+	},
+	"EquipmentSet07":{
+		"job" : "BERSERKER",
+		"sex" : "MALE",
+		"personality" : "TYPE_A",
+		"weapon" : "ITEM_WEPON_0000",
+		"shield" : "ITEM_WEPON_0000",
+		"head" : "ITEM_HEAD_0000",
+		"body" : "ITEM_ARMOR_0000",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_WEPON_NON_0000"
+	},
+	"EquipmentSet08":{
+		"job" : "BERSERKER",
+		"sex" : "FEMALE",
+		"personality" : "TYPE_A",
+		"weapon" : "ITEM_WEPON_0000",
+		"shield" : "ITEM_WEPON_0000",
+		"head" : "ITEM_HEAD_0000",
+		"body" : "ITEM_ARMOR_0000",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_WEPON_NON_0000"
+	},
+	"EquipmentSet09":{
+		"job" : "BERSERKER",
+		"sex" : "MALE",
+		"personality" : "TYPE_B",
+		"weapon" : "ITEM_WEPON_0005",
+		"shield" : "ITEM_WEPON_0000",
+		"head" : "ITEM_HEAD_0000",
+		"body" : "ITEM_ARMOR_0000",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_WEPON_NON_0000"
+	},
+	"EquipmentSet10":{
+		"job" : "BERSERKER",
+		"sex" : "FEMALE",
+		"personality" : "TYPE_B",
+		"weapon" : "ITEM_WEPON_0005",
+		"shield" : "ITEM_WEPON_0000",
+		"head" : "ITEM_HEAD_0000",
+		"body" : "ITEM_ARMOR_0000",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_WEPON_NON_0000"
+	},
+	"EquipmentSet11":{
+		"job" : "BERSERKER",
+		"sex" : "MALE",
+		"personality" : "TYPE_C",
+		"weapon" : "ITEM_WEPON_0010",
+		"shield" : "ITEM_WEPON_0000",
+		"head" : "ITEM_HEAD_0000",
+		"body" : "ITEM_ARMOR_0000",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_WEPON_NON_0000"
+	},
+	"EquipmentSet12":{
+		"job" : "BERSERKER",
+		"sex" : "FEMALE",
+		"personality" : "TYPE_C",
+		"weapon" : "ITEM_WEPON_0010",
+		"shield" : "ITEM_WEPON_0000",
+		"head" : "ITEM_HEAD_0000",
+		"body" : "ITEM_ARMOR_0000",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_WEPON_NON_0000"
+	},
+	"EquipmentSet13":{
+		"job" : "CLERIC",
+		"sex" : "MALE",
+		"personality" : "TYPE_A",
+		"weapon" : "ITEM_WEPON_0015",
+		"shield" : "ITEM_SHIELD_0000",
+		"head" : "ITEM_HEAD_0005",
+		"body" : "ITEM_ARMOR_0005",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_SHIELD_NON_0000"
+	},
+	"EquipmentSet14":{
+		"job" : "CLERIC",
+		"sex" : "FEMALE",
+		"personality" : "TYPE_A",
+		"weapon" : "ITEM_WEPON_0015",
+		"shield" : "ITEM_SHIELD_0000",
+		"head" : "ITEM_HEAD_0005",
+		"body" : "ITEM_ARMOR_0005",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_SHIELD_NON_0000"
+	},
+	"EquipmentSet15":{
+		"job" : "CLERIC",
+		"sex" : "MALE",
+		"personality" : "TYPE_B",
+		"weapon" : "ITEM_WEPON_0020",
+		"shield" : "ITEM_SHIELD_0000",
+		"head" : "ITEM_HEAD_0005",
+		"body" : "ITEM_ARMOR_0005",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_SHIELD_NON_0000"
+	},
+	"EquipmentSet16":{
+		"job" : "CLERIC",
+		"sex" : "FEMALE",
+		"personality" : "TYPE_B",
+		"weapon" : "ITEM_WEPON_0020",
+		"shield" : "ITEM_SHIELD_0000",
+		"head" : "ITEM_HEAD_0005",
+		"body" : "ITEM_ARMOR_0005",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_SHIELD_NON_0000"
+	},
+	"EquipmentSet17":{
+		"job" : "CLERIC",
+		"sex" : "MALE",
+		"personality" : "TYPE_C",
+		"weapon" : "ITEM_WEPON_0025",
+		"shield" : "ITEM_SHIELD_0000",
+		"head" : "ITEM_HEAD_0005",
+		"body" : "ITEM_ARMOR_0005",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_SHIELD_NON_0000"
+	},
+	"EquipmentSet18":{
+		"job" : "CLERIC",
+		"sex" : "FEMALE",
+		"personality" : "TYPE_C",
+		"weapon" : "ITEM_WEPON_0025",
+		"shield" : "ITEM_SHIELD_0000",
+		"head" : "ITEM_HEAD_0005",
+		"body" : "ITEM_ARMOR_0005",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_SHIELD_NON_0000"
+	},
+	"EquipmentSet19":{
+		"job" : "ENGINEER",
+		"sex" : "MALE",
+		"personality" : "TYPE_A",
+		"weapon" : "ITEM_WEPON_0015",
+		"shield" : "ITEM_SHIELD_0000",
+		"head" : "ITEM_HEAD_0005",
+		"body" : "ITEM_ARMOR_0005",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_SHIELD_NON_0000"
+	},
+	"EquipmentSet20":{
+		"job" : "ENGINEER",
+		"sex" : "FEMALE",
+		"personality" : "TYPE_A",
+		"weapon" : "ITEM_WEPON_0015",
+		"shield" : "ITEM_SHIELD_0000",
+		"head" : "ITEM_HEAD_0005",
+		"body" : "ITEM_ARMOR_0005",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_SHIELD_NON_0000"
+	},
+	"EquipmentSet21":{
+		"job" : "ENGINEER",
+		"sex" : "MALE",
+		"personality" : "TYPE_B",
+		"weapon" : "ITEM_WEPON_0020",
+		"shield" : "ITEM_SHIELD_0000",
+		"head" : "ITEM_HEAD_0005",
+		"body" : "ITEM_ARMOR_0005",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_SHIELD_NON_0000"
+	},
+	"EquipmentSet22":{
+		"job" : "ENGINEER",
+		"sex" : "FEMALE",
+		"personality" : "TYPE_B",
+		"weapon" : "ITEM_WEPON_0020",
+		"shield" : "ITEM_SHIELD_0000",
+		"head" : "ITEM_HEAD_0005",
+		"body" : "ITEM_ARMOR_0005",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_SHIELD_NON_0000"
+	},
+	"EquipmentSet23":{
+		"job" : "ENGINEER",
+		"sex" : "MALE",
+		"personality" : "TYPE_C",
+		"weapon" : "ITEM_WEPON_0025",
+		"shield" : "ITEM_SHIELD_0000",
+		"head" : "ITEM_HEAD_0005",
+		"body" : "ITEM_ARMOR_0005",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_SHIELD_NON_0000"
+	},
+	"EquipmentSet24":{
+		"job" : "ENGINEER",
+		"sex" : "FEMALE",
+		"personality" : "TYPE_C",
+		"weapon" : "ITEM_WEPON_0025",
+		"shield" : "ITEM_SHIELD_0000",
+		"head" : "ITEM_HEAD_0005",
+		"body" : "ITEM_ARMOR_0005",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000",
+		"nudeShield" : "ITEM_SHIELD_NON_0000"
+	},
+	"EquipmentSet25":{
+		"job" : "MAGE",
+		"sex" : "MALE",
+		"personality" : "TYPE_A",
+		"weapon" : "ITEM_WEPON_0030",
+		"head" : "ITEM_HEAD_0010",
+		"body" : "ITEM_ARMOR_0010",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000"
+	},
+	"EquipmentSet26":{
+		"job" : "MAGE",
+		"sex" : "FEMALE",
+		"personality" : "TYPE_A",
+		"weapon" : "ITEM_WEPON_0030",
+		"head" : "ITEM_HEAD_0010",
+		"body" : "ITEM_ARMOR_0010",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000"
+	},
+	"EquipmentSet27":{
+		"job" : "MAGE",
+		"sex" : "MALE",
+		"personality" : "TYPE_B",
+		"weapon" : "ITEM_WEPON_0035",
+		"head" : "ITEM_HEAD_0010",
+		"body" : "ITEM_ARMOR_0010",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000"
+	},
+	"EquipmentSet28":{
+		"job" : "MAGE",
+		"sex" : "FEMALE",
+		"personality" : "TYPE_B",
+		"weapon" : "ITEM_WEPON_0035",
+		"head" : "ITEM_HEAD_0010",
+		"body" : "ITEM_ARMOR_0010",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000"
+	},
+	"EquipmentSet29":{
+		"job" : "MAGE",
+		"sex" : "MALE",
+		"personality" : "TYPE_C",
+		"weapon" : "ITEM_WEPON_0040",
+		"head" : "ITEM_HEAD_0010",
+		"body" : "ITEM_ARMOR_0010",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000"
+	},
+	"EquipmentSet30":{
+		"job" : "MAGE",
+		"sex" : "FEMALE",
+		"personality" : "TYPE_C",
+		"weapon" : "ITEM_WEPON_0040",
+		"head" : "ITEM_HEAD_0010",
+		"body" : "ITEM_ARMOR_0010",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000"
+	},
+	"EquipmentSet31":{
+		"job" : "SYLPH",
+		"sex" : "MALE",
+		"personality" : "TYPE_A",
+		"weapon" : "ITEM_WEPON_0030",
+		"head" : "ITEM_HEAD_0010",
+		"body" : "ITEM_ARMOR_0010",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000"
+	},
+	"EquipmentSet32":{
+		"job" : "SYLPH",
+		"sex" : "FEMALE",
+		"personality" : "TYPE_A",
+		"weapon" : "ITEM_WEPON_0030",
+		"head" : "ITEM_HEAD_0010",
+		"body" : "ITEM_ARMOR_0010",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000"
+	},
+	"EquipmentSet33":{
+		"job" : "SYLPH",
+		"sex" : "MALE",
+		"personality" : "TYPE_B",
+		"weapon" : "ITEM_WEPON_0035",
+		"head" : "ITEM_HEAD_0010",
+		"body" : "ITEM_ARMOR_0010",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000"
+	},
+	"EquipmentSet34":{
+		"job" : "SYLPH",
+		"sex" : "FEMALE",
+		"personality" : "TYPE_B",
+		"weapon" : "ITEM_WEPON_0035",
+		"head" : "ITEM_HEAD_0010",
+		"body" : "ITEM_ARMOR_0010",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000"
+	},
+	"EquipmentSet35":{
+		"job" : "SYLPH",
+		"sex" : "MALE",
+		"personality" : "TYPE_C",
+		"weapon" : "ITEM_WEPON_0040",
+		"head" : "ITEM_HEAD_0010",
+		"body" : "ITEM_ARMOR_0010",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000"
+	},
+	"EquipmentSet36":{
+		"job" : "SYLPH",
+		"sex" : "FEMALE",
+		"personality" : "TYPE_C",
+		"weapon" : "ITEM_WEPON_0040",
+		"head" : "ITEM_HEAD_0010",
+		"body" : "ITEM_ARMOR_0010",
+		"nudeWeapon" : "ITEM_WEPON_NON_0000"
+	}
+},
+// Geimini_ItemSetting.xlsx.tmp BoostItem 
+
+"boostItemParams_":{
+	"SKILL_FULL_SLOT":{
+		"Kind" : "SKILL_FULL_SLOT",
+		"Index" : 1,
+		"BuyStar" : true,
+		"BuyTicket" : true,
+		"UseQuickMatch" : true,
+		"PriceStar" : 3000,
+		"PriceTicket" : 5
+	},
+	"COOL_TIME":{
+		"Kind" : "COOL_TIME",
+		"Index" : 2,
+		"BuyStar" : true,
+		"BuyTicket" : true,
+		"UseQuickMatch" : true,
+		"PriceStar" : 3000,
+		"PriceTicket" : 5
+	},
+	"RESPAWN_TIME":{
+		"Kind" : "RESPAWN_TIME",
+		"Index" : 3,
+		"BuyStar" : true,
+		"BuyTicket" : true,
+		"UseQuickMatch" : true,
+		"PriceStar" : 3000,
+		"PriceTicket" : 5
+	},
+	"ALL_SLAYER":{
+		"Kind" : "ALL_SLAYER",
+		"Index" : 4,
+		"BuyStar" : true,
+		"BuyTicket" : true,
+		"UseQuickMatch" : true,
+		"PriceStar" : 3000,
+		"PriceTicket" : 5
+	},
+	"CHEER_EFFECT":{
+		"Kind" : "CHEER_EFFECT",
+		"Index" : 5,
+		"BuyStar" : true,
+		"BuyTicket" : true,
+		"UseCoopMode" : true,
+		"PriceStar" : 3000,
+		"PriceTicket" : 5
+	},
+	"RUN_THROUGH_EFFECT":{
+		"Kind" : "RUN_THROUGH_EFFECT",
+		"Index" : 6,
+		"BuyStar" : true,
+		"BuyTicket" : true,
+		"UseCoopMode" : true,
+		"PriceStar" : 3000,
+		"PriceTicket" : 5
+	},
+	"BUILD_UP":{
+		"Kind" : "BUILD_UP",
+		"Index" : 7,
+		"BuyStar" : true,
+		"BuyTicket" : true,
+		"UseCoopMode" : true,
+		"PriceStar" : 3000,
+		"PriceTicket" : 5
+	},
+	"AP_INFINITE":{
+		"Kind" : "AP_INFINITE",
+		"Index" : 8,
+		"BuyStar" : true,
+		"BuyTicket" : true,
+		"UseCoopMode" : true,
+		"PriceStar" : 3000,
+		"PriceTicket" : 5
+	}
+}}}

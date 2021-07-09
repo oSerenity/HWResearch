@@ -1,0 +1,136 @@
+/* XDASEA_Xm8R_SPsX */ 
+// DebugViewer.xlsx
+{
+	"JsonDebug": {
+		"viewerEquipParam_": {
+			"Equip01": {
+				"jobStyle_": "STYLE_WARRIOR",
+				"sexType_": "MALE",
+				"eyeIndex_": "EYE_01",
+				"eyeOffset_": "DEFAULT",
+				"mouthIndex_": "MOUTH_01",
+				"mouthOffset_": "DEFAULT",
+				"hairIndex_": "HAIR_01",
+				"hairColor_": "HAIR_COLOR_01",
+				"skinColor_": "SKIN_COLOR_01",
+				"weaponModel_": "cwea061",
+				"shieldModel_": "cshi010",
+				"headModel_": "cmet000",
+				"bodyModel_": "cbod000"
+			},
+			"Equip02": {
+				"jobStyle_": "STYLE_CLERIC",
+				"sexType_": "MALE",
+				"eyeIndex_": "EYE_02",
+				"eyeOffset_": "DEFAULT",
+				"mouthIndex_": "MOUTH_02",
+				"mouthOffset_": "DEFAULT",
+				"hairIndex_": "HAIR_02",
+				"hairColor_": "HAIR_COLOR_02",
+				"skinColor_": "SKIN_COLOR_02",
+				"weaponModel_": "cwea061",
+				"headModel_": "cmet000",
+				"bodyModel_": "cbod000"
+			},
+			"Equip03": {
+				"jobStyle_": "STYLE_MAGE",
+				"sexType_": "MALE",
+				"eyeIndex_": "EYE_01",
+				"eyeOffset_": "DEFAULT",
+				"mouthIndex_": "MOUTH_01",
+				"mouthOffset_": "DEFAULT",
+				"hairIndex_": "HAIR_01",
+				"hairColor_": "HAIR_COLOR_01",
+				"skinColor_": "SKIN_COLOR_01",
+				"weaponModel_": "cwea061",
+				"headModel_": "cmet000",
+				"bodyModel_": "cbod000"
+			},
+			"Equip04": {
+				"jobStyle_": "STYLE_BERSERKER",
+				"sexType_": "MALE",
+				"eyeIndex_": "EYE_01",
+				"eyeOffset_": "DEFAULT",
+				"mouthIndex_": "MOUTH_01",
+				"mouthOffset_": "DEFAULT",
+				"hairIndex_": "HAIR_01",
+				"hairColor_": "HAIR_COLOR_01",
+				"skinColor_": "SKIN_COLOR_01",
+				"weaponModel_": "cwea061",
+				"shieldModel_": "cwea012",
+				"headModel_": "cmet000",
+				"bodyModel_": "cbod000"
+			},
+			"Equip05": {
+				"jobStyle_": "STYLE_ENGINEER",
+				"sexType_": "MALE",
+				"eyeIndex_": "EYE_01",
+				"eyeOffset_": "DEFAULT",
+				"mouthIndex_": "MOUTH_01",
+				"mouthOffset_": "DEFAULT",
+				"hairIndex_": "HAIR_01",
+				"hairColor_": "HAIR_COLOR_01",
+				"skinColor_": "SKIN_COLOR_01",
+				"weaponModel_": "cwea061",
+				"headModel_": "cmet000",
+				"bodyModel_": "cbod000"
+			},
+			"Equip06": {
+				"jobStyle_": "STYLE_SYLPH",
+				"sexType_": "MALE",
+				"eyeIndex_": "EYE_01",
+				"eyeOffset_": "DEFAULT",
+				"mouthIndex_": "MOUTH_01",
+				"mouthOffset_": "DEFAULT",
+				"hairIndex_": "HAIR_01",
+				"hairColor_": "HAIR_COLOR_01",
+				"skinColor_": "SKIN_COLOR_01",
+				"weaponModel_": "cwea061",
+				"headModel_": "cmet000",
+				"bodyModel_": "cbod000"
+			},
+			"Equip07": {
+				"jobStyle_": "STYLE_WARRIOR",
+				"sexType_": "MALE",
+				"eyeIndex_": "EYE_01",
+				"eyeOffset_": "DEFAULT",
+				"mouthIndex_": "MOUTH_01",
+				"mouthOffset_": "DEFAULT",
+				"hairIndex_": "HAIR_01",
+				"hairColor_": "HAIR_COLOR_01",
+				"skinColor_": "SKIN_COLOR_01",
+				"weaponModel_": "cwea061",
+				"headModel_": "cmet000",
+				"bodyModel_": "cbod000"
+			},
+			"Equip08": {
+				"jobStyle_": "STYLE_CLERIC",
+				"sexType_": "MALE",
+				"eyeIndex_": "EYE_01",
+				"eyeOffset_": "DEFAULT",
+				"mouthIndex_": "MOUTH_01",
+				"mouthOffset_": "DEFAULT",
+				"hairIndex_": "HAIR_01",
+				"hairColor_": "HAIR_COLOR_01",
+				"skinColor_": "SKIN_COLOR_01",
+				"weaponModel_": "cwea061",
+				"headModel_": "cmet000",
+				"bodyModel_": "cbod000"
+			},
+			"Equip09": {
+				"jobStyle_": "STYLE_MAGE",
+				"sexType_": "MALE",
+				"eyeIndex_": "EYE_01",
+				"eyeOffset_": "DEFAULT",
+				"mouthIndex_": "MOUTH_01",
+				"mouthOffset_": "DEFAULT",
+				"hairIndex_": "HAIR_01",
+				"hairColor_": "HAIR_COLOR_01",
+				"skinColor_": "SKIN_COLOR_01",
+				"weaponModel_": "cwea061",
+				"headModel_": "cmet000",
+				"bodyModel_": "cbod000"
+			}
+		}
+	}
+}

@@ -1,0 +1,4915 @@
+/* XDASEA_Xm8R_SPsX */ 
+// UI_common.xlsx.tmp HUD_Common 
+
+{"JsonHUD":{"common_":{
+	"hud":{
+		"rouletteRollFrame_" : 35,
+		"rouletteRollFrameRand_" : 5,
+		"rouletteSlowdownFrame_" : 15,
+		"rouletteSpeedMax_" : 12,
+		"rouletteSpeedMin_" : 0
+	}
+},
+// UI_common.xlsx.tmp SkillRoulette 
+
+"rouletteSlot_":{
+	"Warrior00":{
+		"item_0_" : "SMASH",
+		"item_1_" : "RUSH",
+		"item_2_" : "SPINNING_BLADE",
+		"item_3_" : "POWER_STRIKE",
+		"item_4_" : "SMASH",
+		"item_5_" : "RUSH",
+		"item_6_" : "SPINNING_BLADE",
+		"item_7_" : "POWER_STRIKE",
+		"item_8_" : "SMASH",
+		"item_9_" : "RUSH",
+		"item_10_" : "SPINNING_BLADE",
+		"item_11_" : "POWER_STRIKE",
+		"item_12_" : "RUSH",
+		"item_13_" : "SMASH",
+		"item_14_" : "SPINNING_BLADE",
+		"item_15_" : "RUSH"
+	},
+	"Warrior01":{
+		"item_0_" : "RUSH",
+		"item_1_" : "POWER_STRIKE",
+		"item_2_" : "SPINNING_BLADE",
+		"item_3_" : "SMASH",
+		"item_4_" : "RUSH",
+		"item_5_" : "POWER_STRIKE",
+		"item_6_" : "SPINNING_BLADE",
+		"item_7_" : "SMASH",
+		"item_8_" : "RUSH",
+		"item_9_" : "POWER_STRIKE",
+		"item_10_" : "SPINNING_BLADE",
+		"item_11_" : "SMASH",
+		"item_12_" : "RUSH",
+		"item_13_" : "POWER_STRIKE",
+		"item_14_" : "SPINNING_BLADE",
+		"item_15_" : "SMASH"
+	},
+	"Warrior02":{
+		"item_0_" : "SPINNING_BLADE",
+		"item_1_" : "SMASH",
+		"item_2_" : "POWER_STRIKE",
+		"item_3_" : "RUSH",
+		"item_4_" : "SPINNING_BLADE",
+		"item_5_" : "SMASH",
+		"item_6_" : "POWER_STRIKE",
+		"item_7_" : "RUSH",
+		"item_8_" : "SPINNING_BLADE",
+		"item_9_" : "SMASH",
+		"item_10_" : "POWER_STRIKE",
+		"item_11_" : "RUSH",
+		"item_12_" : "SPINNING_BLADE",
+		"item_13_" : "SMASH",
+		"item_14_" : "POWER_STRIKE",
+		"item_15_" : "RUSH"
+	},
+	"Warrior10":{
+		"item_0_" : "ROCKETMAN",
+		"item_1_" : "STONE",
+		"item_2_" : "ROAR",
+		"item_3_" : "SUPER_GUARD",
+		"item_4_" : "ROCKETMAN",
+		"item_5_" : "STONE",
+		"item_6_" : "ROAR",
+		"item_7_" : "SUPER_GUARD",
+		"item_8_" : "ROCKETMAN",
+		"item_9_" : "STONE",
+		"item_10_" : "ROCKETMAN",
+		"item_11_" : "STONE",
+		"item_12_" : "ROAR",
+		"item_13_" : "SUPER_GUARD",
+		"item_14_" : "ROCKETMAN",
+		"item_15_" : "STONE"
+	},
+	"Warrior11":{
+		"item_0_" : "ROCKETMAN",
+		"item_1_" : "STONE",
+		"item_2_" : "ROAR",
+		"item_3_" : "SUPER_GUARD",
+		"item_4_" : "STONE",
+		"item_5_" : "SUPER_GUARD",
+		"item_6_" : "ROCKETMAN",
+		"item_7_" : "STONE",
+		"item_8_" : "ROAR",
+		"item_9_" : "ROCKETMAN",
+		"item_10_" : "STONE",
+		"item_11_" : "SUPER_GUARD",
+		"item_12_" : "ROCKETMAN",
+		"item_13_" : "STONE",
+		"item_14_" : "ROAR",
+		"item_15_" : "ROCKETMAN"
+	},
+	"Warrior12":{
+		"item_0_" : "ROCKETMAN",
+		"item_1_" : "STONE",
+		"item_2_" : "ROAR",
+		"item_3_" : "SUPER_GUARD",
+		"item_4_" : "SUPER_GUARD",
+		"item_5_" : "STONE",
+		"item_6_" : "SUPER_GUARD",
+		"item_7_" : "ROCKETMAN",
+		"item_8_" : "SUPER_GUARD",
+		"item_9_" : "ROAR",
+		"item_10_" : "SUPER_GUARD",
+		"item_11_" : "STONE",
+		"item_12_" : "SUPER_GUARD",
+		"item_13_" : "ROCKETMAN",
+		"item_14_" : "SUPER_GUARD",
+		"item_15_" : "ROAR"
+	},
+	"Warrior20":{
+		"item_0_" : "CHEER",
+		"item_1_" : "PHALANX",
+		"item_2_" : "CHEER",
+		"item_3_" : "CHEER",
+		"item_4_" : "PHALANX",
+		"item_5_" : "CHARGE",
+		"item_6_" : "CHEER",
+		"item_7_" : "CHEER",
+		"item_8_" : "PHALANX",
+		"item_9_" : "CHARGE",
+		"item_10_" : "CHEER",
+		"item_11_" : "CHEER",
+		"item_12_" : "PHALANX",
+		"item_13_" : "CHARGE",
+		"item_14_" : "CHEER",
+		"item_15_" : "PHALANX"
+	},
+	"Warrior21":{
+		"item_0_" : "CHEER",
+		"item_1_" : "PHALANX",
+		"item_2_" : "CHEER",
+		"item_3_" : "PHALANX",
+		"item_4_" : "CHEER",
+		"item_5_" : "PHALANX",
+		"item_6_" : "CHARGE",
+		"item_7_" : "CHEER",
+		"item_8_" : "PHALANX",
+		"item_9_" : "CHEER",
+		"item_10_" : "PHALANX",
+		"item_11_" : "CHARGE",
+		"item_12_" : "CHEER",
+		"item_13_" : "PHALANX",
+		"item_14_" : "CHEER",
+		"item_15_" : "PHALANX"
+	},
+	"Warrior22":{
+		"item_0_" : "CHEER",
+		"item_1_" : "PHALANX",
+		"item_2_" : "CHEER",
+		"item_3_" : "PHALANX",
+		"item_4_" : "CHARGE",
+		"item_5_" : "CHEER",
+		"item_6_" : "PHALANX",
+		"item_7_" : "CHARGE",
+		"item_8_" : "CHEER",
+		"item_9_" : "PHALANX",
+		"item_10_" : "CHARGE",
+		"item_11_" : "CHEER",
+		"item_12_" : "PHALANX",
+		"item_13_" : "CHARGE",
+		"item_14_" : "CHEER",
+		"item_15_" : "CHARGE"
+	},
+	"Berserker00":{
+		"item_0_" : "SMASH",
+		"item_1_" : "RUSH",
+		"item_2_" : "DOUBLE_SPINNING",
+		"item_3_" : "POWER_STRIKE",
+		"item_4_" : "SMASH",
+		"item_5_" : "RUSH",
+		"item_6_" : "SPINNING_BLADE",
+		"item_7_" : "POWER_STRIKE",
+		"item_8_" : "SMASH",
+		"item_9_" : "RUSH",
+		"item_10_" : "SPINNING_BLADE",
+		"item_11_" : "POWER_STRIKE",
+		"item_12_" : "RUSH",
+		"item_13_" : "SMASH",
+		"item_14_" : "SPINNING_BLADE",
+		"item_15_" : "RUSH"
+	},
+	"Berserker01":{
+		"item_0_" : "RUSH",
+		"item_1_" : "POWER_STRIKE",
+		"item_2_" : "SPINNING_BLADE",
+		"item_3_" : "SMASH",
+		"item_4_" : "RUSH",
+		"item_5_" : "POWER_STRIKE",
+		"item_6_" : "SPINNING_BLADE",
+		"item_7_" : "SMASH",
+		"item_8_" : "RUSH",
+		"item_9_" : "POWER_STRIKE",
+		"item_10_" : "SPINNING_BLADE",
+		"item_11_" : "SMASH",
+		"item_12_" : "RUSH",
+		"item_13_" : "POWER_STRIKE",
+		"item_14_" : "SPINNING_BLADE",
+		"item_15_" : "SMASH"
+	},
+	"Berserker02":{
+		"item_0_" : "SPINNING_BLADE",
+		"item_1_" : "SMASH",
+		"item_2_" : "POWER_STRIKE",
+		"item_3_" : "RUSH",
+		"item_4_" : "SPINNING_BLADE",
+		"item_5_" : "SMASH",
+		"item_6_" : "POWER_STRIKE",
+		"item_7_" : "RUSH",
+		"item_8_" : "SPINNING_BLADE",
+		"item_9_" : "SMASH",
+		"item_10_" : "POWER_STRIKE",
+		"item_11_" : "RUSH",
+		"item_12_" : "SPINNING_BLADE",
+		"item_13_" : "SMASH",
+		"item_14_" : "POWER_STRIKE",
+		"item_15_" : "RUSH"
+	},
+	"Berserker10":{
+		"item_0_" : "ROCKETMAN",
+		"item_1_" : "STONE",
+		"item_2_" : "ROAR",
+		"item_3_" : "SUPER_GUARD",
+		"item_4_" : "ROCKETMAN",
+		"item_5_" : "FURY",
+		"item_6_" : "ROAR",
+		"item_7_" : "SUPER_GUARD",
+		"item_8_" : "ROCKETMAN",
+		"item_9_" : "STONE",
+		"item_10_" : "ROCKETMAN",
+		"item_11_" : "STONE",
+		"item_12_" : "ROAR",
+		"item_13_" : "SUPER_GUARD",
+		"item_14_" : "WEAPON_THROW",
+		"item_15_" : "STONE"
+	},
+	"Berserker11":{
+		"item_0_" : "ROCKETMAN",
+		"item_1_" : "STONE",
+		"item_2_" : "ROAR",
+		"item_3_" : "SUPER_GUARD",
+		"item_4_" : "FURY",
+		"item_5_" : "SUPER_GUARD",
+		"item_6_" : "ROCKETMAN",
+		"item_7_" : "STONE",
+		"item_8_" : "ROAR",
+		"item_9_" : "ROCKETMAN",
+		"item_10_" : "STONE",
+		"item_11_" : "SUPER_GUARD",
+		"item_12_" : "WEAPON_THROW",
+		"item_13_" : "STONE",
+		"item_14_" : "ROAR",
+		"item_15_" : "ROCKETMAN"
+	},
+	"Berserker12":{
+		"item_0_" : "ROCKETMAN",
+		"item_1_" : "FURY",
+		"item_2_" : "ROAR",
+		"item_3_" : "SUPER_GUARD",
+		"item_4_" : "SUPER_GUARD",
+		"item_5_" : "STONE",
+		"item_6_" : "SUPER_GUARD",
+		"item_7_" : "WEAPON_THROW",
+		"item_8_" : "SUPER_GUARD",
+		"item_9_" : "ROAR",
+		"item_10_" : "SUPER_GUARD",
+		"item_11_" : "STONE",
+		"item_12_" : "SUPER_GUARD",
+		"item_13_" : "ROCKETMAN",
+		"item_14_" : "SUPER_GUARD",
+		"item_15_" : "ROAR"
+	},
+	"Berserker20":{
+		"item_0_" : "CHEER",
+		"item_1_" : "PHALANX",
+		"item_2_" : "CHEER",
+		"item_3_" : "ROCKETARMY",
+		"item_4_" : "PHALANX",
+		"item_5_" : "CHARGE",
+		"item_6_" : "CHEER",
+		"item_7_" : "CHEER",
+		"item_8_" : "PHALANX",
+		"item_9_" : "CHARGE",
+		"item_10_" : "CHEER",
+		"item_11_" : "CHEER",
+		"item_12_" : "PHALANX",
+		"item_13_" : "CHARGE",
+		"item_14_" : "CHEER",
+		"item_15_" : "PHALANX"
+	},
+	"Berserker21":{
+		"item_0_" : "CHEER",
+		"item_1_" : "PHALANX",
+		"item_2_" : "CHEER",
+		"item_3_" : "PHALANX",
+		"item_4_" : "CHEER",
+		"item_5_" : "PHALANX",
+		"item_6_" : "CHARGE",
+		"item_7_" : "ROCKETARMY",
+		"item_8_" : "PHALANX",
+		"item_9_" : "CHEER",
+		"item_10_" : "PHALANX",
+		"item_11_" : "CHARGE",
+		"item_12_" : "CHEER",
+		"item_13_" : "PHALANX",
+		"item_14_" : "CHEER",
+		"item_15_" : "PHALANX"
+	},
+	"Berserker22":{
+		"item_0_" : "CHEER",
+		"item_1_" : "PHALANX",
+		"item_2_" : "CHEER",
+		"item_3_" : "PHALANX",
+		"item_4_" : "CHARGE",
+		"item_5_" : "CHEER",
+		"item_6_" : "PHALANX",
+		"item_7_" : "CHARGE",
+		"item_8_" : "CHEER",
+		"item_9_" : "PHALANX",
+		"item_10_" : "CHARGE",
+		"item_11_" : "ROCKETARMY",
+		"item_12_" : "PHALANX",
+		"item_13_" : "CHARGE",
+		"item_14_" : "CHEER",
+		"item_15_" : "CHARGE"
+	},
+	"Mage00":{
+		"item_0_" : "ENCHANT_FIRE",
+		"item_1_" : "ENCHANT_LIGHTNING",
+		"item_2_" : "ENCHANT_FIRE",
+		"item_3_" : "ENCHANT_LIGHTNING",
+		"item_4_" : "ENCHANT_WIND",
+		"item_5_" : "ENCHANT_ICE",
+		"item_6_" : "ENCHANT_FIRE",
+		"item_7_" : "ENCHANT_LIGHTNING",
+		"item_8_" : "ENCHANT_WIND",
+		"item_9_" : "ENCHANT_ICE",
+		"item_10_" : "ENCHANT_FIRE",
+		"item_11_" : "ENCHANT_LIGHTNING",
+		"item_12_" : "ENCHANT_WIND",
+		"item_13_" : "ENCHANT_ICE",
+		"item_14_" : "ENCHANT_WIND",
+		"item_15_" : "ENCHANT_ICE"
+	},
+	"Mage01":{
+		"item_0_" : "ENCHANT_FIRE",
+		"item_1_" : "ENCHANT_LIGHTNING",
+		"item_2_" : "ENCHANT_FIRE",
+		"item_3_" : "ENCHANT_LIGHTNING",
+		"item_4_" : "ENCHANT_FIRE",
+		"item_5_" : "ENCHANT_LIGHTNING",
+		"item_6_" : "ENCHANT_FIRE",
+		"item_7_" : "ENCHANT_LIGHTNING",
+		"item_8_" : "ENCHANT_WIND",
+		"item_9_" : "ENCHANT_ICE",
+		"item_10_" : "ENCHANT_WIND",
+		"item_11_" : "ENCHANT_ICE",
+		"item_12_" : "ENCHANT_WIND",
+		"item_13_" : "ENCHANT_ICE",
+		"item_14_" : "ENCHANT_LIGHTNING",
+		"item_15_" : "ENCHANT_ICE"
+	},
+	"Mage02":{
+		"item_0_" : "ENCHANT_FIRE",
+		"item_1_" : "ENCHANT_LIGHTNING",
+		"item_2_" : "ENCHANT_ICE",
+		"item_3_" : "ENCHANT_WIND",
+		"item_4_" : "ENCHANT_LIGHTNING",
+		"item_5_" : "ENCHANT_FIRE",
+		"item_6_" : "ENCHANT_ICE",
+		"item_7_" : "ENCHANT_WIND",
+		"item_8_" : "ENCHANT_LIGHTNING",
+		"item_9_" : "ENCHANT_FIRE",
+		"item_10_" : "ENCHANT_ICE",
+		"item_11_" : "ENCHANT_WIND",
+		"item_12_" : "ENCHANT_LIGHTNING",
+		"item_13_" : "ENCHANT_FIRE",
+		"item_14_" : "ENCHANT_ICE",
+		"item_15_" : "ENCHANT_WIND"
+	},
+	"Mage10":{
+		"item_0_" : "LIGHTNING_STRIKE",
+		"item_1_" : "PILLAR_BOMB",
+		"item_2_" : "LIGHTNING_STRIKE",
+		"item_3_" : "PILLAR_BOMB",
+		"item_4_" : "WIND_TRAP",
+		"item_5_" : "BLIZZARD",
+		"item_6_" : "LIGHTNING_STRIKE",
+		"item_7_" : "PILLAR_BOMB",
+		"item_8_" : "LIGHTNING_STRIKE",
+		"item_9_" : "PILLAR_BOMB",
+		"item_10_" : "WIND_TRAP",
+		"item_11_" : "BLIZZARD",
+		"item_12_" : "LIGHTNING_STRIKE",
+		"item_13_" : "PILLAR_BOMB",
+		"item_14_" : "PILLAR_BOMB",
+		"item_15_" : "WIND_TRAP"
+	},
+	"Mage11":{
+		"item_0_" : "BLIZZARD",
+		"item_1_" : "WIND_TRAP",
+		"item_2_" : "PILLAR_BOMB",
+		"item_3_" : "LIGHTNING_STRIKE",
+		"item_4_" : "BLIZZARD",
+		"item_5_" : "WIND_TRAP",
+		"item_6_" : "PILLAR_BOMB",
+		"item_7_" : "LIGHTNING_STRIKE",
+		"item_8_" : "BLIZZARD",
+		"item_9_" : "WIND_TRAP",
+		"item_10_" : "PILLAR_BOMB",
+		"item_11_" : "LIGHTNING_STRIKE",
+		"item_12_" : "BLIZZARD",
+		"item_13_" : "WIND_TRAP",
+		"item_14_" : "PILLAR_BOMB",
+		"item_15_" : "LIGHTNING_STRIKE"
+	},
+	"Mage12":{
+		"item_0_" : "LIGHTNING_STRIKE",
+		"item_1_" : "WIND_TRAP",
+		"item_2_" : "WIND_TRAP",
+		"item_3_" : "BLIZZARD",
+		"item_4_" : "LIGHTNING_STRIKE",
+		"item_5_" : "PILLAR_BOMB",
+		"item_6_" : "BLIZZARD",
+		"item_7_" : "BLIZZARD",
+		"item_8_" : "LIGHTNING_STRIKE",
+		"item_9_" : "PILLAR_BOMB",
+		"item_10_" : "BLIZZARD",
+		"item_11_" : "BLIZZARD",
+		"item_12_" : "LIGHTNING_STRIKE",
+		"item_13_" : "WIND_TRAP",
+		"item_14_" : "BLIZZARD",
+		"item_15_" : "BLIZZARD"
+	},
+	"Mage20":{
+		"item_0_" : "METEOR_STORM",
+		"item_1_" : "LIGHTNING_ARROWS",
+		"item_2_" : "TORNADO",
+		"item_3_" : "METEOR_STORM",
+		"item_4_" : "LIGHTNING_ARROWS",
+		"item_5_" : "TORNADO",
+		"item_6_" : "METEOR_STORM",
+		"item_7_" : "LIGHTNING_ARROWS",
+		"item_8_" : "TORNADO",
+		"item_9_" : "METEOR_STORM",
+		"item_10_" : "LIGHTNING_ARROWS",
+		"item_11_" : "TORNADO",
+		"item_12_" : "METEOR_STORM",
+		"item_13_" : "LIGHTNING_ARROWS",
+		"item_14_" : "TORNADO",
+		"item_15_" : "METEOR_STORM"
+	},
+	"Mage21":{
+		"item_0_" : "TORNADO",
+		"item_1_" : "LIGHTNING_ARROWS",
+		"item_2_" : "METEOR_STORM",
+		"item_3_" : "TORNADO",
+		"item_4_" : "LIGHTNING_ARROWS",
+		"item_5_" : "METEOR_STORM",
+		"item_6_" : "TORNADO",
+		"item_7_" : "LIGHTNING_ARROWS",
+		"item_8_" : "METEOR_STORM",
+		"item_9_" : "TORNADO",
+		"item_10_" : "LIGHTNING_ARROWS",
+		"item_11_" : "METEOR_STORM",
+		"item_12_" : "TORNADO",
+		"item_13_" : "LIGHTNING_ARROWS",
+		"item_14_" : "METEOR_STORM",
+		"item_15_" : "METEOR_STORM"
+	},
+	"Mage22":{
+		"item_0_" : "LIGHTNING_ARROWS",
+		"item_1_" : "METEOR_STORM",
+		"item_2_" : "TORNADO",
+		"item_3_" : "LIGHTNING_ARROWS",
+		"item_4_" : "METEOR_STORM",
+		"item_5_" : "TORNADO",
+		"item_6_" : "LIGHTNING_ARROWS",
+		"item_7_" : "METEOR_STORM",
+		"item_8_" : "TORNADO",
+		"item_9_" : "LIGHTNING_ARROWS",
+		"item_10_" : "METEOR_STORM",
+		"item_11_" : "TORNADO",
+		"item_12_" : "LIGHTNING_ARROWS",
+		"item_13_" : "METEOR_STORM",
+		"item_14_" : "TORNADO",
+		"item_15_" : "METEOR_STORM"
+	},
+	"Sylph00":{
+		"item_0_" : "ENCHANT_FIRE",
+		"item_1_" : "ENCHANT_LIGHTNING",
+		"item_2_" : "ENCHANT_FIRE",
+		"item_3_" : "ENCHANT_LIGHTNING",
+		"item_4_" : "ENCHANT_WIND",
+		"item_5_" : "ENCHANT_ICE",
+		"item_6_" : "ENCHANT_FIRE",
+		"item_7_" : "ENCHANT_LIGHTNING",
+		"item_8_" : "ENCHANT_WIND",
+		"item_9_" : "ENCHANT_ICE",
+		"item_10_" : "ENCHANT_FIRE",
+		"item_11_" : "ENCHANT_LIGHTNING",
+		"item_12_" : "ENCHANT_WIND",
+		"item_13_" : "ENCHANT_ICE",
+		"item_14_" : "ENCHANT_WIND",
+		"item_15_" : "ENCHANT_ICE"
+	},
+	"Sylph01":{
+		"item_0_" : "ENCHANT_FIRE",
+		"item_1_" : "ENCHANT_LIGHTNING",
+		"item_2_" : "ENCHANT_FIRE",
+		"item_3_" : "ENCHANT_LIGHTNING",
+		"item_4_" : "ENCHANT_FIRE",
+		"item_5_" : "ENCHANT_LIGHTNING",
+		"item_6_" : "ENCHANT_FIRE",
+		"item_7_" : "ENCHANT_LIGHTNING",
+		"item_8_" : "ENCHANT_WIND",
+		"item_9_" : "ENCHANT_ICE",
+		"item_10_" : "ENCHANT_WIND",
+		"item_11_" : "ENCHANT_ICE",
+		"item_12_" : "ENCHANT_WIND",
+		"item_13_" : "ENCHANT_ICE",
+		"item_14_" : "ENCHANT_LIGHTNING",
+		"item_15_" : "ENCHANT_ICE"
+	},
+	"Sylph02":{
+		"item_0_" : "ENCHANT_FIRE",
+		"item_1_" : "ENCHANT_LIGHTNING",
+		"item_2_" : "ENCHANT_ICE",
+		"item_3_" : "ENCHANT_WIND",
+		"item_4_" : "ENCHANT_LIGHTNING",
+		"item_5_" : "ENCHANT_FIRE",
+		"item_6_" : "ENCHANT_ICE",
+		"item_7_" : "ENCHANT_WIND",
+		"item_8_" : "ENCHANT_LIGHTNING",
+		"item_9_" : "ENCHANT_FIRE",
+		"item_10_" : "ENCHANT_ICE",
+		"item_11_" : "ENCHANT_WIND",
+		"item_12_" : "ENCHANT_LIGHTNING",
+		"item_13_" : "ENCHANT_FIRE",
+		"item_14_" : "ENCHANT_ICE",
+		"item_15_" : "ENCHANT_WIND"
+	},
+	"Sylph10":{
+		"item_0_" : "WINDWARP",
+		"item_1_" : "PILLAR_BOMB",
+		"item_2_" : "LIGHTNING_STRIKE",
+		"item_3_" : "PILLAR_BOMB",
+		"item_4_" : "WIND_TRAP",
+		"item_5_" : "CYCLONE",
+		"item_6_" : "LIGHTNING_STRIKE",
+		"item_7_" : "PILLAR_BOMB",
+		"item_8_" : "LIGHTNING_STRIKE",
+		"item_9_" : "PILLAR_BOMB",
+		"item_10_" : "WIND_TRAP",
+		"item_11_" : "BLIZZARD",
+		"item_12_" : "LIGHTNING_STRIKE",
+		"item_13_" : "CAPTURE",
+		"item_14_" : "PILLAR_BOMB",
+		"item_15_" : "WIND_TRAP"
+	},
+	"Sylph11":{
+		"item_0_" : "BLIZZARD",
+		"item_1_" : "WIND_TRAP",
+		"item_2_" : "PILLAR_BOMB",
+		"item_3_" : "WINDWARP",
+		"item_4_" : "BLIZZARD",
+		"item_5_" : "WIND_TRAP",
+		"item_6_" : "PILLAR_BOMB",
+		"item_7_" : "LIGHTNING_STRIKE",
+		"item_8_" : "BLIZZARD",
+		"item_9_" : "WIND_TRAP",
+		"item_10_" : "CAPTURE",
+		"item_11_" : "LIGHTNING_STRIKE",
+		"item_12_" : "CYCLONE",
+		"item_13_" : "WIND_TRAP",
+		"item_14_" : "PILLAR_BOMB",
+		"item_15_" : "LIGHTNING_STRIKE"
+	},
+	"Sylph12":{
+		"item_0_" : "LIGHTNING_STRIKE",
+		"item_1_" : "WIND_TRAP",
+		"item_2_" : "WIND_TRAP",
+		"item_3_" : "BLIZZARD",
+		"item_4_" : "LIGHTNING_STRIKE",
+		"item_5_" : "CAPTURE",
+		"item_6_" : "BLIZZARD",
+		"item_7_" : "BLIZZARD",
+		"item_8_" : "LIGHTNING_STRIKE",
+		"item_9_" : "PILLAR_BOMB",
+		"item_10_" : "BLIZZARD",
+		"item_11_" : "BLIZZARD",
+		"item_12_" : "WINDWARP",
+		"item_13_" : "WIND_TRAP",
+		"item_14_" : "BLIZZARD",
+		"item_15_" : "CYCLONE"
+	},
+	"Sylph20":{
+		"item_0_" : "METEOR_STORM",
+		"item_1_" : "LIGHTNING_ARROWS",
+		"item_2_" : "CYCLONE_SHIELD",
+		"item_3_" : "METEOR_STORM",
+		"item_4_" : "LIGHTNING_ARROWS",
+		"item_5_" : "TORNADO",
+		"item_6_" : "METEOR_STORM",
+		"item_7_" : "LIGHTNING_ARROWS",
+		"item_8_" : "TORNADO",
+		"item_9_" : "METEOR_STORM",
+		"item_10_" : "LIGHTNING_ARROWS",
+		"item_11_" : "TORNADO",
+		"item_12_" : "METEOR_STORM",
+		"item_13_" : "LIGHTNING_ARROWS",
+		"item_14_" : "TORNADO",
+		"item_15_" : "METEOR_STORM"
+	},
+	"Sylph21":{
+		"item_0_" : "TORNADO",
+		"item_1_" : "LIGHTNING_ARROWS",
+		"item_2_" : "METEOR_STORM",
+		"item_3_" : "TORNADO",
+		"item_4_" : "LIGHTNING_ARROWS",
+		"item_5_" : "METEOR_STORM",
+		"item_6_" : "CYCLONE_SHIELD",
+		"item_7_" : "LIGHTNING_ARROWS",
+		"item_8_" : "METEOR_STORM",
+		"item_9_" : "TORNADO",
+		"item_10_" : "LIGHTNING_ARROWS",
+		"item_11_" : "METEOR_STORM",
+		"item_12_" : "TORNADO",
+		"item_13_" : "LIGHTNING_ARROWS",
+		"item_14_" : "METEOR_STORM",
+		"item_15_" : "METEOR_STORM"
+	},
+	"Sylph22":{
+		"item_0_" : "LIGHTNING_ARROWS",
+		"item_1_" : "METEOR_STORM",
+		"item_2_" : "TORNADO",
+		"item_3_" : "LIGHTNING_ARROWS",
+		"item_4_" : "METEOR_STORM",
+		"item_5_" : "TORNADO",
+		"item_6_" : "LIGHTNING_ARROWS",
+		"item_7_" : "METEOR_STORM",
+		"item_8_" : "TORNADO",
+		"item_9_" : "LIGHTNING_ARROWS",
+		"item_10_" : "METEOR_STORM",
+		"item_11_" : "CYCLONE_SHIELD",
+		"item_12_" : "LIGHTNING_ARROWS",
+		"item_13_" : "METEOR_STORM",
+		"item_14_" : "TORNADO",
+		"item_15_" : "METEOR_STORM"
+	},
+	"Cleric00":{
+		"item_0_" : "HEALING",
+		"item_1_" : "DISPEL",
+		"item_2_" : "HEALING",
+		"item_3_" : "DISPEL",
+		"item_4_" : "REINCARNATION",
+		"item_5_" : "SANCTUARY",
+		"item_6_" : "HEALING",
+		"item_7_" : "DISPEL",
+		"item_8_" : "HEALING",
+		"item_9_" : "DISPEL",
+		"item_10_" : "REINCARNATION",
+		"item_11_" : "SANCTUARY",
+		"item_12_" : "HEALING",
+		"item_13_" : "DISPEL",
+		"item_14_" : "HEALING",
+		"item_15_" : "DISPEL"
+	},
+	"Cleric01":{
+		"item_0_" : "HEALING",
+		"item_1_" : "DISPEL",
+		"item_2_" : "REINCARNATION",
+		"item_3_" : "SANCTUARY",
+		"item_4_" : "HEALING",
+		"item_5_" : "DISPEL",
+		"item_6_" : "REINCARNATION",
+		"item_7_" : "SANCTUARY",
+		"item_8_" : "HEALING",
+		"item_9_" : "DISPEL",
+		"item_10_" : "REINCARNATION",
+		"item_11_" : "SANCTUARY",
+		"item_12_" : "HEALING",
+		"item_13_" : "DISPEL",
+		"item_14_" : "REINCARNATION",
+		"item_15_" : "SANCTUARY"
+	},
+	"Cleric02":{
+		"item_0_" : "SANCTUARY",
+		"item_1_" : "REINCARNATION",
+		"item_2_" : "SANCTUARY",
+		"item_3_" : "REINCARNATION",
+		"item_4_" : "DISPEL",
+		"item_5_" : "HEALING",
+		"item_6_" : "SANCTUARY",
+		"item_7_" : "REINCARNATION",
+		"item_8_" : "SANCTUARY",
+		"item_9_" : "REINCARNATION",
+		"item_10_" : "DISPEL",
+		"item_11_" : "HEALING",
+		"item_12_" : "SANCTUARY",
+		"item_13_" : "REINCARNATION",
+		"item_14_" : "SANCTUARY",
+		"item_15_" : "REINCARNATION"
+	},
+	"Cleric10":{
+		"item_0_" : "CONSTRUCT",
+		"item_1_" : "RUN_THROUGH",
+		"item_2_" : "CONSTRUCT",
+		"item_3_" : "RUN_THROUGH",
+		"item_4_" : "ARMOR_PLATE",
+		"item_5_" : "CONSTRUCT",
+		"item_6_" : "RUN_THROUGH",
+		"item_7_" : "CONSTRUCT",
+		"item_8_" : "RUN_THROUGH",
+		"item_9_" : "WALL",
+		"item_10_" : "CONSTRUCT",
+		"item_11_" : "RUN_THROUGH",
+		"item_12_" : "CONSTRUCT",
+		"item_13_" : "RUN_THROUGH",
+		"item_14_" : "ARMOR_PLATE",
+		"item_15_" : "WALL"
+	},
+	"Cleric11":{
+		"item_0_" : "WALL",
+		"item_1_" : "ARMOR_PLATE",
+		"item_2_" : "RUN_THROUGH",
+		"item_3_" : "CONSTRUCT",
+		"item_4_" : "WALL",
+		"item_5_" : "ARMOR_PLATE",
+		"item_6_" : "RUN_THROUGH",
+		"item_7_" : "CONSTRUCT",
+		"item_8_" : "WALL",
+		"item_9_" : "ARMOR_PLATE",
+		"item_10_" : "RUN_THROUGH",
+		"item_11_" : "CONSTRUCT",
+		"item_12_" : "WALL",
+		"item_13_" : "ARMOR_PLATE",
+		"item_14_" : "RUN_THROUGH",
+		"item_15_" : "CONSTRUCT"
+	},
+	"Cleric12":{
+		"item_0_" : "ARMOR_PLATE",
+		"item_1_" : "WALL",
+		"item_2_" : "ARMOR_PLATE",
+		"item_3_" : "WALL",
+		"item_4_" : "RUN_THROUGH",
+		"item_5_" : "CONSTRUCT",
+		"item_6_" : "ARMOR_PLATE",
+		"item_7_" : "WALL",
+		"item_8_" : "ARMOR_PLATE",
+		"item_9_" : "WALL",
+		"item_10_" : "RUN_THROUGH",
+		"item_11_" : "CONSTRUCT",
+		"item_12_" : "ARMOR_PLATE",
+		"item_13_" : "WALL",
+		"item_14_" : "RUN_THROUGH",
+		"item_15_" : "CONSTRUCT"
+	},
+	"Cleric20":{
+		"item_0_" : "SACRED_SONG",
+		"item_1_" : "TRANSPORT",
+		"item_2_" : "SACRED_SONG",
+		"item_3_" : "HAPPY_MIRACLE",
+		"item_4_" : "SACRED_SONG",
+		"item_5_" : "TRANSPORT",
+		"item_6_" : "SACRED_SONG",
+		"item_7_" : "TRANSPORT",
+		"item_8_" : "SACRED_SONG",
+		"item_9_" : "TRANSPORT",
+		"item_10_" : "SACRED_SONG",
+		"item_11_" : "TRANSPORT",
+		"item_12_" : "SACRED_SONG",
+		"item_13_" : "TRANSPORT",
+		"item_14_" : "SACRED_SONG",
+		"item_15_" : "TRANSPORT"
+	},
+	"Cleric21":{
+		"item_0_" : "SACRED_SONG",
+		"item_1_" : "TRANSPORT",
+		"item_2_" : "HAPPY_MIRACLE",
+		"item_3_" : "TRANSPORT",
+		"item_4_" : "TRANSPORT",
+		"item_5_" : "SACRED_SONG",
+		"item_6_" : "SACRED_SONG",
+		"item_7_" : "SACRED_SONG",
+		"item_8_" : "TRANSPORT",
+		"item_9_" : "HAPPY_MIRACLE",
+		"item_10_" : "TRANSPORT",
+		"item_11_" : "TRANSPORT",
+		"item_12_" : "SACRED_SONG",
+		"item_13_" : "SACRED_SONG",
+		"item_14_" : "TRANSPORT",
+		"item_15_" : "TRANSPORT"
+	},
+	"Cleric22":{
+		"item_0_" : "TRANSPORT",
+		"item_1_" : "HAPPY_MIRACLE",
+		"item_2_" : "SACRED_SONG",
+		"item_3_" : "TRANSPORT",
+		"item_4_" : "HAPPY_MIRACLE",
+		"item_5_" : "SACRED_SONG",
+		"item_6_" : "TRANSPORT",
+		"item_7_" : "HAPPY_MIRACLE",
+		"item_8_" : "SACRED_SONG",
+		"item_9_" : "TRANSPORT",
+		"item_10_" : "HAPPY_MIRACLE",
+		"item_11_" : "SACRED_SONG",
+		"item_12_" : "TRANSPORT",
+		"item_13_" : "HAPPY_MIRACLE",
+		"item_14_" : "SACRED_SONG",
+		"item_15_" : "SACRED_SONG"
+	},
+	"Engineer00":{
+		"item_0_" : "HEALING",
+		"item_1_" : "REPAIR",
+		"item_2_" : "HEALING",
+		"item_3_" : "DISPEL",
+		"item_4_" : "REINCARNATION",
+		"item_5_" : "REMOTE_BOMB",
+		"item_6_" : "HEALING",
+		"item_7_" : "DISPEL",
+		"item_8_" : "HEALING",
+		"item_9_" : "DISPEL",
+		"item_10_" : "REINCARNATION",
+		"item_11_" : "SANCTUARY",
+		"item_12_" : "HEALING",
+		"item_13_" : "DISPEL",
+		"item_14_" : "CRASH_WORK",
+		"item_15_" : "DISPEL"
+	},
+	"Engineer01":{
+		"item_0_" : "HEALING",
+		"item_1_" : "DISPEL",
+		"item_2_" : "REINCARNATION",
+		"item_3_" : "SANCTUARY",
+		"item_4_" : "HEALING",
+		"item_5_" : "REPAIR",
+		"item_6_" : "REINCARNATION",
+		"item_7_" : "REMOTE_BOMB",
+		"item_8_" : "HEALING",
+		"item_9_" : "DISPEL",
+		"item_10_" : "REINCARNATION",
+		"item_11_" : "SANCTUARY",
+		"item_12_" : "CRASH_WORK",
+		"item_13_" : "DISPEL",
+		"item_14_" : "REINCARNATION",
+		"item_15_" : "SANCTUARY"
+	},
+	"Engineer02":{
+		"item_0_" : "SANCTUARY",
+		"item_1_" : "REINCARNATION",
+		"item_2_" : "SANCTUARY",
+		"item_3_" : "REINCARNATION",
+		"item_4_" : "DISPEL",
+		"item_5_" : "CRASH_WORK",
+		"item_6_" : "SANCTUARY",
+		"item_7_" : "REINCARNATION",
+		"item_8_" : "SANCTUARY",
+		"item_9_" : "REINCARNATION",
+		"item_10_" : "REPAIR",
+		"item_11_" : "HEALING",
+		"item_12_" : "REMOTE_BOMB",
+		"item_13_" : "REINCARNATION",
+		"item_14_" : "SANCTUARY",
+		"item_15_" : "REINCARNATION"
+	},
+	"Engineer10":{
+		"item_0_" : "CONSTRUCT",
+		"item_1_" : "RUN_THROUGH",
+		"item_2_" : "UPDATE",
+		"item_3_" : "RUN_THROUGH",
+		"item_4_" : "ARMOR_PLATE",
+		"item_5_" : "CONSTRUCT",
+		"item_6_" : "RUN_THROUGH",
+		"item_7_" : "CONSTRUCT",
+		"item_8_" : "RUN_THROUGH",
+		"item_9_" : "WALL",
+		"item_10_" : "CONSTRUCT",
+		"item_11_" : "RUN_THROUGH",
+		"item_12_" : "CONSTRUCT",
+		"item_13_" : "RUN_THROUGH",
+		"item_14_" : "ARMOR_PLATE",
+		"item_15_" : "WALL"
+	},
+	"Engineer11":{
+		"item_0_" : "WALL",
+		"item_1_" : "ARMOR_PLATE",
+		"item_2_" : "RUN_THROUGH",
+		"item_3_" : "CONSTRUCT",
+		"item_4_" : "WALL",
+		"item_5_" : "ARMOR_PLATE",
+		"item_6_" : "RUN_THROUGH",
+		"item_7_" : "UPDATE",
+		"item_8_" : "WALL",
+		"item_9_" : "ARMOR_PLATE",
+		"item_10_" : "RUN_THROUGH",
+		"item_11_" : "CONSTRUCT",
+		"item_12_" : "WALL",
+		"item_13_" : "ARMOR_PLATE",
+		"item_14_" : "RUN_THROUGH",
+		"item_15_" : "CONSTRUCT"
+	},
+	"Engineer12":{
+		"item_0_" : "ARMOR_PLATE",
+		"item_1_" : "WALL",
+		"item_2_" : "ARMOR_PLATE",
+		"item_3_" : "WALL",
+		"item_4_" : "RUN_THROUGH",
+		"item_5_" : "CONSTRUCT",
+		"item_6_" : "ARMOR_PLATE",
+		"item_7_" : "WALL",
+		"item_8_" : "ARMOR_PLATE",
+		"item_9_" : "WALL",
+		"item_10_" : "RUN_THROUGH",
+		"item_11_" : "UPDATE",
+		"item_12_" : "ARMOR_PLATE",
+		"item_13_" : "WALL",
+		"item_14_" : "RUN_THROUGH",
+		"item_15_" : "CONSTRUCT"
+	},
+	"Engineer20":{
+		"item_0_" : "SACRED_SONG",
+		"item_1_" : "TRANSPORT",
+		"item_2_" : "SACRED_SONG",
+		"item_3_" : "ULTIMATE_ROBOT",
+		"item_4_" : "SACRED_SONG",
+		"item_5_" : "TRANSPORT",
+		"item_6_" : "SACRED_SONG",
+		"item_7_" : "TRANSPORT",
+		"item_8_" : "SACRED_SONG",
+		"item_9_" : "TRANSPORT",
+		"item_10_" : "SACRED_SONG",
+		"item_11_" : "TRANSPORT",
+		"item_12_" : "SACRED_SONG",
+		"item_13_" : "TRANSPORT",
+		"item_14_" : "SACRED_SONG",
+		"item_15_" : "TRANSPORT"
+	},
+	"Engineer21":{
+		"item_0_" : "SACRED_SONG",
+		"item_1_" : "TRANSPORT",
+		"item_2_" : "HAPPY_MIRACLE",
+		"item_3_" : "TRANSPORT",
+		"item_4_" : "TRANSPORT",
+		"item_5_" : "SACRED_SONG",
+		"item_6_" : "SACRED_SONG",
+		"item_7_" : "SACRED_SONG",
+		"item_8_" : "TRANSPORT",
+		"item_9_" : "ULTIMATE_ROBOT",
+		"item_10_" : "TRANSPORT",
+		"item_11_" : "TRANSPORT",
+		"item_12_" : "SACRED_SONG",
+		"item_13_" : "SACRED_SONG",
+		"item_14_" : "TRANSPORT",
+		"item_15_" : "TRANSPORT"
+	},
+	"Engineer22":{
+		"item_0_" : "TRANSPORT",
+		"item_1_" : "HAPPY_MIRACLE",
+		"item_2_" : "SACRED_SONG",
+		"item_3_" : "TRANSPORT",
+		"item_4_" : "HAPPY_MIRACLE",
+		"item_5_" : "SACRED_SONG",
+		"item_6_" : "TRANSPORT",
+		"item_7_" : "HAPPY_MIRACLE",
+		"item_8_" : "SACRED_SONG",
+		"item_9_" : "TRANSPORT",
+		"item_10_" : "HAPPY_MIRACLE",
+		"item_11_" : "SACRED_SONG",
+		"item_12_" : "TRANSPORT",
+		"item_13_" : "ULTIMATE_ROBOT",
+		"item_14_" : "SACRED_SONG",
+		"item_15_" : "SACRED_SONG"
+	},
+	"Passive1":{
+		"item_0_" : "_",
+		"item_1_" : "_",
+		"item_2_" : "_",
+		"item_3_" : "_",
+		"item_4_" : "_",
+		"item_5_" : "_",
+		"item_6_" : "_",
+		"item_7_" : "_",
+		"item_8_" : "_",
+		"item_9_" : "_",
+		"item_10_" : "_",
+		"item_11_" : "_",
+		"item_12_" : "_",
+		"item_13_" : "_",
+		"item_14_" : "_",
+		"item_15_" : "_"
+	},
+	"Passive2":{
+		"item_0_" : "_",
+		"item_1_" : "_",
+		"item_2_" : "_",
+		"item_3_" : "_",
+		"item_4_" : "_",
+		"item_5_" : "_",
+		"item_6_" : "_",
+		"item_7_" : "_",
+		"item_8_" : "_",
+		"item_9_" : "_",
+		"item_10_" : "_",
+		"item_11_" : "_",
+		"item_12_" : "_",
+		"item_13_" : "_",
+		"item_14_" : "_",
+		"item_15_" : "_"
+	},
+	"Passive3":{
+		"item_0_" : "_",
+		"item_1_" : "_",
+		"item_2_" : "_",
+		"item_3_" : "_",
+		"item_4_" : "_",
+		"item_5_" : "_",
+		"item_6_" : "_",
+		"item_7_" : "_",
+		"item_8_" : "_",
+		"item_9_" : "_",
+		"item_10_" : "_",
+		"item_11_" : "_",
+		"item_12_" : "_",
+		"item_13_" : "_",
+		"item_14_" : "_",
+		"item_15_" : "_"
+	}
+},
+// UI_common.xlsx.tmp MenuSceneParam 
+
+"menuSceneParam_":{
+	"HairShapeIcon":{
+		"use_" : "MENU",
+		"textureSize_" : [160,160],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,85,185],
+		"cameraLookAt_" : [0,65,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"HairColorIcon":{
+		"use_" : "MENU",
+		"textureSize_" : [160,160],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,85,185],
+		"cameraLookAt_" : [0,65,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"EyeShapeIcon":{
+		"use_" : "MENU",
+		"textureSize_" : [160,160],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,88,130],
+		"cameraLookAt_" : [-3,85,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"EyePositionIcon":{
+		"use_" : "MENU",
+		"textureSize_" : [160,160],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,88,130],
+		"cameraLookAt_" : [0,70,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"MouthShapeIcon":{
+		"use_" : "MENU",
+		"textureSize_" : [160,160],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,85,120],
+		"cameraLookAt_" : [0,55,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"MouthPositionIcon":{
+		"use_" : "MENU",
+		"textureSize_" : [160,160],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,85,180],
+		"cameraLookAt_" : [0,70,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"SkinIcon":{
+		"use_" : "MENU",
+		"textureSize_" : [160,160],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,85,320],
+		"cameraLookAt_" : [0,15,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"PlayerInfo":{
+		"use_" : "HUD",
+		"textureSize_" : [256,256],
+		"lights_" : ["Light0","","Light2"],
+		"cameraPos_" : [0,0,550],
+		"cameraLookAt_" : [0,0,0],
+		"modelOffset_" : [18,-100,200],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"CustomMannequin":{
+		"use_" : "MENU",
+		"textureSize_" : [512,512],
+		"lights_" : ["Light0","","Light2"],
+		"cameraPos_" : [0,0,550],
+		"cameraLookAt_" : [21,-30,0],
+		"modelOffset_" : [0,-172,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ItemIcon":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,295],
+		"cameraLookAt_" : [160,5,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,305],
+		"modelScale_" : [1,1,1]
+	},
+	"DefaultRightHand":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,190],
+		"cameraLookAt_" : [62,30,0],
+		"modelOffset_" : [-4,-5,-20],
+		"modelRotation_" : [0,0,-55],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelDefaultRightHand":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,295],
+		"cameraLookAt_" : [160,5,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,305],
+		"modelScale_" : [1,1,1]
+	},
+	"SakanaBaraHand":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,310],
+		"cameraLookAt_" : [160,5,0],
+		"modelOffset_" : [26,-43,95],
+		"modelRotation_" : [178,22,-127],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelSakanaBaraHand":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,390],
+		"cameraLookAt_" : [315,-22,0],
+		"modelOffset_" : [34,-32,125],
+		"modelRotation_" : [178,22,-127],
+		"modelScale_" : [1,1,1]
+	},
+	"D010Hand":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,295],
+		"cameraLookAt_" : [160,5,0],
+		"modelOffset_" : [44,-32,82],
+		"modelRotation_" : [0,141,53],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelD010Hand":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,340],
+		"cameraLookAt_" : [275,-38,0],
+		"modelOffset_" : [44,-32,82],
+		"modelRotation_" : [0,141,53],
+		"modelScale_" : [1,1,1]
+	},
+	"DefaultLeftHand":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,165],
+		"cameraLookAt_" : [7,-6,0],
+		"modelOffset_" : [3,0,-21],
+		"modelRotation_" : [0,-90,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelDefaultLeftHand":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,270],
+		"cameraLookAt_" : [95,-35,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,270,0],
+		"modelScale_" : [1,1,1]
+	},
+	"DefaultBody":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,125],
+		"cameraLookAt_" : [7,35,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelDefaultBody":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,30,165],
+		"cameraLookAt_" : [75,17,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"DefaultHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-6,-7,-28],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelDefaultHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,230],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"FullFaceHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-15,-26,-48],
+		"modelRotation_" : [0,-5,-3],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelFullFaceHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,250],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"HatHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,90,135],
+		"cameraLookAt_" : [5,83,0],
+		"modelOffset_" : [-2,9,12],
+		"modelRotation_" : [-2,24,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelHatHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,90,150],
+		"cameraLookAt_" : [60,60,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"410hatHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [-30,160,230],
+		"cameraLookAt_" : [45,-2,0],
+		"modelOffset_" : [13,0,41],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"Parallel410hatHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [-30,160,230],
+		"cameraLookAt_" : [100,-25,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"420hatHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [140,140,240],
+		"cameraLookAt_" : [50,73,0],
+		"modelOffset_" : [46,10,37],
+		"modelRotation_" : [5,-23,11],
+		"modelScale_" : [1,1,1]
+	},
+	"Parallel420hatHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [140,140,240],
+		"cameraLookAt_" : [105,50,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"430hatHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [135,245,90],
+		"cameraLookAt_" : [40,93,0],
+		"modelOffset_" : [22,42,7],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"Parallel430hatHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [135,245,90],
+		"cameraLookAt_" : [95,70,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"410fullfaceHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [180,100,230],
+		"cameraLookAt_" : [55,43,0],
+		"modelOffset_" : [53,11,43],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"Parallel410fullfaceHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [180,100,230],
+		"cameraLookAt_" : [110,20,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"420fullfaceHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [170,70,165],
+		"cameraLookAt_" : [47,43,0],
+		"modelOffset_" : [34,10,10],
+		"modelRotation_" : [0,-8,0],
+		"modelScale_" : [1,1,1]
+	},
+	"Parallel420fullfaceHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [170,70,165],
+		"cameraLookAt_" : [92,20,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"WHelmetHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,215],
+		"cameraLookAt_" : [25,38,0],
+		"modelOffset_" : [26,3,48],
+		"modelRotation_" : [0,-24,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelWHelmetHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,215],
+		"cameraLookAt_" : [75,15,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"BaketsuHelmetHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [5,6,-19],
+		"modelRotation_" : [2,6,2],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelBaketsuHelmetHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,215],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"WBirdHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,260],
+		"cameraLookAt_" : [35,53,0],
+		"modelOffset_" : [31,-6,57],
+		"modelRotation_" : [0,13,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelWBirdHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,280],
+		"cameraLookAt_" : [100,30,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"WingHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-2,-2,-5],
+		"modelRotation_" : [2,6,2],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelWingHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,215],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"200MetHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-19,-43,-64],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"Parallel200MetHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,250],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"210MetHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-14,-8,-42],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"Parallel210MetHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,250],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"CSisaiHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,225],
+		"cameraLookAt_" : [35,78,0],
+		"modelOffset_" : [23,-2,51],
+		"modelRotation_" : [-2,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelCSisaiHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,225],
+		"cameraLookAt_" : [80,55,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"MCatHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,225],
+		"cameraLookAt_" : [30,53,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelMCatHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,225],
+		"cameraLookAt_" : [75,35,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"dfull410Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-8,-16,-26],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"Paralleldfull410Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,215],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"dfull420Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [1,-4,-26],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"Paralleldfull420Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,215],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"dmet010Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [33,-10,-12],
+		"modelRotation_" : [0,-27,0],
+		"modelScale_" : [1,1,1]
+	},
+	"Paralleldmet010Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,230],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"dmet020Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-2,-7,-38],
+		"modelRotation_" : [2,-15,0],
+		"modelScale_" : [1,1,1]
+	},
+	"Paralleldmet020Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,245],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"dmet200Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-7,-30,-38],
+		"modelRotation_" : [2,-5,0],
+		"modelScale_" : [1,1,1]
+	},
+	"Paralleldmet200Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,250],
+		"cameraLookAt_" : [80,30,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"dmet230Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-7,5,-44],
+		"modelRotation_" : [0,-5,-3],
+		"modelScale_" : [1,1,1]
+	},
+	"Paralleldmet230Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,230],
+		"cameraLookAt_" : [80,-5,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"dhat200Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [5,-47,8],
+		"modelRotation_" : [0,15,-6],
+		"modelScale_" : [1,1,1]
+	},
+	"Paralleldhat200Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,230],
+		"cameraLookAt_" : [80,55,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"dhat210Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-4,-52,-29],
+		"modelRotation_" : [0,24,0],
+		"modelScale_" : [1,1,1]
+	},
+	"Paralleldhat210Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,240],
+		"cameraLookAt_" : [80,50,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"dmet250Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-26,-9,-51],
+		"modelRotation_" : [-5,-3,5],
+		"modelScale_" : [1,1,1]
+	},
+	"Paralleldmet250Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,230],
+		"cameraLookAt_" : [90,10,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"dhat400Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-3,-68,-18],
+		"modelRotation_" : [-5,24,5],
+		"modelScale_" : [1,1,1]
+	},
+	"Paralleldhat400Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,230],
+		"cameraLookAt_" : [80,50,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"dhat410Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-3,-53,-31],
+		"modelRotation_" : [-5,26,5],
+		"modelScale_" : [1,1,1]
+	},
+	"Paralleldhat410Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,225],
+		"cameraLookAt_" : [80,50,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"dhat420Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-17,-16,-52],
+		"modelRotation_" : [18,180,2],
+		"modelScale_" : [1,1,1]
+	},
+	"Paralleldhat420Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,230],
+		"cameraLookAt_" : [65,45,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"dhat440Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-41,-71,-106],
+		"modelRotation_" : [18,32,2],
+		"modelScale_" : [1,1,1]
+	},
+	"Paralleldhat440Head":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,230],
+		"cameraLookAt_" : [80,55,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"DefaultAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [62,15,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelDefaultAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [62,15,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"HandAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,125],
+		"cameraLookAt_" : [-17,-2,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelHandAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,150],
+		"cameraLookAt_" : [27,-20,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"Hand2Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,125],
+		"cameraLookAt_" : [-30,-2,0],
+		"modelOffset_" : [-10,1,15],
+		"modelRotation_" : [89,0,-17],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelHand2Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,150],
+		"cameraLookAt_" : [27,-20,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [90,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"Hand3Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,110],
+		"cameraLookAt_" : [-10,-2,0],
+		"modelOffset_" : [20,0,-7],
+		"modelRotation_" : [83,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelHand3Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,150],
+		"cameraLookAt_" : [7,-20,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [90,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"Hand4Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,125],
+		"cameraLookAt_" : [-10,-5,0],
+		"modelOffset_" : [8,0,0],
+		"modelRotation_" : [0,200,200],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelHand4Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,160],
+		"cameraLookAt_" : [25,-25,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,200,200],
+		"modelScale_" : [1,1,1]
+	},
+	"GrassesAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,140],
+		"cameraLookAt_" : [35,30,0],
+		"modelOffset_" : [21,0,-6],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelGrassesAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,170],
+		"cameraLookAt_" : [57,15,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"MustacheAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,130],
+		"cameraLookAt_" : [15,5,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelMustacheAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,160],
+		"cameraLookAt_" : [57,-10,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"EarringsAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [-10,0,100],
+		"cameraLookAt_" : [25,10,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,90,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelEarringsAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [-10,0,120],
+		"cameraLookAt_" : [57,0,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,90,0],
+		"modelScale_" : [1,1,1]
+	},
+	"FeatherAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,120],
+		"cameraLookAt_" : [-20,60,0],
+		"modelOffset_" : [-60,-29,12],
+		"modelRotation_" : [-7.5,-153,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelFeatherAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,150],
+		"cameraLookAt_" : [12,50,0],
+		"modelOffset_" : [-80,-9,12],
+		"modelRotation_" : [-7.5,-153,0],
+		"modelScale_" : [1,1,1]
+	},
+	"HoleAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,65],
+		"cameraLookAt_" : [30,75,0],
+		"modelOffset_" : [6,7,-8],
+		"modelRotation_" : [15,-6,-9],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelHoleAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,80],
+		"cameraLookAt_" : [42,70,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"BandageAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,120],
+		"cameraLookAt_" : [40,45,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelBandageAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,120],
+		"cameraLookAt_" : [62,35,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"MaskAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,130],
+		"cameraLookAt_" : [0,-12,0],
+		"modelOffset_" : [-8,-19,-16],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelMaskAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,180],
+		"cameraLookAt_" : [62,-10,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"HeadBandAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,40,165],
+		"cameraLookAt_" : [44,50,0],
+		"modelOffset_" : [29,0,0],
+		"modelRotation_" : [0,-9,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelHeadBandAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,40,180],
+		"cameraLookAt_" : [64,45,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"EyeAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,130],
+		"cameraLookAt_" : [60,45,0],
+		"modelOffset_" : [9,3,2],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelEyeAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,130],
+		"cameraLookAt_" : [77,30,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"BeardAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,110],
+		"cameraLookAt_" : [20,0,0],
+		"modelOffset_" : [12,-3,0],
+		"modelRotation_" : [0,-6,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelBeardAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,120],
+		"cameraLookAt_" : [42,-5,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"SpearAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,210],
+		"cameraLookAt_" : [25,-5,0],
+		"modelOffset_" : [37,-3,0],
+		"modelRotation_" : [150,-10,90],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelSpearAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [49,-20,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [150,-10,90],
+		"modelScale_" : [1,1,1]
+	},
+	"TailAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [10,0,130],
+		"cameraLookAt_" : [65,0,0],
+		"modelOffset_" : [18,0,0],
+		"modelRotation_" : [0,-160,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelTailAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [10,0,140],
+		"cameraLookAt_" : [79,-5,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,200,0],
+		"modelScale_" : [1,1,1]
+	},
+	"BeltAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,140],
+		"cameraLookAt_" : [40,0,0],
+		"modelOffset_" : [26,-1,14],
+		"modelRotation_" : [5,-11,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelBeltAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,160],
+		"cameraLookAt_" : [57,-10,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"FlowerAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,120],
+		"cameraLookAt_" : [32,-15,0],
+		"modelOffset_" : [23,-5,12],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelFlowerAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,120],
+		"cameraLookAt_" : [32,-15,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"FurAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,130],
+		"cameraLookAt_" : [47,15,0],
+		"modelOffset_" : [40,1,-12],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelFurAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,130],
+		"cameraLookAt_" : [47,15,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"BagAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,200],
+		"cameraLookAt_" : [70,-10,0],
+		"modelOffset_" : [41,-9,26],
+		"modelRotation_" : [5,167,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelBagAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,200],
+		"cameraLookAt_" : [70,-10,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,180,0],
+		"modelScale_" : [1,1,1]
+	},
+	"BowAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,40],
+		"cameraLookAt_" : [38,25,0],
+		"modelOffset_" : [52,4,27],
+		"modelRotation_" : [-163.5,166.5,-7.0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelBowAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,40],
+		"cameraLookAt_" : [38,25,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,100,280],
+		"modelScale_" : [1,1,1]
+	},
+	"WingAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,58],
+		"cameraLookAt_" : [20,10,0],
+		"modelOffset_" : [15,-3,0],
+		"modelRotation_" : [0,-17,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelWingAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,58],
+		"cameraLookAt_" : [20,10,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"Flag1Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,205],
+		"cameraLookAt_" : [210,95,0],
+		"modelOffset_" : [71,-9,17],
+		"modelRotation_" : [75,-21,-39],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelFlag1Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,120],
+		"cameraLookAt_" : [450,150,0],
+		"modelOffset_" : [71,-9,17],
+		"modelRotation_" : [75,-21,-39],
+		"modelScale_" : [1,1,1]
+	},
+	"Flag2Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,290],
+		"cameraLookAt_" : [220,150,0],
+		"modelOffset_" : [54,24,23],
+		"modelRotation_" : [0,-160,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelFlag2Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [300,145,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,200,0],
+		"modelScale_" : [1,1,1]
+	},
+	"Flag3Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,215],
+		"cameraLookAt_" : [300,240,0],
+		"modelOffset_" : [109,43,0],
+		"modelRotation_" : [0,-166,-19.5],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelFlag3Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,215],
+		"cameraLookAt_" : [300,240,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,200,0],
+		"modelScale_" : [1,1,1]
+	},
+	"dahe000Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [62,15,0],
+		"modelOffset_" : [33,0,14],
+		"modelRotation_" : [26,-38,0],
+		"modelScale_" : [1,1,1]
+	},
+	"Paralleldahe000Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [110,-10,0],
+		"modelOffset_" : [33,0,14],
+		"modelRotation_" : [26,-38,0],
+		"modelScale_" : [1,1,1]
+	},
+	"dahe010Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [62,15,0],
+		"modelOffset_" : [38,29,48],
+		"modelRotation_" : [26,-14,5],
+		"modelScale_" : [1,1,1]
+	},
+	"Paralleldahe010Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [120,0,0],
+		"modelOffset_" : [38,29,48],
+		"modelRotation_" : [26,-14,5],
+		"modelScale_" : [1,1,1]
+	},
+	"dahe020Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [62,15,0],
+		"modelOffset_" : [27,-7,67],
+		"modelRotation_" : [-159,-149,-168],
+		"modelScale_" : [1,1,1]
+	},
+	"Paralleldahe020Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [130,0,0],
+		"modelOffset_" : [27,-7,67],
+		"modelRotation_" : [-159,-149,-168],
+		"modelScale_" : [1,1,1]
+	},
+	"dahi000Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [62,15,0],
+		"modelOffset_" : [4,14,71],
+		"modelRotation_" : [-155,-35,-168],
+		"modelScale_" : [1,1,1]
+	},
+	"Paralleldahi000Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [120,-10,0],
+		"modelOffset_" : [4,14,71],
+		"modelRotation_" : [-155,-35,-168],
+		"modelScale_" : [1,1,1]
+	},
+	"dahi010Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [62,15,0],
+		"modelOffset_" : [-13,29,38],
+		"modelRotation_" : [-155,-35,-168],
+		"modelScale_" : [1,1,1]
+	},
+	"Paralleldahi010Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [120,1,0],
+		"modelOffset_" : [-13,29,38],
+		"modelRotation_" : [-155,-35,-168],
+		"modelScale_" : [1,1,1]
+	},
+	"dasp000Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [62,15,0],
+		"modelOffset_" : [37,13,22],
+		"modelRotation_" : [-168,12,177],
+		"modelScale_" : [1,1,1]
+	},
+	"Paralleldasp000Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [120,-10,0],
+		"modelOffset_" : [37,13,22],
+		"modelRotation_" : [-168,12,177],
+		"modelScale_" : [1,1,1]
+	},
+	"dasp020Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [62,15,0],
+		"modelOffset_" : [6,-16,76],
+		"modelRotation_" : [120,-54,110],
+		"modelScale_" : [1,1,1]
+	},
+	"Paralleldasp020Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [130,0,0],
+		"modelOffset_" : [6,-16,76],
+		"modelRotation_" : [120,-54,110],
+		"modelScale_" : [1,1,1]
+	},
+	"dasp030Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [62,15,0],
+		"modelOffset_" : [94,-96,-64],
+		"modelRotation_" : [180,-26,155],
+		"modelScale_" : [1,1,1]
+	},
+	"Paralleldasp030Accessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [120,10,0],
+		"modelOffset_" : [120,-96,-64],
+		"modelRotation_" : [180,-26,155],
+		"modelScale_" : [1,1,1]
+	},
+	"WeaponSPcoopRod":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,190],
+		"cameraLookAt_" : [62,30,0],
+		"modelOffset_" : [-8,-3,-52],
+		"modelRotation_" : [57,12,-49],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelWeaponSPcoopRod":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,295],
+		"cameraLookAt_" : [160,5,0],
+		"modelOffset_" : [-8,-3,-52],
+		"modelRotation_" : [57,12,-49],
+		"modelScale_" : [1,1,1]
+	},
+	"WeaponKnife":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,190],
+		"cameraLookAt_" : [62,30,0],
+		"modelOffset_" : [12,13,-6],
+		"modelRotation_" : [0,0,-46],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelWeaponKnife":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,295],
+		"cameraLookAt_" : [160,5,0],
+		"modelOffset_" : [12,13,-6],
+		"modelRotation_" : [0,0,-46],
+		"modelScale_" : [1,1,1]
+	},
+	"SmallShield":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,165],
+		"cameraLookAt_" : [7,-6,0],
+		"modelOffset_" : [3,-4,19],
+		"modelRotation_" : [0,-90,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelSmallShield":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,270],
+		"cameraLookAt_" : [95,-35,0],
+		"modelOffset_" : [3,-4,19],
+		"modelRotation_" : [0,-90,0],
+		"modelScale_" : [1,1,1]
+	},
+	"MonocleAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,140],
+		"cameraLookAt_" : [35,30,0],
+		"modelOffset_" : [11,-8,30],
+		"modelRotation_" : [0,-24,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelMonocleAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,170],
+		"cameraLookAt_" : [65,15,0],
+		"modelOffset_" : [11,-8,30],
+		"modelRotation_" : [0,-24,0],
+		"modelScale_" : [1,1,1]
+	},
+	"EmblemAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,140],
+		"cameraLookAt_" : [40,0,0],
+		"modelOffset_" : [25,-2,32],
+		"modelRotation_" : [3,-15,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelEmblemAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,160],
+		"cameraLookAt_" : [95,-25,0],
+		"modelOffset_" : [25,-2,32],
+		"modelRotation_" : [3,-15,0],
+		"modelScale_" : [1,1,1]
+	},
+	"BigWingAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,58],
+		"cameraLookAt_" : [20,10,0],
+		"modelOffset_" : [67,6,-182],
+		"modelRotation_" : [-13.5,172.5,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelBigWingAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,58],
+		"cameraLookAt_" : [30,0,0],
+		"modelOffset_" : [67,6,-182],
+		"modelRotation_" : [-13.5,172.5,0],
+		"modelScale_" : [1,1,1]
+	},
+	"SpcoopTaleAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [62,15,0],
+		"modelOffset_" : [-7,9,122],
+		"modelRotation_" : [-137,-35,-177],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelSpcoopTaleAccessory":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [100,-10,0],
+		"modelOffset_" : [-7,9,122],
+		"modelRotation_" : [-137,-35,-177],
+		"modelScale_" : [1,1,1]
+	},
+	"SmallHat":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [22,-11,50],
+		"modelRotation_" : [1,30,3],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelSmallHat":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,230],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [22,-11,50],
+		"modelRotation_" : [1,30,3],
+		"modelScale_" : [1,1,1]
+	},
+	"BigHat":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-26,-19,-72],
+		"modelRotation_" : [1,9,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelBigHat":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,230],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [-26,-19,-72],
+		"modelRotation_" : [1,9,0],
+		"modelScale_" : [1,1,1]
+	},
+	"Sacret":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [8,-19,-12],
+		"modelRotation_" : [1,9,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelSacret":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,230],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [8,-19,-12],
+		"modelRotation_" : [1,9,0],
+		"modelScale_" : [1,1,1]
+	},
+	"Alien":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-33,-50,-73],
+		"modelRotation_" : [0,19,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelAlien":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,230],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [-33,-50,-73],
+		"modelRotation_" : [0,19,0],
+		"modelScale_" : [1,1,1]
+	},
+	"SnakeRod":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,190],
+		"cameraLookAt_" : [62,30,0],
+		"modelOffset_" : [-12,-6,-29],
+		"modelRotation_" : [37,0,-38],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelSnakeRod":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,295],
+		"cameraLookAt_" : [160,5,0],
+		"modelOffset_" : [-12,-6,-29],
+		"modelRotation_" : [37,0,-38],
+		"modelScale_" : [1,1,1]
+	},
+	"HawaiiHat":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-15,-90,-56],
+		"modelRotation_" : [-25,6,11],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelHawaiiHat":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,230],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [-15,-90,-56],
+		"modelRotation_" : [-25,6,11],
+		"modelScale_" : [1,1,1]
+	},
+	"HighHat":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-19,-48,-54],
+		"modelRotation_" : [-9,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelHighHat":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,230],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [-19,-48,-54],
+		"modelRotation_" : [-9,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"SharkHelm":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-27,-62,-53],
+		"modelRotation_" : [-9,-43,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelSharkHelm":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,230],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [-21,-35,-59],
+		"modelRotation_" : [-9,-43,0],
+		"modelScale_" : [1,1,1]
+	},
+	"HornHelm":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-15,-12,-34],
+		"modelRotation_" : [2,10,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelHornHelm":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,230],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [-15,-12,-34],
+		"modelRotation_" : [2,10,0],
+		"modelScale_" : [1,1,1]
+	},
+	"NightVision":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [7,-54,-38],
+		"modelRotation_" : [-21,-15,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelNightVision":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,230],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [7,-54,-38],
+		"modelRotation_" : [-21,-15,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ilomiloRod":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,190],
+		"cameraLookAt_" : [62,30,0],
+		"modelOffset_" : [-7,4,-99],
+		"modelRotation_" : [109,52,-49],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelilomiloRod":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,295],
+		"cameraLookAt_" : [160,5,0],
+		"modelOffset_" : [-7,4,-99],
+		"modelRotation_" : [109,52,-49],
+		"modelScale_" : [1,1,1]
+	},
+	"MiniHat":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [47,-22,74],
+		"modelRotation_" : [-11,-10,-1],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelMiniHat":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [13,-10,59],
+		"modelRotation_" : [-11,0,-1],
+		"modelScale_" : [1,1,1]
+	},
+	"Beret":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [30,-10,49],
+		"modelRotation_" : [-21,38,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelBeret":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-12,0,30],
+		"modelRotation_" : [-13,48,0],
+		"modelScale_" : [1,1,1]
+	},
+	"WalnutHat":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [-11,-38,-39],
+		"modelRotation_" : [-7,1,3],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelWalnutHat":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,230],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [-11,-38,-39],
+		"modelRotation_" : [-7,1,3],
+		"modelScale_" : [1,1,1]
+	},
+	"DreamHelm":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [9,-14,-18],
+		"modelRotation_" : [-12,-22,6],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelDreamHelm":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,230],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [9,-14,-18],
+		"modelRotation_" : [-12,-22,6],
+		"modelScale_" : [1,1,1]
+	},
+	"ButterflyACC":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,40,165],
+		"cameraLookAt_" : [44,50,0],
+		"modelOffset_" : [80,-36,-7],
+		"modelRotation_" : [-7,-1,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelButterflyACC":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,40,180],
+		"cameraLookAt_" : [64,45,0],
+		"modelOffset_" : [80,-36,-7],
+		"modelRotation_" : [-7,-1,0],
+		"modelScale_" : [1,1,1]
+	},
+	"MirrorACC":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,200],
+		"cameraLookAt_" : [70,-10,0],
+		"modelOffset_" : [94,-62,19],
+		"modelRotation_" : [-3,154,6],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelMirrorACC":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,200],
+		"cameraLookAt_" : [70,-10,0],
+		"modelOffset_" : [67,-36,-30],
+		"modelRotation_" : [-3,154,6],
+		"modelScale_" : [1,1,1]
+	},
+	"HaloACC":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,200],
+		"cameraLookAt_" : [70,-10,0],
+		"modelOffset_" : [39,-61,52],
+		"modelRotation_" : [-6,-16,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelHaloACC":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,200],
+		"cameraLookAt_" : [70,-10,0],
+		"modelOffset_" : [-22,-25,52],
+		"modelRotation_" : [-6,-16,0],
+		"modelScale_" : [1,1,1]
+	},
+	"FleaACC":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,200],
+		"cameraLookAt_" : [70,-10,0],
+		"modelOffset_" : [33,-8,54],
+		"modelRotation_" : [-88,-135,-106],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelFleaACC":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,200],
+		"cameraLookAt_" : [70,-10,0],
+		"modelOffset_" : [7,7,35],
+		"modelRotation_" : [-88,-135,-106],
+		"modelScale_" : [1,1,1]
+	},
+	"LeafACC":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,200],
+		"cameraLookAt_" : [70,-10,0],
+		"modelOffset_" : [-23,-61,-48],
+		"modelRotation_" : [42,-64,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelLeafACC":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,200],
+		"cameraLookAt_" : [70,-10,0],
+		"modelOffset_" : [-68,-13,-101],
+		"modelRotation_" : [42,-64,0],
+		"modelScale_" : [1,1,1]
+	},
+	"MantleACC":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,200],
+		"cameraLookAt_" : [70,-10,0],
+		"modelOffset_" : [40,10,40],
+		"modelRotation_" : [8,167,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelMantleACC":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,200],
+		"cameraLookAt_" : [70,-10,0],
+		"modelOffset_" : [0,20,0],
+		"modelRotation_" : [0,180,0],
+		"modelScale_" : [1,1,1]
+	},
+	"FlagAKAMOTO":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [62,15,0],
+		"modelOffset_" : [-60,-74,11],
+		"modelRotation_" : [22,-49,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelFlagAKAMOTO":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [62,15,0],
+		"modelOffset_" : [-108,-38,43],
+		"modelRotation_" : [22,-49,0],
+		"modelScale_" : [1,1,1]
+	},
+	"FishingRod":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,190],
+		"cameraLookAt_" : [62,30,0],
+		"modelOffset_" : [3,-17,-113],
+		"modelRotation_" : [-175,33,-118],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelFishingRod":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,295],
+		"cameraLookAt_" : [160,5,0],
+		"modelOffset_" : [3,-17,-113],
+		"modelRotation_" : [-175,33,-118],
+		"modelScale_" : [1,1,1]
+	},
+	"MaterialStatue":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,190],
+		"cameraLookAt_" : [62,30,0],
+		"modelOffset_" : [51,-20,-31],
+		"modelRotation_" : [12,63,25],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelMaterialStatue":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,295],
+		"cameraLookAt_" : [160,5,0],
+		"modelOffset_" : [0,0,0],
+		"modelRotation_" : [0,0,305],
+		"modelScale_" : [1,1,1]
+	},
+	"GarudaWingACC":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [70,5,0],
+		"modelOffset_" : [44,33,2],
+		"modelRotation_" : [21,174,-1.5],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelGarudaWingACC":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,220],
+		"cameraLookAt_" : [100,-10,0],
+		"modelOffset_" : [44,33,2],
+		"modelRotation_" : [21,174,-1.5],
+		"modelScale_" : [1,1,1]
+	},
+	"FujinWeapon":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light1","Light2","Light3"],
+		"cameraPos_" : [0,0,190],
+		"cameraLookAt_" : [62,30,0],
+		"modelOffset_" : [6,1,-22],
+		"modelRotation_" : [48,30,-58],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelFujinWeapon":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light1","Light2","Light3"],
+		"cameraPos_" : [0,0,295],
+		"cameraLookAt_" : [160,5,0],
+		"modelOffset_" : [6,1,-22],
+		"modelRotation_" : [48,30,-58],
+		"modelScale_" : [1,1,1]
+	},
+	"FujinArmor":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,125],
+		"cameraLookAt_" : [7,35,0],
+		"modelOffset_" : [2,-3,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelFujinArmor":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,30,165],
+		"cameraLookAt_" : [75,17,0],
+		"modelOffset_" : [2,-3,0],
+		"modelRotation_" : [0,0,0],
+		"modelScale_" : [1,1,1]
+	},
+	"FujinACC":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,200],
+		"cameraLookAt_" : [70,5,0],
+		"modelOffset_" : [30,26,0],
+		"modelRotation_" : [17,-160,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelFujinACC":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [0,0,200],
+		"cameraLookAt_" : [100,-10,0],
+		"modelOffset_" : [30,26,0],
+		"modelRotation_" : [17,-160,0],
+		"modelScale_" : [1,1,1]
+	},
+	"FujinHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [9,-14,-45],
+		"modelRotation_" : [0,1.5,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelFujinHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [85,70,230],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [9,-14,-45],
+		"modelRotation_" : [0,1.5,0],
+		"modelScale_" : [1,1,1]
+	},
+	"PharaohHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [25,55,150],
+		"cameraLookAt_" : [25,33,0],
+		"modelOffset_" : [9,-14,-100],
+		"modelRotation_" : [0,1.5,0],
+		"modelScale_" : [1,1,1]
+	},
+	"ParallelPharaohHead":{
+		"use_" : "MENU",
+		"textureSize_" : [192,96],
+		"lights_" : ["Light0","Light1","Light2"],
+		"cameraPos_" : [25,70,230],
+		"cameraLookAt_" : [80,10,0],
+		"modelOffset_" : [9,-14,-100],
+		"modelRotation_" : [0,1.5,0],
+		"modelScale_" : [1,1,1]
+	}
+},
+// UI_common.xlsx.tmp MenuLightParam 
+
+"menuLightParam_":{
+	"Light0":{
+		"ambientEnable" : true,
+		"ambientColor" : [173,197,199,255],
+		"ambientPower" : 2,
+		"diffuseEnable" : true,
+		"diffuseColor" : [240,240,240,255],
+		"diffusePower" : 1,
+		"lightType" : 3,
+		"directionalX" : 0,
+		"directionalY" : -140
+	},
+	"Light1":{
+		"ambientEnable" : true,
+		"ambientColor" : [255,255,255,255],
+		"ambientPower" : 0,
+		"diffuseEnable" : true,
+		"diffuseColor" : [105,160,105,255],
+		"diffusePower" : 0.5,
+		"lightType" : 3,
+		"directionalX" : -90,
+		"directionalY" : 0
+	},
+	"Light2":{
+		"ambientEnable" : true,
+		"ambientColor" : [200,200,200,255],
+		"ambientPower" : 0,
+		"diffuseEnable" : true,
+		"diffuseColor" : [255,255,255,255],
+		"diffusePower" : 0.3,
+		"lightType" : 3,
+		"directionalX" : 0,
+		"directionalY" : 180
+	},
+	"Light3":{
+		"ambientEnable" : true,
+		"ambientColor" : [173,197,199,255],
+		"ambientPower" : 2,
+		"diffuseEnable" : true,
+		"diffuseColor" : [240,240,240,255],
+		"diffusePower" : 1,
+		"lightType" : 3,
+		"directionalX" : 0,
+		"directionalY" : 40
+	}
+},
+// UI_common.xlsx.tmp MenuCatalogParam 
+
+"menuCatalogParam_":{
+	"HairShapeIcon0":{
+		"sceneName_" : "HairShapeIcon",
+		"offscreenNo_" : 1,
+		"textureIndex_" : 0
+	},
+	"HairShapeIcon1":{
+		"sceneName_" : "HairShapeIcon",
+		"offscreenNo_" : 2,
+		"textureIndex_" : 1
+	},
+	"HairShapeIcon2":{
+		"sceneName_" : "HairShapeIcon",
+		"offscreenNo_" : 3,
+		"textureIndex_" : 2
+	},
+	"HairShapeIcon3":{
+		"sceneName_" : "HairShapeIcon",
+		"offscreenNo_" : 4,
+		"textureIndex_" : 3
+	},
+	"HairShapeIcon4":{
+		"sceneName_" : "HairShapeIcon",
+		"offscreenNo_" : 5,
+		"textureIndex_" : 4
+	},
+	"HairShapeIcon5":{
+		"sceneName_" : "HairShapeIcon",
+		"offscreenNo_" : 6,
+		"textureIndex_" : 5
+	},
+	"HairShapeIcon6":{
+		"sceneName_" : "HairShapeIcon",
+		"offscreenNo_" : 7,
+		"textureIndex_" : 6
+	},
+	"HairShapeIcon7":{
+		"sceneName_" : "HairShapeIcon",
+		"offscreenNo_" : 8,
+		"textureIndex_" : 7
+	},
+	"HairShapeIcon8":{
+		"sceneName_" : "HairShapeIcon",
+		"offscreenNo_" : 9,
+		"textureIndex_" : 8
+	},
+	"HairColorIcon0":{
+		"sceneName_" : "HairColorIcon",
+		"offscreenNo_" : 1,
+		"textureIndex_" : 0
+	},
+	"HairColorIcon1":{
+		"sceneName_" : "HairColorIcon",
+		"offscreenNo_" : 2,
+		"textureIndex_" : 1
+	},
+	"HairColorIcon2":{
+		"sceneName_" : "HairColorIcon",
+		"offscreenNo_" : 3,
+		"textureIndex_" : 2
+	},
+	"HairColorIcon3":{
+		"sceneName_" : "HairColorIcon",
+		"offscreenNo_" : 4,
+		"textureIndex_" : 3
+	},
+	"HairColorIcon4":{
+		"sceneName_" : "HairColorIcon",
+		"offscreenNo_" : 5,
+		"textureIndex_" : 4
+	},
+	"HairColorIcon5":{
+		"sceneName_" : "HairColorIcon",
+		"offscreenNo_" : 6,
+		"textureIndex_" : 5
+	},
+	"HairColorIcon6":{
+		"sceneName_" : "HairColorIcon",
+		"offscreenNo_" : 7,
+		"textureIndex_" : 6
+	},
+	"HairColorIcon7":{
+		"sceneName_" : "HairColorIcon",
+		"offscreenNo_" : 8,
+		"textureIndex_" : 7
+	},
+	"HairColorIcon8":{
+		"sceneName_" : "HairColorIcon",
+		"offscreenNo_" : 9,
+		"textureIndex_" : 8
+	},
+	"MouthShapeIcon0":{
+		"sceneName_" : "MouthShapeIcon",
+		"offscreenNo_" : 1,
+		"textureIndex_" : 0
+	},
+	"MouthShapeIcon1":{
+		"sceneName_" : "MouthShapeIcon",
+		"offscreenNo_" : 2,
+		"textureIndex_" : 1
+	},
+	"MouthShapeIcon2":{
+		"sceneName_" : "MouthShapeIcon",
+		"offscreenNo_" : 3,
+		"textureIndex_" : 2
+	},
+	"MouthShapeIcon3":{
+		"sceneName_" : "MouthShapeIcon",
+		"offscreenNo_" : 4,
+		"textureIndex_" : 3
+	},
+	"MouthShapeIcon4":{
+		"sceneName_" : "MouthShapeIcon",
+		"offscreenNo_" : 5,
+		"textureIndex_" : 4
+	},
+	"MouthShapeIcon5":{
+		"sceneName_" : "MouthShapeIcon",
+		"offscreenNo_" : 6,
+		"textureIndex_" : 5
+	},
+	"MouthShapeIcon6":{
+		"sceneName_" : "MouthShapeIcon",
+		"offscreenNo_" : 7,
+		"textureIndex_" : 6
+	},
+	"MouthShapeIcon7":{
+		"sceneName_" : "MouthShapeIcon",
+		"offscreenNo_" : 8,
+		"textureIndex_" : 7
+	},
+	"MouthShapeIcon8":{
+		"sceneName_" : "MouthShapeIcon",
+		"offscreenNo_" : 9,
+		"textureIndex_" : 8
+	},
+	"MouthPositionIcon0":{
+		"sceneName_" : "MouthPositionIcon",
+		"offscreenNo_" : 1,
+		"textureIndex_" : 0
+	},
+	"MouthPositionIcon1":{
+		"sceneName_" : "MouthPositionIcon",
+		"offscreenNo_" : 2,
+		"textureIndex_" : 1
+	},
+	"MouthPositionIcon2":{
+		"sceneName_" : "MouthPositionIcon",
+		"offscreenNo_" : 3,
+		"textureIndex_" : 2
+	},
+	"MouthPositionIcon3":{
+		"sceneName_" : "MouthPositionIcon",
+		"offscreenNo_" : 4,
+		"textureIndex_" : 3
+	},
+	"MouthPositionIcon4":{
+		"sceneName_" : "MouthPositionIcon",
+		"offscreenNo_" : 5,
+		"textureIndex_" : 4
+	},
+	"MouthPositionIcon5":{
+		"sceneName_" : "MouthPositionIcon",
+		"offscreenNo_" : 6,
+		"textureIndex_" : 5
+	},
+	"MouthPositionIcon6":{
+		"sceneName_" : "MouthPositionIcon",
+		"offscreenNo_" : 7,
+		"textureIndex_" : 6
+	},
+	"MouthPositionIcon7":{
+		"sceneName_" : "MouthPositionIcon",
+		"offscreenNo_" : 8,
+		"textureIndex_" : 7
+	},
+	"MouthPositionIcon8":{
+		"sceneName_" : "MouthPositionIcon",
+		"offscreenNo_" : 9,
+		"textureIndex_" : 8
+	},
+	"EyeShapeIcon0":{
+		"sceneName_" : "EyeShapeIcon",
+		"offscreenNo_" : 1,
+		"textureIndex_" : 0
+	},
+	"EyeShapeIcon1":{
+		"sceneName_" : "EyeShapeIcon",
+		"offscreenNo_" : 2,
+		"textureIndex_" : 1
+	},
+	"EyeShapeIcon2":{
+		"sceneName_" : "EyeShapeIcon",
+		"offscreenNo_" : 3,
+		"textureIndex_" : 2
+	},
+	"EyeShapeIcon3":{
+		"sceneName_" : "EyeShapeIcon",
+		"offscreenNo_" : 4,
+		"textureIndex_" : 3
+	},
+	"EyeShapeIcon4":{
+		"sceneName_" : "EyeShapeIcon",
+		"offscreenNo_" : 5,
+		"textureIndex_" : 4
+	},
+	"EyeShapeIcon5":{
+		"sceneName_" : "EyeShapeIcon",
+		"offscreenNo_" : 6,
+		"textureIndex_" : 5
+	},
+	"EyeShapeIcon6":{
+		"sceneName_" : "EyeShapeIcon",
+		"offscreenNo_" : 7,
+		"textureIndex_" : 6
+	},
+	"EyeShapeIcon7":{
+		"sceneName_" : "EyeShapeIcon",
+		"offscreenNo_" : 8,
+		"textureIndex_" : 7
+	},
+	"EyeShapeIcon8":{
+		"sceneName_" : "EyeShapeIcon",
+		"offscreenNo_" : 9,
+		"textureIndex_" : 8
+	},
+	"EyePositionIcon0":{
+		"sceneName_" : "EyePositionIcon",
+		"offscreenNo_" : 1,
+		"textureIndex_" : 0
+	},
+	"EyePositionIcon1":{
+		"sceneName_" : "EyePositionIcon",
+		"offscreenNo_" : 2,
+		"textureIndex_" : 1
+	},
+	"EyePositionIcon2":{
+		"sceneName_" : "EyePositionIcon",
+		"offscreenNo_" : 3,
+		"textureIndex_" : 2
+	},
+	"EyePositionIcon3":{
+		"sceneName_" : "EyePositionIcon",
+		"offscreenNo_" : 4,
+		"textureIndex_" : 3
+	},
+	"EyePositionIcon4":{
+		"sceneName_" : "EyePositionIcon",
+		"offscreenNo_" : 5,
+		"textureIndex_" : 4
+	},
+	"EyePositionIcon5":{
+		"sceneName_" : "EyePositionIcon",
+		"offscreenNo_" : 6,
+		"textureIndex_" : 5
+	},
+	"EyePositionIcon6":{
+		"sceneName_" : "EyePositionIcon",
+		"offscreenNo_" : 7,
+		"textureIndex_" : 6
+	},
+	"EyePositionIcon7":{
+		"sceneName_" : "EyePositionIcon",
+		"offscreenNo_" : 8,
+		"textureIndex_" : 7
+	},
+	"EyePositionIcon8":{
+		"sceneName_" : "EyePositionIcon",
+		"offscreenNo_" : 9,
+		"textureIndex_" : 8
+	},
+	"SkinIcon0":{
+		"sceneName_" : "SkinIcon",
+		"offscreenNo_" : 1,
+		"textureIndex_" : 0
+	},
+	"SkinIcon1":{
+		"sceneName_" : "SkinIcon",
+		"offscreenNo_" : 2,
+		"textureIndex_" : 1
+	},
+	"SkinIcon2":{
+		"sceneName_" : "SkinIcon",
+		"offscreenNo_" : 3,
+		"textureIndex_" : 2
+	},
+	"SkinIcon3":{
+		"sceneName_" : "SkinIcon",
+		"offscreenNo_" : 4,
+		"textureIndex_" : 3
+	},
+	"SkinIcon4":{
+		"sceneName_" : "SkinIcon",
+		"offscreenNo_" : 5,
+		"textureIndex_" : 4
+	},
+	"SkinIcon5":{
+		"sceneName_" : "SkinIcon",
+		"offscreenNo_" : 6,
+		"textureIndex_" : 5
+	},
+	"SkinIcon6":{
+		"sceneName_" : "SkinIcon",
+		"offscreenNo_" : 7,
+		"textureIndex_" : 6
+	},
+	"SkinIcon7":{
+		"sceneName_" : "SkinIcon",
+		"offscreenNo_" : 8,
+		"textureIndex_" : 7
+	},
+	"SkinIcon8":{
+		"sceneName_" : "SkinIcon",
+		"offscreenNo_" : 9,
+		"textureIndex_" : 8
+	},
+	"CustomMannequin":{
+		"sceneName_" : "CustomMannequin",
+		"offscreenNo_" : 0,
+		"textureIndex_" : 0
+	},
+	"ItemIcon0":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 1,
+		"textureIndex_" : 0
+	},
+	"ItemIcon1":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 2,
+		"textureIndex_" : 1
+	},
+	"ItemIcon2":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 3,
+		"textureIndex_" : 2
+	},
+	"ItemIcon3":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 4,
+		"textureIndex_" : 3
+	},
+	"ItemIcon4":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 5,
+		"textureIndex_" : 4
+	},
+	"ItemIcon5":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 6,
+		"textureIndex_" : 5
+	},
+	"ItemIcon6":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 7,
+		"textureIndex_" : 6
+	},
+	"ItemIcon7":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 8,
+		"textureIndex_" : 7
+	},
+	"ItemIcon8":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 9,
+		"textureIndex_" : 8
+	},
+	"ItemIcon9":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 10,
+		"textureIndex_" : 9
+	},
+	"ItemIcon10":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 11,
+		"textureIndex_" : 10
+	},
+	"ItemIcon11":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 12,
+		"textureIndex_" : 11
+	},
+	"ItemIcon12":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 13,
+		"textureIndex_" : 12
+	},
+	"ItemIcon13":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 14,
+		"textureIndex_" : 13
+	},
+	"ItemIcon14":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 15,
+		"textureIndex_" : 14
+	},
+	"ItemIcon15":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 16,
+		"textureIndex_" : 15
+	},
+	"ItemIcon16":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 17,
+		"textureIndex_" : 16
+	},
+	"ItemIcon17":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 18,
+		"textureIndex_" : 17
+	},
+	"ItemIcon18":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 19,
+		"textureIndex_" : 18
+	},
+	"ItemIcon19":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 20,
+		"textureIndex_" : 19
+	},
+	"ItemIcon20":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 21,
+		"textureIndex_" : 20
+	},
+	"ItemIcon21":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 22,
+		"textureIndex_" : 21
+	},
+	"ItemIcon22":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 23,
+		"textureIndex_" : 22
+	},
+	"ItemIcon23":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 24,
+		"textureIndex_" : 23
+	},
+	"ItemIcon24":{
+		"sceneName_" : "ItemIcon",
+		"offscreenNo_" : 25,
+		"textureIndex_" : 24
+	}
+},
+// UI_common.xlsx.tmp MenuAnimationParam 
+
+"menuAnimationParam_":{
+	"WARRIOR":{
+		"element0_" : {"@class":"JsonTimeAnimation","id_":"Wrr00Wait","startTime_":0, "endTime_":5},
+		"element1_" : {"@class":"JsonTimeAnimation","id_":"Wrr00Wait","startTime_":0, "endTime_":5},
+		"element2_" : {"@class":"JsonTimeAnimation","id_":"Wrr00Wait","startTime_":0, "endTime_":5},
+		"element3_" : {"@class":"JsonTimeAnimation","id_":"Wrr00Wait","startTime_":0, "endTime_":5},
+		"element4_" : {"@class":"JsonTimeAnimation","id_":"Wrr00Wait","startTime_":0, "endTime_":5},
+		"element5_" : {"@class":"JsonTimeAnimation","id_":"Wrr00Wait","startTime_":0, "endTime_":5},
+		"element6_" : {"@class":"JsonTimeAnimation","id_":"Wrr00Wait","startTime_":0, "endTime_":5},
+		"element7_" : {"@class":"JsonTimeAnimation","id_":"Wrr00Wait","startTime_":0, "endTime_":5},
+		"element8_" : {"@class":"JsonTimeAnimation","id_":"Wrr00Wait","startTime_":0, "endTime_":5},
+		"element9_" : {"@class":"JsonTimeAnimation","id_":"Wrr00Wait","startTime_":0, "endTime_":5},
+		"element10_" : {"@class":"JsonRepeat","begin_":0,"end_":11}
+	},
+	"CLERIC":{
+		"element0_" : {"@class":"JsonTimeAnimation","id_":"Cle00Wait","startTime_":0, "endTime_":5},
+		"element1_" : {"@class":"JsonTimeAnimation","id_":"Cle00Wait","startTime_":0, "endTime_":5},
+		"element2_" : {"@class":"JsonTimeAnimation","id_":"Cle00Wait","startTime_":0, "endTime_":5},
+		"element3_" : {"@class":"JsonTimeAnimation","id_":"Cle00Wait","startTime_":0, "endTime_":5},
+		"element4_" : {"@class":"JsonTimeAnimation","id_":"Cle00Wait","startTime_":0, "endTime_":5},
+		"element5_" : {"@class":"JsonTimeAnimation","id_":"Cle00Wait","startTime_":0, "endTime_":5},
+		"element6_" : {"@class":"JsonTimeAnimation","id_":"Cle00Wait","startTime_":0, "endTime_":5},
+		"element7_" : {"@class":"JsonTimeAnimation","id_":"Cle00Wait","startTime_":0, "endTime_":5},
+		"element8_" : {"@class":"JsonTimeAnimation","id_":"Cle00Wait","startTime_":0, "endTime_":5},
+		"element9_" : {"@class":"JsonTimeAnimation","id_":"Cle00Wait","startTime_":0, "endTime_":5},
+		"element10_" : {"@class":"JsonRepeat","begin_":0,"end_":11}
+	},
+	"MAGE":{
+		"element0_" : {"@class":"JsonTimeAnimation","id_":"Mag00Wait","startTime_":0, "endTime_":5},
+		"element1_" : {"@class":"JsonTimeAnimation","id_":"Mag00Wait","startTime_":0, "endTime_":5},
+		"element2_" : {"@class":"JsonTimeAnimation","id_":"Mag00Wait","startTime_":0, "endTime_":5},
+		"element3_" : {"@class":"JsonTimeAnimation","id_":"Mag00Wait","startTime_":0, "endTime_":5},
+		"element4_" : {"@class":"JsonTimeAnimation","id_":"Mag00Wait","startTime_":0, "endTime_":5},
+		"element5_" : {"@class":"JsonTimeAnimation","id_":"Mag00Wait","startTime_":0, "endTime_":5},
+		"element6_" : {"@class":"JsonTimeAnimation","id_":"Mag00Wait","startTime_":0, "endTime_":5},
+		"element7_" : {"@class":"JsonTimeAnimation","id_":"Mag00Wait","startTime_":0, "endTime_":5},
+		"element8_" : {"@class":"JsonTimeAnimation","id_":"Mag00Wait","startTime_":0, "endTime_":5},
+		"element9_" : {"@class":"JsonTimeAnimation","id_":"Mag00Wait","startTime_":0, "endTime_":5},
+		"element10_" : {"@class":"JsonRepeat","begin_":0,"end_":11}
+	},
+	"WEAPON":{
+		"element0_" : {"@class":"JsonBranchAnimationByJob", "animations_":["WARRIOR","CLERIC","MAGE"] }
+	},
+	"SHIED":{
+		"element0_" : {"@class":"JsonBranchAnimationByJob", "animations_":["WARRIOR","CLERIC","MAGE"] }
+	},
+	"ARMOR":{
+		"element0_" : {"@class":"JsonBranchAnimationByJob", "animations_":["WARRIOR","CLERIC","MAGE"] }
+	},
+	"HEAD":{
+		"element0_" : {"@class":"JsonBranchAnimationByJob", "animations_":["WARRIOR","CLERIC","MAGE"] }
+	},
+	"ACCESSORY":{
+		"element0_" : {"@class":"JsonBranchAnimationByJob", "animations_":["WARRIOR","CLERIC","MAGE"] }
+	}
+},
+// UI_common.xlsx.tmp Dialog 
+
+"dialog_":{
+	"ProfileSignout":{
+		"textId_" : "$TXCDI00008",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"LiveHangup":{
+		"textId_" : "$TXCDI00009",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"MatchingCancel":{
+		"textId_" : "$TXCDI00017",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"LeaveMatchBySaveFailed":{
+		"textId_" : "$TXCDI00181",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"NoContest":{
+		"textId_" : "$TXCDI00023",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"NotConnectLive":{
+		"textId_" : "$TXCDI00084",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"NotGoldMember":{
+		"textId_" : "$TXCDI00172",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"LoadError":{
+		"textId_" : "$TXCDI00015",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"breakData":{
+		"textId_" : "$TXCDI00049",
+		"symbol_" : "CAUTION",
+		"button_" : "YESNO_YES",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"LoadErrorNoFile":{
+		"textId_" : "$TXCDI00016",
+		"symbol_" : "NOTHING",
+		"button_" : "OK",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"SaveDataFormat":{
+		"textId_" : "$TXCDI00051",
+		"symbol_" : "CAUTION",
+		"button_" : "YESNO_YES",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"MatchingDialog":{
+		"textId_" : "$TXCDI00050",
+		"symbol_" : "NOTHING",
+		"button_" : "NOTHING",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"AutoSave":{
+		"textId_" : "$TXCDI00019",
+		"symbol_" : "PROCESS",
+		"button_" : "NOTHING",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"Loading":{
+		"textId_" : "$TXCDI00002",
+		"symbol_" : "NOTHING",
+		"button_" : "NOTHING",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"AutoSaveTips":{
+		"textId_" : "$TXCDI00006",
+		"symbol_" : "PROCESS",
+		"button_" : "OK",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"ProfileCheck":{
+		"textId_" : "$TXCDI00053",
+		"symbol_" : "NOTHING",
+		"button_" : "NOTHING",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"DefaultSetting":{
+		"textId_" : "$TXCDI00020",
+		"symbol_" : "CAUTION",
+		"button_" : "YESNO_NO",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"GameExitOnline":{
+		"textId_" : "$TXCDI00029",
+		"symbol_" : "CAUTION",
+		"button_" : "YESNO_NO",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"GameExitOffline":{
+		"textId_" : "$TXCDI00030",
+		"symbol_" : "CAUTION",
+		"button_" : "YESNO_NO",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"DeleteItem":{
+		"textId_" : "$TXCDI00024",
+		"symbol_" : "CAUTION",
+		"button_" : "YESNO_NO",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"NotRankIn":{
+		"textId_" : "$TXCDI00052",
+		"symbol_" : "NOTHING",
+		"button_" : "NOTHING",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"SettingSaveCaution":{
+		"textId_" : "$TXCDI00021",
+		"symbol_" : "NOTHING",
+		"button_" : "YESNO_NO",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"SettingKeepCaution":{
+		"textId_" : "$TXCDI00022",
+		"symbol_" : "NOTHING",
+		"button_" : "YESNO_NO",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"LiveGuide":{
+		"textId_" : "$TXCDI00007",
+		"symbol_" : "NOTHING",
+		"button_" : "OK",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"LiveError":{
+		"textId_" : "$TXCDI00061",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"PartyExitHost":{
+		"textId_" : "$TXCDI00031",
+		"symbol_" : "NOTHING",
+		"button_" : "YESNO_NO",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"PartyExit":{
+		"textId_" : "$TXCDI00032",
+		"symbol_" : "NOTHING",
+		"button_" : "YESNO_NO",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"DemoPlay1":{
+		"textId_" : "$TXCDI00064",
+		"symbol_" : "NOTHING",
+		"button_" : "OK",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"DemoPlay2":{
+		"textId_" : "$TXCDI00065",
+		"symbol_" : "NOTHING",
+		"button_" : "OK",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"Error1":{
+		"textId_" : "$TXCDI00136",
+		"symbol_" : "NOTHING",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"Error2":{
+		"textId_" : "$TXMST00002",
+		"symbol_" : "NOTHING",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"Error3":{
+		"textId_" : "$TXMST00004",
+		"symbol_" : "NOTHING",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"Error4":{
+		"textId_" : "$TXCDI00005",
+		"symbol_" : "NOTHING",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"CommonError":{
+		"textId_" : "$TXCDI00136",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"LivePartyError":{
+		"textId_" : "$TXCDI00012",
+		"symbol_" : "NOTHING",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"TitleCaution":{
+		"textId_" : "$TXCDI00058",
+		"symbol_" : "NOTHING",
+		"button_" : "YESNO_NO",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"DLCCaution":{
+		"textId_" : "$TXCDI00068",
+		"symbol_" : "NOTHING",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"ProfileStrageCheck":{
+		"textId_" : "$TXCDI00077",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"StrageError":{
+		"textId_" : "$TXCDI00078",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"StrageFull":{
+		"textId_" : "$TXCDI00079",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"ProfileConnectCheck":{
+		"textId_" : "$TXCDI00080",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"StrageSelect":{
+		"textId_" : "$TXCDI00081",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"SaveErrorSelect":{
+		"textId_" : "$TXCDI00177",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"QExitGame":{
+		"textId_" : "$TXCDI00092",
+		"symbol_" : "CAUTION",
+		"button_" : "YESNO_NO",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"ChangeProfileInGame":{
+		"textId_" : "$TXCDI00117",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"LiveErrorInGame":{
+		"textId_" : "$TXCDI00118",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"LiveErrorInPrivateMatch":{
+		"textId_" : "$TXCDI00150",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"NetworkErrorInGame":{
+		"textId_" : "$TXCDI00119",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"NetworkErrorByQOS":{
+		"textId_" : "$TXCDI00232",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"NetworkErrorInPrivateMatch":{
+		"textId_" : "$TXCDI00151",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"CannotKeepSessionInGame":{
+		"textId_" : "$TXCDI00096",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"CannotKeepSessionInPrivateMatch":{
+		"textId_" : "$TXCDI00149",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"CustomizationError":{
+		"textId_" : "$TXCDI00125",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"CustomizationErrorRankMax":{
+		"textId_" : "$TXCDI00190",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"CustomizationLink":{
+		"textId_" : "$TXCDI00132",
+		"symbol_" : "NOTHING",
+		"button_" : "OK",
+		"pause_" : "PAUSE_SCENE",
+		"keyAlign_" : "LEFT_HORIZON",
+		"input0Type_" : "Y",
+		"input0Label_" : "#TXKYB00013"
+	},
+	"RecommendTutorial":{
+		"textId_" : "$TXCDI00129",
+		"symbol_" : "NOTHING",
+		"button_" : "YESNO_YES",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"NotReadySentient":{
+		"textId_" : "$TXCDI00087",
+		"symbol_" : "NOTHING",
+		"button_" : "OK",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"ItemFirst1":{
+		"textId_" : "#TXCDI00137",
+		"symbol_" : "NOTHING",
+		"button_" : "OK",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"ItemFirst2":{
+		"textId_" : "#TXCDI00138",
+		"symbol_" : "NOTHING",
+		"button_" : "OK",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"ItemFirst3":{
+		"textId_" : "#TXCDI00139",
+		"symbol_" : "NOTHING",
+		"button_" : "OK",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"Save1":{
+		"textId_" : "$TXCDI00140",
+		"symbol_" : "NOTHING",
+		"button_" : "YESNO_NO",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"SignOutHistroy":{
+		"textId_" : "$TXCDI00008",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"OpenAchivement":{
+		"textId_" : "$TXBDI00001",
+		"symbol_" : "NOTHING",
+		"button_" : "YESNO_YES",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"OpenAward":{
+		"textId_" : "$TXBDI00002",
+		"symbol_" : "NOTHING",
+		"button_" : "YESNO_YES",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"OpenAA":{
+		"textId_" : "$TXBDI00003",
+		"symbol_" : "NOTHING",
+		"button_" : "YESNO_YES",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"LeagueUpPriseMassage":{
+		"textId_" : "#TXCDI00163",
+		"symbol_" : "NOTHING",
+		"button_" : "OK",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"EndSpCoopPlayTerm":{
+		"textId_" : "#TXCDI00188",
+		"symbol_" : "NOTHING",
+		"button_" : "OK",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"GameExitOnlineEXLeague":{
+		"textId_" : "$TXCDI00154",
+		"symbol_" : "CAUTION",
+		"button_" : "YESNO_NO",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"SpCoopExitMessage":{
+		"textId_" : "$TXCDI00157",
+		"symbol_" : "CAUTION",
+		"button_" : "YESNO_NO",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"image1_1":{
+		"textId_" : "#TXIDI00000",
+		"symbol_" : "NOTHING",
+		"button_" : "NOTHING",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE",
+		"keyAlign_" : "RIGHT_HORIZON",
+		"input0Type_" : "A",
+		"input0Label_" : "#TXKAB00002"
+	},
+	"image1_2":{
+		"textId_" : "#TXIDI00010",
+		"symbol_" : "NOTHING",
+		"button_" : "NOTHING",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE",
+		"keyAlign_" : "RIGHT_HORIZON",
+		"input0Type_" : "Y",
+		"input0Label_" : "#TXKYB00009",
+		"input1Type_" : "A",
+		"input1Label_" : "#TXKAB00010"
+	},
+	"image2_1":{
+		"textId_" : "#TXIDI00030",
+		"symbol_" : "NOTHING",
+		"button_" : "NOTHING",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE",
+		"keyAlign_" : "RIGHT_HORIZON",
+		"input0Type_" : "A",
+		"input0Label_" : "#TXKAB00002"
+	},
+	"image2_2_result":{
+		"textId_" : "#TXIDI00040",
+		"symbol_" : "NOTHING",
+		"button_" : "NOTHING",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE",
+		"keyAlign_" : "RIGHT_HORIZON",
+		"input0Type_" : "A",
+		"input0Label_" : "#TXKAB00010"
+	},
+	"image2_2_menu":{
+		"textId_" : "#TXIDI00040",
+		"symbol_" : "NOTHING",
+		"button_" : "NOTHING",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE",
+		"keyAlign_" : "RIGHT_HORIZON",
+		"input0Type_" : "Y",
+		"input0Label_" : "#TXKYB00007",
+		"input1Type_" : "A",
+		"input1Label_" : "#TXKAB00010"
+	},
+	"image3_1":{
+		"textId_" : "#TXIDI00060",
+		"symbol_" : "NOTHING",
+		"button_" : "NOTHING",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE",
+		"keyAlign_" : "RIGHT_HORIZON",
+		"input0Type_" : "A",
+		"input0Label_" : "#TXKAB00002"
+	},
+	"image3_2":{
+		"textId_" : "#TXIDI00070",
+		"symbol_" : "NOTHING",
+		"button_" : "NOTHING",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE",
+		"keyAlign_" : "RIGHT_HORIZON",
+		"input0Type_" : "Y",
+		"input0Label_" : "#TXKYB00010",
+		"input1Type_" : "A",
+		"input1Label_" : "#TXKAB00010"
+	},
+	"image4_1":{
+		"textId_" : "#TXIDI00150",
+		"symbol_" : "NOTHING",
+		"button_" : "NOTHING",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE",
+		"keyAlign_" : "RIGHT_HORIZON",
+		"input0Type_" : "A",
+		"input0Label_" : "#TXKAB00002"
+	},
+	"image4_2":{
+		"textId_" : "#TXIDI00160",
+		"symbol_" : "NOTHING",
+		"button_" : "NOTHING",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE",
+		"keyAlign_" : "RIGHT_HORIZON",
+		"input0Type_" : "Y",
+		"input0Label_" : "#TXKYB00008",
+		"input1Type_" : "A",
+		"input1Label_" : "#TXKAB00010"
+	},
+	"GetLowPlayerNumInGame":{
+		"textId_" : "$TXCDI00222",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"LostConnectionInGame":{
+		"textId_" : "$TXCDI00223",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"LostConnectionTimeOutInGame":{
+		"textId_" : "$TXCDI00224",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"NoHostInGame":{
+		"textId_" : "$TXCDI00225",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"MigrationFailedInGame":{
+		"textId_" : "$TXCDI00226",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"ContinuingSlowdown":{
+		"textId_" : "$PXCDI10009",
+		"symbol_" : "CAUTION",
+		"button_" : "OK",
+		"se_" : "SE_SYS_WARNING_DIALOG",
+		"pause_" : "PAUSE_APPLICATION_ERROR"
+	},
+	"GoStampRelay":{
+		"textId_" : "#TXMAP00020",
+		"symbol_" : "NOTHING",
+		"button_" : "YESNO_YES",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"ItemFull":{
+		"textId_" : "$TXCDI00038",
+		"symbol_" : "NOTHING",
+		"button_" : "OK",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"UpdateTo110":{
+		"textId_" : "$TXCDI20002",
+		"symbol_" : "NOTHING",
+		"button_" : "YESNO_YES",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	},
+	"attentionReboot":{
+		"textId_" : "$TXCDI20003",
+		"symbol_" : "NOTHING",
+		"button_" : "OK",
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
+	}
+},
+// UI_common.xlsx.tmp Manual 
+
+"manual_":{
+	"CONTROL_0":{
+		"tab_" : "CONTROL",
+		"page_" : 0,
+		"image_" : 2,
+		"titleTextId_" : "#TXMPG20101",
+		"polluxEnable_" : false
+	},
+	"SCREEN_0":{
+		"tab_" : "SCREEN",
+		"page_" : 0,
+		"image_" : 3,
+		"titleTextId_" : "#TXMPG30101",
+		"sideTextId_" : "#TXMPG30001",
+		"polluxEnable_" : false
+	},
+	"SCREEN_1":{
+		"tab_" : "SCREEN",
+		"page_" : 1,
+		"image_" : 20,
+		"titleTextId_" : "#TXMPG30102",
+		"sideTextId_" : "#TXMPG30002",
+		"polluxEnable_" : false
+	},
+	"SCREEN_2":{
+		"tab_" : "SCREEN",
+		"page_" : 2,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG30103",
+		"sideTextId_" : "#TXMPG30003",
+		"polluxEnable_" : false
+	},
+	"RULE_0":{
+		"tab_" : "RULE",
+		"page_" : 2,
+		"image_" : 16,
+		"titleTextId_" : "#TXMPG50101",
+		"sideTextId_" : "#TXMPG50001",
+		"polluxEnable_" : false
+	},
+	"JOB_0":{
+		"tab_" : "JOB",
+		"page_" : 0,
+		"image_" : 4,
+		"titleTextId_" : "#TXMPG40101",
+		"sideTextId_" : "#TXMPG40001",
+		"polluxEnable_" : false
+	},
+	"JOB_1":{
+		"tab_" : "JOB",
+		"page_" : 1,
+		"image_" : 5,
+		"titleTextId_" : "#TXMPG40102",
+		"sideTextId_" : "#TXMPG40002",
+		"polluxEnable_" : true
+	},
+	"JOB_2":{
+		"tab_" : "JOB",
+		"page_" : 2,
+		"image_" : 6,
+		"titleTextId_" : "#TXMPG40103",
+		"sideTextId_" : "#TXMPG40003",
+		"polluxEnable_" : true
+	},
+	"JOB_3":{
+		"tab_" : "JOB",
+		"page_" : 3,
+		"image_" : 7,
+		"titleTextId_" : "#TXMPG40104",
+		"sideTextId_" : "#TXMPG40004",
+		"polluxEnable_" : true
+	},
+	"JOB_4":{
+		"tab_" : "JOB",
+		"page_" : 4,
+		"image_" : 8,
+		"titleTextId_" : "#TXMPG40105",
+		"sideTextId_" : "#TXMPG40005",
+		"polluxEnable_" : true
+	},
+	"JOB_5":{
+		"tab_" : "JOB",
+		"page_" : 5,
+		"image_" : 9,
+		"titleTextId_" : "#TXMPG40106",
+		"sideTextId_" : "#TXMPG40006",
+		"polluxEnable_" : true
+	},
+	"JOB_6":{
+		"tab_" : "JOB",
+		"page_" : 6,
+		"image_" : 10,
+		"titleTextId_" : "#TXMPG40107",
+		"sideTextId_" : "#TXMPG40007",
+		"polluxEnable_" : true
+	},
+	"JOB_7":{
+		"tab_" : "JOB",
+		"page_" : 7,
+		"image_" : 11,
+		"titleTextId_" : "#TXMPG40108",
+		"sideTextId_" : "#TXMPG40008",
+		"polluxEnable_" : true
+	},
+	"JOB_8":{
+		"tab_" : "JOB",
+		"page_" : 8,
+		"image_" : 12,
+		"titleTextId_" : "#TXMPG40109",
+		"sideTextId_" : "#TXMPG40009",
+		"polluxEnable_" : true
+	},
+	"JOB_9":{
+		"tab_" : "JOB",
+		"page_" : 9,
+		"image_" : 13,
+		"titleTextId_" : "#TXMPG40110",
+		"sideTextId_" : "#TXMPG40010",
+		"polluxEnable_" : false
+	},
+	"JOB_10":{
+		"tab_" : "JOB",
+		"page_" : 10,
+		"image_" : 14,
+		"titleTextId_" : "#TXMPG40111",
+		"sideTextId_" : "#TXMPG40011",
+		"polluxEnable_" : false
+	},
+	"JOB_11":{
+		"tab_" : "JOB",
+		"page_" : 11,
+		"image_" : 15,
+		"titleTextId_" : "#TXMPG40112",
+		"sideTextId_" : "#TXMPG40012",
+		"polluxEnable_" : true
+	},
+	"GIMMICK_0":{
+		"tab_" : "GIMMICK",
+		"page_" : 0,
+		"image_" : 17,
+		"titleTextId_" : "#TXMPG60101",
+		"sideTextId_" : "#TXMPG60001",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_1":{
+		"tab_" : "GIMMICK",
+		"page_" : 1,
+		"image_" : 17,
+		"titleTextId_" : "#TXMPG60101",
+		"sideTextId_" : "#TXMPG60004",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_2":{
+		"tab_" : "GIMMICK",
+		"page_" : 2,
+		"image_" : 18,
+		"titleTextId_" : "#TXMPG60101",
+		"sideTextId_" : "#TXMPG60002",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_3":{
+		"tab_" : "GIMMICK",
+		"page_" : 3,
+		"image_" : 19,
+		"titleTextId_" : "#TXMPG60101",
+		"sideTextId_" : "#TXMPG60003",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_4":{
+		"tab_" : "GIMMICK",
+		"page_" : 4,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60103",
+		"sideTextId_" : "#TXMPG60006",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_5":{
+		"tab_" : "GIMMICK",
+		"page_" : 5,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60103",
+		"sideTextId_" : "#TXMPG60007",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_6":{
+		"tab_" : "GIMMICK",
+		"page_" : 6,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60103",
+		"sideTextId_" : "#TXMPG60008",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_7":{
+		"tab_" : "GIMMICK",
+		"page_" : 7,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60103",
+		"sideTextId_" : "#TXMPG60009",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_8":{
+		"tab_" : "GIMMICK",
+		"page_" : 8,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60103",
+		"sideTextId_" : "#TXMPG60010",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_9":{
+		"tab_" : "GIMMICK",
+		"page_" : 9,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60103",
+		"sideTextId_" : "#TXMPG60011",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_10":{
+		"tab_" : "GIMMICK",
+		"page_" : 10,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60103",
+		"sideTextId_" : "#TXMPG60013",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_11":{
+		"tab_" : "GIMMICK",
+		"page_" : 11,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60103",
+		"sideTextId_" : "#TXMPG60014",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_12":{
+		"tab_" : "GIMMICK",
+		"page_" : 12,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60103",
+		"sideTextId_" : "#TXMPG60015",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_13":{
+		"tab_" : "GIMMICK",
+		"page_" : 13,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60104",
+		"sideTextId_" : "#TXMPG60016",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_14":{
+		"tab_" : "GIMMICK",
+		"page_" : 14,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60104",
+		"sideTextId_" : "#TXMPG60017",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_15":{
+		"tab_" : "GIMMICK",
+		"page_" : 15,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60105",
+		"sideTextId_" : "#TXMPG60018",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_16":{
+		"tab_" : "GIMMICK",
+		"page_" : 16,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60105",
+		"sideTextId_" : "#TXMPG60019",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_17":{
+		"tab_" : "GIMMICK",
+		"page_" : 17,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60105",
+		"sideTextId_" : "#TXMPG60020",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_18":{
+		"tab_" : "GIMMICK",
+		"page_" : 18,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60105",
+		"sideTextId_" : "#TXMPG60021",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_19":{
+		"tab_" : "GIMMICK",
+		"page_" : 19,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60105",
+		"sideTextId_" : "#TXMPG60022",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_20":{
+		"tab_" : "GIMMICK",
+		"page_" : 20,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60105",
+		"sideTextId_" : "#TXMPG60023",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_21":{
+		"tab_" : "GIMMICK",
+		"page_" : 21,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60106",
+		"sideTextId_" : "#TXMPG60024",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_22":{
+		"tab_" : "GIMMICK",
+		"page_" : 22,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60106",
+		"sideTextId_" : "#TXMPG60025",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_23":{
+		"tab_" : "GIMMICK",
+		"page_" : 23,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60106",
+		"sideTextId_" : "#TXMPG60033",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_24":{
+		"tab_" : "GIMMICK",
+		"page_" : 24,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60106",
+		"sideTextId_" : "#TXMPG60026",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_25":{
+		"tab_" : "GIMMICK",
+		"page_" : 25,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60106",
+		"sideTextId_" : "#TXMPG60027",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_26":{
+		"tab_" : "GIMMICK",
+		"page_" : 26,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60106",
+		"sideTextId_" : "#TXMPG60028",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_27":{
+		"tab_" : "GIMMICK",
+		"page_" : 27,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60107",
+		"sideTextId_" : "#TXMPG60029",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_28":{
+		"tab_" : "GIMMICK",
+		"page_" : 28,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60107",
+		"sideTextId_" : "#TXMPG60030",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_29":{
+		"tab_" : "GIMMICK",
+		"page_" : 29,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60108",
+		"sideTextId_" : "#TXMPG60031",
+		"polluxEnable_" : false
+	},
+	"VOICE_0":{
+		"tab_" : "VOICE",
+		"page_" : 0,
+		"image_" : 21,
+		"titleTextId_" : "#TXMPG70101",
+		"sideTextId_" : "#TXMPG70001",
+		"polluxEnable_" : false
+	},
+	"VOICE_1":{
+		"tab_" : "VOICE",
+		"page_" : 1,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG70102",
+		"sideTextId_" : "#TXMPG70002",
+		"polluxEnable_" : false
+	}
+},
+// UI_common.xlsx.tmp Setting 
+
+"setting_":{
+	"_":{
+		"se_" : "SE_SYS_CHANGE_TAB",
+		"voice_" : 0,
+		"tipsMaxNo_" : 67
+	}
+},
+// UI_common.xlsx.tmp Menu_TagString 
+
+"matchingTags_":{
+	"0x14":{
+		"localeId_" : "XC_LOCALE_JAPAN",
+		"tag00_" : "DOG",
+		"tag01_" : "CAT",
+		"tag02_" : "TEA",
+		"tag03_" : "COFFEE",
+		"tag04_" : "BEEF",
+		"tag05_" : "CHICKEN",
+		"tag06_" : "-",
+		"tag07_" : "-",
+		"tag08_" : "-",
+		"tag09_" : "-",
+		"tag10_" : "-",
+		"tag11_" : "-",
+		"tag12_" : "-",
+		"tag13_" : "-",
+		"tag14_" : "-"
+	},
+	"0x24":{
+		"localeId_" : "XC_LOCALE_UNITED_STATES",
+		"tag00_" : "DOG",
+		"tag01_" : "CAT",
+		"tag02_" : "TEA",
+		"tag03_" : "COFFEE",
+		"tag04_" : "BEEF",
+		"tag05_" : "CHICKEN",
+		"tag06_" : "-",
+		"tag07_" : "-",
+		"tag08_" : "-",
+		"tag09_" : "-",
+		"tag10_" : "-",
+		"tag11_" : "-",
+		"tag12_" : "-",
+		"tag13_" : "-",
+		"tag14_" : "-"
+	},
+	"0x00":{
+		"localeId_" : "XC_LOCALE_UNKNOWN",
+		"tag00_" : "DOG",
+		"tag01_" : "CAT",
+		"tag02_" : "TEA",
+		"tag03_" : "COFFEE",
+		"tag04_" : "BEEF",
+		"tag05_" : "CHICKEN",
+		"tag06_" : "-",
+		"tag07_" : "-",
+		"tag08_" : "-",
+		"tag09_" : "-",
+		"tag10_" : "-",
+		"tag11_" : "-",
+		"tag12_" : "-",
+		"tag13_" : "-",
+		"tag14_" : "-"
+	}
+}}}

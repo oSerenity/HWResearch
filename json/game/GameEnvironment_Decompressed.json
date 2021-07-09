@@ -1,0 +1,1158 @@
+/* XDASEA_Xm8R_SPsX */ 
+// Gemini_GameEnvironment.xlsx.tmp Difficulty 
+
+{"JsonGameEnvironment":{"difficulty_":{
+	"NORMAL":{
+		"WhiteNormalDamageRate" : 0.85,
+		"BlackNormalDamageRate" : 1,
+		"WhiteEtcDamageRate" : 0.7,
+		"BlackEtcDamageRate" : 1,
+		"WhiteUseAPRate" : 1,
+		"BlackUseAPRate" : 1,
+		"WhiteBotAttackRate" : 1,
+		"BlackBotAttackRate" : 1
+	},
+	"HARD":{
+		"WhiteNormalDamageRate" : 1.3,
+		"BlackNormalDamageRate" : 1,
+		"WhiteEtcDamageRate" : 1.2,
+		"BlackEtcDamageRate" : 1,
+		"WhiteUseAPRate" : 1,
+		"BlackUseAPRate" : 0.7,
+		"WhiteBotAttackRate" : 1,
+		"BlackBotAttackRate" : 2
+	},
+	"SUPER_HARD":{
+		"WhiteNormalDamageRate" : 1.6,
+		"BlackNormalDamageRate" : 0.8,
+		"WhiteEtcDamageRate" : 1.4,
+		"BlackEtcDamageRate" : 0.8,
+		"WhiteUseAPRate" : 1,
+		"BlackUseAPRate" : 0.5,
+		"WhiteBotAttackRate" : 1,
+		"BlackBotAttackRate" : 3
+	},
+	"COM_NORMAL":{
+		"WhiteNormalDamageRate" : 1,
+		"BlackNormalDamageRate" : 2,
+		"WhiteEtcDamageRate" : 1,
+		"BlackEtcDamageRate" : 2,
+		"WhiteUseAPRate" : 1,
+		"BlackUseAPRate" : 3,
+		"WhiteBotAttackRate" : 0.2,
+		"BlackBotAttackRate" : 0.2
+	},
+	"COM_HARD":{
+		"WhiteNormalDamageRate" : 1,
+		"BlackNormalDamageRate" : 1,
+		"WhiteEtcDamageRate" : 1,
+		"BlackEtcDamageRate" : 1,
+		"WhiteUseAPRate" : 1,
+		"BlackUseAPRate" : 1.5,
+		"WhiteBotAttackRate" : 1,
+		"BlackBotAttackRate" : 1
+	},
+	"COM_SUPER_HARD":{
+		"WhiteNormalDamageRate" : 1.6,
+		"BlackNormalDamageRate" : 1,
+		"WhiteEtcDamageRate" : 1.3,
+		"BlackEtcDamageRate" : 1,
+		"WhiteUseAPRate" : 1,
+		"BlackUseAPRate" : 0.7,
+		"WhiteBotAttackRate" : 1.3,
+		"BlackBotAttackRate" : 1.5
+	}
+},
+// Gemini_GameEnvironment.xlsx.tmp GlobalSetting 
+
+"globalSetting_":{
+	"Default":{
+		"YoungRank" : 5,
+		"YoungWinCount" : 3,
+		"YoungMaxScore" : 300,
+		"ToYoungScoreRate_Heal" : 2,
+		"ToYoungScoreRate_Resurrect" : 2
+	}
+},
+// Gemini_GameEnvironment.xlsx.tmp SeedSetting 
+
+"seedSetting_":{
+	"SinglePlay":{
+		"StartWaitTime" : 10,
+		"EndWaitTime" : 25,
+		"NormalRebirthTime" : 7,
+		"PenaltyRebirthTime" : 12,
+		"MenuRespawnRebirthTime" : 15,
+		"BotAttackFrequency" : 0.5,
+		"BotShootFrequency" : 0.7,
+		"EnableLeagueFrequencyRate" : false
+	},
+	"MultiPlay":{
+		"StartWaitTime" : 10,
+		"EndWaitTime" : 25,
+		"NormalRebirthTime" : 7,
+		"PenaltyRebirthTime" : 12,
+		"MenuRespawnRebirthTime" : 15,
+		"BotAttackFrequency" : 1,
+		"BotShootFrequency" : 1,
+		"EnableLeagueFrequencyRate" : true
+	}
+},
+// Gemini_GameEnvironment.xlsx.tmp ModeSetting 
+
+"modeSetting_":{
+	"Mode_Trial":{
+		"ExperienceRate" : 1,
+		"ScoreRate" : 1,
+		"HappyStarRate" : 1,
+		"LotteryLevelDiff" : 0,
+		"RankCap" : -1,
+		"ScoreCap" : -1,
+		"LeagueBattle" : false,
+		"EnableBattleRecord" : false,
+		"EnableGetItem" : false,
+		"EnableGrowthItem" : false,
+		"EnableHeroPopup" : false,
+		"ResultScore" : false,
+		"ResultRankingUnion" : false,
+		"ResultRankingEnemy" : false,
+		"GamePlayerListUnion" : false,
+		"GamePlayerListEnemy" : false,
+		"GameSeedSetting" : "SinglePlay",
+		"StageDecoration" : false,
+		"RecordingResultHistory" : false
+	},
+	"Mode_Tutorial":{
+		"ExperienceRate" : 1,
+		"ScoreRate" : 1,
+		"HappyStarRate" : 1,
+		"LotteryLevelDiff" : 0,
+		"RankCap" : -1,
+		"ScoreCap" : -1,
+		"LeagueBattle" : false,
+		"EnableBattleRecord" : false,
+		"EnableGetItem" : false,
+		"EnableGrowthItem" : false,
+		"EnableHeroPopup" : false,
+		"ResultScore" : false,
+		"ResultRankingUnion" : false,
+		"ResultRankingEnemy" : false,
+		"GamePlayerListUnion" : false,
+		"GamePlayerListEnemy" : false,
+		"GameSeedSetting" : "SinglePlay",
+		"StageDecoration" : false,
+		"RecordingResultHistory" : false
+	},
+	"Mode_Story":{
+		"ExperienceRate" : 1,
+		"ScoreRate" : 1,
+		"HappyStarRate" : 1,
+		"LotteryLevelDiff" : 0,
+		"RankCap" : -1,
+		"ScoreCap" : -1,
+		"LeagueBattle" : false,
+		"EnableBattleRecord" : false,
+		"EnableGetItem" : false,
+		"EnableGrowthItem" : false,
+		"EnableHeroPopup" : false,
+		"ResultScore" : false,
+		"ResultRankingUnion" : true,
+		"ResultRankingEnemy" : false,
+		"GamePlayerListUnion" : true,
+		"GamePlayerListEnemy" : false,
+		"GameSeedSetting" : "SinglePlay",
+		"StageDecoration" : false,
+		"RecordingResultHistory" : false
+	},
+	"Mode_Wars":{
+		"ExperienceRate" : 1,
+		"ScoreRate" : 0.4,
+		"HappyStarRate" : 0.1,
+		"LotteryLevelDiff" : -3,
+		"RankCap" : 20,
+		"ScoreCap" : 1000,
+		"LeagueBattle" : false,
+		"EnableBattleRecord" : false,
+		"EnableGetItem" : true,
+		"EnableGrowthItem" : true,
+		"EnableHeroPopup" : true,
+		"ResultScore" : true,
+		"ResultRankingUnion" : true,
+		"ResultRankingEnemy" : true,
+		"GamePlayerListUnion" : true,
+		"GamePlayerListEnemy" : true,
+		"GameSeedSetting" : "SinglePlay",
+		"KillScoreLimitStartSec" : 3.5,
+		"KillScoreLimitEndSec" : 10,
+		"StageDecoration" : true,
+		"RecordingResultHistory" : false,
+		"PenaltyScore" : 150,
+		"PenaltyParam" : 0,
+		"ItemGrowthParamKey" : "TrainingMode"
+	},
+	"Mode_QuickMatch":{
+		"ExperienceRate" : 1,
+		"ScoreRate" : 1.25,
+		"HappyStarRate" : 1,
+		"LotteryLevelDiff" : 0,
+		"RankCap" : 60,
+		"ScoreCap" : 3000,
+		"LeagueBattle" : true,
+		"EnableBattleRecord" : true,
+		"EnableGetItem" : true,
+		"EnableGrowthItem" : true,
+		"EnableHeroPopup" : true,
+		"ResultScore" : true,
+		"ResultRankingUnion" : true,
+		"ResultRankingEnemy" : true,
+		"GamePlayerListUnion" : true,
+		"GamePlayerListEnemy" : true,
+		"GameSeedSetting" : "MultiPlay",
+		"KillScoreLimitStartSec" : 4,
+		"KillScoreLimitEndSec" : 10,
+		"StageDecoration" : true,
+		"RecordingResultHistory" : true,
+		"PenaltyScore" : 150,
+		"PenaltyParam" : 0,
+		"ItemGrowthParamKey" : "DefaultGameMode"
+	},
+	"Mode_PrivateMatch":{
+		"ExperienceRate" : 1,
+		"ScoreRate" : 1,
+		"HappyStarRate" : 1,
+		"LotteryLevelDiff" : 0,
+		"RankCap" : -1,
+		"ScoreCap" : 3000,
+		"LeagueBattle" : false,
+		"EnableBattleRecord" : false,
+		"EnableGetItem" : false,
+		"EnableGrowthItem" : false,
+		"EnableHeroPopup" : true,
+		"ResultScore" : true,
+		"ResultRankingUnion" : true,
+		"ResultRankingEnemy" : true,
+		"GamePlayerListUnion" : true,
+		"GamePlayerListEnemy" : true,
+		"GameSeedSetting" : "MultiPlay",
+		"KillScoreLimitStartSec" : 4,
+		"KillScoreLimitEndSec" : 10,
+		"StageDecoration" : true,
+		"RecordingResultHistory" : false
+	},
+	"Mode_NormalCoop":{
+		"ExperienceRate" : 1,
+		"ScoreRate" : 1,
+		"HappyStarRate" : 0.5,
+		"LotteryLevelDiff" : -1,
+		"RankCap" : 60,
+		"ScoreCap" : 3000,
+		"LeagueBattle" : false,
+		"EnableBattleRecord" : true,
+		"EnableGetItem" : true,
+		"EnableGrowthItem" : true,
+		"EnableHeroPopup" : true,
+		"ResultScore" : true,
+		"ResultRankingUnion" : true,
+		"ResultRankingEnemy" : false,
+		"GamePlayerListUnion" : true,
+		"GamePlayerListEnemy" : true,
+		"GameSeedSetting" : "SinglePlay",
+		"KillScoreLimitStartSec" : 4,
+		"KillScoreLimitEndSec" : 10,
+		"StageDecoration" : true,
+		"RecordingResultHistory" : false,
+		"ItemGrowthParamKey" : "DefaultGameMode"
+	},
+	"Mode_ChallengeCoop":{
+		"ExperienceRate" : 1,
+		"ScoreRate" : 1,
+		"HappyStarRate" : 1,
+		"LotteryLevelDiff" : -1,
+		"RankCap" : 60,
+		"ScoreCap" : 3000,
+		"LeagueBattle" : false,
+		"EnableBattleRecord" : true,
+		"EnableGetItem" : true,
+		"EnableGrowthItem" : true,
+		"EnableHeroPopup" : true,
+		"ResultScore" : true,
+		"ResultRankingUnion" : true,
+		"ResultRankingEnemy" : false,
+		"GamePlayerListUnion" : true,
+		"GamePlayerListEnemy" : true,
+		"GameSeedSetting" : "SinglePlay",
+		"KillScoreLimitStartSec" : 2,
+		"KillScoreLimitEndSec" : 5,
+		"StageDecoration" : true,
+		"RecordingResultHistory" : false,
+		"PenaltyScore" : 150,
+		"PenaltyParam" : 0,
+		"ItemGrowthParamKey" : "SPcoopGameMode"
+	},
+	"Mode_EventMatch":{
+		"ExperienceRate" : 1,
+		"ScoreRate" : 1,
+		"HappyStarRate" : 1,
+		"LotteryLevelDiff" : -1,
+		"RankCap" : 60,
+		"ScoreCap" : 3000,
+		"LeagueBattle" : true,
+		"EnableBattleRecord" : true,
+		"EnableGetItem" : true,
+		"EnableGrowthItem" : true,
+		"EnableHeroPopup" : true,
+		"ResultScore" : true,
+		"ResultRankingUnion" : true,
+		"ResultRankingEnemy" : true,
+		"GamePlayerListUnion" : true,
+		"GamePlayerListEnemy" : true,
+		"GameSeedSetting" : "MultiPlay",
+		"KillScoreLimitStartSec" : 4,
+		"KillScoreLimitEndSec" : 10,
+		"StageDecoration" : true,
+		"RecordingResultHistory" : true,
+		"PenaltyScore" : 150,
+		"PenaltyParam" : 0,
+		"ItemGrowthParamKey" : "EventGameMode"
+	},
+	"Mode_DefenseMode":{
+		"ExperienceRate" : 1,
+		"ScoreRate" : 1,
+		"HappyStarRate" : 1,
+		"LotteryLevelDiff" : -1,
+		"RankCap" : 60,
+		"ScoreCap" : 3000,
+		"LeagueBattle" : false,
+		"EnableBattleRecord" : true,
+		"EnableGetItem" : true,
+		"EnableGrowthItem" : true,
+		"EnableHeroPopup" : true,
+		"ResultScore" : true,
+		"ResultRankingUnion" : true,
+		"ResultRankingEnemy" : false,
+		"GamePlayerListUnion" : true,
+		"GamePlayerListEnemy" : false,
+		"GameSeedSetting" : "MultiPlay",
+		"StageDecoration" : true,
+		"RecordingResultHistory" : false,
+		"PenaltyScore" : 150,
+		"PenaltyParam" : 0,
+		"ItemGrowthParamKey" : "DeffenceGameMode"
+	}
+},
+// Gemini_GameEnvironment.xlsx.tmp InitialProfile 
+
+"initialProfile_":{
+	"Warrior_01":{
+		"JobType" : "WARRIOR",
+		"SexType" : "MALE",
+		"PersonalityType" : "TYPE_A",
+		"EyeType" : "EYE_02",
+		"EyeOffsetType" : "DEFAULT",
+		"MouthType" : "MOUTH_12",
+		"MouthOffsetType" : "DEFAULT",
+		"HairType" : "HAIR_00",
+		"HairColorType" : "HAIR_COLOR_00",
+		"SkinColorType" : "SKIN_COLOR_03"
+	},
+	"Warrior_02":{
+		"JobType" : "WARRIOR",
+		"SexType" : "MALE",
+		"PersonalityType" : "TYPE_A",
+		"EyeType" : "EYE_00",
+		"EyeOffsetType" : "DEFAULT",
+		"MouthType" : "MOUTH_00",
+		"MouthOffsetType" : "DEFAULT",
+		"HairType" : "HAIR_01",
+		"HairColorType" : "HAIR_COLOR_01",
+		"SkinColorType" : "SKIN_COLOR_01"
+	},
+	"Warrior_03":{
+		"JobType" : "WARRIOR",
+		"SexType" : "FEMALE",
+		"PersonalityType" : "TYPE_A",
+		"EyeType" : "EYE_15",
+		"EyeOffsetType" : "DEFAULT",
+		"MouthType" : "MOUTH_18",
+		"MouthOffsetType" : "DEFAULT",
+		"HairType" : "HAIR_06",
+		"HairColorType" : "HAIR_COLOR_02",
+		"SkinColorType" : "SKIN_COLOR_00"
+	},
+	"Cleric_01":{
+		"JobType" : "CLERIC",
+		"SexType" : "MALE",
+		"PersonalityType" : "TYPE_C",
+		"EyeType" : "EYE_05",
+		"EyeOffsetType" : "DEFAULT",
+		"MouthType" : "MOUTH_14",
+		"MouthOffsetType" : "DEFAULT",
+		"HairType" : "HAIR_02",
+		"HairColorType" : "HAIR_COLOR_02",
+		"SkinColorType" : "SKIN_COLOR_00"
+	},
+	"Cleric_02":{
+		"JobType" : "CLERIC",
+		"SexType" : "MALE",
+		"PersonalityType" : "TYPE_C",
+		"EyeType" : "EYE_09",
+		"EyeOffsetType" : "DEFAULT",
+		"MouthType" : "MOUTH_02",
+		"MouthOffsetType" : "DEFAULT",
+		"HairType" : "HAIR_01",
+		"HairColorType" : "HAIR_COLOR_00",
+		"SkinColorType" : "SKIN_COLOR_03"
+	},
+	"Cleric_03":{
+		"JobType" : "CLERIC",
+		"SexType" : "FEMALE",
+		"PersonalityType" : "TYPE_C",
+		"EyeType" : "EYE_18",
+		"EyeOffsetType" : "DEFAULT",
+		"MouthType" : "MOUTH_15",
+		"MouthOffsetType" : "DEFAULT",
+		"HairType" : "HAIR_07",
+		"HairColorType" : "HAIR_COLOR_01",
+		"SkinColorType" : "SKIN_COLOR_01"
+	},
+	"Mage_01":{
+		"JobType" : "MAGE",
+		"SexType" : "FEMALE",
+		"PersonalityType" : "TYPE_A",
+		"EyeType" : "EYE_11",
+		"EyeOffsetType" : "DEFAULT",
+		"MouthType" : "MOUTH_17",
+		"MouthOffsetType" : "DEFAULT",
+		"HairType" : "HAIR_04",
+		"HairColorType" : "HAIR_COLOR_01",
+		"SkinColorType" : "SKIN_COLOR_01"
+	},
+	"Mage_02":{
+		"JobType" : "MAGE",
+		"SexType" : "MALE",
+		"PersonalityType" : "TYPE_A",
+		"EyeType" : "EYE_03",
+		"EyeOffsetType" : "DEFAULT",
+		"MouthType" : "MOUTH_11",
+		"MouthOffsetType" : "DEFAULT",
+		"HairType" : "HAIR_03",
+		"HairColorType" : "HAIR_COLOR_02",
+		"SkinColorType" : "SKIN_COLOR_00"
+	},
+	"Mage_03":{
+		"JobType" : "MAGE",
+		"SexType" : "MALE",
+		"PersonalityType" : "TYPE_A",
+		"EyeType" : "EYE_04",
+		"EyeOffsetType" : "DEFAULT",
+		"MouthType" : "MOUTH_16",
+		"MouthOffsetType" : "DEFAULT",
+		"HairType" : "HAIR_05",
+		"HairColorType" : "HAIR_COLOR_00",
+		"SkinColorType" : "SKIN_COLOR_03"
+	}
+},
+// Gemini_GameEnvironment.xlsx.tmp LinkageTitle 
+
+"linkageTitle_":{
+	"Version":{
+		"Index" : 20130529
+	},
+	"Title01":{
+		"Index" : 1,
+		"TitleID" : "0x584108B7"
+	},
+	"Title02":{
+		"Index" : 2,
+		"TitleID" : "0x58410A1B"
+	},
+	"Title03":{
+		"Index" : 3,
+		"TitleID" : "0x584111F7"
+	}
+},
+// Gemini_GameEnvironment.xlsx.tmp LoginBonus 
+
+"loginBonusCalendar_":{
+	"Default":{
+		"IsEnable" : true,
+		"Day_01" : "Star_1",
+		"Day_02" : "Star_2",
+		"Day_03" : "Star_3",
+		"Day_04" : "Star_4",
+		"Day_05" : "Star_5",
+		"Day_06" : "Star_6",
+		"Day_07" : "Item1_P",
+		"Day_08" : "Star_7",
+		"Day_09" : "Star_8",
+		"Day_10" : "Star_9",
+		"Day_11" : "Star_10",
+		"Day_12" : "Star_11",
+		"Day_13" : "Star_12",
+		"Day_14" : "Item2_P",
+		"Day_15" : "Star_13",
+		"Day_16" : "Star_14",
+		"Day_17" : "Star_15",
+		"Day_18" : "Star_16",
+		"Day_19" : "Star_17",
+		"Day_20" : "Star_18",
+		"Day_21" : "Item_SP",
+		"Day_22" : "Star_19",
+		"Day_23" : "Star_19",
+		"Day_24" : "Star_19",
+		"Day_25" : "Star_19",
+		"Day_26" : "Star_19",
+		"Day_27" : "Star_19",
+		"Day_28" : "Star_19",
+		"Day_29" : "Star_19",
+		"Day_30" : "Star_19",
+		"Day_31" : "Star_19"
+	},
+	"DATE_201408":{
+		"IsEnable" : true,
+		"Day_01" : "Star_1",
+		"Day_02" : "Star_2",
+		"Day_03" : "Star_3",
+		"Day_04" : "Star_4",
+		"Day_05" : "Star_5",
+		"Day_06" : "Star_6",
+		"Day_07" : "Item1_P",
+		"Day_08" : "Star_7",
+		"Day_09" : "Star_8",
+		"Day_10" : "Star_9",
+		"Day_11" : "Star_10",
+		"Day_12" : "Star_11",
+		"Day_13" : "Star_12",
+		"Day_14" : "Item2_P",
+		"Day_15" : "Star_13",
+		"Day_16" : "Star_14",
+		"Day_17" : "Star_15",
+		"Day_18" : "Star_16",
+		"Day_19" : "Star_17",
+		"Day_20" : "Star_18",
+		"Day_21" : "Item_SP",
+		"Day_22" : "Star_19",
+		"Day_23" : "Star_19",
+		"Day_24" : "Star_19",
+		"Day_25" : "Star_19",
+		"Day_26" : "Star_19",
+		"Day_27" : "Star_19",
+		"Day_28" : "Star_19",
+		"Day_29" : "Star_19",
+		"Day_30" : "Star_19",
+		"Day_31" : "Star_19"
+	},
+	"DATE_201409":{
+		"IsEnable" : true,
+		"Day_01" : "Star_1",
+		"Day_02" : "Star_2",
+		"Day_03" : "Star_3",
+		"Day_04" : "Star_4",
+		"Day_05" : "Star_5",
+		"Day_06" : "Star_6",
+		"Day_07" : "Item1_P",
+		"Day_08" : "Star_7",
+		"Day_09" : "Star_8",
+		"Day_10" : "Star_9",
+		"Day_11" : "Star_10",
+		"Day_12" : "Star_11",
+		"Day_13" : "Star_12",
+		"Day_14" : "Item2_P",
+		"Day_15" : "Star_13",
+		"Day_16" : "Star_14",
+		"Day_17" : "Star_15",
+		"Day_18" : "Star_16",
+		"Day_19" : "Star_17",
+		"Day_20" : "Star_18",
+		"Day_21" : "Item_SP",
+		"Day_22" : "Star_19",
+		"Day_23" : "Star_19",
+		"Day_24" : "Star_19",
+		"Day_25" : "Star_19",
+		"Day_26" : "Star_19",
+		"Day_27" : "Star_19",
+		"Day_28" : "Star_19",
+		"Day_29" : "Star_19",
+		"Day_30" : "Star_19",
+		"Day_31" : "Star_19"
+	},
+	"DATE_201410":{
+		"IsEnable" : true,
+		"Day_01" : "Star_1",
+		"Day_02" : "Star_2",
+		"Day_03" : "Star_3",
+		"Day_04" : "Star_4",
+		"Day_05" : "Star_5",
+		"Day_06" : "Star_6",
+		"Day_07" : "Item1_P",
+		"Day_08" : "Star_7",
+		"Day_09" : "Star_8",
+		"Day_10" : "Star_9",
+		"Day_11" : "Star_10",
+		"Day_12" : "Star_11",
+		"Day_13" : "Star_12",
+		"Day_14" : "Item2_P",
+		"Day_15" : "Star_13",
+		"Day_16" : "Star_14",
+		"Day_17" : "Star_15",
+		"Day_18" : "Star_16",
+		"Day_19" : "Star_17",
+		"Day_20" : "Star_18",
+		"Day_21" : "Item_SP",
+		"Day_22" : "Star_19",
+		"Day_23" : "Star_19",
+		"Day_24" : "Star_19",
+		"Day_25" : "Star_19",
+		"Day_26" : "Star_19",
+		"Day_27" : "Star_19",
+		"Day_28" : "Star_19",
+		"Day_29" : "Star_19",
+		"Day_30" : "Star_19",
+		"Day_31" : "Star_19"
+	},
+	"DATE_201411":{
+		"IsEnable" : true,
+		"Day_01" : "Star_1",
+		"Day_02" : "Star_2",
+		"Day_03" : "Star_3",
+		"Day_04" : "Star_4",
+		"Day_05" : "Star_5",
+		"Day_06" : "Star_6",
+		"Day_07" : "Item1_P",
+		"Day_08" : "Star_7",
+		"Day_09" : "Star_8",
+		"Day_10" : "Star_9",
+		"Day_11" : "Star_10",
+		"Day_12" : "Star_11",
+		"Day_13" : "Star_12",
+		"Day_14" : "Item2_P",
+		"Day_15" : "Star_13",
+		"Day_16" : "Star_14",
+		"Day_17" : "Star_15",
+		"Day_18" : "Star_16",
+		"Day_19" : "Star_17",
+		"Day_20" : "Star_18",
+		"Day_21" : "Item_SP",
+		"Day_22" : "Star_19",
+		"Day_23" : "Star_19",
+		"Day_24" : "Star_19",
+		"Day_25" : "Star_19",
+		"Day_26" : "Star_19",
+		"Day_27" : "Star_19",
+		"Day_28" : "Star_19",
+		"Day_29" : "Star_19",
+		"Day_30" : "Star_19",
+		"Day_31" : "Star_19"
+	},
+	"DATE_201412":{
+		"IsEnable" : true,
+		"Day_01" : "Star_1",
+		"Day_02" : "Star_2",
+		"Day_03" : "Star_3",
+		"Day_04" : "Star_4",
+		"Day_05" : "Star_5",
+		"Day_06" : "Star_6",
+		"Day_07" : "Item1_P",
+		"Day_08" : "Star_7",
+		"Day_09" : "Star_8",
+		"Day_10" : "Star_9",
+		"Day_11" : "Star_10",
+		"Day_12" : "Star_11",
+		"Day_13" : "Star_12",
+		"Day_14" : "Item2_P",
+		"Day_15" : "Star_13",
+		"Day_16" : "Star_14",
+		"Day_17" : "Star_15",
+		"Day_18" : "Star_16",
+		"Day_19" : "Star_17",
+		"Day_20" : "Star_18",
+		"Day_21" : "Item_SP",
+		"Day_22" : "Star_19",
+		"Day_23" : "Star_19",
+		"Day_24" : "Star_19",
+		"Day_25" : "Star_19",
+		"Day_26" : "Star_19",
+		"Day_27" : "Star_19",
+		"Day_28" : "Star_19",
+		"Day_29" : "Star_19",
+		"Day_30" : "Star_19",
+		"Day_31" : "Star_19"
+	},
+	"DATE_201501":{
+		"IsEnable" : true,
+		"Day_01" : "Star_1",
+		"Day_02" : "Star_2",
+		"Day_03" : "Star_3",
+		"Day_04" : "Star_4",
+		"Day_05" : "Star_5",
+		"Day_06" : "Star_6",
+		"Day_07" : "Item1_P",
+		"Day_08" : "Star_7",
+		"Day_09" : "Star_8",
+		"Day_10" : "Star_9",
+		"Day_11" : "Star_10",
+		"Day_12" : "Star_11",
+		"Day_13" : "Star_12",
+		"Day_14" : "Item2_P",
+		"Day_15" : "Star_13",
+		"Day_16" : "Star_14",
+		"Day_17" : "Star_15",
+		"Day_18" : "Star_16",
+		"Day_19" : "Star_17",
+		"Day_20" : "Star_18",
+		"Day_21" : "Item_SP",
+		"Day_22" : "Star_19",
+		"Day_23" : "Star_19",
+		"Day_24" : "Star_19",
+		"Day_25" : "Star_19",
+		"Day_26" : "Star_19",
+		"Day_27" : "Star_19",
+		"Day_28" : "Star_19",
+		"Day_29" : "Star_19",
+		"Day_30" : "Star_19",
+		"Day_31" : "Star_19"
+	},
+	"DATE_201502":{
+		"IsEnable" : true,
+		"Day_01" : "Star_1",
+		"Day_02" : "Star_2",
+		"Day_03" : "Star_3",
+		"Day_04" : "Star_4",
+		"Day_05" : "Star_5",
+		"Day_06" : "Star_6",
+		"Day_07" : "Item1_P",
+		"Day_08" : "Star_7",
+		"Day_09" : "Star_8",
+		"Day_10" : "Star_9",
+		"Day_11" : "Star_10",
+		"Day_12" : "Star_11",
+		"Day_13" : "Star_12",
+		"Day_14" : "Item2_P",
+		"Day_15" : "Star_13",
+		"Day_16" : "Star_14",
+		"Day_17" : "Star_15",
+		"Day_18" : "Star_16",
+		"Day_19" : "Star_17",
+		"Day_20" : "Star_18",
+		"Day_21" : "Item_SP",
+		"Day_22" : "Star_19",
+		"Day_23" : "Star_19",
+		"Day_24" : "Star_19",
+		"Day_25" : "Star_19",
+		"Day_26" : "Star_19",
+		"Day_27" : "Star_19",
+		"Day_28" : "Star_19",
+		"Day_29" : "Star_19",
+		"Day_30" : "Star_19",
+		"Day_31" : "Star_19"
+	},
+	"DATE_201503":{
+		"IsEnable" : true,
+		"Day_01" : "Star_1",
+		"Day_02" : "Star_2",
+		"Day_03" : "Star_3",
+		"Day_04" : "Star_4",
+		"Day_05" : "Star_5",
+		"Day_06" : "Star_6",
+		"Day_07" : "Item1_P",
+		"Day_08" : "Star_7",
+		"Day_09" : "Star_8",
+		"Day_10" : "Star_9",
+		"Day_11" : "Star_10",
+		"Day_12" : "Star_11",
+		"Day_13" : "Star_12",
+		"Day_14" : "Item2_P",
+		"Day_15" : "Star_13",
+		"Day_16" : "Star_14",
+		"Day_17" : "Star_15",
+		"Day_18" : "Star_16",
+		"Day_19" : "Star_17",
+		"Day_20" : "Star_18",
+		"Day_21" : "Item_SP",
+		"Day_22" : "Star_19",
+		"Day_23" : "Star_19",
+		"Day_24" : "Star_19",
+		"Day_25" : "Star_19",
+		"Day_26" : "Star_19",
+		"Day_27" : "Star_19",
+		"Day_28" : "Star_19",
+		"Day_29" : "Star_19",
+		"Day_30" : "Star_19",
+		"Day_31" : "Star_19"
+	},
+	"DATE_201504":{
+		"IsEnable" : true,
+		"Day_01" : "Star_1",
+		"Day_02" : "Star_2",
+		"Day_03" : "Star_3",
+		"Day_04" : "Star_4",
+		"Day_05" : "Star_5",
+		"Day_06" : "Star_6",
+		"Day_07" : "Item1_P",
+		"Day_08" : "Star_7",
+		"Day_09" : "Star_8",
+		"Day_10" : "Star_9",
+		"Day_11" : "Star_10",
+		"Day_12" : "Star_11",
+		"Day_13" : "Star_12",
+		"Day_14" : "Item2_P",
+		"Day_15" : "Star_13",
+		"Day_16" : "Star_14",
+		"Day_17" : "Star_15",
+		"Day_18" : "Star_16",
+		"Day_19" : "Star_17",
+		"Day_20" : "Star_18",
+		"Day_21" : "Item_SP",
+		"Day_22" : "Star_19",
+		"Day_23" : "Star_19",
+		"Day_24" : "Star_19",
+		"Day_25" : "Star_19",
+		"Day_26" : "Star_19",
+		"Day_27" : "Star_19",
+		"Day_28" : "Star_19",
+		"Day_29" : "Star_19",
+		"Day_30" : "Star_19",
+		"Day_31" : "Star_19"
+	},
+	"DATE_201505":{
+		"IsEnable" : true,
+		"Day_01" : "Star_1",
+		"Day_02" : "Star_2",
+		"Day_03" : "Star_3",
+		"Day_04" : "Star_4",
+		"Day_05" : "Star_5",
+		"Day_06" : "Star_6",
+		"Day_07" : "Item1_P",
+		"Day_08" : "Star_7",
+		"Day_09" : "Star_8",
+		"Day_10" : "Star_9",
+		"Day_11" : "Star_10",
+		"Day_12" : "Star_11",
+		"Day_13" : "Star_12",
+		"Day_14" : "Item2_P",
+		"Day_15" : "Star_13",
+		"Day_16" : "Star_14",
+		"Day_17" : "Star_15",
+		"Day_18" : "Star_16",
+		"Day_19" : "Star_17",
+		"Day_20" : "Star_18",
+		"Day_21" : "Item_SP",
+		"Day_22" : "Star_19",
+		"Day_23" : "Star_19",
+		"Day_24" : "Star_19",
+		"Day_25" : "Star_19",
+		"Day_26" : "Star_19",
+		"Day_27" : "Star_19",
+		"Day_28" : "Star_19",
+		"Day_29" : "Star_19",
+		"Day_30" : "Star_19",
+		"Day_31" : "Star_19"
+	},
+	"DATE_201506":{
+		"IsEnable" : true,
+		"Day_01" : "Star_1",
+		"Day_02" : "Star_2",
+		"Day_03" : "Star_3",
+		"Day_04" : "Star_4",
+		"Day_05" : "Star_5",
+		"Day_06" : "Star_6",
+		"Day_07" : "Item1_P",
+		"Day_08" : "Star_7",
+		"Day_09" : "Star_8",
+		"Day_10" : "Star_9",
+		"Day_11" : "Star_10",
+		"Day_12" : "Star_11",
+		"Day_13" : "Star_12",
+		"Day_14" : "Item2_P",
+		"Day_15" : "Star_13",
+		"Day_16" : "Star_14",
+		"Day_17" : "Star_15",
+		"Day_18" : "Star_16",
+		"Day_19" : "Star_17",
+		"Day_20" : "Star_18",
+		"Day_21" : "Item_SP",
+		"Day_22" : "Star_19",
+		"Day_23" : "Star_19",
+		"Day_24" : "Star_19",
+		"Day_25" : "Star_19",
+		"Day_26" : "Star_19",
+		"Day_27" : "Star_19",
+		"Day_28" : "Star_19",
+		"Day_29" : "Star_19",
+		"Day_30" : "Star_19",
+		"Day_31" : "Star_19"
+	},
+	"DATE_201507":{
+		"IsEnable" : true,
+		"Day_01" : "Star_1",
+		"Day_02" : "Star_2",
+		"Day_03" : "Star_3",
+		"Day_04" : "Star_4",
+		"Day_05" : "Star_5",
+		"Day_06" : "Star_6",
+		"Day_07" : "Item1_P",
+		"Day_08" : "Star_7",
+		"Day_09" : "Star_8",
+		"Day_10" : "Star_9",
+		"Day_11" : "Star_10",
+		"Day_12" : "Star_11",
+		"Day_13" : "Star_12",
+		"Day_14" : "Item2_P",
+		"Day_15" : "Star_13",
+		"Day_16" : "Star_14",
+		"Day_17" : "Star_15",
+		"Day_18" : "Star_16",
+		"Day_19" : "Star_17",
+		"Day_20" : "Star_18",
+		"Day_21" : "Item_SP",
+		"Day_22" : "Star_19",
+		"Day_23" : "Star_19",
+		"Day_24" : "Star_19",
+		"Day_25" : "Star_19",
+		"Day_26" : "Star_19",
+		"Day_27" : "Star_19",
+		"Day_28" : "Star_19",
+		"Day_29" : "Star_19",
+		"Day_30" : "Star_19",
+		"Day_31" : "Star_19"
+	}
+},
+// Gemini_GameEnvironment.xlsx.tmp BonusDetail 
+
+"loginBonusDetail_":{
+	"Star_1":{
+		"HappyStar" : 800
+	},
+	"Star_2":{
+		"HappyStar" : 900
+	},
+	"Star_3":{
+		"HappyStar" : 1000
+	},
+	"Star_4":{
+		"HappyStar" : 1100
+	},
+	"Star_5":{
+		"HappyStar" : 1200
+	},
+	"Star_6":{
+		"HappyStar" : 1300
+	},
+	"Star_7":{
+		"HappyStar" : 1400
+	},
+	"Star_8":{
+		"HappyStar" : 1500
+	},
+	"Star_9":{
+		"HappyStar" : 1600
+	},
+	"Star_10":{
+		"HappyStar" : 1700
+	},
+	"Star_11":{
+		"HappyStar" : 1800
+	},
+	"Star_12":{
+		"HappyStar" : 1800
+	},
+	"Star_13":{
+		"HappyStar" : 1800
+	},
+	"Star_14":{
+		"HappyStar" : 2000
+	},
+	"Star_15":{
+		"HappyStar" : 2000
+	},
+	"Star_16":{
+		"HappyStar" : 2000
+	},
+	"Star_17":{
+		"HappyStar" : 2200
+	},
+	"Star_18":{
+		"HappyStar" : 2200
+	},
+	"Star_19":{
+		"HappyStar" : 2400
+	},
+	"Item1_P":{
+		"ItemRareType" : "PREMIUM"
+	},
+	"Item2_P":{
+		"ItemRareType" : "PREMIUM"
+	},
+	"Item_SP":{
+		"ItemRareType" : "SPREMIUM"
+	},
+	"Star_1_G":{
+		"HappyStar" : 1600
+	},
+	"Star_2_G":{
+		"HappyStar" : 1800
+	},
+	"Star_3_G":{
+		"HappyStar" : 2000
+	},
+	"Star_4_G":{
+		"HappyStar" : 2200
+	},
+	"Star_5_G":{
+		"HappyStar" : 2400
+	},
+	"Star_6_G":{
+		"HappyStar" : 2600
+	},
+	"Star_7_G":{
+		"HappyStar" : 2800
+	},
+	"Star_8_G":{
+		"HappyStar" : 3000
+	},
+	"Star_9_G":{
+		"HappyStar" : 3200
+	},
+	"Star_10_G":{
+		"HappyStar" : 3400
+	},
+	"Star_11_G":{
+		"HappyStar" : 3600
+	},
+	"Star_12_G":{
+		"HappyStar" : 3600
+	},
+	"Star_13_G":{
+		"HappyStar" : 3600
+	},
+	"Star_14_G":{
+		"HappyStar" : 4000
+	},
+	"Star_15_G":{
+		"HappyStar" : 4000
+	},
+	"Star_16_G":{
+		"HappyStar" : 4000
+	},
+	"Star_17_G":{
+		"HappyStar" : 4400
+	},
+	"Star_18_G":{
+		"HappyStar" : 4400
+	},
+	"Star_19_G":{
+		"HappyStar" : 4800
+	},
+	"Item1_P_G":{
+		"ItemRareType" : "PREMIUM"
+	},
+	"Item2_P_G":{
+		"ItemRareType" : "PREMIUM"
+	},
+	"Item_SP_G":{
+		"ItemDetailID" : "SpTreasureMap01"
+	}
+},
+// Gemini_GameEnvironment.xlsx.tmp FriendBonus 
+
+"friendBonus_":{
+	"Num01":{
+		"StarBonus" : 0.05,
+		"ScoreBonus" : 0.2
+	},
+	"Num02":{
+		"StarBonus" : 0.1,
+		"ScoreBonus" : 0.2
+	},
+	"Num03":{
+		"StarBonus" : 0.15,
+		"ScoreBonus" : 0.3
+	},
+	"Num04":{
+		"StarBonus" : 0.2,
+		"ScoreBonus" : 0.3
+	},
+	"Num05":{
+		"StarBonus" : 0.25,
+		"ScoreBonus" : 0.4
+	},
+	"Num06":{
+		"StarBonus" : 0.3,
+		"ScoreBonus" : 0.4
+	},
+	"Num07":{
+		"StarBonus" : 0.3,
+		"ScoreBonus" : 0.5
+	},
+	"Num08":{
+		"StarBonus" : 0.35,
+		"ScoreBonus" : 0.5
+	},
+	"Num09":{
+		"StarBonus" : 0.35,
+		"ScoreBonus" : 0.5
+	},
+	"Num10":{
+		"StarBonus" : 0.4,
+		"ScoreBonus" : 0.5
+	},
+	"Num11":{
+		"StarBonus" : 0.4,
+		"ScoreBonus" : 0.5
+	},
+	"Num12":{
+		"StarBonus" : 0.45,
+		"ScoreBonus" : 0.5
+	},
+	"Num13":{
+		"StarBonus" : 0.45,
+		"ScoreBonus" : 0.5
+	},
+	"Num14":{
+		"StarBonus" : 0.5,
+		"ScoreBonus" : 0.5
+	},
+	"Num15":{
+		"StarBonus" : 0.5,
+		"ScoreBonus" : 0.5
+	}
+},
+// Gemini_GameEnvironment.xlsx.tmp HotTime 
+
+"hotTime_":{
+	"Default":{
+		"IsEnable" : true,
+		"BeginOffsetTime" : 0,
+		"IntervalTime" : 120,
+		"ServiceTime" : 30,
+		"StarBonus" : 25
+	},
+	"Sunday":{
+		"IsEnable" : true,
+		"StarBonus" : 25
+	},
+	"Monday":{
+		"IsEnable" : true,
+		"StarBonus" : 25
+	},
+	"Tuesday":{
+		"IsEnable" : true,
+		"StarBonus" : 25
+	},
+	"Wednesday":{
+		"IsEnable" : true,
+		"StarBonus" : 25
+	},
+	"Thursday":{
+		"IsEnable" : true,
+		"StarBonus" : 25
+	},
+	"Friday":{
+		"IsEnable" : true,
+		"StarBonus" : 25
+	},
+	"Saturday":{
+		"IsEnable" : true,
+		"StarBonus" : 25
+	}
+}}}

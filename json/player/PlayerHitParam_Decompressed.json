@@ -1,0 +1,4253 @@
+/* XDASEA_Xm8R_SPsX */ 
+// PlayerHitParam.xlsx
+{
+	"JsonPlayerParam": {
+		"hitParam_": {
+			"H_attack_01": {
+				"kind_": "DAMAGE_NORMAL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 190,
+				"damageRate_": 1,
+				"gimmickDamageRate_": 1,
+				"center_": [
+					0,
+					100,
+					185
+				],
+				"blowRate_": 0.4,
+				"shape_": "SPHERE",
+				"interval_": 255,
+				"debugColor_": [
+					127,
+					0,
+					0,
+					255
+				]
+			},
+			"H_attack_02": {
+				"kind_": "DAMAGE_NORMAL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 180,
+				"damageRate_": 0.7,
+				"gimmickDamageRate_": 0.7,
+				"center_": [
+					0,
+					100,
+					180
+				],
+				"blowRate_": 0.4,
+				"debugColor_": [
+					255,
+					16,
+					0,
+					255
+				]
+			},
+			"H_attack_03": {
+				"kind_": "DAMAGE_NORMAL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 195,
+				"damageRate_": 0.8,
+				"gimmickDamageRate_": 0.8,
+				"center_": [
+					0,
+					100,
+					185
+				],
+				"blowRate_": 0.5,
+				"debugColor_": [
+					127,
+					127,
+					0,
+					255
+				]
+			},
+			"H_attack_04": {
+				"kind_": "DAMAGE_NORMAL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 190,
+				"damageRate_": 1,
+				"gimmickDamageRate_": 1,
+				"center_": [
+					0,
+					100,
+					180
+				],
+				"blowRate_": 0.5,
+				"debugColor_": [
+					127,
+					255,
+					0,
+					255
+				]
+			},
+			"H_attack_05": {
+				"kind_": "DAMAGE_NORMAL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 180,
+				"damageRate_": 0.8,
+				"gimmickDamageRate_": 0.8,
+				"center_": [
+					0,
+					100,
+					180
+				],
+				"blowRate_": 0.5,
+				"debugColor_": [
+					255,
+					0,
+					127,
+					255
+				]
+			},
+			"H_attack_06": {
+				"kind_": "DAMAGE_NORMAL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 180,
+				"damageRate_": 1.1,
+				"gimmickDamageRate_": 1.1,
+				"center_": [
+					0,
+					100,
+					180
+				],
+				"blowRate_": 0.6,
+				"debugColor_": [
+					127,
+					0,
+					127,
+					255
+				]
+			},
+			"H_Battack_01L": {
+				"kind_": "DAMAGE_NORMAL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"enableLeft_": true,
+				"radius_": 190,
+				"damageRate_": 1,
+				"gimmickDamageRate_": 1,
+				"center_": [
+					0,
+					100,
+					185
+				],
+				"blowRate_": 0.4,
+				"shape_": "SPHERE",
+				"debugColor_": [
+					127,
+					0,
+					0,
+					255
+				]
+			},
+			"H_Battack_02R": {
+				"kind_": "DAMAGE_NORMAL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 190,
+				"damageRate_": 1,
+				"gimmickDamageRate_": 1,
+				"center_": [
+					0,
+					100,
+					185
+				],
+				"blowRate_": 0.4,
+				"debugColor_": [
+					255,
+					16,
+					0,
+					255
+				]
+			},
+			"H_Battack_03L": {
+				"kind_": "DAMAGE_NORMAL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"enableLeft_": true,
+				"radius_": 180,
+				"damageRate_": 1.1,
+				"gimmickDamageRate_": 1.1,
+				"center_": [
+					0,
+					100,
+					180
+				],
+				"blowRate_": 0.4,
+				"debugColor_": [
+					127,
+					127,
+					0,
+					255
+				]
+			},
+			"H_Battack_04R": {
+				"kind_": "DAMAGE_NORMAL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 200,
+				"damageRate_": 1.1,
+				"gimmickDamageRate_": 1.1,
+				"center_": [
+					0,
+					100,
+					185
+				],
+				"blowRate_": 0.5,
+				"debugColor_": [
+					127,
+					255,
+					0,
+					255
+				]
+			},
+			"H_Battack_05L": {
+				"kind_": "DAMAGE_NORMAL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"enableLeft_": true,
+				"radius_": 190,
+				"damageRate_": 0.6,
+				"gimmickDamageRate_": 0.6,
+				"center_": [
+					10,
+					100,
+					175
+				],
+				"blowRate_": 0.7,
+				"debugColor_": [
+					255,
+					0,
+					127,
+					255
+				]
+			},
+			"H_Battack_05R": {
+				"kind_": "DAMAGE_NORMAL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 190,
+				"damageRate_": 0.6,
+				"gimmickDamageRate_": 0.6,
+				"center_": [
+					-10,
+					100,
+					175
+				],
+				"blowRate_": 0.7,
+				"debugColor_": [
+					127,
+					0,
+					127,
+					255
+				]
+			},
+			"H_Battack_06L": {
+				"kind_": "DAMAGE_NORMAL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"enableLeft_": true,
+				"radius_": 200,
+				"damageRate_": 0.75,
+				"gimmickDamageRate_": 0.75,
+				"center_": [
+					20,
+					100,
+					170
+				],
+				"blowRate_": 1,
+				"debugColor_": [
+					255,
+					16,
+					0,
+					255
+				]
+			},
+			"H_Battack_06R": {
+				"kind_": "DAMAGE_NORMAL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_MID_Low",
+				"radius_": 200,
+				"damageRate_": 0.75,
+				"gimmickDamageRate_": 0.75,
+				"center_": [
+					-20,
+					100,
+					170
+				],
+				"blowRadius_": 200,
+				"blowRate_": 1,
+				"debugColor_": [
+					127,
+					127,
+					0,
+					255
+				]
+			},
+			"H_guard_attack_01": {
+				"kind_": "DAMAGE_GUARD_ATTACK",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 170,
+				"damageRate_": 0.6,
+				"gimmickDamageRate_": 0.6,
+				"center_": [
+					0,
+					100,
+					180
+				],
+				"blowRate_": 0.3,
+				"debugColor_": [
+					127,
+					127,
+					0,
+					255
+				]
+			},
+			"H_guard_attack_02": {
+				"kind_": "DAMAGE_GUARD_ATTACK",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 170,
+				"damageRate_": 0.6,
+				"gimmickDamageRate_": 0.6,
+				"center_": [
+					0,
+					100,
+					180
+				],
+				"blowRate_": 0.4,
+				"debugColor_": [
+					127,
+					255,
+					0,
+					255
+				]
+			},
+			"H_guard_attack_03": {
+				"kind_": "DAMAGE_GUARD_ATTACK",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 170,
+				"damageRate_": 0.7,
+				"gimmickDamageRate_": 0.7,
+				"center_": [
+					0,
+					100,
+					180
+				],
+				"blowRate_": 0.4,
+				"debugColor_": [
+					255,
+					0,
+					0,
+					255
+				]
+			},
+			"H_guard_attack_04": {
+				"kind_": "DAMAGE_GUARD_ATTACK",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 170,
+				"damageRate_": 0.8,
+				"gimmickDamageRate_": 0.8,
+				"center_": [
+					0,
+					100,
+					180
+				],
+				"blowRate_": 0.4,
+				"debugColor_": [
+					255,
+					0,
+					0,
+					255
+				]
+			},
+			"H_guard_attack_ex01": {
+				"kind_": "DAMAGE_GUARD_ATTACK",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 170,
+				"damageRate_": 0.48,
+				"gimmickDamageRate_": 0.6,
+				"center_": [
+					0,
+					100,
+					180
+				],
+				"blowRate_": 0.3,
+				"debugColor_": [
+					127,
+					127,
+					0,
+					255
+				]
+			},
+			"H_guard_attack_ex02": {
+				"kind_": "DAMAGE_GUARD_ATTACK",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 170,
+				"damageRate_": 0.48,
+				"gimmickDamageRate_": 0.6,
+				"center_": [
+					0,
+					100,
+					180
+				],
+				"blowRate_": 0.4,
+				"debugColor_": [
+					127,
+					255,
+					0,
+					255
+				]
+			},
+			"H_guard_attack_ex03": {
+				"kind_": "DAMAGE_GUARD_ATTACK",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 170,
+				"damageRate_": 0.56,
+				"gimmickDamageRate_": 0.7,
+				"center_": [
+					0,
+					100,
+					180
+				],
+				"blowRate_": 0.4,
+				"debugColor_": [
+					255,
+					0,
+					0,
+					255
+				]
+			},
+			"H_guard_attack_ex04": {
+				"kind_": "DAMAGE_GUARD_ATTACK",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 170,
+				"damageRate_": 0.64,
+				"gimmickDamageRate_": 0.8,
+				"center_": [
+					0,
+					100,
+					180
+				],
+				"blowRate_": 0.4,
+				"debugColor_": [
+					255,
+					0,
+					0,
+					255
+				]
+			},
+			"H_dash_attack_11": {
+				"kind_": "DAMAGE_DASH_ATTACK",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_MID_Low",
+				"radius_": 175,
+				"damageRate_": 1.3,
+				"gimmickDamageRate_": 1.3,
+				"center_": [
+					0,
+					100,
+					200
+				],
+				"blowRate_": 0.5,
+				"stumbleRadius_": 175,
+				"stumbleRate_": 0.7,
+				"debugColor_": [
+					127,
+					0,
+					127,
+					255
+				]
+			},
+			"H_dash_attack_21": {
+				"kind_": "DAMAGE_DASH_ATTACK",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 170,
+				"damageRate_": 0.7,
+				"gimmickDamageRate_": 0.7,
+				"center_": [
+					0,
+					100,
+					200
+				],
+				"blowRate_": 0.5,
+				"stumbleRadius_": 170,
+				"stumbleRate_": 0.5,
+				"debugColor_": [
+					127,
+					0,
+					127,
+					255
+				]
+			},
+			"H_dash_attack_31": {
+				"kind_": "DAMAGE_DASH_ATTACK",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_MID_Low",
+				"enableLeft_": true,
+				"radius_": 165,
+				"damageRate_": 0.6,
+				"gimmickDamageRate_": 0.6,
+				"center_": [
+					0,
+					100,
+					200
+				],
+				"blowRate_": 0.5,
+				"stumbleRadius_": 165,
+				"stumbleRate_": 0.6,
+				"debugColor_": [
+					127,
+					127,
+					127,
+					255
+				]
+			},
+			"H_Gattack_10": {
+				"kind_": "DAMAGE_GATTACK",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_MID_Low",
+				"radius_": 180,
+				"damageRate_": 0.9,
+				"gimmickDamageRate_": 0.9,
+				"center_": [
+					0,
+					120,
+					150
+				],
+				"blowRadius_": 180,
+				"blowRate_": 0.9,
+				"debugColor_": [
+					127,
+					255,
+					0,
+					255
+				]
+			},
+			"H_rush_attack_11": {
+				"kind_": "DAMAGE_RUSH_ATTACK",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 180,
+				"damageRate_": 0.52,
+				"gimmickDamageRate_": 0.52,
+				"center_": [
+					0,
+					100,
+					210
+				],
+				"blowRate_": 0.3,
+				"interval_": 8,
+				"debugColor_": [
+					127,
+					0,
+					127,
+					255
+				]
+			},
+			"H_rush_attack_12": {
+				"kind_": "DAMAGE_RUSH_ATTACK",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_MID_Low",
+				"radius_": 200,
+				"damageRate_": 0.8,
+				"gimmickDamageRate_": 0.8,
+				"center_": [
+					0,
+					100,
+					215
+				],
+				"blowRate_": 0.6,
+				"stumbleRadius_": 200,
+				"stumbleRate_": 0.6,
+				"debugColor_": [
+					127,
+					0,
+					127,
+					255
+				]
+			},
+			"H_rush_attack_13": {
+				"kind_": "DAMAGE_RUSH_ATTACK",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_MID_Low",
+				"enableLeft_": true,
+				"radius_": 210,
+				"damageRate_": 1,
+				"gimmickDamageRate_": 1,
+				"center_": [
+					0,
+					100,
+					215
+				],
+				"blowRate_": 0.6,
+				"stumbleRadius_": 200,
+				"stumbleRate_": 0.6,
+				"debugColor_": [
+					127,
+					0,
+					127,
+					255
+				]
+			},
+			"H_enc_fire_attack_01": {
+				"kind_": "DAMAGE_ENCHANT_ATTACK",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_MID_Hi",
+				"radius_": 365,
+				"damageRate_": 1.83,
+				"gimmickDamageRate_": 1.83,
+				"center_": [
+					0,
+					50,
+					20
+				],
+				"blowRate_": 0.9,
+				"debugColor_": [
+					127,
+					0,
+					127,
+					255
+				]
+			},
+			"H_enc_light_attack_01": {
+				"kind_": "DAMAGE_ENCHANT_ATTACK",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_MID_Hi",
+				"radius_": 395,
+				"damageRate_": 2,
+				"gimmickDamageRate_": 2,
+				"center_": [
+					0,
+					50,
+					20
+				],
+				"blowRate_": 0.9,
+				"debugColor_": [
+					127,
+					0,
+					127,
+					255
+				]
+			},
+			"H_enc_wind_attack_01": {
+				"kind_": "DAMAGE_ENCHANT_ATTACK",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_MID_Hi",
+				"radius_": 365,
+				"damageRate_": 1.8,
+				"gimmickDamageRate_": 1.8,
+				"center_": [
+					0,
+					50,
+					20
+				],
+				"blowRate_": 0.9,
+				"stumbleRadius_": 365,
+				"stumbleRate_": 1,
+				"debugColor_": [
+					127,
+					0,
+					127,
+					255
+				]
+			},
+			"H_enc_ice_attack_01": {
+				"kind_": "DAMAGE_ENCHANT_ATTACK",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_MID_Hi",
+				"radius_": 360,
+				"damageRate_": 1.6,
+				"gimmickDamageRate_": 1.6,
+				"center_": [
+					0,
+					50,
+					20
+				],
+				"blowRate_": 0.9,
+				"debugColor_": [
+					127,
+					0,
+					127,
+					255
+				]
+			},
+			"H_Smash02": {
+				"kind_": "DAMAGE_SMASH",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_critical",
+				"radius_": 230,
+				"damageRate_": 2,
+				"gimmickDamageRate_": 2,
+				"center_": [
+					0,
+					100,
+					165
+				],
+				"blowRadius_": 220,
+				"blowRate_": 2.3,
+				"debugColor_": [
+					0,
+					255,
+					255,
+					255
+				]
+			},
+			"H_Rush01": {
+				"kind_": "DAMAGE_SMASH",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_critical",
+				"radius_": 210,
+				"damageRate_": 2.7,
+				"gimmickDamageRate_": 2.7,
+				"center_": [
+					0,
+					100,
+					115
+				],
+				"blowRadius_": 210,
+				"blowRate_": 2,
+				"interval_": 40,
+				"debugColor_": [
+					0,
+					255,
+					255,
+					255
+				]
+			},
+			"H_teamRush01": {
+				"kind_": "DAMAGE_TEAM_RUSH",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_critical",
+				"radius_": 210,
+				"damageRate_": 2.5,
+				"gimmickDamageRate_": 2.3,
+				"center_": [
+					0,
+					100,
+					125
+				],
+				"blowRadius_": 210,
+				"blowRate_": 2.1,
+				"interval_": 40,
+				"debugColor_": [
+					255,
+					0,
+					255,
+					255
+				]
+			},
+			"H_Roar": {
+				"kind_": "DAMAGE_ROAR",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"percent_": 100,
+				"camShake_": "C_lightning_strike",
+				"radius_": 770,
+				"damageRate_": 0,
+				"gimmickDamageRate_": 0,
+				"center_": [
+					0,
+					100,
+					0
+				],
+				"debugColor_": [
+					0,
+					255,
+					255,
+					255
+				]
+			},
+			"H_Fury": {
+				"kind_": "DAMAGE_FURY",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_lightning_strike",
+				"radius_": 360,
+				"damageRate_": 0,
+				"gimmickDamageRate_": 0,
+				"center_": [
+					0,
+					100,
+					0
+				],
+				"stumbleRadius_": 360,
+				"stumbleRate_": 1.2,
+				"debugColor_": [
+					0,
+					255,
+					255,
+					255
+				]
+			},
+			"H_Spin01": {
+				"kind_": "DAMAGE_REEL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_MID_Low",
+				"radius_": 155,
+				"damageRate_": 1.5,
+				"gimmickDamageRate_": 1.5,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"trans_": [
+					15,
+					75,
+					45
+				],
+				"blowRate_": 1.23,
+				"stumbleRadius_": 155,
+				"stumbleRate_": 0.4,
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_Spin02": {
+				"kind_": "DAMAGE_REEL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_MID_Low",
+				"radius_": 185,
+				"damageRate_": 1.67,
+				"gimmickDamageRate_": 1.65,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"trans_": [
+					15,
+					85,
+					45
+				],
+				"blowRate_": 1.23,
+				"stumbleRadius_": 185,
+				"stumbleRate_": 0.45,
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_Spin03": {
+				"kind_": "DAMAGE_REEL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_MID_Low",
+				"radius_": 215,
+				"damageRate_": 1.85,
+				"gimmickDamageRate_": 1.8,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"trans_": [
+					15,
+					85,
+					45
+				],
+				"blowRate_": 1.23,
+				"stumbleRadius_": 215,
+				"stumbleRate_": 0.5,
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_Spin01a": {
+				"kind_": "DAMAGE_REEL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"radius_": 140,
+				"damageRate_": 0,
+				"gimmickDamageRate_": 0,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "LeftWeapon",
+				"trans_": [
+					-15,
+					60,
+					-45
+				],
+				"blowRate_": 1.23,
+				"debugColor_": [
+					255,
+					0,
+					255,
+					255
+				]
+			},
+			"H_Spin02a": {
+				"kind_": "DAMAGE_REEL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"radius_": 160,
+				"damageRate_": 0,
+				"gimmickDamageRate_": 0,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "LeftWeapon",
+				"trans_": [
+					-15,
+					60,
+					-45
+				],
+				"blowRate_": 1.23,
+				"debugColor_": [
+					255,
+					0,
+					255,
+					255
+				]
+			},
+			"H_Power00": {
+				"kind_": "DAMAGE_POWER",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_small_test",
+				"radius_": 210,
+				"damageRate_": 2.9,
+				"gimmickDamageRate_": 2.7,
+				"center_": [
+					-20,
+					100,
+					110
+				],
+				"blowRate_": 1,
+				"stumbleRadius_": 200,
+				"stumbleRate_": 0.7,
+				"livingTime_": 0,
+				"debugColor_": [
+					255,
+					0,
+					0,
+					255
+				]
+			},
+			"H_Power01": {
+				"kind_": "DAMAGE_POWER",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_small_test",
+				"radius_": 250,
+				"damageRate_": 3.6,
+				"gimmickDamageRate_": 3.3,
+				"center_": [
+					-40,
+					100,
+					135
+				],
+				"blowRate_": 1,
+				"stumbleRadius_": 220,
+				"stumbleRate_": 0.8,
+				"livingTime_": 0.4,
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_Power02": {
+				"kind_": "DAMAGE_POWER",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_small_test",
+				"radius_": 280,
+				"damageRate_": 4.4,
+				"gimmickDamageRate_": 4,
+				"center_": [
+					-40,
+					100,
+					135
+				],
+				"blowRate_": 1,
+				"stumbleRadius_": 240,
+				"stumbleRate_": 0.9,
+				"livingTime_": 1,
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_Power03": {
+				"kind_": "DAMAGE_POWER",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_power",
+				"radius_": 310,
+				"damageRate_": 5.5,
+				"gimmickDamageRate_": 5,
+				"center_": [
+					-40,
+					100,
+					135
+				],
+				"blowRadius_": 200,
+				"blowRate_": 1.5,
+				"stumbleRadius_": 270,
+				"stumbleRate_": 1,
+				"livingTime_": 1.8,
+				"debugColor_": [
+					0,
+					255,
+					255,
+					255
+				]
+			},
+			"H_Power04": {
+				"kind_": "DAMAGE_POWER",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_power",
+				"radius_": 340,
+				"damageRate_": 6.5,
+				"gimmickDamageRate_": 5.9,
+				"center_": [
+					-40,
+					100,
+					135
+				],
+				"blowRadius_": 250,
+				"blowRate_": 2,
+				"stumbleRadius_": 300,
+				"stumbleRate_": 1.1,
+				"livingTime_": 2.8,
+				"debugColor_": [
+					255,
+					255,
+					0,
+					255
+				]
+			},
+			"H_Power05": {
+				"kind_": "DAMAGE_POWER_LV5",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_MAXpower",
+				"radius_": 540,
+				"damageRate_": 9.9,
+				"radius0_": 200,
+				"radius1_": 480,
+				"damageLowRate_": 5.5,
+				"gimmickDamageRate_": 9.9,
+				"center_": [
+					0,
+					-50,
+					0
+				],
+				"boneName_": "Hips",
+				"blowRadius_": 375,
+				"blowRate_": 3,
+				"superBlowRadius_": 200,
+				"superBlowRate_": 3.5,
+				"stumbleRadius_": 540,
+				"stumbleRate_": 1.2,
+				"livingTime_": 4,
+				"debugColor_": [
+					255,
+					255,
+					255,
+					255
+				]
+			},
+			"H_Blizzard": {
+				"kind_": "DAMAGE_BLIZZARD",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_PLAYER",
+				"percent_": 90,
+				"camShake_": "C_MAXsacri",
+				"radius_": 720,
+				"damageRate_": 2.2,
+				"gimmickDamageRate_": 2,
+				"center_": [
+					0,
+					50,
+					0
+				],
+				"stumbleRadius_": 720,
+				"stumbleRate_": 0.8,
+				"fparam0_": 750,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					255,
+					255,
+					255,
+					255
+				]
+			},
+			"H_Rocket01": {
+				"kind_": "DAMAGE_ROCKET",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_rocketman",
+				"radius_": 500,
+				"damageRate_": 5.7,
+				"radius0_": 250,
+				"radius1_": 500,
+				"damageLowRate_": 3.7,
+				"gimmickDamageRate_": 7.5,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"blowRadius_": 300,
+				"blowRate_": 3,
+				"stumbleRadius_": 500,
+				"stumbleRate_": 0.7,
+				"debugColor_": [
+					0,
+					255,
+					255,
+					255
+				]
+			},
+			"H_Rocket10": {
+				"kind_": "DAMAGE_ROCKETARMY",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_rocketman",
+				"radius_": 500,
+				"damageRate_": 5.7,
+				"radius0_": 250,
+				"radius1_": 500,
+				"damageLowRate_": 3.7,
+				"gimmickDamageRate_": 7.5,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"blowRadius_": 300,
+				"blowRate_": 3,
+				"stumbleRadius_": 500,
+				"stumbleRate_": 0.7,
+				"debugColor_": [
+					0,
+					255,
+					255,
+					255
+				]
+			},
+			"H_Rocket11": {
+				"kind_": "DAMAGE_ROCKETARMY",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_rocketman",
+				"radius_": 600,
+				"damageRate_": 6,
+				"radius0_": 300,
+				"radius1_": 600,
+				"damageLowRate_": 4,
+				"gimmickDamageRate_": 8,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"blowRadius_": 350,
+				"blowRate_": 3.2,
+				"stumbleRadius_": 600,
+				"stumbleRate_": 0.9,
+				"debugColor_": [
+					0,
+					255,
+					255,
+					255
+				]
+			},
+			"H_Rocket21": {
+				"kind_": "DAMAGE_ROCKETARMY",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_rocketman",
+				"radius_": 700,
+				"damageRate_": 6.3,
+				"radius0_": 350,
+				"radius1_": 700,
+				"damageLowRate_": 4.3,
+				"gimmickDamageRate_": 8.5,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"blowRadius_": 400,
+				"blowRate_": 3.5,
+				"stumbleRadius_": 700,
+				"stumbleRate_": 1.1,
+				"debugColor_": [
+					0,
+					255,
+					255,
+					255
+				]
+			},
+			"H_WeaponThrow_R00": {
+				"kind_": "DAMAGE_WEAPON_THROW",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_min_Low",
+				"radius_": 145,
+				"damageRate_": 0.5,
+				"gimmickDamageRate_": 0.4,
+				"center_": [
+					-10,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"stumbleRadius_": 145,
+				"stumbleRate_": 0.7,
+				"rangeDeg_": 15,
+				"rangeNear_": 10,
+				"rangeFar_": 2000,
+				"rangeUpper_": 610,
+				"rangeLower_": 610,
+				"correctDeg_": 30,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					127,
+					0,
+					0,
+					255
+				]
+			},
+			"H_WeaponThrow_L00": {
+				"kind_": "DAMAGE_WEAPON_THROW",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_min_Low",
+				"enableLeft_": true,
+				"radius_": 145,
+				"damageRate_": 0.5,
+				"gimmickDamageRate_": 0.4,
+				"center_": [
+					10,
+					0,
+					0
+				],
+				"boneName_": "LeftWeapon2",
+				"stumbleRadius_": 145,
+				"stumbleRate_": 0.7,
+				"debugColor_": [
+					127,
+					0,
+					0,
+					255
+				]
+			},
+			"H_WeaponThrow_R10": {
+				"kind_": "DAMAGE_WEAPON_THROW",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_min_Low",
+				"radius_": 145,
+				"damageRate_": 0.55,
+				"gimmickDamageRate_": 0.45,
+				"center_": [
+					-10,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"stumbleRadius_": 145,
+				"stumbleRate_": 0.7,
+				"debugColor_": [
+					0,
+					0,
+					127,
+					255
+				]
+			},
+			"H_WeaponThrow_L10": {
+				"kind_": "DAMAGE_WEAPON_THROW",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_min_Low",
+				"enableLeft_": true,
+				"radius_": 145,
+				"damageRate_": 0.55,
+				"gimmickDamageRate_": 0.45,
+				"center_": [
+					10,
+					0,
+					0
+				],
+				"boneName_": "LeftWeapon2",
+				"stumbleRadius_": 145,
+				"stumbleRate_": 0.7,
+				"debugColor_": [
+					0,
+					0,
+					127,
+					255
+				]
+			},
+			"H_DSpin01": {
+				"kind_": "DAMAGE_REEL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_MID_Low",
+				"radius_": 160,
+				"damageRate_": 0.85,
+				"gimmickDamageRate_": 0.23,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"trans_": [
+					15,
+					40,
+					45
+				],
+				"blowRate_": 1,
+				"stumbleRadius_": 160,
+				"stumbleRate_": 0.45,
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_DSpin01L": {
+				"kind_": "DAMAGE_REEL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_MID_Low",
+				"enableLeft_": true,
+				"radius_": 160,
+				"damageRate_": 0.85,
+				"gimmickDamageRate_": 0.23,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "LeftWeapon2",
+				"trans_": [
+					15,
+					40,
+					45
+				],
+				"blowRate_": 1,
+				"stumbleRadius_": 160,
+				"stumbleRate_": 0.45,
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_DSpin02": {
+				"kind_": "DAMAGE_REEL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_MID_Low",
+				"radius_": 175,
+				"damageRate_": 0.91,
+				"gimmickDamageRate_": 0.25,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"trans_": [
+					15,
+					45,
+					45
+				],
+				"blowRate_": 1,
+				"stumbleRadius_": 175,
+				"stumbleRate_": 0.5,
+				"debugColor_": [
+					0,
+					127,
+					127,
+					255
+				]
+			},
+			"H_DSpin02L": {
+				"kind_": "DAMAGE_REEL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_MID_Low",
+				"enableLeft_": true,
+				"radius_": 175,
+				"damageRate_": 0.91,
+				"gimmickDamageRate_": 0.25,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "LeftWeapon2",
+				"trans_": [
+					15,
+					45,
+					45
+				],
+				"blowRate_": 1,
+				"stumbleRadius_": 175,
+				"stumbleRate_": 0.5,
+				"debugColor_": [
+					0,
+					127,
+					127,
+					255
+				]
+			},
+			"H_SpinWind": {
+				"kind_": "DAMAGE_SPINNIG_WIND",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_min_Low",
+				"radius_": 150,
+				"damageRate_": 1,
+				"gimmickDamageRate_": 0.27,
+				"center_": [
+					0,
+					80,
+					0
+				],
+				"livingTime_": 2.4,
+				"interval_": 60,
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"*モデル名": {
+				"kind_": "ダメージの種類",
+				"attribute_": "ダメージの属性",
+				"dirTarget_": "方向の基準",
+				"camShake_": "カメラ振動",
+				"radius_": "ダメージ球 半径[cm]",
+				"damageRate_": "ダメージ係数",
+				"gimmickDamageRate_": "ダメージ係数",
+				"shape_": "形状",
+				"initialRate_": "最低速度[cm/s]",
+				"speedWidth_": "最高速度[cm/s]",
+				"rangeDistance_": "射程距離[cm]",
+				"livingTime_": "生存時間[s]",
+				"rangeDeg_": "減速度[cm/s]",
+				"rangeNear_": "加速度[cm/s]",
+				"rangeFar_": "減速係数",
+				"rangeUpper_": "旋回減衰率",
+				"rangeLower_": "旋回性能",
+				"correctDeg_": "旋回最小角度",
+				"shotDegMin_": "旋回最大角度",
+				"shotDegMax_": "旋回調整最短距離",
+				"a_": "旋回調整最長距離",
+				"fparam4_": "スプラッシュダメージ",
+				"iparam0_": "モデル",
+				"iparam1_": "モーション",
+				"iparam2_": "移動エフェクト",
+				"iparam3_": "着弾エフェクト",
+				"iparam4_": "着弾SE"
+			},
+			"H_Stone01": {
+				"kind_": "DAMAGE_FAINT",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_HIT",
+				"percent_": 50,
+				"camShake_": "C_MID_Low",
+				"radius_": 85,
+				"damageRate_": 0.6,
+				"gimmickDamageRate_": 0.8,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"initialRate_": 4450,
+				"rangeDistance_": 2200,
+				"livingTime_": 4,
+				"rangeDeg_": 15,
+				"rangeNear_": 10,
+				"rangeFar_": 2000,
+				"rangeUpper_": 1150,
+				"rangeLower_": 1400,
+				"a_": 100,
+				"b_": 0.4,
+				"playTime_": 1,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					128,
+					128,
+					128,
+					255
+				]
+			},
+			"H_fire_ball_weak": {
+				"kind_": "DAMAGE_FIRE_BALL",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"percent_": 0,
+				"camShake_": "C_min_Low",
+				"radius_": 65,
+				"damageRate_": 0.72,
+				"gimmickDamageRate_": 1.1,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"trans_": [
+					15,
+					30,
+					45
+				],
+				"blowRate_": 0.5,
+				"initialRate_": 1125,
+				"speedWidth_": 3000,
+				"rangeDistance_": 3000,
+				"livingTime_": 3,
+				"rangeDeg_": 14,
+				"rangeNear_": 10,
+				"rangeFar_": 2500,
+				"rangeUpper_": 1150,
+				"rangeLower_": 1400,
+				"correctDeg_": 0.83,
+				"shotDegMin_": -2,
+				"shotDegMax_": 2,
+				"a_": -5,
+				"b_": 3.5,
+				"c_": -0.6,
+				"d_": 0,
+				"fparam2_": 0.5,
+				"iparam2_": 80000,
+				"playTime_": 0.5,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_fire_ball": {
+				"kind_": "DAMAGE_FIRE_BALL",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"percent_": 60,
+				"camShake_": "C_min_Low",
+				"radius_": 85,
+				"damageRate_": 0.72,
+				"gimmickDamageRate_": 1.1,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"trans_": [
+					15,
+					30,
+					45
+				],
+				"blowRate_": 0.5,
+				"initialRate_": 1125,
+				"speedWidth_": 3000,
+				"rangeDistance_": 3000,
+				"livingTime_": 3,
+				"rangeDeg_": 14.5,
+				"rangeNear_": 10,
+				"rangeFar_": 2500,
+				"rangeUpper_": 1150,
+				"rangeLower_": 1400,
+				"correctDeg_": 0.85,
+				"shotDegMin_": -2,
+				"shotDegMax_": 2,
+				"a_": -5,
+				"b_": 3.5,
+				"c_": -0.6,
+				"d_": 0,
+				"fparam2_": 1,
+				"iparam2_": 80000,
+				"playTime_": 0.5,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_fire_ball_s": {
+				"kind_": "DAMAGE_FIRE_BALL_S",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"percent_": 100,
+				"camShake_": "C_MID_Hi",
+				"radius_": 120,
+				"damageRate_": 2,
+				"gimmickDamageRate_": 2,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"trans_": [
+					20,
+					30,
+					50
+				],
+				"blowRate_": 0.5,
+				"initialRate_": 1600,
+				"speedWidth_": 4500,
+				"rangeDistance_": 3500,
+				"livingTime_": 3,
+				"rangeDeg_": 14.5,
+				"rangeNear_": 10,
+				"rangeFar_": 2800,
+				"rangeUpper_": 1150,
+				"rangeLower_": 1400,
+				"correctDeg_": 0.9,
+				"shotDegMin_": -2,
+				"shotDegMax_": 2,
+				"a_": -5,
+				"b_": -1.5,
+				"c_": -0.6,
+				"d_": 0,
+				"fparam2_": 3,
+				"iparam2_": 80560,
+				"playTime_": 0.5,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_lightning_bolt": {
+				"kind_": "DAMAGE_LIGHTNING_BOLT",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_min_Low",
+				"radius_": 50,
+				"damageRate_": 0.7,
+				"gimmickDamageRate_": 0.9,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"trans_": [
+					15,
+					30,
+					45
+				],
+				"initialRate_": 1000,
+				"rangeDistance_": 1600,
+				"livingTime_": 5,
+				"rangeDeg_": 15,
+				"rangeNear_": 10,
+				"rangeFar_": 1600,
+				"rangeUpper_": 650,
+				"rangeLower_": 700,
+				"shotDegMin_": -20,
+				"shotDegMax_": 20,
+				"fparam2_": 1,
+				"playTime_": 1,
+				"interval_": 24,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_lightning_bolt_s": {
+				"kind_": "DAMAGE_LIGHTNING_BOLT_S",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_MID_Hi",
+				"radius_": 160,
+				"damageRate_": 2.2,
+				"gimmickDamageRate_": 2.4,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"trans_": [
+					20,
+					30,
+					50
+				],
+				"initialRate_": 1000,
+				"rangeDistance_": 1600,
+				"livingTime_": 5,
+				"rangeDeg_": 16,
+				"rangeNear_": 10,
+				"rangeFar_": 1600,
+				"rangeUpper_": 650,
+				"rangeLower_": 700,
+				"shotDegMin_": -20,
+				"shotDegMax_": 20,
+				"fparam2_": 3,
+				"playTime_": 1,
+				"interval_": 24,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_wind_blast": {
+				"kind_": "DAMAGE_WIND_BLAST",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 90,
+				"damageRate_": 0.8,
+				"gimmickDamageRate_": 0.8,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"trans_": [
+					15,
+					30,
+					45
+				],
+				"blowRate_": 1,
+				"stumbleRate_": 0.54,
+				"initialRate_": 2400,
+				"speedWidth_": 4000,
+				"rangeDistance_": 1000,
+				"livingTime_": 0.9,
+				"shotDegMin_": 0,
+				"shotDegMax_": 0,
+				"a_": -1,
+				"b_": -0.1,
+				"c_": 0.8,
+				"d_": 0,
+				"fparam2_": 1,
+				"iparam0_": 3,
+				"iparam1_": 13,
+				"iparam2_": 80350,
+				"playTime_": 1,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_wind_blast_s": {
+				"kind_": "DAMAGE_WIND_BLAST_S",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_MID_Hi",
+				"radius_": 135,
+				"damageRate_": 1.5,
+				"gimmickDamageRate_": 1.4,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"trans_": [
+					20,
+					30,
+					50
+				],
+				"blowRate_": 1,
+				"stumbleRate_": 1.4,
+				"initialRate_": 3500,
+				"speedWidth_": 6000,
+				"rangeDistance_": 1400,
+				"livingTime_": 0.9,
+				"shotDegMin_": 0,
+				"shotDegMax_": 0,
+				"a_": 2,
+				"b_": 0,
+				"c_": 2.5,
+				"d_": 0,
+				"fparam2_": 3,
+				"iparam0_": 3,
+				"iparam1_": 10,
+				"iparam2_": 80760,
+				"playTime_": 1,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_ice_shot": {
+				"kind_": "DAMAGE_ICE_SHOT",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"percent_": 50,
+				"radius_": 80,
+				"damageRate_": 0.55,
+				"gimmickDamageRate_": 2,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"trans_": [
+					15,
+					30,
+					45
+				],
+				"blowRate_": 1.1,
+				"initialRate_": 3500,
+				"rangeDistance_": 5000,
+				"livingTime_": 4,
+				"a_": 400,
+				"b_": 4.4,
+				"fparam0_": 80,
+				"fparam2_": 1,
+				"iparam2_": 80250,
+				"playTime_": 1,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_ice_shot_Ep": {
+				"kind_": "DAMAGE_ICE_SHOT",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"percent_": 50,
+				"camShake_": "C_MID_Low",
+				"radius_": 300,
+				"damageRate_": 1,
+				"gimmickDamageRate_": 1.4,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"trans_": [
+					15,
+					30,
+					45
+				],
+				"blowRate_": 1,
+				"initialRate_": 2000,
+				"rangeDistance_": 4000,
+				"livingTime_": 0.5,
+				"a_": 500,
+				"b_": 3.6,
+				"fparam0_": 300,
+				"playTime_": 1,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_ice_shot_s": {
+				"kind_": "DAMAGE_ICE_SHOT_S",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"percent_": 100,
+				"radius_": 180,
+				"damageRate_": 0.5,
+				"gimmickDamageRate_": 2,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"trans_": [
+					20,
+					30,
+					50
+				],
+				"blowRate_": 1.2,
+				"initialRate_": 5000,
+				"rangeDistance_": 5000,
+				"livingTime_": 4,
+				"a_": 400,
+				"b_": 4.4,
+				"fparam0_": 180,
+				"fparam1_": 1100,
+				"fparam2_": 3,
+				"iparam2_": 80250,
+				"playTime_": 1,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_ice_shot_Ep_s": {
+				"kind_": "DAMAGE_ICE_SHOT_S",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"percent_": 100,
+				"camShake_": "C_small_test",
+				"radius_": 380,
+				"damageRate_": 2,
+				"radius0_": 50,
+				"radius1_": 350,
+				"damageLowRate_": 2,
+				"gimmickDamageRate_": 2.7,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"trans_": [
+					20,
+					30,
+					50
+				],
+				"blowRate_": 1.3,
+				"initialRate_": 2000,
+				"rangeDistance_": 4000,
+				"livingTime_": 0.5,
+				"a_": 500,
+				"b_": 3.6,
+				"fparam0_": 380,
+				"playTime_": 1,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_lightning_strike": {
+				"kind_": "DAMAGE_LIGHTNING_STRIKE",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_lightning_strike",
+				"radius_": 480,
+				"damageRate_": 5.9,
+				"radius0_": 125,
+				"radius1_": 480,
+				"damageLowRate_": 3,
+				"gimmickDamageRate_": 5.8,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"blowRadius_": 240,
+				"blowRate_": 2.4,
+				"stumbleRadius_": 480,
+				"stumbleRate_": 0.6,
+				"initialRate_": 1000,
+				"speedWidth_": 2000,
+				"rangeDistance_": 3000,
+				"livingTime_": 0.5,
+				"rangeDeg_": 40,
+				"rangeNear_": 10,
+				"rangeFar_": 3000,
+				"rangeUpper_": 1000,
+				"rangeLower_": 1200,
+				"correctDeg_": 2,
+				"shotDegMin_": -20,
+				"shotDegMax_": 20,
+				"a_": -5,
+				"b_": 3.5,
+				"c_": -0.7,
+				"d_": 0,
+				"playTime_": 1,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_pillar_bomb": {
+				"kind_": "DAMAGE_PILLAR_BOMB",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_critical",
+				"radius_": 360,
+				"damageRate_": 3.75,
+				"radius0_": 150,
+				"radius1_": 360,
+				"damageLowRate_": 3,
+				"gimmickDamageRate_": 3.75,
+				"center_": [
+					0,
+					100,
+					0
+				],
+				"blowRadius_": 250,
+				"blowRate_": 1.2,
+				"stumbleRadius_": 360,
+				"stumbleRate_": 0.6,
+				"livingTime_": 0.5,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_wind_trap": {
+				"kind_": "DAMAGE_WIND_TRAP",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_power",
+				"radius_": 340,
+				"damageRate_": 5.5,
+				"radius0_": 180,
+				"radius1_": 340,
+				"damageLowRate_": 3.5,
+				"gimmickDamageRate_": 5,
+				"center_": [
+					0,
+					150,
+					0
+				],
+				"blowRadius_": 200,
+				"blowRate_": 2.7,
+				"superBlowRadius_": 100,
+				"superBlowRate_": 3.2,
+				"stumbleRadius_": 340,
+				"stumbleRate_": 0.9,
+				"livingTime_": 0.4,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					255,
+					255
+				]
+			},
+			"H_meteor_ball": {
+				"kind_": "DAMAGE_METEOR_STORM",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"radius_": 180,
+				"damageRate_": 2,
+				"gimmickDamageRate_": 2,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"initialRate_": 1200,
+				"speedWidth_": 2000,
+				"rangeDistance_": 3000,
+				"livingTime_": 15,
+				"rangeDeg_": 40,
+				"rangeNear_": 10,
+				"rangeFar_": 3000,
+				"rangeUpper_": 1000,
+				"rangeLower_": 1200,
+				"correctDeg_": 2,
+				"shotDegMin_": -20,
+				"shotDegMax_": 20,
+				"a_": 1,
+				"b_": 2,
+				"c_": 0.5,
+				"d_": 0,
+				"playTime_": 0.5,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_meteor_storm": {
+				"kind_": "DAMAGE_METEOR_STORM",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_meteor",
+				"radius_": 720,
+				"damageRate_": 8,
+				"radius0_": 250,
+				"radius1_": 700,
+				"damageLowRate_": 5,
+				"gimmickDamageRate_": 8,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"blowRadius_": 550,
+				"blowRate_": 4.8,
+				"superBlowRadius_": 250,
+				"superBlowRate_": 5.6,
+				"stumbleRadius_": 650,
+				"stumbleRate_": 0.9,
+				"initialRate_": 1000,
+				"speedWidth_": 2000,
+				"rangeDistance_": 3000,
+				"livingTime_": 0.4,
+				"rangeDeg_": 40,
+				"rangeNear_": 10,
+				"rangeFar_": 3000,
+				"rangeUpper_": 1000,
+				"rangeLower_": 1200,
+				"correctDeg_": 2,
+				"shotDegMin_": -20,
+				"shotDegMax_": 20,
+				"a_": 1,
+				"b_": 2,
+				"c_": 0.5,
+				"d_": 0,
+				"playTime_": 0.5,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_tornado_gmk": {
+				"kind_": "DAMAGE_NONE",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"radius_": 500,
+				"gimmickDamageRate_": 5,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "joint3",
+				"livingTime_": 999999,
+				"interval_": 60,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_tornado_gmk2": {
+				"kind_": "DAMAGE_NONE",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"radius_": 500,
+				"gimmickDamageRate_": 5,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "joint6",
+				"livingTime_": 999999,
+				"interval_": 60,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_MiniTornado_01": {
+				"kind_": "DAMAGE_CYCLONE",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_critical",
+				"radius_": 230,
+				"damageRate_": 0.5,
+				"gimmickDamageRate_": 1.8,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					0,
+					125,
+					0
+				],
+				"blowRadius_": 230,
+				"blowRate_": 2.6,
+				"initialRate_": 400,
+				"livingTime_": 6,
+				"interval_": 60,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					127,
+					255,
+					0,
+					255
+				]
+			},
+			"H_MiniTornado_10": {
+				"kind_": "DAMAGE_CYCLONE_RUSH",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_critical",
+				"radius_": 215,
+				"damageRate_": 0.5,
+				"gimmickDamageRate_": 0.8,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					0,
+					125,
+					0
+				],
+				"blowRadius_": 215,
+				"blowRate_": 2.1,
+				"initialRate_": 240,
+				"livingTime_": 0,
+				"interval_": 60,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					127,
+					127,
+					255,
+					255
+				]
+			},
+			"H_repair": {
+				"kind_": "DAMAGE_REPAIR",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_PLAYER",
+				"radius_": 100,
+				"damageRate_": 0.45,
+				"gimmickDamageRate_": 0.08,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					0,
+					80,
+					130
+				],
+				"team_": "NEUTRAL",
+				"livingTime_": 999999,
+				"interval_": 32,
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_rob_attack_01": {
+				"kind_": "DAMAGE_ROBOT_NORMAL",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 280,
+				"damageRate_": 1.2,
+				"gimmickDamageRate_": 0.55,
+				"center_": [
+					0,
+					100,
+					220
+				],
+				"blowRate_": 0.5,
+				"debugColor_": [
+					127,
+					255,
+					0,
+					255
+				]
+			},
+			"H_rob_attack_02": {
+				"kind_": "DAMAGE_ROBOT_NORMAL",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 280,
+				"damageRate_": 1.4,
+				"gimmickDamageRate_": 0.6,
+				"center_": [
+					10,
+					100,
+					220
+				],
+				"blowRate_": 0.5,
+				"debugColor_": [
+					255,
+					0,
+					127,
+					255
+				]
+			},
+			"H_rob_attack_03": {
+				"kind_": "DAMAGE_ROBOT_NORMAL",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 280,
+				"damageRate_": 1.2,
+				"gimmickDamageRate_": 0.55,
+				"center_": [
+					0,
+					100,
+					220
+				],
+				"blowRate_": 0.6,
+				"debugColor_": [
+					127,
+					0,
+					127,
+					255
+				]
+			},
+			"H_rob_attack_04": {
+				"kind_": "DAMAGE_ROBOT_NORMAL",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 280,
+				"damageRate_": 1.4,
+				"gimmickDamageRate_": 0.6,
+				"center_": [
+					10,
+					100,
+					220
+				],
+				"blowRate_": 0.5,
+				"debugColor_": [
+					127,
+					255,
+					0,
+					255
+				]
+			},
+			"H_rob_attack_05": {
+				"kind_": "DAMAGE_ROBOT_NORMAL",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 260,
+				"damageRate_": 3,
+				"gimmickDamageRate_": 0.8,
+				"center_": [
+					0,
+					100,
+					370
+				],
+				"blowRate_": 0.5,
+				"debugColor_": [
+					255,
+					0,
+					127,
+					255
+				]
+			},
+			"H_rob_attack_06": {
+				"kind_": "DAMAGE_ROBOT_NORMAL",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 280,
+				"damageRate_": 2.5,
+				"gimmickDamageRate_": 0.7,
+				"center_": [
+					0,
+					200,
+					220
+				],
+				"blowRadius_": 230,
+				"blowRate_": 0.2,
+				"stumbleRate_": 0.2,
+				"debugColor_": [
+					127,
+					0,
+					127,
+					255
+				]
+			},
+			"H_rob_attack_07": {
+				"kind_": "DAMAGE_ROBOT_NORMAL",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_rocketman",
+				"radius_": 450,
+				"damageRate_": 5.9,
+				"radius0_": 360,
+				"radius1_": 450,
+				"damageLowRate_": 4.2,
+				"gimmickDamageRate_": 1.5,
+				"center_": [
+					0,
+					100,
+					0
+				],
+				"blowRadius_": 360,
+				"blowRate_": 3,
+				"stumbleRadius_": 450,
+				"stumbleRate_": 0.7,
+				"debugColor_": [
+					0,
+					255,
+					255,
+					255
+				]
+			},
+			"H_rob_attackspin": {
+				"kind_": "DAMAGE_ROBOT_NORMAL",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 180,
+				"damageRate_": 0.5,
+				"gimmickDamageRate_": 0.3,
+				"center_": [
+					0,
+					370,
+					0
+				],
+				"blowRate_": 0.5,
+				"stumbleRate_": 0.7,
+				"interval_": 8,
+				"debugColor_": [
+					0,
+					255,
+					255,
+					255
+				]
+			},
+			"H_rob_die": {
+				"kind_": "DAMAGE_ROBOT_NORMAL",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_rocketman",
+				"radius_": 400,
+				"damageRate_": 2,
+				"radius0_": 250,
+				"radius1_": 350,
+				"damageLowRate_": 1,
+				"gimmickDamageRate_": 2,
+				"center_": [
+					0,
+					100,
+					0
+				],
+				"blowRadius_": 300,
+				"blowRate_": 3,
+				"stumbleRadius_": 350,
+				"stumbleRate_": 0.7,
+				"debugColor_": [
+					0,
+					255,
+					255,
+					255
+				]
+			},
+			"H_rob_dashattack_01": {
+				"kind_": "DAMAGE_ROBOT_NORMAL",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_MID_Low",
+				"radius_": 320,
+				"damageRate_": 3.6,
+				"gimmickDamageRate_": 1.2,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "LeftForeArmScale",
+				"trans_": [
+					80,
+					0,
+					0
+				],
+				"blowRadius_": 400,
+				"blowRate_": 2,
+				"interval_": 8,
+				"debugColor_": [
+					127,
+					0,
+					127,
+					255
+				]
+			},
+			"H_rob_laser_hit": {
+				"kind_": "DAMAGE_ROBOT_BEAM",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_min_Low",
+				"radius_": 180,
+				"damageRate_": 0.2,
+				"gimmickDamageRate_": 0.2,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"blowRate_": 0.5,
+				"stumbleRadius_": 180,
+				"stumbleRate_": 0.4,
+				"livingTime_": 0.1,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_rob_laser_bomb": {
+				"kind_": "DAMAGE_ROBOT_BEAM",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_critical",
+				"radius_": 320,
+				"damageRate_": 8,
+				"radius0_": 240,
+				"radius1_": 320,
+				"damageLowRate_": 6,
+				"gimmickDamageRate_": 1.8,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"blowRadius_": 280,
+				"blowRate_": 3.4,
+				"stumbleRadius_": 320,
+				"stumbleRate_": 0.7,
+				"livingTime_": 0.1,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_rob_Stone01": {
+				"kind_": "DAMAGE_ROBOT_FAINT",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"percent_": 99,
+				"camShake_": "C_MID_Low",
+				"radius_": 120,
+				"damageRate_": 0.3,
+				"gimmickDamageRate_": 0.4,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					0,
+					50,
+					0
+				],
+				"initialRate_": 4000,
+				"rangeDistance_": 3200,
+				"livingTime_": 6,
+				"a_": 1000,
+				"b_": 2.8,
+				"playTime_": 1,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					128,
+					128,
+					128,
+					255
+				]
+			},
+			"H_rob_Stone02": {
+				"kind_": "DAMAGE_ROBOT_FAINT",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"percent_": 99,
+				"camShake_": "C_MID_Low",
+				"radius_": 120,
+				"damageRate_": 0.3,
+				"gimmickDamageRate_": 0.4,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					0,
+					50,
+					0
+				],
+				"initialRate_": 3200,
+				"rangeDistance_": 2100,
+				"livingTime_": 6,
+				"a_": 700,
+				"b_": 2.2,
+				"playTime_": 1,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					200,
+					0,
+					0,
+					255
+				]
+			},
+			"H_rob_Stone03": {
+				"kind_": "DAMAGE_ROBOT_FAINT",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"percent_": 99,
+				"camShake_": "C_MID_Low",
+				"radius_": 120,
+				"damageRate_": 0.3,
+				"gimmickDamageRate_": 0.4,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					0,
+					50,
+					0
+				],
+				"initialRate_": 2800,
+				"rangeDistance_": 900,
+				"livingTime_": 6,
+				"a_": 300,
+				"b_": 3.5,
+				"playTime_": 1,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					200,
+					0,
+					255
+				]
+			},
+			"H_battering_ram": {
+				"kind_": "DAMAGE_BATTERING_RAM",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_small_test",
+				"radius_": 200,
+				"damageRate_": 0,
+				"gimmickDamageRate_": 65,
+				"center_": [
+					0,
+					0,
+					300
+				],
+				"boneName_": "center1",
+				"blowRadius_": 200,
+				"blowRate_": 2.5,
+				"team_": "NEUTRAL",
+				"shape_": "SPHERE",
+				"livingTime_": 0.5,
+				"fparam0_": 20,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_battering_ram_own": {
+				"kind_": "DAMAGE_NONE",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"gimmickDamageRate_": 10,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_lightning_arrows": {
+				"kind_": "DAMAGE_LIGHTNING_ARROWS",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_MID_Hi",
+				"radius_": 110,
+				"damageRate_": 2.7,
+				"gimmickDamageRate_": 3,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"trans_": [
+					15,
+					30,
+					45
+				],
+				"stumbleRadius_": 110,
+				"stumbleRate_": 0.6,
+				"initialRate_": 3000,
+				"rangeDistance_": 4500,
+				"livingTime_": 3.5,
+				"shotDegMin_": -20,
+				"shotDegMax_": 18,
+				"fparam0_": 0.56,
+				"fparam1_": 7.5,
+				"fparam2_": 0.1,
+				"fparam3_": 170,
+				"iparam0_": 14,
+				"iparam1_": 43,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_catapult_ball": {
+				"kind_": "DAMAGE_CATAPULT",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"radius_": 100,
+				"damageRate_": 1,
+				"gimmickDamageRate_": 0.8,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"initialRate_": 4000,
+				"speedWidth_": 1000,
+				"rangeDistance_": 3000,
+				"livingTime_": 4,
+				"rangeDeg_": 6,
+				"rangeNear_": 3000,
+				"rangeFar_": 6000,
+				"rangeUpper_": 1000,
+				"rangeLower_": 1200,
+				"correctDeg_": 2,
+				"shotDegMin_": -9,
+				"shotDegMax_": 9,
+				"a_": -5,
+				"b_": 3.5,
+				"c_": -0.7,
+				"d_": 0,
+				"iparam2_": 120300,
+				"playTime_": 1,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_catapult": {
+				"kind_": "DAMAGE_CATAPULT",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_catapult",
+				"radius_": 350,
+				"damageRate_": 4,
+				"radius0_": 150,
+				"radius1_": 300,
+				"damageLowRate_": 2.7,
+				"gimmickDamageRate_": 2.6,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"blowRadius_": 200,
+				"blowRate_": 2.2,
+				"stumbleRadius_": 350,
+				"stumbleRate_": 0.6,
+				"initialRate_": 4000,
+				"speedWidth_": 1000,
+				"rangeDistance_": 3000,
+				"livingTime_": 0.4,
+				"rangeDeg_": 6,
+				"rangeNear_": 3000,
+				"rangeFar_": 6000,
+				"rangeUpper_": 1000,
+				"rangeLower_": 1200,
+				"correctDeg_": 2,
+				"shotDegMin_": -9,
+				"shotDegMax_": 9,
+				"a_": -5,
+				"b_": 3.5,
+				"c_": -0.7,
+				"d_": 0,
+				"iparam2_": 120300,
+				"playTime_": 1,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_Rkt_Damage_Mv": {
+				"kind_": "DAMAGE_CATAPULT",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"radius_": 100,
+				"damageRate_": 1,
+				"gimmickDamageRate_": 0.8,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"initialRate_": 4000,
+				"speedWidth_": 1000,
+				"rangeDistance_": 3000,
+				"livingTime_": 4,
+				"rangeDeg_": 6,
+				"rangeNear_": 3000,
+				"rangeFar_": 6000,
+				"rangeUpper_": 1000,
+				"rangeLower_": 1200,
+				"correctDeg_": 2,
+				"shotDegMin_": -4,
+				"shotDegMax_": 4,
+				"a_": -5,
+				"b_": 3.5,
+				"c_": -0.7,
+				"d_": 0,
+				"iparam2_": 82050,
+				"playTime_": 1,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_Rkt_Damage_Ep": {
+				"kind_": "DAMAGE_CATAPULT",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_catapult",
+				"radius_": 400,
+				"damageRate_": 4,
+				"radius0_": 200,
+				"radius1_": 350,
+				"damageLowRate_": 2.9,
+				"gimmickDamageRate_": 2.6,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"blowRadius_": 200,
+				"blowRate_": 3,
+				"stumbleRadius_": 400,
+				"stumbleRate_": 0.8,
+				"initialRate_": 4000,
+				"speedWidth_": 1000,
+				"rangeDistance_": 3000,
+				"livingTime_": 0.4,
+				"rangeDeg_": 6,
+				"rangeNear_": 3000,
+				"rangeFar_": 6000,
+				"rangeUpper_": 1000,
+				"rangeLower_": 1200,
+				"correctDeg_": 2,
+				"shotDegMin_": -4,
+				"shotDegMax_": 4,
+				"a_": -5,
+				"b_": 3.5,
+				"c_": -0.7,
+				"d_": 0,
+				"iparam2_": 40900,
+				"playTime_": 1,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_Rkt_Heal_Mv": {
+				"kind_": "DAMAGE_NONE",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"radius_": 100,
+				"gimmickDamageRate_": 0.001,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"initialRate_": 4000,
+				"speedWidth_": 1000,
+				"rangeDistance_": 3000,
+				"livingTime_": 4,
+				"rangeDeg_": 6,
+				"rangeNear_": 3000,
+				"rangeFar_": 6000,
+				"rangeUpper_": 1000,
+				"rangeLower_": 1200,
+				"correctDeg_": 2,
+				"shotDegMin_": -4,
+				"shotDegMax_": 4,
+				"a_": -5,
+				"b_": 3.5,
+				"c_": -0.7,
+				"d_": 0,
+				"iparam2_": 82050,
+				"playTime_": 1,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_Rkt_Heal_Ep": {
+				"kind_": "DAMAGE_NONE",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"percent_": 10,
+				"camShake_": "C_catapult",
+				"radius_": 250,
+				"gimmickDamageRate_": 0.001,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"initialRate_": 4000,
+				"speedWidth_": 1000,
+				"rangeDistance_": 3000,
+				"livingTime_": 0.4,
+				"rangeDeg_": 6,
+				"rangeNear_": 3000,
+				"rangeFar_": 6000,
+				"rangeUpper_": 1000,
+				"rangeLower_": 1200,
+				"correctDeg_": 2,
+				"shotDegMin_": -4,
+				"shotDegMax_": 4,
+				"a_": -5,
+				"b_": 3.5,
+				"c_": -0.7,
+				"d_": 0,
+				"iparam2_": 40900,
+				"playTime_": 1,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_Rkt_Dispell_Mv": {
+				"kind_": "DAMAGE_NONE",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"radius_": 100,
+				"gimmickDamageRate_": 0.001,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"initialRate_": 4000,
+				"speedWidth_": 1000,
+				"rangeDistance_": 3000,
+				"livingTime_": 4,
+				"rangeDeg_": 6,
+				"rangeNear_": 3000,
+				"rangeFar_": 6000,
+				"rangeUpper_": 1000,
+				"rangeLower_": 1200,
+				"correctDeg_": 2,
+				"shotDegMin_": -4,
+				"shotDegMax_": 4,
+				"a_": -5,
+				"b_": 3.5,
+				"c_": -0.7,
+				"d_": 0,
+				"iparam2_": 82050,
+				"playTime_": 1,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_Rkt_Dispell_Ep": {
+				"kind_": "DAMAGE_NONE",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_catapult",
+				"radius_": 250,
+				"gimmickDamageRate_": 0.001,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"initialRate_": 4000,
+				"speedWidth_": 1000,
+				"rangeDistance_": 3000,
+				"livingTime_": 0.4,
+				"rangeDeg_": 6,
+				"rangeNear_": 3000,
+				"rangeFar_": 6000,
+				"rangeUpper_": 1000,
+				"rangeLower_": 1200,
+				"correctDeg_": 2,
+				"shotDegMin_": -4,
+				"shotDegMax_": 4,
+				"a_": -5,
+				"b_": 3.5,
+				"c_": -0.7,
+				"d_": 0,
+				"iparam2_": 40900,
+				"playTime_": 1,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_Ballista_Mv": {
+				"kind_": "DAMAGE_BALLISTA",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"radius_": 100,
+				"damageRate_": 0.9,
+				"gimmickDamageRate_": 0.6,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"shape_": "SPHERE",
+				"initialRate_": 4500,
+				"rangeDistance_": 10000,
+				"livingTime_": 4,
+				"shotDegMin_": -1,
+				"shotDegMax_": 1,
+				"a_": 52,
+				"b_": 32,
+				"iparam2_": 120350,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_Ballista_Ep": {
+				"kind_": "DAMAGE_BALLISTA",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_attack",
+				"radius_": 220,
+				"damageRate_": 0.7,
+				"gimmickDamageRate_": 0.4,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"shape_": "SPHERE",
+				"initialRate_": 3000,
+				"rangeDistance_": 10000,
+				"livingTime_": 0.5,
+				"shotDegMin_": -1,
+				"shotDegMax_": 1,
+				"a_": 20,
+				"b_": 4.9,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_Minigun_Mv": {
+				"kind_": "DAMAGE_MINIGUN",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"radius_": 60,
+				"damageRate_": 0.1,
+				"gimmickDamageRate_": 0.1,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"shape_": "SPHERE",
+				"initialRate_": 4500,
+				"rangeDistance_": 4900,
+				"livingTime_": 4,
+				"shotDegMin_": -1,
+				"shotDegMax_": 1,
+				"a_": 52,
+				"b_": 32,
+				"iparam2_": 120350,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_Minigun_Ep": {
+				"kind_": "DAMAGE_MINIGUN",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_attack",
+				"radius_": 200,
+				"damageRate_": 0.65,
+				"gimmickDamageRate_": 0.4,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"shape_": "SPHERE",
+				"initialRate_": 3000,
+				"rangeDistance_": 4900,
+				"livingTime_": 0.5,
+				"shotDegMin_": -1,
+				"shotDegMax_": 1,
+				"a_": 20,
+				"b_": 4.9,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_Bomb_stone_Mv": {
+				"kind_": "DAMAGE_BOMB_STONE",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"radius_": 150,
+				"damageRate_": 1,
+				"gimmickDamageRate_": 1,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"shape_": "SPHERE",
+				"initialRate_": 700,
+				"speedWidth_": 1500,
+				"rangeDistance_": 10000,
+				"livingTime_": 5,
+				"shotDegMin_": -20,
+				"shotDegMax_": 20,
+				"a_": 0,
+				"b_": 200,
+				"c_": 20,
+				"fparam0_": 30,
+				"fparam1_": 5,
+				"fparam2_": 120,
+				"fparam3_": 0.3,
+				"fparam4_": 2,
+				"iparam2_": 120650,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_Bomb_stone_Ep": {
+				"kind_": "DAMAGE_BOMB_STONE",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_rocketman",
+				"radius_": 300,
+				"damageRate_": 1.5,
+				"gimmickDamageRate_": 1.5,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"blowRadius_": 300,
+				"blowRate_": 2.1,
+				"shape_": "SPHERE",
+				"initialRate_": 3000,
+				"rangeDistance_": 10000,
+				"livingTime_": 0.5,
+				"shotDegMin_": -20,
+				"shotDegMax_": 20,
+				"a_": 0,
+				"b_": 300,
+				"c_": 20,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_Circuit_Damage": {
+				"kind_": "DAMAGE_CIRCUIT_DAMAGE",
+				"attribute_": "GIMMICK",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_catapult",
+				"radius_": 310,
+				"damageRate_": 1,
+				"center_": [
+					0,
+					90,
+					200
+				],
+				"blowRadius_": 310,
+				"blowRate_": 3,
+				"shape_": "SPHERE",
+				"livingTime_": 999999,
+				"fparam0_": 50,
+				"interval_": 90,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_Quetzal_shot_Mv": {
+				"kind_": "DAMAGE_QUETZAL",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"percent_": 100,
+				"radius_": 200,
+				"damageRate_": 1.7,
+				"gimmickDamageRate_": 1.4,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"initialRate_": 1000,
+				"speedWidth_": 10000,
+				"rangeDistance_": 21500,
+				"livingTime_": 5,
+				"rangeDeg_": -10000,
+				"rangeNear_": 1000,
+				"rangeFar_": 4,
+				"rangeUpper_": 0.0375,
+				"rangeLower_": 0.8951,
+				"correctDeg_": 90,
+				"shotDegMin_": 180,
+				"shotDegMax_": 5000,
+				"a_": 10000,
+				"fparam4_": "H_Quetzal_shot_Ep",
+				"iparam0_": "gshe02",
+				"iparam1_": "gshe02_000_fly_loop",
+				"iparam2_": "Gque01c",
+				"iparam3_": "Gque05c",
+				"iparam4_": 140750,
+				"@class": "JsonQuetzalBulletParam",
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_Quetzal_shot_Ep": {
+				"kind_": "DAMAGE_QUETZAL",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"percent_": 100,
+				"camShake_": "C_power",
+				"radius_": 400,
+				"damageRate_": 1.2,
+				"gimmickDamageRate_": 1,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"blowRadius_": 400,
+				"blowRate_": 2,
+				"livingTime_": 0.4,
+				"debugColor_": [
+					0,
+					255,
+					0,
+					255
+				]
+			},
+			"H_BossAttack_01": {
+				"kind_": "DAMAGE_NORMAL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 180,
+				"damageRate_": 1,
+				"gimmickDamageRate_": 1,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"trans_": [
+					50,
+					50,
+					0
+				],
+				"blowRadius_": 180,
+				"blowRate_": 0.5,
+				"debugColor_": [
+					127,
+					255,
+					0,
+					255
+				]
+			},
+			"H_BossAttack_03": {
+				"kind_": "DAMAGE_NORMAL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_min_Low",
+				"radius_": 220,
+				"damageRate_": 1,
+				"gimmickDamageRate_": 1,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					0,
+					0,
+					0
+				],
+				"blowRate_": 0.5,
+				"stumbleRadius_": 220,
+				"stumbleRate_": 0.5,
+				"debugColor_": [
+					127,
+					255,
+					0,
+					255
+				]
+			},
+			"H_BossAttack_02": {
+				"kind_": "DAMAGE_NORMAL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_critical",
+				"radius_": 220,
+				"damageRate_": 1,
+				"gimmickDamageRate_": 1,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					50,
+					0
+				],
+				"blowRadius_": 220,
+				"blowRate_": 4,
+				"debugColor_": [
+					127,
+					255,
+					0,
+					255
+				]
+			},
+			"H_BossAttack_04": {
+				"kind_": "DAMAGE_FIRE_BALL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"percent_": 100,
+				"camShake_": "C_min_Low",
+				"radius_": 200,
+				"damageRate_": 2,
+				"gimmickDamageRate_": 2,
+				"center_": [
+					0,
+					100,
+					165
+				],
+				"debugColor_": [
+					0,
+					255,
+					255,
+					255
+				]
+			},
+			"H_BossAttack_05": {
+				"kind_": "DAMAGE_FIRE_BALL",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"percent_": 100,
+				"camShake_": "C_critical",
+				"radius_": 200,
+				"damageRate_": 2,
+				"gimmickDamageRate_": 2,
+				"center_": [
+					0,
+					100,
+					165
+				],
+				"stumbleRadius_": 200,
+				"stumbleRate_": 2.2,
+				"debugColor_": [
+					0,
+					255,
+					255,
+					255
+				]
+			},
+			"H_BossAttack_06": {
+				"kind_": "DAMAGE_ROAR",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"percent_": 100,
+				"camShake_": "C_lightning_strike",
+				"radius_": 300,
+				"damageRate_": 0,
+				"gimmickDamageRate_": 0,
+				"center_": [
+					0,
+					100,
+					0
+				],
+				"debugColor_": [
+					0,
+					255,
+					255,
+					255
+				]
+			},
+			"H_BossAttack_07": {
+				"kind_": "DAMAGE_PILLAR_BOMB",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_critical",
+				"radius_": 80,
+				"damageRate_": 3.75,
+				"radius0_": 150,
+				"radius1_": 80,
+				"damageLowRate_": 3,
+				"gimmickDamageRate_": 3.75,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					0,
+					0,
+					300
+				],
+				"blowRadius_": 70,
+				"blowRate_": 1.2,
+				"stumbleRadius_": 80,
+				"stumbleRate_": 0.6,
+				"livingTime_": 0.5,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_BossAttack_08": {
+				"kind_": "DAMAGE_PILLAR_BOMB",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_critical",
+				"radius_": 80,
+				"damageRate_": 3.75,
+				"radius0_": 150,
+				"radius1_": 80,
+				"damageLowRate_": 3,
+				"gimmickDamageRate_": 3.75,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					0,
+					0,
+					500
+				],
+				"blowRadius_": 70,
+				"blowRate_": 1.2,
+				"stumbleRadius_": 80,
+				"stumbleRate_": 0.6,
+				"livingTime_": 0.5,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_BossAttack_09": {
+				"kind_": "DAMAGE_PILLAR_BOMB",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_critical",
+				"radius_": 80,
+				"damageRate_": 3.75,
+				"radius0_": 150,
+				"radius1_": 80,
+				"damageLowRate_": 3,
+				"gimmickDamageRate_": 3.75,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					0,
+					0,
+					700
+				],
+				"blowRadius_": 70,
+				"blowRate_": 1.2,
+				"stumbleRadius_": 80,
+				"stumbleRate_": 0.6,
+				"livingTime_": 0.5,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_BossAttack_10": {
+				"kind_": "DAMAGE_PILLAR_BOMB",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_critical",
+				"radius_": 80,
+				"damageRate_": 3.75,
+				"radius0_": 150,
+				"radius1_": 80,
+				"damageLowRate_": 3,
+				"gimmickDamageRate_": 3.75,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					320,
+					0,
+					300
+				],
+				"blowRadius_": 70,
+				"blowRate_": 1.2,
+				"stumbleRadius_": 80,
+				"stumbleRate_": 0.6,
+				"livingTime_": 0.5,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_BossAttack_11": {
+				"kind_": "DAMAGE_PILLAR_BOMB",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_critical",
+				"radius_": 80,
+				"damageRate_": 3.75,
+				"radius0_": 150,
+				"radius1_": 80,
+				"damageLowRate_": 3,
+				"gimmickDamageRate_": 3.75,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					320,
+					0,
+					500
+				],
+				"blowRadius_": 70,
+				"blowRate_": 1.2,
+				"stumbleRadius_": 80,
+				"stumbleRate_": 0.6,
+				"livingTime_": 0.5,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_BossAttack_12": {
+				"kind_": "DAMAGE_PILLAR_BOMB",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_critical",
+				"radius_": 80,
+				"damageRate_": 3.75,
+				"radius0_": 150,
+				"radius1_": 80,
+				"damageLowRate_": 3,
+				"gimmickDamageRate_": 3.75,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					320,
+					0,
+					700
+				],
+				"blowRadius_": 70,
+				"blowRate_": 1.2,
+				"stumbleRadius_": 80,
+				"stumbleRate_": 0.6,
+				"livingTime_": 0.5,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_BossAttack_13": {
+				"kind_": "DAMAGE_PILLAR_BOMB",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_critical",
+				"radius_": 80,
+				"damageRate_": 3.75,
+				"radius0_": 150,
+				"radius1_": 80,
+				"damageLowRate_": 3,
+				"gimmickDamageRate_": 3.75,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					-320,
+					0,
+					300
+				],
+				"blowRadius_": 70,
+				"blowRate_": 1.2,
+				"stumbleRadius_": 80,
+				"stumbleRate_": 0.6,
+				"livingTime_": 0.5,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_BossAttack_14": {
+				"kind_": "DAMAGE_PILLAR_BOMB",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_critical",
+				"radius_": 80,
+				"damageRate_": 3.75,
+				"radius0_": 150,
+				"radius1_": 80,
+				"damageLowRate_": 3,
+				"gimmickDamageRate_": 3.75,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					-320,
+					0,
+					500
+				],
+				"blowRadius_": 70,
+				"blowRate_": 1.2,
+				"stumbleRadius_": 80,
+				"stumbleRate_": 0.6,
+				"livingTime_": 0.5,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_BossAttack_15": {
+				"kind_": "DAMAGE_PILLAR_BOMB",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_critical",
+				"radius_": 80,
+				"damageRate_": 3.75,
+				"radius0_": 150,
+				"radius1_": 80,
+				"damageLowRate_": 3,
+				"gimmickDamageRate_": 3.75,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					-320,
+					0,
+					700
+				],
+				"blowRadius_": 70,
+				"blowRate_": 1.2,
+				"stumbleRadius_": 80,
+				"stumbleRate_": 0.6,
+				"livingTime_": 0.5,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_Boss_SmokeRoar": {
+				"kind_": "DAMAGE_ROAR",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"percent_": 100,
+				"camShake_": "C_lightning_strike",
+				"radius_": 220,
+				"damageRate_": 0.5,
+				"gimmickDamageRate_": 0,
+				"center_": [
+					0,
+					30,
+					0
+				],
+				"debugColor_": [
+					0,
+					255,
+					255,
+					255
+				]
+			},
+			"H_BossStorm01": {
+				"kind_": "DAMAGE_WIND_TRAP",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_critical",
+				"radius_": 130,
+				"damageRate_": 0.8,
+				"radius0_": 90,
+				"radius1_": 130,
+				"damageLowRate_": 0.5,
+				"gimmickDamageRate_": 1,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					0,
+					0,
+					-600
+				],
+				"blowRadius_": 130,
+				"blowRate_": 2,
+				"livingTime_": 0.5,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_BossStorm02": {
+				"kind_": "DAMAGE_WIND_TRAP",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_critical",
+				"radius_": 130,
+				"damageRate_": 0.8,
+				"radius0_": 90,
+				"radius1_": 130,
+				"damageLowRate_": 0.5,
+				"gimmickDamageRate_": 1,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					-520,
+					0,
+					300
+				],
+				"blowRadius_": 130,
+				"blowRate_": 2,
+				"livingTime_": 0.5,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_BossStorm03": {
+				"kind_": "DAMAGE_WIND_TRAP",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_critical",
+				"radius_": 130,
+				"damageRate_": 0.8,
+				"radius0_": 90,
+				"radius1_": 130,
+				"damageLowRate_": 0.5,
+				"gimmickDamageRate_": 1,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					520,
+					0,
+					300
+				],
+				"blowRadius_": 130,
+				"blowRate_": 2,
+				"livingTime_": 0.5,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_BossStorm04": {
+				"kind_": "DAMAGE_WIND_TRAP",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_MID_Hi",
+				"radius_": 100,
+				"damageRate_": 0.5,
+				"radius0_": 90,
+				"radius1_": 100,
+				"damageLowRate_": 0.2,
+				"gimmickDamageRate_": 1,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					0,
+					300,
+					-600
+				],
+				"blowRadius_": 100,
+				"blowRate_": 1,
+				"livingTime_": 0.15,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_BossStorm05": {
+				"kind_": "DAMAGE_WIND_TRAP",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_MID_Hi",
+				"radius_": 100,
+				"damageRate_": 0.5,
+				"radius0_": 90,
+				"radius1_": 100,
+				"damageLowRate_": 0.2,
+				"gimmickDamageRate_": 1,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					-520,
+					300,
+					300
+				],
+				"blowRadius_": 100,
+				"blowRate_": 1,
+				"livingTime_": 0.15,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_BossStorm06": {
+				"kind_": "DAMAGE_WIND_TRAP",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_HIT",
+				"camShake_": "C_MID_Hi",
+				"radius_": 100,
+				"damageRate_": 0.5,
+				"radius0_": 90,
+				"radius1_": 100,
+				"damageLowRate_": 0.2,
+				"gimmickDamageRate_": 1,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					520,
+					300,
+					300
+				],
+				"blowRadius_": 100,
+				"blowRate_": 1,
+				"livingTime_": 0.15,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					0,
+					0,
+					255,
+					255
+				]
+			},
+			"H_BossIceStorm01": {
+				"kind_": "DAMAGE_BLIZZARD",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_PLAYER",
+				"percent_": 90,
+				"camShake_": "C_MAXsacri",
+				"radius_": 150,
+				"damageRate_": 0.3,
+				"gimmickDamageRate_": 1,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					0,
+					0,
+					-600
+				],
+				"stumbleRadius_": 150,
+				"stumbleRate_": 0.8,
+				"livingTime_": 0.15,
+				"fparam0_": 150,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					255,
+					255,
+					255,
+					255
+				]
+			},
+			"H_BossIceStorm02": {
+				"kind_": "DAMAGE_BLIZZARD",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_PLAYER",
+				"percent_": 90,
+				"camShake_": "C_MAXsacri",
+				"radius_": 150,
+				"damageRate_": 0.3,
+				"gimmickDamageRate_": 1,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					-520,
+					0,
+					300
+				],
+				"stumbleRadius_": 150,
+				"stumbleRate_": 0.8,
+				"livingTime_": 0.15,
+				"fparam0_": 150,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					255,
+					255,
+					255,
+					255
+				]
+			},
+			"H_BossIceStorm03": {
+				"kind_": "DAMAGE_BLIZZARD",
+				"attribute_": "MAGIC",
+				"dirTarget_": "DIR_PLAYER",
+				"percent_": 90,
+				"camShake_": "C_MAXsacri",
+				"radius_": 150,
+				"damageRate_": 0.3,
+				"gimmickDamageRate_": 1,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					520,
+					0,
+					300
+				],
+				"stumbleRadius_": 150,
+				"stumbleRate_": 0.8,
+				"livingTime_": 0.15,
+				"fparam0_": 150,
+				"@class": "JsonBulletParam",
+				"debugColor_": [
+					255,
+					255,
+					255,
+					255
+				]
+			},
+			"H_BossBomb": {
+				"kind_": "DAMAGE_ROCKET",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_rocketman",
+				"radius_": 450,
+				"damageRate_": 8,
+				"radius0_": 250,
+				"radius1_": 450,
+				"damageLowRate_": 5.5,
+				"gimmickDamageRate_": 5,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"blowRadius_": 300,
+				"blowRate_": 3,
+				"stumbleRadius_": 500,
+				"stumbleRate_": 0.7,
+				"debugColor_": [
+					0,
+					255,
+					255,
+					255
+				]
+			},
+			"H_BossGateBraker": {
+				"kind_": "DAMAGE_SMASH",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"camShake_": "C_critical",
+				"radius_": 115,
+				"damageRate_": 0,
+				"gimmickDamageRate_": 200,
+				"center_": [
+					0,
+					120,
+					0
+				],
+				"boneName_": "Head",
+				"blowRadius_": 115,
+				"blowRate_": 2.3,
+				"debugColor_": [
+					0,
+					255,
+					255,
+					255
+				]
+			},
+			"H_KingSpawn_01": {
+				"kind_": "DAMAGE_REACTION_ONLY",
+				"attribute_": "PHYSICAL",
+				"dirTarget_": "DIR_PLAYER",
+				"radius_": 630,
+				"damageRate_": 0,
+				"gimmickDamageRate_": 0,
+				"center_": [
+					0,
+					0,
+					0
+				],
+				"trans_": [
+					0,
+					0,
+					0
+				],
+				"blowRadius_": 600,
+				"blowRate_": 1.5,
+				"stumbleRadius_": 630,
+				"stumbleRate_": 2,
+				"debugColor_": [
+					127,
+					255,
+					0,
+					255
+				]
+			}
+		}
+	}
+}

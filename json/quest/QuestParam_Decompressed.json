@@ -1,0 +1,724 @@
+/* XDASEA_Xm8R_SPsX */ 
+// Geimini_クエスト条件パラメータ.xlsx.tmp Quest 
+
+{"JsonQuest":{"quest_":{
+	"TotalPlayTime01":{
+		"Param0" : 10,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00005",
+		"DescriptionTextID" : "$TXCQS00005"
+	},
+	"TotalPlayTime02":{
+		"Param0" : 50,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00022",
+		"DescriptionTextID" : "$TXCQS00022"
+	},
+	"TotalPlayTime03":{
+		"Param0" : 100,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00040",
+		"DescriptionTextID" : "$TXCQS00040"
+	},
+	"TotalPlayTime04":{
+		"Param0" : 200,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00058",
+		"DescriptionTextID" : "$TXCQS00058"
+	},
+	"TotalGameWin01":{
+		"Param0" : 10,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00003",
+		"DescriptionTextID" : "$TXCQS00003"
+	},
+	"TotalGameWin02":{
+		"Param0" : 100,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00020",
+		"DescriptionTextID" : "$TXCQS00020"
+	},
+	"TotalGameWin03":{
+		"Param0" : 256,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00038",
+		"DescriptionTextID" : "$TXCQS00038"
+	},
+	"TotalGameWin04":{
+		"Param0" : 512,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00056",
+		"DescriptionTextID" : "$TXCQS00056"
+	},
+	"TotalKillEnemy01":{
+		"Param0" : 1,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00001",
+		"DescriptionTextID" : "$TXCQS00001"
+	},
+	"TotalKillEnemy02":{
+		"Param0" : 50,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00002",
+		"DescriptionTextID" : "$TXCQS00002"
+	},
+	"TotalKillEnemy03":{
+		"Param0" : 100,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00019",
+		"DescriptionTextID" : "$TXCQS00019"
+	},
+	"TotalKillEnemy04":{
+		"Param0" : 500,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00035",
+		"DescriptionTextID" : "$TXCQS00035"
+	},
+	"TotalKillEnemy05":{
+		"Param0" : 1000,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00037",
+		"DescriptionTextID" : "$TXCQS00037"
+	},
+	"TotalKillEnemy06":{
+		"Param0" : 10000,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00055",
+		"DescriptionTextID" : "$TXCQS00055"
+	},
+	"TotalKillRevenge01":{
+		"Param0" : 1,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00009",
+		"DescriptionTextID" : "$TXCQS00009"
+	},
+	"TotalKillRevenge02":{
+		"Param0" : 100,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00041",
+		"DescriptionTextID" : "$TXCQS00041"
+	},
+	"TotalKillInvader01":{
+		"Param0" : 5,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00008",
+		"DescriptionTextID" : "$TXCQS00008"
+	},
+	"TotalKillToWarrior01":{
+		"Param0" : 500,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00050",
+		"DescriptionTextID" : "$TXCQS00050"
+	},
+	"TotalKillToMage01":{
+		"Param0" : 500,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00052",
+		"DescriptionTextID" : "$TXCQS00052",
+		"UnlockStyle" : "SYLPH"
+	},
+	"TotalKillToCleric01":{
+		"Param0" : 500,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00051",
+		"DescriptionTextID" : "$TXCQS00051"
+	},
+	"TotalKillByWarrior01":{
+		"Param0" : 30,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00014",
+		"DescriptionTextID" : "$TXCQS00014"
+	},
+	"TotalKillByWarrior02":{
+		"Param0" : 100,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00044",
+		"DescriptionTextID" : "$TXCQS00044",
+		"UnlockStyle" : "BERSERKER"
+	},
+	"TotalKillByWarrior03":{
+		"Param0" : 1000,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00061",
+		"DescriptionTextID" : "$TXCQS00061"
+	},
+	"TotalKillByMage01":{
+		"Param0" : 30,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00015",
+		"DescriptionTextID" : "$TXCQS00015",
+		"UnlockStyle" : "SYLPH"
+	},
+	"TotalKillByMage02":{
+		"Param0" : 100,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00046",
+		"DescriptionTextID" : "$TXCQS00046"
+	},
+	"TotalKillByMage03":{
+		"Param0" : 1000,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00063",
+		"DescriptionTextID" : "$TXCQS00063"
+	},
+	"TotalHealByCleric01":{
+		"Param0" : 100,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00030",
+		"DescriptionTextID" : "$TXCQS00030"
+	},
+	"TotalHealByCleric02":{
+		"Param0" : 1000,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00045",
+		"DescriptionTextID" : "$TXCQS00045"
+	},
+	"TotalHealByCleric03":{
+		"Param0" : 10000,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00062",
+		"DescriptionTextID" : "$TXCQS00062"
+	},
+	"TotalBackAttackKill01":{
+		"Param0" : 5,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00032",
+		"DescriptionTextID" : "$TXCQS00032"
+	},
+	"TotalBackAttackKill02":{
+		"Param0" : 100,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00048",
+		"DescriptionTextID" : "$TXCQS00048"
+	},
+	"TotalNoDeadKill01":{
+		"Param0" : 3,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00004",
+		"DescriptionTextID" : "$TXCQS00004"
+	},
+	"TotalNoDeadKill02":{
+		"Param0" : 10,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00021",
+		"DescriptionTextID" : "$TXCQS00021"
+	},
+	"TotalNoDeadKill03":{
+		"Param0" : 20,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00039",
+		"DescriptionTextID" : "$TXCQS00039"
+	},
+	"TotalNoDeadKill04":{
+		"Param0" : 30,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00057",
+		"DescriptionTextID" : "$TXCQS00057"
+	},
+	"TotalFallKill01":{
+		"Param0" : 10,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00017",
+		"DescriptionTextID" : "$TXCQS00017"
+	},
+	"TotalEnchantKill01":{
+		"Param0" : 1000,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00065",
+		"DescriptionTextID" : "$TXCQS00065"
+	},
+	"TotalBallistaKill01":{
+		"Param0" : 300,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00054",
+		"DescriptionTextID" : "$TXCQS00054",
+		"UnlockStyle" : "ENGINEER"
+	},
+	"TotalResurrection01":{
+		"Param0" : 10,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00018",
+		"DescriptionTextID" : "$TXCQS00018"
+	},
+	"TotalResurrection02":{
+		"Param0" : 500,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00066",
+		"DescriptionTextID" : "$TXCQS00066"
+	},
+	"TotalHeroPopup01":{
+		"Param0" : 5,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00011",
+		"DescriptionTextID" : "$TXCQS00011"
+	},
+	"TotalHeroPopup02":{
+		"Param0" : 10,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00024",
+		"DescriptionTextID" : "$TXCQS00024"
+	},
+	"TotalHeroPopup03":{
+		"Param0" : 50,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00043",
+		"DescriptionTextID" : "$TXCQS00043",
+		"UnlockStyle" : "SYLPH"
+	},
+	"TotalHeroPopup04":{
+		"Param0" : 200,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00060",
+		"DescriptionTextID" : "$TXCQS00060"
+	},
+	"TotalGuard01":{
+		"Param0" : 50,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00016",
+		"DescriptionTextID" : "$TXCQS00016"
+	},
+	"TotalGuard02":{
+		"Param0" : 1000,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00047",
+		"DescriptionTextID" : "$TXCQS00047"
+	},
+	"TotalJobChange01":{
+		"Param0" : 10,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00012",
+		"DescriptionTextID" : "$TXCQS00012"
+	},
+	"TotalCommunication01":{
+		"Param0" : 50,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00013",
+		"DescriptionTextID" : "$TXCQS00013"
+	},
+	"TotalBreakTeamSkill02":{
+		"Param0" : 2000,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00067",
+		"DescriptionTextID" : "$TXCQS00067"
+	},
+	"TotalBreakMonument01":{
+		"Param0" : 10,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00007",
+		"DescriptionTextID" : "$TXCQS00007"
+	},
+	"TotalBreakCastle01":{
+		"Param0" : 1,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00010",
+		"DescriptionTextID" : "$TXCQS00010"
+	},
+	"TotalBreakCastle02":{
+		"Param0" : 10,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00023",
+		"DescriptionTextID" : "$TXCQS00023",
+		"UnlockStyle" : "ENGINEER"
+	},
+	"TotalBreakCastle03":{
+		"Param0" : 100,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00042",
+		"DescriptionTextID" : "$TXCQS00042"
+	},
+	"TotalBreakCastle04":{
+		"Param0" : 1000,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00059",
+		"DescriptionTextID" : "$TXCQS00059"
+	},
+	"NoDamageBreakCastle":{
+		"Param0" : 0,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00053",
+		"DescriptionTextID" : "$TXCQS00053",
+		"UnlockStyle" : "ENGINEER"
+	},
+	"TotalBreakTeamSkill01":{
+		"Param0" : 100,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00049",
+		"DescriptionTextID" : "$TXCQS00049"
+	},
+	"SurvivalMax":{
+		"Param0" : 0,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00006",
+		"DescriptionTextID" : "$TXCQS00006"
+	},
+	"KillMax":{
+		"Param0" : 0,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00033",
+		"DescriptionTextID" : "$TXCQS00033",
+		"UnlockStyle" : "BERSERKER"
+	},
+	"KillMaxAndDeathMin":{
+		"Param0" : 0,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00034",
+		"DescriptionTextID" : "$TXCQS00034"
+	},
+	"AllKill":{
+		"Param0" : 0,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00036",
+		"DescriptionTextID" : "$TXCQS00036",
+		"UnlockStyle" : "BERSERKER"
+	},
+	"AllKillAndBreakCastle":{
+		"Param0" : 0,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00064",
+		"DescriptionTextID" : "$TXCQS00064"
+	},
+	"NoDead":{
+		"Param0" : 0,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00031",
+		"DescriptionTextID" : "$TXCQS00031"
+	},
+	"TotalWinStageSDES":{
+		"Param0" : 10,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00025",
+		"DescriptionTextID" : "$TXCQS00025"
+	},
+	"TotalWinStageSSEA":{
+		"Param0" : 10,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00026",
+		"DescriptionTextID" : "$TXCQS00026"
+	},
+	"TotalWinStageSLIG":{
+		"Param0" : 10,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00027",
+		"DescriptionTextID" : "$TXCQS00027"
+	},
+	"TotalWinStageSDAR":{
+		"Param0" : 10,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00028",
+		"DescriptionTextID" : "$TXCQS00028"
+	},
+	"TotalWinStageSCLO":{
+		"Param0" : 10,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00029",
+		"DescriptionTextID" : "$TXCQS00029"
+	},
+	"TotalBreakCastleSDES":{
+		"Param0" : 200,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00068",
+		"DescriptionTextID" : "$TXCQS00068"
+	},
+	"TotalBreakCastleSSEA":{
+		"Param0" : 200,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00069",
+		"DescriptionTextID" : "$TXCQS00069"
+	},
+	"TotalBreakCastleSLIG":{
+		"Param0" : 200,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00070",
+		"DescriptionTextID" : "$TXCQS00070"
+	},
+	"TotalBreakCastleSDAR":{
+		"Param0" : 200,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00071",
+		"DescriptionTextID" : "$TXCQS00071"
+	},
+	"TotalBreakCastleSCLO":{
+		"Param0" : 200,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00072",
+		"DescriptionTextID" : "$TXCQS00072"
+	},
+	"TotalKillEnemy07":{
+		"Param0" : 5000,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00073",
+		"DescriptionTextID" : "$TXCQS00073"
+	},
+	"TotalGameWin05":{
+		"Param0" : 384,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00074",
+		"DescriptionTextID" : "$TXCQS00074"
+	},
+	"TotalNoDeadKill05":{
+		"Param0" : 25,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00075",
+		"DescriptionTextID" : "$TXCQS00075"
+	},
+	"TotalPlayTime05":{
+		"Param0" : 150,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00076",
+		"DescriptionTextID" : "$TXCQS00076"
+	},
+	"TotalBreakCastle05":{
+		"Param0" : 500,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00077",
+		"DescriptionTextID" : "$TXCQS00077"
+	},
+	"TotalHeroPopup05":{
+		"Param0" : 100,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00078",
+		"DescriptionTextID" : "$TXCQS00078"
+	},
+	"TotalKillByWarrior04":{
+		"Param0" : 500,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00079",
+		"DescriptionTextID" : "$TXCQS00079"
+	},
+	"TotalHealByCleric04":{
+		"Param0" : 3000,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00080",
+		"DescriptionTextID" : "$TXCQS00080"
+	},
+	"TotalHealByCleric05":{
+		"Param0" : 6000,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00081",
+		"DescriptionTextID" : "$TXCQS00081"
+	},
+	"TotalKillByMage04":{
+		"Param0" : 500,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00082",
+		"DescriptionTextID" : "$TXCQS00082"
+	},
+	"TotalResurrection03":{
+		"Param0" : 250,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00083",
+		"DescriptionTextID" : "$TXCQS00083"
+	},
+	"TotalBreakTeamSkill03":{
+		"Param0" : 1000,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00084",
+		"DescriptionTextID" : "$TXCQS00084"
+	},
+	"TotalBreakCastleSDES02":{
+		"Param0" : 100,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00085",
+		"DescriptionTextID" : "$TXCQS00085"
+	},
+	"TotalBreakCastleSSEA02":{
+		"Param0" : 100,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00086",
+		"DescriptionTextID" : "$TXCQS00086"
+	},
+	"TotalBreakCastleSLIG02":{
+		"Param0" : 100,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00087",
+		"DescriptionTextID" : "$TXCQS00087"
+	},
+	"TotalBreakCastleSDAR02":{
+		"Param0" : 100,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00088",
+		"DescriptionTextID" : "$TXCQS00088"
+	},
+	"TotalBreakCastleSCLO02":{
+		"Param0" : 100,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00089",
+		"DescriptionTextID" : "$TXCQS00089"
+	},
+	"TotalBreakCastleSBAB01":{
+		"Param0" : 100,
+		"Param1" : 0,
+		"NameTextID" : "$TXCQN00090",
+		"DescriptionTextID" : "$TXCQS00090"
+	}
+},
+// Geimini_クエスト条件パラメータ.xlsx.tmp Page1 
+
+"page01_":{
+	"Column00":{
+		"Row00" : "TotalKillEnemy01",
+		"Row01" : "TotalBreakMonument01",
+		"Row02" : "TotalCommunication01"
+	},
+	"Column01":{
+		"Row00" : "TotalKillEnemy02",
+		"Row01" : "TotalKillInvader01",
+		"Row02" : "TotalKillByWarrior01"
+	},
+	"Column02":{
+		"Row00" : "TotalGameWin01",
+		"Row01" : "TotalKillRevenge01",
+		"Row02" : "TotalKillByMage01"
+	},
+	"Column03":{
+		"Row00" : "TotalNoDeadKill01",
+		"Row01" : "TotalBreakCastle01",
+		"Row02" : "TotalGuard01"
+	},
+	"Column04":{
+		"Row00" : "TotalPlayTime01",
+		"Row01" : "TotalHeroPopup01",
+		"Row02" : "TotalFallKill01"
+	},
+	"Column05":{
+		"Row00" : "SurvivalMax",
+		"Row01" : "TotalJobChange01",
+		"Row02" : "TotalResurrection01"
+	}
+},
+// Geimini_クエスト条件パラメータ.xlsx.tmp Page2 
+
+"page02_":{
+	"Column00":{
+		"Row00" : "TotalKillEnemy03",
+		"Row01" : "TotalWinStageSDES",
+		"Row02" : "NoDead"
+	},
+	"Column01":{
+		"Row00" : "TotalGameWin02",
+		"Row01" : "TotalWinStageSSEA",
+		"Row02" : "TotalBackAttackKill01"
+	},
+	"Column02":{
+		"Row00" : "TotalNoDeadKill02",
+		"Row01" : "TotalWinStageSLIG",
+		"Row02" : "KillMax"
+	},
+	"Column03":{
+		"Row00" : "TotalPlayTime02",
+		"Row01" : "TotalWinStageSDAR",
+		"Row02" : "KillMaxAndDeathMin"
+	},
+	"Column04":{
+		"Row00" : "TotalBreakCastle02",
+		"Row01" : "TotalWinStageSCLO",
+		"Row02" : "TotalKillEnemy04"
+	},
+	"Column05":{
+		"Row00" : "TotalHeroPopup02",
+		"Row01" : "TotalHealByCleric01",
+		"Row02" : "AllKill"
+	}
+},
+// Geimini_クエスト条件パラメータ.xlsx.tmp Page3 
+
+"page03_":{
+	"Column00":{
+		"Row00" : "TotalKillEnemy05",
+		"Row01" : "TotalHeroPopup03",
+		"Row02" : "TotalBreakTeamSkill01"
+	},
+	"Column01":{
+		"Row00" : "TotalGameWin03",
+		"Row01" : "TotalKillByWarrior02",
+		"Row02" : "TotalKillToWarrior01"
+	},
+	"Column02":{
+		"Row00" : "TotalNoDeadKill03",
+		"Row01" : "TotalHealByCleric02",
+		"Row02" : "TotalKillToCleric01"
+	},
+	"Column03":{
+		"Row00" : "TotalPlayTime03",
+		"Row01" : "TotalKillByMage02",
+		"Row02" : "TotalKillToMage01"
+	},
+	"Column04":{
+		"Row00" : "TotalKillRevenge02",
+		"Row01" : "TotalGuard02",
+		"Row02" : "NoDamageBreakCastle"
+	},
+	"Column05":{
+		"Row00" : "TotalBreakCastle03",
+		"Row01" : "TotalBackAttackKill02",
+		"Row02" : "TotalBallistaKill01"
+	}
+},
+// Geimini_クエスト条件パラメータ.xlsx.tmp Page4 
+
+"page04_":{
+	"Column00":{
+		"Row00" : "TotalKillEnemy07",
+		"Row01" : "TotalKillByWarrior04",
+		"Row02" : "TotalBreakCastleSDES02"
+	},
+	"Column01":{
+		"Row00" : "TotalGameWin05",
+		"Row01" : "TotalHealByCleric04",
+		"Row02" : "TotalBreakCastleSSEA02"
+	},
+	"Column02":{
+		"Row00" : "TotalNoDeadKill05",
+		"Row01" : "TotalHealByCleric05",
+		"Row02" : "TotalBreakCastleSLIG02"
+	},
+	"Column03":{
+		"Row00" : "TotalPlayTime05",
+		"Row01" : "TotalKillByMage04",
+		"Row02" : "TotalBreakCastleSDAR02"
+	},
+	"Column04":{
+		"Row00" : "TotalBreakCastle05",
+		"Row01" : "TotalResurrection03",
+		"Row02" : "TotalBreakCastleSCLO02"
+	},
+	"Column05":{
+		"Row00" : "TotalHeroPopup05",
+		"Row01" : "TotalBreakTeamSkill03",
+		"Row02" : "TotalBreakCastleSBAB01"
+	}
+},
+// Geimini_クエスト条件パラメータ.xlsx.tmp Page5 
+
+"page05_":{
+	"Column00":{
+		"Row00" : "TotalKillEnemy06",
+		"Row01" : "TotalKillByWarrior03",
+		"Row02" : "TotalBreakTeamSkill02"
+	},
+	"Column01":{
+		"Row00" : "TotalGameWin04",
+		"Row01" : "TotalHealByCleric03",
+		"Row02" : "TotalBreakCastleSDES"
+	},
+	"Column02":{
+		"Row00" : "TotalNoDeadKill04",
+		"Row01" : "TotalKillByMage03",
+		"Row02" : "TotalBreakCastleSSEA"
+	},
+	"Column03":{
+		"Row00" : "TotalPlayTime04",
+		"Row01" : "AllKillAndBreakCastle",
+		"Row02" : "TotalBreakCastleSLIG"
+	},
+	"Column04":{
+		"Row00" : "TotalBreakCastle04",
+		"Row01" : "TotalEnchantKill01",
+		"Row02" : "TotalBreakCastleSDAR"
+	},
+	"Column05":{
+		"Row00" : "TotalHeroPopup04",
+		"Row01" : "TotalResurrection02",
+		"Row02" : "TotalBreakCastleSCLO"
+	}
+}}}

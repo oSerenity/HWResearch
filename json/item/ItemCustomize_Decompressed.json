@@ -1,0 +1,3075 @@
+/* XDASEA_Xm8R_SPsX */ 
+// Geimini_ItemCustomize.xlsx.tmp EnhanceSourceItemPoint 
+
+{"JsonItemCustomize":{"enhancementSourceItemPoint_":{
+	"Level001":{
+		"Weight01" : 200,
+		"Weight02" : 200,
+		"Weight03" : 300,
+		"Weight04" : 300,
+		"Weight05" : 300,
+		"Weight06" : 400,
+		"Weight07" : 400,
+		"Weight08" : 400,
+		"Weight09" : 400,
+		"Weight10" : 400
+	},
+	"Level002":{
+		"Weight01" : 300,
+		"Weight02" : 300,
+		"Weight03" : 400,
+		"Weight04" : 400,
+		"Weight05" : 400,
+		"Weight06" : 600,
+		"Weight07" : 600,
+		"Weight08" : 600,
+		"Weight09" : 600,
+		"Weight10" : 600
+	},
+	"Level003":{
+		"Weight01" : 300,
+		"Weight02" : 300,
+		"Weight03" : 500,
+		"Weight04" : 500,
+		"Weight05" : 500,
+		"Weight06" : 600,
+		"Weight07" : 600,
+		"Weight08" : 600,
+		"Weight09" : 600,
+		"Weight10" : 600
+	},
+	"Level004":{
+		"Weight01" : 400,
+		"Weight02" : 400,
+		"Weight03" : 600,
+		"Weight04" : 600,
+		"Weight05" : 600,
+		"Weight06" : 900,
+		"Weight07" : 900,
+		"Weight08" : 900,
+		"Weight09" : 900,
+		"Weight10" : 900
+	},
+	"Level005":{
+		"Weight01" : 400,
+		"Weight02" : 400,
+		"Weight03" : 700,
+		"Weight04" : 700,
+		"Weight05" : 700,
+		"Weight06" : 1000,
+		"Weight07" : 1000,
+		"Weight08" : 1000,
+		"Weight09" : 1000,
+		"Weight10" : 1000
+	},
+	"Level006":{
+		"Weight01" : 500,
+		"Weight02" : 500,
+		"Weight03" : 900,
+		"Weight04" : 900,
+		"Weight05" : 900,
+		"Weight06" : 1300,
+		"Weight07" : 1300,
+		"Weight08" : 1300,
+		"Weight09" : 1300,
+		"Weight10" : 1300
+	},
+	"Level007":{
+		"Weight01" : 700,
+		"Weight02" : 700,
+		"Weight03" : 1100,
+		"Weight04" : 1100,
+		"Weight05" : 1100,
+		"Weight06" : 1600,
+		"Weight07" : 1600,
+		"Weight08" : 1600,
+		"Weight09" : 1600,
+		"Weight10" : 1600
+	},
+	"Level008":{
+		"Weight01" : 700,
+		"Weight02" : 700,
+		"Weight03" : 1400,
+		"Weight04" : 1400,
+		"Weight05" : 1400,
+		"Weight06" : 1900,
+		"Weight07" : 1900,
+		"Weight08" : 1900,
+		"Weight09" : 1900,
+		"Weight10" : 1900
+	},
+	"Level009":{
+		"Weight01" : 1000,
+		"Weight02" : 1000,
+		"Weight03" : 1600,
+		"Weight04" : 1600,
+		"Weight05" : 1600,
+		"Weight06" : 2500,
+		"Weight07" : 2500,
+		"Weight08" : 2500,
+		"Weight09" : 2500,
+		"Weight10" : 2500
+	},
+	"Level010":{
+		"Weight01" : 1000,
+		"Weight02" : 1000,
+		"Weight03" : 1800,
+		"Weight04" : 1800,
+		"Weight05" : 1800,
+		"Weight06" : 2600,
+		"Weight07" : 2600,
+		"Weight08" : 2600,
+		"Weight09" : 2600,
+		"Weight10" : 2600
+	},
+	"Level011":{
+		"Weight01" : 1100,
+		"Weight02" : 1100,
+		"Weight03" : 2000,
+		"Weight04" : 2000,
+		"Weight05" : 2000,
+		"Weight06" : 2800,
+		"Weight07" : 2800,
+		"Weight08" : 2800,
+		"Weight09" : 2800,
+		"Weight10" : 2800
+	},
+	"Level012":{
+		"Weight01" : 1200,
+		"Weight02" : 1200,
+		"Weight03" : 2100,
+		"Weight04" : 2100,
+		"Weight05" : 2100,
+		"Weight06" : 3000,
+		"Weight07" : 3000,
+		"Weight08" : 3000,
+		"Weight09" : 3000,
+		"Weight10" : 3000
+	},
+	"Level013":{
+		"Weight01" : 1400,
+		"Weight02" : 1400,
+		"Weight03" : 2300,
+		"Weight04" : 2300,
+		"Weight05" : 2300,
+		"Weight06" : 3100,
+		"Weight07" : 3100,
+		"Weight08" : 3100,
+		"Weight09" : 3100,
+		"Weight10" : 3100
+	},
+	"Level014":{
+		"Weight01" : 1400,
+		"Weight02" : 1400,
+		"Weight03" : 2500,
+		"Weight04" : 2500,
+		"Weight05" : 2500,
+		"Weight06" : 3300,
+		"Weight07" : 3300,
+		"Weight08" : 3300,
+		"Weight09" : 3300,
+		"Weight10" : 3300
+	},
+	"Level015":{
+		"Weight01" : 1400,
+		"Weight02" : 1400,
+		"Weight03" : 2500,
+		"Weight04" : 2500,
+		"Weight05" : 2500,
+		"Weight06" : 3300,
+		"Weight07" : 3300,
+		"Weight08" : 3300,
+		"Weight09" : 3300,
+		"Weight10" : 3300
+	},
+	"Level016":{
+		"Weight01" : 1400,
+		"Weight02" : 1400,
+		"Weight03" : 2500,
+		"Weight04" : 2500,
+		"Weight05" : 2500,
+		"Weight06" : 3300,
+		"Weight07" : 3300,
+		"Weight08" : 3300,
+		"Weight09" : 3300,
+		"Weight10" : 3300
+	},
+	"Level017":{
+		"Weight01" : 1400,
+		"Weight02" : 1400,
+		"Weight03" : 2500,
+		"Weight04" : 2500,
+		"Weight05" : 2500,
+		"Weight06" : 3300,
+		"Weight07" : 3300,
+		"Weight08" : 3300,
+		"Weight09" : 3300,
+		"Weight10" : 3300
+	},
+	"Level018":{
+		"Weight01" : 1400,
+		"Weight02" : 1400,
+		"Weight03" : 2500,
+		"Weight04" : 2500,
+		"Weight05" : 2500,
+		"Weight06" : 3300,
+		"Weight07" : 3300,
+		"Weight08" : 3300,
+		"Weight09" : 3300,
+		"Weight10" : 3300
+	},
+	"Level019":{
+		"Weight01" : 1400,
+		"Weight02" : 1400,
+		"Weight03" : 2500,
+		"Weight04" : 2500,
+		"Weight05" : 2500,
+		"Weight06" : 3300,
+		"Weight07" : 3300,
+		"Weight08" : 3300,
+		"Weight09" : 3300,
+		"Weight10" : 3300
+	},
+	"Level101":{
+		"Weight01" : 600,
+		"Weight02" : 600,
+		"Weight03" : 600,
+		"Weight04" : 600,
+		"Weight05" : 600,
+		"Weight06" : 600,
+		"Weight07" : 600,
+		"Weight08" : 600,
+		"Weight09" : 600,
+		"Weight10" : 600
+	},
+	"Level102":{
+		"Weight01" : 800,
+		"Weight02" : 800,
+		"Weight03" : 800,
+		"Weight04" : 800,
+		"Weight05" : 800,
+		"Weight06" : 800,
+		"Weight07" : 800,
+		"Weight08" : 800,
+		"Weight09" : 800,
+		"Weight10" : 800
+	},
+	"Level103":{
+		"Weight01" : 1000,
+		"Weight02" : 1000,
+		"Weight03" : 1000,
+		"Weight04" : 1000,
+		"Weight05" : 1000,
+		"Weight06" : 1000,
+		"Weight07" : 1000,
+		"Weight08" : 1000,
+		"Weight09" : 1000,
+		"Weight10" : 1000
+	},
+	"Level104":{
+		"Weight01" : 1300,
+		"Weight02" : 1300,
+		"Weight03" : 1300,
+		"Weight04" : 1300,
+		"Weight05" : 1300,
+		"Weight06" : 1300,
+		"Weight07" : 1300,
+		"Weight08" : 1300,
+		"Weight09" : 1300,
+		"Weight10" : 1300
+	},
+	"Level105":{
+		"Weight01" : 1500,
+		"Weight02" : 1500,
+		"Weight03" : 1500,
+		"Weight04" : 1500,
+		"Weight05" : 1500,
+		"Weight06" : 1500,
+		"Weight07" : 1500,
+		"Weight08" : 1500,
+		"Weight09" : 1500,
+		"Weight10" : 1500
+	},
+	"Level106":{
+		"Weight01" : 1900,
+		"Weight02" : 1900,
+		"Weight03" : 1900,
+		"Weight04" : 1900,
+		"Weight05" : 1900,
+		"Weight06" : 1900,
+		"Weight07" : 1900,
+		"Weight08" : 1900,
+		"Weight09" : 1900,
+		"Weight10" : 1900
+	},
+	"Level107":{
+		"Weight01" : 2400,
+		"Weight02" : 2400,
+		"Weight03" : 2400,
+		"Weight04" : 2400,
+		"Weight05" : 2400,
+		"Weight06" : 2400,
+		"Weight07" : 2400,
+		"Weight08" : 2400,
+		"Weight09" : 2400,
+		"Weight10" : 2400
+	},
+	"Level108":{
+		"Weight01" : 2900,
+		"Weight02" : 2900,
+		"Weight03" : 2900,
+		"Weight04" : 2900,
+		"Weight05" : 2900,
+		"Weight06" : 2900,
+		"Weight07" : 2900,
+		"Weight08" : 2900,
+		"Weight09" : 2900,
+		"Weight10" : 2900
+	},
+	"Level109":{
+		"Weight01" : 3700,
+		"Weight02" : 3700,
+		"Weight03" : 3700,
+		"Weight04" : 3700,
+		"Weight05" : 3700,
+		"Weight06" : 3700,
+		"Weight07" : 3700,
+		"Weight08" : 3700,
+		"Weight09" : 3700,
+		"Weight10" : 3700
+	},
+	"Level110":{
+		"Weight01" : 4100,
+		"Weight02" : 4100,
+		"Weight03" : 4100,
+		"Weight04" : 4100,
+		"Weight05" : 4100,
+		"Weight06" : 4100,
+		"Weight07" : 4100,
+		"Weight08" : 4100,
+		"Weight09" : 4100,
+		"Weight10" : 4100
+	},
+	"Level111":{
+		"Weight01" : 4700,
+		"Weight02" : 4700,
+		"Weight03" : 4700,
+		"Weight04" : 4700,
+		"Weight05" : 4700,
+		"Weight06" : 4700,
+		"Weight07" : 4700,
+		"Weight08" : 4700,
+		"Weight09" : 4700,
+		"Weight10" : 4700
+	},
+	"Level112":{
+		"Weight01" : 5300,
+		"Weight02" : 5300,
+		"Weight03" : 5300,
+		"Weight04" : 5300,
+		"Weight05" : 5300,
+		"Weight06" : 5300,
+		"Weight07" : 5300,
+		"Weight08" : 5300,
+		"Weight09" : 5300,
+		"Weight10" : 5300
+	},
+	"Level113":{
+		"Weight01" : 6000,
+		"Weight02" : 6000,
+		"Weight03" : 6000,
+		"Weight04" : 6000,
+		"Weight05" : 6000,
+		"Weight06" : 6000,
+		"Weight07" : 6000,
+		"Weight08" : 6000,
+		"Weight09" : 6000,
+		"Weight10" : 6000
+	},
+	"Level114":{
+		"Weight01" : 6700,
+		"Weight02" : 6700,
+		"Weight03" : 6700,
+		"Weight04" : 6700,
+		"Weight05" : 6700,
+		"Weight06" : 6700,
+		"Weight07" : 6700,
+		"Weight08" : 6700,
+		"Weight09" : 6700,
+		"Weight10" : 6700
+	},
+	"Level115":{
+		"Weight01" : 6700,
+		"Weight02" : 6700,
+		"Weight03" : 6700,
+		"Weight04" : 6700,
+		"Weight05" : 6700,
+		"Weight06" : 6700,
+		"Weight07" : 6700,
+		"Weight08" : 6700,
+		"Weight09" : 6700,
+		"Weight10" : 6700
+	},
+	"Level116":{
+		"Weight01" : 6700,
+		"Weight02" : 6700,
+		"Weight03" : 6700,
+		"Weight04" : 6700,
+		"Weight05" : 6700,
+		"Weight06" : 6700,
+		"Weight07" : 6700,
+		"Weight08" : 6700,
+		"Weight09" : 6700,
+		"Weight10" : 6700
+	},
+	"Level117":{
+		"Weight01" : 6700,
+		"Weight02" : 6700,
+		"Weight03" : 6700,
+		"Weight04" : 6700,
+		"Weight05" : 6700,
+		"Weight06" : 6700,
+		"Weight07" : 6700,
+		"Weight08" : 6700,
+		"Weight09" : 6700,
+		"Weight10" : 6700
+	},
+	"Level118":{
+		"Weight01" : 6700,
+		"Weight02" : 6700,
+		"Weight03" : 6700,
+		"Weight04" : 6700,
+		"Weight05" : 6700,
+		"Weight06" : 6700,
+		"Weight07" : 6700,
+		"Weight08" : 6700,
+		"Weight09" : 6700,
+		"Weight10" : 6700
+	},
+	"Level119":{
+		"Weight01" : 6700,
+		"Weight02" : 6700,
+		"Weight03" : 6700,
+		"Weight04" : 6700,
+		"Weight05" : 6700,
+		"Weight06" : 6700,
+		"Weight07" : 6700,
+		"Weight08" : 6700,
+		"Weight09" : 6700,
+		"Weight10" : 6700
+	},
+	"Level201":{
+		"Weight01" : 1600,
+		"Weight02" : 1600,
+		"Weight03" : 1600,
+		"Weight04" : 1600,
+		"Weight05" : 1600,
+		"Weight06" : 1600,
+		"Weight07" : 1600,
+		"Weight08" : 1600,
+		"Weight09" : 1600,
+		"Weight10" : 1600
+	},
+	"Level202":{
+		"Weight01" : 1900,
+		"Weight02" : 1900,
+		"Weight03" : 1900,
+		"Weight04" : 1900,
+		"Weight05" : 1900,
+		"Weight06" : 1900,
+		"Weight07" : 1900,
+		"Weight08" : 1900,
+		"Weight09" : 1900,
+		"Weight10" : 1900
+	},
+	"Level203":{
+		"Weight01" : 2300,
+		"Weight02" : 2300,
+		"Weight03" : 2300,
+		"Weight04" : 2300,
+		"Weight05" : 2300,
+		"Weight06" : 2300,
+		"Weight07" : 2300,
+		"Weight08" : 2300,
+		"Weight09" : 2300,
+		"Weight10" : 2300
+	},
+	"Level204":{
+		"Weight01" : 2700,
+		"Weight02" : 2700,
+		"Weight03" : 2700,
+		"Weight04" : 2700,
+		"Weight05" : 2700,
+		"Weight06" : 2700,
+		"Weight07" : 2700,
+		"Weight08" : 2700,
+		"Weight09" : 2700,
+		"Weight10" : 2700
+	},
+	"Level205":{
+		"Weight01" : 3200,
+		"Weight02" : 3200,
+		"Weight03" : 3200,
+		"Weight04" : 3200,
+		"Weight05" : 3200,
+		"Weight06" : 3200,
+		"Weight07" : 3200,
+		"Weight08" : 3200,
+		"Weight09" : 3200,
+		"Weight10" : 3200
+	},
+	"Level206":{
+		"Weight01" : 3900,
+		"Weight02" : 3900,
+		"Weight03" : 3900,
+		"Weight04" : 3900,
+		"Weight05" : 3900,
+		"Weight06" : 3900,
+		"Weight07" : 3900,
+		"Weight08" : 3900,
+		"Weight09" : 3900,
+		"Weight10" : 3900
+	},
+	"Level207":{
+		"Weight01" : 4600,
+		"Weight02" : 4600,
+		"Weight03" : 4600,
+		"Weight04" : 4600,
+		"Weight05" : 4600,
+		"Weight06" : 4600,
+		"Weight07" : 4600,
+		"Weight08" : 4600,
+		"Weight09" : 4600,
+		"Weight10" : 4600
+	},
+	"Level208":{
+		"Weight01" : 5500,
+		"Weight02" : 5500,
+		"Weight03" : 5500,
+		"Weight04" : 5500,
+		"Weight05" : 5500,
+		"Weight06" : 5500,
+		"Weight07" : 5500,
+		"Weight08" : 5500,
+		"Weight09" : 5500,
+		"Weight10" : 5500
+	},
+	"Level209":{
+		"Weight01" : 6500,
+		"Weight02" : 6500,
+		"Weight03" : 6500,
+		"Weight04" : 6500,
+		"Weight05" : 6500,
+		"Weight06" : 6500,
+		"Weight07" : 6500,
+		"Weight08" : 6500,
+		"Weight09" : 6500,
+		"Weight10" : 6500
+	},
+	"Level210":{
+		"Weight01" : 7600,
+		"Weight02" : 7600,
+		"Weight03" : 7600,
+		"Weight04" : 7600,
+		"Weight05" : 7600,
+		"Weight06" : 7600,
+		"Weight07" : 7600,
+		"Weight08" : 7600,
+		"Weight09" : 7600,
+		"Weight10" : 7600
+	},
+	"Level211":{
+		"Weight01" : 8900,
+		"Weight02" : 8900,
+		"Weight03" : 8900,
+		"Weight04" : 8900,
+		"Weight05" : 8900,
+		"Weight06" : 8900,
+		"Weight07" : 8900,
+		"Weight08" : 8900,
+		"Weight09" : 8900,
+		"Weight10" : 8900
+	},
+	"Level212":{
+		"Weight01" : 10500,
+		"Weight02" : 10500,
+		"Weight03" : 10500,
+		"Weight04" : 10500,
+		"Weight05" : 10500,
+		"Weight06" : 10500,
+		"Weight07" : 10500,
+		"Weight08" : 10500,
+		"Weight09" : 10500,
+		"Weight10" : 10500
+	},
+	"Level213":{
+		"Weight01" : 12300,
+		"Weight02" : 12300,
+		"Weight03" : 12300,
+		"Weight04" : 12300,
+		"Weight05" : 12300,
+		"Weight06" : 12300,
+		"Weight07" : 12300,
+		"Weight08" : 12300,
+		"Weight09" : 12300,
+		"Weight10" : 12300
+	},
+	"Level214":{
+		"Weight01" : 14400,
+		"Weight02" : 14400,
+		"Weight03" : 14400,
+		"Weight04" : 14400,
+		"Weight05" : 14400,
+		"Weight06" : 14400,
+		"Weight07" : 14400,
+		"Weight08" : 14400,
+		"Weight09" : 14400,
+		"Weight10" : 14400
+	},
+	"Level215":{
+		"Weight01" : 14400,
+		"Weight02" : 14400,
+		"Weight03" : 14400,
+		"Weight04" : 14400,
+		"Weight05" : 14400,
+		"Weight06" : 14400,
+		"Weight07" : 14400,
+		"Weight08" : 14400,
+		"Weight09" : 14400,
+		"Weight10" : 14400
+	},
+	"Level216":{
+		"Weight01" : 14400,
+		"Weight02" : 14400,
+		"Weight03" : 14400,
+		"Weight04" : 14400,
+		"Weight05" : 14400,
+		"Weight06" : 14400,
+		"Weight07" : 14400,
+		"Weight08" : 14400,
+		"Weight09" : 14400,
+		"Weight10" : 14400
+	},
+	"Level217":{
+		"Weight01" : 14400,
+		"Weight02" : 14400,
+		"Weight03" : 14400,
+		"Weight04" : 14400,
+		"Weight05" : 14400,
+		"Weight06" : 14400,
+		"Weight07" : 14400,
+		"Weight08" : 14400,
+		"Weight09" : 14400,
+		"Weight10" : 14400
+	},
+	"Level218":{
+		"Weight01" : 14400,
+		"Weight02" : 14400,
+		"Weight03" : 14400,
+		"Weight04" : 14400,
+		"Weight05" : 14400,
+		"Weight06" : 14400,
+		"Weight07" : 14400,
+		"Weight08" : 14400,
+		"Weight09" : 14400,
+		"Weight10" : 14400
+	},
+	"Level219":{
+		"Weight01" : 14400,
+		"Weight02" : 14400,
+		"Weight03" : 14400,
+		"Weight04" : 14400,
+		"Weight05" : 14400,
+		"Weight06" : 14400,
+		"Weight07" : 14400,
+		"Weight08" : 14400,
+		"Weight09" : 14400,
+		"Weight10" : 14400
+	}
+},
+// Geimini_ItemCustomize.xlsx.tmp EnhanceMaterialItemPoint 
+
+"enhancementMaterialItemPoint_":{
+	"Level001":{
+		"Weight01" : 100,
+		"Weight02" : 100,
+		"Weight03" : 150,
+		"Weight04" : 150,
+		"Weight05" : 150,
+		"Weight06" : 200,
+		"Weight07" : 200,
+		"Weight08" : 200,
+		"Weight09" : 200,
+		"Weight10" : 200
+	},
+	"Level002":{
+		"Weight01" : 100,
+		"Weight02" : 100,
+		"Weight03" : 200,
+		"Weight04" : 200,
+		"Weight05" : 200,
+		"Weight06" : 300,
+		"Weight07" : 300,
+		"Weight08" : 300,
+		"Weight09" : 300,
+		"Weight10" : 300
+	},
+	"Level003":{
+		"Weight01" : 200,
+		"Weight02" : 200,
+		"Weight03" : 300,
+		"Weight04" : 300,
+		"Weight05" : 300,
+		"Weight06" : 400,
+		"Weight07" : 400,
+		"Weight08" : 400,
+		"Weight09" : 400,
+		"Weight10" : 400
+	},
+	"Level004":{
+		"Weight01" : 300,
+		"Weight02" : 300,
+		"Weight03" : 400,
+		"Weight04" : 400,
+		"Weight05" : 400,
+		"Weight06" : 500,
+		"Weight07" : 500,
+		"Weight08" : 500,
+		"Weight09" : 500,
+		"Weight10" : 500
+	},
+	"Level005":{
+		"Weight01" : 300,
+		"Weight02" : 300,
+		"Weight03" : 500,
+		"Weight04" : 500,
+		"Weight05" : 500,
+		"Weight06" : 700,
+		"Weight07" : 700,
+		"Weight08" : 700,
+		"Weight09" : 700,
+		"Weight10" : 700
+	},
+	"Level006":{
+		"Weight01" : 400,
+		"Weight02" : 400,
+		"Weight03" : 700,
+		"Weight04" : 700,
+		"Weight05" : 700,
+		"Weight06" : 1000,
+		"Weight07" : 1000,
+		"Weight08" : 1000,
+		"Weight09" : 1000,
+		"Weight10" : 1000
+	},
+	"Level007":{
+		"Weight01" : 600,
+		"Weight02" : 600,
+		"Weight03" : 900,
+		"Weight04" : 900,
+		"Weight05" : 900,
+		"Weight06" : 1200,
+		"Weight07" : 1200,
+		"Weight08" : 1200,
+		"Weight09" : 1200,
+		"Weight10" : 1200
+	},
+	"Level008":{
+		"Weight01" : 700,
+		"Weight02" : 700,
+		"Weight03" : 1100,
+		"Weight04" : 1100,
+		"Weight05" : 1100,
+		"Weight06" : 1600,
+		"Weight07" : 1600,
+		"Weight08" : 1600,
+		"Weight09" : 1600,
+		"Weight10" : 1600
+	},
+	"Level009":{
+		"Weight01" : 900,
+		"Weight02" : 900,
+		"Weight03" : 1500,
+		"Weight04" : 1500,
+		"Weight05" : 1500,
+		"Weight06" : 2100,
+		"Weight07" : 2100,
+		"Weight08" : 2100,
+		"Weight09" : 2100,
+		"Weight10" : 2100
+	},
+	"Level010":{
+		"Weight01" : 1100,
+		"Weight02" : 1100,
+		"Weight03" : 1800,
+		"Weight04" : 1800,
+		"Weight05" : 1800,
+		"Weight06" : 2600,
+		"Weight07" : 2600,
+		"Weight08" : 2600,
+		"Weight09" : 2600,
+		"Weight10" : 2600
+	},
+	"Level011":{
+		"Weight01" : 1300,
+		"Weight02" : 1300,
+		"Weight03" : 2300,
+		"Weight04" : 2300,
+		"Weight05" : 2300,
+		"Weight06" : 3200,
+		"Weight07" : 3200,
+		"Weight08" : 3200,
+		"Weight09" : 3200,
+		"Weight10" : 3200
+	},
+	"Level012":{
+		"Weight01" : 1600,
+		"Weight02" : 1600,
+		"Weight03" : 2700,
+		"Weight04" : 2700,
+		"Weight05" : 2700,
+		"Weight06" : 3900,
+		"Weight07" : 3900,
+		"Weight08" : 3900,
+		"Weight09" : 3900,
+		"Weight10" : 3900
+	},
+	"Level013":{
+		"Weight01" : 1900,
+		"Weight02" : 1900,
+		"Weight03" : 3200,
+		"Weight04" : 3200,
+		"Weight05" : 3200,
+		"Weight06" : 4600,
+		"Weight07" : 4600,
+		"Weight08" : 4600,
+		"Weight09" : 4600,
+		"Weight10" : 4600
+	},
+	"Level014":{
+		"Weight01" : 2200,
+		"Weight02" : 2200,
+		"Weight03" : 3700,
+		"Weight04" : 3700,
+		"Weight05" : 3700,
+		"Weight06" : 5300,
+		"Weight07" : 5300,
+		"Weight08" : 5300,
+		"Weight09" : 5300,
+		"Weight10" : 5300
+	},
+	"Level015":{
+		"Weight01" : 2500,
+		"Weight02" : 2500,
+		"Weight03" : 4300,
+		"Weight04" : 4300,
+		"Weight05" : 4300,
+		"Weight06" : 6100,
+		"Weight07" : 6100,
+		"Weight08" : 6100,
+		"Weight09" : 6100,
+		"Weight10" : 6100
+	},
+	"Level016":{
+		"Weight01" : 2500,
+		"Weight02" : 2500,
+		"Weight03" : 4300,
+		"Weight04" : 4300,
+		"Weight05" : 4300,
+		"Weight06" : 6100,
+		"Weight07" : 6100,
+		"Weight08" : 6100,
+		"Weight09" : 6100,
+		"Weight10" : 6100
+	},
+	"Level017":{
+		"Weight01" : 2500,
+		"Weight02" : 2500,
+		"Weight03" : 4300,
+		"Weight04" : 4300,
+		"Weight05" : 4300,
+		"Weight06" : 6100,
+		"Weight07" : 6100,
+		"Weight08" : 6100,
+		"Weight09" : 6100,
+		"Weight10" : 6100
+	},
+	"Level018":{
+		"Weight01" : 2500,
+		"Weight02" : 2500,
+		"Weight03" : 4300,
+		"Weight04" : 4300,
+		"Weight05" : 4300,
+		"Weight06" : 6100,
+		"Weight07" : 6100,
+		"Weight08" : 6100,
+		"Weight09" : 6100,
+		"Weight10" : 6100
+	},
+	"Level019":{
+		"Weight01" : 2500,
+		"Weight02" : 2500,
+		"Weight03" : 4300,
+		"Weight04" : 4300,
+		"Weight05" : 4300,
+		"Weight06" : 6100,
+		"Weight07" : 6100,
+		"Weight08" : 6100,
+		"Weight09" : 6100,
+		"Weight10" : 6100
+	},
+	"Level020":{
+		"Weight01" : 2500,
+		"Weight02" : 2500,
+		"Weight03" : 4300,
+		"Weight04" : 4300,
+		"Weight05" : 4300,
+		"Weight06" : 6100,
+		"Weight07" : 6100,
+		"Weight08" : 6100,
+		"Weight09" : 6100,
+		"Weight10" : 6100
+	},
+	"Level101":{
+		"Weight01" : 600,
+		"Weight02" : 600,
+		"Weight03" : 600,
+		"Weight04" : 600,
+		"Weight05" : 600,
+		"Weight06" : 600,
+		"Weight07" : 600,
+		"Weight08" : 600,
+		"Weight09" : 600,
+		"Weight10" : 600
+	},
+	"Level102":{
+		"Weight01" : 800,
+		"Weight02" : 800,
+		"Weight03" : 800,
+		"Weight04" : 800,
+		"Weight05" : 800,
+		"Weight06" : 800,
+		"Weight07" : 800,
+		"Weight08" : 800,
+		"Weight09" : 800,
+		"Weight10" : 800
+	},
+	"Level103":{
+		"Weight01" : 900,
+		"Weight02" : 900,
+		"Weight03" : 900,
+		"Weight04" : 900,
+		"Weight05" : 900,
+		"Weight06" : 900,
+		"Weight07" : 900,
+		"Weight08" : 900,
+		"Weight09" : 900,
+		"Weight10" : 900
+	},
+	"Level104":{
+		"Weight01" : 1100,
+		"Weight02" : 1100,
+		"Weight03" : 1100,
+		"Weight04" : 1100,
+		"Weight05" : 1100,
+		"Weight06" : 1100,
+		"Weight07" : 1100,
+		"Weight08" : 1100,
+		"Weight09" : 1100,
+		"Weight10" : 1100
+	},
+	"Level105":{
+		"Weight01" : 1400,
+		"Weight02" : 1400,
+		"Weight03" : 1400,
+		"Weight04" : 1400,
+		"Weight05" : 1400,
+		"Weight06" : 1400,
+		"Weight07" : 1400,
+		"Weight08" : 1400,
+		"Weight09" : 1400,
+		"Weight10" : 1400
+	},
+	"Level106":{
+		"Weight01" : 1700,
+		"Weight02" : 1700,
+		"Weight03" : 1700,
+		"Weight04" : 1700,
+		"Weight05" : 1700,
+		"Weight06" : 1700,
+		"Weight07" : 1700,
+		"Weight08" : 1700,
+		"Weight09" : 1700,
+		"Weight10" : 1700
+	},
+	"Level107":{
+		"Weight01" : 2100,
+		"Weight02" : 2100,
+		"Weight03" : 2100,
+		"Weight04" : 2100,
+		"Weight05" : 2100,
+		"Weight06" : 2100,
+		"Weight07" : 2100,
+		"Weight08" : 2100,
+		"Weight09" : 2100,
+		"Weight10" : 2100
+	},
+	"Level108":{
+		"Weight01" : 2600,
+		"Weight02" : 2600,
+		"Weight03" : 2600,
+		"Weight04" : 2600,
+		"Weight05" : 2600,
+		"Weight06" : 2600,
+		"Weight07" : 2600,
+		"Weight08" : 2600,
+		"Weight09" : 2600,
+		"Weight10" : 2600
+	},
+	"Level109":{
+		"Weight01" : 3300,
+		"Weight02" : 3300,
+		"Weight03" : 3300,
+		"Weight04" : 3300,
+		"Weight05" : 3300,
+		"Weight06" : 3300,
+		"Weight07" : 3300,
+		"Weight08" : 3300,
+		"Weight09" : 3300,
+		"Weight10" : 3300
+	},
+	"Level110":{
+		"Weight01" : 4100,
+		"Weight02" : 4100,
+		"Weight03" : 4100,
+		"Weight04" : 4100,
+		"Weight05" : 4100,
+		"Weight06" : 4100,
+		"Weight07" : 4100,
+		"Weight08" : 4100,
+		"Weight09" : 4100,
+		"Weight10" : 4100
+	},
+	"Level111":{
+		"Weight01" : 5000,
+		"Weight02" : 5000,
+		"Weight03" : 5000,
+		"Weight04" : 5000,
+		"Weight05" : 5000,
+		"Weight06" : 5000,
+		"Weight07" : 5000,
+		"Weight08" : 5000,
+		"Weight09" : 5000,
+		"Weight10" : 5000
+	},
+	"Level112":{
+		"Weight01" : 6100,
+		"Weight02" : 6100,
+		"Weight03" : 6100,
+		"Weight04" : 6100,
+		"Weight05" : 6100,
+		"Weight06" : 6100,
+		"Weight07" : 6100,
+		"Weight08" : 6100,
+		"Weight09" : 6100,
+		"Weight10" : 6100
+	},
+	"Level113":{
+		"Weight01" : 7300,
+		"Weight02" : 7300,
+		"Weight03" : 7300,
+		"Weight04" : 7300,
+		"Weight05" : 7300,
+		"Weight06" : 7300,
+		"Weight07" : 7300,
+		"Weight08" : 7300,
+		"Weight09" : 7300,
+		"Weight10" : 7300
+	},
+	"Level114":{
+		"Weight01" : 8600,
+		"Weight02" : 8600,
+		"Weight03" : 8600,
+		"Weight04" : 8600,
+		"Weight05" : 8600,
+		"Weight06" : 8600,
+		"Weight07" : 8600,
+		"Weight08" : 8600,
+		"Weight09" : 8600,
+		"Weight10" : 8600
+	},
+	"Level115":{
+		"Weight01" : 10200,
+		"Weight02" : 10200,
+		"Weight03" : 10200,
+		"Weight04" : 10200,
+		"Weight05" : 10200,
+		"Weight06" : 10200,
+		"Weight07" : 10200,
+		"Weight08" : 10200,
+		"Weight09" : 10200,
+		"Weight10" : 10200
+	},
+	"Level116":{
+		"Weight01" : 10200,
+		"Weight02" : 10200,
+		"Weight03" : 10200,
+		"Weight04" : 10200,
+		"Weight05" : 10200,
+		"Weight06" : 10200,
+		"Weight07" : 10200,
+		"Weight08" : 10200,
+		"Weight09" : 10200,
+		"Weight10" : 10200
+	},
+	"Level117":{
+		"Weight01" : 10200,
+		"Weight02" : 10200,
+		"Weight03" : 10200,
+		"Weight04" : 10200,
+		"Weight05" : 10200,
+		"Weight06" : 10200,
+		"Weight07" : 10200,
+		"Weight08" : 10200,
+		"Weight09" : 10200,
+		"Weight10" : 10200
+	},
+	"Level118":{
+		"Weight01" : 10200,
+		"Weight02" : 10200,
+		"Weight03" : 10200,
+		"Weight04" : 10200,
+		"Weight05" : 10200,
+		"Weight06" : 10200,
+		"Weight07" : 10200,
+		"Weight08" : 10200,
+		"Weight09" : 10200,
+		"Weight10" : 10200
+	},
+	"Level119":{
+		"Weight01" : 10200,
+		"Weight02" : 10200,
+		"Weight03" : 10200,
+		"Weight04" : 10200,
+		"Weight05" : 10200,
+		"Weight06" : 10200,
+		"Weight07" : 10200,
+		"Weight08" : 10200,
+		"Weight09" : 10200,
+		"Weight10" : 10200
+	},
+	"Level120":{
+		"Weight01" : 10200,
+		"Weight02" : 10200,
+		"Weight03" : 10200,
+		"Weight04" : 10200,
+		"Weight05" : 10200,
+		"Weight06" : 10200,
+		"Weight07" : 10200,
+		"Weight08" : 10200,
+		"Weight09" : 10200,
+		"Weight10" : 10200
+	},
+	"Level201":{
+		"Weight01" : 1000,
+		"Weight02" : 1000,
+		"Weight03" : 1000,
+		"Weight04" : 1000,
+		"Weight05" : 1000,
+		"Weight06" : 1000,
+		"Weight07" : 1000,
+		"Weight08" : 1000,
+		"Weight09" : 1000,
+		"Weight10" : 1000
+	},
+	"Level202":{
+		"Weight01" : 1300,
+		"Weight02" : 1300,
+		"Weight03" : 1300,
+		"Weight04" : 1300,
+		"Weight05" : 1300,
+		"Weight06" : 1300,
+		"Weight07" : 1300,
+		"Weight08" : 1300,
+		"Weight09" : 1300,
+		"Weight10" : 1300
+	},
+	"Level203":{
+		"Weight01" : 1700,
+		"Weight02" : 1700,
+		"Weight03" : 1700,
+		"Weight04" : 1700,
+		"Weight05" : 1700,
+		"Weight06" : 1700,
+		"Weight07" : 1700,
+		"Weight08" : 1700,
+		"Weight09" : 1700,
+		"Weight10" : 1700
+	},
+	"Level204":{
+		"Weight01" : 2200,
+		"Weight02" : 2200,
+		"Weight03" : 2200,
+		"Weight04" : 2200,
+		"Weight05" : 2200,
+		"Weight06" : 2200,
+		"Weight07" : 2200,
+		"Weight08" : 2200,
+		"Weight09" : 2200,
+		"Weight10" : 2200
+	},
+	"Level205":{
+		"Weight01" : 2700,
+		"Weight02" : 2700,
+		"Weight03" : 2700,
+		"Weight04" : 2700,
+		"Weight05" : 2700,
+		"Weight06" : 2700,
+		"Weight07" : 2700,
+		"Weight08" : 2700,
+		"Weight09" : 2700,
+		"Weight10" : 2700
+	},
+	"Level206":{
+		"Weight01" : 3400,
+		"Weight02" : 3400,
+		"Weight03" : 3400,
+		"Weight04" : 3400,
+		"Weight05" : 3400,
+		"Weight06" : 3400,
+		"Weight07" : 3400,
+		"Weight08" : 3400,
+		"Weight09" : 3400,
+		"Weight10" : 3400
+	},
+	"Level207":{
+		"Weight01" : 4300,
+		"Weight02" : 4300,
+		"Weight03" : 4300,
+		"Weight04" : 4300,
+		"Weight05" : 4300,
+		"Weight06" : 4300,
+		"Weight07" : 4300,
+		"Weight08" : 4300,
+		"Weight09" : 4300,
+		"Weight10" : 4300
+	},
+	"Level208":{
+		"Weight01" : 5300,
+		"Weight02" : 5300,
+		"Weight03" : 5300,
+		"Weight04" : 5300,
+		"Weight05" : 5300,
+		"Weight06" : 5300,
+		"Weight07" : 5300,
+		"Weight08" : 5300,
+		"Weight09" : 5300,
+		"Weight10" : 5300
+	},
+	"Level209":{
+		"Weight01" : 6500,
+		"Weight02" : 6500,
+		"Weight03" : 6500,
+		"Weight04" : 6500,
+		"Weight05" : 6500,
+		"Weight06" : 6500,
+		"Weight07" : 6500,
+		"Weight08" : 6500,
+		"Weight09" : 6500,
+		"Weight10" : 6500
+	},
+	"Level210":{
+		"Weight01" : 8000,
+		"Weight02" : 8000,
+		"Weight03" : 8000,
+		"Weight04" : 8000,
+		"Weight05" : 8000,
+		"Weight06" : 8000,
+		"Weight07" : 8000,
+		"Weight08" : 8000,
+		"Weight09" : 8000,
+		"Weight10" : 8000
+	},
+	"Level211":{
+		"Weight01" : 9700,
+		"Weight02" : 9700,
+		"Weight03" : 9700,
+		"Weight04" : 9700,
+		"Weight05" : 9700,
+		"Weight06" : 9700,
+		"Weight07" : 9700,
+		"Weight08" : 9700,
+		"Weight09" : 9700,
+		"Weight10" : 9700
+	},
+	"Level212":{
+		"Weight01" : 11700,
+		"Weight02" : 11700,
+		"Weight03" : 11700,
+		"Weight04" : 11700,
+		"Weight05" : 11700,
+		"Weight06" : 11700,
+		"Weight07" : 11700,
+		"Weight08" : 11700,
+		"Weight09" : 11700,
+		"Weight10" : 11700
+	},
+	"Level213":{
+		"Weight01" : 14200,
+		"Weight02" : 14200,
+		"Weight03" : 14200,
+		"Weight04" : 14200,
+		"Weight05" : 14200,
+		"Weight06" : 14200,
+		"Weight07" : 14200,
+		"Weight08" : 14200,
+		"Weight09" : 14200,
+		"Weight10" : 14200
+	},
+	"Level214":{
+		"Weight01" : 17000,
+		"Weight02" : 17000,
+		"Weight03" : 17000,
+		"Weight04" : 17000,
+		"Weight05" : 17000,
+		"Weight06" : 17000,
+		"Weight07" : 17000,
+		"Weight08" : 17000,
+		"Weight09" : 17000,
+		"Weight10" : 17000
+	},
+	"Level215":{
+		"Weight01" : 20400,
+		"Weight02" : 20400,
+		"Weight03" : 20400,
+		"Weight04" : 20400,
+		"Weight05" : 20400,
+		"Weight06" : 20400,
+		"Weight07" : 20400,
+		"Weight08" : 20400,
+		"Weight09" : 20400,
+		"Weight10" : 20400
+	},
+	"Level216":{
+		"Weight01" : 20400,
+		"Weight02" : 20400,
+		"Weight03" : 20400,
+		"Weight04" : 20400,
+		"Weight05" : 20400,
+		"Weight06" : 20400,
+		"Weight07" : 20400,
+		"Weight08" : 20400,
+		"Weight09" : 20400,
+		"Weight10" : 20400
+	},
+	"Level217":{
+		"Weight01" : 20400,
+		"Weight02" : 20400,
+		"Weight03" : 20400,
+		"Weight04" : 20400,
+		"Weight05" : 20400,
+		"Weight06" : 20400,
+		"Weight07" : 20400,
+		"Weight08" : 20400,
+		"Weight09" : 20400,
+		"Weight10" : 20400
+	},
+	"Level218":{
+		"Weight01" : 20400,
+		"Weight02" : 20400,
+		"Weight03" : 20400,
+		"Weight04" : 20400,
+		"Weight05" : 20400,
+		"Weight06" : 20400,
+		"Weight07" : 20400,
+		"Weight08" : 20400,
+		"Weight09" : 20400,
+		"Weight10" : 20400
+	},
+	"Level219":{
+		"Weight01" : 20400,
+		"Weight02" : 20400,
+		"Weight03" : 20400,
+		"Weight04" : 20400,
+		"Weight05" : 20400,
+		"Weight06" : 20400,
+		"Weight07" : 20400,
+		"Weight08" : 20400,
+		"Weight09" : 20400,
+		"Weight10" : 20400
+	},
+	"Level220":{
+		"Weight01" : 20400,
+		"Weight02" : 20400,
+		"Weight03" : 20400,
+		"Weight04" : 20400,
+		"Weight05" : 20400,
+		"Weight06" : 20400,
+		"Weight07" : 20400,
+		"Weight08" : 20400,
+		"Weight09" : 20400,
+		"Weight10" : 20400
+	}
+},
+// Geimini_ItemCustomize.xlsx.tmp EnhanceHappyPoint 
+
+"enhancementHappyPoint_":{
+	"Level001":{
+		"Weight01" : 170,
+		"Weight02" : 170,
+		"Weight03" : 260,
+		"Weight04" : 260,
+		"Weight05" : 260,
+		"Weight06" : 340,
+		"Weight07" : 340,
+		"Weight08" : 340,
+		"Weight09" : 340,
+		"Weight10" : 340
+	},
+	"Level002":{
+		"Weight01" : 340,
+		"Weight02" : 340,
+		"Weight03" : 340,
+		"Weight04" : 340,
+		"Weight05" : 340,
+		"Weight06" : 510,
+		"Weight07" : 510,
+		"Weight08" : 510,
+		"Weight09" : 510,
+		"Weight10" : 510
+	},
+	"Level003":{
+		"Weight01" : 340,
+		"Weight02" : 340,
+		"Weight03" : 510,
+		"Weight04" : 510,
+		"Weight05" : 510,
+		"Weight06" : 680,
+		"Weight07" : 680,
+		"Weight08" : 680,
+		"Weight09" : 680,
+		"Weight10" : 680
+	},
+	"Level004":{
+		"Weight01" : 510,
+		"Weight02" : 510,
+		"Weight03" : 850,
+		"Weight04" : 850,
+		"Weight05" : 850,
+		"Weight06" : 1020,
+		"Weight07" : 1020,
+		"Weight08" : 1020,
+		"Weight09" : 1020,
+		"Weight10" : 1020
+	},
+	"Level005":{
+		"Weight01" : 680,
+		"Weight02" : 680,
+		"Weight03" : 1020,
+		"Weight04" : 1020,
+		"Weight05" : 1020,
+		"Weight06" : 1360,
+		"Weight07" : 1360,
+		"Weight08" : 1360,
+		"Weight09" : 1360,
+		"Weight10" : 1360
+	},
+	"Level006":{
+		"Weight01" : 850,
+		"Weight02" : 850,
+		"Weight03" : 1360,
+		"Weight04" : 1360,
+		"Weight05" : 1360,
+		"Weight06" : 1870,
+		"Weight07" : 1870,
+		"Weight08" : 1870,
+		"Weight09" : 1870,
+		"Weight10" : 1870
+	},
+	"Level007":{
+		"Weight01" : 1190,
+		"Weight02" : 1190,
+		"Weight03" : 1870,
+		"Weight04" : 1870,
+		"Weight05" : 1870,
+		"Weight06" : 2550,
+		"Weight07" : 2550,
+		"Weight08" : 2550,
+		"Weight09" : 2550,
+		"Weight10" : 2550
+	},
+	"Level008":{
+		"Weight01" : 1360,
+		"Weight02" : 1360,
+		"Weight03" : 2380,
+		"Weight04" : 2380,
+		"Weight05" : 2380,
+		"Weight06" : 3230,
+		"Weight07" : 3230,
+		"Weight08" : 3230,
+		"Weight09" : 3230,
+		"Weight10" : 3230
+	},
+	"Level009":{
+		"Weight01" : 1700,
+		"Weight02" : 1700,
+		"Weight03" : 3060,
+		"Weight04" : 3060,
+		"Weight05" : 3060,
+		"Weight06" : 4080,
+		"Weight07" : 4080,
+		"Weight08" : 4080,
+		"Weight09" : 4080,
+		"Weight10" : 4080
+	},
+	"Level010":{
+		"Weight01" : 2210,
+		"Weight02" : 2210,
+		"Weight03" : 4080,
+		"Weight04" : 4080,
+		"Weight05" : 4080,
+		"Weight06" : 5270,
+		"Weight07" : 5270,
+		"Weight08" : 5270,
+		"Weight09" : 5270,
+		"Weight10" : 5270
+	},
+	"Level011":{
+		"Weight01" : 2720,
+		"Weight02" : 2720,
+		"Weight03" : 4930,
+		"Weight04" : 4930,
+		"Weight05" : 4930,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level012":{
+		"Weight01" : 3230,
+		"Weight02" : 3230,
+		"Weight03" : 5950,
+		"Weight04" : 5950,
+		"Weight05" : 5950,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level013":{
+		"Weight01" : 3740,
+		"Weight02" : 3740,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level014":{
+		"Weight01" : 4420,
+		"Weight02" : 4420,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level015":{
+		"Weight01" : 5100,
+		"Weight02" : 5100,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level016":{
+		"Weight01" : 5100,
+		"Weight02" : 5100,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level017":{
+		"Weight01" : 5100,
+		"Weight02" : 5100,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level018":{
+		"Weight01" : 5100,
+		"Weight02" : 5100,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level019":{
+		"Weight01" : 5100,
+		"Weight02" : 5100,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level020":{
+		"Weight01" : 5100,
+		"Weight02" : 5100,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level101":{
+		"Weight01" : 1020,
+		"Weight02" : 1020,
+		"Weight03" : 1020,
+		"Weight04" : 1020,
+		"Weight05" : 1020,
+		"Weight06" : 1020,
+		"Weight07" : 1020,
+		"Weight08" : 1020,
+		"Weight09" : 1020,
+		"Weight10" : 1020
+	},
+	"Level102":{
+		"Weight01" : 1360,
+		"Weight02" : 1360,
+		"Weight03" : 1360,
+		"Weight04" : 1360,
+		"Weight05" : 1360,
+		"Weight06" : 1360,
+		"Weight07" : 1360,
+		"Weight08" : 1360,
+		"Weight09" : 1360,
+		"Weight10" : 1360
+	},
+	"Level103":{
+		"Weight01" : 1700,
+		"Weight02" : 1700,
+		"Weight03" : 1700,
+		"Weight04" : 1700,
+		"Weight05" : 1700,
+		"Weight06" : 1700,
+		"Weight07" : 1700,
+		"Weight08" : 1700,
+		"Weight09" : 1700,
+		"Weight10" : 1700
+	},
+	"Level104":{
+		"Weight01" : 2210,
+		"Weight02" : 2210,
+		"Weight03" : 2210,
+		"Weight04" : 2210,
+		"Weight05" : 2210,
+		"Weight06" : 2210,
+		"Weight07" : 2210,
+		"Weight08" : 2210,
+		"Weight09" : 2210,
+		"Weight10" : 2210
+	},
+	"Level105":{
+		"Weight01" : 2720,
+		"Weight02" : 2720,
+		"Weight03" : 2720,
+		"Weight04" : 2720,
+		"Weight05" : 2720,
+		"Weight06" : 2720,
+		"Weight07" : 2720,
+		"Weight08" : 2720,
+		"Weight09" : 2720,
+		"Weight10" : 2720
+	},
+	"Level106":{
+		"Weight01" : 3570,
+		"Weight02" : 3570,
+		"Weight03" : 3570,
+		"Weight04" : 3570,
+		"Weight05" : 3570,
+		"Weight06" : 3570,
+		"Weight07" : 3570,
+		"Weight08" : 3570,
+		"Weight09" : 3570,
+		"Weight10" : 3570
+	},
+	"Level107":{
+		"Weight01" : 4760,
+		"Weight02" : 4760,
+		"Weight03" : 4760,
+		"Weight04" : 4760,
+		"Weight05" : 4760,
+		"Weight06" : 4760,
+		"Weight07" : 4760,
+		"Weight08" : 4760,
+		"Weight09" : 4760,
+		"Weight10" : 4760
+	},
+	"Level108":{
+		"Weight01" : 6290,
+		"Weight02" : 6290,
+		"Weight03" : 6290,
+		"Weight04" : 6290,
+		"Weight05" : 6290,
+		"Weight06" : 6290,
+		"Weight07" : 6290,
+		"Weight08" : 6290,
+		"Weight09" : 6290,
+		"Weight10" : 6290
+	},
+	"Level109":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level110":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level111":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level112":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level113":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level114":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level115":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level116":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level117":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level118":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level119":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level120":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level201":{
+		"Weight01" : 6600,
+		"Weight02" : 1700,
+		"Weight03" : 1700,
+		"Weight04" : 1700,
+		"Weight05" : 1700,
+		"Weight06" : 1700,
+		"Weight07" : 1700,
+		"Weight08" : 1700,
+		"Weight09" : 1700,
+		"Weight10" : 1700
+	},
+	"Level202":{
+		"Weight01" : 6600,
+		"Weight02" : 2040,
+		"Weight03" : 2040,
+		"Weight04" : 2040,
+		"Weight05" : 2040,
+		"Weight06" : 2040,
+		"Weight07" : 2040,
+		"Weight08" : 2040,
+		"Weight09" : 2040,
+		"Weight10" : 2040
+	},
+	"Level203":{
+		"Weight01" : 6600,
+		"Weight02" : 2720,
+		"Weight03" : 2720,
+		"Weight04" : 2720,
+		"Weight05" : 2720,
+		"Weight06" : 2720,
+		"Weight07" : 2720,
+		"Weight08" : 2720,
+		"Weight09" : 2720,
+		"Weight10" : 2720
+	},
+	"Level204":{
+		"Weight01" : 6600,
+		"Weight02" : 3570,
+		"Weight03" : 3570,
+		"Weight04" : 3570,
+		"Weight05" : 3570,
+		"Weight06" : 3570,
+		"Weight07" : 3570,
+		"Weight08" : 3570,
+		"Weight09" : 3570,
+		"Weight10" : 3570
+	},
+	"Level205":{
+		"Weight01" : 6600,
+		"Weight02" : 4590,
+		"Weight03" : 4590,
+		"Weight04" : 4590,
+		"Weight05" : 4590,
+		"Weight06" : 4590,
+		"Weight07" : 4590,
+		"Weight08" : 4590,
+		"Weight09" : 4590,
+		"Weight10" : 4590
+	},
+	"Level206":{
+		"Weight01" : 6600,
+		"Weight02" : 6290,
+		"Weight03" : 6290,
+		"Weight04" : 6290,
+		"Weight05" : 6290,
+		"Weight06" : 6290,
+		"Weight07" : 6290,
+		"Weight08" : 6290,
+		"Weight09" : 6290,
+		"Weight10" : 6290
+	},
+	"Level207":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level208":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level209":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level210":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level211":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level212":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level213":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level214":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level215":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level216":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level217":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level218":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level219":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level220":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	}
+},
+// Geimini_ItemCustomize.xlsx.tmp EnhanceMaterialBonusItemPoint 
+
+"enhancementMaterialBonusItemPoint_":{
+	"Break01":{
+		"value" : 100
+	},
+	"Break02":{
+		"value" : 200
+	},
+	"Break03":{
+		"value" : 300
+	},
+	"Break04":{
+		"value" : 400
+	},
+	"Break05":{
+		"value" : 500
+	}
+},
+// Geimini_ItemCustomize.xlsx.tmp SynthesizeHappyPoint 
+
+"synthesisHappyPoint_":{
+	"MRare01":{
+		"value" : 400
+	},
+	"MRare02":{
+		"value" : 400
+	},
+	"MRare03":{
+		"value" : 400
+	},
+	"MRare04":{
+		"value" : 400
+	},
+	"MRare05":{
+		"value" : 400
+	},
+	"MRare06":{
+		"value" : 400
+	},
+	"MRare07":{
+		"value" : 400
+	},
+	"MRare08":{
+		"value" : 400
+	},
+	"MRare09":{
+		"value" : 400
+	},
+	"MRare10":{
+		"value" : 400
+	},
+	"Rare01":{
+		"value" : 400
+	},
+	"Rare02":{
+		"value" : 600
+	},
+	"Rare03":{
+		"value" : 800
+	},
+	"Rare04":{
+		"value" : 1000
+	},
+	"Rare05":{
+		"value" : 1200
+	},
+	"Rare06":{
+		"value" : 1400
+	},
+	"Rare07":{
+		"value" : 1600
+	},
+	"Rare08":{
+		"value" : 2000
+	},
+	"Rare09":{
+		"value" : 2400
+	},
+	"Rare10":{
+		"value" : 3000
+	}
+},
+// Geimini_ItemCustomize.xlsx.tmp SynthesizeNumericCost 
+
+"synthesisNumericCost_":{
+	"Num01":{
+		"value" : 1
+	},
+	"Num02":{
+		"value" : 1.1
+	},
+	"Num03":{
+		"value" : 1.2
+	},
+	"Num04":{
+		"value" : 1.3
+	}
+},
+// Geimini_ItemCustomize.xlsx.tmp BuffDeleteHappyPoint 
+
+"buffDeleteHappyPoint_":{
+	"MRare01":{
+		"value" : 800
+	},
+	"MRare02":{
+		"value" : 2000
+	},
+	"MRare03":{
+		"value" : 4000
+	},
+	"MRare04":{
+		"value" : 800
+	},
+	"MRare05":{
+		"value" : 800
+	},
+	"MRare06":{
+		"value" : 800
+	},
+	"MRare07":{
+		"value" : 800
+	},
+	"MRare08":{
+		"value" : 800
+	},
+	"MRare09":{
+		"value" : 800
+	},
+	"MRare10":{
+		"value" : 800
+	},
+	"Rare01":{
+		"value" : 800
+	},
+	"Rare02":{
+		"value" : 800
+	},
+	"Rare03":{
+		"value" : 1200
+	},
+	"Rare04":{
+		"value" : 1200
+	},
+	"Rare05":{
+		"value" : 1600
+	},
+	"Rare06":{
+		"value" : 1600
+	},
+	"Rare07":{
+		"value" : 2000
+	},
+	"Rare08":{
+		"value" : 2000
+	},
+	"Rare09":{
+		"value" : 2000
+	},
+	"Rare10":{
+		"value" : 2000
+	}
+},
+// Geimini_ItemCustomize.xlsx.tmp ItemSaleHappyPoint 
+
+"itemSaleHappyPoint_":{
+	"Level001":{
+		"Weight01" : 200,
+		"Weight02" : 200,
+		"Weight03" : 200,
+		"Weight04" : 300,
+		"Weight05" : 300,
+		"Weight06" : 300,
+		"Weight07" : 400,
+		"Weight08" : 400,
+		"Weight09" : 400,
+		"Weight10" : 400
+	},
+	"Level002":{
+		"Weight01" : 240,
+		"Weight02" : 240,
+		"Weight03" : 240,
+		"Weight04" : 360,
+		"Weight05" : 360,
+		"Weight06" : 360,
+		"Weight07" : 480,
+		"Weight08" : 480,
+		"Weight09" : 480,
+		"Weight10" : 480
+	},
+	"Level003":{
+		"Weight01" : 280,
+		"Weight02" : 280,
+		"Weight03" : 280,
+		"Weight04" : 420,
+		"Weight05" : 420,
+		"Weight06" : 420,
+		"Weight07" : 560,
+		"Weight08" : 560,
+		"Weight09" : 560,
+		"Weight10" : 560
+	},
+	"Level004":{
+		"Weight01" : 320,
+		"Weight02" : 320,
+		"Weight03" : 320,
+		"Weight04" : 480,
+		"Weight05" : 480,
+		"Weight06" : 480,
+		"Weight07" : 640,
+		"Weight08" : 640,
+		"Weight09" : 640,
+		"Weight10" : 640
+	},
+	"Level005":{
+		"Weight01" : 360,
+		"Weight02" : 360,
+		"Weight03" : 360,
+		"Weight04" : 540,
+		"Weight05" : 540,
+		"Weight06" : 540,
+		"Weight07" : 720,
+		"Weight08" : 720,
+		"Weight09" : 720,
+		"Weight10" : 720
+	},
+	"Level006":{
+		"Weight01" : 400,
+		"Weight02" : 400,
+		"Weight03" : 400,
+		"Weight04" : 600,
+		"Weight05" : 600,
+		"Weight06" : 600,
+		"Weight07" : 800,
+		"Weight08" : 800,
+		"Weight09" : 800,
+		"Weight10" : 800
+	},
+	"Level007":{
+		"Weight01" : 440,
+		"Weight02" : 440,
+		"Weight03" : 440,
+		"Weight04" : 660,
+		"Weight05" : 660,
+		"Weight06" : 660,
+		"Weight07" : 880,
+		"Weight08" : 880,
+		"Weight09" : 880,
+		"Weight10" : 880
+	},
+	"Level008":{
+		"Weight01" : 480,
+		"Weight02" : 480,
+		"Weight03" : 480,
+		"Weight04" : 720,
+		"Weight05" : 720,
+		"Weight06" : 720,
+		"Weight07" : 960,
+		"Weight08" : 960,
+		"Weight09" : 960,
+		"Weight10" : 960
+	},
+	"Level009":{
+		"Weight01" : 520,
+		"Weight02" : 520,
+		"Weight03" : 520,
+		"Weight04" : 780,
+		"Weight05" : 780,
+		"Weight06" : 780,
+		"Weight07" : 1040,
+		"Weight08" : 1040,
+		"Weight09" : 1040,
+		"Weight10" : 1040
+	},
+	"Level010":{
+		"Weight01" : 560,
+		"Weight02" : 560,
+		"Weight03" : 560,
+		"Weight04" : 840,
+		"Weight05" : 840,
+		"Weight06" : 840,
+		"Weight07" : 1120,
+		"Weight08" : 1120,
+		"Weight09" : 1120,
+		"Weight10" : 1120
+	},
+	"Level011":{
+		"Weight01" : 600,
+		"Weight02" : 600,
+		"Weight03" : 600,
+		"Weight04" : 900,
+		"Weight05" : 900,
+		"Weight06" : 900,
+		"Weight07" : 1200,
+		"Weight08" : 1200,
+		"Weight09" : 1200,
+		"Weight10" : 1200
+	},
+	"Level012":{
+		"Weight01" : 640,
+		"Weight02" : 640,
+		"Weight03" : 640,
+		"Weight04" : 960,
+		"Weight05" : 960,
+		"Weight06" : 960,
+		"Weight07" : 1280,
+		"Weight08" : 1280,
+		"Weight09" : 1280,
+		"Weight10" : 1280
+	},
+	"Level013":{
+		"Weight01" : 680,
+		"Weight02" : 680,
+		"Weight03" : 680,
+		"Weight04" : 1020,
+		"Weight05" : 1020,
+		"Weight06" : 1020,
+		"Weight07" : 1360,
+		"Weight08" : 1360,
+		"Weight09" : 1360,
+		"Weight10" : 1360
+	},
+	"Level014":{
+		"Weight01" : 720,
+		"Weight02" : 720,
+		"Weight03" : 720,
+		"Weight04" : 1080,
+		"Weight05" : 1080,
+		"Weight06" : 1080,
+		"Weight07" : 1440,
+		"Weight08" : 1440,
+		"Weight09" : 1440,
+		"Weight10" : 1440
+	},
+	"Level015":{
+		"Weight01" : 800,
+		"Weight02" : 800,
+		"Weight03" : 800,
+		"Weight04" : 1200,
+		"Weight05" : 1200,
+		"Weight06" : 1200,
+		"Weight07" : 1600,
+		"Weight08" : 1600,
+		"Weight09" : 1600,
+		"Weight10" : 1600
+	},
+	"Level016":{
+		"Weight01" : 800,
+		"Weight02" : 800,
+		"Weight03" : 800,
+		"Weight04" : 1200,
+		"Weight05" : 1200,
+		"Weight06" : 1200,
+		"Weight07" : 1600,
+		"Weight08" : 1600,
+		"Weight09" : 1600,
+		"Weight10" : 1600
+	},
+	"Level017":{
+		"Weight01" : 800,
+		"Weight02" : 800,
+		"Weight03" : 800,
+		"Weight04" : 1200,
+		"Weight05" : 1200,
+		"Weight06" : 1200,
+		"Weight07" : 1600,
+		"Weight08" : 1600,
+		"Weight09" : 1600,
+		"Weight10" : 1600
+	},
+	"Level018":{
+		"Weight01" : 800,
+		"Weight02" : 800,
+		"Weight03" : 800,
+		"Weight04" : 1200,
+		"Weight05" : 1200,
+		"Weight06" : 1200,
+		"Weight07" : 1600,
+		"Weight08" : 1600,
+		"Weight09" : 1600,
+		"Weight10" : 1600
+	},
+	"Level019":{
+		"Weight01" : 800,
+		"Weight02" : 800,
+		"Weight03" : 800,
+		"Weight04" : 1200,
+		"Weight05" : 1200,
+		"Weight06" : 1200,
+		"Weight07" : 1600,
+		"Weight08" : 1600,
+		"Weight09" : 1600,
+		"Weight10" : 1600
+	},
+	"Level020":{
+		"Weight01" : 800,
+		"Weight02" : 800,
+		"Weight03" : 800,
+		"Weight04" : 1200,
+		"Weight05" : 1200,
+		"Weight06" : 1200,
+		"Weight07" : 1600,
+		"Weight08" : 1600,
+		"Weight09" : 1600,
+		"Weight10" : 1600
+	},
+	"Level101":{
+		"Weight01" : 3000,
+		"Weight02" : 3000,
+		"Weight03" : 3000,
+		"Weight04" : 3000,
+		"Weight05" : 3000,
+		"Weight06" : 3000,
+		"Weight07" : 3000,
+		"Weight08" : 3000,
+		"Weight09" : 3000,
+		"Weight10" : 3000
+	},
+	"Level102":{
+		"Weight01" : 3600,
+		"Weight02" : 3600,
+		"Weight03" : 3600,
+		"Weight04" : 3600,
+		"Weight05" : 3600,
+		"Weight06" : 3600,
+		"Weight07" : 3600,
+		"Weight08" : 3600,
+		"Weight09" : 3600,
+		"Weight10" : 3600
+	},
+	"Level103":{
+		"Weight01" : 4200,
+		"Weight02" : 4200,
+		"Weight03" : 4200,
+		"Weight04" : 4200,
+		"Weight05" : 4200,
+		"Weight06" : 4200,
+		"Weight07" : 4200,
+		"Weight08" : 4200,
+		"Weight09" : 4200,
+		"Weight10" : 4200
+	},
+	"Level104":{
+		"Weight01" : 4800,
+		"Weight02" : 4800,
+		"Weight03" : 4800,
+		"Weight04" : 4800,
+		"Weight05" : 4800,
+		"Weight06" : 4800,
+		"Weight07" : 4800,
+		"Weight08" : 4800,
+		"Weight09" : 4800,
+		"Weight10" : 4800
+	},
+	"Level105":{
+		"Weight01" : 5400,
+		"Weight02" : 5400,
+		"Weight03" : 5400,
+		"Weight04" : 5400,
+		"Weight05" : 5400,
+		"Weight06" : 5400,
+		"Weight07" : 5400,
+		"Weight08" : 5400,
+		"Weight09" : 5400,
+		"Weight10" : 5400
+	},
+	"Level106":{
+		"Weight01" : 6000,
+		"Weight02" : 6000,
+		"Weight03" : 6000,
+		"Weight04" : 6000,
+		"Weight05" : 6000,
+		"Weight06" : 6000,
+		"Weight07" : 6000,
+		"Weight08" : 6000,
+		"Weight09" : 6000,
+		"Weight10" : 6000
+	},
+	"Level107":{
+		"Weight01" : 6600,
+		"Weight02" : 6600,
+		"Weight03" : 6600,
+		"Weight04" : 6600,
+		"Weight05" : 6600,
+		"Weight06" : 6600,
+		"Weight07" : 6600,
+		"Weight08" : 6600,
+		"Weight09" : 6600,
+		"Weight10" : 6600
+	},
+	"Level108":{
+		"Weight01" : 7200,
+		"Weight02" : 7200,
+		"Weight03" : 7200,
+		"Weight04" : 7200,
+		"Weight05" : 7200,
+		"Weight06" : 7200,
+		"Weight07" : 7200,
+		"Weight08" : 7200,
+		"Weight09" : 7200,
+		"Weight10" : 7200
+	},
+	"Level109":{
+		"Weight01" : 7800,
+		"Weight02" : 7800,
+		"Weight03" : 7800,
+		"Weight04" : 7800,
+		"Weight05" : 7800,
+		"Weight06" : 7800,
+		"Weight07" : 7800,
+		"Weight08" : 7800,
+		"Weight09" : 7800,
+		"Weight10" : 7800
+	},
+	"Level110":{
+		"Weight01" : 8400,
+		"Weight02" : 8400,
+		"Weight03" : 8400,
+		"Weight04" : 8400,
+		"Weight05" : 8400,
+		"Weight06" : 8400,
+		"Weight07" : 8400,
+		"Weight08" : 8400,
+		"Weight09" : 8400,
+		"Weight10" : 8400
+	},
+	"Level111":{
+		"Weight01" : 9000,
+		"Weight02" : 9000,
+		"Weight03" : 9000,
+		"Weight04" : 9000,
+		"Weight05" : 9000,
+		"Weight06" : 9000,
+		"Weight07" : 9000,
+		"Weight08" : 9000,
+		"Weight09" : 9000,
+		"Weight10" : 9000
+	},
+	"Level112":{
+		"Weight01" : 9600,
+		"Weight02" : 9600,
+		"Weight03" : 9600,
+		"Weight04" : 9600,
+		"Weight05" : 9600,
+		"Weight06" : 9600,
+		"Weight07" : 9600,
+		"Weight08" : 9600,
+		"Weight09" : 9600,
+		"Weight10" : 9600
+	},
+	"Level113":{
+		"Weight01" : 10200,
+		"Weight02" : 10200,
+		"Weight03" : 10200,
+		"Weight04" : 10200,
+		"Weight05" : 10200,
+		"Weight06" : 10200,
+		"Weight07" : 10200,
+		"Weight08" : 10200,
+		"Weight09" : 10200,
+		"Weight10" : 10200
+	},
+	"Level114":{
+		"Weight01" : 10800,
+		"Weight02" : 10800,
+		"Weight03" : 10800,
+		"Weight04" : 10800,
+		"Weight05" : 10800,
+		"Weight06" : 10800,
+		"Weight07" : 10800,
+		"Weight08" : 10800,
+		"Weight09" : 10800,
+		"Weight10" : 10800
+	},
+	"Level115":{
+		"Weight01" : 12000,
+		"Weight02" : 12000,
+		"Weight03" : 12000,
+		"Weight04" : 12000,
+		"Weight05" : 12000,
+		"Weight06" : 12000,
+		"Weight07" : 12000,
+		"Weight08" : 12000,
+		"Weight09" : 12000,
+		"Weight10" : 12000
+	},
+	"Level116":{
+		"Weight01" : 12000,
+		"Weight02" : 12000,
+		"Weight03" : 12000,
+		"Weight04" : 12000,
+		"Weight05" : 12000,
+		"Weight06" : 12000,
+		"Weight07" : 12000,
+		"Weight08" : 12000,
+		"Weight09" : 12000,
+		"Weight10" : 12000
+	},
+	"Level117":{
+		"Weight01" : 12000,
+		"Weight02" : 12000,
+		"Weight03" : 12000,
+		"Weight04" : 12000,
+		"Weight05" : 12000,
+		"Weight06" : 12000,
+		"Weight07" : 12000,
+		"Weight08" : 12000,
+		"Weight09" : 12000,
+		"Weight10" : 12000
+	},
+	"Level118":{
+		"Weight01" : 12000,
+		"Weight02" : 12000,
+		"Weight03" : 12000,
+		"Weight04" : 12000,
+		"Weight05" : 12000,
+		"Weight06" : 12000,
+		"Weight07" : 12000,
+		"Weight08" : 12000,
+		"Weight09" : 12000,
+		"Weight10" : 12000
+	},
+	"Level119":{
+		"Weight01" : 12000,
+		"Weight02" : 12000,
+		"Weight03" : 12000,
+		"Weight04" : 12000,
+		"Weight05" : 12000,
+		"Weight06" : 12000,
+		"Weight07" : 12000,
+		"Weight08" : 12000,
+		"Weight09" : 12000,
+		"Weight10" : 12000
+	},
+	"Level120":{
+		"Weight01" : 12000,
+		"Weight02" : 12000,
+		"Weight03" : 12000,
+		"Weight04" : 12000,
+		"Weight05" : 12000,
+		"Weight06" : 12000,
+		"Weight07" : 12000,
+		"Weight08" : 12000,
+		"Weight09" : 12000,
+		"Weight10" : 12000
+	},
+	"Level201":{
+		"Weight01" : 10000,
+		"Weight02" : 10000,
+		"Weight03" : 10000,
+		"Weight04" : 10000,
+		"Weight05" : 10000,
+		"Weight06" : 10000,
+		"Weight07" : 10000,
+		"Weight08" : 10000,
+		"Weight09" : 10000,
+		"Weight10" : 10000
+	},
+	"Level202":{
+		"Weight01" : 12000,
+		"Weight02" : 12000,
+		"Weight03" : 12000,
+		"Weight04" : 12000,
+		"Weight05" : 12000,
+		"Weight06" : 12000,
+		"Weight07" : 12000,
+		"Weight08" : 12000,
+		"Weight09" : 12000,
+		"Weight10" : 12000
+	},
+	"Level203":{
+		"Weight01" : 14000,
+		"Weight02" : 14000,
+		"Weight03" : 14000,
+		"Weight04" : 14000,
+		"Weight05" : 14000,
+		"Weight06" : 14000,
+		"Weight07" : 14000,
+		"Weight08" : 14000,
+		"Weight09" : 14000,
+		"Weight10" : 14000
+	},
+	"Level204":{
+		"Weight01" : 16000,
+		"Weight02" : 16000,
+		"Weight03" : 16000,
+		"Weight04" : 16000,
+		"Weight05" : 16000,
+		"Weight06" : 16000,
+		"Weight07" : 16000,
+		"Weight08" : 16000,
+		"Weight09" : 16000,
+		"Weight10" : 16000
+	},
+	"Level205":{
+		"Weight01" : 18000,
+		"Weight02" : 18000,
+		"Weight03" : 18000,
+		"Weight04" : 18000,
+		"Weight05" : 18000,
+		"Weight06" : 18000,
+		"Weight07" : 18000,
+		"Weight08" : 18000,
+		"Weight09" : 18000,
+		"Weight10" : 18000
+	},
+	"Level206":{
+		"Weight01" : 20000,
+		"Weight02" : 20000,
+		"Weight03" : 20000,
+		"Weight04" : 20000,
+		"Weight05" : 20000,
+		"Weight06" : 20000,
+		"Weight07" : 20000,
+		"Weight08" : 20000,
+		"Weight09" : 20000,
+		"Weight10" : 20000
+	},
+	"Level207":{
+		"Weight01" : 22000,
+		"Weight02" : 22000,
+		"Weight03" : 22000,
+		"Weight04" : 22000,
+		"Weight05" : 22000,
+		"Weight06" : 22000,
+		"Weight07" : 22000,
+		"Weight08" : 22000,
+		"Weight09" : 22000,
+		"Weight10" : 22000
+	},
+	"Level208":{
+		"Weight01" : 24000,
+		"Weight02" : 24000,
+		"Weight03" : 24000,
+		"Weight04" : 24000,
+		"Weight05" : 24000,
+		"Weight06" : 24000,
+		"Weight07" : 24000,
+		"Weight08" : 24000,
+		"Weight09" : 24000,
+		"Weight10" : 24000
+	},
+	"Level209":{
+		"Weight01" : 26000,
+		"Weight02" : 26000,
+		"Weight03" : 26000,
+		"Weight04" : 26000,
+		"Weight05" : 26000,
+		"Weight06" : 26000,
+		"Weight07" : 26000,
+		"Weight08" : 26000,
+		"Weight09" : 26000,
+		"Weight10" : 26000
+	},
+	"Level210":{
+		"Weight01" : 28000,
+		"Weight02" : 28000,
+		"Weight03" : 28000,
+		"Weight04" : 28000,
+		"Weight05" : 28000,
+		"Weight06" : 28000,
+		"Weight07" : 28000,
+		"Weight08" : 28000,
+		"Weight09" : 28000,
+		"Weight10" : 28000
+	},
+	"Level211":{
+		"Weight01" : 30000,
+		"Weight02" : 30000,
+		"Weight03" : 30000,
+		"Weight04" : 30000,
+		"Weight05" : 30000,
+		"Weight06" : 30000,
+		"Weight07" : 30000,
+		"Weight08" : 30000,
+		"Weight09" : 30000,
+		"Weight10" : 30000
+	},
+	"Level212":{
+		"Weight01" : 32000,
+		"Weight02" : 32000,
+		"Weight03" : 32000,
+		"Weight04" : 32000,
+		"Weight05" : 32000,
+		"Weight06" : 32000,
+		"Weight07" : 32000,
+		"Weight08" : 32000,
+		"Weight09" : 32000,
+		"Weight10" : 32000
+	},
+	"Level213":{
+		"Weight01" : 34000,
+		"Weight02" : 34000,
+		"Weight03" : 34000,
+		"Weight04" : 34000,
+		"Weight05" : 34000,
+		"Weight06" : 34000,
+		"Weight07" : 34000,
+		"Weight08" : 34000,
+		"Weight09" : 34000,
+		"Weight10" : 34000
+	},
+	"Level214":{
+		"Weight01" : 36000,
+		"Weight02" : 36000,
+		"Weight03" : 36000,
+		"Weight04" : 36000,
+		"Weight05" : 36000,
+		"Weight06" : 36000,
+		"Weight07" : 36000,
+		"Weight08" : 36000,
+		"Weight09" : 36000,
+		"Weight10" : 36000
+	},
+	"Level215":{
+		"Weight01" : 40000,
+		"Weight02" : 40000,
+		"Weight03" : 40000,
+		"Weight04" : 40000,
+		"Weight05" : 40000,
+		"Weight06" : 40000,
+		"Weight07" : 40000,
+		"Weight08" : 40000,
+		"Weight09" : 40000,
+		"Weight10" : 40000
+	},
+	"Level216":{
+		"Weight01" : 40000,
+		"Weight02" : 40000,
+		"Weight03" : 40000,
+		"Weight04" : 40000,
+		"Weight05" : 40000,
+		"Weight06" : 40000,
+		"Weight07" : 40000,
+		"Weight08" : 40000,
+		"Weight09" : 40000,
+		"Weight10" : 40000
+	},
+	"Level217":{
+		"Weight01" : 40000,
+		"Weight02" : 40000,
+		"Weight03" : 40000,
+		"Weight04" : 40000,
+		"Weight05" : 40000,
+		"Weight06" : 40000,
+		"Weight07" : 40000,
+		"Weight08" : 40000,
+		"Weight09" : 40000,
+		"Weight10" : 40000
+	},
+	"Level218":{
+		"Weight01" : 40000,
+		"Weight02" : 40000,
+		"Weight03" : 40000,
+		"Weight04" : 40000,
+		"Weight05" : 40000,
+		"Weight06" : 40000,
+		"Weight07" : 40000,
+		"Weight08" : 40000,
+		"Weight09" : 40000,
+		"Weight10" : 40000
+	},
+	"Level219":{
+		"Weight01" : 40000,
+		"Weight02" : 40000,
+		"Weight03" : 40000,
+		"Weight04" : 40000,
+		"Weight05" : 40000,
+		"Weight06" : 40000,
+		"Weight07" : 40000,
+		"Weight08" : 40000,
+		"Weight09" : 40000,
+		"Weight10" : 40000
+	},
+	"Level220":{
+		"Weight01" : 40000,
+		"Weight02" : 40000,
+		"Weight03" : 40000,
+		"Weight04" : 40000,
+		"Weight05" : 40000,
+		"Weight06" : 40000,
+		"Weight07" : 40000,
+		"Weight08" : 40000,
+		"Weight09" : 40000,
+		"Weight10" : 40000
+	}
+},
+// Geimini_ItemCustomize.xlsx.tmp EnhancementSuccess 
+
+"enhancementSuccess_":{
+	"SuccessNormal":{
+		"successType" : "NORMAL",
+		"lotteryRate" : 0.94,
+		"expBonusRate" : 1
+	},
+	"SuccessGreat":{
+		"successType" : "GREAT",
+		"lotteryRate" : 0.05,
+		"expBonusRate" : 1.5
+	},
+	"SuccessSuper":{
+		"successType" : "SUPER",
+		"lotteryRate" : 0.01,
+		"expBonusRate" : 2
+	}
+},
+// Geimini_ItemCustomize.xlsx.tmp GrowthParameter 
+
+"growthParameter_":{
+	"DefaultRank":{
+		"experienceRate" : 1
+	},
+	"DefaultGameMode":{
+		"experienceRate" : 0.25,
+		"experienceMax" : 1000,
+		"experienceMin" : 10
+	},
+	"SPcoopGameMode":{
+		"experienceRate" : 0.25,
+		"experienceMax" : 1000,
+		"experienceMin" : 10
+	},
+	"EventGameMode":{
+		"experienceRate" : 0.25,
+		"experienceMax" : 1000,
+		"experienceMin" : 10
+	},
+	"DeffenceGameMode":{
+		"experienceRate" : 0.25,
+		"experienceMax" : 1000,
+		"experienceMin" : 10
+	},
+	"TrainingMode":{
+		"experienceRate" : 0.08,
+		"experienceMax" : 80,
+		"experienceMin" : 5
+	}
+}}}

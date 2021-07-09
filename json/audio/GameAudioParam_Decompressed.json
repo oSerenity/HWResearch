@@ -1,0 +1,62 @@
+/* XDASEA_Xm8R_SPsX */ 
+// Gemini_GameAudio.xlsx.tmp Listener 
+
+{"JsonGameAudio":{"gameBgm_":{
+	"GA_BGM_SCENE_TEST":{
+		"BgmID" : 7777
+	},
+	"GA_BGM_SCENE_DEAD":{
+		"BgmID" : 15000
+	},
+	"GA_BGM_SKILL_SACRED_SONG":{
+		"BgmID" : 25000
+	},
+	"GA_BGM_SKILL_HAPPY_MIRACLE":{
+		"BgmID" : 25005
+	},
+	"GA_BGM_SKILL_METEOR_STORM":{
+		"BgmID" : 25010
+	},
+	"GA_BGM_SKILL_LIGHTNING_ARROWS":{
+		"BgmID" : 25010
+	},
+	"GA_BGM_SKILL_TORNADO":{
+		"BgmID" : 25010
+	},
+	"GA_BGM_SKILL_PHALANX":{
+		"BgmID" : 25015
+	},
+	"GA_BGM_SKILL_CHARGE":{
+		"BgmID" : 25015
+	},
+	"GA_BGM_SCENE_WIN":{
+		"BgmID" : 15005
+	},
+	"GA_BGM_SCENE_LOSE":{
+		"BgmID" : 15010
+	},
+	"GA_BGM_SCENE_WIN_KING":{
+		"BgmID" : 15015
+	},
+	"MENU_BGM_Synthesis":{
+		"BgmID" : 5000
+	},
+	"MENU_BGM_Enhancement":{
+		"BgmID" : 5000
+	},
+	"MENU_BGM_Spinner":{
+		"BgmID" : 5005
+	},
+	"MENU_BGM_MainMenu":{
+		"BgmID" : 5
+	},
+	"MENU_BGM_Multiplay":{
+		"BgmID" : 5
+	},
+	"MENU_BGM_Result":{
+		"BgmID" : 0
+	},
+	"MENU_BGM_Title":{
+		"BgmID" : 10
+	}
+}}}

@@ -1,0 +1,98 @@
+/* XDASEA_Xm8R_SPsX */ 
+// PlayerBoneInfo.xlsx
+{
+	"JsonPlayerParam": {
+		"boneInfos_": {
+			"Head": {
+				"nodeName_": "Head",
+				"isVisible_": true,
+				"isRotate_": true,
+				"pos_": [
+					0,
+					0,
+					0
+				],
+				"rot_": [
+					0,
+					0,
+					0
+				]
+			},
+			"Spine": {
+				"nodeName_": "Spine",
+				"isVisible_": true,
+				"isRotate_": true,
+				"pos_": [
+					0,
+					0,
+					0
+				],
+				"rot_": [
+					0,
+					0,
+					0
+				]
+			},
+			"LeftWeapon": {
+				"nodeName_": "LeftWeapon",
+				"isVisible_": true,
+				"isRotate_": true,
+				"pos_": [
+					0,
+					0,
+					0
+				],
+				"rot_": [
+					0,
+					0,
+					0
+				]
+			},
+			"RightWeapon": {
+				"nodeName_": "RightWeapon",
+				"isVisible_": true,
+				"isRotate_": true,
+				"pos_": [
+					0,
+					0,
+					0
+				],
+				"rot_": [
+					0,
+					0,
+					0
+				]
+			},
+			"Hips": {
+				"nodeName_": "Hips",
+				"isVisible_": true,
+				"isRotate_": true,
+				"pos_": [
+					0,
+					0,
+					0
+				],
+				"rot_": [
+					0,
+					0,
+					0
+				]
+			},
+			"LeftWeapon2": {
+				"nodeName_": "LeftWeapon2",
+				"isVisible_": true,
+				"isRotate_": true,
+				"pos_": [
+					0,
+					0,
+					0
+				],
+				"rot_": [
+					0,
+					0,
+					0
+				]
+			}
+		}
+	}
+}

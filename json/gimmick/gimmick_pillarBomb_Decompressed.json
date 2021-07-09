@@ -1,0 +1,36 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"bomb" :
+	[
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_mage_wav_cst"
+		},
+		{
+			"@class" : "command::FrameWait",
+			"wait_" : 16
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_pillar_bomb"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_pillar_bomb2"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 80900
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_pillar_bomb"
+		}
+	],
+	"failure" :
+	[
+	]
+}
+
+// end of file

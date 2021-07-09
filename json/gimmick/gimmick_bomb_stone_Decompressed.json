@@ -1,0 +1,101 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"start" :
+	[
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::TrapCylinder",
+			"name_" : "bomb",
+			"fromX_" : 0,
+			"fromY_" : 0,
+			"fromZ_" : 0,
+			"toX_" : 0,
+			"toY_" : 75,
+			"toZ_" : 0,
+			"radius_" : 300,
+			"kind_" : "BombStoneRide"
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : true
+		}
+	],
+	"idle" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gbom"
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "bomb",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"respawn" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gbom02_000_appear"
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo04c"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120050
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"swing" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gbom02_001_shot_loop"
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "bomb",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 10
+		}
+	],
+	"fire" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gbom02_002_wait"
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.4
+		}
+	]
+}
+
+// end of file

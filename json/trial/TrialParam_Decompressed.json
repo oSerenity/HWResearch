@@ -1,0 +1,9 @@
+/* XDASEA_Xm8R_SPsX */ 
+// Gemini_トライアル版パラメータ.xlsx.tmp Setting 
+
+{"JsonTrial":{"setting_":{
+	"DefaultSetting":{
+		"MultiPlayTimes" : 3,
+		"FirstHappyStar" : 3000
+	}
+}}}

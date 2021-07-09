@@ -1,0 +1,60 @@
+/* XDASEA_Xm8R_SPsX */ 
+// Gemini_リスナーパラメータ.xlsx.tmp Listener 
+
+{"JsonAudio":{"listenerParam_":{
+	"GameDefault":{
+		"PositionType" : "CUSTOM",
+		"DirectionType" : "CAMERA",
+		"Param0" : 0.15
+	},
+	"TopCamera":{
+		"PositionType" : "CUSTOM",
+		"DirectionType" : "CAMERA",
+		"Param0" : 0.15
+	},
+	"HighCamera":{
+		"PositionType" : "CUSTOM",
+		"DirectionType" : "CAMERA",
+		"Param0" : 0.15
+	},
+	"MiddleCamera":{
+		"PositionType" : "CUSTOM",
+		"DirectionType" : "CAMERA",
+		"Param0" : 0.15
+	},
+	"LowCamera":{
+		"PositionType" : "CUSTOM",
+		"DirectionType" : "CAMERA",
+		"Param0" : 0.15
+	},
+	"JumpCloudCamera":{
+		"PositionType" : "CUSTOM",
+		"DirectionType" : "CAMERA",
+		"Param0" : 0.15
+	},
+	"JumpSeaCamera":{
+		"PositionType" : "CUSTOM",
+		"DirectionType" : "CAMERA",
+		"Param0" : 0.15
+	},
+	"BirdCanonCamera":{
+		"PositionType" : "CUSTOM",
+		"DirectionType" : "CAMERA",
+		"Param0" : 0.15
+	},
+	"DeadCamera":{
+		"PositionType" : "CUSTOM",
+		"DirectionType" : "CAMERA",
+		"Param0" : 0.15
+	},
+	"TornadoCamera":{
+		"PositionType" : "CUSTOM",
+		"DirectionType" : "CAMERA",
+		"Param0" : 0.15
+	},
+	"Batt_Ram_Camera":{
+		"PositionType" : "CUSTOM",
+		"DirectionType" : "CAMERA",
+		"Param0" : 0.15
+	}
+}}}

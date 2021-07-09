@@ -1,0 +1,46 @@
+/* XDASEA_Xm8R_SPsX */ 
+// PlayerDieParam.xlsx
+{
+	"JsonPlayerParam": {
+		"dieParam_": {
+			"die": {
+				"rate_": 20
+			},
+			"die2": {
+				"rate_": 10
+			},
+			"die3": {
+				"rate_": 10
+			},
+			"die4": {
+				"rate_": 10
+			},
+			"die5": {
+				"rate_": 10
+			},
+			"die6": {
+				"rate_": 10
+			},
+			"die7": {
+				"rate_": 10
+			},
+			"die8": {
+				"rate_": 10
+			},
+			"die9": {
+				"rate_": 10
+			}
+		},
+		"fallDieParam_": {
+			"falldie": {
+				"rate_": 40
+			},
+			"falldie2": {
+				"rate_": 30
+			},
+			"falldie3": {
+				"rate_": 30
+			}
+		}
+	}
+}

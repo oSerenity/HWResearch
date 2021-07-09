@@ -1,0 +1,4099 @@
+/* XDASEA_Xm8R_SPsX */ 
+// PlayerEffectParam.xlsx
+{
+	"JsonPlayerParam": {
+		"effectParam_": {
+			"E_chB08": {
+				"effectName_": "Csmo04c",
+				"trans_": [
+					0,
+					100,
+					0
+				]
+			},
+			"E_pla00": {
+				"effectName_": "Csmo03c",
+				"trans_": [
+					0,
+					10,
+					0
+				]
+			},
+			"E_Die": {
+				"effectName_": "Adea03c"
+			},
+			"E_pla01": {
+				"effectName_": "Chit01f",
+				"trans_": [
+					0,
+					10,
+					0
+				]
+			},
+			"E_WaterDie": {
+				"effectName_": "Amov04c",
+				"trans_": [
+					0,
+					10,
+					0
+				],
+				"scale_": 2
+			},
+			"E_MagmaDie": {
+				"effectName_": "Amov06c",
+				"trans_": [
+					0,
+					10,
+					0
+				],
+				"scale_": 2
+			},
+			"E_quetzal": {
+				"effectName_": "Gque02c",
+				"trans_": [
+					0,
+					0,
+					0
+				],
+				"scale_": 0.7,
+				"fadeOutTime_": 0.5
+			},
+			"E_Fart": {
+				"effectName_": "Avoi01c",
+				"boneName_": "Hips",
+				"trans_": [
+					0,
+					0,
+					25
+				],
+				"scale_": 1.2,
+				"timeScale_": 1.2
+			},
+			"E_Heart": {
+				"effectName_": "Avoi02c",
+				"trans_": [
+					0,
+					20,
+					45
+				],
+				"scale_": 0.5,
+				"timeScale_": 1.6
+			},
+			"E_saliva": {
+				"effectName_": "Avoi03c",
+				"trans_": [
+					15,
+					0,
+					100
+				],
+				"scale_": 0.5
+			},
+			"E_Loser_sp1_00": {
+				"effectName_": "Alos01c",
+				"trans_": [
+					0,
+					-300,
+					0
+				],
+				"coordKind_": "ROT_TRANS",
+				"fadeOutTime_": 0.2
+			},
+			"E_Loser_sp1_01": {
+				"effectName_": "Alos01c",
+				"trans_": [
+					0,
+					-300,
+					0
+				],
+				"coordKind_": "ROT_TRANS",
+				"scale_": 2,
+				"timeScale_": 1.5,
+				"fadeOutTime_": 0.2
+			},
+			"E_sw_trR01": {
+				"boneName_": "RightHand01",
+				"coordKind_": "TRACK",
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"alpha_": 0.8,
+				"edgePos_": [
+					[
+						30,
+						0,
+						0
+					],
+					[
+						-55,
+						0,
+						0
+					]
+				],
+				"edgeColor_": [
+					[
+						0.98,
+						1,
+						0.12,
+						0.8
+					],
+					[
+						1,
+						0.5,
+						0.1,
+						1
+					]
+				],
+				"trackAttenuation_": 0.15,
+				"trackDistance_": 10,
+				"trackMaxLife_": 20
+			},
+			"E_sw_trR02": {
+				"boneName_": "LeftForeArmRot",
+				"coordKind_": "TRACK",
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"alpha_": 0.8,
+				"edgePos_": [
+					[
+						0,
+						30,
+						0
+					],
+					[
+						280,
+						0,
+						0
+					]
+				],
+				"edgeColor_": [
+					[
+						0.98,
+						1,
+						0.12,
+						0.8
+					],
+					[
+						1,
+						0.5,
+						0.1,
+						1
+					]
+				],
+				"trackAttenuation_": 0.15,
+				"trackDistance_": 10,
+				"trackMaxLife_": 20
+			},
+			"E_sw_trR03": {
+				"boneName_": "RightForeArmRot",
+				"coordKind_": "TRACK",
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"alpha_": 0.8,
+				"edgePos_": [
+					[
+						0,
+						0,
+						0
+					],
+					[
+						-130,
+						0,
+						0
+					]
+				],
+				"edgeColor_": [
+					[
+						0.98,
+						1,
+						0.12,
+						0.8
+					],
+					[
+						1,
+						0.5,
+						0.1,
+						1
+					]
+				],
+				"trackAttenuation_": 0.15,
+				"trackDistance_": 10,
+				"trackMaxLife_": 20
+			},
+			"E_sw_trR04": {
+				"boneName_": "LeftForeArmRot",
+				"coordKind_": "TRACK",
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"alpha_": 0.8,
+				"edgePos_": [
+					[
+						0,
+						0,
+						0
+					],
+					[
+						130,
+						0,
+						0
+					]
+				],
+				"edgeColor_": [
+					[
+						0.98,
+						1,
+						0.12,
+						0.8
+					],
+					[
+						1,
+						0.5,
+						0.1,
+						1
+					]
+				],
+				"trackAttenuation_": 0.15,
+				"trackDistance_": 10,
+				"trackMaxLife_": 20
+			},
+			"E_sw_trW01": {
+				"boneName_": "RightWeapon",
+				"coordKind_": "TRACK",
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"alpha_": 0.8,
+				"edgePos_": [
+					[
+						0,
+						30,
+						0
+					],
+					[
+						0,
+						171,
+						0
+					]
+				],
+				"edgeColor_": [
+					[
+						0.98,
+						1,
+						0.12,
+						0.8
+					],
+					[
+						1,
+						0.5,
+						0.1,
+						1
+					]
+				],
+				"trackAttenuation_": 0.15,
+				"trackDistance_": 10,
+				"trackMaxLife_": 20
+			},
+			"E_sw_trW02": {
+				"boneName_": "RightWeapon",
+				"coordKind_": "TRACK",
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"alpha_": 0.8,
+				"edgePos_": [
+					[
+						0,
+						30,
+						0
+					],
+					[
+						0,
+						171,
+						0
+					]
+				],
+				"edgeColor_": [
+					[
+						0.98,
+						1,
+						0.12,
+						0.8
+					],
+					[
+						1,
+						0.5,
+						0.1,
+						1
+					]
+				],
+				"trackAttenuation_": 0.15,
+				"trackDistance_": 10,
+				"trackMaxLife_": 20
+			},
+			"E_sw_trP1": {
+				"boneName_": "RightWeapon",
+				"coordKind_": "TRACK",
+				"color_": [
+					0.5,
+					1,
+					1
+				],
+				"alpha_": 0.8,
+				"edgePos_": [
+					[
+						0,
+						70,
+						0
+					],
+					[
+						0,
+						150,
+						0
+					]
+				],
+				"edgeColor_": [
+					[
+						0.09,
+						1,
+						0.63,
+						0.8
+					],
+					[
+						1,
+						1,
+						1,
+						1
+					]
+				],
+				"trackAttenuation_": 0.73,
+				"trackDistance_": 10,
+				"trackMaxLife_": -1
+			},
+			"E_sw_trM1": {
+				"boneName_": "RightWeapon",
+				"coordKind_": "TRACK",
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"alpha_": 0.8,
+				"edgePos_": [
+					[
+						0,
+						75,
+						0
+					],
+					[
+						0,
+						170,
+						0
+					]
+				],
+				"edgeColor_": [
+					[
+						0.76,
+						0.5,
+						1,
+						0.8
+					],
+					[
+						0.27,
+						0.48,
+						1,
+						1
+					]
+				],
+				"trackAttenuation_": 0.65,
+				"trackDistance_": 10,
+				"trackMaxLife_": -1
+			},
+			"E_sw_trEF00": {
+				"boneName_": "RightWeapon",
+				"coordKind_": "TRACK",
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"alpha_": 0.8,
+				"edgePos_": [
+					[
+						0,
+						30,
+						0
+					],
+					[
+						0,
+						175,
+						0
+					]
+				],
+				"edgeColor_": [
+					[
+						1,
+						0.48,
+						0.14,
+						0.8
+					],
+					[
+						1,
+						0.1,
+						0,
+						1
+					]
+				],
+				"trackAttenuation_": 0.15,
+				"trackDistance_": 10,
+				"trackMaxLife_": 30
+			},
+			"E_sw_trET00": {
+				"boneName_": "RightWeapon",
+				"coordKind_": "TRACK",
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"alpha_": 0.8,
+				"edgePos_": [
+					[
+						0,
+						30,
+						0
+					],
+					[
+						0,
+						180,
+						0
+					]
+				],
+				"edgeColor_": [
+					[
+						0.53,
+						0.25,
+						0.99,
+						0.8
+					],
+					[
+						0.19,
+						0.49,
+						1,
+						1
+					]
+				],
+				"trackAttenuation_": 0.15,
+				"trackDistance_": 10,
+				"trackMaxLife_": 30
+			},
+			"E_sw_trEW00": {
+				"boneName_": "RightWeapon",
+				"coordKind_": "TRACK",
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"alpha_": 0.8,
+				"edgePos_": [
+					[
+						0,
+						30,
+						0
+					],
+					[
+						0,
+						175,
+						0
+					]
+				],
+				"edgeColor_": [
+					[
+						0.78,
+						0.86,
+						0.79,
+						0.8
+					],
+					[
+						0.81,
+						0.99,
+						0.74,
+						1
+					]
+				],
+				"trackAttenuation_": 0.15,
+				"trackDistance_": 10,
+				"trackMaxLife_": 30
+			},
+			"E_sw_trEI00": {
+				"boneName_": "RightWeapon",
+				"coordKind_": "TRACK",
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"alpha_": 0.8,
+				"edgePos_": [
+					[
+						0,
+						30,
+						0
+					],
+					[
+						0,
+						175,
+						0
+					]
+				],
+				"edgeColor_": [
+					[
+						0.57,
+						0.97,
+						0.94,
+						0.8
+					],
+					[
+						0.94,
+						1,
+						0.98,
+						1
+					]
+				],
+				"trackAttenuation_": 0.15,
+				"trackDistance_": 10,
+				"trackMaxLife_": 30
+			},
+			"E_sw_trW11": {
+				"boneName_": "RightWeapon",
+				"coordKind_": "TRACK",
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"alpha_": 0.9,
+				"edgePos_": [
+					[
+						0,
+						30,
+						0
+					],
+					[
+						0,
+						191,
+						0
+					]
+				],
+				"edgeColor_": [
+					[
+						0.98,
+						0.8,
+						0.12,
+						0.8
+					],
+					[
+						1,
+						0.2,
+						0.1,
+						1
+					]
+				],
+				"trackAttenuation_": 0.15,
+				"trackDistance_": 10,
+				"trackMaxLife_": 30
+			},
+			"E_dmg_l00": {
+				"effectName_": "Chit01f",
+				"padVibration_": "PAD_VIBRATION_DAMAGE_S"
+			},
+			"E_dmg_l01": {
+				"effectName_": "Chit01e",
+				"padVibration_": "PAD_VIBRATION_DAMAGE_BLOW"
+			},
+			"E_dmg_m00": {
+				"effectName_": "Chit02f",
+				"padVibration_": "PAD_VIBRATION_DAMAGE_L"
+			},
+			"E_dmg_m01": {
+				"effectName_": "Chit02e",
+				"padVibration_": "PAD_VIBRATION_DAMAGE_L"
+			},
+			"E_dmg_s00": {
+				"effectName_": "Chit03f",
+				"padVibration_": "PAD_VIBRATION_DAMAGE_S"
+			},
+			"E_dmg_s01": {
+				"effectName_": "Chit03e",
+				"padVibration_": "PAD_VIBRATION_DAMAGE_S"
+			},
+			"E_blownoff00": {
+				"effectName_": "Chit04c",
+				"trans_": [
+					0,
+					40,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.2
+			},
+			"E_blownoff01": {
+				"effectName_": "Gjum04c",
+				"trans_": [
+					0,
+					30,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.2
+			},
+			"E_dmg00": {
+				"effectName_": "Chit02f"
+			},
+			"E_guard00": {
+				"effectName_": "Chit03e"
+			},
+			"E_cri_dmg00": {
+				"effectName_": "Chit01f"
+			},
+			"E_smash_dmg00": {
+				"effectName_": "Chit01f"
+			},
+			"E_stone_dmg00": {
+				"effectName_": "Bsta01c",
+				"scale_": 4
+			},
+			"E_reel_dmg00": {
+				"effectName_": "Chit02f"
+			},
+			"E_form_enter": {
+				"effectName_": "Shud06c",
+				"trans_": [
+					0,
+					20,
+					0
+				],
+				"isForceErase_": true,
+				"isTeamScreen_": true,
+				"isAloneGround_": true
+			},
+			"E_blowatk_wav": {
+				"effectName_": "Cwav05c",
+				"trans_": [
+					5,
+					110,
+					130
+				],
+				"rot_": [
+					55,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2.7,
+				"color_": [
+					1.2,
+					1,
+					1
+				],
+				"timeScale_": 0.7
+			},
+			"E_blowatk_wav2": {
+				"effectName_": "Cwav05c",
+				"trans_": [
+					5,
+					110,
+					130
+				],
+				"rot_": [
+					55,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 3.7,
+				"color_": [
+					1,
+					1,
+					1.2
+				],
+				"timeScale_": 0.7
+			},
+			"E_blowatk_wav3": {
+				"effectName_": "Cwav04c",
+				"trans_": [
+					5,
+					110,
+					130
+				],
+				"rot_": [
+					55,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.4,
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"timeScale_": 1.2
+			},
+			"E_blowber_00": {
+				"effectName_": "Asba01c",
+				"trans_": [
+					5,
+					130,
+					150
+				],
+				"rot_": [
+					55,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.5,
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"timeScale_": 1
+			},
+			"E_dashatk_smo": {
+				"effectName_": "Csmo02c",
+				"trans_": [
+					0,
+					10,
+					-25
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"timeScale_": 1.6
+			},
+			"E_dashatk_wav": {
+				"effectName_": "Cwav05c",
+				"trans_": [
+					0,
+					55,
+					245
+				],
+				"rot_": [
+					-90,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 3.2,
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"timeScale_": 0.6
+			},
+			"E_dashber_00": {
+				"effectName_": "Adat01c",
+				"trans_": [
+					0,
+					50,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2
+			},
+			"E_sma_smo00": {
+				"effectName_": "Csmo01c",
+				"trans_": [
+					0,
+					-10,
+					-25
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.3,
+				"timeScale_": 1.9
+			},
+			"E_sma_wav00": {
+				"effectName_": "Cwav05c",
+				"trans_": [
+					5,
+					120,
+					170
+				],
+				"rot_": [
+					70,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 4.7,
+				"color_": [
+					1.2,
+					1,
+					1
+				],
+				"timeScale_": 0.7
+			},
+			"E_sma_wav10": {
+				"effectName_": "Cwav02c",
+				"trans_": [
+					0,
+					40,
+					150
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.2,
+				"color_": [
+					1,
+					1,
+					0.75
+				],
+				"timeScale_": 1.4
+			},
+			"E_rus_00": {
+				"effectName_": "Srus01c",
+				"boneName_": "Head",
+				"trans_": [
+					0,
+					80,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.2
+			},
+			"E_rus_smo00": {
+				"effectName_": "Srus02c",
+				"trans_": [
+					0,
+					0,
+					30
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.7,
+				"timeScale_": 2
+			},
+			"E_rus_smo01": {
+				"effectName_": "Srus02c",
+				"trans_": [
+					0,
+					-5,
+					-50
+				],
+				"rot_": [
+					0.08,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.9,
+				"timeScale_": 1.8
+			},
+			"E_rus_smo02": {
+				"effectName_": "Csmo01c",
+				"trans_": [
+					0,
+					0,
+					30
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.8,
+				"color_": [
+					1.2,
+					1.2,
+					1
+				],
+				"timeScale_": 1.8
+			},
+			"E_spin_wave01": {
+				"effectName_": "Sspi01c",
+				"trans_": [
+					0,
+					80,
+					0
+				],
+				"rot_": [
+					180,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 1.3,
+				"fadeOutTime_": 0.07
+			},
+			"E_spin_wave02": {
+				"effectName_": "Sspi01c",
+				"trans_": [
+					0,
+					80,
+					0
+				],
+				"rot_": [
+					180,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 1.6,
+				"color_": [
+					2,
+					1,
+					1
+				],
+				"timeScale_": 1.2,
+				"fadeOutTime_": 0.07
+			},
+			"E_spin_wave03": {
+				"effectName_": "Sspi01c",
+				"trans_": [
+					0,
+					80,
+					0
+				],
+				"rot_": [
+					180,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 1.8,
+				"color_": [
+					3.6,
+					1,
+					0.9
+				],
+				"timeScale_": 1.3,
+				"fadeOutTime_": 0.07
+			},
+			"E_wspin_wave01": {
+				"effectName_": "Sdsp01c",
+				"trans_": [
+					0,
+					80,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 3,
+				"fadeOutTime_": 0.3
+			},
+			"E_wspin_wave02": {
+				"effectName_": "Sdsp02c",
+				"trans_": [
+					0,
+					80,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 3,
+				"fadeOutTime_": 0.3
+			},
+			"E_rkt_00": {
+				"effectName_": "Cwav02c",
+				"trans_": [
+					0,
+					10,
+					20
+				],
+				"timeScale_": 1.5
+			},
+			"E_rkt_01": {
+				"effectName_": "Csmo02c",
+				"trans_": [
+					0,
+					-20,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 1.4,
+				"timeScale_": 1.7
+			},
+			"E_rkt_10": {
+				"effectName_": "Sroc02c",
+				"trans_": [
+					0,
+					0,
+					-100
+				],
+				"rot_": [
+					-90,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 3
+			},
+			"E_rkt_fly00": {
+				"effectName_": "Sroc01c",
+				"boneName_": "Hips",
+				"trans_": [
+					0,
+					-50,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true
+			},
+			"E_rkt_fly01": {
+				"effectName_": "Sroc03e",
+				"trans_": [
+					0,
+					77,
+					30
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 2.5
+			},
+			"E_rkt_imp00": {
+				"effectName_": "Cwav03c",
+				"trans_": [
+					0,
+					10,
+					0
+				],
+				"coordKind_": "TRANS",
+				"scale_": 1.25
+			},
+			"E_rkt_imp01": {
+				"effectName_": "Cbom05c",
+				"trans_": [
+					0,
+					65,
+					0
+				],
+				"coordKind_": "TRANS",
+				"scale_": 1.5
+			},
+			"E_rkt_bom00": {
+				"effectName_": "Cbom03c",
+				"trans_": [
+					0,
+					50,
+					0
+				],
+				"coordKind_": "TRANS",
+				"scale_": 1.7
+			},
+			"E_rkt_imp10": {
+				"effectName_": "Cwav03c",
+				"trans_": [
+					0,
+					10,
+					0
+				],
+				"coordKind_": "TRANS",
+				"scale_": 1.5
+			},
+			"E_rkt_imp11": {
+				"effectName_": "Cbom05c",
+				"trans_": [
+					0,
+					65,
+					0
+				],
+				"coordKind_": "TRANS",
+				"scale_": 1.7999999999999998
+			},
+			"E_rkt_bom10": {
+				"effectName_": "Cbom03c",
+				"trans_": [
+					0,
+					50,
+					0
+				],
+				"coordKind_": "TRANS",
+				"scale_": 2.04
+			},
+			"E_rkt_imp20": {
+				"effectName_": "Cwav03c",
+				"trans_": [
+					0,
+					10,
+					0
+				],
+				"coordKind_": "TRANS",
+				"scale_": 1.75
+			},
+			"E_rkt_imp21": {
+				"effectName_": "Cbom05c",
+				"trans_": [
+					0,
+					65,
+					0
+				],
+				"coordKind_": "TRANS",
+				"scale_": 2.0999999999999996
+			},
+			"E_rkt_bom20": {
+				"effectName_": "Cbom03c",
+				"trans_": [
+					0,
+					50,
+					0
+				],
+				"coordKind_": "TRANS",
+				"scale_": 2.38
+			},
+			"E_stn_thr": {
+				"effectName_": "Ssto01c",
+				"trans_": [
+					5,
+					80,
+					95
+				],
+				"rot_": [
+					45,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2.1
+			},
+			"E_stn_faint": {
+				"effectName_": "Bsta02c",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"fadeOutTime_": 0.13
+			},
+			"E_roar": {
+				"effectName_": "Sroa01c",
+				"trans_": [
+					0,
+					100,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 3.1,
+				"color_": [
+					0.8,
+					0.8,
+					0.8
+				],
+				"timeScale_": 2.3
+			},
+			"E_roar_wav": {
+				"effectName_": "Cwav04c",
+				"trans_": [
+					0,
+					15,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2
+			},
+			"E_weapont00": {
+				"effectName_": "Stom01c",
+				"trans_": [
+					0,
+					0,
+					50
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.5
+			},
+			"E_fury": {
+				"effectName_": "Sfur01c",
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_fury_as": {
+				"effectName_": "Sfur02c",
+				"trans_": [
+					0,
+					25,
+					0
+				],
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_dspin": {
+				"effectName_": "Sdsp03c",
+				"scale_": 2,
+				"fadeOutTime_": 0.5
+			},
+			"E_scared": {
+				"effectName_": "Bsca01c",
+				"trans_": [
+					0,
+					40,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 0.7
+			},
+			"E_power0": {
+				"effectName_": "Cwav04c",
+				"trans_": [
+					0,
+					30,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.5,
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"timeScale_": 1.2
+			},
+			"E_powerMAX": {
+				"effectName_": "Cwav04c",
+				"trans_": [
+					0,
+					30,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1,
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"timeScale_": 1.2
+			},
+			"E_power1": {
+				"effectName_": "Spow01c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 4,
+				"timeScale_": 1.3
+			},
+			"E_power2": {
+				"effectName_": "Spow02c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 3,
+				"timeScale_": 1.2
+			},
+			"E_power3": {
+				"effectName_": "Spow03c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2.5,
+				"timeScale_": 1.2
+			},
+			"E_powlv0a": {
+				"effectName_": "Spow04c",
+				"trans_": [
+					0,
+					120,
+					60
+				],
+				"rot_": [
+					-8,
+					0,
+					160
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2.8,
+				"timeScale_": 0.78
+			},
+			"E_powlv1a": {
+				"effectName_": "Spow04c",
+				"trans_": [
+					0,
+					120,
+					60
+				],
+				"rot_": [
+					-8,
+					0,
+					160
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 4.3,
+				"timeScale_": 0.78
+			},
+			"E_powlv2a": {
+				"effectName_": "Spow04c",
+				"trans_": [
+					0,
+					120,
+					60
+				],
+				"rot_": [
+					-8,
+					0,
+					160
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 4.3,
+				"color_": [
+					3.6,
+					1,
+					0.9
+				],
+				"timeScale_": 0.78
+			},
+			"E_powlv3a": {
+				"effectName_": "Spow04c",
+				"trans_": [
+					0,
+					120,
+					60
+				],
+				"rot_": [
+					-8,
+					0,
+					160
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 4.8,
+				"color_": [
+					3.6,
+					1,
+					0.9
+				],
+				"timeScale_": 0.55
+			},
+			"E_powlv3b": {
+				"effectName_": "Cwav01c",
+				"trans_": [
+					0,
+					40,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2.3,
+				"timeScale_": 1.25
+			},
+			"E_powlv4a": {
+				"effectName_": "Spow04c",
+				"trans_": [
+					0,
+					120,
+					60
+				],
+				"rot_": [
+					-8,
+					0,
+					160
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 5.3,
+				"color_": [
+					6,
+					2,
+					0.7
+				],
+				"timeScale_": 0.55
+			},
+			"E_powlv4b": {
+				"effectName_": "Cwav01c",
+				"trans_": [
+					0,
+					40,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2.3,
+				"timeScale_": 1.25
+			},
+			"E_powlv5a": {
+				"effectName_": "Spow05c",
+				"trans_": [
+					0,
+					0,
+					-50
+				],
+				"scale_": 0.45,
+				"timeScale_": 1.6
+			},
+			"E_powlv5b": {
+				"effectName_": "Cwav05c",
+				"trans_": [
+					0,
+					50,
+					0
+				],
+				"scale_": 9.8,
+				"color_": [
+					1.4,
+					1,
+					1
+				],
+				"timeScale_": 0.2
+			},
+			"E_powlv5d": {
+				"effectName_": "Spow04c",
+				"trans_": [
+					0,
+					130,
+					0
+				],
+				"rot_": [
+					-10,
+					0,
+					160
+				],
+				"scale_": 5.1,
+				"color_": [
+					6,
+					2,
+					0.7
+				],
+				"timeScale_": 0.5
+			},
+			"E_powlv5e": {
+				"effectName_": "Spow04c",
+				"trans_": [
+					0,
+					130,
+					0
+				],
+				"rot_": [
+					-10,
+					100,
+					160
+				],
+				"scale_": 5.4,
+				"color_": [
+					6,
+					2,
+					0.7
+				],
+				"timeScale_": 0.5
+			},
+			"E_powlv5f": {
+				"effectName_": "Spow04c",
+				"trans_": [
+					0,
+					130,
+					0
+				],
+				"rot_": [
+					-10,
+					200,
+					160
+				],
+				"scale_": 5.7,
+				"color_": [
+					6,
+					2,
+					0.7
+				],
+				"timeScale_": 0.5
+			},
+			"E_powlv5g": {
+				"effectName_": "Spow04c",
+				"trans_": [
+					0,
+					130,
+					0
+				],
+				"rot_": [
+					-7,
+					360,
+					170
+				],
+				"scale_": 4.9,
+				"color_": [
+					6,
+					2,
+					0.7
+				],
+				"timeScale_": 0.5
+			},
+			"E_supg_start": {
+				"effectName_": "Ssup01c",
+				"trans_": [
+					-10,
+					70,
+					100
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2,
+				"timeScale_": 2
+			},
+			"E_supg_loop": {
+				"effectName_": "Ssup02c",
+				"boneName_": "LeftWeapon",
+				"trans_": [
+					30,
+					8,
+					0
+				],
+				"rot_": [
+					0,
+					90,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true
+			},
+			"E_supg_g_start": {
+				"effectName_": "Ssup03c",
+				"trans_": [
+					-10,
+					80,
+					100
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.2
+			},
+			"E_supg_guard": {
+				"effectName_": "Ssup04c",
+				"trans_": [
+					-10,
+					80,
+					100
+				],
+				"rot_": [
+					-8,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 1.6
+			},
+			"E_supg_g_end": {
+				"effectName_": "Ssup05c",
+				"trans_": [
+					-10,
+					80,
+					100
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.7
+			},
+			"E_cheer_cst": {
+				"effectName_": "Cwav04c",
+				"color_": [
+					1,
+					0.9,
+					0.8
+				],
+				"timeScale_": 0.3
+			},
+			"E_cheer_cst2": {
+				"effectName_": "Sche01c",
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 7,
+				"color_": [
+					1,
+					0.5,
+					0.4
+				],
+				"timeScale_": 0.5
+			},
+			"E_cheer_start": {
+				"effectName_": "Sche02c",
+				"trans_": [
+					0,
+					-600,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2.5,
+				"color_": [
+					1,
+					0.5,
+					0.4
+				],
+				"timeScale_": 1
+			},
+			"E_cheer_startb": {
+				"effectName_": "Cwav05c",
+				"trans_": [
+					0,
+					10,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 3.3,
+				"color_": [
+					1,
+					0.8,
+					0.8
+				],
+				"timeScale_": 0.33
+			},
+			"E_cheer_pup": {
+				"effectName_": "Sche01c",
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_charge_start": {
+				"effectName_": "Cwav05c",
+				"trans_": [
+					0,
+					10,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 3.3,
+				"color_": [
+					1,
+					0.8,
+					0.8
+				],
+				"timeScale_": 0.33
+			},
+			"E_phalanx_start": {
+				"effectName_": "Cwav05c",
+				"trans_": [
+					0,
+					10,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 3.3,
+				"color_": [
+					1,
+					0.8,
+					0.8
+				],
+				"timeScale_": 0.33
+			},
+			"E_phalanx_start2": {
+				"effectName_": "Ssup01c",
+				"trans_": [
+					-10,
+					70,
+					100
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.7,
+				"timeScale_": 2
+			},
+			"E_phalanx_pup": {
+				"effectName_": "Spha01c",
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_phalanx_rng": {
+				"effectName_": "Shud04c",
+				"trans_": [
+					0,
+					50,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.8
+			},
+			"E_enc_cst": {
+				"effectName_": "Cwmg01c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"timeScale_": 1.4
+			},
+			"E_mage_wav_cst": {
+				"effectName_": "Cwmg10c",
+				"trans_": [
+					0,
+					15,
+					0
+				],
+				"scale_": 0.6,
+				"timeScale_": 2.8
+			},
+			"E_enc_fire": {
+				"effectName_": "Senf02c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1
+			},
+			"E_encfire_cse": {
+				"effectName_": "Cwmg05c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_encfire_hit": {
+				"effectName_": "Senf01c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"scale_": 1,
+				"timeScale_": 1
+			},
+			"E_enc_light": {
+				"effectName_": "Senl02c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.2
+			},
+			"E_enclight_cse": {
+				"effectName_": "Cwmg06c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					140,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.6
+			},
+			"E_enclight_hit": {
+				"effectName_": "Senl01c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"scale_": 0.9,
+				"timeScale_": 1.7
+			},
+			"E_enc_wind": {
+				"effectName_": "Senw02c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.2
+			},
+			"E_encwind_cse": {
+				"effectName_": "Cwmg07c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					140,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.6
+			},
+			"E_encwind_hit": {
+				"effectName_": "Senw01c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"scale_": 0.9,
+				"timeScale_": 1.7
+			},
+			"E_enc_ice": {
+				"effectName_": "Seni02c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.7
+			},
+			"E_encice_cse": {
+				"effectName_": "Cwmg08c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					140,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.6
+			},
+			"E_encice_hit": {
+				"effectName_": "Seni01c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"scale_": 0.9,
+				"timeScale_": 1.7
+			},
+			"E_fire_ball": {
+				"effectName_": "Cwmg05c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_light_bolt": {
+				"effectName_": "Cwmg06c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_lib_ring": {
+				"effectName_": "Slib04c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_wind_blast": {
+				"effectName_": "Cwmg07c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_ice_shot": {
+				"effectName_": "Cwmg08c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				]
+			},
+			"E_lig_css": {
+				"effectName_": "Cwmg10c",
+				"trans_": [
+					0,
+					30,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"timeScale_": 1.5
+			},
+			"E_lig_stk": {
+				"effectName_": "arA01",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					140,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 2
+			},
+			"E_lig_cst": {
+				"effectName_": "Cwmg01c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					140,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"timeScale_": 1.5
+			},
+			"E_lig_cse": {
+				"effectName_": "Cwmg03c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					140,
+					0
+				],
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_met_00": {
+				"effectName_": "Cwmg04c",
+				"trans_": [
+					0,
+					250,
+					10
+				],
+				"scale_": 1.3,
+				"timeScale_": 1.5
+			},
+			"E_met_01": {
+				"effectName_": "Sche02c",
+				"trans_": [
+					0,
+					-150,
+					0
+				],
+				"scale_": 2.7,
+				"color_": [
+					1,
+					0.8,
+					0.6
+				]
+			},
+			"E_met_10": {
+				"effectName_": "Cwmg01c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 1.5,
+				"timeScale_": 1.5
+			},
+			"E_met_20": {
+				"effectName_": "Cwmg03c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_cast_miss_b": {
+				"effectName_": "Cwmg09c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"scale_": 2.7
+			},
+			"E_tor_ring": {
+				"effectName_": "Cwmg01c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 1,
+				"timeScale_": 1.5
+			},
+			"E_wit_set": {
+				"effectName_": "Cwmg11c",
+				"scale_": 2
+			},
+			"E_wit_bomb": {
+				"effectName_": "Swit02c",
+				"scale_": 1.5
+			},
+			"E_wit_bomb2": {
+				"effectName_": "Cwav03c"
+			},
+			"E_pillar_bomb": {
+				"effectName_": "Smag01f",
+				"trans_": [
+					0,
+					-20,
+					0
+				],
+				"scale_": 1,
+				"timeScale_": 1
+			},
+			"E_pillar_bomb2": {
+				"effectName_": "Cwav05c",
+				"scale_": 8.1,
+				"timeScale_": 0.8
+			},
+			"E_ex_shot": {
+				"effectName_": "Cwmg13c",
+				"coordKind_": "CONSTRAIN",
+				"timeScale_": 1.2
+			},
+			"E_blizzard_charge": {
+				"effectName_": "Sics02c",
+				"coordKind_": "CONSTRAIN",
+				"timeScale_": 0.7
+			},
+			"E_blizzard": {
+				"effectName_": "Sics01c",
+				"scale_": 1.35
+			},
+			"E_wind_warp1": {
+				"effectName_": "Swwa01c",
+				"trans_": [
+					0,
+					30,
+					0
+				],
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_wind_warp2": {
+				"effectName_": "Swwa02c",
+				"trans_": [
+					0,
+					30,
+					0
+				],
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_wind_warp_wng": {
+				"effectName_": "Swwa04c",
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_babytor": {
+				"effectName_": "Smto02c",
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.6,
+				"fadeOutTime_": 0.3
+			},
+			"E_cyclone_sheild": {
+				"effectName_": "Scys01c",
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1,
+				"fadeOutTime_": 0.3
+			},
+			"E_capture": {
+				"effectName_": "Sslp01c",
+				"scale_": 1.3,
+				"fadeOutTime_": 0.3
+			},
+			"E_capture_warning": {
+				"effectName_": "Sslp02c"
+			},
+			"E_rem_appear": {
+				"effectName_": "Csmo03c",
+				"trans_": [
+					0,
+					10,
+					0
+				],
+				"scale_": 2.2,
+				"timeScale_": 0.8
+			},
+			"E_crw_pup": {
+				"effectName_": "Scrw01c",
+				"trans_": [
+					0,
+					10,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.2,
+				"fadeOutTime_": 0.3
+			},
+			"E_rep_on": {
+				"effectName_": "Srep02c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					-48,
+					68.5,
+					0
+				],
+				"rot_": [
+					0,
+					-90,
+					-21.5
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"fadeOutTime_": 0.1
+			},
+			"E_burn_start": {
+				"effectName_": "Bbur01c",
+				"trans_": [
+					0,
+					100,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1
+			},
+			"E_elec_start": {
+				"effectName_": "Bpar01c",
+				"trans_": [
+					0,
+					100,
+					0
+				],
+				"scale_": 0.65
+			},
+			"E_elec_loop": {
+				"effectName_": "Bpar02c",
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.6
+			},
+			"E_elec_loop_old": {
+				"effectName_": "Bpar02c",
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.6
+			},
+			"E_wind_start": {
+				"effectName_": "Swin02c",
+				"scale_": 0.7
+			},
+			"E_ice_start": {
+				"effectName_": "Bsno01c"
+			},
+			"E_ice_start2": {
+				"effectName_": "Bsno02c",
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.6,
+				"timeScale_": 0.5
+			},
+			"E_ice_snow": {
+				"effectName_": "Bsno03c",
+				"trans_": [
+					0,
+					45,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 1.3
+			},
+			"E_ice_end": {
+				"effectName_": "Bsno04c",
+				"trans_": [
+					0,
+					-30,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.45
+			},
+			"E_cast_pr_wave": {
+				"effectName_": "Cpmg06c",
+				"trans_": [
+					0,
+					10,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.8,
+				"timeScale_": 1.3
+			},
+			"E_cast_pr": {
+				"effectName_": "Cpmg01c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 1.4,
+				"timeScale_": 1.7
+			},
+			"E_hea_hit": {
+				"effectName_": "Cpmg08c",
+				"trans_": [
+					0,
+					-390,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2.5
+			},
+			"E_hea_cse": {
+				"effectName_": "Cpmg02c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					130,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.8
+			},
+			"E_mat_cse": {
+				"effectName_": "Cpmg03c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					130,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.8
+			},
+			"E_rein_eff": {
+				"effectName_": "Cpmg04c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					130,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.8
+			},
+			"E_rein_hit": {
+				"effectName_": "Cpmg07c",
+				"trans_": [
+					0,
+					10,
+					0
+				],
+				"scale_": 1.3
+			},
+			"E_dis_eff": {
+				"effectName_": "Cpmg03c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					130,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.8
+			},
+			"E_dis_wave": {
+				"effectName_": "Cpmg06c",
+				"trans_": [
+					0,
+					10,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2.3,
+				"timeScale_": 1.2
+			},
+			"E_dis_hit": {
+				"effectName_": "Sdis01c",
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.2,
+				"timeScale_": 1.3
+			},
+			"E_dash_eff": {
+				"effectName_": "Cpmg03c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					130,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.8
+			},
+			"E_dash_hit": {
+				"effectName_": "Sdas01c",
+				"trans_": [
+					0,
+					10,
+					0
+				],
+				"scale_": 0.9,
+				"timeScale_": 1.3
+			},
+			"E_dash_pup2": {
+				"effectName_": "Sdas02c",
+				"trans_": [
+					0.05,
+					3,
+					5
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.45
+			},
+			"E_subst_eff": {
+				"effectName_": "Cpmg04c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					110,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2
+			},
+			"E_subst_hit": {
+				"effectName_": "Sdas01c",
+				"trans_": [
+					0,
+					-30,
+					0
+				]
+			},
+			"E_subst_smo": {
+				"effectName_": "Csmo04c"
+			},
+			"E_sac_cst": {
+				"effectName_": "Ssuc01c",
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.8,
+				"timeScale_": 1.6
+			},
+			"E_sac_cd1": {
+				"effectName_": "Ssuc03c",
+				"trans_": [
+					0,
+					300,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 2,
+				"timeScale_": 1.3
+			},
+			"E_sac_lv1": {
+				"effectName_": "Cwav01c",
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.3,
+				"timeScale_": 0.5
+			},
+			"E_sac_lv2": {
+				"effectName_": "Ssuc02f",
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.8,
+				"timeScale_": 0.4
+			},
+			"E_sac_lv3": {
+				"effectName_": "Ssuc02f",
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.1,
+				"timeScale_": 0.4
+			},
+			"E_sac_lv4": {
+				"effectName_": "Ssuc02f",
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.4,
+				"timeScale_": 0.4
+			},
+			"E_sac_lv4b": {
+				"effectName_": "Cbom01c",
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.4,
+				"timeScale_": 1.2
+			},
+			"E_sac_lv5": {
+				"effectName_": "Ssuc02f",
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.7,
+				"timeScale_": 0.4
+			},
+			"E_sac_lv5b": {
+				"effectName_": "Cbom01c",
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.7,
+				"timeScale_": 1.2
+			},
+			"E_sac_lv6": {
+				"effectName_": "Ssuc02f",
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2.4,
+				"timeScale_": 0.4
+			},
+			"E_sac_lv6b": {
+				"effectName_": "Cbom01c",
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2.4,
+				"timeScale_": 1.2
+			},
+			"E_sanct_pup": {
+				"effectName_": "Shol02c",
+				"trans_": [
+					0,
+					-370,
+					0
+				],
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_sas_wav": {
+				"effectName_": "Shol01f",
+				"trans_": [
+					0,
+					10,
+					0
+				],
+				"scale_": 3,
+				"timeScale_": 0.4
+			},
+			"E_sas_wav2": {
+				"effectName_": "Sdas01c",
+				"trans_": [
+					0,
+					10,
+					0
+				],
+				"scale_": 1.3,
+				"timeScale_": 0.4
+			},
+			"E_sas_melody": {
+				"effectName_": "Ssas01c",
+				"trans_": [
+					0,
+					80,
+					0
+				],
+				"isForceErase_": true,
+				"scale_": 1.6,
+				"timeScale_": 2.4
+			},
+			"E_sas_heal": {
+				"effectName_": "Cpmg07c"
+			},
+			"E_sas_defup": {
+				"effectName_": "Ssas02c",
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_bli_warp": {
+				"effectName_": "Sbli01c",
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_hap_start": {
+				"effectName_": "Shap01c",
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2
+			},
+			"E_hap_start2": {
+				"effectName_": "Cpmg04c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					110,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2
+			},
+			"E_hap_start3": {
+				"effectName_": "Cwav04c",
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2
+			},
+			"E_hap_change": {
+				"effectName_": "Shap02c",
+				"coordKind_": "CONSTRAIN",
+				"timeScale_": 0.5
+			},
+			"E_hap_unchange": {
+				"effectName_": "Shap03c",
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_bat_01": {
+				"effectName_": "Gbat01c",
+				"trans_": [
+					0,
+					10,
+					-170
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2.8,
+				"fadeOutTime_": -1
+			},
+			"E_bat_02": {
+				"effectName_": "Gbat02c",
+				"boneName_": "center1",
+				"trans_": [
+					0,
+					0,
+					-190
+				],
+				"coordKind_": "CONSTRAIN",
+				"fadeOutTime_": 0.2
+			},
+			"E_rob_appear_01": {
+				"effectName_": "Csmo04c",
+				"trans_": [
+					0,
+					0,
+					0
+				],
+				"scale_": 2.5
+			},
+			"E_rob_appear_02": {
+				"effectName_": "Shap01c",
+				"trans_": [
+					0,
+					0,
+					0
+				]
+			},
+			"E_rob_actionA_01": {
+				"effectName_": "Grob04c",
+				"boneName_": "LeftForeArmScale",
+				"trans_": [
+					0,
+					0,
+					0
+				],
+				"rot_": [
+					0,
+					0,
+					90
+				],
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_rob_actionA_02": {
+				"effectName_": "Grob06c",
+				"boneName_": "RightAnkle",
+				"trans_": [
+					0,
+					0,
+					0
+				],
+				"rot_": [
+					0,
+					20,
+					180
+				],
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_rob_actionA_03": {
+				"effectName_": "Grob06c",
+				"boneName_": "LeftAnkle",
+				"trans_": [
+					0,
+					0,
+					0
+				],
+				"rot_": [
+					0,
+					20,
+					180
+				],
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_rob_attack2": {
+				"effectName_": "Grob04c",
+				"boneName_": "LeftForeArmScale",
+				"trans_": [
+					0,
+					0,
+					0
+				],
+				"rot_": [
+					0,
+					0,
+					90
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.25,
+				"timeScale_": 5
+			},
+			"E_rob_attack5": {
+				"effectName_": "Grob03c",
+				"trans_": [
+					0,
+					0,
+					370
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.8
+			},
+			"E_rob_attack6": {
+				"effectName_": "Grob04c",
+				"boneName_": "LeftForeArmScale",
+				"trans_": [
+					0,
+					0,
+					0
+				],
+				"rot_": [
+					0,
+					0,
+					90
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.5,
+				"timeScale_": 5
+			},
+			"E_rob_attack3": {
+				"effectName_": "Grob03c",
+				"scale_": 1.4
+			},
+			"E_rob_onara": {
+				"effectName_": "Grob07c",
+				"boneName_": "Hips",
+				"trans_": [
+					0,
+					0,
+					-70
+				],
+				"rot_": [
+					0,
+					180,
+					0
+				],
+				"coordKind_": "ROT_TRANS"
+			},
+			"E_rob_onara1": {
+				"effectName_": "Grob07c",
+				"boneName_": "Hips",
+				"trans_": [
+					0,
+					0,
+					-70
+				],
+				"rot_": [
+					0,
+					160,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.5
+			},
+			"E_rob_onara2": {
+				"effectName_": "Grob07c",
+				"boneName_": "Hips",
+				"trans_": [
+					0,
+					0,
+					-70
+				],
+				"rot_": [
+					0,
+					200,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.5
+			},
+			"E_rob_mouth": {
+				"effectName_": "Grob08c",
+				"boneName_": "Mouth",
+				"trans_": [
+					0,
+					0,
+					25
+				],
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_rob_vacuum": {
+				"effectName_": "Grob09c",
+				"boneName_": "Mouth",
+				"trans_": [
+					0,
+					0,
+					-20
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.8,
+				"color_": [
+					1.8,
+					1.5,
+					1.2
+				]
+			},
+			"E_rob_vacuum_lv2": {
+				"effectName_": "Grob09c",
+				"boneName_": "Mouth",
+				"trans_": [
+					0,
+					0,
+					-20
+				],
+				"coordKind_": "CONSTRAIN",
+				"color_": [
+					1.8,
+					1.3,
+					1
+				]
+			},
+			"E_rob_vacuum_lv3": {
+				"effectName_": "Grob09c",
+				"boneName_": "Mouth",
+				"trans_": [
+					0,
+					0,
+					-20
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.2,
+				"color_": [
+					2,
+					1,
+					1
+				]
+			},
+			"E_rob_fly": {
+				"effectName_": "Grob10c",
+				"boneName_": "Hips",
+				"trans_": [
+					0,
+					0,
+					-50
+				],
+				"rot_": [
+					30,
+					180,
+					0
+				],
+				"coordKind_": "CONSTRAIN"
+			},
+			"E_rob_breakbefore": {
+				"effectName_": "Grob02c",
+				"trans_": [
+					0,
+					0,
+					0
+				],
+				"timeScale_": 2
+			},
+			"E_rob_break": {
+				"effectName_": "Grob01c",
+				"trans_": [
+					0,
+					0,
+					0
+				],
+				"scale_": 1.4
+			},
+			"E_demo_shadow": {
+				"effectName_": "Ccam03c",
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 0.8
+			},
+			"E_KING": {
+				"effectName_": "Shap01c",
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2,
+				"timeScale_": 0.8
+			},
+			"E_kingAttack": {
+				"effectName_": "Cwmg03c",
+				"boneName_": "RightWeapon",
+				"trans_": [
+					0,
+					150,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 1.6,
+				"timeScale_": 2.9
+			},
+			"E_sw_trW03": {
+				"boneName_": "RightWeapon",
+				"coordKind_": "TRACK",
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"alpha_": 0.3,
+				"edgePos_": [
+					[
+						0,
+						30,
+						0
+					],
+					[
+						0,
+						130,
+						0
+					]
+				],
+				"edgeColor_": [
+					[
+						0.98,
+						1,
+						0.12,
+						0.8
+					],
+					[
+						1,
+						0.5,
+						0.1,
+						1
+					]
+				],
+				"trackAttenuation_": 0.15,
+				"trackDistance_": 10,
+				"trackMaxLife_": 30
+			},
+			"Boss_Cha_01": {
+				"effectName_": "Sche02c",
+				"trans_": [
+					0,
+					-850,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 4.5,
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"timeScale_": 0.6
+			},
+			"Boss_Cha_02": {
+				"effectName_": "Cwav04c",
+				"trans_": [
+					0,
+					30,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1,
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"timeScale_": 1.2
+			},
+			"Boss_Cha_03": {
+				"effectName_": "Cwav04c",
+				"trans_": [
+					0,
+					30,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.2,
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"timeScale_": 1.2
+			},
+			"Boss_Cha_04": {
+				"effectName_": "Cwav04c",
+				"trans_": [
+					0,
+					30,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.5,
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"timeScale_": 1.2
+			},
+			"Boss_Cha_05": {
+				"effectName_": "Swit02c",
+				"scale_": 2.7,
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"timeScale_": 2
+			},
+			"Boss_Cha_06": {
+				"effectName_": "Cwmg13c",
+				"trans_": [
+					0,
+					20,
+					0
+				],
+				"scale_": 5,
+				"color_": [
+					2,
+					1,
+					1
+				],
+				"timeScale_": 1.5
+			},
+			"Boss_Cha_07": {
+				"effectName_": "Slis02c",
+				"trans_": [
+					0,
+					0,
+					500
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.8,
+				"color_": [
+					2,
+					1,
+					1
+				],
+				"timeScale_": 1.6
+			},
+			"Boss_Cha_08": {
+				"effectName_": "Slib04c",
+				"trans_": [
+					0,
+					0,
+					500
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 4,
+				"color_": [
+					2,
+					1,
+					1
+				],
+				"timeScale_": 0.7
+			},
+			"Boss_Cha_09": {
+				"effectName_": "Cbom01c",
+				"trans_": [
+					0,
+					0,
+					500
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2,
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"timeScale_": 0.8
+			},
+			"Boss_Cha_10": {
+				"effectName_": "Cwav03c",
+				"trans_": [
+					0,
+					0,
+					500
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2,
+				"color_": [
+					1,
+					1,
+					1
+				]
+			},
+			"Boss_Cha_11": {
+				"effectName_": "Smag01f",
+				"trans_": [
+					500,
+					20,
+					0
+				],
+				"rot_": [
+					-5,
+					-5,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.8,
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"timeScale_": 1.8
+			},
+			"Boss_Cha_12": {
+				"effectName_": "Smag01f",
+				"trans_": [
+					-500,
+					20,
+					0
+				],
+				"rot_": [
+					-5,
+					5,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.8,
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"timeScale_": 1.8
+			},
+			"Boss_Cha_13": {
+				"effectName_": "Smag01f",
+				"trans_": [
+					500,
+					20,
+					1000
+				],
+				"rot_": [
+					5,
+					-5,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.8,
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"timeScale_": 1.8
+			},
+			"Boss_Cha_14": {
+				"effectName_": "Smag01f",
+				"trans_": [
+					-500,
+					20,
+					1000
+				],
+				"rot_": [
+					5,
+					5,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.8,
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"timeScale_": 1.8
+			},
+			"Boss_Cha_15": {
+				"effectName_": "Cwmg10c",
+				"trans_": [
+					0,
+					20,
+					500
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 3,
+				"color_": [
+					1,
+					1,
+					1
+				]
+			},
+			"Boss_blowatk_01": {
+				"effectName_": "Cwav05c",
+				"trans_": [
+					20,
+					440,
+					520
+				],
+				"rot_": [
+					55,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 5,
+				"color_": [
+					1,
+					1,
+					1.2
+				],
+				"timeScale_": 0.7
+			},
+			"Boss_blowatk_02": {
+				"effectName_": "Cwav04c",
+				"trans_": [
+					20,
+					440,
+					520
+				],
+				"rot_": [
+					55,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.2,
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"timeScale_": 1.2
+			},
+			"Boss_blowatk_03": {
+				"effectName_": "Smag01f",
+				"trans_": [
+					20,
+					440,
+					520
+				],
+				"rot_": [
+					55,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.7,
+				"color_": [
+					1,
+					1,
+					1
+				],
+				"timeScale_": 2.7
+			},
+			"Boss_sma_00": {
+				"effectName_": "Cwav05c",
+				"trans_": [
+					20,
+					380,
+					680
+				],
+				"rot_": [
+					55,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 5,
+				"color_": [
+					1.2,
+					1,
+					1
+				],
+				"timeScale_": 0.7
+			},
+			"Boss_sma_01": {
+				"effectName_": "Cwav02c",
+				"trans_": [
+					0,
+					160,
+					600
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2,
+				"color_": [
+					1,
+					1,
+					0.75
+				],
+				"timeScale_": 1.4
+			},
+			"Boss_spin_01": {
+				"effectName_": "Sspi01c",
+				"trans_": [
+					0,
+					300,
+					0
+				],
+				"rot_": [
+					180,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 4,
+				"fadeOutTime_": 0.07
+			},
+			"Boss_spin_02": {
+				"effectName_": "Sspi01c",
+				"trans_": [
+					0,
+					300,
+					0
+				],
+				"rot_": [
+					180,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 4.5,
+				"color_": [
+					2,
+					1,
+					1
+				],
+				"timeScale_": 1.2,
+				"fadeOutTime_": 0.07
+			},
+			"Boss_spin_03": {
+				"effectName_": "Sspi01c",
+				"trans_": [
+					0,
+					300,
+					0
+				],
+				"rot_": [
+					180,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 5,
+				"color_": [
+					3.6,
+					1,
+					0.9
+				],
+				"timeScale_": 1.3,
+				"fadeOutTime_": 0.07
+			},
+			"Boss_powlv0a": {
+				"effectName_": "Spow04c",
+				"trans_": [
+					0,
+					320,
+					240
+				],
+				"rot_": [
+					-8,
+					0,
+					160
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 7,
+				"timeScale_": 0.8
+			},
+			"Boss_powlv1a": {
+				"effectName_": "Spow04c",
+				"trans_": [
+					0,
+					320,
+					240
+				],
+				"rot_": [
+					-8,
+					0,
+					160
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 7,
+				"timeScale_": 0.8
+			},
+			"Boss_powlv2a": {
+				"effectName_": "Spow04c",
+				"trans_": [
+					0,
+					320,
+					240
+				],
+				"rot_": [
+					-8,
+					0,
+					160
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 7.5,
+				"color_": [
+					3.6,
+					1,
+					0.9
+				],
+				"timeScale_": 0.8
+			},
+			"Boss_powlv3a": {
+				"effectName_": "Spow04c",
+				"trans_": [
+					0,
+					320,
+					240
+				],
+				"rot_": [
+					-8,
+					0,
+					160
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 7.8,
+				"color_": [
+					3.6,
+					1,
+					0.9
+				],
+				"timeScale_": 0.7
+			},
+			"Boss_powlv4a": {
+				"effectName_": "Spow04c",
+				"trans_": [
+					0,
+					320,
+					240
+				],
+				"rot_": [
+					-8,
+					0,
+					160
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 8.2,
+				"color_": [
+					6,
+					2,
+					0.7
+				],
+				"timeScale_": 0.7
+			},
+			"Boss_powlv5d": {
+				"effectName_": "Spow04c",
+				"trans_": [
+					0,
+					520,
+					0
+				],
+				"rot_": [
+					-10,
+					0,
+					160
+				],
+				"scale_": 7,
+				"color_": [
+					6,
+					2,
+					0.7
+				],
+				"timeScale_": 0.5
+			},
+			"Boss_powlv5e": {
+				"effectName_": "Spow04c",
+				"trans_": [
+					0,
+					520,
+					0
+				],
+				"rot_": [
+					-10,
+					100,
+					160
+				],
+				"scale_": 8,
+				"color_": [
+					6,
+					2,
+					0.7
+				],
+				"timeScale_": 0.5
+			},
+			"Boss_powlv5f": {
+				"effectName_": "Spow04c",
+				"trans_": [
+					0,
+					520,
+					0
+				],
+				"rot_": [
+					-10,
+					200,
+					160
+				],
+				"scale_": 7.4,
+				"color_": [
+					6,
+					2,
+					0.7
+				],
+				"timeScale_": 0.5
+			},
+			"Boss_powlv5g": {
+				"effectName_": "Spow04c",
+				"trans_": [
+					0,
+					520,
+					0
+				],
+				"rot_": [
+					-7,
+					360,
+					170
+				],
+				"scale_": 7,
+				"color_": [
+					6,
+					2,
+					0.7
+				],
+				"timeScale_": 0.5
+			},
+			"Boss_heal_01": {
+				"effectName_": "Sfir02c",
+				"trans_": [
+					0,
+					100,
+					300
+				],
+				"rot_": [
+					55,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 5,
+				"timeScale_": 1.2
+			},
+			"Boss_heal_02": {
+				"effectName_": "Sfir02c",
+				"trans_": [
+					0,
+					100,
+					300
+				],
+				"rot_": [
+					55,
+					0,
+					0
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 5,
+				"color_": [
+					0.2,
+					1,
+					3.6
+				],
+				"timeScale_": 1.2
+			},
+			"Boss_lis_01": {
+				"effectName_": "Cwmg10c",
+				"trans_": [
+					0,
+					20,
+					300
+				],
+				"coordKind_": "CONSTRAIN",
+				"timeScale_": 1.5
+			},
+			"Boss_lis_02": {
+				"effectName_": "Cwmg10c",
+				"trans_": [
+					0,
+					20,
+					500
+				],
+				"coordKind_": "CONSTRAIN",
+				"timeScale_": 1.5
+			},
+			"Boss_lis_03": {
+				"effectName_": "Cwmg10c",
+				"trans_": [
+					0,
+					20,
+					700
+				],
+				"coordKind_": "CONSTRAIN",
+				"timeScale_": 1.5
+			},
+			"Boss_lis_04": {
+				"effectName_": "Smag01f",
+				"trans_": [
+					0,
+					20,
+					300
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.7,
+				"color_": [
+					1,
+					1,
+					1
+				]
+			},
+			"Boss_lis_05": {
+				"effectName_": "Smag01f",
+				"trans_": [
+					0,
+					20,
+					500
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.7,
+				"color_": [
+					1,
+					1,
+					1
+				]
+			},
+			"Boss_lis_06": {
+				"effectName_": "Smag01f",
+				"trans_": [
+					0,
+					20,
+					700
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.7,
+				"color_": [
+					1,
+					1,
+					1
+				]
+			},
+			"Boss_lis_07": {
+				"effectName_": "Cwmg10c",
+				"trans_": [
+					320,
+					20,
+					300
+				],
+				"coordKind_": "CONSTRAIN",
+				"timeScale_": 1.5
+			},
+			"Boss_lis_08": {
+				"effectName_": "Cwmg10c",
+				"trans_": [
+					320,
+					20,
+					500
+				],
+				"coordKind_": "CONSTRAIN",
+				"timeScale_": 1.5
+			},
+			"Boss_lis_09": {
+				"effectName_": "Cwmg10c",
+				"trans_": [
+					320,
+					20,
+					700
+				],
+				"coordKind_": "CONSTRAIN",
+				"timeScale_": 1.5
+			},
+			"Boss_lis_10": {
+				"effectName_": "Cwmg10c",
+				"trans_": [
+					-320,
+					20,
+					300
+				],
+				"coordKind_": "CONSTRAIN",
+				"timeScale_": 1.5
+			},
+			"Boss_lis_11": {
+				"effectName_": "Cwmg10c",
+				"trans_": [
+					-320,
+					20,
+					500
+				],
+				"coordKind_": "CONSTRAIN",
+				"timeScale_": 1.5
+			},
+			"Boss_lis_12": {
+				"effectName_": "Cwmg10c",
+				"trans_": [
+					-320,
+					20,
+					700
+				],
+				"coordKind_": "CONSTRAIN",
+				"timeScale_": 1.5
+			},
+			"Boss_lis_13": {
+				"effectName_": "Smag01f",
+				"trans_": [
+					320,
+					20,
+					300
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.7,
+				"color_": [
+					1,
+					1,
+					1
+				]
+			},
+			"Boss_lis_14": {
+				"effectName_": "Smag01f",
+				"trans_": [
+					320,
+					20,
+					500
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.7,
+				"color_": [
+					1,
+					1,
+					1
+				]
+			},
+			"Boss_lis_15": {
+				"effectName_": "Smag01f",
+				"trans_": [
+					320,
+					20,
+					700
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.7,
+				"color_": [
+					1,
+					1,
+					1
+				]
+			},
+			"Boss_lis_16": {
+				"effectName_": "Smag01f",
+				"trans_": [
+					-320,
+					20,
+					300
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.7,
+				"color_": [
+					1,
+					1,
+					1
+				]
+			},
+			"Boss_lis_17": {
+				"effectName_": "Smag01f",
+				"trans_": [
+					-320,
+					20,
+					500
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.7,
+				"color_": [
+					1,
+					1,
+					1
+				]
+			},
+			"Boss_lis_18": {
+				"effectName_": "Smag01f",
+				"trans_": [
+					-320,
+					20,
+					700
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.7,
+				"color_": [
+					1,
+					1,
+					1
+				]
+			},
+			"Boss_lis_19": {
+				"effectName_": "Cwmg13c",
+				"trans_": [
+					0,
+					20,
+					0
+				],
+				"scale_": 3,
+				"color_": [
+					2,
+					1,
+					1
+				],
+				"timeScale_": 1.5
+			},
+			"Boss_Smoke_01": {
+				"effectName_": "Csmo03c",
+				"trans_": [
+					0,
+					10,
+					0
+				],
+				"scale_": 6,
+				"color_": [
+					0.7,
+					0,
+					0.7
+				],
+				"timeScale_": 0.3
+			},
+			"Boss_Smoke_02": {
+				"effectName_": "Csmo04c",
+				"trans_": [
+					30,
+					120,
+					0
+				],
+				"scale_": 3.5,
+				"color_": [
+					0.7,
+					0,
+					0.7
+				],
+				"timeScale_": 0.3
+			},
+			"Boss_Smoke_03": {
+				"effectName_": "Csmo04c",
+				"trans_": [
+					450,
+					20,
+					0
+				],
+				"scale_": 3,
+				"color_": [
+					0.7,
+					0,
+					0.7
+				],
+				"timeScale_": 0.3
+			},
+			"Boss_Smoke_04": {
+				"effectName_": "Csmo04c",
+				"trans_": [
+					-225,
+					20,
+					390
+				],
+				"scale_": 3,
+				"color_": [
+					0.7,
+					0,
+					0.7
+				],
+				"timeScale_": 0.3
+			},
+			"Boss_Smoke_05": {
+				"effectName_": "Csmo04c",
+				"trans_": [
+					-225,
+					20,
+					-390
+				],
+				"scale_": 3,
+				"color_": [
+					0.7,
+					0,
+					0.7
+				],
+				"timeScale_": 0.3
+			},
+			"Boss_WindStorm_01": {
+				"effectName_": "Cwmg11c",
+				"trans_": [
+					0,
+					0,
+					-600
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2
+			},
+			"Boss_WindStorm_02": {
+				"effectName_": "Cwmg11c",
+				"trans_": [
+					-520,
+					0,
+					300
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2
+			},
+			"Boss_WindStorm_03": {
+				"effectName_": "Cwmg11c",
+				"trans_": [
+					520,
+					0,
+					300
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2
+			},
+			"Boss_WindStorm_04": {
+				"effectName_": "Swit02c",
+				"trans_": [
+					0,
+					0,
+					-600
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.5,
+				"timeScale_": 0.8
+			},
+			"Boss_WindStorm_05": {
+				"effectName_": "Swit02c",
+				"trans_": [
+					-520,
+					0,
+					300
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.5,
+				"timeScale_": 0.8
+			},
+			"Boss_WindStorm_06": {
+				"effectName_": "Swit02c",
+				"trans_": [
+					520,
+					0,
+					300
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.5,
+				"timeScale_": 0.8
+			},
+			"Boss_WindStorm_07": {
+				"effectName_": "Swin02c",
+				"trans_": [
+					0,
+					250,
+					-600
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.3,
+				"timeScale_": 0.5
+			},
+			"Boss_WindStorm_08": {
+				"effectName_": "Swin02c",
+				"trans_": [
+					-520,
+					250,
+					300
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.3,
+				"timeScale_": 0.5
+			},
+			"Boss_WindStorm_09": {
+				"effectName_": "Swin02c",
+				"trans_": [
+					520,
+					250,
+					300
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.3,
+				"timeScale_": 0.5
+			},
+			"Boss_WindStorm_10": {
+				"effectName_": "Swin02c",
+				"trans_": [
+					0,
+					300,
+					-600
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.8,
+				"timeScale_": 0.5
+			},
+			"Boss_WindStorm_11": {
+				"effectName_": "Swin02c",
+				"trans_": [
+					-520,
+					300,
+					300
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.8,
+				"timeScale_": 0.5
+			},
+			"Boss_WindStorm_12": {
+				"effectName_": "Swin02c",
+				"trans_": [
+					520,
+					300,
+					300
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.8,
+				"timeScale_": 0.5
+			},
+			"Boss_WindStorm_13": {
+				"effectName_": "Swin02c",
+				"trans_": [
+					0,
+					300,
+					-600
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2.3,
+				"timeScale_": 0.5
+			},
+			"Boss_WindStorm_14": {
+				"effectName_": "Swin02c",
+				"trans_": [
+					-520,
+					300,
+					300
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2.3,
+				"timeScale_": 0.5
+			},
+			"Boss_WindStorm_15": {
+				"effectName_": "Swin02c",
+				"trans_": [
+					520,
+					300,
+					300
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 2.3,
+				"timeScale_": 0.5
+			},
+			"Boss_Bomb_01": {
+				"effectName_": "Ealw02c",
+				"boneName_": "Head",
+				"trans_": [
+					72.669,
+					133.769,
+					29.988
+				],
+				"coordKind_": "CONSTRAIN"
+			},
+			"Boss_Bomb_02": {
+				"effectName_": "Ealw02c",
+				"boneName_": "Head",
+				"trans_": [
+					72.669,
+					133.769,
+					29.988
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 1.5
+			},
+			"Boss_Gate_01": {
+				"effectName_": "Gbat02c",
+				"boneName_": "Hips",
+				"trans_": [
+					0,
+					0,
+					0
+				],
+				"rot_": [
+					270
+				],
+				"coordKind_": "CONSTRAIN",
+				"fadeOutTime_": 0.2
+			},
+			"Boss_Gate_02": {
+				"effectName_": "Sroc01c",
+				"boneName_": "Hips",
+				"trans_": [
+					-5,
+					5,
+					-45
+				],
+				"coordKind_": "CONSTRAIN",
+				"isForceErase_": true,
+				"scale_": 0.7
+			},
+			"Boss_IceStorm_01": {
+				"effectName_": "Sics02c",
+				"trans_": [
+					0,
+					0,
+					-600
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.7
+			},
+			"Boss_IceStorm_02": {
+				"effectName_": "Sics02c",
+				"trans_": [
+					-520,
+					0,
+					300
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.7
+			},
+			"Boss_IceStorm_03": {
+				"effectName_": "Sics02c",
+				"trans_": [
+					520,
+					0,
+					300
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.7
+			},
+			"Boss_IceStorm_04": {
+				"effectName_": "Sics01c",
+				"trans_": [
+					0,
+					0,
+					-600
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.9,
+				"timeScale_": 0.5
+			},
+			"Boss_IceStorm_05": {
+				"effectName_": "Sics01c",
+				"trans_": [
+					-520,
+					0,
+					300
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.9,
+				"timeScale_": 0.5
+			},
+			"Boss_IceStorm_06": {
+				"effectName_": "Sics01c",
+				"trans_": [
+					520,
+					0,
+					300
+				],
+				"coordKind_": "CONSTRAIN",
+				"scale_": 0.9,
+				"timeScale_": 0.5
+			},
+			"Boss_IceStorm_07": {
+				"effectName_": "Sice02c",
+				"trans_": [
+					0,
+					20,
+					-600
+				],
+				"coordKind_": "CONSTRAIN"
+			},
+			"Boss_IceStorm_08": {
+				"effectName_": "Sice02c",
+				"trans_": [
+					-520,
+					20,
+					300
+				],
+				"coordKind_": "CONSTRAIN"
+			},
+			"Boss_IceStorm_09": {
+				"effectName_": "Sice02c",
+				"trans_": [
+					520,
+					20,
+					300
+				],
+				"coordKind_": "CONSTRAIN"
+			}
+		}
+	}
+}

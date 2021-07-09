@@ -1,0 +1,22 @@
+/* XDASEA_Xm8R_SPsX */ 
+// DebugViwer.xlsx
+{
+	"JsonDebug": {
+		"viewerEquipParam_": {
+			"Default": {
+				"jobStyle_": "STYLE_SYLPH",
+				"sexType_": "MALE",
+				"eyeIndex_": "EYE_01",
+				"eyeOffset_": "DEFAULT",
+				"mouthIndex_": "MOUTH_01",
+				"mouthOffset_": "DEFAULT",
+				"hairIndex_": "HAIR_01",
+				"hairColor_": "HAIR_COLOR_01",
+				"skinColor_": "SKIN_COLOR_01",
+				"weaponModel_": "cwea061",
+				"headModel_": "cmet000",
+				"bodyModel_": "cbod000"
+			}
+		}
+	}
+}

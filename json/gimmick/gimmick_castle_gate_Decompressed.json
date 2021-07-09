@@ -1,0 +1,375 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"start" :
+	[
+		{
+			"@class" : "command::TrapBox",
+			"name_" : "open",
+			"centerX_" : 0,
+			"centerY_" : 0,
+			"centerZ_" : -250,
+			"extentX_" : 400,
+			"extentY_" : 300,
+			"extentZ_" : 500,
+			"kind_" : "CastleGateOpen",
+			"team_" : "ENEMY"
+		},
+		{
+			"@class" : "command::TrapBox",
+			"name_" : "blow",
+			"centerX_" : 0,
+			"centerY_" : 100,
+			"centerZ_" : 19.0,
+			"extentX_" : 300,
+			"extentY_" : 150,
+			"extentZ_" : 10,
+			"kind_" : "LaunchPad",
+			"team_" : "NEUTRAL"
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "open",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "blow",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "command::CastleGateBone",
+			"index_" : 0,
+			"boneName_" : "null1"
+		}
+	],
+	"start_white" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "ggat01_000_open"
+		}
+	],
+	"start_black" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 3
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 2
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "ggat02_000_open"
+		}
+	],
+	"break01_white" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "ggat01b_000_break01"
+		},
+		{
+			"@class" : "command::CastleGateBone",
+			"index_" : 1,
+			"boneName_" : "null2"
+		}
+	],
+	"break01_black" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 2
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 3
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "ggat02b_000_break01"
+		},
+		{
+			"@class" : "command::CastleGateBone",
+			"index_" : 1,
+			"boneName_" : "null2"
+		}
+	],
+	"break02_white" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "ggat01b_001_break02"
+		},
+		{
+			"@class" : "command::CastleGateBone",
+			"index_" : 1,
+			"boneName_" : ""
+		}
+	],
+	"break02_black" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 2
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 3
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "ggat02b_001_break02"
+		},
+		{
+			"@class" : "command::CastleGateBone",
+			"index_" : 1,
+			"boneName_" : ""
+		}
+	],
+	"break03" :
+	[
+		{
+			"@class" : "command::Trap",
+			"name_" : "open",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "blow",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Gmon01c"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120155
+		}
+	],
+	"break03_white" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "ggat01b_002_break03"
+		},
+		{
+			"@class" : "command::CastleGateBone",
+			"index_" : 1,
+			"boneName_" : ""
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"break03_black" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 2
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 3
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "ggat02b_002_break03"
+		},
+		{
+			"@class" : "command::CastleGateBone",
+			"index_" : 1,
+			"boneName_" : ""
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"open" :
+	[
+		{
+			"@class" : "command::Trap",
+			"name_" : "open",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "blow",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::CastleGateSpeed",
+			"speed_" : 4.0
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120550
+		},
+		{
+			"@class" : "tll::actor::command::TotalFrame",
+			"frame_" : 100
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120600
+		},
+		{
+			"@class" : "tll::actor::command::TotalFrame",
+			"frame_" : 180
+		},
+		{
+			"@class" : "command::CastleGateSpeed",
+			"speed_" : -4.0
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120550
+		},
+		{
+			"@class" : "tll::actor::command::TotalFrame",
+			"frame_" : 220
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "open",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Cancel"
+		},
+		{
+			"@class" : "tll::actor::command::TotalFrame",
+			"frame_" : 230
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "blow",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "tll::actor::command::TotalFrame",
+			"frame_" : 280
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "blow",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120600
+		}
+	]
+}
+
+// end of file

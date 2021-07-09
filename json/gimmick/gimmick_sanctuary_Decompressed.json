@@ -1,0 +1,28 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"start" :
+	[
+		{
+			"@class" : "command::TrapSphere",
+			"name_" : "sanctuary_s",
+			"centerX_" : 0,
+			"centerY_" : 50,
+			"centerZ_" : 0,
+			"radius_" : 500,
+			"kind_" : "Sanctuary",
+			"team_" : "ENEMY"
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "sanctuary_s",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "tll::actor::command::TotalFrame",
+			"frame_" : 2
+		}
+	]
+}
+
+// end of file

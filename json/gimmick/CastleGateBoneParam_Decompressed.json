@@ -1,0 +1,19 @@
+/* XDASEA_Xm8R_SPsX */ 
+// GimmickBoneInfo.xlsx.tmp CastleGate 
+
+{"JsonGimmickParam":{"castleGateBoneInfos_":{
+	"N_ALL":{
+		"nodeName_" : "N_ALL",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"null1":{
+		"nodeName_" : "null1",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}}}

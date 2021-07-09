@@ -1,0 +1,1306 @@
+/* XDASEA_Xm8R_SPsX */ 
+// PlayerPresetParam.xlsm.tmp HairColorSet 
+
+{"JsonPlayerParam":{"hairColorSet_":{
+	"ColorSet00":{
+		"colorR" : 98,
+		"colorG" : 92,
+		"colorB" : 80
+	},
+	"ColorSet01":{
+		"colorR" : 133,
+		"colorG" : 94,
+		"colorB" : 52
+	},
+	"ColorSet02":{
+		"colorR" : 207,
+		"colorG" : 181,
+		"colorB" : 75
+	},
+	"ColorSet03":{
+		"colorR" : 154,
+		"colorG" : 153,
+		"colorB" : 167
+	},
+	"ColorSet04":{
+		"colorR" : 189,
+		"colorG" : 47,
+		"colorB" : 47
+	},
+	"ColorSet05":{
+		"colorR" : 132,
+		"colorG" : 186,
+		"colorB" : 200
+	},
+	"ColorSet06":{
+		"colorR" : 81,
+		"colorG" : 138,
+		"colorB" : 74
+	},
+	"ColorSet07":{
+		"colorR" : 145,
+		"colorG" : 81,
+		"colorB" : 166
+	},
+	"ColorSet08":{
+		"colorR" : 205,
+		"colorG" : 204,
+		"colorB" : 190
+	},
+	"ColorSet09":{
+		"colorR" : 35,
+		"colorG" : 35,
+		"colorB" : 35
+	},
+	"ColorSet10":{
+		"colorR" : 202,
+		"colorG" : 151,
+		"colorB" : 116
+	},
+	"ColorSet11":{
+		"colorR" : 255,
+		"colorG" : 128,
+		"colorB" : 64
+	},
+	"ColorSet12":{
+		"colorR" : 129,
+		"colorG" : 210,
+		"colorB" : 17
+	},
+	"ColorSet13":{
+		"colorR" : 193,
+		"colorG" : 179,
+		"colorB" : 142
+	},
+	"ColorSet14":{
+		"colorR" : 53,
+		"colorG" : 68,
+		"colorB" : 202
+	},
+	"ColorSet15":{
+		"colorR" : 128,
+		"colorG" : 0,
+		"colorB" : 64
+	},
+	"ColorSet16":{
+		"colorR" : 200,
+		"colorG" : 153,
+		"colorB" : 153
+	},
+	"ColorSet17":{
+		"colorR" : 35,
+		"colorG" : 52,
+		"colorB" : 56
+	}
+},
+// PlayerPresetParam.xlsm.tmp ModelType 
+
+"indexFilter_":{
+	"ref":{
+		"hairTypes" : [0,5,2,9,4,7,1,6,3,10,19,13,14,12,8,22,18,11,17,24,15,26,20,23,21,16,25],
+		"eyeTypes" : [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29],
+		"mouthTypes" : [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29]
+	}
+},
+// PlayerPresetParam.xlsm.tmp SkinColorSet 
+
+"skinColorSet_":{
+	"ColorSet00":{
+		"colorR" : 220,
+		"colorG" : 183,
+		"colorB" : 152
+	},
+	"ColorSet01":{
+		"colorR" : 202,
+		"colorG" : 154,
+		"colorB" : 115
+	},
+	"ColorSet02":{
+		"colorR" : 130,
+		"colorG" : 86,
+		"colorB" : 60
+	},
+	"ColorSet03":{
+		"colorR" : 159,
+		"colorG" : 117,
+		"colorB" : 83
+	},
+	"ColorSet04":{
+		"colorR" : 209,
+		"colorG" : 163,
+		"colorB" : 105
+	},
+	"ColorSet05":{
+		"colorR" : 202,
+		"colorG" : 129,
+		"colorB" : 113
+	},
+	"ColorSet06":{
+		"colorR" : 102,
+		"colorG" : 89,
+		"colorB" : 89
+	},
+	"ColorSet07":{
+		"colorR" : 71,
+		"colorG" : 123,
+		"colorB" : 47
+	},
+	"ColorSet08":{
+		"colorR" : 220,
+		"colorG" : 174,
+		"colorB" : 35
+	},
+	"ColorSet09":{
+		"colorR" : 231,
+		"colorG" : 92,
+		"colorB" : 214
+	},
+	"ColorSet10":{
+		"colorR" : 134,
+		"colorG" : 134,
+		"colorB" : 134
+	},
+	"ColorSet11":{
+		"colorR" : 62,
+		"colorG" : 67,
+		"colorB" : 89
+	},
+	"ColorSet12":{
+		"colorR" : 108,
+		"colorG" : 57,
+		"colorB" : 215
+	},
+	"ColorSet13":{
+		"colorR" : 8,
+		"colorG" : 255,
+		"colorB" : 0
+	},
+	"ColorSet14":{
+		"colorR" : 57,
+		"colorG" : 105,
+		"colorB" : 134
+	},
+	"ColorSet15":{
+		"colorR" : 192,
+		"colorG" : 192,
+		"colorB" : 192
+	},
+	"ColorSet16":{
+		"colorR" : 217,
+		"colorG" : 151,
+		"colorB" : 153
+	},
+	"ColorSet17":{
+		"colorR" : 196,
+		"colorG" : 62,
+		"colorB" : 62
+	}
+},
+// PlayerPresetParam.xlsm.tmp EyePositionSet 
+
+"eyePositionSet_":{
+	"PosSet00":{
+		"type" : "TYPE_00",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet01":{
+		"type" : "TYPE_00",
+		"setType" : "TOP",
+		"posY" : -8
+	},
+	"PosSet02":{
+		"type" : "TYPE_00",
+		"setType" : "BOTTOM",
+		"posY" : 6
+	},
+	"PosSet03":{
+		"type" : "TYPE_01",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet04":{
+		"type" : "TYPE_01",
+		"setType" : "TOP",
+		"posY" : -7
+	},
+	"PosSet05":{
+		"type" : "TYPE_01",
+		"setType" : "BOTTOM",
+		"posY" : 4
+	},
+	"PosSet06":{
+		"type" : "TYPE_02",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet07":{
+		"type" : "TYPE_02",
+		"setType" : "TOP",
+		"posY" : -3
+	},
+	"PosSet08":{
+		"type" : "TYPE_02",
+		"setType" : "BOTTOM",
+		"posY" : 4
+	},
+	"PosSet09":{
+		"type" : "TYPE_03",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet10":{
+		"type" : "TYPE_03",
+		"setType" : "TOP",
+		"posY" : -14
+	},
+	"PosSet11":{
+		"type" : "TYPE_03",
+		"setType" : "BOTTOM",
+		"posY" : 4
+	},
+	"PosSet12":{
+		"type" : "TYPE_04",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet13":{
+		"type" : "TYPE_04",
+		"setType" : "TOP",
+		"posY" : -10
+	},
+	"PosSet14":{
+		"type" : "TYPE_04",
+		"setType" : "BOTTOM",
+		"posY" : 3
+	},
+	"PosSet15":{
+		"type" : "TYPE_05",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet16":{
+		"type" : "TYPE_05",
+		"setType" : "TOP",
+		"posY" : -12
+	},
+	"PosSet17":{
+		"type" : "TYPE_05",
+		"setType" : "BOTTOM",
+		"posY" : 8
+	},
+	"PosSet18":{
+		"type" : "TYPE_06",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet19":{
+		"type" : "TYPE_06",
+		"setType" : "TOP",
+		"posY" : -14
+	},
+	"PosSet20":{
+		"type" : "TYPE_06",
+		"setType" : "BOTTOM",
+		"posY" : 5
+	},
+	"PosSet21":{
+		"type" : "TYPE_07",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet22":{
+		"type" : "TYPE_07",
+		"setType" : "TOP",
+		"posY" : -13
+	},
+	"PosSet23":{
+		"type" : "TYPE_07",
+		"setType" : "BOTTOM",
+		"posY" : 3
+	},
+	"PosSet24":{
+		"type" : "TYPE_08",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet25":{
+		"type" : "TYPE_08",
+		"setType" : "TOP",
+		"posY" : -17
+	},
+	"PosSet26":{
+		"type" : "TYPE_08",
+		"setType" : "BOTTOM",
+		"posY" : 5
+	},
+	"PosSet27":{
+		"type" : "TYPE_09",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet28":{
+		"type" : "TYPE_09",
+		"setType" : "TOP",
+		"posY" : -14
+	},
+	"PosSet29":{
+		"type" : "TYPE_09",
+		"setType" : "BOTTOM",
+		"posY" : 4
+	},
+	"PosSet30":{
+		"type" : "TYPE_10",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet31":{
+		"type" : "TYPE_10",
+		"setType" : "TOP",
+		"posY" : -6
+	},
+	"PosSet32":{
+		"type" : "TYPE_10",
+		"setType" : "BOTTOM",
+		"posY" : 2
+	},
+	"PosSet33":{
+		"type" : "TYPE_11",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet34":{
+		"type" : "TYPE_11",
+		"setType" : "TOP",
+		"posY" : -13
+	},
+	"PosSet35":{
+		"type" : "TYPE_11",
+		"setType" : "BOTTOM",
+		"posY" : 3
+	},
+	"PosSet36":{
+		"type" : "TYPE_12",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet37":{
+		"type" : "TYPE_12",
+		"setType" : "TOP",
+		"posY" : -7
+	},
+	"PosSet38":{
+		"type" : "TYPE_12",
+		"setType" : "BOTTOM",
+		"posY" : 3
+	},
+	"PosSet39":{
+		"type" : "TYPE_13",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet40":{
+		"type" : "TYPE_13",
+		"setType" : "TOP",
+		"posY" : -21
+	},
+	"PosSet41":{
+		"type" : "TYPE_13",
+		"setType" : "BOTTOM",
+		"posY" : 5
+	},
+	"PosSet42":{
+		"type" : "TYPE_14",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet43":{
+		"type" : "TYPE_14",
+		"setType" : "TOP",
+		"posY" : -16
+	},
+	"PosSet44":{
+		"type" : "TYPE_14",
+		"setType" : "BOTTOM",
+		"posY" : 4
+	},
+	"PosSet45":{
+		"type" : "TYPE_15",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet46":{
+		"type" : "TYPE_15",
+		"setType" : "TOP",
+		"posY" : -6
+	},
+	"PosSet47":{
+		"type" : "TYPE_15",
+		"setType" : "BOTTOM",
+		"posY" : 4
+	},
+	"PosSet48":{
+		"type" : "TYPE_16",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet49":{
+		"type" : "TYPE_16",
+		"setType" : "TOP",
+		"posY" : -13
+	},
+	"PosSet50":{
+		"type" : "TYPE_16",
+		"setType" : "BOTTOM",
+		"posY" : 3
+	},
+	"PosSet51":{
+		"type" : "TYPE_17",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet52":{
+		"type" : "TYPE_17",
+		"setType" : "TOP",
+		"posY" : -10
+	},
+	"PosSet53":{
+		"type" : "TYPE_17",
+		"setType" : "BOTTOM",
+		"posY" : 3
+	},
+	"PosSet54":{
+		"type" : "TYPE_18",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet55":{
+		"type" : "TYPE_18",
+		"setType" : "TOP",
+		"posY" : -16
+	},
+	"PosSet56":{
+		"type" : "TYPE_18",
+		"setType" : "BOTTOM",
+		"posY" : 5
+	},
+	"PosSet57":{
+		"type" : "TYPE_19",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet58":{
+		"type" : "TYPE_19",
+		"setType" : "TOP",
+		"posY" : -13
+	},
+	"PosSet59":{
+		"type" : "TYPE_19",
+		"setType" : "BOTTOM",
+		"posY" : 6
+	},
+	"PosSet60":{
+		"type" : "TYPE_20",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet61":{
+		"type" : "TYPE_20",
+		"setType" : "TOP",
+		"posY" : -10
+	},
+	"PosSet62":{
+		"type" : "TYPE_20",
+		"setType" : "BOTTOM",
+		"posY" : 7
+	},
+	"PosSet63":{
+		"type" : "TYPE_21",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet64":{
+		"type" : "TYPE_21",
+		"setType" : "TOP",
+		"posY" : -11
+	},
+	"PosSet65":{
+		"type" : "TYPE_21",
+		"setType" : "BOTTOM",
+		"posY" : 6
+	},
+	"PosSet66":{
+		"type" : "TYPE_22",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet67":{
+		"type" : "TYPE_22",
+		"setType" : "TOP",
+		"posY" : -15
+	},
+	"PosSet68":{
+		"type" : "TYPE_22",
+		"setType" : "BOTTOM",
+		"posY" : 6
+	},
+	"PosSet69":{
+		"type" : "TYPE_23",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet70":{
+		"type" : "TYPE_23",
+		"setType" : "TOP",
+		"posY" : -9
+	},
+	"PosSet71":{
+		"type" : "TYPE_23",
+		"setType" : "BOTTOM",
+		"posY" : 8
+	},
+	"PosSet72":{
+		"type" : "TYPE_24",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet73":{
+		"type" : "TYPE_24",
+		"setType" : "TOP",
+		"posY" : -10
+	},
+	"PosSet74":{
+		"type" : "TYPE_24",
+		"setType" : "BOTTOM",
+		"posY" : 2
+	},
+	"PosSet75":{
+		"type" : "TYPE_25",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet76":{
+		"type" : "TYPE_25",
+		"setType" : "TOP",
+		"posY" : -16
+	},
+	"PosSet77":{
+		"type" : "TYPE_25",
+		"setType" : "BOTTOM",
+		"posY" : 3
+	},
+	"PosSet78":{
+		"type" : "TYPE_26",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet79":{
+		"type" : "TYPE_26",
+		"setType" : "TOP",
+		"posY" : -10
+	},
+	"PosSet80":{
+		"type" : "TYPE_26",
+		"setType" : "BOTTOM",
+		"posY" : 2
+	},
+	"PosSet81":{
+		"type" : "TYPE_27",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet82":{
+		"type" : "TYPE_27",
+		"setType" : "TOP",
+		"posY" : -14
+	},
+	"PosSet83":{
+		"type" : "TYPE_27",
+		"setType" : "BOTTOM",
+		"posY" : 4
+	},
+	"PosSet84":{
+		"type" : "TYPE_28",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet85":{
+		"type" : "TYPE_28",
+		"setType" : "TOP",
+		"posY" : -17
+	},
+	"PosSet86":{
+		"type" : "TYPE_28",
+		"setType" : "BOTTOM",
+		"posY" : 8
+	},
+	"PosSet87":{
+		"type" : "TYPE_29",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet88":{
+		"type" : "TYPE_29",
+		"setType" : "TOP",
+		"posY" : -13
+	},
+	"PosSet89":{
+		"type" : "TYPE_29",
+		"setType" : "BOTTOM",
+		"posY" : 6
+	}
+},
+// PlayerPresetParam.xlsm.tmp MouthPositionSet 
+
+"mouthPositionSet_":{
+	"PosSet00":{
+		"type" : "TYPE_00",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet01":{
+		"type" : "TYPE_00",
+		"setType" : "TOP",
+		"posY" : -4
+	},
+	"PosSet02":{
+		"type" : "TYPE_00",
+		"setType" : "BOTTOM",
+		"posY" : 8
+	},
+	"PosSet03":{
+		"type" : "TYPE_00",
+		"setType" : "LEFT",
+		"posX" : -6
+	},
+	"PosSet04":{
+		"type" : "TYPE_00",
+		"setType" : "RIGHT",
+		"posX" : 6
+	},
+	"PosSet05":{
+		"type" : "TYPE_01",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet06":{
+		"type" : "TYPE_01",
+		"setType" : "TOP",
+		"posY" : -4
+	},
+	"PosSet07":{
+		"type" : "TYPE_01",
+		"setType" : "BOTTOM",
+		"posY" : 10
+	},
+	"PosSet08":{
+		"type" : "TYPE_01",
+		"setType" : "LEFT",
+		"posX" : -9
+	},
+	"PosSet09":{
+		"type" : "TYPE_02",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet10":{
+		"type" : "TYPE_02",
+		"setType" : "TOP",
+		"posY" : -3
+	},
+	"PosSet11":{
+		"type" : "TYPE_02",
+		"setType" : "BOTTOM",
+		"posY" : 4
+	},
+	"PosSet12":{
+		"type" : "TYPE_03",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet13":{
+		"type" : "TYPE_03",
+		"setType" : "TOP",
+		"posY" : -4
+	},
+	"PosSet14":{
+		"type" : "TYPE_03",
+		"setType" : "BOTTOM",
+		"posY" : 5
+	},
+	"PosSet15":{
+		"type" : "TYPE_04",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet16":{
+		"type" : "TYPE_04",
+		"setType" : "TOP",
+		"posY" : -10
+	},
+	"PosSet17":{
+		"type" : "TYPE_04",
+		"setType" : "BOTTOM",
+		"posY" : 3
+	},
+	"PosSet18":{
+		"type" : "TYPE_04",
+		"setType" : "LEFT",
+		"posX" : -6
+	},
+	"PosSet19":{
+		"type" : "TYPE_04",
+		"setType" : "RIGHT",
+		"posX" : 6
+	},
+	"PosSet20":{
+		"type" : "TYPE_05",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet21":{
+		"type" : "TYPE_05",
+		"setType" : "TOP",
+		"posY" : -4
+	},
+	"PosSet22":{
+		"type" : "TYPE_05",
+		"setType" : "BOTTOM",
+		"posY" : 6
+	},
+	"PosSet23":{
+		"type" : "TYPE_05",
+		"setType" : "LEFT",
+		"posX" : -11
+	},
+	"PosSet24":{
+		"type" : "TYPE_06",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet25":{
+		"type" : "TYPE_06",
+		"setType" : "TOP",
+		"posY" : -4
+	},
+	"PosSet26":{
+		"type" : "TYPE_06",
+		"setType" : "BOTTOM",
+		"posY" : 5
+	},
+	"PosSet27":{
+		"type" : "TYPE_06",
+		"setType" : "LEFT",
+		"posX" : -16
+	},
+	"PosSet28":{
+		"type" : "TYPE_07",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet29":{
+		"type" : "TYPE_07",
+		"setType" : "TOP",
+		"posY" : -2
+	},
+	"PosSet30":{
+		"type" : "TYPE_07",
+		"setType" : "BOTTOM",
+		"posY" : 6
+	},
+	"PosSet31":{
+		"type" : "TYPE_08",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet32":{
+		"type" : "TYPE_08",
+		"setType" : "TOP",
+		"posY" : -5
+	},
+	"PosSet33":{
+		"type" : "TYPE_08",
+		"setType" : "BOTTOM",
+		"posY" : 6
+	},
+	"PosSet34":{
+		"type" : "TYPE_08",
+		"setType" : "LEFT",
+		"posX" : -7
+	},
+	"PosSet35":{
+		"type" : "TYPE_08",
+		"setType" : "RIGHT",
+		"posX" : 7
+	},
+	"PosSet36":{
+		"type" : "TYPE_09",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet37":{
+		"type" : "TYPE_09",
+		"setType" : "TOP",
+		"posY" : -3
+	},
+	"PosSet38":{
+		"type" : "TYPE_09",
+		"setType" : "BOTTOM",
+		"posY" : 7
+	},
+	"PosSet39":{
+		"type" : "TYPE_09",
+		"setType" : "LEFT",
+		"posX" : -4
+	},
+	"PosSet40":{
+		"type" : "TYPE_09",
+		"setType" : "RIGHT",
+		"posX" : 4
+	},
+	"PosSet41":{
+		"type" : "TYPE_10",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet42":{
+		"type" : "TYPE_10",
+		"setType" : "TOP",
+		"posY" : -3
+	},
+	"PosSet43":{
+		"type" : "TYPE_10",
+		"setType" : "BOTTOM",
+		"posY" : 9
+	},
+	"PosSet44":{
+		"type" : "TYPE_10",
+		"setType" : "LEFT",
+		"posX" : -6
+	},
+	"PosSet45":{
+		"type" : "TYPE_10",
+		"setType" : "RIGHT",
+		"posX" : 6
+	},
+	"PosSet46":{
+		"type" : "TYPE_11",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet47":{
+		"type" : "TYPE_11",
+		"setType" : "TOP",
+		"posY" : -4
+	},
+	"PosSet48":{
+		"type" : "TYPE_11",
+		"setType" : "BOTTOM",
+		"posY" : 9
+	},
+	"PosSet49":{
+		"type" : "TYPE_11",
+		"setType" : "LEFT",
+		"posX" : -3
+	},
+	"PosSet50":{
+		"type" : "TYPE_11",
+		"setType" : "RIGHT",
+		"posX" : 3
+	},
+	"PosSet51":{
+		"type" : "TYPE_12",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet52":{
+		"type" : "TYPE_12",
+		"setType" : "TOP",
+		"posY" : -4
+	},
+	"PosSet53":{
+		"type" : "TYPE_12",
+		"setType" : "BOTTOM",
+		"posY" : 4
+	},
+	"PosSet54":{
+		"type" : "TYPE_13",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet55":{
+		"type" : "TYPE_13",
+		"setType" : "TOP",
+		"posY" : -3
+	},
+	"PosSet56":{
+		"type" : "TYPE_13",
+		"setType" : "BOTTOM",
+		"posY" : 11
+	},
+	"PosSet57":{
+		"type" : "TYPE_13",
+		"setType" : "RIGHT",
+		"posX" : 6
+	},
+	"PosSet58":{
+		"type" : "TYPE_14",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet59":{
+		"type" : "TYPE_14",
+		"setType" : "TOP",
+		"posY" : -3
+	},
+	"PosSet60":{
+		"type" : "TYPE_14",
+		"setType" : "BOTTOM",
+		"posY" : 8
+	},
+	"PosSet61":{
+		"type" : "TYPE_15",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet62":{
+		"type" : "TYPE_15",
+		"setType" : "TOP",
+		"posY" : -2
+	},
+	"PosSet63":{
+		"type" : "TYPE_15",
+		"setType" : "BOTTOM",
+		"posY" : 6
+	},
+	"PosSet64":{
+		"type" : "TYPE_15",
+		"setType" : "LEFT",
+		"posX" : -4
+	},
+	"PosSet65":{
+		"type" : "TYPE_15",
+		"setType" : "RIGHT",
+		"posX" : 2
+	},
+	"PosSet66":{
+		"type" : "TYPE_16",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet67":{
+		"type" : "TYPE_16",
+		"setType" : "TOP",
+		"posY" : -4
+	},
+	"PosSet68":{
+		"type" : "TYPE_16",
+		"setType" : "BOTTOM",
+		"posY" : 8
+	},
+	"PosSet69":{
+		"type" : "TYPE_16",
+		"setType" : "LEFT",
+		"posX" : -6
+	},
+	"PosSet70":{
+		"type" : "TYPE_17",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet71":{
+		"type" : "TYPE_17",
+		"setType" : "TOP",
+		"posY" : -2
+	},
+	"PosSet72":{
+		"type" : "TYPE_17",
+		"setType" : "BOTTOM",
+		"posY" : 8
+	},
+	"PosSet73":{
+		"type" : "TYPE_18",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet74":{
+		"type" : "TYPE_18",
+		"setType" : "TOP",
+		"posY" : -6
+	},
+	"PosSet75":{
+		"type" : "TYPE_18",
+		"setType" : "BOTTOM",
+		"posY" : 6
+	},
+	"PosSet76":{
+		"type" : "TYPE_18",
+		"setType" : "LEFT",
+		"posX" : -6
+	},
+	"PosSet77":{
+		"type" : "TYPE_18",
+		"setType" : "RIGHT",
+		"posX" : 4
+	},
+	"PosSet78":{
+		"type" : "TYPE_19",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet79":{
+		"type" : "TYPE_19",
+		"setType" : "TOP",
+		"posY" : -6
+	},
+	"PosSet80":{
+		"type" : "TYPE_19",
+		"setType" : "BOTTOM",
+		"posY" : 2
+	},
+	"PosSet81":{
+		"type" : "TYPE_19",
+		"setType" : "LEFT",
+		"posX" : -4
+	},
+	"PosSet82":{
+		"type" : "TYPE_19",
+		"setType" : "RIGHT",
+		"posX" : 4
+	},
+	"PosSet83":{
+		"type" : "TYPE_20",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet84":{
+		"type" : "TYPE_20",
+		"setType" : "TOP",
+		"posY" : -2
+	},
+	"PosSet85":{
+		"type" : "TYPE_20",
+		"setType" : "BOTTOM",
+		"posY" : 5
+	},
+	"PosSet86":{
+		"type" : "TYPE_20",
+		"setType" : "LEFT",
+		"posX" : -10
+	},
+	"PosSet87":{
+		"type" : "TYPE_20",
+		"setType" : "RIGHT",
+		"posX" : 10
+	},
+	"PosSet88":{
+		"type" : "TYPE_21",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet89":{
+		"type" : "TYPE_21",
+		"setType" : "TOP",
+		"posY" : -4
+	},
+	"PosSet90":{
+		"type" : "TYPE_21",
+		"setType" : "BOTTOM",
+		"posY" : 2
+	},
+	"PosSet91":{
+		"type" : "TYPE_21",
+		"setType" : "LEFT",
+		"posX" : -25
+	},
+	"PosSet92":{
+		"type" : "TYPE_21",
+		"setType" : "RIGHT",
+		"posX" : 25
+	},
+	"PosSet93":{
+		"type" : "TYPE_22",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet94":{
+		"type" : "TYPE_22",
+		"setType" : "TOP",
+		"posY" : -3
+	},
+	"PosSet95":{
+		"type" : "TYPE_22",
+		"setType" : "BOTTOM",
+		"posY" : 5
+	},
+	"PosSet96":{
+		"type" : "TYPE_22",
+		"setType" : "LEFT",
+		"posX" : -12
+	},
+	"PosSet97":{
+		"type" : "TYPE_22",
+		"setType" : "RIGHT",
+		"posX" : 11
+	},
+	"PosSet98":{
+		"type" : "TYPE_23",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet99":{
+		"type" : "TYPE_23",
+		"setType" : "TOP",
+		"posY" : -4
+	},
+	"PosSet100":{
+		"type" : "TYPE_23",
+		"setType" : "BOTTOM",
+		"posY" : 3
+	},
+	"PosSet101":{
+		"type" : "TYPE_23",
+		"setType" : "LEFT",
+		"posX" : -8
+	},
+	"PosSet102":{
+		"type" : "TYPE_23",
+		"setType" : "RIGHT",
+		"posX" : 9
+	},
+	"PosSet103":{
+		"type" : "TYPE_24",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet104":{
+		"type" : "TYPE_24",
+		"setType" : "TOP",
+		"posY" : -6
+	},
+	"PosSet105":{
+		"type" : "TYPE_24",
+		"setType" : "BOTTOM",
+		"posY" : 9
+	},
+	"PosSet106":{
+		"type" : "TYPE_24",
+		"setType" : "LEFT",
+		"posX" : -19
+	},
+	"PosSet107":{
+		"type" : "TYPE_24",
+		"setType" : "RIGHT",
+		"posX" : 24
+	},
+	"PosSet108":{
+		"type" : "TYPE_25",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet109":{
+		"type" : "TYPE_25",
+		"setType" : "TOP",
+		"posY" : -6
+	},
+	"PosSet110":{
+		"type" : "TYPE_25",
+		"setType" : "BOTTOM",
+		"posY" : 8
+	},
+	"PosSet111":{
+		"type" : "TYPE_25",
+		"setType" : "LEFT",
+		"posX" : -12
+	},
+	"PosSet112":{
+		"type" : "TYPE_25",
+		"setType" : "RIGHT",
+		"posX" : 12
+	},
+	"PosSet113":{
+		"type" : "TYPE_26",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet114":{
+		"type" : "TYPE_26",
+		"setType" : "TOP",
+		"posY" : -5
+	},
+	"PosSet115":{
+		"type" : "TYPE_26",
+		"setType" : "BOTTOM",
+		"posY" : 13
+	},
+	"PosSet116":{
+		"type" : "TYPE_26",
+		"setType" : "LEFT",
+		"posX" : -9
+	},
+	"PosSet117":{
+		"type" : "TYPE_26",
+		"setType" : "RIGHT",
+		"posX" : 9
+	},
+	"PosSet118":{
+		"type" : "TYPE_27",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet119":{
+		"type" : "TYPE_27",
+		"setType" : "TOP",
+		"posY" : -3
+	},
+	"PosSet120":{
+		"type" : "TYPE_27",
+		"setType" : "LEFT",
+		"posX" : -17
+	},
+	"PosSet121":{
+		"type" : "TYPE_27",
+		"setType" : "RIGHT",
+		"posX" : 17
+	},
+	"PosSet122":{
+		"type" : "TYPE_28",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet123":{
+		"type" : "TYPE_28",
+		"setType" : "TOP",
+		"posY" : -6
+	},
+	"PosSet124":{
+		"type" : "TYPE_28",
+		"setType" : "BOTTOM",
+		"posY" : 4
+	},
+	"PosSet125":{
+		"type" : "TYPE_29",
+		"setType" : "DEFAULT",
+		"posY" : 0
+	},
+	"PosSet126":{
+		"type" : "TYPE_29",
+		"setType" : "TOP",
+		"posY" : -3
+	},
+	"PosSet127":{
+		"type" : "TYPE_29",
+		"setType" : "BOTTOM",
+		"posY" : 4
+	},
+	"PosSet128":{
+		"type" : "TYPE_29",
+		"setType" : "LEFT",
+		"posX" : -10
+	},
+	"PosSet129":{
+		"type" : "TYPE_29",
+		"setType" : "RIGHT",
+		"posX" : 18
+	}
+}}}

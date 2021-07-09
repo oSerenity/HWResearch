@@ -1,0 +1,328 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"Break" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gbal01b_000_break"
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#1",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 2.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120150
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"BreakLv2" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gbal02b_break"
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#1",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 2.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120150
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"Damage" :
+	[
+		{
+			"@class" : "command::GimmickEffectRequest",
+			"label_" : "Cdus02c",
+			"boneName_" : "",
+			"useIndex_" : -1,
+			"constrainMatrixIndex_" : -1,
+			"sx_" : 3,
+			"sy_" : 3,
+			"sz_" : 3,
+			"rx_" : 0,
+			"ry_" : 0,
+			"rz_" : 0,
+			"tx_" : 0,
+			"ty_" : 10,
+			"tz_" : 0,
+			"transOnly_" : true
+		}
+	],
+	"DamageLv2" :
+	[
+		{
+			"@class" : "command::GimmickEffectRequest",
+			"label_" : "Cdus02c",
+			"boneName_" : "",
+			"useIndex_" : -1,
+			"constrainMatrixIndex_" : -1,
+			"sx_" : 3,
+			"sy_" : 3,
+			"sz_" : 3,
+			"rx_" : 0,
+			"ry_" : 0,
+			"rz_" : 0,
+			"tx_" : 0,
+			"ty_" : 10,
+			"tz_" : 0,
+			"transOnly_" : true
+		}
+	],
+	"PutMaterials" :
+	[
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#1",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 3
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 70050,
+			"isLoop_" : false
+		}
+	],
+	"PutMaterialsLv2" :
+	[
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#1",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 3
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 70050,
+			"isLoop_" : false
+		}
+	],
+	"Appear" :
+	[
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#1",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gbal01_004_appear"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120050
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 3
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"AppearLv2" :
+	[
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#1",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gbal02_appear"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120050
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 3
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"Build" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 2.6
+		}
+	],
+	"BuildLv2" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 2.6
+		}
+	],
+	"Dispel" :
+	[
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#1",
+			"isEnable_" : false
+		}
+	],
+	"DispelLv2" :
+	[
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#1",
+			"isEnable_" : false
+		}
+	],
+	"Heal" :
+	[
+	],
+	"HealLv2" :
+	[
+	]
+}
+
+// end of file

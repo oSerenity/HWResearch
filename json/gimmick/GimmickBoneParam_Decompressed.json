@@ -1,0 +1,666 @@
+/* XDASEA_Xm8R_SPsX */ 
+// GimmickBoneInfo.xlsx.tmp cannon 
+
+{"JsonGimmickParam":{"boneInfosEntries_":{"gcat01":{"boneInfos_":{
+	"all":{
+		"nodeName_" : "all",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"yrot":{
+		"nodeName_" : "yrot",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"xrot":{
+		"nodeName_" : "xrot",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"zrot":{
+		"nodeName_" : "zrot",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"standpoint":{
+		"nodeName_" : "standpoint",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"null1":{
+		"nodeName_" : "null1",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"null2":{
+		"nodeName_" : "null2",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"null3":{
+		"nodeName_" : "null3",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"null4":{
+		"nodeName_" : "null4",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"null5":{
+		"nodeName_" : "null5",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"null6":{
+		"nodeName_" : "null6",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"null7":{
+		"nodeName_" : "null7",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"null8":{
+		"nodeName_" : "null8",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp rocket 
+
+"gcat02":{"boneInfos_":{
+	"all":{
+		"nodeName_" : "all",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"yrot":{
+		"nodeName_" : "yrot",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"xrot":{
+		"nodeName_" : "xrot",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"standpoint":{
+		"nodeName_" : "standpoint",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"cover1":{
+		"nodeName_" : "cover1",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"cover2":{
+		"nodeName_" : "cover2",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"cover3":{
+		"nodeName_" : "cover3",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"cover4":{
+		"nodeName_" : "cover4",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"cover5":{
+		"nodeName_" : "cover5",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"cover6":{
+		"nodeName_" : "cover6",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"cover7":{
+		"nodeName_" : "cover7",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"cover8":{
+		"nodeName_" : "cover8",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"cover9":{
+		"nodeName_" : "cover9",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"cover10":{
+		"nodeName_" : "cover10",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"cover11":{
+		"nodeName_" : "cover11",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"cover12":{
+		"nodeName_" : "cover12",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp gmon01 
+
+"gmon01":{"boneInfos_":{
+	"center1":{
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"ride":{
+		"nodeName_" : "center1",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,50,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp gfmoA 
+
+"gfmoA":{"boneInfos_":{
+	"QuetzalEffect":{
+		"nodeName_" : "head",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp gfmoB 
+
+"gfmoB":{"boneInfos_":{
+	"QuetzalEffect":{
+		"nodeName_" : "head",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp gcloAber 
+
+"gcloAber":{"boneInfos_":{
+	"QuetzalEffect":{
+		"nodeName_" : "head",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp gcloArag 
+
+"gcloArag":{"boneInfos_":{
+	"QuetzalEffect":{
+		"nodeName_" : "head",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp ggat01 
+
+"ggat01":{"boneInfos_":{
+	"null1":{
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp ggat01b 
+
+"ggat01b":{"boneInfos_":{
+	"null1":{
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"null2":{
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp ggat02 
+
+"ggat02":{"boneInfos_":{
+	"null1":{
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp ggat02b 
+
+"ggat02b":{"boneInfos_":{
+	"null1":{
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"null2":{
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp BombStone 
+
+"gbom02":{"boneInfos_":{
+	"yrot":{
+		"nodeName_" : "yrot",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp Ballista 
+
+"gbal01":{"boneInfos_":{
+	"all":{
+		"nodeName_" : "all",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"yrot":{
+		"nodeName_" : "yrot",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"xrot":{
+		"nodeName_" : "xrot",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"yumi":{
+		"nodeName_" : "yumi",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"box":{
+		"nodeName_" : "box",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"standpoint":{
+		"nodeName_" : "standpoint",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp gbal02 
+
+"gbal02":{"boneInfos_":{
+	"all":{
+		"nodeName_" : "all",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"yrot":{
+		"nodeName_" : "yrot",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"xrot":{
+		"nodeName_" : "xrot",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"zrot":{
+		"nodeName_" : "zrot",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"box":{
+		"nodeName_" : "box",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"standpoint":{
+		"nodeName_" : "standpoint",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp LandingPoint 
+
+"gcloAnet":{"boneInfos_":{
+	"all":{
+		"nodeName_" : "all",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"net":{
+		"nodeName_" : "net",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp BoneBridge1 
+
+"gdarAbridge01":{"boneInfos_":{
+	"joint5":{
+		"nodeName_" : "joint5",
+		"isVisible_" : true,
+		"isRotate_" : false,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp BoneBridge2 
+
+"gdarAbridge02":{"boneInfos_":{
+	"joint1":{
+		"nodeName_" : "joint1",
+		"isVisible_" : true,
+		"isRotate_" : false,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp Doodlebug 
+
+"gdesAants":{"boneInfos_":{
+	"hipsbone":{
+		"nodeName_" : "hipsbone",
+		"isVisible_" : true,
+		"isRotate_" : false,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"hips":{
+		"nodeName_" : "hips",
+		"isVisible_" : true,
+		"isRotate_" : false,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp Quetzal 
+
+"gcloBtori":{"boneInfos_":{
+	"nec":{
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"shotpoint":{
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp gtorn01 
+
+"gtorn01":{"boneInfos_":{
+	"joint1":{
+		"isVisible_" : true,
+		"isRotate_" : false,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"joint2":{
+		"isVisible_" : true,
+		"isRotate_" : false,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"joint3":{
+		"isVisible_" : true,
+		"isRotate_" : false,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"joint4":{
+		"isVisible_" : true,
+		"isRotate_" : false,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"joint5":{
+		"isVisible_" : true,
+		"isRotate_" : false,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"joint6":{
+		"isVisible_" : true,
+		"isRotate_" : false,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"joint7":{
+		"isVisible_" : true,
+		"isRotate_" : false,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"joint8":{
+		"isVisible_" : true,
+		"isRotate_" : false,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"joint9":{
+		"isVisible_" : true,
+		"isRotate_" : false,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"joint10":{
+		"isVisible_" : true,
+		"isRotate_" : false,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp SpikeTail01 
+
+"gseaBspiketail01":{"boneInfos_":{
+	"ALL":{
+		"nodeName_" : "ALL",
+		"isVisible_" : true,
+		"isRotate_" : false,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp grob01 
+
+"grob01":{"boneInfos_":{
+	"Hips":{
+		"nodeName_" : "Hips",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"RightHand01":{
+		"nodeName_" : "RightHand01",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"LeftForeArmRot":{
+		"nodeName_" : "LeftForeArmRot",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"RightForeArmRot":{
+		"nodeName_" : "RightForeArmRot",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"LeftForeArmScale":{
+		"nodeName_" : "LeftForeArmScale",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"Mouth":{
+		"nodeName_" : "Mouth",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"RightAnkle":{
+		"nodeName_" : "RightAnkle",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"LeftAnkle":{
+		"nodeName_" : "LeftAnkle",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	},
+	"StandPoint":{
+		"nodeName_" : "StandPoint",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp gcru04 
+
+"gcru04":{"boneInfos_":{
+	"rocket":{
+		"nodeName_" : "rocket",
+		"isVisible_" : true,
+		"isRotate_" : true,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}},
+// GimmickBoneInfo.xlsx.tmp SpikeTail02 
+
+"gdarBspiketail01":{"boneInfos_":{
+	"ALL":{
+		"nodeName_" : "ALL",
+		"isVisible_" : true,
+		"isRotate_" : false,
+		"pos_" : [0,0,0],
+		"rot_" : [0,0,0]
+	}
+}}}}}

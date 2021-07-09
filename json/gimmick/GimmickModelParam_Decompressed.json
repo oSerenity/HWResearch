@@ -1,0 +1,695 @@
+/* XDASEA_Xm8R_SPsX */ 
+// GimmickModelParam.xlsx.tmp Model 
+
+{"JsonGimmickParam":{"modelParams_":{
+	"FieldMonument":{
+		"sizeName_" : "Size06",
+		"actsName_" : "gimmick_monument",
+		"outlineEnable_" : true,
+		"modelName0_" : "gfmoA",
+		"shadowScale0_" : 2.4,
+		"shadowOffset0_" : [0,0,0],
+		"modelName1_" : "gfmoB",
+		"shadowScale1_" : 2.4,
+		"shadowOffset1_" : [0,0,0]
+	},
+	"CastleMonument":{
+		"sizeName_" : "Size06",
+		"actsName_" : "gimmick_monument",
+		"outlineEnable_" : true,
+		"modelName0_" : "gcmoA",
+		"shadowScale0_" : 2.7,
+		"shadowOffset0_" : [0,0,0],
+		"modelName1_" : "gcmoB",
+		"shadowScale1_" : 2.7,
+		"shadowOffset1_" : [0,0,0],
+		"collisionName0_" : "gcmoa_mhit.ccp",
+		"collisionSign0_" : "OSIG_MISSILE",
+		"collisionName1_" : "gcmob_mhit.ccp",
+		"collisionSign1_" : "OSIG_MISSILE"
+	},
+	"Cannon":{
+		"sizeName_" : "Size88",
+		"actsName_" : "gimmick_cannon",
+		"outlineEnable_" : true,
+		"modelName0_" : "gcat01",
+		"shadowScale0_" : 2.5,
+		"shadowOffset0_" : [0,0,20],
+		"modelName1_" : "gcat01b",
+		"shadowScale1_" : 0,
+		"shadowOffset1_" : [0,0,0],
+		"modelName2_" : "gcat01m",
+		"shadowScale2_" : 2.1,
+		"shadowOffset2_" : [-10,0,5],
+		"modelName5_" : "gcat02",
+		"shadowScale5_" : 3.5,
+		"shadowOffset5_" : [0,0,20],
+		"modelName6_" : "gcat02b",
+		"shadowScale6_" : 0,
+		"shadowOffset6_" : [0,0,0],
+		"modelName7_" : "gcat02m",
+		"shadowScale7_" : 2.4,
+		"shadowOffset7_" : [0,0,30],
+		"collisionName0_" : "gcat01m_chit.ccp",
+		"collisionSign0_" : "OSIG_BARRICADE",
+		"collisionName1_" : "gcat01_chit.ccp",
+		"collisionSign1_" : "OSIG_BARRICADE"
+	},
+	"Ballista":{
+		"sizeName_" : "Size44",
+		"actsName_" : "gimmick_ballista",
+		"outlineEnable_" : true,
+		"modelName0_" : "gbal01",
+		"shadowScale0_" : 1.7,
+		"shadowOffset0_" : [20,0,-25],
+		"modelName1_" : "gbal01b",
+		"shadowScale1_" : 0,
+		"shadowOffset1_" : [0,0,0],
+		"modelName2_" : "gbal01m",
+		"shadowScale2_" : 1.6,
+		"shadowOffset2_" : [5,0,0],
+		"modelName4_" : "gall01",
+		"shadowScale4_" : 0,
+		"shadowOffset4_" : [0,0,0],
+		"modelName5_" : "gbal02",
+		"shadowScale5_" : 1.7,
+		"shadowOffset5_" : [20,0,-25],
+		"modelName6_" : "gbal02b",
+		"shadowScale6_" : 0,
+		"shadowOffset6_" : [0,0,0],
+		"modelName7_" : "gbal02m",
+		"shadowScale7_" : 2.1,
+		"shadowOffset7_" : [0,-20,80],
+		"collisionName0_" : "gbal01m_chit.ccp",
+		"collisionSign0_" : "OSIG_BARRICADE",
+		"collisionName1_" : "gbal01_chit.ccp",
+		"collisionSign1_" : "OSIG_BARRICADE"
+	},
+	"BombStone":{
+		"sizeName_" : "Size04",
+		"actsName_" : "gimmick_bomb_stone",
+		"outlineEnable_" : true,
+		"modelName0_" : "gbom02",
+		"shadowScale0_" : 2.1,
+		"shadowOffset0_" : [0,0,0],
+		"collisionName0_" : "gbal01m_chit.ccp",
+		"collisionSign0_" : "OSIG_BARRICADE"
+	},
+	"Ladder":{
+		"sizeName_" : "Size09",
+		"actsName_" : "gimmick_ladder",
+		"outlineEnable_" : true,
+		"modelName0_" : "glad01",
+		"shadowScale0_" : 4,
+		"shadowOffset0_" : [0,0,-350],
+		"modelName1_" : "glad01b",
+		"shadowScale1_" : 0,
+		"shadowOffset1_" : [0,0,0],
+		"modelName2_" : "glad01m",
+		"shadowScale2_" : 2,
+		"shadowOffset2_" : [30,0,0],
+		"shadowScale4_" : 0,
+		"shadowOffset4_" : [0,0,0],
+		"collisionName0_" : "glad01m_chit.ccp",
+		"collisionSign0_" : "OSIG_BARRICADE",
+		"collisionName1_" : "glad01_chit.ccp",
+		"collisionSign1_" : "OSIG_GIMMICK"
+	},
+	"BatteringRam":{
+		"sizeName_" : "Size09",
+		"actsName_" : "gimmick_batt_ram",
+		"outlineEnable_" : true,
+		"modelName0_" : "gmon01",
+		"shadowScale0_" : 3.5,
+		"shadowOffset0_" : [0,0,50],
+		"modelName1_" : "gmon01b",
+		"shadowScale1_" : 0,
+		"shadowOffset1_" : [0,0,0],
+		"modelName2_" : "gmon01m",
+		"shadowScale2_" : 2.2,
+		"shadowOffset2_" : [10,0,35],
+		"collisionName0_" : "gmon01m_chit.ccp",
+		"collisionSign0_" : "OSIG_BARRICADE"
+	},
+	"CastleGateWhite":{
+		"prototypeName_" : "CastleGate",
+		"sizeName_" : "Size06",
+		"actsName_" : "gimmick_castle_gate",
+		"outlineEnable_" : false,
+		"modelName0_" : "ggat01",
+		"shadowScale0_" : 3.3,
+		"shadowOffset0_" : [0,0,0],
+		"modelName1_" : "ggat01b",
+		"shadowScale1_" : 0,
+		"shadowOffset1_" : [0,0,0],
+		"collisionName0_" : "ggat01_chit.ccp",
+		"collisionSign0_" : "OSIG_CASTLE_GATE"
+	},
+	"CastleGateBlack":{
+		"prototypeName_" : "CastleGate",
+		"sizeName_" : "Size06",
+		"actsName_" : "gimmick_castle_gate",
+		"outlineEnable_" : false,
+		"modelName2_" : "ggat02",
+		"shadowScale2_" : 3.3,
+		"shadowOffset2_" : [0,0,0],
+		"modelName3_" : "ggat02b",
+		"shadowScale3_" : 0,
+		"shadowOffset3_" : [0,0,0],
+		"collisionName0_" : "ggat01_chit.ccp",
+		"collisionSign0_" : "OSIG_CASTLE_GATE"
+	},
+	"CastleBarricade":{
+		"sizeName_" : "Size04",
+		"actsName_" : "gimmick_castle_barr",
+		"outlineEnable_" : true,
+		"modelName0_" : "gbar01",
+		"shadowScale0_" : 0,
+		"shadowOffset0_" : [0,0,0],
+		"modelName1_" : "gbar01b",
+		"shadowScale1_" : 0,
+		"shadowOffset1_" : [0,0,0],
+		"collisionName0_" : "gbar01_chit.ccp",
+		"collisionSign0_" : "OSIG_BARRICADE"
+	},
+	"Bridge1":{
+		"sizeName_" : "Size04",
+		"actsName_" : "gimmick_bridge",
+		"outlineEnable_" : true,
+		"modelName0_" : "gbri01",
+		"shadowScale0_" : 0,
+		"shadowOffset0_" : [0,0,0],
+		"modelName1_" : "gbri01b",
+		"shadowScale1_" : 0,
+		"shadowOffset1_" : [0,0,0],
+		"collisionName0_" : "gbri01_chit.ccp",
+		"collisionSign0_" : "OSIG_GIMMICK"
+	},
+	"Bridge2":{
+		"sizeName_" : "Size04",
+		"actsName_" : "gimmick_bridge",
+		"outlineEnable_" : true,
+		"modelName0_" : "gbri02",
+		"shadowScale0_" : 0,
+		"shadowOffset0_" : [0,0,0],
+		"modelName1_" : "gbri02b",
+		"shadowScale1_" : 0,
+		"shadowOffset1_" : [0,0,0],
+		"collisionName0_" : "gbri02_chit.ccp",
+		"collisionSign0_" : "OSIG_GIMMICK"
+	},
+	"Quetzal":{
+		"sizeName_" : "Size06",
+		"actsName_" : "gimmick_quetzal",
+		"outlineEnable_" : false,
+		"modelName0_" : "gcloBtori",
+		"shadowScale0_" : 0,
+		"shadowOffset0_" : [0,0,0]
+	},
+	"Statue":{
+		"sizeName_" : "Size09",
+		"actsName_" : "gimmick_statue",
+		"outlineEnable_" : true,
+		"modelName0_" : "gcloAber",
+		"shadowScale0_" : 2.4,
+		"shadowOffset0_" : [0,0,0],
+		"modelName1_" : "gcloArag",
+		"shadowScale1_" : 2.4,
+		"shadowOffset1_" : [0,0,0]
+	},
+	"KeepOut":{
+		"sizeName_" : "Size04",
+		"actsName_" : "gimmick_keep_out",
+		"outlineEnable_" : true,
+		"modelName0_" : "gbar01",
+		"shadowScale0_" : 0,
+		"shadowOffset0_" : [0,0,0],
+		"modelName1_" : "gbar01b",
+		"shadowScale1_" : 0,
+		"shadowOffset1_" : [0,0,0]
+	},
+	"KeepOutChit":{
+		"prototypeName_" : "KeepOut",
+		"sizeName_" : "Size04",
+		"actsName_" : "gimmick_keep_out",
+		"outlineEnable_" : true,
+		"modelName0_" : "gbar01",
+		"shadowScale0_" : 0,
+		"shadowOffset0_" : [0,0,0],
+		"modelName1_" : "gbar01b",
+		"shadowScale1_" : 0,
+		"shadowOffset1_" : [0,0,0],
+		"collisionName0_" : "fortstart_chit.ccp",
+		"collisionSign0_" : "OSIG_BARRICADE"
+	},
+	"Doodlebug":{
+		"sizeName_" : "Size06",
+		"actsName_" : "gimmick_doodlebug",
+		"outlineEnable_" : true,
+		"modelName0_" : "gdesAants",
+		"shadowScale0_" : 0,
+		"shadowOffset0_" : [0,0,0]
+	},
+	"Raft":{
+		"sizeName_" : "Size04",
+		"outlineEnable_" : true,
+		"modelName0_" : "gligAboat",
+		"shadowScale0_" : 3.1,
+		"shadowOffset0_" : [0,10,0],
+		"collisionName0_" : "gligAboat_Chit.ccp",
+		"collisionSign0_" : "OSIG_GIMMICK"
+	},
+	"Volcano":{
+		"sizeName_" : "Size04",
+		"actsName_" : "gimmick_volcano",
+		"outlineEnable_" : true,
+		"modelName0_" : "gseaAjet01",
+		"shadowScale0_" : 0,
+		"shadowOffset0_" : [0,0,0],
+		"collisionName0_" : "gseaAjet01_Chit.ccp",
+		"collisionSign0_" : "OSIG_GIMMICK"
+	},
+	"Fish":{
+		"sizeName_" : "Size06",
+		"outlineEnable_" : false,
+		"modelName0_" : "gseaAfis01",
+		"shadowScale0_" : 3,
+		"shadowOffset0_" : [0,-500,0],
+		"modelName1_" : "gseaAfis02",
+		"shadowScale1_" : 0,
+		"shadowOffset1_" : [0,0,0],
+		"modelName2_" : "gseaAfis04",
+		"shadowScale2_" : 0,
+		"shadowOffset2_" : [0,0,0],
+		"modelName3_" : "gseaAfis05",
+		"shadowScale3_" : 0,
+		"shadowOffset3_" : [0,0,0]
+	},
+	"LaunchPad":{
+		"sizeName_" : "Size04",
+		"outlineEnable_" : true,
+		"modelName0_" : "gcloAjump",
+		"shadowScale0_" : 0,
+		"shadowOffset0_" : [0,0,0]
+	},
+	"LaunchPadB":{
+		"prototypeName_" : "LaunchPad",
+		"sizeName_" : "Size04",
+		"outlineEnable_" : true,
+		"modelName0_" : "gcloBjump",
+		"shadowScale0_" : 0,
+		"shadowOffset0_" : [0,0,0]
+	},
+	"LaunchPadC":{
+		"prototypeName_" : "LaunchPad",
+		"sizeName_" : "Size04",
+		"outlineEnable_" : true,
+		"modelName0_" : "gbabAjump",
+		"shadowScale0_" : 0,
+		"shadowOffset0_" : [0,0,0]
+	},
+	"LandingPoint":{
+		"sizeName_" : "Size04",
+		"outlineEnable_" : false,
+		"modelName0_" : "gcloAnet",
+		"shadowScale0_" : 0,
+		"shadowOffset0_" : [0,0,0]
+	},
+	"BoneBridge1":{
+		"sizeName_" : "Size04",
+		"outlineEnable_" : true,
+		"modelName0_" : "gdarAbridge01",
+		"shadowScale0_" : 0,
+		"shadowOffset0_" : [0,0,0],
+		"collisionName0_" : "gdarAbridge01_Chit.ccp",
+		"collisionSign0_" : "OSIG_GIMMICK"
+	},
+	"BoneBridge2":{
+		"sizeName_" : "Size04",
+		"outlineEnable_" : true,
+		"modelName0_" : "gdarAbridge02",
+		"shadowScale0_" : 0,
+		"shadowOffset0_" : [0,0,0],
+		"collisionName0_" : "gdarAbridge02_Chit.ccp",
+		"collisionSign0_" : "OSIG_GIMMICK"
+	},
+	"RaftHarbor":{
+		"sizeName_" : "Size03",
+		"outlineEnable_" : false,
+		"shadowScale0_" : 0,
+		"shadowOffset0_" : [0,0,0]
+	},
+	"CircuitDamage":{
+		"sizeName_" : "Size06",
+		"outlineEnable_" : true,
+		"modelName0_" : "gseaBspiketail01",
+		"shadowScale0_" : 7,
+		"shadowOffset0_" : [0,0,-80],
+		"modelName1_" : "gdarBspiketail01",
+		"shadowScale1_" : 7,
+		"shadowOffset1_" : [0,50,-80]
+	},
+	"Tornado":{
+		"sizeName_" : "Size09",
+		"actsName_" : "gimmick_tornado",
+		"outlineEnable_" : false,
+		"modelName0_" : "gtorn01",
+		"shadowScale0_" : 0,
+		"shadowOffset0_" : [0,0,0]
+	},
+	"IceWall":{
+		"sizeName_" : "Size03",
+		"actsName_" : "gimmick_ice_wall",
+		"outlineEnable_" : true,
+		"modelName0_" : "gice01",
+		"shadowScale0_" : 1.25,
+		"shadowOffset0_" : [0,0,0],
+		"collisionName0_" : "gice01_chit.ccp",
+		"collisionSign0_" : "OSIG_GIMMICK"
+	},
+	"SuperGuard":{
+		"sizeName_" : "Size03",
+		"outlineEnable_" : false,
+		"shadowScale0_" : 0,
+		"shadowOffset0_" : [0,0,0],
+		"collisionName0_" : "gspg01_chit.ccp",
+		"collisionSign0_" : "OSIG_SUPERGUARD"
+	},
+	"Robot":{
+		"sizeName_" : "Size03",
+		"actsName_" : "gimmick_robot",
+		"outlineEnable_" : false
+	}
+},
+// GimmickModelParam.xlsx.tmp Prototype 
+
+"prototypes_" : {
+	"FieldMonument":{
+		"gimmickType_" : "GIMMICK_TYPE_FIELDMONUMENT",
+		"buildTime_" : 1,
+		"buildPoint_" : 1000,
+		"param0_" : 0.85,
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"CastleMonument":{
+		"gimmickType_" : "GIMMICK_TYPE_CASTLEMONUMENT",
+		"buildTime_" : 1,
+		"buildPoint_" : 2700,
+		"param0_" : 1,
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"Cannon":{
+		"gimmickType_" : "GIMMICK_TYPE_CANNON",
+		"buildTime_" : 1,
+		"buildPoint_" : 3200,
+		"upgradeTime_" : 0,
+		"hp_" : 2000,
+		"resistPhysics_" : 1,
+		"resistMagic_" : 0.9,
+		"param0_" : 1.2,
+		"param1_" : 0.375,
+		"param2_" : 1,
+		"param3_" : 12,
+		"param5_" : 32,
+		"param8_" : 250,
+		"param9_" : 230,
+		"param10_" : 40,
+		"param11_" : 20,
+		"param12_" : 20,
+		"param13_" : 25,
+		"param14_" : 0.8,
+		"buildTime_1_" : 1,
+		"buildPoint_1_" : 4500,
+		"upgradeTime_1_" : 0,
+		"hp_1_" : 2600,
+		"resistPhysics_1_" : 1,
+		"resistMagic_1_" : 0.9,
+		"param0_1_" : 1.2,
+		"param1_1_" : 0.25,
+		"param2_1_" : 0.75,
+		"param3_1_" : 12,
+		"param5_1_" : 12,
+		"param6_1_" : 4.5,
+		"param8_1_" : 250,
+		"param9_1_" : 230,
+		"param10_1_" : 44,
+		"param11_1_" : 22,
+		"param12_1_" : 22,
+		"param13_1_" : 25,
+		"param14_1_" : 0.8,
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"Ballista":{
+		"gimmickType_" : "GIMMICK_TYPE_BALLISTA",
+		"buildTime_" : 1,
+		"buildPoint_" : 2400,
+		"upgradeTime_" : 0,
+		"hp_" : 700,
+		"resistPhysics_" : 1,
+		"resistMagic_" : 0.9,
+		"param1_" : 0.35,
+		"param5_" : 48,
+		"param8_" : 225,
+		"param9_" : 205,
+		"param10_" : 30,
+		"param11_" : 15,
+		"param12_" : 15,
+		"param13_" : 20,
+		"param14_" : 0.8,
+		"buildTime_1_" : 1,
+		"buildPoint_1_" : 3375,
+		"upgradeTime_1_" : 0,
+		"hp_1_" : 1200,
+		"resistPhysics_1_" : 1,
+		"resistMagic_1_" : 0.9,
+		"param1_1_" : 0.15,
+		"param5_1_" : 100,
+		"param6_1_" : 0,
+		"param8_1_" : 225,
+		"param9_1_" : 205,
+		"param10_1_" : 34,
+		"param11_1_" : 17,
+		"param12_1_" : 17,
+		"param13_1_" : 25,
+		"param14_1_" : 0.8,
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"BombStone":{
+		"gimmickType_" : "GIMMICK_TYPE_BOMBSTONE",
+		"buildTime_" : 20,
+		"param5_" : 7,
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"Ladder":{
+		"gimmickType_" : "GIMMICK_TYPE_LADDER",
+		"buildTime_" : 1,
+		"buildPoint_" : 2040,
+		"hp_" : 1200,
+		"resistPhysics_" : 1,
+		"resistMagic_" : 0.9,
+		"param8_" : 100,
+		"param9_" : 100,
+		"param10_" : 40,
+		"param11_" : 20,
+		"param12_" : 20,
+		"param13_" : 25,
+		"param14_" : 0.8,
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"BatteringRam":{
+		"gimmickType_" : "GIMMICK_TYPE_BATTERING_RAM",
+		"buildTime_" : 1,
+		"buildPoint_" : 2700,
+		"hp_" : 4800,
+		"resistPhysics_" : 1,
+		"resistMagic_" : 0.274,
+		"param10_" : 90,
+		"param11_" : 30,
+		"param12_" : 30,
+		"param13_" : 40,
+		"param14_" : 0.4,
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"CastleGate":{
+		"gimmickType_" : "GIMMICK_TYPE_CASTLEGATE",
+		"buildTime_" : 1,
+		"buildPoint_" : 2000,
+		"hp_" : 15000,
+		"resistPhysics_" : 0.4,
+		"resistMagic_" : 0.1,
+		"param0_" : 0.5,
+		"param2_" : 0,
+		"param3_" : 0,
+		"param4_" : 500,
+		"param5_" : 200,
+		"param7_" : 1,
+		"param9_" : 500,
+		"param10_" : 0,
+		"param11_" : 0,
+		"param12_" : 0,
+		"param13_" : 0,
+		"param14_" : 0,
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"CastleBarricade":{
+		"gimmickType_" : "GIMMICK_TYPE_CASTLE_BARRICADE",
+		"buildTime_" : 8,
+		"hp_" : 2700,
+		"resistPhysics_" : 0.91,
+		"resistMagic_" : 0.66,
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"Bridge1":{
+		"gimmickType_" : "GIMMICK_TYPE_BRIDGE1",
+		"buildTime_" : 12,
+		"hp_" : 3000,
+		"resistPhysics_" : 1,
+		"resistMagic_" : 0.9,
+		"param8_" : 100,
+		"param9_" : 100,
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"Bridge2":{
+		"gimmickType_" : "GIMMICK_TYPE_BRIDGE2",
+		"buildTime_" : 17,
+		"hp_" : 3000,
+		"resistPhysics_" : 1,
+		"resistMagic_" : 0.9,
+		"param8_" : 100,
+		"param9_" : 100,
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"Quetzal":{
+		"gimmickType_" : "GIMMICK_TYPE_QUETZAL",
+		"param0_" : 10,
+		"param1_" : 0.1,
+		"param2_" : 10,
+		"param3_" : 5,
+		"param5_" : 5,
+		"param6_" : [[-0.07, -0.07], [0.07, 0.07]],
+		"param7_" : [[-0.60, -0.60], [0.60, 0.60]],
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"Statue":{
+		"gimmickType_" : "GIMMICK_TYPE_STATUE",
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"KeepOut":{
+		"gimmickType_" : "GIMMICK_TYPE_KEEP_OUT",
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"Doodlebug":{
+		"gimmickType_" : "GIMMICK_TYPE_DOODLEBUG",
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"Raft":{
+		"gimmickType_" : "GIMMICK_TYPE_RAFT",
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"Volcano":{
+		"gimmickType_" : "GIMMICK_TYPE_VOLCANO",
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"Fish":{
+		"gimmickType_" : "GIMMICK_TYPE_FISH",
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"LaunchPad":{
+		"gimmickType_" : "GIMMICK_TYPE_LAUNCHPAD",
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"LandingPoint":{
+		"gimmickType_" : "GIMMICK_TYPE_LANDINGPOINT",
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"BoneBridge1":{
+		"gimmickType_" : "GIMMICK_TYPE_BONEBRIDGE1",
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"BoneBridge2":{
+		"gimmickType_" : "GIMMICK_TYPE_BONEBRIDGE2",
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"RaftHarbor":{
+		"gimmickType_" : "GIMMICK_TYPE_RAFTHARBOR",
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"CircuitDamage":{
+		"gimmickType_" : "GIMMICK_TYPE_CIRCUITDAMAGE",
+		"@class" : "JsonGimmickPrototypeExtend"
+	},
+	"Tornado":{
+		"gimmickType_" : "GIMMICK_TYPE_TORNADO",
+		"param0_" : 600,
+		"param1_" : 300,
+		"param2_" : 0.5,
+		"param3_" : 4500,
+		"param4_" : -6000,
+		"param5_" : 8000,
+		"param6_" : 4000,
+		"param7_" : [6000.0, 40000.0],
+		"param8_" : 2,
+		"param9_" : 1000,
+		"@class" : "JsonTornado"
+	},
+	"IceWall":{
+		"gimmickType_" : "GIMMICK_TYPE_ICE_WALL",
+		"hp_" : 2300,
+		"resistPhysics_" : 0.8,
+		"resistMagic_" : 1,
+		"param0_" : 25,
+		"param1_" : 5,
+		"param2_" : 150,
+		"param3_" : 45,
+		"param4_" : 200,
+		"param5_" : [-300.0, 300.0],
+		"param6_" : [10, 6],
+		"@class" : "JsonIceWall"
+	},
+	"SuperGuard":{
+		"gimmickType_" : "GIMMICK_TYPE_SUPERGUARD"
+	},
+	"Robot":{
+		"gimmickType_" : "GIMMICK_TYPE_ROBOT",
+		"hp_" : 3100,
+		"resistPhysics_" : 0.92,
+		"resistMagic_" : 0.75,
+		"param0_" : 815,
+		"param1_" : 150,
+		"param2_" : 150,
+		"param3_" : 740,
+		"param4_" : 100,
+		"param5_" : 0.4,
+		"param6_" : 0.25,
+		"param7_" : 0.5,
+		"@class" : "JsonGimmickPrototypeExtend"
+	}
+},
+// GimmickModelParam.xlsx.tmp Size 
+
+"sizes_" : {
+	"Size88":{
+		"actor_" : 88,
+		"actorCritical_" : 1
+	},
+	"Size44":{
+		"actor_" : 44,
+		"actorCritical_" : 1
+	},
+	"Size09":{
+		"actor_" : 9,
+		"actorCritical_" : 1
+	},
+	"Size06":{
+		"actor_" : 6,
+		"actorCritical_" : 1
+	},
+	"Size04":{
+		"actor_" : 4,
+		"actorCritical_" : 1
+	},
+	"Size03":{
+		"actor_" : 3,
+		"actorCritical_" : 1
+	}
+}}}

@@ -1,0 +1,244 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"demo_00_00" :
+	[
+		{
+			"@class" : "command::demoCameraSet",
+			"atX_" : 0,
+			"atY_" : 0,
+			"atZ_" : 0,
+			"angX_" : -22.5,
+			"angY_" : 0,
+			"zoom_" : 800
+		},
+		{
+			"@class" : "command::demoSetRT",
+			"rotX_" : 0.0,
+			"rotY_" : -90.0,
+			"rotZ_" : 0.0,
+			"transX_" : -400.0,
+			"transY_" : 0.0,
+			"transZ_" : 0.0
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "hello"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		},
+		{
+			"@class" : "command::demoMoveToRT",
+			"rotX_" : 0.0,
+			"rotY_" : 90.0,
+			"rotZ_" : 0.0,
+			"distX_" : -400.0,
+			"distY_" : 0.0,
+			"distZ_" : 0.0,
+			"frame_" : 8.0
+		},
+		{
+			"@class" : "command::demoMoveWait"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "run_sh_loop"
+		},
+		{
+			"@class" : "command::demoMoveToRT",
+			"rotX_" : 0.0,
+			"rotY_" : 90.0,
+			"rotZ_" : 0.0,
+			"distX_" : 0.0,
+			"distY_" : 0.0,
+			"distZ_" : 0.0,
+			"frame_" : 120.0
+		},
+		{
+			"@class" : "command::demoMoveWait"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "stand_sh_loop"
+		},
+		{
+			"@class" : "command::demoMoveToRT",
+			"rotX_" : 0.0,
+			"rotY_" : 0.0,
+			"rotZ_" : 0.0,
+			"distX_" : 0.0,
+			"distY_" : 0.0,
+			"distZ_" : 0.0,
+			"frame_" : 8.0
+		},
+		{
+			"@class" : "command::demoMoveWait"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "warm_up_loop"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "stand_sh_loop"
+		},
+		{
+			"@class" : "command::demoMoveToRT",
+			"rotX_" : 0.0,
+			"rotY_" : 90.0,
+			"rotZ_" : 0.0,
+			"distX_" : 0.0,
+			"distY_" : 0.0,
+			"distZ_" : 0.0,
+			"frame_" : 8.0
+		},
+		{
+			"@class" : "command::demoMoveWait"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "indication"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 30
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 12
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "stand_sh_loop"
+		},
+		{
+			"@class" : "command::demoMoveToRT",
+			"rotX_" : 0.0,
+			"rotY_" : 90.0,
+			"rotZ_" : 0.0,
+			"distX_" : 0.0,
+			"distY_" : 0.0,
+			"distZ_" : 0.0,
+			"frame_" : 60.0
+		},
+		{
+			"@class" : "command::demoMoveWait"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "die2"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 30
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_scared"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		},
+		{
+			"@class" : "command::EffectEnd"
+		}
+	],
+	"demo_00_01" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "warm_up_loop"
+		},
+		{
+			"@class" : "command::demoSetRT",
+			"rotX_" : 0.0,
+			"rotY_" : 90.0,
+			"rotZ_" : 0.0,
+			"transX_" : -800.0,
+			"transY_" : 0.0,
+			"transZ_" : -100.0
+		},
+		{
+			"@class" : "command::demoMoveToRT",
+			"rotX_" : 0.0,
+			"rotY_" : 90.0,
+			"rotZ_" : 0.0,
+			"distX_" : -800.0,
+			"distY_" : 0.0,
+			"distZ_" : -100.0,
+			"frame_" : 600.0
+		},
+		{
+			"@class" : "command::demoMoveWait"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "run_sh_loop"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_dash_pup2"
+		},
+		{
+			"@class" : "command::demoMoveToRT",
+			"rotX_" : 0.0,
+			"rotY_" : 0.0,
+			"rotZ_" : 0.0,
+			"distX_" : 800.0,
+			"distY_" : 0.0,
+			"distZ_" : 0.0,
+			"frame_" : 120.0
+		},
+		{
+			"@class" : "command::demoMoveWait"
+		},
+		{
+			"@class" : "command::EffectEnd"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "stand_sh_loop"
+		}
+	]
+}
+
+// end of file

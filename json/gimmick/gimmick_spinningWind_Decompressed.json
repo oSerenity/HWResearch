@@ -1,0 +1,17 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"set" :
+	[
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_dspin"
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_SpinWind"
+		}
+	]
+}
+
+// end of file

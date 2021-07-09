@@ -1,0 +1,2797 @@
+/* XDASEA_Xm8R_SPsX */ 
+// Gemini_Catalog.xlsm.tmp Panel 
+
+{"JsonItemCatalog":{"panel_":{
+	"_CATALOG_DATA_VERSION_":{
+		"Index" : -1,
+		"SortNumber" : 0,
+		"FixedPrice" : 99
+	},
+	"DLC2001":{
+		"Index" : 1,
+		"AssetID" : 4000,
+		"OfferID" : "10000000",
+		"SortNumber" : 100,
+		"Category" : "FACEHAIR",
+		"IsEnable" : true,
+		"FixedPrice" : 20,
+		"SalesPrice" : 20,
+		"CaptionTextID" : "$TXDLN00081",
+		"DescriptionTextID" : "$TXDLO00081",
+		"ClerkTextID" : "$TXDLC00081",
+		"ImageName" : "FaceSet2.dds"
+	},
+	"DLC2002":{
+		"Index" : 2,
+		"AssetID" : 4001,
+		"OfferID" : "10000100",
+		"SortNumber" : 110,
+		"Category" : "FACEHAIR",
+		"IsEnable" : true,
+		"FixedPrice" : 20,
+		"SalesPrice" : 20,
+		"CaptionTextID" : "$TXDLN00082",
+		"DescriptionTextID" : "$TXDLO00082",
+		"ClerkTextID" : "$TXDLC00082",
+		"ImageName" : "FaceSet1.dds"
+	},
+	"DLC2003":{
+		"Index" : 3,
+		"AssetID" : 4002,
+		"OfferID" : "20000000",
+		"SortNumber" : 120,
+		"Category" : "FACEHAIR",
+		"IsEnable" : true,
+		"FixedPrice" : 24,
+		"SalesPrice" : 24,
+		"CaptionTextID" : "$TXDLN00083",
+		"DescriptionTextID" : "$TXDLO00083",
+		"ClerkTextID" : "$TXDLC00083",
+		"ImageName" : "HairSet1.dds"
+	},
+	"DLC2004":{
+		"Index" : 4,
+		"AssetID" : 4003,
+		"OfferID" : "20000100",
+		"SortNumber" : 130,
+		"Category" : "FACEHAIR",
+		"IsEnable" : true,
+		"FixedPrice" : 24,
+		"SalesPrice" : 24,
+		"CaptionTextID" : "$TXDLN00084",
+		"DescriptionTextID" : "$TXDLO00084",
+		"ClerkTextID" : "$TXDLC00084",
+		"ImageName" : "HairSet2.dds"
+	},
+	"DLC2005":{
+		"Index" : 5,
+		"AssetID" : 4004,
+		"OfferID" : "20000200",
+		"SortNumber" : 140,
+		"Category" : "FACEHAIR",
+		"IsEnable" : true,
+		"FixedPrice" : 24,
+		"SalesPrice" : 24,
+		"CaptionTextID" : "$TXDLN00085",
+		"DescriptionTextID" : "$TXDLO00085",
+		"ClerkTextID" : "$TXDLC00085",
+		"ImageName" : "HairSet3.dds"
+	},
+	"DLC2006":{
+		"Index" : 6,
+		"AssetID" : 4005,
+		"OfferID" : "30000000",
+		"SortNumber" : 150,
+		"Category" : "FACEHAIR",
+		"IsEnable" : true,
+		"FixedPrice" : 20,
+		"SalesPrice" : 20,
+		"CaptionTextID" : "$TXDLN00086",
+		"DescriptionTextID" : "$TXDLO00086",
+		"ClerkTextID" : "$TXDLC00086",
+		"ImageName" : "HairColorSet1.dds"
+	},
+	"DLC2007":{
+		"Index" : 7,
+		"AssetID" : 4006,
+		"OfferID" : "30000100",
+		"SortNumber" : 160,
+		"Category" : "FACEHAIR",
+		"IsEnable" : true,
+		"FixedPrice" : 20,
+		"SalesPrice" : 20,
+		"CaptionTextID" : "$TXDLN00087",
+		"DescriptionTextID" : "$TXDLO00087",
+		"ClerkTextID" : "$TXDLC00087",
+		"ImageName" : "HairColorSet2.dds"
+	},
+	"DLC1001":{
+		"Index" : 10,
+		"AssetID" : 105001,
+		"SortNumber" : 10001,
+		"Category" : "BARGAIN",
+		"IsEnable" : true,
+		"FixedPrice" : 8,
+		"SalesPrice" : 8,
+		"CaptionTextID" : "$TXDLN00089",
+		"DescriptionTextID" : "$TXDLO00089",
+		"ClerkTextID" : "$TXDLC00089",
+		"ImageName" : "dic1_dummy1.dds",
+		"DetailID" : "DETAIL1001"
+	},
+	"DLC1002":{
+		"Index" : 11,
+		"AssetID" : 105002,
+		"SortNumber" : 10002,
+		"Category" : "BARGAIN",
+		"IsEnable" : true,
+		"FixedPrice" : 8,
+		"SalesPrice" : 8,
+		"CaptionTextID" : "$TXDLN00090",
+		"DescriptionTextID" : "$TXDLO00090",
+		"ClerkTextID" : "$TXDLC00090",
+		"ImageName" : "dic1_dummy1.dds",
+		"DetailID" : "DETAIL1002"
+	},
+	"DLC1003":{
+		"Index" : 12,
+		"AssetID" : 105003,
+		"SortNumber" : 10003,
+		"Category" : "BARGAIN",
+		"IsEnable" : true,
+		"FixedPrice" : 8,
+		"SalesPrice" : 8,
+		"CaptionTextID" : "$TXDLN00091",
+		"DescriptionTextID" : "$TXDLO00091",
+		"ClerkTextID" : "$TXDLC00091",
+		"ImageName" : "dic1_dummy1.dds",
+		"DetailID" : "DETAIL1003"
+	},
+	"DLC1004":{
+		"Index" : 13,
+		"AssetID" : 105004,
+		"SortNumber" : 10004,
+		"Category" : "BARGAIN",
+		"IsEnable" : true,
+		"FixedPrice" : 8,
+		"SalesPrice" : 8,
+		"CaptionTextID" : "$TXDLN00092",
+		"DescriptionTextID" : "$TXDLO00092",
+		"ClerkTextID" : "$TXDLC00092",
+		"ImageName" : "dic1_dummy1.dds",
+		"DetailID" : "DETAIL1004"
+	},
+	"DLC0006":{
+		"Index" : 23,
+		"AssetID" : 103030,
+		"SortNumber" : 10010,
+		"Category" : "WEAPON",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00056",
+		"DescriptionTextID" : "$TXDLO00056",
+		"ClerkTextID" : "$TXDLC00056",
+		"ImageName" : "WeaponSet1.dds",
+		"DetailID" : "DETAIL0004"
+	},
+	"DLC0007":{
+		"Index" : 24,
+		"AssetID" : 103017,
+		"SortNumber" : 10011,
+		"Category" : "FULLSET",
+		"IsEnable" : false,
+		"FixedPrice" : 20,
+		"SalesPrice" : 20,
+		"CaptionTextID" : "$TXDLN00043",
+		"DescriptionTextID" : "$TXDLO00043",
+		"ClerkTextID" : "$TXDLC00043",
+		"ImageName" : "FullSetC2.dds",
+		"DetailID" : "DETAIL0005"
+	},
+	"DLC0008":{
+		"Index" : 25,
+		"AssetID" : 103024,
+		"SortNumber" : 10012,
+		"Category" : "FULLSET",
+		"IsEnable" : false,
+		"FixedPrice" : 20,
+		"SalesPrice" : 20,
+		"CaptionTextID" : "$TXDLN00050",
+		"DescriptionTextID" : "$TXDLO00050",
+		"ClerkTextID" : "$TXDLC00050",
+		"ImageName" : "FullSetM4.dds",
+		"DetailID" : "DETAIL0006"
+	},
+	"DLC0009":{
+		"Index" : 26,
+		"AssetID" : 103025,
+		"SortNumber" : 10013,
+		"Category" : "HELM",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00051",
+		"DescriptionTextID" : "$TXDLO00051",
+		"ClerkTextID" : "$TXDLC00051",
+		"ImageName" : "HelmSet1.dds",
+		"DetailID" : "DETAIL0007"
+	},
+	"DLC0010":{
+		"Index" : 27,
+		"AssetID" : 103031,
+		"SortNumber" : 10014,
+		"Category" : "WEAPON",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00057",
+		"DescriptionTextID" : "$TXDLO00057",
+		"ClerkTextID" : "$TXDLC00057",
+		"ImageName" : "WeaponSet2.dds",
+		"DetailID" : "DETAIL0008"
+	},
+	"DLC0011":{
+		"Index" : 28,
+		"AssetID" : 103021,
+		"SortNumber" : 10015,
+		"Category" : "FULLSET",
+		"IsEnable" : false,
+		"FixedPrice" : 20,
+		"SalesPrice" : 20,
+		"CaptionTextID" : "$TXDLN00047",
+		"DescriptionTextID" : "$TXDLO00047",
+		"ClerkTextID" : "$TXDLC00047",
+		"ImageName" : "FullSetM3.dds",
+		"DetailID" : "DETAIL0041"
+	},
+	"DLC0012":{
+		"Index" : 29,
+		"AssetID" : 103032,
+		"SortNumber" : 10017,
+		"Category" : "WEAPON",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00058",
+		"DescriptionTextID" : "$TXDLO00058",
+		"ClerkTextID" : "$TXDLC00058",
+		"ImageName" : "WeaponSet3.dds",
+		"DetailID" : "DETAIL0010"
+	},
+	"DLC0013":{
+		"Index" : 30,
+		"AssetID" : 103050,
+		"SortNumber" : 10018,
+		"Category" : "ACCESSORY",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00076",
+		"DescriptionTextID" : "$TXDLO00076",
+		"ClerkTextID" : "$TXDLC00076",
+		"ImageName" : "AccSet1.dds",
+		"DetailID" : "DETAIL0011"
+	},
+	"DLC0014":{
+		"Index" : 31,
+		"AssetID" : 103033,
+		"SortNumber" : 10019,
+		"Category" : "WEAPON",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00059",
+		"DescriptionTextID" : "$TXDLO00059",
+		"ClerkTextID" : "$TXDLC00059",
+		"ImageName" : "WeaponSet4.dds",
+		"DetailID" : "DETAIL0012"
+	},
+	"DLC0015":{
+		"Index" : 32,
+		"AssetID" : 103004,
+		"SortNumber" : 10020,
+		"Category" : "FULLSET",
+		"IsEnable" : false,
+		"FixedPrice" : 20,
+		"SalesPrice" : 20,
+		"CaptionTextID" : "$TXDLN00030",
+		"DescriptionTextID" : "$TXDLO00030",
+		"ClerkTextID" : "$TXDLC00030",
+		"ImageName" : "FullSetW1.dds",
+		"DetailID" : "DETAIL0013"
+	},
+	"DLC0016":{
+		"Index" : 33,
+		"AssetID" : 103005,
+		"SortNumber" : 10021,
+		"Category" : "FULLSET",
+		"IsEnable" : false,
+		"FixedPrice" : 20,
+		"SalesPrice" : 20,
+		"CaptionTextID" : "$TXDLN00031",
+		"DescriptionTextID" : "$TXDLO00031",
+		"ClerkTextID" : "$TXDLC00031",
+		"ImageName" : "FullSetC1.dds",
+		"DetailID" : "DETAIL0014"
+	},
+	"DLC0017":{
+		"Index" : 34,
+		"AssetID" : 103006,
+		"SortNumber" : 10022,
+		"Category" : "FULLSET",
+		"IsEnable" : false,
+		"FixedPrice" : 20,
+		"SalesPrice" : 20,
+		"CaptionTextID" : "$TXDLN00032",
+		"DescriptionTextID" : "$TXDLO00032",
+		"ClerkTextID" : "$TXDLC00032",
+		"ImageName" : "FullSetM1.dds",
+		"DetailID" : "DETAIL0015"
+	},
+	"DLC0018":{
+		"Index" : 35,
+		"AssetID" : 103045,
+		"SortNumber" : 10023,
+		"Category" : "SHIELD",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00071",
+		"DescriptionTextID" : "$TXDLO00071",
+		"ClerkTextID" : "$TXDLC00071",
+		"ImageName" : "ShieldSet1.dds",
+		"DetailID" : "DETAIL0016"
+	},
+	"DLC0019":{
+		"Index" : 36,
+		"AssetID" : 103034,
+		"SortNumber" : 10024,
+		"Category" : "WEAPON",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00060",
+		"DescriptionTextID" : "$TXDLO00060",
+		"ClerkTextID" : "$TXDLC00060",
+		"ImageName" : "WeaponSet5.dds",
+		"DetailID" : "DETAIL0017"
+	},
+	"DLC0020":{
+		"Index" : 37,
+		"AssetID" : 103035,
+		"SortNumber" : 10026,
+		"Category" : "WEAPON",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00061",
+		"DescriptionTextID" : "$TXDLO00061",
+		"ClerkTextID" : "$TXDLC00061",
+		"ImageName" : "WeaponSet6.dds",
+		"DetailID" : "DETAIL0019"
+	},
+	"DLC0021":{
+		"Index" : 41,
+		"AssetID" : 103019,
+		"SortNumber" : 10030,
+		"Category" : "FULLSET",
+		"IsEnable" : false,
+		"FixedPrice" : 20,
+		"SalesPrice" : 20,
+		"CaptionTextID" : "$TXDLN00045",
+		"DescriptionTextID" : "$TXDLO00045",
+		"ClerkTextID" : "$TXDLC00045",
+		"ImageName" : "FullSetW3.dds",
+		"DetailID" : "DETAIL0023"
+	},
+	"DLC0022":{
+		"Index" : 42,
+		"AssetID" : 103054,
+		"SortNumber" : 10031,
+		"Category" : "ACCESSORY",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00080",
+		"DescriptionTextID" : "$TXDLO00080",
+		"ClerkTextID" : "$TXDLC00080",
+		"ImageName" : "AccSet5.dds",
+		"DetailID" : "DETAIL0024"
+	},
+	"DLC0023":{
+		"Index" : 43,
+		"AssetID" : 103022,
+		"SortNumber" : 10032,
+		"Category" : "FULLSET",
+		"IsEnable" : false,
+		"FixedPrice" : 20,
+		"SalesPrice" : 20,
+		"CaptionTextID" : "$TXDLN00048",
+		"DescriptionTextID" : "$TXDLO00048",
+		"ClerkTextID" : "$TXDLC00048",
+		"ImageName" : "FullSetW4.dds",
+		"DetailID" : "DETAIL0027"
+	},
+	"DLC0024":{
+		"Index" : 44,
+		"AssetID" : 103016,
+		"SortNumber" : 10033,
+		"Category" : "FULLSET",
+		"IsEnable" : false,
+		"FixedPrice" : 20,
+		"SalesPrice" : 20,
+		"CaptionTextID" : "$TXDLN00042",
+		"DescriptionTextID" : "$TXDLO00042",
+		"ClerkTextID" : "$TXDLC00042",
+		"ImageName" : "FullSetW2.dds",
+		"DetailID" : "DETAIL0032"
+	},
+	"DLC0025":{
+		"Index" : 45,
+		"AssetID" : 103027,
+		"SortNumber" : 10034,
+		"Category" : "HELM",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00053",
+		"DescriptionTextID" : "$TXDLO00053",
+		"ClerkTextID" : "$TXDLC00053",
+		"ImageName" : "HelmSet3.dds",
+		"DetailID" : "DETAIL0034"
+	},
+	"DLC0026":{
+		"Index" : 46,
+		"AssetID" : 103013,
+		"SortNumber" : 10035,
+		"Category" : "ARMOR",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00039",
+		"DescriptionTextID" : "$TXDLO00039",
+		"ClerkTextID" : "$TXDLC00039",
+		"ImageName" : "ArmorSetW1.dds",
+		"DetailID" : "DETAIL0028"
+	},
+	"DLC0027":{
+		"Index" : 50,
+		"AssetID" : 103051,
+		"SortNumber" : 10039,
+		"Category" : "ACCESSORY",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00077",
+		"DescriptionTextID" : "$TXDLO00077",
+		"ClerkTextID" : "$TXDLC00077",
+		"ImageName" : "AccSet2.dds",
+		"DetailID" : "DETAIL0018"
+	},
+	"DLC0028":{
+		"Index" : 51,
+		"AssetID" : 103018,
+		"SortNumber" : 10040,
+		"Category" : "FULLSET",
+		"IsEnable" : false,
+		"FixedPrice" : 20,
+		"SalesPrice" : 20,
+		"CaptionTextID" : "$TXDLN00044",
+		"DescriptionTextID" : "$TXDLO00044",
+		"ClerkTextID" : "$TXDLC00044",
+		"ImageName" : "FullSetM2.dds",
+		"DetailID" : "DETAIL0026"
+	},
+	"DLC0029":{
+		"Index" : 52,
+		"AssetID" : 103047,
+		"SortNumber" : 10041,
+		"Category" : "SHIELD",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00073",
+		"DescriptionTextID" : "$TXDLO00073",
+		"ClerkTextID" : "$TXDLC00073",
+		"ImageName" : "ShieldSet3.dds",
+		"DetailID" : "DETAIL0037"
+	},
+	"DLC0030":{
+		"Index" : 53,
+		"AssetID" : 103026,
+		"SortNumber" : 10042,
+		"Category" : "HELM",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00052",
+		"DescriptionTextID" : "$TXDLO00052",
+		"ClerkTextID" : "$TXDLC00052",
+		"ImageName" : "HelmSet2.dds",
+		"DetailID" : "DETAIL0025"
+	},
+	"DLC0031":{
+		"Index" : 54,
+		"AssetID" : 103036,
+		"SortNumber" : 10043,
+		"Category" : "WEAPON",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00062",
+		"DescriptionTextID" : "$TXDLO00062",
+		"ClerkTextID" : "$TXDLC00062",
+		"ImageName" : "WeaponSet7.dds",
+		"DetailID" : "DETAIL0035"
+	},
+	"DLC0032":{
+		"Index" : 55,
+		"AssetID" : 103052,
+		"SortNumber" : 10044,
+		"Category" : "ACCESSORY",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00078",
+		"DescriptionTextID" : "$TXDLO00078",
+		"ClerkTextID" : "$TXDLC00078",
+		"ImageName" : "AccSet3.dds",
+		"DetailID" : "DETAIL0036"
+	},
+	"DLC0033":{
+		"Index" : 56,
+		"AssetID" : 103048,
+		"SortNumber" : 10045,
+		"Category" : "SHIELD",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00074",
+		"DescriptionTextID" : "$TXDLO00074",
+		"ClerkTextID" : "$TXDLC00074",
+		"ImageName" : "ShieldSet4.dds",
+		"DetailID" : "DETAIL0033"
+	},
+	"DLC0034":{
+		"Index" : 57,
+		"AssetID" : 103038,
+		"SortNumber" : 10046,
+		"Category" : "WEAPON",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00064",
+		"DescriptionTextID" : "$TXDLO00064",
+		"ClerkTextID" : "$TXDLC00064",
+		"ImageName" : "WeaponSet9.dds",
+		"DetailID" : "DETAIL0038"
+	},
+	"DLC0035":{
+		"Index" : 58,
+		"AssetID" : 103039,
+		"SortNumber" : 10047,
+		"Category" : "WEAPON",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00065",
+		"DescriptionTextID" : "$TXDLO00065",
+		"ClerkTextID" : "$TXDLC00065",
+		"ImageName" : "WeaponSet10.dds",
+		"DetailID" : "DETAIL0039"
+	},
+	"DLC0036":{
+		"Index" : 59,
+		"AssetID" : 103023,
+		"SortNumber" : 10048,
+		"Category" : "FULLSET",
+		"IsEnable" : false,
+		"FixedPrice" : 20,
+		"SalesPrice" : 20,
+		"CaptionTextID" : "$TXDLN00049",
+		"DescriptionTextID" : "$TXDLO00049",
+		"ClerkTextID" : "$TXDLC00049",
+		"ImageName" : "FullSetC4.dds",
+		"DetailID" : "DETAIL0040"
+	},
+	"DLC0037":{
+		"Index" : 60,
+		"AssetID" : 103020,
+		"SortNumber" : 10049,
+		"Category" : "FULLSET",
+		"IsEnable" : false,
+		"FixedPrice" : 20,
+		"SalesPrice" : 20,
+		"CaptionTextID" : "$TXDLN00046",
+		"DescriptionTextID" : "$TXDLO00046",
+		"ClerkTextID" : "$TXDLC00046",
+		"ImageName" : "FullSetC3.dds",
+		"DetailID" : "DETAIL0009"
+	},
+	"DLC0038":{
+		"Index" : 61,
+		"AssetID" : 103037,
+		"SortNumber" : 10050,
+		"Category" : "WEAPON",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00063",
+		"DescriptionTextID" : "$TXDLO00063",
+		"ClerkTextID" : "$TXDLC00063",
+		"ImageName" : "WeaponSet8.dds",
+		"DetailID" : "DETAIL0042"
+	},
+	"DLC0039":{
+		"Index" : 62,
+		"AssetID" : 103040,
+		"SortNumber" : 10051,
+		"Category" : "WEAPON",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00066",
+		"DescriptionTextID" : "$TXDLO00066",
+		"ClerkTextID" : "$TXDLC00066",
+		"ImageName" : "WeaponSet11.dds",
+		"DetailID" : "DETAIL0043"
+	},
+	"DLC0040":{
+		"Index" : 63,
+		"AssetID" : 103015,
+		"SortNumber" : 10052,
+		"Category" : "ARMOR",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00041",
+		"DescriptionTextID" : "$TXDLO00041",
+		"ClerkTextID" : "$TXDLC00041",
+		"ImageName" : "ArmorSetW3.dds",
+		"DetailID" : "DETAIL0048"
+	},
+	"DLC0041":{
+		"Index" : 64,
+		"AssetID" : 103041,
+		"SortNumber" : 10053,
+		"Category" : "WEAPON",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00067",
+		"DescriptionTextID" : "$TXDLO00067",
+		"ClerkTextID" : "$TXDLC00067",
+		"ImageName" : "WeaponSet12.dds",
+		"DetailID" : "DETAIL0045"
+	},
+	"DLC0042":{
+		"Index" : 65,
+		"AssetID" : 103028,
+		"SortNumber" : 10054,
+		"Category" : "HELM",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00054",
+		"DescriptionTextID" : "$TXDLO00054",
+		"ClerkTextID" : "$TXDLC00054",
+		"ImageName" : "HelmSet4.dds",
+		"DetailID" : "DETAIL0046"
+	},
+	"DLC0043":{
+		"Index" : 66,
+		"AssetID" : 103042,
+		"SortNumber" : 10055,
+		"Category" : "WEAPON",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00068",
+		"DescriptionTextID" : "$TXDLO00068",
+		"ClerkTextID" : "$TXDLC00068",
+		"ImageName" : "WeaponSet13.dds",
+		"DetailID" : "DETAIL0047"
+	},
+	"DLC0044":{
+		"Index" : 67,
+		"AssetID" : 103014,
+		"SortNumber" : 10056,
+		"Category" : "ARMOR",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00040",
+		"DescriptionTextID" : "$TXDLO00040",
+		"ClerkTextID" : "$TXDLC00040",
+		"ImageName" : "ArmorSetW2.dds",
+		"DetailID" : "DETAIL0044"
+	},
+	"DLC0045":{
+		"Index" : 68,
+		"AssetID" : 103053,
+		"SortNumber" : 10057,
+		"Category" : "ACCESSORY",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00079",
+		"DescriptionTextID" : "$TXDLO00079",
+		"ClerkTextID" : "$TXDLC00079",
+		"ImageName" : "AccSet4.dds",
+		"DetailID" : "DETAIL0049"
+	},
+	"DLC0046":{
+		"Index" : 69,
+		"AssetID" : 103049,
+		"SortNumber" : 10058,
+		"Category" : "SHIELD",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00075",
+		"DescriptionTextID" : "$TXDLO00075",
+		"ClerkTextID" : "$TXDLC00075",
+		"ImageName" : "ShieldSet5.dds",
+		"DetailID" : "DETAIL0050"
+	},
+	"DLC0047":{
+		"Index" : 70,
+		"AssetID" : 103029,
+		"SortNumber" : 10059,
+		"Category" : "HELM",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00055",
+		"DescriptionTextID" : "$TXDLO00055",
+		"ClerkTextID" : "$TXDLC00055",
+		"ImageName" : "HelmSet5.dds",
+		"DetailID" : "DETAIL0051"
+	},
+	"DLC0048":{
+		"Index" : 71,
+		"AssetID" : 103043,
+		"SortNumber" : 10060,
+		"Category" : "WEAPON",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00069",
+		"DescriptionTextID" : "$TXDLO00069",
+		"ClerkTextID" : "$TXDLC00069",
+		"ImageName" : "WeaponSet14.dds",
+		"DetailID" : "DETAIL0052"
+	},
+	"DLC0049":{
+		"Index" : 72,
+		"AssetID" : 103044,
+		"SortNumber" : 10061,
+		"Category" : "WEAPON",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00070",
+		"DescriptionTextID" : "$TXDLO00070",
+		"ClerkTextID" : "$TXDLC00070",
+		"ImageName" : "WeaponSet15.dds",
+		"DetailID" : "DETAIL0053"
+	},
+	"DLC0050":{
+		"Index" : 73,
+		"AssetID" : 103046,
+		"SortNumber" : 10062,
+		"Category" : "SHIELD",
+		"IsEnable" : false,
+		"FixedPrice" : 18,
+		"SalesPrice" : 18,
+		"CaptionTextID" : "$TXDLN00072",
+		"DescriptionTextID" : "$TXDLO00072",
+		"ClerkTextID" : "$TXDLC00072",
+		"ImageName" : "ShieldSet2.dds",
+		"DetailID" : "DETAIL0054"
+	}
+},
+// Gemini_Catalog.xlsm.tmp Detail 
+
+"detail_":{
+	"DETAIL1001":{
+		"CaptionTextID" : "$TXDLN00089",
+		"DescriptionTextID" : "$TXDLO00089",
+		"BargainID" : "BARGAIN0001"
+	},
+	"DETAIL1002":{
+		"CaptionTextID" : "$TXDLN00090",
+		"DescriptionTextID" : "$TXDLO00090",
+		"BargainID" : "BARGAIN0002"
+	},
+	"DETAIL1003":{
+		"CaptionTextID" : "$TXDLN00091",
+		"DescriptionTextID" : "$TXDLO00091",
+		"BargainID" : "BARGAIN0003"
+	},
+	"DETAIL1004":{
+		"CaptionTextID" : "$TXDLN00092",
+		"DescriptionTextID" : "$TXDLO00092",
+		"BargainID" : "BARGAIN0004"
+	},
+	"DETAIL0004":{
+		"CaptionTextID" : "$TXDLN00056",
+		"DescriptionTextID" : "$TXDLO00056",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0004"
+	},
+	"DETAIL0005":{
+		"CaptionTextID" : "$TXDLN00043",
+		"DescriptionTextID" : "$TXDLO00043",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0005"
+	},
+	"DETAIL0006":{
+		"CaptionTextID" : "$TXDLN00050",
+		"DescriptionTextID" : "$TXDLO00050",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0006"
+	},
+	"DETAIL0007":{
+		"CaptionTextID" : "$TXDLN00051",
+		"DescriptionTextID" : "$TXDLO00051",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0007"
+	},
+	"DETAIL0008":{
+		"CaptionTextID" : "$TXDLN00057",
+		"DescriptionTextID" : "$TXDLO00057",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0008"
+	},
+	"DETAIL0009":{
+		"CaptionTextID" : "$TXDLN00046",
+		"DescriptionTextID" : "$TXDLO00046",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0009"
+	},
+	"DETAIL0010":{
+		"CaptionTextID" : "$TXDLN00058",
+		"DescriptionTextID" : "$TXDLO00058",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0010"
+	},
+	"DETAIL0011":{
+		"CaptionTextID" : "$TXDLN00076",
+		"DescriptionTextID" : "$TXDLO00076",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0011"
+	},
+	"DETAIL0012":{
+		"CaptionTextID" : "$TXDLN00059",
+		"DescriptionTextID" : "$TXDLO00059",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0012"
+	},
+	"DETAIL0013":{
+		"CaptionTextID" : "$TXDLN00030",
+		"DescriptionTextID" : "$TXDLO00030",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0013"
+	},
+	"DETAIL0014":{
+		"CaptionTextID" : "$TXDLN00031",
+		"DescriptionTextID" : "$TXDLO00031",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0014"
+	},
+	"DETAIL0015":{
+		"CaptionTextID" : "$TXDLN00032",
+		"DescriptionTextID" : "$TXDLO00032",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0015"
+	},
+	"DETAIL0016":{
+		"CaptionTextID" : "$TXDLN00071",
+		"DescriptionTextID" : "$TXDLO00071",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0016"
+	},
+	"DETAIL0017":{
+		"CaptionTextID" : "$TXDLN00060",
+		"DescriptionTextID" : "$TXDLO00060",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0017"
+	},
+	"DETAIL0018":{
+		"CaptionTextID" : "$TXDLN00077",
+		"DescriptionTextID" : "$TXDLO00077",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0018"
+	},
+	"DETAIL0019":{
+		"CaptionTextID" : "$TXDLN00061",
+		"DescriptionTextID" : "$TXDLO00061",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0019"
+	},
+	"DETAIL0023":{
+		"CaptionTextID" : "$TXDLN00045",
+		"DescriptionTextID" : "$TXDLO00045",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0023"
+	},
+	"DETAIL0024":{
+		"CaptionTextID" : "$TXDLN00080",
+		"DescriptionTextID" : "$TXDLO00080",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0024"
+	},
+	"DETAIL0025":{
+		"CaptionTextID" : "$TXDLN00052",
+		"DescriptionTextID" : "$TXDLO00052",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0025"
+	},
+	"DETAIL0026":{
+		"CaptionTextID" : "$TXDLN00044",
+		"DescriptionTextID" : "$TXDLO00044",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0026"
+	},
+	"DETAIL0027":{
+		"CaptionTextID" : "$TXDLN00048",
+		"DescriptionTextID" : "$TXDLO00048",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0027"
+	},
+	"DETAIL0028":{
+		"CaptionTextID" : "$TXDLN00039",
+		"DescriptionTextID" : "$TXDLN00039",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0028"
+	},
+	"DETAIL0032":{
+		"CaptionTextID" : "$TXDLN00042",
+		"DescriptionTextID" : "$TXDLO00042",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0032"
+	},
+	"DETAIL0033":{
+		"CaptionTextID" : "$TXDLN00074",
+		"DescriptionTextID" : "$TXDLO00074",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0033"
+	},
+	"DETAIL0034":{
+		"CaptionTextID" : "$TXDLN00053",
+		"DescriptionTextID" : "$TXDLO00053",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0034"
+	},
+	"DETAIL0035":{
+		"CaptionTextID" : "$TXDLN00062",
+		"DescriptionTextID" : "$TXDLO00062",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0035"
+	},
+	"DETAIL0036":{
+		"CaptionTextID" : "$TXDLN00078",
+		"DescriptionTextID" : "$TXDLO00078",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0036"
+	},
+	"DETAIL0037":{
+		"CaptionTextID" : "$TXDLN00073",
+		"DescriptionTextID" : "$TXDLN00073",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0037"
+	},
+	"DETAIL0038":{
+		"CaptionTextID" : "$TXDLN00064",
+		"DescriptionTextID" : "$TXDLO00064",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0038"
+	},
+	"DETAIL0039":{
+		"CaptionTextID" : "$TXDLN00065",
+		"DescriptionTextID" : "$TXDLO00065",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0039"
+	},
+	"DETAIL0040":{
+		"CaptionTextID" : "$TXDLN00049",
+		"DescriptionTextID" : "$TXDLO00049",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0040"
+	},
+	"DETAIL0041":{
+		"CaptionTextID" : "$TXDLN00047",
+		"DescriptionTextID" : "$TXDLO00047",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0041"
+	},
+	"DETAIL0042":{
+		"CaptionTextID" : "$TXDLN00063",
+		"DescriptionTextID" : "$TXDLO00063",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0042"
+	},
+	"DETAIL0043":{
+		"CaptionTextID" : "$TXDLN00066",
+		"DescriptionTextID" : "$TXDLO00066",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0043"
+	},
+	"DETAIL0044":{
+		"CaptionTextID" : "$TXDLN00040",
+		"DescriptionTextID" : "$TXDLO00040",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0044"
+	},
+	"DETAIL0045":{
+		"CaptionTextID" : "$TXDLN00067",
+		"DescriptionTextID" : "$TXDLO00067",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0045"
+	},
+	"DETAIL0046":{
+		"CaptionTextID" : "$TXDLN00054",
+		"DescriptionTextID" : "$TXDLO00054",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0046"
+	},
+	"DETAIL0047":{
+		"CaptionTextID" : "$TXDLN00068",
+		"DescriptionTextID" : "$TXDLO00068",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0047"
+	},
+	"DETAIL0048":{
+		"CaptionTextID" : "$TXDLN00041",
+		"DescriptionTextID" : "$TXDLO00041",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0048"
+	},
+	"DETAIL0049":{
+		"CaptionTextID" : "$TXDLN00079",
+		"DescriptionTextID" : "$TXDLO00079",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0049"
+	},
+	"DETAIL0050":{
+		"CaptionTextID" : "$TXDLN00075",
+		"DescriptionTextID" : "$TXDLN00075",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0050"
+	},
+	"DETAIL0051":{
+		"CaptionTextID" : "$TXDLN00055",
+		"DescriptionTextID" : "$TXDLO00055",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0051"
+	},
+	"DETAIL0052":{
+		"CaptionTextID" : "$TXDLN00069",
+		"DescriptionTextID" : "$TXDLO00069",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0052"
+	},
+	"DETAIL0053":{
+		"CaptionTextID" : "$TXDLN00070",
+		"DescriptionTextID" : "$TXDLO00070",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0053"
+	},
+	"DETAIL0054":{
+		"CaptionTextID" : "$TXDLN00072",
+		"DescriptionTextID" : "$TXDLO00072",
+		"ImageName" : "LV1_pin.dds",
+		"ItemSetID" : "ITEMSET0054"
+	}
+},
+// Gemini_Catalog.xlsm.tmp Bargain 
+
+"bargain_":{
+	"BARGAIN0001":{
+		"Index" : 1,
+		"UpdateTime" : 3600,
+		"TypeTable" : "DEFAULT_TABLE",
+		"LotteryTable" : "Bargain0001",
+		"LevelMin" : 1,
+		"LevelMax" : 1
+	},
+	"BARGAIN0002":{
+		"Index" : 2,
+		"UpdateTime" : 3600,
+		"TypeTable" : "DEFAULT_TABLE",
+		"LotteryTable" : "Bargain0002",
+		"LevelMin" : 1,
+		"LevelMax" : 1
+	},
+	"BARGAIN0003":{
+		"Index" : 3,
+		"UpdateTime" : 3600,
+		"TypeTable" : "DEFAULT_TABLE",
+		"LotteryTable" : "Bargain0003",
+		"LevelMin" : 1,
+		"LevelMax" : 1
+	},
+	"BARGAIN0004":{
+		"Index" : 4,
+		"UpdateTime" : 3600,
+		"TypeTable" : "DEFAULT_TABLE",
+		"LotteryTable" : "Bargain0004",
+		"LevelMin" : 1,
+		"LevelMax" : 1
+	}
+},
+// Gemini_Catalog.xlsm.tmp TopDisplay 
+
+"topDisplay_":{
+	"DISP0001":{
+		"PanelKey" : "DLC2001"
+	},
+	"DISP0002":{
+		"PanelKey" : "DLC2002"
+	},
+	"DISP0003":{
+		"PanelKey" : "DLC2003"
+	},
+	"DISP0004":{
+		"PanelKey" : "DLC2004"
+	},
+	"DISP0005":{
+		"PanelKey" : "DLC2005"
+	},
+	"DISP0006":{
+		"PanelKey" : "DLC2006"
+	},
+	"DISP0007":{
+		"PanelKey" : "DLC2007"
+	},
+	"DISP0008":{
+		"PanelKey" : "DLC0006"
+	},
+	"DISP0009":{
+		"PanelKey" : "DLC0007"
+	},
+	"DISP0010":{
+		"PanelKey" : "DLC0008"
+	},
+	"DISP0011":{
+		"PanelKey" : "DLC0009"
+	},
+	"DISP0012":{
+		"PanelKey" : "DLC0010"
+	},
+	"DISP0013":{
+		"PanelKey" : "DLC0011"
+	},
+	"DISP0014":{
+		"PanelKey" : "DLC0012"
+	},
+	"DISP0015":{
+		"PanelKey" : "DLC0013"
+	},
+	"DISP0016":{
+		"PanelKey" : "DLC0014"
+	},
+	"DISP0017":{
+		"PanelKey" : "DLC0015"
+	},
+	"DISP0018":{
+		"PanelKey" : "DLC0016"
+	},
+	"DISP0019":{
+		"PanelKey" : "DLC0017"
+	},
+	"DISP0020":{
+		"PanelKey" : "DLC0018"
+	},
+	"DISP0021":{
+		"PanelKey" : "DLC0019"
+	},
+	"DISP0022":{
+		"PanelKey" : "DLC0020"
+	},
+	"DISP0023":{
+		"PanelKey" : "DLC0021"
+	},
+	"DISP0024":{
+		"PanelKey" : "DLC0022"
+	},
+	"DISP0025":{
+		"PanelKey" : "DLC0023"
+	},
+	"DISP0026":{
+		"PanelKey" : "DLC0024"
+	},
+	"DISP0027":{
+		"PanelKey" : "DLC0025"
+	},
+	"DISP0028":{
+		"PanelKey" : "DLC0026"
+	},
+	"DISP0029":{
+		"PanelKey" : "DLC0027"
+	},
+	"DISP0030":{
+		"PanelKey" : "DLC0028"
+	},
+	"DISP0031":{
+		"PanelKey" : "DLC0029"
+	},
+	"DISP0032":{
+		"PanelKey" : "DLC0030"
+	},
+	"DISP0033":{
+		"PanelKey" : "DLC0031"
+	},
+	"DISP0034":{
+		"PanelKey" : "DLC0032"
+	},
+	"DISP0035":{
+		"PanelKey" : "DLC0033"
+	},
+	"DISP0036":{
+		"PanelKey" : "DLC0034"
+	},
+	"DISP0037":{
+		"PanelKey" : "DLC0035"
+	},
+	"DISP0038":{
+		"PanelKey" : "DLC0036"
+	},
+	"DISP0039":{
+		"PanelKey" : "DLC0037"
+	},
+	"DISP0040":{
+		"PanelKey" : "DLC0038"
+	},
+	"DISP0041":{
+		"PanelKey" : "DLC0039"
+	},
+	"DISP0042":{
+		"PanelKey" : "DLC0040"
+	},
+	"DISP0043":{
+		"PanelKey" : "DLC0041"
+	},
+	"DISP0044":{
+		"PanelKey" : "DLC0042"
+	},
+	"DISP0045":{
+		"PanelKey" : "DLC0043"
+	},
+	"DISP0046":{
+		"PanelKey" : "DLC0044"
+	},
+	"DISP0047":{
+		"PanelKey" : "DLC0045"
+	},
+	"DISP0048":{
+		"PanelKey" : "DLC0046"
+	},
+	"DISP0049":{
+		"PanelKey" : "DLC0047"
+	},
+	"DISP0050":{
+		"PanelKey" : "DLC0048"
+	},
+	"DISP0051":{
+		"PanelKey" : "DLC0049"
+	},
+	"DISP0052":{
+		"PanelKey" : "DLC0050"
+	},
+	"DISP0053":{
+
+	},
+	"DISP0054":{
+
+	},
+	"DISP0055":{
+
+	},
+	"DISP0056":{
+
+	},
+	"DISP0057":{
+
+	},
+	"DISP0058":{
+
+	},
+	"DISP0059":{
+
+	},
+	"DISP0060":{
+
+	},
+	"DISP0061":{
+
+	},
+	"DISP0062":{
+
+	},
+	"DISP0063":{
+
+	},
+	"DISP0064":{
+
+	},
+	"DISP0065":{
+
+	},
+	"DISP0066":{
+
+	},
+	"DISP0067":{
+
+	},
+	"DISP0068":{
+
+	},
+	"DISP0069":{
+
+	},
+	"DISP0070":{
+
+	},
+	"DISP0071":{
+
+	},
+	"DISP0072":{
+
+	},
+	"DISP0073":{
+
+	},
+	"DISP0074":{
+
+	},
+	"DISP0075":{
+
+	},
+	"DISP0076":{
+
+	},
+	"DISP0077":{
+
+	},
+	"DISP0078":{
+
+	},
+	"DISP0079":{
+
+	},
+	"DISP0080":{
+
+	},
+	"DISP0081":{
+
+	},
+	"DISP0082":{
+
+	},
+	"DISP0083":{
+
+	},
+	"DISP0084":{
+
+	},
+	"DISP0085":{
+
+	},
+	"DISP0086":{
+
+	},
+	"DISP0087":{
+
+	},
+	"DISP0088":{
+
+	},
+	"DISP0089":{
+
+	},
+	"DISP0090":{
+
+	},
+	"DISP0091":{
+
+	},
+	"DISP0092":{
+
+	},
+	"DISP0093":{
+
+	},
+	"DISP0094":{
+
+	},
+	"DISP0095":{
+
+	},
+	"DISP0096":{
+
+	},
+	"DISP0097":{
+
+	},
+	"DISP0098":{
+
+	},
+	"DISP0099":{
+
+	},
+	"DISP0100":{
+
+	},
+	"DISP0101":{
+
+	},
+	"DISP0102":{
+
+	},
+	"DISP0103":{
+
+	},
+	"DISP0104":{
+
+	},
+	"DISP0105":{
+
+	},
+	"DISP0106":{
+
+	},
+	"DISP0107":{
+
+	},
+	"DISP0108":{
+
+	},
+	"DISP0109":{
+
+	},
+	"DISP0110":{
+
+	},
+	"DISP0111":{
+
+	},
+	"DISP0112":{
+
+	},
+	"DISP0113":{
+
+	},
+	"DISP0114":{
+
+	},
+	"DISP0115":{
+
+	},
+	"DISP0116":{
+
+	},
+	"DISP0117":{
+
+	},
+	"DISP0118":{
+
+	},
+	"DISP0119":{
+
+	},
+	"DISP0120":{
+
+	},
+	"DISP0121":{
+
+	},
+	"DISP0122":{
+
+	},
+	"DISP0123":{
+
+	},
+	"DISP0124":{
+
+	},
+	"DISP0125":{
+
+	},
+	"DISP0126":{
+
+	},
+	"DISP0127":{
+
+	},
+	"DISP0128":{
+
+	},
+	"DISP0129":{
+
+	},
+	"DISP0130":{
+
+	},
+	"DISP0131":{
+
+	},
+	"DISP0132":{
+
+	},
+	"DISP0133":{
+
+	},
+	"DISP0134":{
+
+	},
+	"DISP0135":{
+
+	},
+	"DISP0136":{
+
+	},
+	"DISP0137":{
+
+	},
+	"DISP0138":{
+
+	},
+	"DISP0139":{
+
+	},
+	"DISP0140":{
+
+	},
+	"DISP0141":{
+
+	},
+	"DISP0142":{
+
+	},
+	"DISP0143":{
+
+	},
+	"DISP0144":{
+
+	},
+	"DISP0145":{
+
+	},
+	"DISP0146":{
+
+	},
+	"DISP0147":{
+
+	},
+	"DISP0148":{
+
+	},
+	"DISP0149":{
+
+	},
+	"DISP0150":{
+
+	},
+	"DISP0151":{
+
+	},
+	"DISP0152":{
+
+	},
+	"DISP0153":{
+
+	},
+	"DISP0154":{
+
+	},
+	"DISP0155":{
+
+	},
+	"DISP0156":{
+
+	},
+	"DISP0157":{
+
+	},
+	"DISP0158":{
+
+	},
+	"DISP0159":{
+
+	},
+	"DISP0160":{
+
+	},
+	"DISP0161":{
+
+	},
+	"DISP0162":{
+
+	},
+	"DISP0163":{
+
+	},
+	"DISP0164":{
+
+	},
+	"DISP0165":{
+
+	},
+	"DISP0166":{
+
+	},
+	"DISP0167":{
+
+	},
+	"DISP0168":{
+
+	},
+	"DISP0169":{
+
+	},
+	"DISP0170":{
+
+	},
+	"DISP0171":{
+
+	},
+	"DISP0172":{
+
+	},
+	"DISP0173":{
+
+	},
+	"DISP0174":{
+
+	},
+	"DISP0175":{
+
+	},
+	"DISP0176":{
+
+	},
+	"DISP0177":{
+
+	},
+	"DISP0178":{
+
+	},
+	"DISP0179":{
+
+	},
+	"DISP0180":{
+
+	},
+	"DISP0181":{
+
+	},
+	"DISP0182":{
+
+	},
+	"DISP0183":{
+
+	},
+	"DISP0184":{
+
+	},
+	"DISP0185":{
+
+	},
+	"DISP0186":{
+
+	},
+	"DISP0187":{
+
+	},
+	"DISP0188":{
+
+	},
+	"DISP0189":{
+
+	},
+	"DISP0190":{
+
+	},
+	"DISP0191":{
+
+	},
+	"DISP0192":{
+
+	},
+	"DISP0193":{
+
+	},
+	"DISP0194":{
+
+	},
+	"DISP0195":{
+
+	},
+	"DISP0196":{
+
+	},
+	"DISP0197":{
+
+	},
+	"DISP0198":{
+
+	},
+	"DISP0199":{
+
+	},
+	"DISP0200":{
+
+	},
+	"DISP0201":{
+
+	},
+	"DISP0202":{
+
+	},
+	"DISP0203":{
+
+	},
+	"DISP0204":{
+
+	},
+	"DISP0205":{
+
+	},
+	"DISP0206":{
+
+	},
+	"DISP0207":{
+
+	},
+	"DISP0208":{
+
+	},
+	"DISP0209":{
+
+	},
+	"DISP0210":{
+
+	},
+	"DISP0211":{
+
+	},
+	"DISP0212":{
+
+	},
+	"DISP0213":{
+
+	},
+	"DISP0214":{
+
+	},
+	"DISP0215":{
+
+	},
+	"DISP0216":{
+
+	},
+	"DISP0217":{
+
+	},
+	"DISP0218":{
+
+	},
+	"DISP0219":{
+
+	},
+	"DISP0220":{
+
+	},
+	"DISP0221":{
+
+	},
+	"DISP0222":{
+
+	},
+	"DISP0223":{
+
+	},
+	"DISP0224":{
+
+	},
+	"DISP0225":{
+
+	},
+	"DISP0226":{
+
+	},
+	"DISP0227":{
+
+	},
+	"DISP0228":{
+
+	},
+	"DISP0229":{
+
+	},
+	"DISP0230":{
+
+	},
+	"DISP0231":{
+
+	},
+	"DISP0232":{
+
+	},
+	"DISP0233":{
+
+	},
+	"DISP0234":{
+
+	},
+	"DISP0235":{
+
+	},
+	"DISP0236":{
+
+	},
+	"DISP0237":{
+
+	},
+	"DISP0238":{
+
+	},
+	"DISP0239":{
+
+	},
+	"DISP0240":{
+
+	},
+	"DISP0241":{
+
+	},
+	"DISP0242":{
+
+	},
+	"DISP0243":{
+
+	},
+	"DISP0244":{
+
+	},
+	"DISP0245":{
+
+	},
+	"DISP0246":{
+
+	},
+	"DISP0247":{
+
+	},
+	"DISP0248":{
+
+	},
+	"DISP0249":{
+
+	},
+	"DISP0250":{
+
+	},
+	"DISP0251":{
+
+	},
+	"DISP0252":{
+
+	},
+	"DISP0253":{
+
+	},
+	"DISP0254":{
+
+	},
+	"DISP0255":{
+
+	},
+	"DISP0256":{
+
+	}
+},
+// Gemini_Catalog.xlsm.tmp ItemDetail 
+
+"itemDetail_":{
+	"StartWeapon_W_2":{
+		"ItemID" : "ITEM_DLC_WEAPON_95",
+		"Level" : 1
+	},
+	"StartShield_W_2":{
+		"ItemID" : "ITEM_DLC_SHIELD_141",
+		"Level" : 1,
+		"BuffID_00" : "Buff_DamageAPUp_01"
+	},
+	"StartHelm_W_2":{
+		"ItemID" : "ITEM_DLC_HEAD_00",
+		"Level" : 1,
+		"BuffID_00" : "Buff_MaxHPUp_01"
+	},
+	"StartArmor_W_2":{
+		"ItemID" : "ITEM_DLC_ARMOR_13",
+		"Level" : 1,
+		"BuffID_00" : "Buff_GuardUp_01"
+	},
+	"StartWeapon_W_3":{
+		"ItemID" : "ITEM_DLC_WEAPON_121",
+		"Level" : 1
+	},
+	"StartShield_W_3":{
+		"ItemID" : "ITEM_DLC_SHIELD_56",
+		"Level" : 1
+	},
+	"StartHelm_W_3":{
+		"ItemID" : "ITEM_DLC_HEAD_41",
+		"Level" : 1
+	},
+	"StartArmor_W_3":{
+		"ItemID" : "ITEM_ARMOR_DLCSTART_01",
+		"Level" : 1
+	},
+	"StartWeapon_W_4":{
+		"ItemID" : "ITEM_DLC_WEAPON_101",
+		"Level" : 1
+	},
+	"StartShield_W_4":{
+		"ItemID" : "ITEM_DLC_SHIELD_141",
+		"Level" : 1
+	},
+	"StartHelm_W_4":{
+		"ItemID" : "ITEM_DLC_HEAD_00",
+		"Level" : 1
+	},
+	"StartArmor_W_4":{
+		"ItemID" : "ITEM_DLC_ARMOR_15",
+		"Level" : 1
+	},
+	"StartWeapon_C_2":{
+		"ItemID" : "ITEM_DLC_WEAPON_241",
+		"Level" : 1,
+		"BuffID_00" : "Buff_GimmickDamageUp_01"
+	},
+	"StartShield_C_2":{
+		"ItemID" : "ITEM_DLC_SHIELD_01",
+		"Level" : 1,
+		"BuffID_00" : "Buff_ShieldMasicGuardUp_00"
+	},
+	"StartHelm_C_2":{
+		"ItemID" : "ITEM_DLC_HEAD_106",
+		"Level" : 1,
+		"BuffID_00" : "Buff_Scapegoat_00"
+	},
+	"StartArmor_C_2":{
+		"ItemID" : "ITEM_DLC_ARMOR_28",
+		"Level" : 1
+	},
+	"StartWeapon_C3":{
+		"ItemID" : "ITEM_DLC_WEAPON_181",
+		"Level" : 1
+	},
+	"StartShield_C3":{
+		"ItemID" : "ITEM_DLC_SHIELD_46",
+		"Level" : 1
+	},
+	"StartHelm_C3":{
+		"ItemID" : "ITEM_DLC_HEAD_66",
+		"Level" : 1
+	},
+	"StartArmor_C3":{
+		"ItemID" : "ITEM_ARMOR_DLCSTART_06",
+		"Level" : 1
+	},
+	"StartWeapon_C4":{
+		"ItemID" : "ITEM_DLC_WEAPON_236",
+		"Level" : 1
+	},
+	"StartShield_C4":{
+		"ItemID" : "ITEM_DLC_SHIELD_106",
+		"Level" : 1
+	},
+	"StartHelm_C4":{
+		"ItemID" : "ITEM_DLC_HEAD_61",
+		"Level" : 1
+	},
+	"StartArmor_C4":{
+		"ItemID" : "ITEM_ARMOR_DLCSTART_07",
+		"Level" : 1
+	},
+	"StartWeapon_M_2_1":{
+		"ItemID" : "ITEM_DLC_WEAPON_336",
+		"Level" : 1,
+		"BuffID_00" : "Buff_MagicAttackUp_01"
+	},
+	"StartWeapon_M_2_2":{
+		"ItemID" : "ITEM_DLC_WEAPON_341",
+		"Level" : 1,
+		"BuffID_00" : "Buff_AttackUp_01"
+	},
+	"StartHelm_M_2":{
+		"ItemID" : "ITEM_DLC_HEAD_146",
+		"Level" : 1,
+		"BuffID_00" : "Buff_APSelfCureUp_01"
+	},
+	"StartArmor_M_2":{
+		"ItemID" : "ITEM_DLC_ARMOR_45",
+		"Level" : 1,
+		"BuffID_00" : "Buff_LightningArrows_00"
+	},
+	"StartWeapon_M_3_1":{
+		"ItemID" : "ITEM_DLC_WEAPON_336",
+		"Level" : 1
+	},
+	"StartWeapon_M_3_2":{
+		"ItemID" : "ITEM_DLC_WEAPON_341",
+		"Level" : 1
+	},
+	"StartHelm_M_3":{
+		"ItemID" : "ITEM_DLC_HEAD_146",
+		"Level" : 1
+	},
+	"StartArmor_M_3":{
+		"ItemID" : "ITEM_ARMOR_DLCSTART_10",
+		"Level" : 1
+	},
+	"StartWeapon_M_4_1":{
+		"ItemID" : "ITEM_DLC_WEAPON_390",
+		"Level" : 1
+	},
+	"StartWeapon_M_4_2":{
+		"ItemID" : "ITEM_DLC_WEAPON_400",
+		"Level" : 1
+	},
+	"StartHelm_M_4":{
+		"ItemID" : "ITEM_DLC_HEAD_86",
+		"Level" : 1
+	},
+	"StartArmor_M_4":{
+		"ItemID" : "ITEM_ARMOR_DLCSTART_11",
+		"Level" : 1
+	},
+	"Weapon_1_W":{
+		"ItemID" : "ITEM_DLC_WEAPON_00",
+		"Level" : 1
+	},
+	"Weapon_2_W":{
+		"ItemID" : "ITEM_DLC_WEAPON_05",
+		"Level" : 1
+	},
+	"Weapon_3_W":{
+		"ItemID" : "ITEM_DLC_WEAPON_10",
+		"Level" : 1,
+		"BuffID_00" : "Buff_FireSword_00"
+	},
+	"Weapon_4_W":{
+		"ItemID" : "ITEM_DLC_WEAPON_15",
+		"Level" : 1,
+		"BuffID_00" : "Buff_SpinningBlade_00"
+	},
+	"Weapon_5_W":{
+		"ItemID" : "ITEM_DLC_WEAPON_20",
+		"Level" : 1
+	},
+	"Weapon_6_W":{
+		"ItemID" : "ITEM_DLC_WEAPON_25",
+		"Level" : 1
+	},
+	"Weapon_7_W":{
+		"ItemID" : "ITEM_DLC_WEAPON_60",
+		"Level" : 1,
+		"BuffID_00" : "Buff_SpinningBlade_00"
+	},
+	"Weapon_8_W":{
+		"ItemID" : "ITEM_DLC_WEAPON_65",
+		"Level" : 1
+	},
+	"Weapon_9_W":{
+		"ItemID" : "ITEM_DLC_WEAPON_70",
+		"Level" : 1
+	},
+	"Weapon_10_W":{
+		"ItemID" : "ITEM_DLC_WEAPON_75",
+		"Level" : 1,
+		"BuffID_00" : "Buff_SmashAttackRateUp_00"
+	},
+	"Weapon_11_W":{
+		"ItemID" : "ITEM_DLC_WEAPON_80",
+		"Level" : 1,
+		"BuffID_00" : "Buff_PowerStrike_00"
+	},
+	"Weapon_12_W":{
+		"ItemID" : "ITEM_DLC_WEAPON_85",
+		"Level" : 1,
+		"BuffID_00" : "Buff_Rush_00"
+	},
+	"Weapon_13_W":{
+		"ItemID" : "ITEM_DLC_WEAPON_105",
+		"Level" : 1
+	},
+	"Weapon_14_W":{
+		"ItemID" : "ITEM_DLC_WEAPON_110",
+		"Level" : 1,
+		"BuffID_00" : "Buff_AttackUp_01"
+	},
+	"Weapon_15_W":{
+		"ItemID" : "ITEM_DLC_WEAPON_115",
+		"Level" : 1
+	},
+	"Weapon_1_C":{
+		"ItemID" : "ITEM_DLC_WEAPON_150",
+		"Level" : 1,
+		"BuffID_00" : "Buff_AttackUp_01"
+	},
+	"Weapon_2_C":{
+		"ItemID" : "ITEM_DLC_WEAPON_155",
+		"Level" : 1,
+		"BuffID_00" : "Buff_Dispel_00"
+	},
+	"Weapon_3_C":{
+		"ItemID" : "ITEM_DLC_WEAPON_160",
+		"Level" : 1,
+		"BuffID_00" : "Buff_BlowAttackLvl_01"
+	},
+	"Weapon_4_C":{
+		"ItemID" : "ITEM_DLC_WEAPON_165",
+		"Level" : 1,
+		"BuffID_00" : "Buff_BlowAttackLvl_01"
+	},
+	"Weapon_5_C":{
+		"ItemID" : "ITEM_DLC_WEAPON_170",
+		"Level" : 1
+	},
+	"Weapon_6_C":{
+		"ItemID" : "ITEM_DLC_WEAPON_175",
+		"Level" : 1,
+		"BuffID_00" : "Buff_FireSword_00"
+	},
+	"Weapon_7_C":{
+		"ItemID" : "ITEM_DLC_WEAPON_210",
+		"Level" : 1,
+		"BuffID_00" : "Buff_HolyField_00"
+	},
+	"Weapon_8_C":{
+		"ItemID" : "ITEM_DLC_WEAPON_215",
+		"Level" : 1,
+		"BuffID_00" : "Buff_MonumentUp_01"
+	},
+	"Weapon_9_C":{
+		"ItemID" : "ITEM_DLC_WEAPON_220",
+		"Level" : 1,
+		"BuffID_00" : "Buff_MonumentUp_02"
+	},
+	"Weapon_10_C":{
+		"ItemID" : "ITEM_DLC_WEAPON_255",
+		"Level" : 1
+	},
+	"Weapon_11_C":{
+		"ItemID" : "ITEM_DLC_WEAPON_260",
+		"Level" : 1,
+		"BuffID_00" : "Buff_Reincarnation_00"
+	},
+	"Weapon_12_C":{
+		"ItemID" : "ITEM_DLC_WEAPON_265",
+		"Level" : 1
+	},
+	"Weapon_13_C":{
+		"ItemID" : "ITEM_DLC_WEAPON_285",
+		"Level" : 1,
+		"BuffID_00" : "Buff_Dispel_00"
+	},
+	"Weapon_14_C":{
+		"ItemID" : "ITEM_DLC_WEAPON_290",
+		"Level" : 1,
+		"BuffID_00" : "Buff_HolyField_00"
+	},
+	"Weapon_15_C":{
+		"ItemID" : "ITEM_DLC_WEAPON_295",
+		"Level" : 1,
+		"BuffID_00" : "Buff_SmashAttackRateUp_00"
+	},
+	"Weapon_1_M":{
+		"ItemID" : "ITEM_DLC_WEAPON_315",
+		"Level" : 1,
+		"BuffID_00" : "Buff_WindSword_00"
+	},
+	"Weapon_2_M":{
+		"ItemID" : "ITEM_DLC_WEAPON_320",
+		"Level" : 1,
+		"BuffID_00" : "Buff_LightningSword_00"
+	},
+	"Weapon_3_M":{
+		"ItemID" : "ITEM_DLC_WEAPON_325",
+		"Level" : 1
+	},
+	"Weapon_4_M":{
+		"ItemID" : "ITEM_DLC_WEAPON_345",
+		"Level" : 1,
+		"BuffID_00" : "Buff_MagicAttackUp_01"
+	},
+	"Weapon_5_M":{
+		"ItemID" : "ITEM_DLC_WEAPON_350",
+		"Level" : 1
+	},
+	"Weapon_6_M":{
+		"ItemID" : "ITEM_DLC_WEAPON_355",
+		"Level" : 1,
+		"BuffID_00" : "Buff_WindSword_00"
+	},
+	"Weapon_7_M":{
+		"ItemID" : "ITEM_DLC_WEAPON_375",
+		"Level" : 1,
+		"BuffID_00" : "Buff_MonumentUp_02"
+	},
+	"Weapon_8_M":{
+		"ItemID" : "ITEM_DLC_WEAPON_380",
+		"Level" : 1
+	},
+	"Weapon_9_M":{
+		"ItemID" : "ITEM_DLC_WEAPON_385",
+		"Level" : 1,
+		"BuffID_00" : "Buff_MonumentUp_01"
+	},
+	"Weapon_10_M":{
+		"ItemID" : "ITEM_DLC_WEAPON_405",
+		"Level" : 1,
+		"BuffID_00" : "Buff_MagicAttackUp_01"
+	},
+	"Weapon_11_M":{
+		"ItemID" : "ITEM_DLC_WEAPON_410",
+		"Level" : 1,
+		"BuffID_00" : "Buff_EnchantWind_00"
+	},
+	"Weapon_12_M":{
+		"ItemID" : "ITEM_DLC_WEAPON_415",
+		"Level" : 1
+	},
+	"Weapon_13_M":{
+		"ItemID" : "ITEM_DLC_WEAPON_435",
+		"Level" : 1,
+		"BuffID_00" : "Buff_GimmickDamageUp_01"
+	},
+	"Weapon_14_M":{
+		"ItemID" : "ITEM_DLC_WEAPON_440",
+		"Level" : 1
+	},
+	"Weapon_15_M":{
+		"ItemID" : "ITEM_DLC_WEAPON_445",
+		"Level" : 1
+	},
+	"Shield_1_1":{
+		"ItemID" : "ITEM_DLC_SHIELD_15",
+		"Level" : 1
+	},
+	"Shield_1_2":{
+		"ItemID" : "ITEM_DLC_SHIELD_20",
+		"Level" : 1,
+		"BuffID_00" : "Buff_DamageAPUp_00"
+	},
+	"Shield_1_3":{
+		"ItemID" : "ITEM_DLC_SHIELD_25",
+		"Level" : 1,
+		"BuffID_00" : "Buff_ShieldGuardUp_00"
+	},
+	"Shield_1_4":{
+		"ItemID" : "ITEM_DLC_SHIELD_30",
+		"Level" : 1
+	},
+	"Shield_1_5":{
+		"ItemID" : "ITEM_DLC_SHIELD_35",
+		"Level" : 1,
+		"BuffID_00" : "Buff_DamageAPUp_01"
+	},
+	"Shield_1_6":{
+		"ItemID" : "ITEM_DLC_SHIELD_40",
+		"Level" : 1,
+		"BuffID_00" : "Buff_FallDamageDown_00"
+	},
+	"Shield_1_7":{
+		"ItemID" : "ITEM_DLC_SHIELD_60",
+		"Level" : 1,
+		"BuffID_00" : "Buff_ShieldMasicGuardUp_00"
+	},
+	"Shield_1_8":{
+		"ItemID" : "ITEM_DLC_SHIELD_65",
+		"Level" : 1,
+		"BuffID_00" : "Buff_DamageAPUp_01"
+	},
+	"Shield_1_9":{
+		"ItemID" : "ITEM_DLC_SHIELD_70",
+		"Level" : 1
+	},
+	"Shield_1_10":{
+		"ItemID" : "ITEM_DLC_SHIELD_75",
+		"Level" : 1
+	},
+	"Shield_1_11":{
+		"ItemID" : "ITEM_DLC_SHIELD_80",
+		"Level" : 1,
+		"BuffID_00" : "Buff_ShieldGuardUp_00"
+	},
+	"Shield_1_12":{
+		"ItemID" : "ITEM_DLC_SHIELD_85",
+		"Level" : 1
+	},
+	"Shield_1_13":{
+		"ItemID" : "ITEM_DLC_SHIELD_90",
+		"Level" : 1,
+		"BuffID_00" : "Buff_ShieldGuardUp_00"
+	},
+	"Shield_1_14":{
+		"ItemID" : "ITEM_DLC_SHIELD_95",
+		"Level" : 1
+	},
+	"Shield_1_15":{
+		"ItemID" : "ITEM_DLC_SHIELD_100",
+		"Level" : 1,
+		"BuffID_00" : "Buff_DamageAPUp_01"
+	},
+	"Armor_W_1":{
+		"ItemID" : "ITEM_DLC_ARMOR_00",
+		"Level" : 1,
+		"BuffID_00" : "Buff_SpeedUp_00"
+	},
+	"Armor_W_2":{
+		"ItemID" : "ITEM_DLC_ARMOR_05",
+		"Level" : 1,
+		"BuffID_00" : "Buff_GuardUp_01"
+	},
+	"Armor_W_3":{
+		"ItemID" : "ITEM_DLC_ARMOR_10",
+		"Level" : 1
+	},
+	"Armor_C_1":{
+		"ItemID" : "ITEM_DLC_ARMOR_15",
+		"Level" : 1
+	},
+	"Armor_C_2":{
+		"ItemID" : "ITEM_DLC_ARMOR_20",
+		"Level" : 1,
+		"BuffID_00" : "Buff_SacredSong_00"
+	},
+	"Armor_C_3":{
+		"ItemID" : "ITEM_DLC_ARMOR_25",
+		"Level" : 1,
+		"BuffID_00" : "Buff_FreezeGuardRateDown_01"
+	},
+	"Armor_M_1":{
+		"ItemID" : "ITEM_DLC_ARMOR_30",
+		"Level" : 1,
+		"BuffID_00" : "Buff_SpeedUp_00"
+	},
+	"Armor_M_2":{
+		"ItemID" : "ITEM_DLC_ARMOR_35",
+		"Level" : 1
+	},
+	"Armor_M_3":{
+		"ItemID" : "ITEM_DLC_ARMOR_40",
+		"Level" : 1,
+		"BuffID_00" : "Buff_FaintGuardRateDown_01"
+	},
+	"Helm_W_1":{
+		"ItemID" : "ITEM_DLC_HEAD_05",
+		"Level" : 1,
+		"BuffID_00" : "Buff_MaxAPUp_01"
+	},
+	"Helm_W_2":{
+		"ItemID" : "ITEM_DLC_HEAD_35",
+		"Level" : 1,
+		"BuffID_00" : "Buff_ExpUp_01"
+	},
+	"Helm_W_3":{
+		"ItemID" : "ITEM_DLC_HEAD_45",
+		"Level" : 1,
+		"BuffID_00" : "Buff_APSelfCureUp_01"
+	},
+	"Helm_W_4":{
+		"ItemID" : "ITEM_DLC_HEAD_58",
+		"Level" : 1,
+		"BuffID_00" : "Buff_RocketMan_00"
+	},
+	"Helm_W_5":{
+		"ItemID" : "ITEM_DLC_HEAD_100",
+		"Level" : 1,
+		"BuffID_00" : "Buff_MaxAPUp_01"
+	},
+	"Helm_C_1":{
+		"ItemID" : "ITEM_DLC_HEAD_18",
+		"Level" : 1,
+		"BuffID_00" : "Buff_HPSelfCureUp_01"
+	},
+	"Helm_C_2":{
+		"ItemID" : "ITEM_DLC_HEAD_70",
+		"Level" : 1,
+		"BuffID_00" : "Buff_MaxAPUp_01"
+	},
+	"Helm_C_3":{
+		"ItemID" : "ITEM_DLC_HEAD_75",
+		"Level" : 1,
+		"BuffID_00" : "Buff_APSelfCureUp_01"
+	},
+	"Helm_C_4":{
+		"ItemID" : "ITEM_DLC_HEAD_110",
+		"Level" : 1,
+		"BuffID_00" : "Buff_ExpUp_01"
+	},
+	"Helm_C_5":{
+		"ItemID" : "ITEM_DLC_HEAD_115",
+		"Level" : 1,
+		"BuffID_00" : "Buff_ExpUp_01"
+	},
+	"Helm_M_1":{
+		"ItemID" : "ITEM_DLC_HEAD_20",
+		"Level" : 1,
+		"BuffID_00" : "Buff_MagicNapalm_00"
+	},
+	"Helm_M_2":{
+		"ItemID" : "ITEM_DLC_HEAD_25",
+		"Level" : 1,
+		"BuffID_00" : "Buff_Blizzard_00"
+	},
+	"Helm_M_3":{
+		"ItemID" : "ITEM_DLC_HEAD_90",
+		"Level" : 1,
+		"BuffID_00" : "Buff_MaxAPUp_01"
+	},
+	"Helm_M_4":{
+		"ItemID" : "ITEM_DLC_HEAD_135",
+		"Level" : 1,
+		"BuffID_00" : "Buff_ExpUp_01"
+	},
+	"Helm_M_5":{
+		"ItemID" : "ITEM_DLC_HEAD_140",
+		"Level" : 1,
+		"BuffID_00" : "Buff_MaxHPUp_01"
+	},
+	"Acc_1_1":{
+		"ItemID" : "ITEM_DLC_ACC_0015",
+		"Level" : 1,
+		"BuffID_00" : "Buff_GimmickAttackUp_00",
+		"BuffID_01" : "Buff_RespawnTime_00"
+	},
+	"Acc_1_2":{
+		"ItemID" : "ITEM_DLC_ACC_0020",
+		"Level" : 1,
+		"BuffID_00" : "Buff_UseApDown_00",
+		"BuffID_01" : "Buff_GimmickAttackUp_01"
+	},
+	"Acc_1_3":{
+		"ItemID" : "ITEM_DLC_ACC_0025",
+		"Level" : 1,
+		"BuffID_00" : "Buff_UseApDown_00",
+		"BuffID_01" : "Buff_GimmickAttackUp_01"
+	},
+	"Acc_1_4":{
+		"ItemID" : "ITEM_DLC_ACC_0045",
+		"Level" : 1,
+		"BuffID_00" : "Buff_CoolTime_00",
+		"BuffID_01" : "Buff_RespawnTime_00"
+	},
+	"Acc_1_5":{
+		"ItemID" : "ITEM_DLC_ACC_0050",
+		"Level" : 1
+	},
+	"Acc_1_6":{
+		"ItemID" : "ITEM_DLC_ACC_0055",
+		"Level" : 1
+	},
+	"Acc_1_7":{
+		"ItemID" : "ITEM_DLC_ACC_0075",
+		"Level" : 1,
+		"BuffID_00" : "Buff_UseApDown_00"
+	},
+	"Acc_1_8":{
+		"ItemID" : "ITEM_DLC_ACC_0080",
+		"Level" : 1,
+		"BuffID_00" : "Buff_UseApDown_01"
+	},
+	"Acc_1_9":{
+		"ItemID" : "ITEM_DLC_ACC_0085",
+		"Level" : 1,
+		"BuffID_00" : "Buff_CoolTime_01"
+	},
+	"Acc_1_10":{
+		"ItemID" : "ITEM_DLC_ACC_0090",
+		"Level" : 1,
+		"BuffID_00" : "Buff_GimmickAttackUp_01"
+	},
+	"Acc_1_11":{
+		"ItemID" : "ITEM_DLC_ACC_0095",
+		"Level" : 1,
+		"BuffID_00" : "Buff_CoolTime_01"
+	},
+	"Acc_1_12":{
+		"ItemID" : "ITEM_DLC_ACC_0100",
+		"Level" : 1,
+		"BuffID_00" : "Buff_TeamUseApDown_00"
+	},
+	"Acc_1_13":{
+		"ItemID" : "ITEM_DLC_ACC_0135",
+		"Level" : 1,
+		"BuffID_00" : "Buff_GimmickAttackUp_00",
+		"BuffID_01" : "Buff_RespawnTime_00"
+	},
+	"Acc_1_14":{
+		"ItemID" : "ITEM_DLC_ACC_0140",
+		"Level" : 1,
+		"BuffID_00" : "Buff_UseApDown_00",
+		"BuffID_01" : "Buff_GimmickAttackUp_01"
+	},
+	"Acc_1_15":{
+		"ItemID" : "ITEM_DLC_ACC_0145",
+		"Level" : 1,
+		"BuffID_00" : "Buff_RespawnTime_01",
+		"BuffID_01" : "Buff_UseApDown_00"
+	}
+},
+// Gemini_Catalog.xlsm.tmp ItemSet 
+
+"itemSet_":{
+	"ITEMSET0004":{
+		"DetailID_00" : "Weapon_3_W",
+		"DetailID_01" : "Weapon_7_C",
+		"DetailID_02" : "Weapon_3_M"
+	},
+	"ITEMSET0005":{
+		"DetailID_00" : "Weapon_7_W",
+		"DetailID_01" : "Shield_1_4",
+		"DetailID_02" : "Armor_W_2",
+		"DetailID_03" : "Helm_W_4"
+	},
+	"ITEMSET0006":{
+		"DetailID_00" : "Weapon_13_M",
+		"DetailID_01" : "Weapon_14_M",
+		"DetailID_02" : "Armor_M_3",
+		"DetailID_03" : "Helm_M_4"
+	},
+	"ITEMSET0007":{
+		"DetailID_00" : "Helm_W_5",
+		"DetailID_01" : "Helm_C_5",
+		"DetailID_02" : "Helm_M_3"
+	},
+	"ITEMSET0008":{
+		"DetailID_00" : "Weapon_7_W",
+		"DetailID_01" : "Weapon_3_C",
+		"DetailID_02" : "Weapon_5_M"
+	},
+	"ITEMSET0009":{
+		"DetailID_00" : "Weapon_13_C",
+		"DetailID_01" : "Helm_C_4",
+		"DetailID_02" : "Armor_C_2",
+		"DetailID_03" : "Shield_1_10"
+	},
+	"ITEMSET0010":{
+		"DetailID_00" : "Weapon_14_W",
+		"DetailID_01" : "Weapon_11_C",
+		"DetailID_02" : "Weapon_15_M"
+	},
+	"ITEMSET0011":{
+		"DetailID_00" : "Acc_1_4",
+		"DetailID_01" : "Acc_1_7",
+		"DetailID_02" : "Acc_1_1"
+	},
+	"ITEMSET0012":{
+		"DetailID_00" : "Weapon_4_W",
+		"DetailID_01" : "Weapon_10_C",
+		"DetailID_02" : "Weapon_8_M"
+	},
+	"ITEMSET0013":{
+		"DetailID_00" : "StartWeapon_W_2",
+		"DetailID_01" : "StartShield_W_2",
+		"DetailID_02" : "StartHelm_W_2",
+		"DetailID_03" : "StartArmor_W_2"
+	},
+	"ITEMSET0014":{
+		"DetailID_00" : "StartWeapon_C_2",
+		"DetailID_01" : "StartShield_C_2",
+		"DetailID_02" : "StartHelm_C_2",
+		"DetailID_03" : "StartArmor_C_2"
+	},
+	"ITEMSET0015":{
+		"DetailID_00" : "StartWeapon_M_2_1",
+		"DetailID_01" : "StartWeapon_M_2_2",
+		"DetailID_02" : "StartHelm_M_2",
+		"DetailID_03" : "StartArmor_M_2"
+	},
+	"ITEMSET0016":{
+		"DetailID_00" : "Shield_1_14",
+		"DetailID_01" : "Shield_1_7",
+		"DetailID_02" : "Shield_1_5"
+	},
+	"ITEMSET0017":{
+		"DetailID_00" : "Weapon_13_W",
+		"DetailID_01" : "Weapon_9_C",
+		"DetailID_02" : "Weapon_11_M"
+	},
+	"ITEMSET0018":{
+		"DetailID_00" : "Acc_1_6",
+		"DetailID_01" : "Acc_1_11",
+		"DetailID_02" : "Acc_1_8"
+	},
+	"ITEMSET0019":{
+		"DetailID_00" : "Weapon_10_W",
+		"DetailID_01" : "Weapon_8_C",
+		"DetailID_02" : "Weapon_10_M"
+	},
+	"ITEMSET0023":{
+		"DetailID_00" : "Weapon_12_C",
+		"DetailID_01" : "Armor_C_1",
+		"DetailID_02" : "Helm_C_1",
+		"DetailID_03" : "Shield_1_3"
+	},
+	"ITEMSET0024":{
+		"DetailID_00" : "Acc_1_10",
+		"DetailID_01" : "Acc_1_2",
+		"DetailID_02" : "Acc_1_15"
+	},
+	"ITEMSET0025":{
+		"DetailID_00" : "Helm_W_1",
+		"DetailID_01" : "Helm_C_1",
+		"DetailID_02" : "Helm_M_1"
+	},
+	"ITEMSET0026":{
+		"DetailID_00" : "Weapon_4_W",
+		"DetailID_01" : "Helm_W_3",
+		"DetailID_02" : "Armor_W_3",
+		"DetailID_03" : "Shield_1_14"
+	},
+	"ITEMSET0027":{
+		"DetailID_00" : "Weapon_4_M",
+		"DetailID_01" : "Weapon_6_M",
+		"DetailID_02" : "Armor_M_1",
+		"DetailID_03" : "Helm_M_5"
+	},
+	"ITEMSET0028":{
+		"DetailID_00" : "Armor_W_2",
+		"DetailID_01" : "Armor_M_3",
+		"DetailID_02" : "Armor_C_1"
+	},
+	"ITEMSET0032":{
+		"DetailID_00" : "Weapon_11_W",
+		"DetailID_01" : "Helm_W_2",
+		"DetailID_02" : "Armor_W_1",
+		"DetailID_03" : "Shield_1_6"
+	},
+	"ITEMSET0033":{
+		"DetailID_00" : "Shield_1_11",
+		"DetailID_01" : "Shield_1_3",
+		"DetailID_02" : "Shield_1_9"
+	},
+	"ITEMSET0034":{
+		"DetailID_00" : "Helm_W_4",
+		"DetailID_01" : "Helm_C_3",
+		"DetailID_02" : "Helm_M_5"
+	},
+	"ITEMSET0035":{
+		"DetailID_00" : "Weapon_8_W",
+		"DetailID_01" : "Weapon_5_C",
+		"DetailID_02" : "Weapon_2_M"
+	},
+	"ITEMSET0036":{
+		"DetailID_00" : "Acc_1_13",
+		"DetailID_01" : "Acc_1_3",
+		"DetailID_02" : "Acc_1_5"
+	},
+	"ITEMSET0037":{
+		"DetailID_00" : "Shield_1_4",
+		"DetailID_01" : "Shield_1_2",
+		"DetailID_02" : "Shield_1_8"
+	},
+	"ITEMSET0038":{
+		"DetailID_00" : "Weapon_5_W",
+		"DetailID_01" : "Weapon_6_C",
+		"DetailID_02" : "Weapon_14_M"
+	},
+	"ITEMSET0039":{
+		"DetailID_00" : "Weapon_9_W",
+		"DetailID_01" : "Weapon_4_C",
+		"DetailID_02" : "Weapon_1_M"
+	},
+	"ITEMSET0040":{
+		"DetailID_00" : "Weapon_7_M",
+		"DetailID_01" : "Weapon_8_M",
+		"DetailID_02" : "Helm_M_3",
+		"DetailID_03" : "Armor_M_2"
+	},
+	"ITEMSET0041":{
+		"DetailID_00" : "Weapon_3_C",
+		"DetailID_01" : "Helm_C_2",
+		"DetailID_02" : "Armor_C_3",
+		"DetailID_03" : "Shield_1_7"
+	},
+	"ITEMSET0042":{
+		"DetailID_00" : "Weapon_11_W",
+		"DetailID_01" : "Weapon_1_C",
+		"DetailID_02" : "Weapon_6_M"
+	},
+	"ITEMSET0043":{
+		"DetailID_00" : "Weapon_12_W",
+		"DetailID_01" : "Weapon_15_C",
+		"DetailID_02" : "Weapon_12_M"
+	},
+	"ITEMSET0044":{
+		"DetailID_00" : "Armor_W_3",
+		"DetailID_01" : "Armor_C_3",
+		"DetailID_02" : "Armor_M_1"
+	},
+	"ITEMSET0045":{
+		"DetailID_00" : "Weapon_2_W",
+		"DetailID_01" : "Weapon_12_C",
+		"DetailID_02" : "Weapon_13_M"
+	},
+	"ITEMSET0046":{
+		"DetailID_00" : "Helm_W_2",
+		"DetailID_01" : "Helm_C_2",
+		"DetailID_02" : "Helm_M_2"
+	},
+	"ITEMSET0047":{
+		"DetailID_00" : "Weapon_1_W",
+		"DetailID_01" : "Weapon_2_C",
+		"DetailID_02" : "Weapon_7_M"
+	},
+	"ITEMSET0048":{
+		"DetailID_00" : "Armor_W_1",
+		"DetailID_01" : "Armor_C_2",
+		"DetailID_02" : "Armor_M_2"
+	},
+	"ITEMSET0049":{
+		"DetailID_00" : "Acc_1_14",
+		"DetailID_01" : "Acc_1_12",
+		"DetailID_02" : "Acc_1_9"
+	},
+	"ITEMSET0050":{
+		"DetailID_00" : "Shield_1_12",
+		"DetailID_01" : "Shield_1_1",
+		"DetailID_02" : "Shield_1_13"
+	},
+	"ITEMSET0051":{
+		"DetailID_00" : "Helm_W_3",
+		"DetailID_01" : "Helm_C_4",
+		"DetailID_02" : "Helm_M_4"
+	},
+	"ITEMSET0052":{
+		"DetailID_00" : "Weapon_6_W",
+		"DetailID_01" : "Weapon_13_C",
+		"DetailID_02" : "Weapon_9_M"
+	},
+	"ITEMSET0053":{
+		"DetailID_00" : "Weapon_15_W",
+		"DetailID_01" : "Weapon_14_C",
+		"DetailID_02" : "Weapon_4_M"
+	},
+	"ITEMSET0054":{
+		"DetailID_00" : "Shield_1_15",
+		"DetailID_01" : "Shield_1_10",
+		"DetailID_02" : "Shield_1_6"
+	}
+},
+// Gemini_Catalog.xlsm.tmp TypeLotteryTable 
+
+"typeLotteryTable_":{
+	"DEFAULT_TABLE":{
+		"Weapon" : 20,
+		"Shield" : 20,
+		"Helm" : 20,
+		"Armor" : 20,
+		"Accessory" : 20
+	}
+},
+// Gemini_Catalog.xlsm.tmp TicketPriceTable 
+
+"ticketPriceTable_":{
+	"DEFAULT_TABLE":{
+		"RarePrice01" : 8,
+		"RarePrice02" : 8,
+		"RarePrice03" : 8,
+		"RarePrice04" : 8,
+		"RarePrice05" : 8,
+		"RarePrice06" : 8,
+		"RarePrice07" : 8,
+		"RarePrice08" : 8,
+		"RarePrice09" : 8,
+		"RarePrice10" : 8,
+		"StarPerTicket" : 400
+	}
+}}}

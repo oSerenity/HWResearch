@@ -1,0 +1,26 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"FishSwim" :
+	[
+		{
+			"@class" : "command::GimmickEffectRequest",
+			"label_" : "st21",
+			"boneName_" : "",
+			"useIndex_" : -1,
+			"constrainMatrixIndex_" : 0,
+			"sx_" : 5,
+			"sy_" : 5,
+			"sz_" : 5,
+			"rx_" : 0,
+			"ry_" : 0,
+			"rz_" : 0,
+			"tx_" : 0,
+			"ty_" : 0,
+			"tz_" : 0,
+			"transOnly_" : false
+		}
+	]
+}
+
+// end of file

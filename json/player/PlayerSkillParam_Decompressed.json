@@ -1,0 +1,561 @@
+/* XDASEA_Xm8R_SPsX */ 
+// PlayerSkillParam.xlsx
+{
+	"JsonPlayerParam": {
+		"skillParam_": {
+			"Smash": {
+				"kind_": "SKILL_W_SMASH",
+				"button_": "A",
+				"jobStyle_": "JOB_STYLE_WARRIOR",
+				"costAP_": 35,
+				"coolTime_": 1.2
+			},
+			"Rush": {
+				"kind_": "SKILL_W_RUSH",
+				"button_": "A",
+				"jobStyle_": "JOB_STYLE_WARRIOR",
+				"costAP_": 50,
+				"coolTime_": 12
+			},
+			"SpinningBlade": {
+				"kind_": "SKILL_W_SPINNING_BLADE",
+				"button_": "A",
+				"jobStyle_": "JOB_STYLE_WARRIOR",
+				"costAP_": 14,
+				"weakCostAP_": 21,
+				"coolTime_": 4
+			},
+			"ChargeAttack": {
+				"kind_": "SKILL_W_CHARGE_ATTACK",
+				"button_": "A",
+				"jobStyle_": "JOB_STYLE_WARRIOR",
+				"costAP_": 40,
+				"coolTime_": 6
+			},
+			"Rocketman": {
+				"kind_": "SKILL_W_ROCKETMAN",
+				"button_": "B",
+				"jobStyle_": "JOB_STYLE_WARRIOR",
+				"costAP_": 50,
+				"coolTime_": 5.5
+			},
+			"Stone": {
+				"kind_": "SKILL_W_STONE",
+				"button_": "B",
+				"jobStyle_": "JOB_STYLE_WARRIOR",
+				"costAP_": 15,
+				"coolTime_": 0.3
+			},
+			"Roar": {
+				"kind_": "SKILL_W_ROAR",
+				"button_": "B",
+				"jobStyle_": "JOB_STYLE_WARRIOR",
+				"costAP_": 45,
+				"coolTime_": 6.5
+			},
+			"SuperGuard": {
+				"kind_": "SKILL_W_SUPER_GUARD",
+				"button_": "B",
+				"jobStyle_": "JOB_STYLE_WARRIOR",
+				"costAP_": 25,
+				"weakCostAP_": 50,
+				"coolTime_": 6
+			},
+			"Encourage": {
+				"kind_": "SKILL_TEAM_W_CHEER",
+				"button_": "T",
+				"jobStyle_": "JOB_STYLE_WARRIOR",
+				"isCast_": true,
+				"costAP_": 60,
+				"coolTime_": 90,
+				"castBegin_": "cheer_start",
+				"castLoop_": "cheer_loop",
+				"castEnd_": "cheer",
+				"param0_": 1
+			},
+			"Phalanx": {
+				"kind_": "SKILL_TEAM_W_PHALANX",
+				"button_": "T",
+				"jobStyle_": "JOB_STYLE_WARRIOR",
+				"isCast_": true,
+				"costAP_": 40,
+				"weakCostAP_": 80,
+				"coolTime_": 80,
+				"castBegin_": "phalanx_start",
+				"castLoop_": "phalanx_loop",
+				"castEnd_": "phalanx_exec",
+				"param0_": 1
+			},
+			"Charge": {
+				"kind_": "SKILL_TEAM_W_CHARGE",
+				"button_": "T",
+				"jobStyle_": "JOB_STYLE_WARRIOR",
+				"isCast_": true,
+				"costAP_": 90,
+				"coolTime_": 120,
+				"castBegin_": "charge_start",
+				"castLoop_": "charge_loop",
+				"param0_": 2
+			},
+			"FireBall": {
+				"kind_": "SKILL_M_FIRE_BALL",
+				"costAP_": 7,
+				"coolTime_": 0.4
+			},
+			"Lightning Bolt": {
+				"kind_": "SKILL_M_LIGHTNING_BOLT",
+				"costAP_": 15,
+				"coolTime_": 0.25
+			},
+			"WindBlast": {
+				"kind_": "SKILL_M_WIND_BLAST",
+				"costAP_": 13,
+				"coolTime_": 0.5
+			},
+			"Frost Shot": {
+				"kind_": "SKILL_M_FROST_SHOT",
+				"costAP_": 16,
+				"coolTime_": 0.5
+			},
+			"FireBallS": {
+				"kind_": "SKILL_M_FIRE_BALL_S",
+				"costAP_": 55,
+				"coolTime_": 0.6
+			},
+			"Lightning BoltS": {
+				"kind_": "SKILL_M_LIGHTNING_BOLT_S",
+				"costAP_": 60,
+				"coolTime_": 0.6
+			},
+			"WindBlastS": {
+				"kind_": "SKILL_M_WIND_BLAST_S",
+				"costAP_": 54,
+				"coolTime_": 0.6
+			},
+			"Frost ShotS": {
+				"kind_": "SKILL_M_FROST_SHOT_S",
+				"costAP_": 70,
+				"coolTime_": 0.6
+			},
+			"EnchantFire": {
+				"kind_": "SKILL_M_ENCHANT_FIRE",
+				"button_": "A",
+				"jobStyle_": "JOB_STYLE_MAGE",
+				"isCast_": true,
+				"costAP_": 20,
+				"coolTime_": 2,
+				"castBegin_": "cast_start_e_fire",
+				"castLoop_": "cast_e_fire",
+				"castEnd_": "cast_end_e_fire"
+			},
+			"EnchantLightning": {
+				"kind_": "SKILL_M_ENCHANT_LIGHTNING",
+				"button_": "A",
+				"jobStyle_": "JOB_STYLE_MAGE",
+				"isCast_": true,
+				"costAP_": 20,
+				"coolTime_": 2,
+				"castBegin_": "cast_start_e_light",
+				"castLoop_": "cast_e_light",
+				"castEnd_": "cast_end_e_light"
+			},
+			"EnchantWind": {
+				"kind_": "SKILL_M_ENCHANT_WIND",
+				"button_": "A",
+				"jobStyle_": "JOB_STYLE_MAGE",
+				"isCast_": true,
+				"costAP_": 20,
+				"coolTime_": 2,
+				"castBegin_": "cast_start_e_wind",
+				"castLoop_": "cast_e_wind",
+				"castEnd_": "cast_end_e_wind"
+			},
+			"EnchantIce": {
+				"kind_": "SKILL_M_ENCHANT_ICE",
+				"button_": "A",
+				"jobStyle_": "JOB_STYLE_MAGE",
+				"isCast_": true,
+				"costAP_": 20,
+				"coolTime_": 2,
+				"castBegin_": "cast_start_e_ice",
+				"castLoop_": "cast_e_ice",
+				"castEnd_": "cast_end_e_ice"
+			},
+			"PillarBomb": {
+				"kind_": "SKILL_M_PILLAR_BOMB",
+				"button_": "B",
+				"jobStyle_": "JOB_STYLE_MAGE",
+				"isCast_": true,
+				"costAP_": 17,
+				"weakCostAP_": 20,
+				"coolTime_": 7,
+				"castBegin_": "cast_start_pillarbomb",
+				"castLoop_": "cast_pillarbomb",
+				"castEnd_": "cast_end_pillarbomb"
+			},
+			"LightningStrike": {
+				"kind_": "SKILL_M_LIGHTNING_STRIKE",
+				"button_": "B",
+				"jobStyle_": "JOB_STYLE_MAGE",
+				"isCast_": true,
+				"costAP_": 60,
+				"weakCostAP_": 75,
+				"coolTime_": 6,
+				"castBegin_": "cast_start_lightning_strike",
+				"castLoop_": "cast_lightning_strike",
+				"castEnd_": "cast_end_lightning_strike"
+			},
+			"WindTrap": {
+				"kind_": "SKILL_M_WIND_TRAP",
+				"button_": "B",
+				"jobStyle_": "JOB_STYLE_MAGE",
+				"isCast_": true,
+				"costAP_": 35,
+				"coolTime_": 5,
+				"castBegin_": "cast_start_windtrap",
+				"castLoop_": "cast_windtrap",
+				"castEnd_": "cast_end_windtrap"
+			},
+			"Blizzard": {
+				"kind_": "SKILL_M_BLIZZARD",
+				"button_": "B",
+				"jobStyle_": "JOB_STYLE_MAGE",
+				"isCast_": true,
+				"costAP_": 60,
+				"weakCostAP_": 75,
+				"coolTime_": 6.5,
+				"castBegin_": "cast_start_blizzard",
+				"castLoop_": "cast_blizzard",
+				"castEnd_": "cast_blizzard_exec"
+			},
+			"MeteorStorm": {
+				"kind_": "SKILL_TEAM_M_METEOR_STORM",
+				"button_": "T",
+				"jobStyle_": "JOB_STYLE_MAGE",
+				"isCast_": true,
+				"costAP_": 100,
+				"coolTime_": 180,
+				"castBegin_": "cast_start_meteor_storm",
+				"castLoop_": "cast_meteor_storm",
+				"castEnd_": "cast_end_meteor_storm",
+				"param0_": 3
+			},
+			"LightningArrows": {
+				"kind_": "SKILL_TEAM_M_LIGHTNING_ARROWS",
+				"button_": "T",
+				"jobStyle_": "JOB_STYLE_MAGE",
+				"isCast_": true,
+				"costAP_": 40,
+				"coolTime_": 60,
+				"castBegin_": "cast_start_lightning_arrows",
+				"castLoop_": "cast_lightning_arrows",
+				"param0_": 1
+			},
+			"Tornado": {
+				"kind_": "SKILL_TEAM_M_TORNADO",
+				"button_": "T",
+				"jobStyle_": "JOB_STYLE_MAGE",
+				"isCast_": true,
+				"costAP_": 100,
+				"coolTime_": 180,
+				"castBegin_": "cast_start_tornado",
+				"castLoop_": "cast_tornado",
+				"param0_": 4
+			},
+			"Healing": {
+				"kind_": "SKILL_C_HEALING",
+				"button_": "A",
+				"jobStyle_": "JOB_STYLE_CLERIC",
+				"isCast_": true,
+				"costAP_": 20,
+				"weakCostAP_": 40,
+				"coolTime_": 0.3,
+				"castBegin_": "cast_start_healing",
+				"castLoop_": "cast_healing",
+				"castEnd_": "cast_end_healing"
+			},
+			"Dispel": {
+				"kind_": "SKILL_C_DISPEL",
+				"button_": "A",
+				"jobStyle_": "JOB_STYLE_CLERIC",
+				"isCast_": true,
+				"costAP_": 25,
+				"weakCostAP_": 40,
+				"coolTime_": 2,
+				"castBegin_": "cast_start_dispel",
+				"castLoop_": "cast_dispel",
+				"castEnd_": "cast_end_dispel"
+			},
+			"Reincarnation": {
+				"kind_": "SKILL_C_REINCARNATION",
+				"button_": "A",
+				"jobStyle_": "JOB_STYLE_CLERIC",
+				"isCast_": true,
+				"costAP_": 50,
+				"weakCostAP_": 75,
+				"coolTime_": 2,
+				"castBegin_": "cast_start_reincarnation",
+				"castLoop_": "cast_reincarnation",
+				"castEnd_": "cast_end_reincarnation"
+			},
+			"Sanctuary": {
+				"kind_": "SKILL_C_SANCTUARY",
+				"button_": "A",
+				"jobStyle_": "JOB_STYLE_CLERIC",
+				"isCast_": true,
+				"costAP_": 60,
+				"weakCostAP_": 80,
+				"coolTime_": 8,
+				"castBegin_": "cast_start_sanctuary",
+				"castLoop_": "cast_sanctuary",
+				"castEnd_": "cast_end_sanctuary"
+			},
+			"Construct": {
+				"kind_": "SKILL_C_CONSTRUCT",
+				"button_": "B",
+				"jobStyle_": "JOB_STYLE_CLERIC",
+				"isCast_": true,
+				"costAP_": 30,
+				"coolTime_": 3.5,
+				"castBegin_": "cast_start_material",
+				"castLoop_": "cast_material",
+				"castEnd_": "cast_end_material"
+			},
+			"RunThrough": {
+				"kind_": "SKILL_C_RUN_THROUGH",
+				"button_": "B",
+				"jobStyle_": "JOB_STYLE_CLERIC",
+				"isCast_": true,
+				"costAP_": 30,
+				"coolTime_": 2,
+				"castBegin_": "cast_start_dash",
+				"castLoop_": "cast_dash",
+				"castEnd_": "cast_end_dash"
+			},
+			"ArmorPlate": {
+				"kind_": "SKILL_C_ARMOR_PLATE",
+				"button_": "B",
+				"jobStyle_": "JOB_STYLE_CLERIC",
+				"isCast_": true,
+				"costAP_": 40,
+				"coolTime_": 6,
+				"castBegin_": "cast_start_subst",
+				"castLoop_": "cast_subst",
+				"castEnd_": "cast_end_subst"
+			},
+			"Wall": {
+				"kind_": "SKILL_C_WALL",
+				"button_": "B",
+				"jobStyle_": "JOB_STYLE_CLERIC",
+				"isCast_": true,
+				"costAP_": 40,
+				"coolTime_": 6,
+				"castBegin_": "cast_start_wall",
+				"castLoop_": "cast_wall",
+				"castEnd_": "cast_end_wall"
+			},
+			"SacredSong": {
+				"kind_": "SKILL_TEAM_C_SACRED_SONG",
+				"button_": "T",
+				"jobStyle_": "JOB_STYLE_CLERIC",
+				"isCast_": true,
+				"costAP_": 50,
+				"weakCostAP_": 85,
+				"coolTime_": 70,
+				"castBegin_": "cast_start_sacred_song",
+				"castLoop_": "cast_sacred_song",
+				"castEnd_": "cast_end_sacred_song",
+				"param0_": 1
+			},
+			"Transport": {
+				"kind_": "SKILL_TEAM_C_TRANSPORT",
+				"button_": "T",
+				"jobStyle_": "JOB_STYLE_CLERIC",
+				"isCast_": true,
+				"costAP_": 50,
+				"coolTime_": 10,
+				"castBegin_": "cast_start_transport",
+				"castLoop_": "cast_transport",
+				"castEnd_": "cast_end_transport",
+				"param0_": 1
+			},
+			"HappyMiracle": {
+				"kind_": "SKILL_TEAM_C_HAPPY_MIRACLE",
+				"button_": "T",
+				"jobStyle_": "JOB_STYLE_CLERIC",
+				"isCast_": true,
+				"costAP_": 100,
+				"coolTime_": 180,
+				"castBegin_": "cast_start_happy_miracle",
+				"castLoop_": "cast_happy_miracle",
+				"castEnd_": "cast_end_happy_miracle",
+				"param0_": 3
+			},
+			"DoubleSpinning": {
+				"kind_": "SKILL_B_DOUBLE_SPINNING",
+				"button_": "A",
+				"jobStyle_": "JOB_STYLE_BERSERKER",
+				"costAP_": 18,
+				"coolTime_": 5.5
+			},
+			"WeaponThrow": {
+				"kind_": "SKILL_B_WEAPON_THROW",
+				"button_": "B",
+				"jobStyle_": "JOB_STYLE_BERSERKER",
+				"costAP_": 36,
+				"coolTime_": 2.7
+			},
+			"Fury": {
+				"kind_": "SKILL_B_FURY",
+				"button_": "B",
+				"jobStyle_": "JOB_STYLE_BERSERKER",
+				"costAP_": 40,
+				"coolTime_": 8
+			},
+			"RocketArmy": {
+				"kind_": "SKILL_TEAM_B_ROCKETARMY",
+				"button_": "T",
+				"jobStyle_": "JOB_STYLE_BERSERKER",
+				"isCast_": true,
+				"costAP_": 80,
+				"coolTime_": 120,
+				"castBegin_": "rocketarmy_start",
+				"castLoop_": "rocketarmy_loop",
+				"param0_": 2
+			},
+			"WindWarp": {
+				"kind_": "SKILL_S_WIND_WARP",
+				"button_": "B",
+				"jobStyle_": "JOB_STYLE_SYLPH",
+				"isCast_": true,
+				"costAP_": 30,
+				"coolTime_": 10,
+				"castBegin_": "cast_start_Wind_Warp",
+				"castLoop_": "cast_Wind_Warp",
+				"castEnd_": "cast_end_Wind_Warp"
+			},
+			"WindWarpExec": {
+				"kind_": "SKILL_S_WIND_WARP_EXEC"
+			},
+			"Capture": {
+				"kind_": "SKILL_S_CAPTURE",
+				"button_": "B",
+				"jobStyle_": "JOB_STYLE_SYLPH",
+				"isCast_": true,
+				"costAP_": 48,
+				"coolTime_": 7,
+				"castBegin_": "cast_start_Capture",
+				"castLoop_": "cast_Capture",
+				"castEnd_": "cast_end_Capture"
+			},
+			"Cyclone": {
+				"kind_": "SKILL_S_CYCLONE",
+				"button_": "B",
+				"jobStyle_": "JOB_STYLE_SYLPH",
+				"isCast_": true,
+				"costAP_": 48,
+				"coolTime_": 7,
+				"castBegin_": "cast_start_Cyclone",
+				"castLoop_": "cast_Cyclone",
+				"castEnd_": "cast_end_Cyclone"
+			},
+			"CycloneSield": {
+				"kind_": "SKILL_TEAM_S_CYCLONE_SHIELD",
+				"button_": "T",
+				"jobStyle_": "JOB_STYLE_SYLPH",
+				"isCast_": true,
+				"costAP_": 90,
+				"coolTime_": 150,
+				"castBegin_": "cast_start_Cyclone_Shield",
+				"castLoop_": "cast_Cyclone_Shield",
+				"castEnd_": "cast_end_Cyclone_Shield",
+				"param0_": 2
+			},
+			"Repair": {
+				"kind_": "SKILL_E_REPAIR",
+				"button_": "A",
+				"jobStyle_": "JOB_STYLE_ENGINEER",
+				"costAP_": 17,
+				"coolTime_": 0.25
+			},
+			"RemoteBomb": {
+				"kind_": "SKILL_E_REMOTE_BOMB",
+				"button_": "A",
+				"jobStyle_": "JOB_STYLE_ENGINEER",
+				"costAP_": 40,
+				"coolTime_": 5
+			},
+			"CrashWork": {
+				"kind_": "SKILL_E_CRASH_WORK",
+				"button_": "A",
+				"jobStyle_": "JOB_STYLE_ENGINEER",
+				"isCast_": true,
+				"costAP_": 50,
+				"coolTime_": 13,
+				"castBegin_": "cast_start_CrashWork",
+				"castLoop_": "cast_CrashWork",
+				"castEnd_": "cast_end_CrashWork"
+			},
+			"Update": {
+				"kind_": "SKILL_E_UPDATE",
+				"button_": "B",
+				"jobStyle_": "JOB_STYLE_ENGINEER",
+				"isCast_": true,
+				"costAP_": 15,
+				"coolTime_": 3.5,
+				"castBegin_": "cast_start_update",
+				"castLoop_": "cast_update",
+				"castEnd_": "cast_end_update"
+			},
+			"UltimateWeapon": {
+				"kind_": "SKILL_TEAM_E_ULTIMATE_WEAPON",
+				"button_": "T",
+				"jobStyle_": "JOB_STYLE_ENGINEER",
+				"isCast_": true,
+				"costAP_": 100,
+				"coolTime_": 180,
+				"castBegin_": "cast_start_UltimateWeapon",
+				"castLoop_": "cast_UltimateWeapon",
+				"param0_": 4
+			},
+			"UltimateRobot": {
+				"kind_": "SKILL_TEAM_E_ULTIMATE_ROBOT",
+				"button_": "NONE"
+			},
+			"UltimateRobotEnd": {
+				"kind_": "SKILL_TEAM_E_ULTIMATE_ROBOT_END",
+				"button_": "NONE"
+			},
+			"RobotActionA": {
+				"kind_": "SKILL_ROBOT_ACTION_A",
+				"button_": "A",
+				"costAP_": 0,
+				"coolTime_": 4.5
+			},
+			"RobotActionB": {
+				"kind_": "SKILL_ROBOT_ACTION_B",
+				"button_": "B",
+				"costAP_": 0,
+				"coolTime_": 7.5
+			},
+			"RobotActionY": {
+				"kind_": "SKILL_ROBOT_ACTION_Y",
+				"button_": "T",
+				"costAP_": 0,
+				"coolTime_": 4
+			},
+			"ResetEnchant": {
+				"kind_": "SKILL_RESET_ENCHANT",
+				"button_": "NONE"
+			},
+			"EffectSmoke": {
+				"kind_": "SKILL_EFFECT_SMOKE",
+				"button_": "NONE"
+			},
+			"CrucifixRocket": {
+				"kind_": "SKILL_CRUCIFIX_ROCKET",
+				"button_": "NONE"
+			}
+		}
+	}
+}

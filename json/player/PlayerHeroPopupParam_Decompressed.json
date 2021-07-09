@@ -1,0 +1,85 @@
+/* XDASEA_Xm8R_SPsX */ 
+// PlayerHeroPopupParam.xlsx
+{
+	"JsonPlayerParam": {
+		"heroPopupParam_": {
+			"FirstKill": {
+				"ConditionParam0": 0
+			},
+			"KillCombo01": {
+				"ConditionParam0": 4,
+				"ConditionParam1": 5
+			},
+			"KillCombo02": {
+				"ConditionParam0": 4,
+				"ConditionParam1": 10
+			},
+			"KillCount01": {
+				"ConditionParam0": 10
+			},
+			"AllKill": {
+				"ConditionParam0": 0
+			},
+			"CounterKill": {
+				"ConditionParam0": 4,
+				"ConditionParam1": 5
+			},
+			"UnderKillCount": {
+				"ConditionParam0": 10
+			},
+			"UpperKillCount": {
+				"ConditionParam0": 10
+			},
+			"HealCount01": {
+				"ConditionParam0": 10
+			},
+			"HealCount02": {
+				"ConditionParam0": 30
+			},
+			"ResurrectCount01": {
+				"ConditionParam0": 5
+			},
+			"ResurrectCount02": {
+				"ConditionParam0": 10
+			},
+			"ResurrectCount03": {
+				"ConditionParam0": 20
+			},
+			"BestPlayer": {
+				"ConditionParam0": 300,
+				"ConditionParam1": 60
+			},
+			"MaxLevel": {
+				"ConditionParam0": 0
+			},
+			"MonumentBuilder": {
+				"ConditionParam0": 50,
+				"ConditionParam1": 3
+			},
+			"InvastionCastle": {
+				"ConditionParam0": 0
+			},
+			"Special_KillEnemy01": {
+				"ConditionParam0": 0
+			},
+			"Special_KillEnemy02": {
+				"ConditionParam0": 0
+			},
+			"Special_KillEnemy03": {
+				"ConditionParam0": 0
+			},
+			"Special_KillEnemy04": {
+				"ConditionParam0": 0
+			},
+			"BecomeKing": {
+				"ConditionParam0": 0
+			},
+			"InvadeKing": {
+				"ConditionParam0": 0
+			},
+			"BountyOver": {
+				"ConditionParam0": 1500
+			}
+		}
+	}
+}

@@ -1,0 +1,83 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"start" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : true
+		}
+	],
+	"damage" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus02c"
+		}
+	],
+	"break" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gbar01b_000_break"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120150,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Gmon01c"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		}
+	]
+}
+
+// end of file

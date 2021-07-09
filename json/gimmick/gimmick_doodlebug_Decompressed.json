@@ -1,0 +1,187 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"Release" :
+	[
+		{
+			"@class" : "command::GimmickEffectRelease",
+			"useIndex_" : 0,
+			"releseTime_" : 0,
+			"isForceErase_" : true
+		}
+	],
+	"BiteWait" :
+	[
+		{
+			"@class" : "command::GimmickEffectRelease",
+			"useIndex_" : 0,
+			"releseTime_" : 0,
+			"isForceErase_" : true
+		},
+		{
+			"@class" : "command::GimmickEffectRequest",
+			"label_" : "Gant01c",
+			"boneName_" : "",
+			"useIndex_" : 0,
+			"constrainMatrixIndex_" : 0,
+			"sx_" : 4,
+			"sy_" : 4,
+			"sz_" : 4,
+			"rx_" : 0,
+			"ry_" : 0,
+			"rz_" : 0,
+			"tx_" : 0,
+			"ty_" : 0,
+			"tz_" : 0,
+			"transOnly_" : true
+		}
+	],
+	"BiteStart" :
+	[
+		{
+			"@class" : "command::GimmickEffectRelease",
+			"useIndex_" : 0,
+			"releseTime_" : 0,
+			"isForceErase_" : true
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 140050
+		},
+		{
+			"@class" : "command::GimmickEffectRequest",
+			"label_" : "Gant02c",
+			"boneName_" : "",
+			"useIndex_" : -1,
+			"constrainMatrixIndex_" : 0,
+			"sx_" : 5,
+			"sy_" : 5,
+			"sz_" : 5,
+			"rx_" : 0,
+			"ry_" : 0,
+			"rz_" : 0,
+			"tx_" : 0,
+			"ty_" : 0,
+			"tz_" : 0,
+			"transOnly_" : true
+		}
+	],
+	"BiteMiss" :
+	[
+		{
+			"@class" : "command::GimmickEffectRelease",
+			"useIndex_" : 0,
+			"releseTime_" : 0,
+			"isForceErase_" : true
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 140001
+		},
+		{
+			"@class" : "command::GimmickEffectRequest",
+			"label_" : "Gant01c",
+			"boneName_" : "",
+			"useIndex_" : 0,
+			"constrainMatrixIndex_" : 0,
+			"sx_" : 5,
+			"sy_" : 5,
+			"sz_" : 5,
+			"rx_" : 0,
+			"ry_" : 0,
+			"rz_" : 0,
+			"tx_" : 0,
+			"ty_" : 0,
+			"tz_" : 0,
+			"transOnly_" : true
+		}
+	],
+	"BiteHit" :
+	[
+		{
+			"@class" : "command::GimmickEffectRelease",
+			"useIndex_" : 0,
+			"releseTime_" : 0,
+			"isForceErase_" : true
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 140100
+		},
+		{
+			"@class" : "command::GimmickEffectRequest",
+			"label_" : "Chit01e",
+			"boneName_" : "",
+			"useIndex_" : -1,
+			"constrainMatrixIndex_" : 0,
+			"sx_" : 4,
+			"sy_" : 4,
+			"sz_" : 4,
+			"rx_" : 0,
+			"ry_" : 0,
+			"rz_" : 0,
+			"tx_" : 0,
+			"ty_" : 0,
+			"tz_" : 0,
+			"transOnly_" : true
+		}
+	],
+	"Disgorge" :
+	[
+		{
+			"@class" : "command::GimmickEffectRelease",
+			"useIndex_" : 0,
+			"releseTime_" : 0,
+			"isForceErase_" : true
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 140150
+		},
+		{
+			"@class" : "command::GimmickEffectRequest",
+			"label_" : "Gant02c",
+			"boneName_" : "",
+			"useIndex_" : -1,
+			"constrainMatrixIndex_" : 0,
+			"sx_" : 3,
+			"sy_" : 3,
+			"sz_" : 3,
+			"rx_" : 0,
+			"ry_" : 0,
+			"rz_" : 0,
+			"tx_" : 0,
+			"ty_" : 0,
+			"tz_" : 0,
+			"transOnly_" : true
+		}
+	],
+	"Land" :
+	[
+		{
+			"@class" : "command::GimmickEffectRelease",
+			"useIndex_" : 0,
+			"releseTime_" : 0,
+			"isForceErase_" : true
+		},
+		{
+			"@class" : "command::GimmickEffectRequest",
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"useIndex_" : -1,
+			"constrainMatrixIndex_" : 0,
+			"sx_" : 3,
+			"sy_" : 3,
+			"sz_" : 3,
+			"rx_" : 0,
+			"ry_" : 0,
+			"rz_" : 0,
+			"tx_" : 0,
+			"ty_" : 0,
+			"tz_" : 0,
+			"transOnly_" : true
+		}
+	]
+}
+
+// end of file

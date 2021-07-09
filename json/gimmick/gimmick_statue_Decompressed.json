@@ -1,0 +1,213 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"start" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		}
+	],
+	"appear_black" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcloaber_000_appear"
+		},
+		{
+			"@class" : "command::EffectFadeOutTime",
+			"fadeOutTime_" : 0.25
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "ROT_TRANS",
+			"scale_" : 2.2
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Senf02c",
+			"boneName_" : "",
+			"transX_" : 460,
+			"transY_" : -50,
+			"transZ_" : 180
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Senf02c",
+			"boneName_" : "",
+			"transX_" : 460,
+			"transY_" : -50,
+			"transZ_" : 840
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Senf02c",
+			"boneName_" : "",
+			"transX_" : -460,
+			"transY_" : -50,
+			"transZ_" : 180
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Senf02c",
+			"boneName_" : "",
+			"transX_" : -460,
+			"transY_" : -50,
+			"transZ_" : 840
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Gque03c",
+			"boneName_" : ""
+		}
+	],
+	"disappear_black" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		}
+	],
+	"appear_white" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcloarag_000_appear"
+		},
+		{
+			"@class" : "command::EffectFadeOutTime",
+			"fadeOutTime_" : 0.25
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "ROT_TRANS",
+			"scale_" : 2.2
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Senf02c",
+			"boneName_" : "",
+			"transX_" : 460,
+			"transY_" : -50,
+			"transZ_" : 180
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Senf02c",
+			"boneName_" : "",
+			"transX_" : 460,
+			"transY_" : -50,
+			"transZ_" : 840
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Senf02c",
+			"boneName_" : "",
+			"transX_" : -460,
+			"transY_" : -50,
+			"transZ_" : 180
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Senf02c",
+			"boneName_" : "",
+			"transX_" : -460,
+			"transY_" : -50,
+			"transZ_" : 840
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Gque03c",
+			"boneName_" : ""
+		}
+	],
+	"disappear_white" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		}
+	]
+}
+
+// end of file

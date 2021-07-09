@@ -1,0 +1,104 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"Setup" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcru04_wait_loop"
+		}
+	],
+	"Launch" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcru04_launch"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 18
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150560
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 108
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150570
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 198
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150580
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 270
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150550
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 288
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150590
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 378
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150600
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 468
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150610
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Alos02c",
+			"boneName_" : "rocket",
+			"transX_" : 0,
+			"transY_" : 0,
+			"transZ_" : 0,
+			"rotX_" : -90,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "CONSTRAIN",
+			"scale_" : 1
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Alos03c",
+			"boneName_" : "rocket",
+			"transX_" : 0,
+			"transY_" : 0,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "ROT_TRANS",
+			"scale_" : 1
+		}
+	]
+}
+
+// end of file

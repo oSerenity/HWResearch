@@ -1,0 +1,154 @@
+/* XDASEA_Xm8R_SPsX */ 
+// PlayerClassSetting.xlsm.tmp StyleSetting 
+
+{"JsonPlayerParam":{"styleSetting_":{
+	"Warrior":{
+		"jobType" : "WARRIOR",
+		"isEnable" : true,
+		"priority" : 1,
+		"imageNo" : 1,
+		"nameTextID" : "$TXSTN10000",
+		"detailTextID" : "#TXSTD10000",
+		"profileDetailID" : "Warrior"
+	},
+	"Berserker":{
+		"jobType" : "WARRIOR",
+		"isEnable" : false,
+		"priority" : 2,
+		"imageNo" : 4,
+		"nameTextID" : "$TXSTN10001",
+		"detailTextID" : "#TXSTD10001",
+		"profileDetailID" : "Berserker",
+		"unlockTicketNum" : 20
+	},
+	"Cleric":{
+		"jobType" : "CLERIC",
+		"isEnable" : true,
+		"priority" : 1,
+		"imageNo" : 2,
+		"nameTextID" : "$TXSTN20000",
+		"detailTextID" : "#TXSTD20000",
+		"profileDetailID" : "Cleric"
+	},
+	"Engineer":{
+		"jobType" : "CLERIC",
+		"isEnable" : false,
+		"priority" : 2,
+		"imageNo" : 5,
+		"nameTextID" : "$TXSTN20001",
+		"detailTextID" : "#TXSTD20001",
+		"profileDetailID" : "Enginieer",
+		"unlockTicketNum" : 20
+	},
+	"Mage":{
+		"jobType" : "MAGE",
+		"isEnable" : true,
+		"priority" : 1,
+		"imageNo" : 3,
+		"nameTextID" : "$TXSTN30000",
+		"detailTextID" : "#TXSTD30000",
+		"profileDetailID" : "Mage"
+	},
+	"Sylph":{
+		"jobType" : "MAGE",
+		"isEnable" : false,
+		"priority" : 2,
+		"imageNo" : 6,
+		"nameTextID" : "$TXSTN30001",
+		"detailTextID" : "#TXSTD30001",
+		"profileDetailID" : "Sylph",
+		"unlockTicketNum" : 20
+	}
+},
+// PlayerClassSetting.xlsm.tmp StyleProfile 
+
+"styleProfile_":{
+	"Warrior":{
+		"SexType" : "MALE",
+		"PersonalityType" : "TYPE_A",
+		"EyeType" : "EYE_02",
+		"EyeOffsetType" : "TOP",
+		"MouthType" : "MOUTH_04",
+		"MouthOffsetType" : "DEFAULT",
+		"HairType" : "HAIR_04",
+		"HairColorType" : "HAIR_COLOR_08",
+		"SkinColorType" : "SKIN_COLOR_00",
+		"EquipWeapon" : "ITEM_WEPON_0000",
+		"EquipShield" : "ITEM_SHIELD_0000",
+		"EquipHead" : "ITEM_HEAD_0000",
+		"EquipBody" : "ITEM_ARMOR_0000"
+	},
+	"Berserker":{
+		"SexType" : "MALE",
+		"PersonalityType" : "TYPE_A",
+		"EyeType" : "EYE_03",
+		"EyeOffsetType" : "DEFAULT",
+		"MouthType" : "MOUTH_02",
+		"MouthOffsetType" : "BOTTOM",
+		"HairType" : "HAIR_01",
+		"HairColorType" : "HAIR_COLOR_01",
+		"SkinColorType" : "SKIN_COLOR_01",
+		"EquipWeapon" : "ITEM_WEPON_0005",
+		"EquipShield" : "ITEM_SHIELD_0000",
+		"EquipHead" : "ITEM_HEAD_0000",
+		"EquipBody" : "ITEM_ARMOR_0000"
+	},
+	"Cleric":{
+		"SexType" : "MALE",
+		"PersonalityType" : "TYPE_B",
+		"EyeType" : "EYE_10",
+		"EyeOffsetType" : "DEFAULT",
+		"MouthType" : "MOUTH_12",
+		"MouthOffsetType" : "DEFAULT",
+		"HairType" : "HAIR_02",
+		"HairColorType" : "HAIR_COLOR_00",
+		"SkinColorType" : "SKIN_COLOR_00",
+		"EquipWeapon" : "ITEM_WEPON_0015",
+		"EquipShield" : "ITEM_SHIELD_0000",
+		"EquipHead" : "ITEM_HEAD_0005",
+		"EquipBody" : "ITEM_ARMOR_0005"
+	},
+	"Enginieer":{
+		"SexType" : "MALE",
+		"PersonalityType" : "TYPE_C",
+		"EyeType" : "EYE_05",
+		"EyeOffsetType" : "DEFAULT",
+		"MouthType" : "MOUTH_04",
+		"MouthOffsetType" : "TOP",
+		"HairType" : "HAIR_03",
+		"HairColorType" : "HAIR_COLOR_02",
+		"SkinColorType" : "SKIN_COLOR_00",
+		"EquipWeapon" : "ITEM_WEPON_0020",
+		"EquipShield" : "ITEM_SHIELD_0000",
+		"EquipHead" : "ITEM_HEAD_0005",
+		"EquipBody" : "ITEM_ARMOR_0005"
+	},
+	"Mage":{
+		"SexType" : "MALE",
+		"PersonalityType" : "TYPE_A",
+		"EyeType" : "EYE_06",
+		"EyeOffsetType" : "DEFAULT",
+		"MouthType" : "MOUTH_19",
+		"MouthOffsetType" : "DEFAULT",
+		"HairType" : "HAIR_03",
+		"HairColorType" : "HAIR_COLOR_04",
+		"SkinColorType" : "SKIN_COLOR_12",
+		"EquipWeapon" : "ITEM_WEPON_0030",
+		"EquipHead" : "ITEM_HEAD_0010",
+		"EquipBody" : "ITEM_ARMOR_0010"
+	},
+	"Sylph":{
+		"SexType" : "MALE",
+		"PersonalityType" : "TYPE_A",
+		"EyeType" : "EYE_06",
+		"EyeOffsetType" : "DEFAULT",
+		"MouthType" : "MOUTH_19",
+		"MouthOffsetType" : "DEFAULT",
+		"HairType" : "HAIR_03",
+		"HairColorType" : "HAIR_COLOR_04",
+		"SkinColorType" : "SKIN_COLOR_12",
+		"EquipWeapon" : "ITEM_WEPON_0035",
+		"EquipHead" : "ITEM_HEAD_0010",
+		"EquipBody" : "ITEM_ARMOR_0010"
+	}
+}}}

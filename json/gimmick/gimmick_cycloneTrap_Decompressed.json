@@ -1,0 +1,29 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"set" :
+	[
+		{
+			"@class" : "command::TrapSphere",
+			"name_" : "cyclone_trap_s",
+			"centerX_" : 0,
+			"centerY_" : 100,
+			"centerZ_" : 0,
+			"radius_" : 360,
+			"kind_" : "CyclonenTrap",
+			"team_" : "ALLY"
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "cyclone_trap_s",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 81200,
+			"isLoop_" : true
+		}
+	]
+}
+
+// end of file

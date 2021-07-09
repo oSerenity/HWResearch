@@ -1,0 +1,159 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"WaitBridgeS" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gbri01_000_wait_loop"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"WaitBridgeL" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gbri02_000_wait_loop"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"NothingBridgeS" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gbri01_002_nothing_loop"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"NothingBridgeL" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gbri02_002_nothing_loop"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"AppearBridgeS" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gbri01_001_appear"
+		},
+		{
+			"@class" : "tll::actor::command::TotalFrame",
+			"frame_" : 14
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"AppearBridgeL" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gbri02_001_appear"
+		},
+		{
+			"@class" : "tll::actor::command::TotalFrame",
+			"frame_" : 16
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"BreakBridgeS" :
+	[
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gbri01b_000_break"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120450
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"BreakBridgeL" :
+	[
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gbri02b_000_break"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120450
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"Damage" :
+	[
+		{
+			"@class" : "command::GimmickEffectRequest",
+			"label_" : "Cdus02c",
+			"boneName_" : "",
+			"useIndex_" : -1,
+			"constrainMatrixIndex_" : 0,
+			"sx_" : 1.8,
+			"sy_" : 1.8,
+			"sz_" : 1.8,
+			"rx_" : 0,
+			"ry_" : 0,
+			"rz_" : 0,
+			"tx_" : -45,
+			"ty_" : -40,
+			"tz_" : 0,
+			"transOnly_" : false
+		},
+		{
+			"@class" : "command::GimmickEffectRequest",
+			"label_" : "Cdus02c",
+			"boneName_" : "",
+			"useIndex_" : -1,
+			"constrainMatrixIndex_" : 1,
+			"sx_" : 1.8,
+			"sy_" : 1.8,
+			"sz_" : 1.8,
+			"rx_" : 0,
+			"ry_" : 0,
+			"rz_" : 0,
+			"tx_" : 45,
+			"ty_" : -40,
+			"tz_" : 0,
+			"transOnly_" : false
+		}
+	]
+}
+
+// end of file

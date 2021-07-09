@@ -1,0 +1,432 @@
+/* XDASEA_Xm8R_SPsX */ 
+// Geimini_ItemSpinner.xlsx.tmp CategoryRate 
+
+{"JsonItemSpinner":{"categoryRate_":{
+	"Normal":{
+		"Enable" : true,
+		"ExistBlank" : true,
+		"Weapon" : 0.04,
+		"Shield" : 0.04,
+		"Helmet" : 0.04,
+		"Armor" : 0.04,
+		"Accessory" : 0.04,
+		"Random" : 0,
+		"Lucky" : 0.02,
+		"UseFreeTicket" : false,
+		"UseJobSeal" : false,
+		"UseStarFragment" : false
+	},
+	"Deluxe":{
+		"Enable" : true,
+		"ExistBlank" : false,
+		"Weapon" : 0,
+		"Shield" : 0,
+		"Helmet" : 0,
+		"Armor" : 0,
+		"Accessory" : 0,
+		"Random" : 0,
+		"Lucky" : 0,
+		"UseFreeTicket" : true,
+		"UseJobSeal" : true,
+		"UseStarFragment" : true
+	},
+	"Gorgeous":{
+		"Enable" : true,
+		"Date" : 20141218,
+		"EndDay" : 20150109,
+		"ExistBlank" : false,
+		"Weapon" : 0,
+		"Shield" : 0,
+		"Helmet" : 0,
+		"Armor" : 0,
+		"Accessory" : 0,
+		"Random" : 0,
+		"Lucky" : 0,
+		"UseFreeTicket" : false,
+		"UseJobSeal" : true,
+		"UseStarFragment" : true
+	}
+},
+// Geimini_ItemSpinner.xlsx.tmp LotteryTable 
+
+"lotteryTable_":{
+	"Normal":{
+		"FixedTableID" : "MultiNormal00",
+		"RandomTableID" : "MultiNormal00",
+		"LuckyTableID" : "MultiNormal00",
+		"HyperFixedTableID" : "MultiNormal00",
+		"HyperRandomTableID" : "MultiNormal00",
+		"HyperLuckyTableID" : "MultiNormal00"
+	},
+	"Deluxe":{
+		"FixedTableID" : "MultiDeluxe00",
+		"BonusTableID" : "Card_N",
+		"HyperFixedTableID" : "MultiDeluxe01",
+		"HyperBonusTableID" : "Card_H"
+	},
+	"Gorgeous":{
+		"FixedTableID" : "MultiGorgeous00",
+		"BonusTableID" : "Limited_N",
+		"HyperFixedTableID" : "MultiGorgeous01",
+		"HyperBonusTableID" : "Limited_H"
+	}
+},
+// Geimini_ItemSpinner.xlsx.tmp MultiLotteryTable 
+
+"multiLotteryTable_":{
+	"MultiNormal00":{
+		"LotteryTableID_01" : "Normal00"
+	},
+	"MultiDeluxe00":{
+		"LotteryTableID_01" : "Card00",
+		"LotteryTableID_02" : "Card00",
+		"LotteryTableID_03" : "Card01"
+	},
+	"MultiDeluxe01":{
+		"LotteryTableID_01" : "Card00",
+		"LotteryTableID_02" : "Card00",
+		"LotteryTableID_03" : "Card02"
+	},
+	"MultiGorgeous00":{
+		"LotteryTableID_01" : "Gorgeous00",
+		"LotteryTableID_02" : "Gorgeous00",
+		"LotteryTableID_03" : "Gorgeous01"
+	},
+	"MultiGorgeous01":{
+		"LotteryTableID_01" : "Gorgeous00",
+		"LotteryTableID_02" : "Gorgeous00",
+		"LotteryTableID_03" : "Gorgeous02"
+	}
+},
+// Geimini_ItemSpinner.xlsx.tmp HyperPointTable 
+
+"hyperPointTable_":{
+	"Normal":{
+
+	},
+	"Deluxe":{
+		"Hyper_0bet_00" : "DxStart_0",
+		"Hyper_0bet_01" : "DxEnd_0",
+		"Hyper_1bet_00" : "DxStart_1",
+		"Hyper_1bet_01" : "DxEnd_1",
+		"Hyper_2bet_00" : "DxStart_2",
+		"Hyper_2bet_01" : "DxEnd_2",
+		"Hyper_3bet_00" : "DxStart_3",
+		"Hyper_3bet_01" : "DxEnd_3"
+	},
+	"Gorgeous":{
+		"Hyper_0bet_00" : "GgStart_0",
+		"Hyper_0bet_01" : "GgEnd_0",
+		"Hyper_1bet_00" : "GgStart_1",
+		"Hyper_1bet_01" : "GgEnd_1",
+		"Hyper_2bet_00" : "GgStart_2",
+		"Hyper_2bet_01" : "GgEnd_2",
+		"Hyper_3bet_00" : "GgStart_3",
+		"Hyper_3bet_01" : "GgEnd_3"
+	}
+},
+// Geimini_ItemSpinner.xlsx.tmp HyperPointRate 
+
+"hyperPointRate_":{
+	"DxStart_0":{
+		"PointRate00" : 1,
+		"PointRate01" : 0,
+		"PointRate02" : 0,
+		"PointRate03" : 0,
+		"PointRate04" : 0,
+		"PointRate05" : 0,
+		"PointRate06" : 0,
+		"PointRate07" : 0,
+		"PointRate08" : 0
+	},
+	"DxEnd_0":{
+		"PointRate00" : 1,
+		"PointRate01" : 0,
+		"PointRate02" : 0,
+		"PointRate03" : 0,
+		"PointRate04" : 0,
+		"PointRate05" : 0,
+		"PointRate06" : 0,
+		"PointRate07" : 0,
+		"PointRate08" : 0
+	},
+	"GgStart_0":{
+		"PointRate00" : 1,
+		"PointRate01" : 0,
+		"PointRate02" : 0,
+		"PointRate03" : 0,
+		"PointRate04" : 0,
+		"PointRate05" : 0,
+		"PointRate06" : 0,
+		"PointRate07" : 0,
+		"PointRate08" : 0
+	},
+	"GgEnd_0":{
+		"PointRate00" : 1,
+		"PointRate01" : 0,
+		"PointRate02" : 0,
+		"PointRate03" : 0,
+		"PointRate04" : 0,
+		"PointRate05" : 0,
+		"PointRate06" : 0,
+		"PointRate07" : 0,
+		"PointRate08" : 0
+	},
+	"DxStart_1":{
+		"PointRate00" : 0,
+		"PointRate01" : 1,
+		"PointRate02" : 0,
+		"PointRate03" : 0,
+		"PointRate04" : 0,
+		"PointRate05" : 0,
+		"PointRate06" : 0,
+		"PointRate07" : 0,
+		"PointRate08" : 0
+	},
+	"DxEnd_1":{
+		"PointRate00" : 0,
+		"PointRate01" : 1,
+		"PointRate02" : 0,
+		"PointRate03" : 0,
+		"PointRate04" : 0,
+		"PointRate05" : 0,
+		"PointRate06" : 0,
+		"PointRate07" : 0,
+		"PointRate08" : 0
+	},
+	"GgStart_1":{
+		"PointRate00" : 0,
+		"PointRate01" : 1,
+		"PointRate02" : 0,
+		"PointRate03" : 0,
+		"PointRate04" : 0,
+		"PointRate05" : 0,
+		"PointRate06" : 0,
+		"PointRate07" : 0,
+		"PointRate08" : 0
+	},
+	"GgEnd_1":{
+		"PointRate00" : 0,
+		"PointRate01" : 1,
+		"PointRate02" : 0,
+		"PointRate03" : 0,
+		"PointRate04" : 0,
+		"PointRate05" : 0,
+		"PointRate06" : 0,
+		"PointRate07" : 0,
+		"PointRate08" : 0
+	},
+	"DxStart_2":{
+		"PointRate00" : 0,
+		"PointRate01" : 0,
+		"PointRate02" : 1,
+		"PointRate03" : 0,
+		"PointRate04" : 0,
+		"PointRate05" : 0,
+		"PointRate06" : 0,
+		"PointRate07" : 0,
+		"PointRate08" : 0
+	},
+	"DxEnd_2":{
+		"PointRate00" : 0,
+		"PointRate01" : 0,
+		"PointRate02" : 1,
+		"PointRate03" : 0,
+		"PointRate04" : 0,
+		"PointRate05" : 0,
+		"PointRate06" : 0,
+		"PointRate07" : 0,
+		"PointRate08" : 0
+	},
+	"GgStart_2":{
+		"PointRate00" : 0,
+		"PointRate01" : 0,
+		"PointRate02" : 1,
+		"PointRate03" : 0,
+		"PointRate04" : 0,
+		"PointRate05" : 0,
+		"PointRate06" : 0,
+		"PointRate07" : 0,
+		"PointRate08" : 0
+	},
+	"GgEnd_2":{
+		"PointRate00" : 0,
+		"PointRate01" : 0,
+		"PointRate02" : 1,
+		"PointRate03" : 0,
+		"PointRate04" : 0,
+		"PointRate05" : 0,
+		"PointRate06" : 0,
+		"PointRate07" : 0,
+		"PointRate08" : 0
+	},
+	"DxStart_3":{
+		"PointRate00" : 0,
+		"PointRate01" : 0,
+		"PointRate02" : 0.8,
+		"PointRate03" : 0,
+		"PointRate04" : 0,
+		"PointRate05" : 0,
+		"PointRate06" : 0.18,
+		"PointRate07" : 0,
+		"PointRate08" : 0,
+		"PointRate09" : 0,
+		"PointRate10" : 0,
+		"PointRate11" : 0,
+		"PointRate12" : 0.02,
+		"PointRate13" : 0,
+		"PointRate14" : 0,
+		"PointRate15" : 0,
+		"PointRate16" : 0,
+		"PointRate17" : 0,
+		"PointRate18" : 0,
+		"PointRate19" : 0,
+		"PointRate20" : 0,
+		"PointRate21" : 0,
+		"PointRate22" : 0,
+		"PointRate23" : 0,
+		"PointRate24" : 0
+	},
+	"DxEnd_3":{
+		"PointRate00" : 0,
+		"PointRate01" : 0,
+		"PointRate02" : 0.8,
+		"PointRate03" : 0,
+		"PointRate04" : 0,
+		"PointRate05" : 0,
+		"PointRate06" : 0.18,
+		"PointRate07" : 0,
+		"PointRate08" : 0,
+		"PointRate09" : 0,
+		"PointRate10" : 0,
+		"PointRate11" : 0,
+		"PointRate12" : 0.02,
+		"PointRate13" : 0,
+		"PointRate14" : 0,
+		"PointRate15" : 0,
+		"PointRate16" : 0,
+		"PointRate17" : 0,
+		"PointRate18" : 0,
+		"PointRate19" : 0,
+		"PointRate20" : 0,
+		"PointRate21" : 0,
+		"PointRate22" : 0,
+		"PointRate23" : 0,
+		"PointRate24" : 0
+	},
+	"GgStart_3":{
+		"PointRate00" : 0,
+		"PointRate01" : 0,
+		"PointRate02" : 0,
+		"PointRate03" : 0,
+		"PointRate04" : 0.8,
+		"PointRate05" : 0,
+		"PointRate06" : 0.18,
+		"PointRate07" : 0,
+		"PointRate08" : 0,
+		"PointRate09" : 0,
+		"PointRate10" : 0,
+		"PointRate11" : 0,
+		"PointRate12" : 0.02,
+		"PointRate13" : 0,
+		"PointRate14" : 0,
+		"PointRate15" : 0,
+		"PointRate16" : 0,
+		"PointRate17" : 0,
+		"PointRate18" : 0,
+		"PointRate19" : 0,
+		"PointRate20" : 0,
+		"PointRate21" : 0,
+		"PointRate22" : 0,
+		"PointRate23" : 0,
+		"PointRate24" : 0
+	},
+	"GgEnd_3":{
+		"PointRate00" : 0,
+		"PointRate01" : 0,
+		"PointRate02" : 0,
+		"PointRate03" : 0,
+		"PointRate04" : 0.8,
+		"PointRate05" : 0,
+		"PointRate06" : 0.18,
+		"PointRate07" : 0,
+		"PointRate08" : 0,
+		"PointRate09" : 0,
+		"PointRate10" : 0,
+		"PointRate11" : 0,
+		"PointRate12" : 0.02,
+		"PointRate13" : 0,
+		"PointRate14" : 0,
+		"PointRate15" : 0,
+		"PointRate16" : 0,
+		"PointRate17" : 0,
+		"PointRate18" : 0,
+		"PointRate19" : 0,
+		"PointRate20" : 0,
+		"PointRate21" : 0,
+		"PointRate22" : 0,
+		"PointRate23" : 0,
+		"PointRate24" : 0
+	}
+},
+// Geimini_ItemSpinner.xlsx.tmp BonusLotteryTable 
+
+"bonusLotteryTable":{
+	"Card_N":{
+		"BonusItemSet" : "CardBonusItemSet",
+		"BonusRate" : 0.05,
+		"Rate00" : 0.7,
+		"Rate01" : 0.2,
+		"Rate02" : 0.1
+	},
+	"Card_H":{
+		"BonusItemSet" : "CardBonusItemSet",
+		"BonusRate" : 0.05,
+		"Rate00" : 0.7,
+		"Rate01" : 0.2,
+		"Rate02" : 0.1
+	},
+	"Limited_N":{
+		"BonusItemSet" : "CardBonusItemSet",
+		"BonusRate" : 0.05,
+		"Rate00" : 0.7,
+		"Rate01" : 0.2,
+		"Rate02" : 0.1
+	},
+	"Limited_H":{
+		"BonusItemSet" : "CardBonusItemSet",
+		"BonusRate" : 0.05,
+		"Rate00" : 0.7,
+		"Rate01" : 0.2,
+		"Rate02" : 0.1
+	}
+},
+// Geimini_ItemSpinner.xlsx.tmp CostTable 
+
+"costTable_":{
+	"Normal":{
+		"Cost" : 300,
+		"Ticket" : 0
+	},
+	"Deluxe":{
+		"Cost" : 7200,
+		"Ticket" : 18
+	},
+	"Gorgeous":{
+		"Cost" : 9600,
+		"Ticket" : 24
+	}
+},
+// Geimini_ItemSpinner.xlsx.tmp TicketPrice 
+
+"ticketPrice_":{
+	"TicketSet01":{
+		"Price" : 80
+	},
+	"TicketSet02":{
+		"Price" : 400
+	},
+	"TicketSet03":{
+		"Price" : 1200
+	}
+}}}

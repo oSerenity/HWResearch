@@ -1,0 +1,1068 @@
+/* XDASEA_Xm8R_SPsX */ 
+// PlayerLevelUpParam.xlsx
+{
+	"JsonPlayerParam": {
+		"levelUpParam_": {
+			"KillEnemyBase": {
+				"ConditionParam1": 5
+			},
+			"KillEnemyLow": {
+				"OnlineExp": 10,
+				"OfflineExp": 10,
+				"SpecialExp": 10,
+				"EventExp": 10,
+				"DefenseExp": 10,
+				"ConditionParam0": 1,
+				"ConditionParam1": 2,
+				"OnlineBoxRankUpRate": 10,
+				"OfflineBoxRankUpRate": 10,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"KillEnemyMid": {
+				"OnlineExp": 25,
+				"OfflineExp": 25,
+				"SpecialExp": 25,
+				"EventExp": 25,
+				"DefenseExp": 25,
+				"ConditionParam0": 3,
+				"ConditionParam1": 4,
+				"OnlineBoxRankUpRate": 25,
+				"OfflineBoxRankUpRate": 25,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"KillEnemyHig": {
+				"OnlineExp": 50,
+				"OfflineExp": 50,
+				"SpecialExp": 50,
+				"EventExp": 50,
+				"DefenseExp": 50,
+				"ConditionParam0": 5,
+				"ConditionParam1": 5,
+				"OnlineBoxRankUpRate": 50,
+				"OfflineBoxRankUpRate": 50,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"KillEnemyVsKing": {
+				"OnlineExp": 70,
+				"OfflineExp": 70,
+				"SpecialExp": 70,
+				"EventExp": 70,
+				"DefenseExp": 70,
+				"OnlineBoxRankUpRate": 50,
+				"OfflineBoxRankUpRate": 50,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"KillEnemyByKing": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 5,
+				"OnlineBoxRankUpRate": 5,
+				"OfflineBoxRankUpRate": 5,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"KillEnemyVsRobot": {
+				"OnlineExp": 25,
+				"OfflineExp": 25,
+				"SpecialExp": 25,
+				"EventExp": 25,
+				"DefenseExp": 25,
+				"OnlineBoxRankUpRate": 5,
+				"OfflineBoxRankUpRate": 5,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"KillAssistLow": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 5,
+				"ConditionParam0": 1,
+				"ConditionParam1": 2,
+				"OnlineBoxRankUpRate": 5,
+				"OfflineBoxRankUpRate": 5,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"KillAssistMid": {
+				"OnlineExp": 15,
+				"OfflineExp": 15,
+				"SpecialExp": 10,
+				"EventExp": 15,
+				"DefenseExp": 10,
+				"ConditionParam0": 3,
+				"ConditionParam1": 4,
+				"OnlineBoxRankUpRate": 10,
+				"OfflineBoxRankUpRate": 10,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"KillAssistHig": {
+				"OnlineExp": 25,
+				"OfflineExp": 25,
+				"SpecialExp": 20,
+				"EventExp": 25,
+				"DefenseExp": 20,
+				"ConditionParam0": 5,
+				"ConditionParam1": 5,
+				"OnlineBoxRankUpRate": 15,
+				"OfflineBoxRankUpRate": 15,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"KillAssistVsKing": {
+				"OnlineExp": 35,
+				"OfflineExp": 35,
+				"SpecialExp": 35,
+				"EventExp": 35,
+				"DefenseExp": 35,
+				"OnlineBoxRankUpRate": 15,
+				"OfflineBoxRankUpRate": 15,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"KillAssistByKing": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 5,
+				"OnlineBoxRankUpRate": 5,
+				"OfflineBoxRankUpRate": 5,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"KillAssistTheRobot": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 5,
+				"OnlineBoxRankUpRate": 5,
+				"OfflineBoxRankUpRate": 5,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"KillEnemyByTeamOwner": {
+				"OnlineExp": 20,
+				"OfflineExp": 20,
+				"SpecialExp": 10,
+				"EventExp": 20,
+				"DefenseExp": 10,
+				"OnlineBoxRankUpRate": 30,
+				"OfflineBoxRankUpRate": 30,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"KillEnemyByTeamJoin": {
+				"OnlineExp": 20,
+				"OfflineExp": 20,
+				"SpecialExp": 10,
+				"EventExp": 20,
+				"DefenseExp": 10,
+				"OnlineBoxRankUpRate": 30,
+				"OfflineBoxRankUpRate": 30,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"HealingLow": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 5,
+				"ConditionParam0": 100,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 8,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"HealingMid": {
+				"OnlineExp": 10,
+				"OfflineExp": 10,
+				"SpecialExp": 10,
+				"EventExp": 10,
+				"DefenseExp": 8,
+				"ConditionParam0": 50,
+				"OnlineBoxRankUpRate": 16,
+				"OfflineBoxRankUpRate": 16,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"HealingHig": {
+				"OnlineExp": 15,
+				"OfflineExp": 15,
+				"SpecialExp": 15,
+				"EventExp": 15,
+				"DefenseExp": 10,
+				"ConditionParam0": 20,
+				"OnlineBoxRankUpRate": 25,
+				"OfflineBoxRankUpRate": 25,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"Resurrection": {
+				"OnlineExp": 15,
+				"OfflineExp": 15,
+				"SpecialExp": 15,
+				"EventExp": 15,
+				"DefenseExp": 10,
+				"OnlineBoxRankUpRate": 30,
+				"OfflineBoxRankUpRate": 30,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"Sanctuary": {
+				"OnlineExp": 2,
+				"OfflineExp": 2,
+				"SpecialExp": 2,
+				"EventExp": 2,
+				"DefenseExp": 1,
+				"ConditionParam0": 2,
+				"ConditionParam1": 4,
+				"OnlineBoxRankUpRate": 2,
+				"OfflineBoxRankUpRate": 2,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"HolyArmor": {
+				"OnlineExp": 10,
+				"OfflineExp": 10,
+				"SpecialExp": 10,
+				"EventExp": 10,
+				"DefenseExp": 5,
+				"OnlineBoxRankUpRate": 10,
+				"OfflineBoxRankUpRate": 10,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"Sprint": {
+				"OnlineExp": 10,
+				"OfflineExp": 10,
+				"SpecialExp": 7,
+				"EventExp": 7,
+				"DefenseExp": 5,
+				"OnlineBoxRankUpRate": 10,
+				"OfflineBoxRankUpRate": 10,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"Dispel": {
+				"OnlineExp": 4,
+				"OfflineExp": 4,
+				"SpecialExp": 4,
+				"EventExp": 4,
+				"DefenseExp": 4,
+				"OnlineBoxRankUpRate": 10,
+				"OfflineBoxRankUpRate": 10,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"Repair": {
+				"OnlineExp": 4,
+				"OfflineExp": 4,
+				"SpecialExp": 4,
+				"EventExp": 4,
+				"DefenseExp": 4,
+				"ConditionParam0": 240,
+				"OnlineBoxRankUpRate": 5,
+				"OfflineBoxRankUpRate": 5,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"EnchantFire": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 5,
+				"OnlineBoxRankUpRate": 5,
+				"OfflineBoxRankUpRate": 5,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"EnchantLightning": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 5,
+				"OnlineBoxRankUpRate": 5,
+				"OfflineBoxRankUpRate": 5,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"EnchantWind": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 5,
+				"OnlineBoxRankUpRate": 5,
+				"OfflineBoxRankUpRate": 5,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"EnchantIce": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 5,
+				"OnlineBoxRankUpRate": 5,
+				"OfflineBoxRankUpRate": 5,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"WindWarp": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 5,
+				"OnlineBoxRankUpRate": 5,
+				"OfflineBoxRankUpRate": 5,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"Capture": {
+				"OnlineExp": 2,
+				"OfflineExp": 2,
+				"SpecialExp": 2,
+				"EventExp": 2,
+				"DefenseExp": 2,
+				"ConditionParam0": 2,
+				"ConditionParam1": 4,
+				"OnlineBoxRankUpRate": 2,
+				"OfflineBoxRankUpRate": 2,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"Cheer": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 3,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 8,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"CheerJoin": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 3,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 8,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"Phalanx": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 3,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 8,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"PhalanxJoin": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 3,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 8,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"Charge": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 3,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 8,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"ChargeJoin": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 3,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 8,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"RocketArmy": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 3,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 8,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"RocketArmyJoin": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 3,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 8,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"SacredSong": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 3,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 10,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"SacredSongJoin": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 3,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 10,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"Teleport": {
+				"OnlineExp": 10,
+				"OfflineExp": 10,
+				"SpecialExp": 10,
+				"EventExp": 10,
+				"DefenseExp": 5,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 8,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"TeleportJoin": {
+				"OnlineExp": 10,
+				"OfflineExp": 10,
+				"SpecialExp": 10,
+				"EventExp": 10,
+				"DefenseExp": 5,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 8,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"HappyMiracle": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 3,
+				"OnlineBoxRankUpRate": 30,
+				"OfflineBoxRankUpRate": 30,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"HappyMiracleJoin": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 3,
+				"OnlineBoxRankUpRate": 20,
+				"OfflineBoxRankUpRate": 20,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"UltimateWeapon": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 3,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 8,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"UltimateWeaponJoin": {
+				"OnlineExp": 8,
+				"OfflineExp": 8,
+				"SpecialExp": 8,
+				"EventExp": 8,
+				"DefenseExp": 5,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 8,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"MeteorStorm": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 3,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 8,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"MeteorStormJoin": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 3,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 8,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"LightningArrow": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 3,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 8,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"LightningArrowJoin": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 3,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 8,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"Tornado": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 3,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 8,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"TornadoJoin": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 3,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 8,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"CycloneShield": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 3,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 8,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"CycloneShieldJoin": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 3,
+				"OnlineBoxRankUpRate": 8,
+				"OfflineBoxRankUpRate": 8,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"HealingByMissile": {
+				"OnlineExp": 2,
+				"OfflineExp": 2,
+				"SpecialExp": 2,
+				"EventExp": 2,
+				"DefenseExp": 1,
+				"ConditionParam1": 4,
+				"OnlineBoxRankUpRate": 2,
+				"OfflineBoxRankUpRate": 2,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"DispelByMissile": {
+				"OnlineExp": 2,
+				"OfflineExp": 2,
+				"SpecialExp": 2,
+				"EventExp": 2,
+				"DefenseExp": 1,
+				"ConditionParam1": 4,
+				"OnlineBoxRankUpRate": 2,
+				"OfflineBoxRankUpRate": 2,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"BuildLadder": {
+				"OnlineExp": 30,
+				"OfflineExp": 30,
+				"SpecialExp": 30,
+				"EventExp": 30,
+				"DefenseExp": 30,
+				"OnlineBoxRankUpRate": 30,
+				"OfflineBoxRankUpRate": 30,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"BuildBatteringRam": {
+				"OnlineExp": 60,
+				"OfflineExp": 60,
+				"SpecialExp": 60,
+				"EventExp": 60,
+				"DefenseExp": 60,
+				"OnlineBoxRankUpRate": 50,
+				"OfflineBoxRankUpRate": 50,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"BuildBallista": {
+				"OnlineExp": 20,
+				"OfflineExp": 20,
+				"SpecialExp": 20,
+				"EventExp": 20,
+				"DefenseExp": 10,
+				"OnlineBoxRankUpRate": 30,
+				"OfflineBoxRankUpRate": 30,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"BuildCannon": {
+				"OnlineExp": 20,
+				"OfflineExp": 20,
+				"SpecialExp": 20,
+				"EventExp": 20,
+				"DefenseExp": 10,
+				"OnlineBoxRankUpRate": 40,
+				"OfflineBoxRankUpRate": 40,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"BuildMinigun": {
+				"OnlineExp": 25,
+				"OfflineExp": 25,
+				"SpecialExp": 25,
+				"EventExp": 25,
+				"DefenseExp": 15,
+				"OnlineBoxRankUpRate": 40,
+				"OfflineBoxRankUpRate": 40,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"BuildRocketLauncher": {
+				"OnlineExp": 25,
+				"OfflineExp": 25,
+				"SpecialExp": 25,
+				"EventExp": 25,
+				"DefenseExp": 15,
+				"OnlineBoxRankUpRate": 40,
+				"OfflineBoxRankUpRate": 40,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"BreakLadder": {
+				"OnlineExp": 30,
+				"OfflineExp": 30,
+				"SpecialExp": 30,
+				"EventExp": 30,
+				"DefenseExp": 15,
+				"OnlineBoxRankUpRate": 50,
+				"OfflineBoxRankUpRate": 50,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"BreakBatteringRam": {
+				"OnlineExp": 40,
+				"OfflineExp": 40,
+				"SpecialExp": 40,
+				"EventExp": 40,
+				"DefenseExp": 20,
+				"OnlineBoxRankUpRate": 50,
+				"OfflineBoxRankUpRate": 50,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"BreakBallista": {
+				"OnlineExp": 10,
+				"OfflineExp": 10,
+				"SpecialExp": 10,
+				"EventExp": 10,
+				"DefenseExp": 5,
+				"OnlineBoxRankUpRate": 30,
+				"OfflineBoxRankUpRate": 30,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"BreakCannon": {
+				"OnlineExp": 20,
+				"OfflineExp": 20,
+				"SpecialExp": 20,
+				"EventExp": 20,
+				"DefenseExp": 10,
+				"OnlineBoxRankUpRate": 30,
+				"OfflineBoxRankUpRate": 30,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"BreakMinigun": {
+				"OnlineExp": 25,
+				"OfflineExp": 25,
+				"SpecialExp": 25,
+				"EventExp": 25,
+				"DefenseExp": 15,
+				"OnlineBoxRankUpRate": 30,
+				"OfflineBoxRankUpRate": 30,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"BreakRocketLauncher": {
+				"OnlineExp": 25,
+				"OfflineExp": 25,
+				"SpecialExp": 25,
+				"EventExp": 25,
+				"DefenseExp": 15,
+				"OnlineBoxRankUpRate": 30,
+				"OfflineBoxRankUpRate": 30,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"BreakCastleGate": {
+				"OnlineExp": 100,
+				"OfflineExp": 100,
+				"SpecialExp": 100,
+				"EventExp": 100,
+				"DefenseExp": 100,
+				"OnlineBoxRankUpRate": 100,
+				"OfflineBoxRankUpRate": 100,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"BreakCastleBarricade": {
+				"OnlineExp": 25,
+				"OfflineExp": 25,
+				"SpecialExp": 25,
+				"EventExp": 25,
+				"DefenseExp": 25,
+				"OnlineBoxRankUpRate": 30,
+				"OfflineBoxRankUpRate": 30,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"DamageCastleGate": {
+				"OnlineExp": 5,
+				"OfflineExp": 5,
+				"SpecialExp": 5,
+				"EventExp": 5,
+				"DefenseExp": 5,
+				"ConditionParam0": 500,
+				"OnlineBoxRankUpRate": 30,
+				"OfflineBoxRankUpRate": 30,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"BuildMonument": {
+				"OnlineExp": 10,
+				"OfflineExp": 10,
+				"SpecialExp": 10,
+				"EventExp": 10,
+				"DefenseExp": 10,
+				"OnlineBoxRankUpRate": 10,
+				"OfflineBoxRankUpRate": 10,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"BuildMonumentFirst": {
+				"OnlineExp": 20,
+				"OfflineExp": 20,
+				"SpecialExp": 20,
+				"EventExp": 20,
+				"DefenseExp": 20,
+				"OnlineBoxRankUpRate": 100,
+				"OfflineBoxRankUpRate": 100,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"BreakMonument": {
+				"OnlineExp": 10,
+				"OfflineExp": 10,
+				"SpecialExp": 10,
+				"EventExp": 10,
+				"DefenseExp": 10,
+				"OnlineBoxRankUpRate": 10,
+				"OfflineBoxRankUpRate": 10,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"BreakMonumentFirst": {
+				"OnlineExp": 20,
+				"OfflineExp": 20,
+				"SpecialExp": 20,
+				"EventExp": 20,
+				"DefenseExp": 20,
+				"OnlineBoxRankUpRate": 100,
+				"OfflineBoxRankUpRate": 100,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"BreakCastleMonument": {
+				"OnlineExp": 200,
+				"OfflineExp": 200,
+				"SpecialExp": 200,
+				"EventExp": 200,
+				"DefenseExp": 200,
+				"OnlineBoxRankUpRate": 100,
+				"OfflineBoxRankUpRate": 100,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"KingInvadeCastle": {
+				"OnlineExp": 200,
+				"OfflineExp": 200,
+				"SpecialExp": 200,
+				"EventExp": 200,
+				"DefenseExp": 200,
+				"OnlineBoxRankUpRate": 100,
+				"OfflineBoxRankUpRate": 100,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"KingInvadeBonus": {
+				"OnlineExp": 100,
+				"OfflineExp": 100,
+				"SpecialExp": 100,
+				"EventExp": 300,
+				"DefenseExp": 100,
+				"OnlineBoxRankUpRate": 100,
+				"OfflineBoxRankUpRate": 100,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"KillEnemyVsInvaderLow": {
+				"OnlineExp": 50,
+				"OfflineExp": 0,
+				"SpecialExp": 50,
+				"EventExp": 50,
+				"DefenseExp": 0,
+				"ConditionParam0": 1,
+				"ConditionParam1": 2,
+				"OnlineBoxRankUpRate": 10,
+				"OfflineBoxRankUpRate": 25,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"KillEnemyVsInvaderMid": {
+				"OnlineExp": 50,
+				"OfflineExp": 0,
+				"SpecialExp": 50,
+				"EventExp": 50,
+				"DefenseExp": 0,
+				"ConditionParam0": 3,
+				"ConditionParam1": 4,
+				"OnlineBoxRankUpRate": 20,
+				"OfflineBoxRankUpRate": 25,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"KillEnemyVsInvaderHig": {
+				"OnlineExp": 50,
+				"OfflineExp": 0,
+				"SpecialExp": 50,
+				"EventExp": 50,
+				"DefenseExp": 0,
+				"ConditionParam0": 5,
+				"ConditionParam1": 5,
+				"OnlineBoxRankUpRate": 30,
+				"OfflineBoxRankUpRate": 25,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"KillAssistVsInvaderLow": {
+				"OnlineExp": 30,
+				"OfflineExp": 0,
+				"SpecialExp": 30,
+				"EventExp": 30,
+				"DefenseExp": 0,
+				"ConditionParam0": 1,
+				"ConditionParam1": 2,
+				"OnlineBoxRankUpRate": 5,
+				"OfflineBoxRankUpRate": 10,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 8
+			},
+			"KillAssistVsInvaderMid": {
+				"OnlineExp": 30,
+				"OfflineExp": 0,
+				"SpecialExp": 30,
+				"EventExp": 30,
+				"DefenseExp": 0,
+				"ConditionParam0": 3,
+				"ConditionParam1": 4,
+				"OnlineBoxRankUpRate": 10,
+				"OfflineBoxRankUpRate": 10,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"KillAssistVsInvaderHig": {
+				"OnlineExp": 30,
+				"OfflineExp": 0,
+				"SpecialExp": 30,
+				"EventExp": 30,
+				"DefenseExp": 0,
+				"ConditionParam0": 5,
+				"ConditionParam1": 5,
+				"OnlineBoxRankUpRate": 15,
+				"OfflineBoxRankUpRate": 10,
+				"OnlineBoxRankUpLimit": 9,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"InvadeDiversionaryBase": {
+				"OnlineExp": 4,
+				"OfflineExp": 0,
+				"SpecialExp": 4,
+				"EventExp": 4,
+				"DefenseExp": 0,
+				"ConditionParam0": 5,
+				"ConditionParam1": 1900,
+				"OnlineBoxRankUpRate": 5,
+				"OfflineBoxRankUpRate": 10,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"InvadeDiversionaryBonus": {
+				"OnlineExp": 1,
+				"OfflineExp": 0,
+				"SpecialExp": 1,
+				"EventExp": 1,
+				"DefenseExp": 0,
+				"OnlineBoxRankUpRate": 1,
+				"OfflineBoxRankUpRate": 10,
+				"OnlineBoxRankUpLimit": 8,
+				"OfflineBoxRankUpLimit": 9
+			},
+			"GameWin": {
+				"OnlineExp": 100,
+				"OfflineExp": 100,
+				"SpecialExp": 100,
+				"EventExp": 100,
+				"DefenseExp": 100,
+				"OnlineBoxRankUpRate": 100,
+				"OfflineBoxRankUpRate": 100,
+				"OnlineBoxRankUpLimit": 10,
+				"OfflineBoxRankUpLimit": 10
+			},
+			"KillEnemy": {
+				"OnlineExp": 12,
+				"ConditionParam0": 0,
+				"ConditionParam1": 3
+			},
+			"KillEnemy01": {
+				"OnlineExp": 14,
+				"ConditionParam0": 1
+			},
+			"KillEnemy02": {
+				"OnlineExp": 16,
+				"ConditionParam0": 2
+			},
+			"KillEnemy03": {
+				"OnlineExp": 18,
+				"ConditionParam0": 3
+			},
+			"KillEnemy04": {
+				"OnlineExp": 20,
+				"ConditionParam0": 4
+			},
+			"Healing01": {
+				"OnlineExp": 6,
+				"ConditionParam0": 50
+			},
+			"Healing02": {
+				"OnlineExp": 6,
+				"ConditionParam0": 30
+			},
+			"Healing03": {
+				"OnlineExp": 6,
+				"ConditionParam0": 10
+			},
+			"MultiHealing01": {
+				"OnlineExp": 6,
+				"ConditionParam0": 120
+			},
+			"MultiHealing02": {
+				"OnlineExp": 6,
+				"ConditionParam0": 240
+			},
+			"Resurrect": {
+				"OnlineExp": 15
+			},
+			"Cure": {
+				"OnlineExp": 8
+			},
+			"BuildGimmick": {
+				"OnlineExp": 15
+			},
+			"BreakGimmick": {
+				"OnlineExp": 15
+			},
+			"UseTeamAction": {
+				"OnlineExp": 15
+			},
+			"JoinTeamAction": {
+				"OnlineExp": 5
+			},
+			"Level1": {
+				"OnlineExp": 0
+			},
+			"Level2": {
+				"OnlineExp": 20
+			},
+			"Level3": {
+				"OnlineExp": 70
+			},
+			"Level4": {
+				"OnlineExp": 160
+			},
+			"Level5": {
+				"OnlineExp": 300
+			}
+		}
+	}
+}

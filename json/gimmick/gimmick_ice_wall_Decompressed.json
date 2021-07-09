@@ -1,0 +1,48 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"start" :
+	[
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gice01_000_appear"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 81000
+		}
+	],
+	"destroy" :
+	[
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gice01_001_disappear"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 81050
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	]
+}
+
+// end of file

@@ -1,0 +1,436 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"start" :
+	[
+		{
+			"@class" : "command::TrapSphere",
+			"name_" : "build",
+			"centerX_" : 0,
+			"centerY_" : 0,
+			"centerZ_" : 0,
+			"radius_" : 300,
+			"kind_" : "BatteringRamPutMaterials"
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "build",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::AppointmentInit",
+			"name_" : "APPO_BATT_RAM_WAIT",
+			"isNext_" : true
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 2
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		}
+	],
+	"empty" :
+	[
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::Appointment",
+			"name_" : "APPO_BATT_RAM_WAIT",
+			"isNext_" : false
+		},
+		{
+			"@class" : "command::EffectFadeOutTime",
+			"fadeOutTime_" : 0.25
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Smat04c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 30,
+			"transZ_" : 0
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "build",
+			"isEnable_" : true,
+			"kind_" : "BatteringRamPutMaterials",
+			"team_" : "ENEMY"
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		}
+	],
+	"material" :
+	[
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 2
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "build",
+			"isEnable_" : true,
+			"kind_" : "BatteringRamBuild",
+			"team_" : "ENEMY"
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 3
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 70050,
+			"isLoop_" : false
+		}
+	],
+	"appear" :
+	[
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gmon01_001_appear"
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 3.1
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120050,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "build",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "build",
+			"isEnable_" : true,
+			"kind_" : "BatteringRamRide",
+			"team_" : "ENEMY"
+		}
+	],
+	"attack" :
+	[
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gmon01_000_attack"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 140850,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "build",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_bat_01"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_bat_02"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 33
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 140900,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 38
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_battering_ram"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 56
+		},
+		{
+			"@class" : "command::StopGameSe"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 58
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41050,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41060,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::BatteringRamDamage",
+			"hitName_" : "H_battering_ram_own"
+		},
+		{
+			"@class" : "command::BatteringRamGetOff",
+			"offsetX_" : 0,
+			"offsetY_" : 0,
+			"offsetZ_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 63
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 68
+		},
+		{
+			"@class" : "command::EffectEnd"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 105
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100160
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "build",
+			"isEnable_" : true,
+			"kind_" : "BatteringRamRide",
+			"team_" : "ENEMY"
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : true
+		}
+	],
+	"break" :
+	[
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gmon01b_000_break"
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "build",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 2.0
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120150,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120160,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::TotalFrame",
+			"frame_" : 240
+		}
+	],
+	"lost" :
+	[
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "build",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		}
+	],
+	"build" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 0,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 10,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 2.7
+		}
+	],
+	"damage" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 0,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 10,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 2.7
+		}
+	],
+	"Dispel" :
+	[
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		}
+	],
+	"Heal" :
+	[
+	]
+}
+
+// end of file

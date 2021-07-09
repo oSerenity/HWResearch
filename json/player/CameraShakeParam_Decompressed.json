@@ -1,0 +1,158 @@
+/* XDASEA_Xm8R_SPsX */ 
+// CameraShakeParam.xlsx
+{
+	"JsonPlayerParam": {
+		"cameraShakeParam_": {
+			"C_small_test": {
+				"power_": 0.005,
+				"speed_": 50,
+				"sec_": 0.2,
+				"atten_": 1
+			},
+			"C_large_test": {
+				"power_": 0.01,
+				"speed_": 50,
+				"sec_": 0.3,
+				"atten_": 1
+			},
+			"C_MID_Low": {
+				"power_": 0.0025,
+				"speed_": 50,
+				"sec_": 0.2,
+				"atten_": 1
+			},
+			"C_MID_Hi": {
+				"power_": 0.004,
+				"speed_": 50,
+				"sec_": 0.25,
+				"atten_": 1
+			},
+			"C_min_Low": {
+				"power_": 0.0005,
+				"speed_": 50,
+				"sec_": 0.1,
+				"atten_": 1
+			},
+			"C_attack": {
+				"power_": 0.0009,
+				"speed_": 50,
+				"sec_": 0.1,
+				"atten_": 1
+			},
+			"C_critical": {
+				"power_": 0.0055,
+				"speed_": 50,
+				"sec_": 0.3,
+				"atten_": 1
+			},
+			"C_rocketman": {
+				"power_": 0.006,
+				"speed_": 50,
+				"sec_": 0.5,
+				"atten_": 1,
+				"beginRadius_": 300,
+				"radius_": 1500
+			},
+			"C_rocketman2": {
+				"power_": 0.0005,
+				"speed_": 50,
+				"sec_": 0.5,
+				"atten_": 2.6
+			},
+			"C_roar": {
+				"power_": 0.001,
+				"speed_": 50,
+				"sec_": 0.8,
+				"atten_": 1
+			},
+			"C_power": {
+				"power_": 0.006,
+				"speed_": 50,
+				"sec_": 0.35,
+				"atten_": 1.2
+			},
+			"C_MAXpower": {
+				"power_": 0.0068,
+				"speed_": 50,
+				"sec_": 0.9,
+				"atten_": 1.3,
+				"beginRadius_": 200,
+				"radius_": 1200
+			},
+			"C_sacri": {
+				"power_": 0.005,
+				"speed_": 50,
+				"sec_": 0.6,
+				"atten_": 1.2
+			},
+			"C_MAXsacri": {
+				"power_": 0.006,
+				"speed_": 50,
+				"sec_": 0.7,
+				"atten_": 1.3,
+				"beginRadius_": 400,
+				"radius_": 1600
+			},
+			"C_lightning_strike": {
+				"power_": 0.0065,
+				"speed_": 50,
+				"sec_": 0.6,
+				"atten_": 1.3,
+				"beginRadius_": 400,
+				"radius_": 2000
+			},
+			"C_meteor": {
+				"power_": 0.007,
+				"speed_": 70,
+				"sec_": 1,
+				"atten_": 2.6,
+				"beginRadius_": 400,
+				"radius_": 3600
+			},
+			"C_ballista": {
+				"power_": 0.0005,
+				"speed_": 50,
+				"sec_": 0.2,
+				"atten_": 1
+			},
+			"C_catapult": {
+				"power_": 0.006,
+				"speed_": 55,
+				"sec_": 0.5,
+				"atten_": 1.5,
+				"beginRadius_": 200,
+				"radius_": 1000
+			},
+			"C_catapult_shot": {
+				"power_": 0.005,
+				"speed_": 50,
+				"sec_": 0.2,
+				"atten_": 1
+			},
+			"C_smash": {
+				"power_": 0.0001,
+				"speed_": 40,
+				"sec_": 1.2,
+				"atten_": 0.7
+			},
+			"C_quetzal_shot": {
+				"power_": 0.005,
+				"speed_": 50,
+				"sec_": 0.2,
+				"atten_": 1
+			},
+			"C_quetzal_damage": {
+				"power_": 0.005,
+				"speed_": 50,
+				"sec_": 0.2,
+				"atten_": 1
+			},
+			"C_spiketail_warning": {
+				"power_": 0.001,
+				"speed_": 50,
+				"sec_": 0.2,
+				"atten_": 1
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"Break" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1
+		}
+	]
+}
+
+// end of file

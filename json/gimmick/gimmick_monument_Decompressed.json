@@ -1,0 +1,1980 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"Construct50" :
+	[
+		{
+			"@class" : "command::GimmickEffectRelease",
+			"useIndex_" : 0,
+			"releseTime_" : 0,
+			"isForceErase_" : true
+		},
+		{
+			"@class" : "command::GimmickEffectRequest",
+			"label_" : "Gmon04c",
+			"boneName_" : "",
+			"useIndex_" : 0,
+			"constrainMatrixIndex_" : -1,
+			"sx_" : 0.63,
+			"sy_" : 0.63,
+			"sz_" : 0.63,
+			"rx_" : 0,
+			"ry_" : 0,
+			"rz_" : 0,
+			"tx_" : 0,
+			"ty_" : 0,
+			"tz_" : -6,
+			"transOnly_" : false
+		}
+	],
+	"Construct100" :
+	[
+		{
+			"@class" : "command::GimmickEffectRelease",
+			"useIndex_" : 0,
+			"releseTime_" : 0,
+			"isForceErase_" : true
+		},
+		{
+			"@class" : "command::GimmickEffectRequest",
+			"label_" : "Gmon05c",
+			"boneName_" : "",
+			"useIndex_" : 0,
+			"constrainMatrixIndex_" : -1,
+			"sx_" : 0.63,
+			"sy_" : 0.63,
+			"sz_" : 0.63,
+			"rx_" : 0,
+			"ry_" : 0,
+			"rz_" : 0,
+			"tx_" : 0,
+			"ty_" : 0,
+			"tz_" : -6,
+			"transOnly_" : false
+		}
+	],
+	"BreakFieldMonument" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1
+		}
+	],
+	"BreakCastleMonument" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Gmon01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100150
+		}
+	],
+	"buildFieldMonument" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		}
+	],
+	"buildCastleMonument" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		}
+	],
+	"buildFieldMonumentAct1A" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 2.2
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmoa_020_make01"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"buildFieldMonumentAct2A" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmoa_021_make02"
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 2.2
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"buildFieldMonumentAct3A" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 2.2
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmoa_022_make03"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"buildFieldMonumentAct4A" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmoa_023_make04"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 15
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 2.2
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"buildFieldMonumentAct5A" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmoa_024_make05"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 15
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 2.2
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"buildFieldMonumentAct6A" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmoa_025_make06"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 15
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 2.2
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"buildFieldMonumentAct7A" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo04c",
+			"boneName_" : "",
+			"transX_" : 7,
+			"transY_" : 430,
+			"transZ_" : -90,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.3
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmoa_026_make07"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100060
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 30
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100180
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmoa_000_wait01_loop"
+		}
+	],
+	"buildFieldMonumentAct1B" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 2.2
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmob_020_make01"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"buildFieldMonumentAct2B" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 2.2
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmob_021_make02"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"buildFieldMonumentAct3B" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 2.2
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmob_022_make03"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"buildFieldMonumentAct4B" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmob_023_make04"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 15
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 2.2
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"buildFieldMonumentAct5B" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmob_024_make05"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 15
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 2.2
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"buildFieldMonumentAct6B" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmob_025_make06"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 15
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 2.2
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"buildFieldMonumentAct7B" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo04c",
+			"boneName_" : "",
+			"transX_" : 7,
+			"transY_" : 630,
+			"transZ_" : -40,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.3
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmob_026_make07"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100060
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 30
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100180
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmob_000_wait01_loop"
+		}
+	],
+	"setupCastleMonumentActA" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcmoa_000_wait02_loop"
+		}
+	],
+	"setupCastleMonumentActB" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcmob_000_wait02_loop"
+		}
+	],
+	"destroyFieldMonumentAct1A" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 0.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmoa_016_break07"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		}
+	],
+	"destroyFieldMonumentAct2A" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 0.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmoa_015_break06"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destroyFieldMonumentAct3A" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 0.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmoa_014_break05"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destroyFieldMonumentAct4A" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 0.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmoa_013_break04"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destroyFieldMonumentAct5A" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 0.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmoa_012_break03"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destroyFieldMonumentAct6A" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 0.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmoa_011_break02"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destroyFieldMonumentAct7A" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmoa_010_break01"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 18
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 90,
+			"transY_" : 430,
+			"transZ_" : -7,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.2
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destroyFieldMonumentAct1B" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 0.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmob_016_break07"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : false
+		}
+	],
+	"destroyFieldMonumentAct2B" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 0.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmob_015_break06"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destroyFieldMonumentAct3B" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 0.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmob_014_break05"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destroyFieldMonumentAct4B" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 0.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmob_013_break04"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destroyFieldMonumentAct5B" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 0.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmob_012_break03"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destroyFieldMonumentAct6B" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 20,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 0.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmob_011_break02"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destroyFieldMonumentAct7B" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gfmob_010_break01"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 30
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 40,
+			"transY_" : 630,
+			"transZ_" : 7,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.2
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100050
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destoryCastleMonumentAct1A" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcmoa_016_break07"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 6
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Gmon03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : -25,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.5
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100100
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100150
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 72
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100180
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100170
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destoryCastleMonumentAct2A" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100100
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcmoa_015_break06"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 42
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100160
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destoryCastleMonumentAct3A" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100100
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcmoa_014_break05"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 42
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100160
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destoryCastleMonumentAct4A" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100100
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcmoa_013_break04"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 42
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100160
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destoryCastleMonumentAct5A" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100100
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcmoa_012_break03"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 42
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100160
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destoryCastleMonumentAct6A" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100100
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcmoa_011_break02"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 42
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100160
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destoryCastleMonumentAct7A" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 0
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcmoa_010_break01"
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 42
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100160
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destoryCastleMonumentAct1B" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcmob_016_break07"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 6
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Gmon03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : -25,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.5
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100100
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100150
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 72
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100180
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100170
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destoryCastleMonumentAct2B" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100100
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcmob_015_break06"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 42
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100160
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destoryCastleMonumentAct3B" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100100
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcmob_014_break05"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 42
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100160
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destoryCastleMonumentAct4B" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100100
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcmob_013_break04"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 42
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100160
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destoryCastleMonumentAct5B" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100100
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcmob_012_break03"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 42
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100160
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destoryCastleMonumentAct6B" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100100
+		},
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcmob_011_break02"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 42
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100160
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"destoryCastleMonumentAct7B" :
+	[
+		{
+			"@class" : "command::CurrentModel",
+			"current_" : 1
+		},
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcmob_010_break01"
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 42
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100160
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	]
+}
+
+// end of file

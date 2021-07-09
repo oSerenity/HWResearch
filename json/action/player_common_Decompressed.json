@@ -1,0 +1,7001 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"start" :
+	[
+	],
+	"appear" :
+	[
+		{
+			"@class" : "command::HitDamage",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "command::ModelVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::PlayerNameVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::ShadowScale",
+			"scale_" : 0.5
+		},
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "NONE"
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Wait",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Scale",
+			"x_" : 0.0,
+			"y_" : 1.25,
+			"z_" : 0.0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 4
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_chB08"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41260
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41150
+		},
+		{
+			"@class" : "tll::actor::command::Scale",
+			"x_" : 1.0,
+			"y_" : 1.0,
+			"z_" : 1.0,
+			"frame_" : 15
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 15
+		}
+	],
+	"appear_respawn" :
+	[
+		{
+			"@class" : "command::ModelVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::PlayerNameVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::ShadowScale",
+			"scale_" : 0.5
+		},
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "INVINCIBLE"
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Wait",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Scale",
+			"x_" : 0.0,
+			"y_" : 1.25,
+			"z_" : 0.0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 4
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_chB08"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41260
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41150
+		},
+		{
+			"@class" : "tll::actor::command::Scale",
+			"x_" : 1.0,
+			"y_" : 1.0,
+			"z_" : 1.0,
+			"frame_" : 15
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 15
+		}
+	],
+	"appear_king" :
+	[
+		{
+			"@class" : "command::HitDamage",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "NONE"
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Formation",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41800
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_chB08"
+		},
+		{
+			"@class" : "tll::actor::command::Scale",
+			"x_" : 0.66,
+			"y_" : 0.66,
+			"z_" : 0.66,
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Scale",
+			"x_" : 1.0,
+			"y_" : 1.0,
+			"z_" : 1.0,
+			"frame_" : 60
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 60
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_KingSpawn_01"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_KING"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_hap_start3"
+		},
+		{
+			"@class" : "tll::actor::command::Scale",
+			"x_" : 2.1,
+			"y_" : 2.1,
+			"z_" : 2.1,
+			"frame_" : 20
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 89
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "tll::actor::command::Scale",
+			"x_" : 1.0,
+			"y_" : 1.0,
+			"z_" : 1.0,
+			"frame_" : 5
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"stand" :
+	[
+		{
+			"@class" : "command::HitDamage",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "command::ModelVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::PlayerNameVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::ShadowScale",
+			"scale_" : 0.5
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Wait",
+			"frame_" : 0
+		}
+	],
+	"wait_dance1" :
+	[
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150300,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Dance1"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"wait_dance2" :
+	[
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150350,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Dance2"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"wait_dance3" :
+	[
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150400,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Dance3"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"revival" :
+	[
+		{
+			"@class" : "command::HitDamage",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "command::ModelVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::PlayerNameVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::ShadowScale",
+			"scale_" : 0.5
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "NONE"
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Revive",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_REBIRTH"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 21
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 30
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1600,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"stand_damage" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageWait",
+			"frame_" : 0
+		}
+	],
+	"run_begin" :
+	[
+		{
+			"@class" : "command::HitDamage",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "command::ModelVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::PlayerNameVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::ShadowScale",
+			"scale_" : 0.5
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8.0
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Run",
+			"frame_" : 0
+		}
+	],
+	"run" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Run",
+			"frame_" : 0
+		}
+	],
+	"sway" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Totter",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 5
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41550
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"attack1" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 2
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Attack1"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 10
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW01"
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_attack_01"
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "command::PlayGameAttackSe",
+			"seId_" : 40150
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 22
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 26
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"attack2" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Attack2",
+			"frame_" : 2
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 4
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW01"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 8
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_attack_02"
+		},
+		{
+			"@class" : "command::PlayGameAttackSe",
+			"seId_" : 40200
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 18
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 22
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"attack3" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Attack3"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 8
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW01"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 12
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_attack_03"
+		},
+		{
+			"@class" : "command::PlayGameAttackSe",
+			"seId_" : 40150
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 20
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 30
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"attack4" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Attack4"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 12
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW01"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 18
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_attack_04"
+		},
+		{
+			"@class" : "command::PlayGameAttackSe",
+			"seId_" : 40200
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 26
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 36
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"attack5" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Attack5"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 6
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW01"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 10
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_attack_05"
+		},
+		{
+			"@class" : "command::PlayGameAttackSe",
+			"seId_" : 40150
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 22
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 32
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"attack6" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Attack6"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 12
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW01"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 14
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_attack_06"
+		},
+		{
+			"@class" : "command::PlayGameAttackSe",
+			"seId_" : 40250
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 100,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 30
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 38
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"attack7" :
+	[
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW01"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Attack7"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 16
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_attack_07"
+		},
+		{
+			"@class" : "command::PlayGameAttackSe",
+			"seId_" : 40150
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 22
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 40
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"attack8" :
+	[
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW01"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Attack8"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 22
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_attack_08"
+		},
+		{
+			"@class" : "command::PlayGameAttackSe",
+			"seId_" : 40250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 46
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 52
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"guard_on" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00GuardStartS",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40750
+		},
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "GUARD"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"guard" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "GUARD"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00GuardWait",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"guard_walk_begin" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "GUARD"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8.0
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00GuardWalk",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 5
+		},
+		{
+			"@class" : "command::PlayGameFootSe",
+			"seId_" : 40000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 15
+		},
+		{
+			"@class" : "command::PlayGameFootSe",
+			"seId_" : 40000
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"guard_walk" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "GUARD"
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00GuardWalk",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 5
+		},
+		{
+			"@class" : "command::PlayGameFootSe",
+			"seId_" : 40000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 15
+		},
+		{
+			"@class" : "command::PlayGameFootSe",
+			"seId_" : 40000
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"guard_off" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "GUARD"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "command::TempSpeed",
+			"rate_" : 1.2
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00GuardEnd",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 10
+		},
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "NEUTRAL"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"guard_attack1" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "GUARD"
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00GuardAttack1",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 8
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW02"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 12
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_guard_attack_01"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40150
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 22
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 36
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"guard_attack2" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "GUARD"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00GuardAttack2",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 6
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW02"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 8
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_guard_attack_02"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40200
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 20
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 36
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"guard_attack3" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "GUARD"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 2
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00GuardAttack3",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 4
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW02"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 6
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_guard_attack_03"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40150
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 14
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 20
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"guard_attack4" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "GUARD"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 2
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00GuardAttack4",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 6
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW02"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 8
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_guard_attack_04"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40200
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 18
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 46
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"guard_attack1_Ex1" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "GUARD"
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00GuardAttackA1",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 6
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW11"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 10
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_guard_attack_ex01"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40150
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 20
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 24
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"guard_attack2_Ex1" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "GUARD"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00GuardAttackA2",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 4
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW11"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 8
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_guard_attack_ex02"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40200
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 18
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 22
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"guard_attack3_Ex1" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "GUARD"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 2
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00GuardAttackA3",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 4
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW11"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 8
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_guard_attack_ex03"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40150
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 18
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 22
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"guard_attack4_Ex1" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "GUARD"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 2
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00GuardAttackA4",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 4
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW11"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 6
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_guard_attack_ex04"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40200
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 18
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 34
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"blow_attack" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00AttackBlow",
+			"frame_" : 6
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 14
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_Gattack_10"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41000
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 500,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 16
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_blowber_00"
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_FLOW_ATTACK"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 26
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"enc_fire_attack" :
+	[
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trEF00"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "command::TempSpeed",
+			"rate_" : 1.2
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Attack6",
+			"frame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 16
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_enc_fire_attack_01"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 80560
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 30
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"enc_light_attack" :
+	[
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trET00"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "command::TempSpeed",
+			"rate_" : 1.2
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Attack6",
+			"frame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 16
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_enc_light_attack_01"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 80660
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 30
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"enc_wind_attack" :
+	[
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trEW00"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "command::TempSpeed",
+			"rate_" : 1.2
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Attack6",
+			"frame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 16
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_enc_wind_attack_01"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 80760
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 30
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"enc_ice_attack" :
+	[
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trEI00"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "command::TempSpeed",
+			"rate_" : 1.2
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Attack6",
+			"frame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 16
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_enc_ice_attack_01"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 80860
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 30
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"damage_front" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageMF",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_S"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"damage_back" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageMB",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 800,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_S"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"damage_right" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageMR",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_S"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"damage_left" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageML",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_S"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"damage_thunder" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageThunder",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_THUNDER"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"fall" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "AIR"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00FallF",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41160,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 20
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1500,
+			"isLoop_" : true
+		}
+	],
+	"guard_damage_back" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "GUARD"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00GuardDamageB",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 800,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"cast_cancel" :
+	[
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_cast_miss_b"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 50050
+		}
+	],
+	"burning_damage_front" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageSF"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_burn_start"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 80100
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_S"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"burning_damage_front_u" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageSF"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_burn_start"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 80100
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_S"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"burning_damage_back" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageSB"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_burn_start"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 80100
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 800,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_S"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"burning_damage_back_u" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageSB"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_burn_start"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 80100
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 800,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_S"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"burning_damage_right" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageSR"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_burn_start"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 80100
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_S"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"burning_damage_right_u" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageSR"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_burn_start"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 80100
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_S"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"burning_damage_left" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageSL"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_burn_start"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 80100
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_S"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"burning_damage_left_u" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageSL"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_burn_start"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 80100
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_S"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"land" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Landing",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41100
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_pla00"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"falldamage" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageFall",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41200
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_pla01"
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_S"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"falldie" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00FallDown",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41250
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1500,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_pla01"
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_L"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"falldie2" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00FallDown2",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_pla01"
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1500,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 40
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 50
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 60
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 70
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 80
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 90
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 100
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 111
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 124
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 140
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 186
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_L"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"falldie3" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00FallDown3",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1500,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_pla01"
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_L"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 31
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 94
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"infinite_fall" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Adea02c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 0,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "ROT_TRANS",
+			"scale_" : 1
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00FallF",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41450
+		},
+		{
+			"@class" : "tll::actor::command::Scale",
+			"x_" : 0,
+			"y_" : 0,
+			"z_" : 0,
+			"frame_" : 10
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 25
+		},
+		{
+			"@class" : "command::ModelVisible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::PlayerNameVisible",
+			"visible_" : false
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"reel_front" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageReelF",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_L"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40020
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 14
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40020
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"reel_back" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageReelB",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_L"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40020
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 14
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40020
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"reel_right" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageReelR",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_L"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40020
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 14
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40020
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"reel_left" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageReelL",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_L"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40020
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 14
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40020
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"die" :
+	[
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40660
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_L"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Down",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1300,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 4
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_Die"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 30
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 83
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 90
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"die2" :
+	[
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40660
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40670
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_L"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Down2",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1300,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 4
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_Die"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 25
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 20100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 115
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 122
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"die3" :
+	[
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40660
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_L"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Down3",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1300,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 4
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_Die"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 36
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 72
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40950
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 88
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"die4" :
+	[
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40660
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_L"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Down4",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1300,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 4
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_Die"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 25
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 20100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 32
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 54
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 97
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"die5" :
+	[
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40660
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40670
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_L"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Down5",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1300,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 4
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_Die"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 80
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 117
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 186
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 195
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"die6" :
+	[
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40660
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_L"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Down6",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1300,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 4
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_Die"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 34
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 74
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 85
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 94
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 105
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 114
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 125
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 134
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 146
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 158
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 175
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 218
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 222
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"die7" :
+	[
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40660
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_L"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Down7",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1300,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 4
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_Die"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 28
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40690
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 48
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40690
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 68
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40680
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 105
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 20100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 126
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 130
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"die8" :
+	[
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40660
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_L"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Down8",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1300,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 4
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_Die"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 72
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 92
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 98
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"die9" :
+	[
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40660
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_L"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Down9",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1300,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 4
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_Die"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 32
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 38
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 89
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 90
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"water_die" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DownWater",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::ShadowScale",
+			"scale_" : 0
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_WaterDie"
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_FALL_DEAD"
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1400
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41350,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 310
+		},
+		{
+			"@class" : "command::ModelVisible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::PlayerNameVisible",
+			"visible_" : false
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"magma_die" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DownWater",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::ShadowScale",
+			"scale_" : 0
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_MagmaDie"
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_FALL_DEAD"
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1400
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41400,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 310
+		},
+		{
+			"@class" : "command::ModelVisible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::PlayerNameVisible",
+			"visible_" : false
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"doodlebug_eating" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00FallF",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"doodlebug_disgorge" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00FallB",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"doodlebug_eatend" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Down",
+			"frame_" : 24
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 4
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_chB08"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 30
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 75
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"manufacture_monument" :
+	[
+		{
+			"@class" : "command::RemoteRepeat"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8.0
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00GimmickMake",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 21
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 35
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 42
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 56
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 72
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 87
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 100000
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"manufacture" :
+	[
+		{
+			"@class" : "command::RemoteRepeat"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8.0
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00GimmickMake",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 21
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 35
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 42
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 56
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 72
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 87
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120000
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"castle_gate_open" :
+	[
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120560
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Cle00Magic3End"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"ride" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00GimmickRide",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120140
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"ride_loop" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00GimmickRide",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"push_bomb_stone" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00ExAttackBlow",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120130
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 12
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 0,
+			"transZ_" : 190,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "ROT_TRANS",
+			"scale_" : 1.1,
+			"isForceErase_" : false
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"gimmick_jump_launchpad" :
+	[
+		{
+			"@class" : "command::HitDamage",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "command::ModelVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::PlayerNameVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::ShadowScale",
+			"scale_" : 0.5
+		},
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "AIR"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00FallB",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_blownoff01"
+		},
+		{
+			"@class" : "command::FrameWait",
+			"wait_" : 29
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 140400
+		}
+	],
+	"gimmick_jump_landingpoint" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "AIR"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00FallB",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_blownoff01"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 140450,
+			"isLoop_" : true
+		}
+	],
+	"ride_quetzal" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Mag00Magic2Wait",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_quetzal"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 140800,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"blownoff" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "AIR"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00FallB",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_blownoff00"
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_BLOW"
+		}
+	],
+	"super_blownoff" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "AIR"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00FallB",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_blownoff00"
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_BLOW"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41150
+		}
+	],
+	"stone" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00ExThrowing"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 16
+		},
+		{
+			"@class" : "command::MagicShot",
+			"magicName_" : "H_Stone01"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_stn_thr"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 60550
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 600
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"tornado_endure" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00AgainstTornade",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_TORNADE_BEAR",
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"tornado_blownoff" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00FallB",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_DAMAGE_BLOW"
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1000
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41150
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"form_up_begin" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Cle00Magic2Start",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 90050
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"form_up_begin_war" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Warmup",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_form_enter"
+		},
+		{
+			"@class" : "command::autoVoiceMacro",
+			"voiceGroupID_" : 10090
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 90050
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"form_up_loop" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Cle00Magic2Wait",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_form_enter"
+		},
+		{
+			"@class" : "command::autoVoiceMacro",
+			"voiceGroupID_" : 10090
+		}
+	],
+	"phalanx" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Phalanx"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_phalanx_start"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 40
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_phalanx_start2"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 90150
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 500
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_PERFECT_GUARD"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"cheer" :
+	[
+		{
+			"@class" : "command::FrameWait",
+			"wait_" : 115
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Encourage"
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 400
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 65
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 90100
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_cheer_cst"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_cheer_start"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_cheer_startb"
+		},
+		{
+			"@class" : "command::FrameWait",
+			"wait_" : 200
+		}
+	],
+	"cheer_leader" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Encourage"
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 400
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 65
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 115
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Wait"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 40
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Wait"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 25
+		},
+		{
+			"@class" : "command::PlayGameSeName",
+			"seName_" : "JIN160000"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_cheer_cst"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_cheer_start"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_cheer_startb"
+		},
+		{
+			"@class" : "command::FrameWait",
+			"wait_" : 200
+		}
+	],
+	"song_leader" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 12
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00SongStart",
+			"frame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 84
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 12
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00SongStart",
+			"frame_" : 20
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 80
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 12
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00SongStart",
+			"frame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 8
+		},
+		{
+			"@class" : "command::EffectEnd"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"song_teammate" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 12
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Song2"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 20
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sas_melody"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 80
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Song2"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 80
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Song2"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 80
+		},
+		{
+			"@class" : "command::EffectEnd"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"song_headbanging" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Song"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 6
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 500,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 26
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 500,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 46
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 500,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 66
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 500,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"song_clap" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Cle00Magic2End"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 20
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sas_wav2"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 35
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Clap"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 11
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 22
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 33
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 44
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150250
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"transport_leader" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Cle00Magic3Wait"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 18
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_bli_warp"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 90300
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 14
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Happy1"
+		}
+	],
+	"transport_teammate" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Cle00Magic2Wait"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 18
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_bli_warp"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 90300
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 14
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Happy1"
+		}
+	],
+	"Wind_Warp_Damage" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "NONE"
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageWarpStart"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 40
+		},
+		{
+			"@class" : "tll::actor::command::Scale",
+			"x_" : 0.0,
+			"y_" : 2.0,
+			"z_" : 0.0,
+			"frame_" : 6
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_wind_warp1"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 50400
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 81101
+		}
+	],
+	"Wind_Warp_End_Damage" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageWarpEnd"
+		},
+		{
+			"@class" : "tll::actor::command::Scale",
+			"x_" : 0.0,
+			"y_" : 1.5,
+			"z_" : 0.0,
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Scale",
+			"x_" : 1.0,
+			"y_" : 1.0,
+			"z_" : 1.0,
+			"frame_" : 6
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 6
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00DamageWarpEnd"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_wind_warp2"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"cast_end_Cyclone_shield" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4.0
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Mag00Magic2End",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_met_20"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 50400
+		},
+		{
+			"@class" : "command::PlayGameSeName",
+			"seName_" : "JIN160000"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"cast_arrow_begin_common" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Mag00ShotWait",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 6
+		}
+	],
+	"cast_arrow_common" :
+	[
+		{
+			"@class" : "command::RemoteRepeat"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Mag00ShotWait",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_tor_ring"
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_ARROW",
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 90550
+		},
+		{
+			"@class" : "command::MagicShot",
+			"magicName_" : "H_lightning_arrows"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 6
+		},
+		{
+			"@class" : "command::MagicShot",
+			"magicName_" : "H_lightning_arrows"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 90550
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 12
+		},
+		{
+			"@class" : "command::MagicShot",
+			"magicName_" : "H_lightning_arrows"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 90550
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 18
+		}
+	],
+	"cast_tornado_common" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Mag00ShotWait",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_tor_ring"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 90600
+		}
+	],
+	"rush_pre" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "command::TempSpeed",
+			"rate_" : 1.25
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00ExRushStart",
+			"frame_" : 4
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rus_00"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"rush" :
+	[
+		{
+			"@class" : "command::RemoteRepeat"
+		},
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "STRONG"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "command::TempSpeed",
+			"rate_" : 1.0
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00ExRush",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_Rush01"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 60150,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 300,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW01"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rus_smo01"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 6
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40150
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 20
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40200
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 36
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40150
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		},
+		{
+			"@class" : "command::HitEnd"
+		}
+	],
+	"rush_oops" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 6
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Totter",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"rush_team_pre" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "command::TempSpeed",
+			"rate_" : 1.25
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00ExRushStart",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameSeName",
+			"seName_" : "JIN160000"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_charge_start"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rus_00"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"rush_team" :
+	[
+		{
+			"@class" : "command::RemoteRepeat"
+		},
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "STRONG"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "command::TempSpeed",
+			"rate_" : 1.0
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00ExRush",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 300,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW01"
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_teamRush01"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rus_smo00"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 90250,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 6
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40150
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 20
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40200
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 36
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40150
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		},
+		{
+			"@class" : "command::HitEnd"
+		}
+	],
+	"rush_team_oops" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 6
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Totter",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rus_smo02"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"rocketman_army_begin" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00ExRocketCharge"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 61150,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rkt_01"
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_START_MISSILE",
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 14
+		},
+		{
+			"@class" : "command::CameraShake",
+			"shakeName_" : "C_rocketman2"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 20
+		},
+		{
+			"@class" : "command::CameraShake",
+			"shakeName_" : "C_rocketman2"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 30
+		},
+		{
+			"@class" : "command::CameraShake",
+			"shakeName_" : "C_rocketman2"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 40
+		},
+		{
+			"@class" : "command::CameraShake",
+			"shakeName_" : "C_rocketman2"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 50
+		},
+		{
+			"@class" : "command::CameraShake",
+			"shakeName_" : "C_rocketman2"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 60
+		},
+		{
+			"@class" : "command::CameraShake",
+			"shakeName_" : "C_rocketman2"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 70
+		},
+		{
+			"@class" : "command::CameraShake",
+			"shakeName_" : "C_rocketman2"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 80
+		},
+		{
+			"@class" : "command::CameraShake",
+			"shakeName_" : "C_rocketman2"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 90
+		},
+		{
+			"@class" : "command::CameraShake",
+			"shakeName_" : "C_rocketman2"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 100
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00ExRocketCharge",
+			"frame_" : 60
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 100
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00ExRocketCharge",
+			"frame_" : 60
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 100
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00ExRocketCharge",
+			"frame_" : 60
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 100
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00ExRocketStart"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 61200
+		},
+		{
+			"@class" : "command::CameraShake",
+			"shakeName_" : "C_rocketman"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rkt_00"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"rocketman_army_start" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00ExRocketStart"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 61200
+		},
+		{
+			"@class" : "command::CameraShake",
+			"shakeName_" : "C_rocketman"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rkt_00"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"rocketman_army_exec" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "STRONG"
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00ExRocket"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 61250
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 300,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rkt_fly00"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rkt_fly01"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rkt_10"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"rocketman_army_end" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "STRONG"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 61250
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rkt_fly00"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rkt_fly01"
+		}
+	],
+	"rocketman_army_bomb_lv1" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "STRONG"
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00ExRocketEnd"
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_Rocket10"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40900
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rkt_imp00"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rkt_imp01"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rkt_bom00"
+		},
+		{
+			"@class" : "command::CameraShake",
+			"shakeName_" : "C_rocketman"
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_HIT_MISSILE"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 18
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"rocketman_army_bomb_lv2" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "STRONG"
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00ExRocketEnd"
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_Rocket11"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40900
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rkt_imp10"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rkt_imp11"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rkt_bom10"
+		},
+		{
+			"@class" : "command::CameraShake",
+			"shakeName_" : "C_rocketman"
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_HIT_MISSILE"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 18
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"rocketman_army_bomb_lv3" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "STRONG"
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00ExRocketEnd"
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_Rocket21"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40900
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rkt_imp20"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rkt_imp21"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_rkt_bom20"
+		},
+		{
+			"@class" : "command::CameraShake",
+			"shakeName_" : "C_rocketman"
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_HIT_MISSILE"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 18
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"build_robot_leader" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "NONE"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Hero3"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 81700
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 40
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_chB08"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 70050
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 44
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 4
+		},
+		{
+			"@class" : "command::Props",
+			"modelName_" : "grob01m",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 0,
+			"transZ_" : 0
+		},
+		{
+			"@class" : "command::ModelVisible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::ShadowScale",
+			"scale_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00GimmickMake"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 21
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 35
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 42
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 56
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 72
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 87
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120000
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 83350
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"build_robot_teammate" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00ExRoar"
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 400
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 42
+		},
+		{
+			"@class" : "command::Props",
+			"modelName_" : "cwea610",
+			"boneName_" : "RightWeapon",
+			"transX_" : 0,
+			"transY_" : 0,
+			"transZ_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00GimmickMake"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 21
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 35
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 42
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 56
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 72
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 87
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 94
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Clap"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150150
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 11
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 22
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 33
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 44
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 55
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 66
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 77
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150250
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"faint" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Stun"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_stn_faint"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 110000,
+			"isLoop_" : true
+		}
+	],
+	"flower_appear" :
+	[
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_hap_change"
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00FlowerStart"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 90400
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1800
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 76
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00FlowerWait"
+		}
+	],
+	"flower_wait" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00FlowerWait"
+		}
+	],
+	"flower_move" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00FlowerWalk"
+		},
+		{
+			"@class" : "command::PlayGameFootSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1800
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 25
+		},
+		{
+			"@class" : "command::PlayGameFootSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1800
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"flower_disappear" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00FlowerEnd"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 90450
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 198
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"snowman01" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Snow1"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_ice_start2"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_ice_snow"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 110100,
+			"isLoop_" : true
+		}
+	],
+	"snowman02" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Snow2"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_ice_start2"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_ice_start2"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_ice_snow"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 110100,
+			"isLoop_" : true
+		}
+	],
+	"snowman03" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Snow3"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_ice_start2"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_ice_start2"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_ice_snow"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 110100,
+			"isLoop_" : true
+		}
+	],
+	"scared_start" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "command::TempSpeed",
+			"rate_" : 1.2
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00ScaredStart"
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1000
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_CRY_HIT"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"scared_loop" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "command::TempSpeed",
+			"rate_" : 1.0
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00ScaredWait"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_scared"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"scared_move_loop" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00ScaredWalk"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_scared"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 11
+		},
+		{
+			"@class" : "command::PlayGameFootSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 32
+		},
+		{
+			"@class" : "command::PlayGameFootSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"loser_start" :
+	[
+		{
+			"@class" : "command::HitDamage",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "command::ModelVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::PlayerNameVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::ShadowScale",
+			"scale_" : 0.5
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_chB08"
+		},
+		{
+			"@class" : "command::Props",
+			"modelName_" : "gcru01",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : -200,
+			"transZ_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 12
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Hang"
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 1
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_chB08"
+		}
+	],
+	"loser" :
+	[
+		{
+			"@class" : "command::HitDamage",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "command::ModelVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::PlayerNameVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::ShadowScale",
+			"scale_" : 0.5
+		},
+		{
+			"@class" : "command::Props",
+			"modelName_" : "gcru01",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : -200,
+			"transZ_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 12
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Hang"
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1700,
+			"isLoop_" : true
+		}
+	],
+	"loser_faint" :
+	[
+		{
+			"@class" : "command::Props",
+			"modelName_" : "gcru01",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : -200,
+			"transZ_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00HangDown"
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700,
+			"isLoop_" : true
+		}
+	],
+	"loser_sp1_start" :
+	[
+		{
+			"@class" : "command::HitDamage",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "command::ModelVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::PlayerNameVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::ShadowScale",
+			"scale_" : 0.0
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_Loser_sp1_00"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_chB08"
+		},
+		{
+			"@class" : "command::Props",
+			"modelName_" : "gcru02",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : -300,
+			"transZ_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 12
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Hang"
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 1
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_chB08"
+		}
+	],
+	"loser_sp1" :
+	[
+		{
+			"@class" : "command::HitDamage",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "command::ModelVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::PlayerNameVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::ShadowScale",
+			"scale_" : 0.0
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_Loser_sp1_00"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150450,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::Props",
+			"modelName_" : "gcru02",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : -300,
+			"transZ_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 12
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Hang"
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1700,
+			"isLoop_" : true
+		}
+	],
+	"loser_sp1_faint" :
+	[
+		{
+			"@class" : "command::Props",
+			"modelName_" : "gcru02",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : -300,
+			"transZ_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00HangDown"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_Loser_sp1_01"
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700,
+			"isLoop_" : true
+		}
+	],
+	"loser_sp2_start" :
+	[
+		{
+			"@class" : "command::HitDamage",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::ModelVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::PlayerNameVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::ShadowScale",
+			"scale_" : 0.0
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_chB08"
+		},
+		{
+			"@class" : "command::Props",
+			"modelName_" : "gcru01",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : -200,
+			"transZ_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 12
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Hang"
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 1
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_chB08"
+		}
+	],
+	"loser_sp2" :
+	[
+		{
+			"@class" : "command::HitDamage",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::ModelVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::PlayerNameVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::ShadowScale",
+			"scale_" : 0.0
+		},
+		{
+			"@class" : "command::Props",
+			"modelName_" : "gcru03",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : -200,
+			"transZ_" : 0
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Alos04c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : -300,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "ROT_TRANS",
+			"scale_" : 1
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 12
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00HangDance"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150500,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1700,
+			"isLoop_" : true
+		}
+	],
+	"loser_sp2_faint" :
+	[
+		{
+			"@class" : "command::Props",
+			"modelName_" : "gcru03",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : -200,
+			"transZ_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00HangDown"
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 700,
+			"isLoop_" : true
+		}
+	],
+	"loser_sp3_start" :
+	[
+		{
+			"@class" : "command::HitDamage",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::ModelVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::PlayerNameVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::ShadowScale",
+			"scale_" : 0.0
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_chB08"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 12
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Hang"
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1700,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 1
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_chB08"
+		}
+	],
+	"loser_sp3" :
+	[
+		{
+			"@class" : "command::HitDamage",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "command::ModelVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::PlayerNameVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::ShadowScale",
+			"scale_" : 0.0
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 12
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Hang"
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1700,
+			"isLoop_" : true
+		}
+	],
+	"loser_sp3_faint" :
+	[
+		{
+			"@class" : "command::HitDamage",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "command::ModelVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::PlayerNameVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::ShadowScale",
+			"scale_" : 0.0
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 12
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Hang"
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1700,
+			"isLoop_" : true
+		}
+	],
+	"dropout" :
+	[
+		{
+			"@class" : "command::HitDamage",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::ShadowScale",
+			"scale_" : 0
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Adea02c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 0,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "ROT_TRANS",
+			"scale_" : 1
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00FallF",
+			"frame_" : 0
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41450
+		},
+		{
+			"@class" : "tll::actor::command::Scale",
+			"x_" : 0,
+			"y_" : 0,
+			"z_" : 0,
+			"frame_" : 10
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 25
+		},
+		{
+			"@class" : "command::ModelVisible",
+			"visible_" : false
+		},
+		{
+			"@class" : "command::PlayerNameVisible",
+			"visible_" : false
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"indication" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Command"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 31
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40150
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"hello" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Hello"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 46
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 88
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41100
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"thanks" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Thanks"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 27
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40150
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"smile" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Smile"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"ok" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Ok"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 19
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40150
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"heartbroken" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Heartbreak"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41000
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"happy1" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Happy1"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 45
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 95
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41100
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"happy2" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Happy2"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 22
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 55
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 74
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 94
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 114
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 140
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41100
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"happy3" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Happy3"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 25
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 42
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 62
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 90
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41100
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"win1" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Win1"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 40
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 80
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41100
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"win2" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Win2"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 74
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150150
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"win3" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Win3"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 19
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 49
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 82
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150000
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 84
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150000
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_Heart"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 86
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150000
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"lose1" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Lose1"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 29
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 52
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 86
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 108
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 123
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 153
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 180
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"lose2" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Lose2"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 18
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 32
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 47
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 63
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 77
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 110
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 145
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 175
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"lose3" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Lose3"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 18
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40750
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 40
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 61
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150050
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"hero1" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Hero1"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 176
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41500
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"hero2" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Hero2"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 40
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41500
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 104
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41100
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"hero3" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Hero3"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 45
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41100
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"clap" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Clap"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 11
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 22
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 33
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 44
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 55
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 66
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 77
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150250
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"provoke1" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Provoke1"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 21
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150200
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 25
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_Fart"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 39
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 56
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150200
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 69
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 92
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41100
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"provoke2" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Provoke2"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 15
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 34
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 50
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 65
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40100
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 81
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 41100
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"provoke3" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Sha00Provoke3"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 41
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_saliva"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150100
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"bless" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 8
+		},
+		{
+			"@class" : "command::Props",
+			"modelName_" : "gcra01",
+			"boneName_" : "LeftWeapon",
+			"transX_" : 0,
+			"transY_" : 0,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : -70,
+			"visible_" : false
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00GuardWait",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 10
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Shap01c",
+			"boneName_" : "LeftWeapon",
+			"transX_" : 100,
+			"transY_" : 50,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : -70,
+			"coordKind_" : "ROT_TRANS",
+			"scale_" : 1
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 150150
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"debug_run" :
+	[
+		{
+			"@class" : "command::HitDamage",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "command::ModelVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::PlayerNameVisible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::ShadowScale",
+			"scale_" : 0.5
+		}
+	]
+}
+
+// end of file

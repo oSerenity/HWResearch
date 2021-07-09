@@ -1,0 +1,26 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"RaftWave" :
+	[
+		{
+			"@class" : "command::GimmickEffectRequest",
+			"label_" : "Gflo01c",
+			"boneName_" : "",
+			"useIndex_" : -1,
+			"constrainMatrixIndex_" : 0,
+			"sx_" : 1.25,
+			"sy_" : 1.25,
+			"sz_" : 1.25,
+			"rx_" : 0,
+			"ry_" : 0,
+			"rz_" : 0,
+			"tx_" : 0,
+			"ty_" : 0,
+			"tz_" : 0,
+			"transOnly_" : true
+		}
+	]
+}
+
+// end of file

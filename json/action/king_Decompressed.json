@@ -1,0 +1,699 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"attack1" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 2
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Attack1"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 5
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_kingAttack"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 10
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW01"
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_attack_01"
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "command::PlayGameAttackSe",
+			"seId_" : 40150
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 22
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 26
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"attack2" :
+	[
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW01"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Attack2",
+			"frame_" : 2
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 5
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_kingAttack"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 8
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_attack_02"
+		},
+		{
+			"@class" : "command::PlayGameAttackSe",
+			"seId_" : 40200
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 18
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 22
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"attack3" :
+	[
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW01"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Attack3"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 5
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_kingAttack"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 12
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_attack_03"
+		},
+		{
+			"@class" : "command::PlayGameAttackSe",
+			"seId_" : 40150
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 20
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 30
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"attack4" :
+	[
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW01"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Attack4"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 10
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_kingAttack"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 18
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_attack_04"
+		},
+		{
+			"@class" : "command::PlayGameAttackSe",
+			"seId_" : 40200
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 26
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 36
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"attack5" :
+	[
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW01"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Attack5"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 5
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_kingAttack"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 10
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_attack_05"
+		},
+		{
+			"@class" : "command::PlayGameAttackSe",
+			"seId_" : 40150
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 22
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 32
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"attack6" :
+	[
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW01"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Attack6"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 5
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_kingAttack"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 14
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_attack_06"
+		},
+		{
+			"@class" : "command::PlayGameAttackSe",
+			"seId_" : 40250
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 100,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 30
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 38
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"attack7" :
+	[
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW01"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Attack7"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 16
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_attack_07"
+		},
+		{
+			"@class" : "command::PlayGameAttackSe",
+			"seId_" : 40150
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 22
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 40
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"attack8" :
+	[
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW01"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00Attack8"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 22
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_attack_08"
+		},
+		{
+			"@class" : "command::PlayGameAttackSe",
+			"seId_" : 40250
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 46
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 52
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"guard_attack1" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "GUARD"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW02"
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00GuardAttack1",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 5
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_kingAttack"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 12
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_guard_attack_01"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40150
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 22
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 36
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"guard_attack2" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "GUARD"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW02"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00GuardAttack2",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 5
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_kingAttack"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 8
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_guard_attack_02"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40200
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 20
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 36
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"guard_attack3" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "GUARD"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW02"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 2
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00GuardAttack3",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 5
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_kingAttack"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 6
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_guard_attack_03"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40150
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 14
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 20
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"guard_attack4" :
+	[
+		{
+			"@class" : "command::HitState",
+			"hitState_" : "GUARD"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_sw_trW02"
+		},
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 2
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Wrr00GuardAttack4",
+			"frame_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 5
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_kingAttack"
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 8
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_guard_attack_04"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 40200
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 0
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 18
+		},
+		{
+			"@class" : "command::HitEnd"
+		},
+		{
+			"@class" : "command::AttackWait",
+			"wait_" : 46
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"cast_start_wall" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4.0
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Cle00Magic1Start"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"cast_wall" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Cle00Magic1Wait"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 50200,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_cast_pr"
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"cast_end_wall" :
+	[
+		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 4.0
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "Cle00Magic1End"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_mat_cse"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 50300
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 600
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 6
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	]
+}
+
+// end of file

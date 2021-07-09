@@ -1,0 +1,429 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"Break" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcat01b_000_break"
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#1",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120150
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"BreakLv2" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcat02b_break"
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#1",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.8
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120150
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"Damage" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.6
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120100
+		}
+	],
+	"DamageLv2" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Cdus01c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1.6
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120100
+		}
+	],
+	"PutMaterials" :
+	[
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#1",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 3
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 70050,
+			"isLoop_" : false
+		}
+	],
+	"PutMaterialsLv2" :
+	[
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#1",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 3
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 70050,
+			"isLoop_" : false
+		}
+	],
+	"Appear" :
+	[
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#1",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcat01_003_appear"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120050
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 3
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"AppearLv2" :
+	[
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#1",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcat02_appear"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120050
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 3
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"Build" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 3.3
+		}
+	],
+	"BuildLv2" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Csmo03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 10,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 3.3
+		}
+	],
+	"ShotEffect" :
+	[
+		{
+			"@class" : "command::GimmickEffectRelease",
+			"useIndex_" : 0,
+			"releseTime_" : 0,
+			"isForceErase_" : true
+		},
+		{
+			"@class" : "command::GimmickEffectRequest",
+			"label_" : "Gcan01c",
+			"boneName_" : "",
+			"useIndex_" : -1,
+			"constrainMatrixIndex_" : 0,
+			"sx_" : 1,
+			"sy_" : 1,
+			"sz_" : 1,
+			"rx_" : 1.57,
+			"ry_" : 0,
+			"rz_" : 0,
+			"tx_" : 0,
+			"ty_" : 0,
+			"tz_" : 0,
+			"transOnly_" : false
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_CATAPULT_SHOT"
+		},
+		{
+			"@class" : "command::CameraShake",
+			"shakeName_" : "C_catapult_shot"
+		}
+	],
+	"ShotEffectLv2" :
+	[
+		{
+			"@class" : "command::GimmickEffectRelease",
+			"useIndex_" : 0,
+			"releseTime_" : 0,
+			"isForceErase_" : true
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_CATAPULT_SHOT"
+		},
+		{
+			"@class" : "command::CameraShake",
+			"shakeName_" : "C_catapult_shot"
+		}
+	],
+	"Dispel" :
+	[
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#1",
+			"isEnable_" : false
+		}
+	],
+	"DispelLv2" :
+	[
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#1",
+			"isEnable_" : false
+		}
+	],
+	"Heal" :
+	[
+	],
+	"HealLv2" :
+	[
+	],
+	"Reload" :
+	[
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_CATAPULT_RELOAD"
+		}
+	],
+	"ReloadLv2" :
+	[
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_CATAPULT_RELOAD"
+		}
+	],
+	"Open" :
+	[
+	],
+	"OpenLv2" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcat02_open"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120050
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	],
+	"Close" :
+	[
+	],
+	"CloseLv2" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gcat02_close"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 120050
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		}
+	]
+}
+
+// end of file

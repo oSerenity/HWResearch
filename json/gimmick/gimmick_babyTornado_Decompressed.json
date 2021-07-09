@@ -1,0 +1,22 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"set" :
+	[
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_babytor"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 81150,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_MiniTornado_01"
+		}
+	]
+}
+
+// end of file

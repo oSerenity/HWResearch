@@ -1,0 +1,136 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"start" :
+	[
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "command::TrapSphere",
+			"name_" : "jump",
+			"centerX_" : 0,
+			"centerY_" : 200,
+			"centerZ_" : 0,
+			"radius_" : 400,
+			"kind_" : "LaunchPad"
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "jump",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::Collision",
+			"name_" : "chit#0",
+			"isEnable_" : true
+		}
+	],
+	"jet" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gseaajet01_000_wait_loop"
+		},
+		{
+			"@class" : "tll::actor::command::TotalFrame",
+			"frame_" : 310
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gseaajet01_001_start"
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Gbub01c"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 140250,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "tll::actor::command::TotalFrame",
+			"frame_" : 570
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gseaajet01_002_jet_loop"
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Gbub03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 70,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1
+		},
+		{
+			"@class" : "tll::actor::command::TotalFrame",
+			"frame_" : 630
+		},
+		{
+			"@class" : "command::EffectEnd"
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gseaajet01_003_end"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 140300,
+			"isLoop_" : true
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Gbub02c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 70,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 1
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Gbub03c",
+			"boneName_" : "",
+			"transX_" : 0,
+			"transY_" : 60,
+			"transZ_" : 0,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "TRANS",
+			"scale_" : 2
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "jump",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "tll::actor::command::FrameEnd"
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "jump",
+			"isEnable_" : false
+		}
+	]
+}
+
+// end of file

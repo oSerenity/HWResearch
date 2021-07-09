@@ -1,0 +1,222 @@
+/* XDASEA_Xm8R_SPsX */ 
+// ContentsTable.xlsx.tmp JsonLables 
+
+{"JsonContents":{"jsonLabels_":{
+	"AchievementParam":{
+		"Label" : "Achievement,StaticParam"
+	},
+	"AudioListenerParam":{
+		"Label" : "Audio,StaticParam"
+	},
+	"GameAudioParam":{
+		"Label" : "GameAudio,StaticParam"
+	},
+	"BotSetting":{
+		"Label" : "BotSetting,StaticParam"
+	},
+	"ItemCatalog":{
+		"Label" : "ItemCatalog,StaticParam"
+	},
+	"ContentsTable":{
+		"Label" : "Contents,StaticParam"
+	},
+	"CoopSetting":{
+		"Label" : "CoopSetting,StaticParam"
+	},
+	"dialogDocs":{
+		"Label" : "DialogDocs,StaticParam"
+	},
+	"GameEnvironment":{
+		"Label" : "GameEnvironment,StaticParam"
+	},
+	"BuffSeedParam":{
+		"Label" : "Buff,StaticParam"
+	},
+	"ItemCondition":{
+		"Label" : "Condition,StaticParam"
+	},
+	"ItemCustomize":{
+		"Label" : "ItemCustomize,StaticParam"
+	},
+	"ItemPackage":{
+		"Label" : "ItemPackage,StaticParam"
+	},
+	"ItemSeedParam":{
+		"Label" : "Item,StaticParam"
+	},
+	"ItemSeedParamDLC":{
+		"Label" : "Item,StaticParam"
+	},
+	"ItemSeedParamBOT":{
+		"Label" : "Item,StaticParam"
+	},
+	"ItemSetting":{
+		"Label" : "ItemSetting,StaticParam"
+	},
+	"ItemSpinner":{
+		"Label" : "ItemSpinner,StaticParam"
+	},
+	"LobbySetting":{
+		"Label" : "Lobby,StaticParam"
+	},
+	"SentientSetting":{
+		"Label" : "Sentient,StaticParam"
+	},
+	"QuestParam":{
+		"Label" : "Quest,StaticParam"
+	},
+	"MissionParam":{
+		"Label" : "Mission,StaticParam"
+	},
+	"MedalRankParam":{
+		"Label" : "MedalRank,StaticParam"
+	},
+	"gemini_stage_table":{
+		"Label" : "StageTable,StaticParam"
+	},
+	"TrialParam":{
+		"Label" : "Trial,StaticParam"
+	},
+	"menuButtonParam":{
+		"Label" : "MenuParam,StaticParam"
+	},
+	"PlayerHitParam":{
+		"Label" : "Player,StaticParam"
+	},
+	"PlayerDieParam":{
+		"Label" : "Player,StaticParam"
+	},
+	"PlayerJobParam":{
+		"Label" : "Player,StaticParam"
+	},
+	"PlayerDamageParam":{
+		"Label" : "Player,StaticParam"
+	},
+	"PlayerDummyParam":{
+		"Label" : "Player,StaticParam"
+	},
+	"PlayerBoneInfo":{
+		"Label" : "Player,StaticParam"
+	},
+	"PlayerEffectParam":{
+		"Label" : "Player,StaticParam"
+	},
+	"PlayerSkillParam":{
+		"Label" : "Player,StaticParam"
+	},
+	"PlayerBasicParam":{
+		"Label" : "Player,StaticParam"
+	},
+	"PlayerHeroPopupParam":{
+		"Label" : "Player,StaticParam"
+	},
+	"PlayerLevelUpParam":{
+		"Label" : "Player,StaticParam"
+	},
+	"PlayerPresetParam":{
+		"Label" : "Player,StaticParam"
+	},
+	"PlayerClassSetting":{
+		"Label" : "Player,StaticParam"
+	},
+	"SkillObtainingPattern":{
+		"Label" : "Player,StaticParam"
+	},
+	"CameraShakeParam":{
+		"Label" : "Player,StaticParam"
+	},
+	"JsonDemo":{
+		"Label" : "Demo,StaticParam"
+	},
+	"UI_common":{
+		"Label" : "HUD,Param"
+	},
+	"_stage_gimmick":{
+		"Label" : "Stage,StaticParam"
+	},
+	"_stage_effect":{
+		"Label" : "Stage,StaticParam"
+	},
+	"_stage_tactics":{
+		"Label" : "Stage,StaticParam"
+	},
+	"_stage_set_table":{
+		"Label" : "Stage,StaticParam"
+	},
+	"GimmickModelParam":{
+		"Label" : "Gimmick,StaticParam"
+	},
+	"GimmickBoneParam":{
+		"Label" : "Gimmick,StaticParam"
+	},
+	"GimmickModelParamEx":{
+		"Label" : "GimmickEx,StaticParam"
+	},
+	"GimmickBoneParamEx":{
+		"Label" : "GimmickEx,StaticParam"
+	}
+},
+// ContentsTable.xlsx.tmp TicketPanel 
+
+"ticketPanelDetails_":{
+	"Panel_00":{
+		"AssetID" : 101004,
+		"IconNo" : 1,
+		"FixedNum" : 16,
+		"SalesNum" : 16
+	},
+	"Panel_01":{
+		"AssetID" : 101002,
+		"IconNo" : 3,
+		"FixedNum" : 40,
+		"SalesNum" : 40
+	},
+	"Panel_02":{
+		"AssetID" : 101005,
+		"IconNo" : 4,
+		"FixedNum" : 80,
+		"SalesNum" : 80
+	},
+	"Panel_03":{
+		"AssetID" : 101006,
+		"IconNo" : 6,
+		"FixedNum" : 160,
+		"SalesNum" : 160
+	},
+	"Panel_04":{
+		"AssetID" : 101008,
+		"IconNo" : 7,
+		"FixedNum" : 240,
+		"SalesNum" : 240
+	},
+	"Panel_05":{
+		"AssetID" : 101009,
+		"IconNo" : 8,
+		"FixedNum" : 320,
+		"SalesNum" : 320
+	},
+	"Dummy_00":{
+		"AssetID" : 101007,
+		"IconNo" : 2,
+		"FixedNum" : 24,
+		"SalesNum" : 28
+	},
+	"Dummy_01":{
+		"AssetID" : 101003,
+		"IconNo" : 5,
+		"FixedNum" : 120,
+		"SalesNum" : 170
+	},
+	"Dummy_02":{
+		"AssetID" : 101001,
+		"IconNo" : 0,
+		"FixedNum" : 8,
+		"SalesNum" : 8
+	},
+	"Dummy_03":{
+		"AssetID" : 101010,
+		"IconNo" : 9,
+		"FixedNum" : 400,
+		"SalesNum" : 650
+	}
+}}}

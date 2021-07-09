@@ -1,0 +1,18 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+// Serialize by tll::json::Serializer
+
+{
+	"jsonOutlineColorSetting" : 
+	{
+		"friendColor" : 1582904,
+		"friendColor_jc" : "title=FriendColor,type=color",
+		"enemyColor" : 1582904,
+		"enemyColor_jc" : "title=EnemyColor,type=color",
+		"gimmickColor" : 1582904,
+		"gimmickColor_jc" : "title=GimmickColor,type=color",
+		"alphaThreshold" : 0.005000,
+		"alphaThreshold_jc" : "title=AlphaThreshold,type=float,min=0.00001,max=2.0"
+	}
+}
+

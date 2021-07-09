@@ -1,0 +1,474 @@
+/* XDASEA_Xm8R_SPsX */ 
+// Serialize by tll::json::Serializer
+
+{
+	"command::AnmScale" : 
+	{
+		"@class" : "command::AnmScale",
+		"x_" : 0.000000,
+		"y_" : 0.000000,
+		"z_" : 0.000000,
+		"frame_" : 0.000000
+	},
+	"command::AttackCheck" : 
+	{
+		"@class" : "command::AttackCheck",
+		"isAttack_" : false
+	},
+	"command::ActionSt" : 
+	{
+		"@class" : "command::ActionSt",
+		"canCombo_" : false
+	},
+	"command::Air" : 
+	{
+		"@class" : "command::Air",
+		"isEnable_" : false,
+		"isForceAir_" : false
+	},
+	"command::JumpEndName" : 
+	{
+		"@class" : "command::JumpEndName",
+		"name_" : ""
+	},
+	"command::LoopAttack" : 
+	{
+		"@class" : "command::LoopAttack",
+		"frame_" : 0.000000
+	},
+	"command::DamageAirStart" : 
+	{
+		"@class" : "command::DamageAirStart"
+	},
+	"command::DamagePose" : 
+	{
+		"@class" : "command::DamagePose",
+		"direction_" : "FACEUP"
+	},
+	"command::Combo" : 
+	{
+		"@class" : "command::Combo"
+	},
+	"command::Armor" : 
+	{
+		"@class" : "command::Armor",
+		"kind_" : "NORMAL",
+		"typeID_" : 4294967295
+	},
+	"command::ThrowDamageRate" : 
+	{
+		"@class" : "command::ThrowDamageRate",
+		"damageRate_" : 0.000000
+	},
+	"command::ThrowRelease" : 
+	{
+		"@class" : "command::ThrowRelease",
+		"releaseKind_" : "RELEASE"
+	},
+	"command::ThrowTagInEnd" : 
+	{
+		"@class" : "command::ThrowTagInEnd"
+	},
+	"command::DodgeTurn" : 
+	{
+		"@class" : "command::DodgeTurn",
+		"actDodgeTurn_" : ""
+	},
+	"command::Skill" : 
+	{
+		"@class" : "command::Skill",
+		"skillKind_" : "SpNone",
+		"boneName_" : "",
+		"transX_" : 0.000000,
+		"transY_" : 0.000000,
+		"transZ_" : 0.000000,
+		"speedX_" : 0.000000,
+		"speedY_" : 0.000000
+	},
+	"command::SwingBy" : 
+	{
+		"@class" : "command::SwingBy",
+		"isEnable_" : false
+	},
+	"command::Dangle" : 
+	{
+		"@class" : "command::Dangle",
+		"isEnable_" : false
+	},
+	"command::CheckItem" : 
+	{
+		"@class" : "command::CheckItem"
+	},
+	"command::IK" : 
+	{
+		"@class" : "command::IK",
+		"node_" : "IK_L_LEG",
+		"isEnable_" : false
+	},
+	"command::EffBlur" : 
+	{
+		"@class" : "command::EffBlur",
+		"wpFlag_" : "WF_ALL",
+		"paletteName_" : "white"
+	},
+	"command::EffBlurEnd" : 
+	{
+		"@class" : "command::EffBlurEnd",
+		"wpFlag_" : "WF_ALL",
+		"frame_" : 30.000000
+	},
+	"command::SeOneShot" : 
+	{
+		"@class" : "command::SeOneShot",
+		"index_" : 0
+	},
+	"command::SeLoop" : 
+	{
+		"@class" : "command::SeLoop",
+		"index_" : 0
+	},
+	"command::SeDetailOneShot" : 
+	{
+		"@class" : "command::SeDetailOneShot",
+		"index_" : 0,
+		"pitch_" : 0.000000,
+		"lpfFreq_" : 0.000000,
+		"reverb_" : 0.000000,
+		"delay_" : 0.000000,
+		"surroundpan_" : 0.000000
+	},
+	"command::SeDetailLoop" : 
+	{
+		"@class" : "command::SeDetailLoop",
+		"index_" : 0,
+		"pitch_" : 0.000000,
+		"lpfFreq_" : 0.000000,
+		"reverb_" : 0.000000,
+		"delay_" : 0.000000,
+		"surroundpan_" : 0.000000
+	},
+	"command::Se2dOneShot" : 
+	{
+		"@class" : "command::Se2dOneShot",
+		"index_" : 0,
+		"volume_" : 0.000000,
+		"pan_" : 0.000000
+	},
+	"command::SeRemoteOut" : 
+	{
+		"@class" : "command::SeRemoteOut",
+		"index_" : 0,
+		"volume_" : 0.000000
+	},
+	"command::SeEnd" : 
+	{
+		"@class" : "command::SeEnd",
+		"index_" : 0
+	},
+	"command::ExtraSeOneShot" : 
+	{
+		"@class" : "command::ExtraSeOneShot",
+		"index_" : 0
+	},
+	"command::ExtraSeLoop" : 
+	{
+		"@class" : "command::ExtraSeLoop",
+		"index_" : 0
+	},
+	"command::ExtraSeDetailOneShot" : 
+	{
+		"@class" : "command::ExtraSeDetailOneShot",
+		"index_" : 0,
+		"pitch_" : 0.000000,
+		"lpfFreq_" : 0.000000,
+		"reverb_" : 0.000000,
+		"delay_" : 0.000000,
+		"surroundpan_" : 0.000000
+	},
+	"command::ExtraSeDetailLoop" : 
+	{
+		"@class" : "command::ExtraSeDetailLoop",
+		"index_" : 0,
+		"pitch_" : 0.000000,
+		"lpfFreq_" : 0.000000,
+		"reverb_" : 0.000000,
+		"delay_" : 0.000000,
+		"surroundpan_" : 0.000000
+	},
+	"command::ExtraSe2dOneShot" : 
+	{
+		"@class" : "command::ExtraSe2dOneShot",
+		"index_" : 0,
+		"volume_" : 0.000000,
+		"pan_" : 0.000000
+	},
+	"command::ExtraSeRemoteOut" : 
+	{
+		"@class" : "command::ExtraSeRemoteOut",
+		"index_" : 0,
+		"volume_" : 0.000000
+	},
+	"command::ExtraSeEnd" : 
+	{
+		"@class" : "command::ExtraSeEnd",
+		"index_" : 0
+	},
+	"command::RandomSeOneShot" : 
+	{
+		"@class" : "command::RandomSeOneShot",
+		"name_" : ""
+	},
+	"command::RandomSeDetailOneShot" : 
+	{
+		"@class" : "command::RandomSeDetailOneShot",
+		"name_" : "",
+		"pitch_" : 0.000000,
+		"lpfFreq_" : 0.000000,
+		"reverb_" : 0.000000,
+		"delay_" : 0.000000,
+		"surroundpan_" : 0.000000
+	},
+	"command::ResetDamageOwner" : 
+	{
+		"@class" : "command::ResetDamageOwner"
+	},
+	"command::StaggerIcon" : 
+	{
+		"@class" : "command::StaggerIcon",
+		"isEnable_" : false
+	},
+	"command::ControllerIcon" : 
+	{
+		"@class" : "command::ControllerIcon",
+		"isEnable_" : false
+	},
+	"command::PlayerName" : 
+	{
+		"@class" : "command::PlayerName",
+		"isEnable_" : false
+	},
+	"command::Aura" : 
+	{
+		"@class" : "command::Aura",
+		"isEnable_" : false
+	},
+	"command::ControllerVibration" : 
+	{
+		"@class" : "command::ControllerVibration",
+		"name_" : ""
+	},
+	"command::KoolPoint" : 
+	{
+		"@class" : "command::KoolPoint",
+		"point" : 0.000000
+	},
+	"command::SerialMaskKoolPoint" : 
+	{
+		"@class" : "command::SerialMaskKoolPoint",
+		"enable" : false,
+		"count" : 0
+	},
+	"command::LookAt" : 
+	{
+		"@class" : "command::LookAt",
+		"degree_" : 0.000000
+	},
+	"command::LookAtEnd" : 
+	{
+		"@class" : "command::LookAtEnd"
+	},
+	"command::Effect" : 
+	{
+		"@class" : "command::Effect",
+		//"type_" : "EF_CHARA",
+		"type_" : 0, // int で代用 
+		//"id_" : 0,
+		"label_" : "", // エフェクトのラベル 
+		"boneName_" : "",
+		"transX_" : 0.000000,
+		"transY_" : 0.000000,
+		"transZ_" : 0.000000,
+		"rotX_" : 0.000000,
+		"rotY_" : 0.000000,
+		"rotZ_" : 0.000000,
+		"coordKind_" : "ROT_TRANS", // CONSTRAIN(追従)  TRANS(追従しない) 
+		"isForceErase_" : false, // 消滅  ループエフェクトの場合はモーションの終了で消滅
+		"layer_" : "EF_LAYER_FRONT",
+		"frame_" : 0.000000
+	},
+	"command::EffectMat" : 
+	{
+		"@class" : "command::EffectMat",
+		"effectName_" : "",
+		"soundName_" : "",
+		"boneName_" : "",
+		"transX_" : 0.000000,
+		"transY_" : 0.000000,
+		"transZ_" : 0.000000,
+		"rotX_" : 0.000000,
+		"rotY_" : 0.000000,
+		"rotZ_" : 0.000000,
+		"coordKind_" : "ROT_TRANS",
+		"isForceErase_" : false,
+		"layer_" : "EF_LAYER_FRONT",
+		"frame_" : 0.000000
+	},
+	"command::EffectEnd" : 
+	{
+		"@class" : "command::EffectEnd",
+		"type_" : "EF_CHARA",
+		"id_" : 0
+	},
+	"command::CameraSubject" : 
+	{
+		"@class" : "command::CameraSubject",
+		"boneName_" : "",
+		"x_" : 0.000000,
+		"y_" : 0.000000,
+		"w_" : 0.000000,
+		"h_" : 0.000000
+	},
+	"command::CameraSubjectEnd" : 
+	{
+		"@class" : "command::CameraSubjectEnd"
+	},
+	"command::CameraQuake" : 
+	{
+		"@class" : "command::CameraQuake",
+		"kind_" : "QUAKE_NONE"
+	},
+	"command::Nall" : 
+	{
+		"@class" : "command::Nall",
+		"isEnable_" : false,
+		"isRotEnable_" : false
+	},
+	"command::NallSpeed" : 
+	{
+		"@class" : "command::NallSpeed",
+		"speedX_" : 0.000000,
+		"speedY_" : 0.000000
+	},
+	"command::Hit" : 
+	{
+		"@class" : "command::Hit",
+		"hitName_" : ""
+	},
+	"command::HitEnd" : 
+	{
+		"@class" : "command::HitEnd"
+	},
+	"command::Pressure" : 
+	{
+		"@class" : "command::Pressure",
+		"kind_" : "NORMAL"
+	},
+	"command::JungleDamage" : 
+	{
+		"@class" : "command::JungleDamage"
+	},
+	"command::StartScan" : 
+	{
+		"@class" : "command::StartScan"
+	},
+	"command::ScreenFlash" : 
+	{
+		"@class" : "command::ScreenFlash",
+		"name_" : ""
+	},
+	"command::BGMFade" : 
+	{
+		"@class" : "command::BGMFade",
+		"frame_" : 0
+	},
+	"tll::actor::command::Frame" : 
+	{
+		"@class" : "tll::actor::command::Frame",
+		"frame_" : 0.000000
+	},
+	"tll::actor::command::FrameEnd" : 
+	{
+		"@class" : "tll::actor::command::FrameEnd"
+	},
+	"tll::actor::command::TotalFrame" : 
+	{
+		"@class" : "tll::actor::command::TotalFrame",
+		"frame_" : 0.000000
+	},
+	"tll::actor::command::Endless" : 
+	{
+		"@class" : "tll::actor::command::Endless"
+	},
+	"tll::actor::command::Cancel" : 
+	{
+		"@class" : "tll::actor::command::Cancel"
+	},
+	"tll::actor::command::Anm" : 
+	{
+		"@class" : "tll::actor::command::Anm",
+		"animeName_" : "",
+		"frame_" : 0.000000,
+		"subFuncName_" : ""
+	},
+	"tll::actor::command::RemoveAnm" : 
+	{
+		"@class" : "tll::actor::command::RemoveAnm"
+	},
+	"tll::actor::command::AnmMatClr" : 
+	{
+		"@class" : "tll::actor::command::AnmMatClr",
+		"animeName_" : ""
+	},
+	"tll::actor::command::RemoveAnmMatClr" : 
+	{
+		"@class" : "tll::actor::command::RemoveAnmMatClr"
+	},
+	"tll::actor::command::AnmTexSrt" : 
+	{
+		"@class" : "tll::actor::command::AnmTexSrt",
+		"animeName_" : ""
+	},
+	"tll::actor::command::RemoveAnmTexSrt" : 
+	{
+		"@class" : "tll::actor::command::RemoveAnmTexSrt"
+	},
+	"tll::actor::command::AnmShp" : 
+	{
+		"@class" : "tll::actor::command::AnmShp",
+		"animeName_" : ""
+	},
+	"tll::actor::command::RemoveAnmShp" : 
+	{
+		"@class" : "tll::actor::command::RemoveAnmShp"
+	},
+	"tll::actor::command::Face" : 
+	{
+		"@class" : "tll::actor::command::Face",
+		"facialName_" : ""
+	},
+	"tll::actor::command::LerpFrame" : 
+	{
+		"@class" : "tll::actor::command::LerpFrame",
+		"lerpFrame_" : 0.000000
+	},
+	"tll::actor::command::Speed" : 
+	{
+		"@class" : "tll::actor::command::Speed",
+		"rate_" : 0.000000
+	},
+	"tll::actor::command::Visible" : 
+	{
+		"@class" : "tll::actor::command::Visible",
+		"boneName_" : "?",
+		"isVisible_" : false
+	},
+	"tll::actor::command::Scale" : 
+	{
+		"@class" : "tll::actor::command::Scale",
+		"x_" : 0.000000,
+		"y_" : 0.000000,
+		"z_" : 0.000000,
+		"frame_" : 0.000000
+	}
+}
+

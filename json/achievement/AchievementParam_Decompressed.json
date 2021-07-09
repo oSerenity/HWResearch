@@ -1,0 +1,126 @@
+/* XDASEA_Xm8R_SPsX */ 
+// Geimini_アチーブメント条件パラメータ.xlsx.tmp Achieve 
+
+{"JsonAchievement":{"achieveParam_":{
+	"Achievement001":{
+		"AchieveParam" : 1
+	},
+	"Achievement002":{
+
+	},
+	"Achievement003":{
+		"AchieveParam" : 4
+	},
+	"Achievement004":{
+		"AchieveParam" : 2
+	},
+	"Achievement005":{
+		"AchieveParam" : 1
+	},
+	"Achievement006":{
+
+	},
+	"Achievement007":{
+		"AchieveParam" : 30
+	},
+	"Achievement008":{
+		"AchieveParam" : 1
+	},
+	"Achievement009":{
+		"AchieveParam" : 1
+	},
+	"Achievement010":{
+		"AchieveParam" : 1
+	},
+	"Achievement011":{
+
+	},
+	"Achievement012":{
+		"AchieveParam" : 20
+	},
+	"Achievement013":{
+
+	},
+	"Achievement014":{
+		"AchieveParam" : 1
+	},
+	"Achievement015":{
+		"AchieveParam" : 1
+	},
+	"Achievement016":{
+
+	},
+	"Achievement017":{
+		"AchieveParam" : 1
+	},
+	"Achievement018":{
+
+	},
+	"Achievement019":{
+		"AchieveParam" : 100
+	},
+	"Achievement020":{
+		"AchieveParam" : 40
+	},
+	"Achievement021":{
+		"AchieveParam" : 40
+	},
+	"Achievement022":{
+		"AchieveParam" : 50
+	},
+	"Achievement023":{
+		"AchieveParam" : 1
+	},
+	"Achievement024":{
+		"AchieveParam" : 20
+	},
+	"Achievement025":{
+		"AchieveParam" : 60
+	},
+	"Achievement026":{
+
+	},
+	"Achievement027":{
+
+	},
+	"Achievement028":{
+
+	},
+	"Achievement029":{
+		"AchieveParam" : 1
+	},
+	"Achievement030":{
+		"AchieveParam" : 100
+	},
+	"Achievement031":{
+		"AchieveParam" : 1
+	},
+	"Achievement032":{
+		"AchieveParam" : 50
+	},
+	"Achievement033":{
+		"AchieveParam" : 50
+	},
+	"Achievement034":{
+		"AchieveParam" : 50
+	},
+	"Achievement035":{
+		"AchieveParam" : 50
+	},
+	"Achievement036":{
+		"AchieveParam" : 100
+	}
+},
+// Geimini_アチーブメント条件パラメータ.xlsx.tmp Avatar 
+
+"avatarAwardParam_":{
+	"AvatarAsset001":{
+		"Param00" : 1
+	},
+	"AvatarAsset002":{
+		"Param00" : 10
+	},
+	"AvatarAsset003":{
+		"Param00" : 5
+	}
+}}}

@@ -1,0 +1,90 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"start" :
+	[
+		{
+			"@class" : "command::Visible",
+			"visible_" : true
+		},
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gclobtori_000_shot",
+			"frame_" : 15
+		},
+		{
+			"@class" : "command::TrapSphere",
+			"name_" : "ride",
+			"centerX_" : 0,
+			"centerY_" : -2000,
+			"centerZ_" : 2000,
+			"radius_" : 300,
+			"kind_" : "QuetzalRide"
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "ride",
+			"isEnable_" : false
+		}
+	],
+	"charge" :
+	[
+		{
+			"@class" : "tll::actor::command::TotalFrame",
+			"frame_" : 60
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Gque04c",
+			"boneName_" : "shotpoint",
+			"transX_" : 0,
+			"transY_" : 40,
+			"transZ_" : 160,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "CONSTRAIN"
+		},
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Gque06c",
+			"boneName_" : "shotpoint",
+			"transX_" : 0,
+			"transY_" : 40,
+			"transZ_" : 160,
+			"rotX_" : 0,
+			"rotY_" : 0,
+			"rotZ_" : 0,
+			"coordKind_" : "CONSTRAIN",
+			"scale_" : 1.0,
+			"isForceErase_" : true
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 140650
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_BIRD_CHARGE"
+		}
+	],
+	"shot" :
+	[
+		{
+			"@class" : "tll::actor::command::Anm",
+			"animeName_" : "gclobtori_000_shot"
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 140700
+		},
+		{
+			"@class" : "command::PadVibration",
+			"vibType_" : "PAD_VIBRATION_BIRD_SHOT"
+		}
+	]
+}
+
+// end of file

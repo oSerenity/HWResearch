@@ -1,0 +1,37 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"sign" :
+	[
+		{
+			"@class" : "command::Effect",
+			"type_" : 0,
+			"label_" : "Sslp02f"
+		}
+	],
+	"set" :
+	[
+		{
+			"@class" : "command::TrapSphere",
+			"name_" : "capture_s",
+			"centerX_" : 0,
+			"centerY_" : 100,
+			"centerZ_" : 0,
+			"radius_" : 390,
+			"kind_" : "Capture",
+			"team_" : "ALLY"
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "capture_s",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 81200,
+			"isLoop_" : true
+		}
+	]
+}
+
+// end of file

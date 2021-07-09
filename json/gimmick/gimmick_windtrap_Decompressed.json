@@ -1,0 +1,52 @@
+/* XDASEA_Xm8R_SPsX */ 
+
+{
+	"start" :
+	[
+		{
+			"@class" : "command::TrapSphere",
+			"name_" : "w_switch",
+			"centerX_" : 0,
+			"centerY_" : 50,
+			"centerZ_" : 0,
+			"radius_" : 120,
+			"kind_" : "WindTrap",
+			"team_" : "ALLY"
+		},
+		{
+			"@class" : "command::Trap",
+			"name_" : "w_switch",
+			"isEnable_" : true
+		},
+		{
+			"@class" : "tll::actor::command::TotalFrame",
+			"frame_" : 2
+		}
+	],
+	"wind" :
+	[
+		{
+			"@class" : "command::Trap",
+			"name_" : "w_switch",
+			"isEnable_" : false
+		},
+		{
+			"@class" : "command::PlayGameSe",
+			"seId_" : 80460
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_wit_bomb"
+		},
+		{
+			"@class" : "command::EffectReq",
+			"paramName_" : "E_wit_bomb2"
+		},
+		{
+			"@class" : "command::Hit",
+			"hitName_" : "H_wind_trap"
+		}
+	]
+}
+
+// end of file
