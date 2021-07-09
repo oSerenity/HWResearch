@@ -1,0 +1,7042 @@
+/* XDASEA_Xm8R_SPsX */ 
+// CharacterModelDetail.xlsx.tmp bod 
+
+{"JsonCharacterModelDetail":{"body_":{
+	"cbod000":{
+		"Name" : "cbod",
+		"ItemId" : "000",
+		"ModelId" : "000",
+		"TextureId" : "000"
+	},
+	"cbod001":{
+		"Name" : "cbod",
+		"ItemId" : "001",
+		"ModelId" : "000",
+		"TextureId" : "001"
+	},
+	"cbod010":{
+		"Name" : "cbod",
+		"ItemId" : "010",
+		"ModelId" : "010",
+		"TextureId" : "010"
+	},
+	"cbod011":{
+		"Name" : "cbod",
+		"ItemId" : "011",
+		"ModelId" : "010",
+		"TextureId" : "011"
+	},
+	"cbod020":{
+		"Name" : "cbod",
+		"ItemId" : "020",
+		"ModelId" : "020",
+		"TextureId" : "020"
+	},
+	"cbod021":{
+		"Name" : "cbod",
+		"ItemId" : "021",
+		"ModelId" : "020",
+		"TextureId" : "021"
+	},
+	"cbod100":{
+		"Name" : "cbod",
+		"ItemId" : "100",
+		"ModelId" : "100",
+		"TextureId" : "100"
+	},
+	"cbod101":{
+		"Name" : "cbod",
+		"ItemId" : "101",
+		"ModelId" : "100",
+		"TextureId" : "101"
+	},
+	"cbod110":{
+		"Name" : "cbod",
+		"ItemId" : "110",
+		"ModelId" : "110",
+		"TextureId" : "110"
+	},
+	"cbod111":{
+		"Name" : "cbod",
+		"ItemId" : "111",
+		"ModelId" : "110",
+		"TextureId" : "111"
+	},
+	"cbod120":{
+		"Name" : "cbod",
+		"ItemId" : "120",
+		"ModelId" : "120",
+		"TextureId" : "120"
+	},
+	"cbod121":{
+		"Name" : "cbod",
+		"ItemId" : "121",
+		"ModelId" : "120",
+		"TextureId" : "121"
+	},
+	"cbod200":{
+		"Name" : "cbod",
+		"ItemId" : "200",
+		"ModelId" : "200",
+		"TextureId" : "200"
+	},
+	"cbod201":{
+		"Name" : "cbod",
+		"ItemId" : "201",
+		"ModelId" : "200",
+		"TextureId" : "201"
+	},
+	"cbod210":{
+		"Name" : "cbod",
+		"ItemId" : "210",
+		"ModelId" : "210",
+		"TextureId" : "210"
+	},
+	"cbod211":{
+		"Name" : "cbod",
+		"ItemId" : "211",
+		"ModelId" : "210",
+		"TextureId" : "211"
+	},
+	"cbod220":{
+		"Name" : "cbod",
+		"ItemId" : "220",
+		"ModelId" : "220",
+		"TextureId" : "220"
+	},
+	"cbod221":{
+		"Name" : "cbod",
+		"ItemId" : "221",
+		"ModelId" : "220",
+		"TextureId" : "221"
+	},
+	"cbod300":{
+		"Name" : "cbod",
+		"ItemId" : "300",
+		"ModelId" : "300",
+		"TextureId" : "300"
+	},
+	"cbod301":{
+		"Name" : "cbod",
+		"ItemId" : "301",
+		"ModelId" : "300",
+		"TextureId" : "301"
+	},
+	"cbod310":{
+		"Name" : "cbod",
+		"ItemId" : "310",
+		"ModelId" : "310",
+		"TextureId" : "310"
+	},
+	"cbod311":{
+		"Name" : "cbod",
+		"ItemId" : "311",
+		"ModelId" : "310",
+		"TextureId" : "311"
+	},
+	"cbod320":{
+		"Name" : "cbod",
+		"ItemId" : "320",
+		"ModelId" : "320",
+		"TextureId" : "320"
+	},
+	"cbod321":{
+		"Name" : "cbod",
+		"ItemId" : "321",
+		"ModelId" : "320",
+		"TextureId" : "321"
+	},
+	"cbod400":{
+		"Name" : "cbod",
+		"ItemId" : "400",
+		"ModelId" : "400",
+		"TextureId" : "400"
+	},
+	"cbod401":{
+		"Name" : "cbod",
+		"ItemId" : "401",
+		"ModelId" : "400",
+		"TextureId" : "401"
+	},
+	"cbod410":{
+		"Name" : "cbod",
+		"ItemId" : "410",
+		"ModelId" : "410",
+		"TextureId" : "410"
+	},
+	"cbod411":{
+		"Name" : "cbod",
+		"ItemId" : "411",
+		"ModelId" : "410",
+		"TextureId" : "411"
+	},
+	"cbod420":{
+		"Name" : "cbod",
+		"ItemId" : "420",
+		"ModelId" : "420",
+		"TextureId" : "420"
+	},
+	"cbod421":{
+		"Name" : "cbod",
+		"ItemId" : "421",
+		"ModelId" : "420",
+		"TextureId" : "421"
+	},
+	"cbod500":{
+		"Name" : "cbod",
+		"ItemId" : "500",
+		"ModelId" : "500",
+		"TextureId" : "500"
+	},
+	"cbod501":{
+		"Name" : "cbod",
+		"ItemId" : "501",
+		"ModelId" : "500",
+		"TextureId" : "501"
+	},
+	"cbod510":{
+		"Name" : "cbod",
+		"ItemId" : "510",
+		"ModelId" : "510",
+		"TextureId" : "510"
+	},
+	"cbod511":{
+		"Name" : "cbod",
+		"ItemId" : "511",
+		"ModelId" : "510",
+		"TextureId" : "511"
+	},
+	"cbod520":{
+		"Name" : "cbod",
+		"ItemId" : "520",
+		"ModelId" : "520",
+		"TextureId" : "520"
+	},
+	"cbod521":{
+		"Name" : "cbod",
+		"ItemId" : "521",
+		"ModelId" : "520",
+		"TextureId" : "521"
+	},
+	"cbod600":{
+		"Name" : "cbod",
+		"ItemId" : "600",
+		"ModelId" : "600",
+		"TextureId" : "600"
+	},
+	"cbod610":{
+		"Name" : "cbod",
+		"ItemId" : "610",
+		"ModelId" : "600",
+		"TextureId" : "610"
+	},
+	"cbod700":{
+		"Name" : "cbod",
+		"ItemId" : "700",
+		"ModelId" : "700",
+		"TextureId" : "700"
+	},
+	"cbod710":{
+		"Name" : "cbod",
+		"ItemId" : "710",
+		"ModelId" : "710",
+		"TextureId" : "710"
+	},
+	"cbod711":{
+		"Name" : "cbod",
+		"ItemId" : "711",
+		"ModelId" : "711",
+		"TextureId" : "711"
+	},
+	"cbod712":{
+		"Name" : "cbod",
+		"ItemId" : "712",
+		"ModelId" : "712",
+		"TextureId" : "712"
+	},
+	"dbod000":{
+		"Name" : "dbod",
+		"ItemId" : "000",
+		"ModelId" : "000",
+		"TextureId" : "000"
+	},
+	"dbod001":{
+		"Name" : "dbod",
+		"ItemId" : "001",
+		"ModelId" : "000",
+		"TextureId" : "001"
+	},
+	"dbod010":{
+		"Name" : "dbod",
+		"ItemId" : "010",
+		"ModelId" : "010",
+		"TextureId" : "010"
+	},
+	"dbod011":{
+		"Name" : "dbod",
+		"ItemId" : "011",
+		"ModelId" : "010",
+		"TextureId" : "011"
+	},
+	"dbod020":{
+		"Name" : "dbod",
+		"ItemId" : "020",
+		"ModelId" : "020",
+		"TextureId" : "020"
+	},
+	"dbod021":{
+		"Name" : "dbod",
+		"ItemId" : "021",
+		"ModelId" : "020",
+		"TextureId" : "021"
+	},
+	"dbod030":{
+		"Name" : "dbod",
+		"ItemId" : "030",
+		"ModelId" : "030",
+		"TextureId" : "030"
+	},
+	"dbod031":{
+		"Name" : "dbod",
+		"ItemId" : "031",
+		"ModelId" : "030",
+		"TextureId" : "031"
+	},
+	"dbod040":{
+		"Name" : "dbod",
+		"ItemId" : "040",
+		"ModelId" : "040",
+		"TextureId" : "040"
+	},
+	"dbod041":{
+		"Name" : "dbod",
+		"ItemId" : "041",
+		"ModelId" : "040",
+		"TextureId" : "041"
+	},
+	"dbod050":{
+		"Name" : "dbod",
+		"ItemId" : "050",
+		"ModelId" : "050",
+		"TextureId" : "050"
+	},
+	"dbod051":{
+		"Name" : "dbod",
+		"ItemId" : "051",
+		"ModelId" : "050",
+		"TextureId" : "051"
+	},
+	"dbod060":{
+		"Name" : "dbod",
+		"ItemId" : "060",
+		"ModelId" : "060",
+		"TextureId" : "060"
+	},
+	"dbod061":{
+		"Name" : "dbod",
+		"ItemId" : "061",
+		"ModelId" : "060",
+		"TextureId" : "061"
+	},
+	"dbod070":{
+		"Name" : "dbod",
+		"ItemId" : "070",
+		"ModelId" : "070",
+		"TextureId" : "070"
+	},
+	"dbod071":{
+		"Name" : "dbod",
+		"ItemId" : "071",
+		"ModelId" : "070",
+		"TextureId" : "071"
+	},
+	"dbod090":{
+		"Name" : "dbod",
+		"ItemId" : "090",
+		"ModelId" : "090",
+		"TextureId" : "090"
+	},
+	"dbod091":{
+		"Name" : "dbod",
+		"ItemId" : "091",
+		"ModelId" : "090",
+		"TextureId" : "091"
+	},
+	"dbod100":{
+		"Name" : "dbod",
+		"ItemId" : "100",
+		"ModelId" : "100",
+		"TextureId" : "100"
+	},
+	"dbod101":{
+		"Name" : "dbod",
+		"ItemId" : "101",
+		"ModelId" : "100",
+		"TextureId" : "101"
+	},
+	"dbod110":{
+		"Name" : "dbod",
+		"ItemId" : "110",
+		"ModelId" : "110",
+		"TextureId" : "110"
+	},
+	"dbod111":{
+		"Name" : "dbod",
+		"ItemId" : "111",
+		"ModelId" : "110",
+		"TextureId" : "111"
+	},
+	"dbod120":{
+		"Name" : "dbod",
+		"ItemId" : "120",
+		"ModelId" : "120",
+		"TextureId" : "120"
+	},
+	"dbod121":{
+		"Name" : "dbod",
+		"ItemId" : "121",
+		"ModelId" : "120",
+		"TextureId" : "121"
+	},
+	"dbod130":{
+		"Name" : "dbod",
+		"ItemId" : "130",
+		"ModelId" : "130",
+		"TextureId" : "130"
+	},
+	"dbod140":{
+		"Name" : "dbod",
+		"ItemId" : "140",
+		"ModelId" : "140",
+		"TextureId" : "140"
+	},
+	"dbod150":{
+		"Name" : "dbod",
+		"ItemId" : "150",
+		"ModelId" : "150",
+		"TextureId" : "150"
+	},
+	"dbod151":{
+		"Name" : "dbod",
+		"ItemId" : "151",
+		"ModelId" : "150",
+		"TextureId" : "151"
+	},
+	"dbod160":{
+		"Name" : "dbod",
+		"ItemId" : "160",
+		"ModelId" : "160",
+		"TextureId" : "160"
+	},
+	"dbod161":{
+		"Name" : "dbod",
+		"ItemId" : "161",
+		"ModelId" : "160",
+		"TextureId" : "161"
+	},
+	"dbod170":{
+		"Name" : "dbod",
+		"ItemId" : "170",
+		"ModelId" : "170",
+		"TextureId" : "170"
+	},
+	"dbod171":{
+		"Name" : "dbod",
+		"ItemId" : "171",
+		"ModelId" : "170",
+		"TextureId" : "171"
+	},
+	"dbod180":{
+		"Name" : "dbod",
+		"ItemId" : "180",
+		"ModelId" : "180",
+		"TextureId" : "180"
+	},
+	"dbod181":{
+		"Name" : "dbod",
+		"ItemId" : "181",
+		"ModelId" : "180",
+		"TextureId" : "181"
+	},
+	"dbod190":{
+		"Name" : "dbod",
+		"ItemId" : "190",
+		"ModelId" : "190",
+		"TextureId" : "190"
+	},
+	"dbod191":{
+		"Name" : "dbod",
+		"ItemId" : "191",
+		"ModelId" : "190",
+		"TextureId" : "191"
+	},
+	"dbod005":{
+		"Name" : "dbod",
+		"ItemId" : "005",
+		"ModelId" : "005",
+		"TextureId" : "005"
+	},
+	"dbod006":{
+		"Name" : "dbod",
+		"ItemId" : "006",
+		"ModelId" : "005",
+		"TextureId" : "006"
+	},
+	"dbod055":{
+		"Name" : "dbod",
+		"ItemId" : "055",
+		"ModelId" : "055",
+		"TextureId" : "055"
+	},
+	"dbod200":{
+		"Name" : "dbod",
+		"ItemId" : "200",
+		"ModelId" : "200",
+		"TextureId" : "200"
+	},
+	"dbod201":{
+		"Name" : "dbod",
+		"ItemId" : "201",
+		"ModelId" : "200",
+		"TextureId" : "201"
+	},
+	"dbod210":{
+		"Name" : "dbod",
+		"ItemId" : "210",
+		"ModelId" : "210",
+		"TextureId" : "210"
+	},
+	"dbod211":{
+		"Name" : "dbod",
+		"ItemId" : "211",
+		"ModelId" : "210",
+		"TextureId" : "211"
+	},
+	"dbod220":{
+		"Name" : "dbod",
+		"ItemId" : "220",
+		"ModelId" : "220",
+		"TextureId" : "220"
+	},
+	"dbod221":{
+		"Name" : "dbod",
+		"ItemId" : "221",
+		"ModelId" : "220",
+		"TextureId" : "221"
+	},
+	"dbod230":{
+		"Name" : "dbod",
+		"ItemId" : "230",
+		"ModelId" : "230",
+		"TextureId" : "230"
+	},
+	"dbod231":{
+		"Name" : "dbod",
+		"ItemId" : "231",
+		"ModelId" : "230",
+		"TextureId" : "231"
+	},
+	"dbod240":{
+		"Name" : "dbod",
+		"ItemId" : "240",
+		"ModelId" : "240",
+		"TextureId" : "240"
+	},
+	"dbod241":{
+		"Name" : "dbod",
+		"ItemId" : "241",
+		"ModelId" : "240",
+		"TextureId" : "241"
+	},
+	"dbod250":{
+		"Name" : "dbod",
+		"ItemId" : "250",
+		"ModelId" : "250",
+		"TextureId" : "250"
+	},
+	"dbod251":{
+		"Name" : "dbod",
+		"ItemId" : "251",
+		"ModelId" : "250",
+		"TextureId" : "251"
+	},
+	"dbod260":{
+		"Name" : "dbod",
+		"ItemId" : "260",
+		"ModelId" : "260",
+		"TextureId" : "260"
+	},
+	"dbod261":{
+		"Name" : "dbod",
+		"ItemId" : "261",
+		"ModelId" : "260",
+		"TextureId" : "261"
+	},
+	"dbod270":{
+		"Name" : "dbod",
+		"ItemId" : "270",
+		"ModelId" : "270",
+		"TextureId" : "270"
+	},
+	"dbod271":{
+		"Name" : "dbod",
+		"ItemId" : "271",
+		"ModelId" : "270",
+		"TextureId" : "271"
+	},
+	"dbod280":{
+		"Name" : "dbod",
+		"ItemId" : "280",
+		"ModelId" : "280",
+		"TextureId" : "280"
+	},
+	"dbod281":{
+		"Name" : "dbod",
+		"ItemId" : "281",
+		"ModelId" : "280",
+		"TextureId" : "281"
+	},
+	"dbod290":{
+		"Name" : "dbod",
+		"ItemId" : "290",
+		"ModelId" : "290",
+		"TextureId" : "290"
+	},
+	"dbod291":{
+		"Name" : "dbod",
+		"ItemId" : "291",
+		"ModelId" : "290",
+		"TextureId" : "291"
+	},
+	"dbod300":{
+		"Name" : "dbod",
+		"ItemId" : "300",
+		"ModelId" : "300",
+		"TextureId" : "300"
+	},
+	"dbod301":{
+		"Name" : "dbod",
+		"ItemId" : "301",
+		"ModelId" : "300",
+		"TextureId" : "301"
+	},
+	"dbod310":{
+		"Name" : "dbod",
+		"ItemId" : "310",
+		"ModelId" : "310",
+		"TextureId" : "310"
+	},
+	"dbod311":{
+		"Name" : "dbod",
+		"ItemId" : "311",
+		"ModelId" : "310",
+		"TextureId" : "311"
+	},
+	"dbod320":{
+		"Name" : "dbod",
+		"ItemId" : "320",
+		"ModelId" : "320",
+		"TextureId" : "320"
+	},
+	"dbod321":{
+		"Name" : "dbod",
+		"ItemId" : "321",
+		"ModelId" : "320",
+		"TextureId" : "321"
+	},
+	"dbod330":{
+		"Name" : "dbod",
+		"ItemId" : "330",
+		"ModelId" : "330",
+		"TextureId" : "330"
+	},
+	"dbod331":{
+		"Name" : "dbod",
+		"ItemId" : "331",
+		"ModelId" : "330",
+		"TextureId" : "331"
+	},
+	"dbod340":{
+		"Name" : "dbod",
+		"ItemId" : "340",
+		"ModelId" : "340",
+		"TextureId" : "340"
+	},
+	"dbod341":{
+		"Name" : "dbod",
+		"ItemId" : "341",
+		"ModelId" : "340",
+		"TextureId" : "341"
+	},
+	"dbod350":{
+		"Name" : "dbod",
+		"ItemId" : "350",
+		"ModelId" : "350",
+		"TextureId" : "350"
+	},
+	"dbod351":{
+		"Name" : "dbod",
+		"ItemId" : "351",
+		"ModelId" : "350",
+		"TextureId" : "351"
+	},
+	"dbod400":{
+		"Name" : "dbod",
+		"ItemId" : "400",
+		"ModelId" : "400",
+		"TextureId" : "400"
+	},
+	"dbod401":{
+		"Name" : "dbod",
+		"ItemId" : "401",
+		"ModelId" : "400",
+		"TextureId" : "401"
+	},
+	"dbod410":{
+		"Name" : "dbod",
+		"ItemId" : "410",
+		"ModelId" : "410",
+		"TextureId" : "410"
+	},
+	"dbod411":{
+		"Name" : "dbod",
+		"ItemId" : "411",
+		"ModelId" : "410",
+		"TextureId" : "411"
+	},
+	"dbod420":{
+		"Name" : "dbod",
+		"ItemId" : "420",
+		"ModelId" : "420",
+		"TextureId" : "420"
+	},
+	"dbod421":{
+		"Name" : "dbod",
+		"ItemId" : "421",
+		"ModelId" : "420",
+		"TextureId" : "421"
+	},
+	"dbod430":{
+		"Name" : "dbod",
+		"ItemId" : "430",
+		"ModelId" : "430",
+		"TextureId" : "430"
+	},
+	"dbod431":{
+		"Name" : "dbod",
+		"ItemId" : "431",
+		"ModelId" : "430",
+		"TextureId" : "431"
+	},
+	"dbod440":{
+		"Name" : "dbod",
+		"ItemId" : "440",
+		"ModelId" : "440",
+		"TextureId" : "440"
+	},
+	"dbod441":{
+		"Name" : "dbod",
+		"ItemId" : "441",
+		"ModelId" : "440",
+		"TextureId" : "441"
+	},
+	"dbod450":{
+		"Name" : "dbod",
+		"ItemId" : "450",
+		"ModelId" : "450",
+		"TextureId" : "450"
+	},
+	"dbod451":{
+		"Name" : "dbod",
+		"ItemId" : "451",
+		"ModelId" : "450",
+		"TextureId" : "451"
+	},
+	"dbod460":{
+		"Name" : "dbod",
+		"ItemId" : "460",
+		"ModelId" : "460",
+		"TextureId" : "460"
+	},
+	"dbod461":{
+		"Name" : "dbod",
+		"ItemId" : "461",
+		"ModelId" : "460",
+		"TextureId" : "461"
+	},
+	"dbod470":{
+		"Name" : "dbod",
+		"ItemId" : "470",
+		"ModelId" : "470",
+		"TextureId" : "470"
+	},
+	"dbod471":{
+		"Name" : "dbod",
+		"ItemId" : "471",
+		"ModelId" : "470",
+		"TextureId" : "471"
+	},
+	"dbod500":{
+		"Name" : "dbod",
+		"ItemId" : "500",
+		"ModelId" : "500",
+		"TextureId" : "500"
+	},
+	"dbod501":{
+		"Name" : "dbod",
+		"ItemId" : "501",
+		"ModelId" : "500",
+		"TextureId" : "501"
+	},
+	"dbod510":{
+		"Name" : "dbod",
+		"ItemId" : "510",
+		"ModelId" : "510",
+		"TextureId" : "510"
+	},
+	"dbod511":{
+		"Name" : "dbod",
+		"ItemId" : "511",
+		"ModelId" : "510",
+		"TextureId" : "511"
+	},
+	"dbod520":{
+		"Name" : "dbod",
+		"ItemId" : "520",
+		"ModelId" : "520",
+		"TextureId" : "520"
+	},
+	"dbod521":{
+		"Name" : "dbod",
+		"ItemId" : "521",
+		"ModelId" : "520",
+		"TextureId" : "521"
+	},
+	"dbod530":{
+		"Name" : "dbod",
+		"ItemId" : "530",
+		"ModelId" : "530",
+		"TextureId" : "530"
+	},
+	"dbod531":{
+		"Name" : "dbod",
+		"ItemId" : "531",
+		"ModelId" : "530",
+		"TextureId" : "531"
+	},
+	"dbod540":{
+		"Name" : "dbod",
+		"ItemId" : "540",
+		"ModelId" : "540",
+		"TextureId" : "540"
+	},
+	"dbod541":{
+		"Name" : "dbod",
+		"ItemId" : "541",
+		"ModelId" : "540",
+		"TextureId" : "541"
+	},
+	"dbod550":{
+		"Name" : "dbod",
+		"ItemId" : "550",
+		"ModelId" : "550",
+		"TextureId" : "550"
+	},
+	"dbod551":{
+		"Name" : "dbod",
+		"ItemId" : "551",
+		"ModelId" : "550",
+		"TextureId" : "551"
+	},
+	"dbod560":{
+		"Name" : "dbod",
+		"ItemId" : "560",
+		"ModelId" : "560",
+		"TextureId" : "560"
+	},
+	"dbod561":{
+		"Name" : "dbod",
+		"ItemId" : "561",
+		"ModelId" : "560",
+		"TextureId" : "561"
+	},
+	"dbod570":{
+		"Name" : "dbod",
+		"ItemId" : "570",
+		"ModelId" : "570",
+		"TextureId" : "570"
+	},
+	"dbod571":{
+		"Name" : "dbod",
+		"ItemId" : "571",
+		"ModelId" : "570",
+		"TextureId" : "571"
+	},
+	"dbod580":{
+		"Name" : "dbod",
+		"ItemId" : "580",
+		"ModelId" : "580",
+		"TextureId" : "580"
+	},
+	"dbod581":{
+		"Name" : "dbod",
+		"ItemId" : "581",
+		"ModelId" : "580",
+		"TextureId" : "581"
+	},
+	"dbod590":{
+		"Name" : "dbod",
+		"ItemId" : "590",
+		"ModelId" : "590",
+		"TextureId" : "590"
+	},
+	"dbod591":{
+		"Name" : "dbod",
+		"ItemId" : "591",
+		"ModelId" : "590",
+		"TextureId" : "591"
+	},
+	"dbod600":{
+		"Name" : "dbod",
+		"ItemId" : "600",
+		"ModelId" : "600",
+		"TextureId" : "600"
+	},
+	"dbod601":{
+		"Name" : "dbod",
+		"ItemId" : "601",
+		"ModelId" : "600",
+		"TextureId" : "601"
+	},
+	"dbod610":{
+		"Name" : "dbod",
+		"ItemId" : "610",
+		"ModelId" : "610",
+		"TextureId" : "610"
+	},
+	"dbod611":{
+		"Name" : "dbod",
+		"ItemId" : "611",
+		"ModelId" : "610",
+		"TextureId" : "611"
+	},
+	"dbod065":{
+		"Name" : "dbod",
+		"ItemId" : "065",
+		"ModelId" : "065",
+		"TextureId" : "065"
+	},
+	"dbod066":{
+		"Name" : "dbod",
+		"ItemId" : "066",
+		"ModelId" : "065",
+		"TextureId" : "066"
+	},
+	"dbod075":{
+		"Name" : "dbod",
+		"ItemId" : "075",
+		"ModelId" : "075",
+		"TextureId" : "075"
+	},
+	"dbod076":{
+		"Name" : "dbod",
+		"ItemId" : "076",
+		"ModelId" : "075",
+		"TextureId" : "076"
+	},
+	"dbod085":{
+		"Name" : "dbod",
+		"ItemId" : "085",
+		"ModelId" : "085",
+		"TextureId" : "085"
+	},
+	"dbod086":{
+		"Name" : "dbod",
+		"ItemId" : "086",
+		"ModelId" : "085",
+		"TextureId" : "086"
+	},
+	"dbod095":{
+		"Name" : "dbod",
+		"ItemId" : "095",
+		"ModelId" : "095",
+		"TextureId" : "095"
+	},
+	"dbod096":{
+		"Name" : "dbod",
+		"ItemId" : "096",
+		"ModelId" : "095",
+		"TextureId" : "096"
+	},
+	"dbod105":{
+		"Name" : "dbod",
+		"ItemId" : "105",
+		"ModelId" : "105",
+		"TextureId" : "105"
+	},
+	"dbod106":{
+		"Name" : "dbod",
+		"ItemId" : "106",
+		"ModelId" : "105",
+		"TextureId" : "106"
+	},
+	"dbod115":{
+		"Name" : "dbod",
+		"ItemId" : "115",
+		"ModelId" : "115",
+		"TextureId" : "115"
+	},
+	"dbod116":{
+		"Name" : "dbod",
+		"ItemId" : "116",
+		"ModelId" : "115",
+		"TextureId" : "116"
+	},
+	"dbod125":{
+		"Name" : "dbod",
+		"ItemId" : "125",
+		"ModelId" : "125",
+		"TextureId" : "125"
+	},
+	"dbod126":{
+		"Name" : "dbod",
+		"ItemId" : "126",
+		"ModelId" : "125",
+		"TextureId" : "126"
+	},
+	"dbod135":{
+		"Name" : "dbod",
+		"ItemId" : "135",
+		"ModelId" : "135",
+		"TextureId" : "135"
+	},
+	"dbod136":{
+		"Name" : "dbod",
+		"ItemId" : "136",
+		"ModelId" : "135",
+		"TextureId" : "136"
+	},
+	"dbod145":{
+		"Name" : "dbod",
+		"ItemId" : "145",
+		"ModelId" : "145",
+		"TextureId" : "145"
+	},
+	"dbod146":{
+		"Name" : "dbod",
+		"ItemId" : "146",
+		"ModelId" : "145",
+		"TextureId" : "146"
+	},
+	"dbod155":{
+		"Name" : "dbod",
+		"ItemId" : "155",
+		"ModelId" : "155",
+		"TextureId" : "155"
+	},
+	"dbod156":{
+		"Name" : "dbod",
+		"ItemId" : "156",
+		"ModelId" : "155",
+		"TextureId" : "156"
+	},
+	"dbod165":{
+		"Name" : "dbod",
+		"ItemId" : "165",
+		"ModelId" : "165",
+		"TextureId" : "165"
+	},
+	"dbod166":{
+		"Name" : "dbod",
+		"ItemId" : "166",
+		"ModelId" : "165",
+		"TextureId" : "166"
+	},
+	"dbod455":{
+		"Name" : "dbod",
+		"ItemId" : "455",
+		"ModelId" : "455",
+		"TextureId" : "455"
+	},
+	"dbod456":{
+		"Name" : "dbod",
+		"ItemId" : "456",
+		"ModelId" : "455",
+		"TextureId" : "456"
+	},
+	"dbod465":{
+		"Name" : "dbod",
+		"ItemId" : "465",
+		"ModelId" : "465",
+		"TextureId" : "465"
+	},
+	"dbod466":{
+		"Name" : "dbod",
+		"ItemId" : "466",
+		"ModelId" : "465",
+		"TextureId" : "466"
+	},
+	"dbod475":{
+		"Name" : "dbod",
+		"ItemId" : "475",
+		"ModelId" : "475",
+		"TextureId" : "475"
+	},
+	"dbod476":{
+		"Name" : "dbod",
+		"ItemId" : "476",
+		"ModelId" : "475",
+		"TextureId" : "476"
+	},
+	"dbod485":{
+		"Name" : "dbod",
+		"ItemId" : "485",
+		"ModelId" : "485",
+		"TextureId" : "485"
+	},
+	"dbod486":{
+		"Name" : "dbod",
+		"ItemId" : "486",
+		"ModelId" : "485",
+		"TextureId" : "486"
+	},
+	"dbod495":{
+		"Name" : "dbod",
+		"ItemId" : "495",
+		"ModelId" : "495",
+		"TextureId" : "495"
+	},
+	"dbod496":{
+		"Name" : "dbod",
+		"ItemId" : "496",
+		"ModelId" : "495",
+		"TextureId" : "496"
+	},
+	"dbod505":{
+		"Name" : "dbod",
+		"ItemId" : "505",
+		"ModelId" : "505",
+		"TextureId" : "505"
+	},
+	"dbod506":{
+		"Name" : "dbod",
+		"ItemId" : "506",
+		"ModelId" : "505",
+		"TextureId" : "506"
+	},
+	"dbod515":{
+		"Name" : "dbod",
+		"ItemId" : "515",
+		"ModelId" : "515",
+		"TextureId" : "515"
+	},
+	"dbod516":{
+		"Name" : "dbod",
+		"ItemId" : "516",
+		"ModelId" : "515",
+		"TextureId" : "516"
+	},
+	"dbod535":{
+		"Name" : "dbod",
+		"ItemId" : "535",
+		"ModelId" : "535",
+		"TextureId" : "535"
+	},
+	"dbod536":{
+		"Name" : "dbod",
+		"ItemId" : "536",
+		"ModelId" : "535",
+		"TextureId" : "536"
+	},
+	"dbod555":{
+		"Name" : "dbod",
+		"ItemId" : "555",
+		"ModelId" : "555",
+		"TextureId" : "555"
+	},
+	"dbod556":{
+		"Name" : "dbod",
+		"ItemId" : "556",
+		"ModelId" : "555",
+		"TextureId" : "556"
+	},
+	"dbod565":{
+		"Name" : "dbod",
+		"ItemId" : "565",
+		"ModelId" : "565",
+		"TextureId" : "565"
+	},
+	"dbod566":{
+		"Name" : "dbod",
+		"ItemId" : "566",
+		"ModelId" : "565",
+		"TextureId" : "566"
+	},
+	"dbod205":{
+		"Name" : "dbod",
+		"ItemId" : "205",
+		"ModelId" : "205",
+		"TextureId" : "205"
+	},
+	"dbod206":{
+		"Name" : "dbod",
+		"ItemId" : "206",
+		"ModelId" : "205",
+		"TextureId" : "206"
+	},
+	"dbod215":{
+		"Name" : "dbod",
+		"ItemId" : "215",
+		"ModelId" : "215",
+		"TextureId" : "215"
+	},
+	"dbod216":{
+		"Name" : "dbod",
+		"ItemId" : "216",
+		"ModelId" : "215",
+		"TextureId" : "216"
+	},
+	"dbod225":{
+		"Name" : "dbod",
+		"ItemId" : "225",
+		"ModelId" : "225",
+		"TextureId" : "225"
+	},
+	"dbod226":{
+		"Name" : "dbod",
+		"ItemId" : "226",
+		"ModelId" : "225",
+		"TextureId" : "226"
+	},
+	"dbod235":{
+		"Name" : "dbod",
+		"ItemId" : "235",
+		"ModelId" : "235",
+		"TextureId" : "235"
+	},
+	"dbod236":{
+		"Name" : "dbod",
+		"ItemId" : "236",
+		"ModelId" : "235",
+		"TextureId" : "236"
+	},
+	"dbod245":{
+		"Name" : "dbod",
+		"ItemId" : "245",
+		"ModelId" : "245",
+		"TextureId" : "245"
+	},
+	"dbod246":{
+		"Name" : "dbod",
+		"ItemId" : "246",
+		"ModelId" : "245",
+		"TextureId" : "246"
+	},
+	"dbod255":{
+		"Name" : "dbod",
+		"ItemId" : "255",
+		"ModelId" : "255",
+		"TextureId" : "255"
+	},
+	"dbod256":{
+		"Name" : "dbod",
+		"ItemId" : "256",
+		"ModelId" : "255",
+		"TextureId" : "256"
+	},
+	"dbod265":{
+		"Name" : "dbod",
+		"ItemId" : "265",
+		"ModelId" : "265",
+		"TextureId" : "265"
+	},
+	"dbod266":{
+		"Name" : "dbod",
+		"ItemId" : "266",
+		"ModelId" : "265",
+		"TextureId" : "266"
+	},
+	"dbod275":{
+		"Name" : "dbod",
+		"ItemId" : "275",
+		"ModelId" : "275",
+		"TextureId" : "275"
+	},
+	"dbod276":{
+		"Name" : "dbod",
+		"ItemId" : "276",
+		"ModelId" : "275",
+		"TextureId" : "276"
+	},
+	"dbod285":{
+		"Name" : "dbod",
+		"ItemId" : "285",
+		"ModelId" : "285",
+		"TextureId" : "285"
+	},
+	"dbod286":{
+		"Name" : "dbod",
+		"ItemId" : "286",
+		"ModelId" : "285",
+		"TextureId" : "286"
+	},
+	"dbod295":{
+		"Name" : "dbod",
+		"ItemId" : "295",
+		"ModelId" : "295",
+		"TextureId" : "295"
+	},
+	"dbod296":{
+		"Name" : "dbod",
+		"ItemId" : "296",
+		"ModelId" : "295",
+		"TextureId" : "296"
+	},
+	"dbod305":{
+		"Name" : "dbod",
+		"ItemId" : "305",
+		"ModelId" : "305",
+		"TextureId" : "305"
+	},
+	"dbod306":{
+		"Name" : "dbod",
+		"ItemId" : "306",
+		"ModelId" : "305",
+		"TextureId" : "306"
+	},
+	"dbod315":{
+		"Name" : "dbod",
+		"ItemId" : "315",
+		"ModelId" : "315",
+		"TextureId" : "315"
+	},
+	"dbod316":{
+		"Name" : "dbod",
+		"ItemId" : "316",
+		"ModelId" : "315",
+		"TextureId" : "316"
+	},
+	"dbod015":{
+		"Name" : "dbod",
+		"ItemId" : "015",
+		"ModelId" : "015",
+		"TextureId" : "015"
+	},
+	"dbod016":{
+		"Name" : "dbod",
+		"ItemId" : "016",
+		"ModelId" : "015",
+		"TextureId" : "016"
+	},
+	"dbod025":{
+		"Name" : "dbod",
+		"ItemId" : "025",
+		"ModelId" : "025",
+		"TextureId" : "025"
+	},
+	"dbod026":{
+		"Name" : "dbod",
+		"ItemId" : "026",
+		"ModelId" : "025",
+		"TextureId" : "026"
+	},
+	"dbod035":{
+		"Name" : "dbod",
+		"ItemId" : "035",
+		"ModelId" : "035",
+		"TextureId" : "035"
+	},
+	"dbod036":{
+		"Name" : "dbod",
+		"ItemId" : "036",
+		"ModelId" : "035",
+		"TextureId" : "036"
+	},
+	"dbod360":{
+		"Name" : "dbod",
+		"ItemId" : "360",
+		"ModelId" : "360",
+		"TextureId" : "360"
+	},
+	"dbod361":{
+		"Name" : "dbod",
+		"ItemId" : "361",
+		"ModelId" : "360",
+		"TextureId" : "361"
+	},
+	"dbod370":{
+		"Name" : "dbod",
+		"ItemId" : "370",
+		"ModelId" : "370",
+		"TextureId" : "370"
+	},
+	"dbod371":{
+		"Name" : "dbod",
+		"ItemId" : "371",
+		"ModelId" : "370",
+		"TextureId" : "371"
+	},
+	"dbod380":{
+		"Name" : "dbod",
+		"ItemId" : "380",
+		"ModelId" : "380",
+		"TextureId" : "380"
+	},
+	"dbod381":{
+		"Name" : "dbod",
+		"ItemId" : "381",
+		"ModelId" : "380",
+		"TextureId" : "381"
+	},
+	"dbod405":{
+		"Name" : "dbod",
+		"ItemId" : "405",
+		"ModelId" : "405",
+		"TextureId" : "405"
+	},
+	"dbod406":{
+		"Name" : "dbod",
+		"ItemId" : "406",
+		"ModelId" : "405",
+		"TextureId" : "406"
+	},
+	"dbod415":{
+		"Name" : "dbod",
+		"ItemId" : "415",
+		"ModelId" : "415",
+		"TextureId" : "415"
+	},
+	"dbod416":{
+		"Name" : "dbod",
+		"ItemId" : "416",
+		"ModelId" : "415",
+		"TextureId" : "416"
+	},
+	"dbod425":{
+		"Name" : "dbod",
+		"ItemId" : "425",
+		"ModelId" : "425",
+		"TextureId" : "425"
+	},
+	"dbod426":{
+		"Name" : "dbod",
+		"ItemId" : "426",
+		"ModelId" : "425",
+		"TextureId" : "426"
+	},
+	"dbod445":{
+		"Name" : "dbod",
+		"ItemId" : "445",
+		"ModelId" : "445",
+		"TextureId" : "445"
+	},
+	"dbod446":{
+		"Name" : "dbod",
+		"ItemId" : "446",
+		"ModelId" : "445",
+		"TextureId" : "446"
+	},
+	"dbod045":{
+		"Name" : "dbod",
+		"ItemId" : "045",
+		"ModelId" : "045",
+		"TextureId" : "446"
+	},
+	"cbod0100000":{
+		"Name" : "cbod",
+		"ItemId" : "0100000",
+		"ModelId" : "0100000",
+		"TextureId" : "0100000"
+	},
+	"cbod1102400":{
+		"Name" : "cbod",
+		"ItemId" : "1102400",
+		"ModelId" : "1102400",
+		"TextureId" : "1102400"
+	},
+	"cbod1102401":{
+		"Name" : "cbod",
+		"ItemId" : "1102401",
+		"ModelId" : "1102400",
+		"TextureId" : "1102401"
+	},
+	"cbod1303800":{
+		"Name" : "cbod",
+		"ItemId" : "1303800",
+		"ModelId" : "1303800",
+		"TextureId" : "1303800"
+	},
+	"cbod1303801":{
+		"Name" : "cbod",
+		"ItemId" : "1303801",
+		"ModelId" : "1303800",
+		"TextureId" : "1303801"
+	}
+},
+// CharacterModelDetail.xlsx.tmp fulmethat 
+
+"fullface_":{
+	"cful000":{
+		"Name" : "cful",
+		"ItemId" : "000",
+		"ModelId" : "000",
+		"TextureId" : "000"
+	},
+	"cful001":{
+		"Name" : "cful",
+		"ItemId" : "001",
+		"ModelId" : "000",
+		"TextureId" : "001"
+	},
+	"cful010":{
+		"Name" : "cful",
+		"ItemId" : "010",
+		"ModelId" : "010",
+		"TextureId" : "010"
+	},
+	"cful011":{
+		"Name" : "cful",
+		"ItemId" : "011",
+		"ModelId" : "010",
+		"TextureId" : "011"
+	},
+	"cful020":{
+		"Name" : "cful",
+		"ItemId" : "020",
+		"ModelId" : "020",
+		"TextureId" : "020"
+	},
+	"cful021":{
+		"Name" : "cful",
+		"ItemId" : "021",
+		"ModelId" : "020",
+		"TextureId" : "021"
+	},
+	"cful030":{
+		"Name" : "cful",
+		"ItemId" : "030",
+		"ModelId" : "030",
+		"TextureId" : "030"
+	},
+	"cful031":{
+		"Name" : "cful",
+		"ItemId" : "031",
+		"ModelId" : "030",
+		"TextureId" : "031"
+	},
+	"cful200":{
+		"Name" : "cful",
+		"ItemId" : "200",
+		"ModelId" : "200",
+		"TextureId" : "200"
+	},
+	"cful201":{
+		"Name" : "cful",
+		"ItemId" : "201",
+		"ModelId" : "200",
+		"TextureId" : "201"
+	},
+	"cful210":{
+		"Name" : "cful",
+		"ItemId" : "210",
+		"ModelId" : "210",
+		"TextureId" : "210"
+	},
+	"cful211":{
+		"Name" : "cful",
+		"ItemId" : "211",
+		"ModelId" : "210",
+		"TextureId" : "211"
+	},
+	"cful220":{
+		"Name" : "cful",
+		"ItemId" : "220",
+		"ModelId" : "220",
+		"TextureId" : "220"
+	},
+	"cful221":{
+		"Name" : "cful",
+		"ItemId" : "221",
+		"ModelId" : "220",
+		"TextureId" : "221"
+	},
+	"cful400":{
+		"Name" : "cful",
+		"ItemId" : "400",
+		"ModelId" : "400",
+		"TextureId" : "400"
+	},
+	"cful401":{
+		"Name" : "cful",
+		"ItemId" : "401",
+		"ModelId" : "400",
+		"TextureId" : "401"
+	},
+	"cful410":{
+		"Name" : "cful",
+		"ItemId" : "410",
+		"ModelId" : "410",
+		"TextureId" : "410"
+	},
+	"cful411":{
+		"Name" : "cful",
+		"ItemId" : "411",
+		"ModelId" : "410",
+		"TextureId" : "411"
+	},
+	"cful420":{
+		"Name" : "cful",
+		"ItemId" : "420",
+		"ModelId" : "420",
+		"TextureId" : "420"
+	},
+	"cful421":{
+		"Name" : "cful",
+		"ItemId" : "421",
+		"ModelId" : "420",
+		"TextureId" : "421"
+	},
+	"chat000":{
+		"Name" : "chat",
+		"ItemId" : "000",
+		"ModelId" : "000",
+		"TextureId" : "000"
+	},
+	"chat001":{
+		"Name" : "chat",
+		"ItemId" : "001",
+		"ModelId" : "000",
+		"TextureId" : "001"
+	},
+	"chat200":{
+		"Name" : "chat",
+		"ItemId" : "200",
+		"ModelId" : "200",
+		"TextureId" : "200"
+	},
+	"chat201":{
+		"Name" : "chat",
+		"ItemId" : "201",
+		"ModelId" : "200",
+		"TextureId" : "201"
+	},
+	"chat210":{
+		"Name" : "chat",
+		"ItemId" : "210",
+		"ModelId" : "210",
+		"TextureId" : "210"
+	},
+	"chat211":{
+		"Name" : "chat",
+		"ItemId" : "211",
+		"ModelId" : "210",
+		"TextureId" : "211"
+	},
+	"chat220":{
+		"Name" : "chat",
+		"ItemId" : "220",
+		"ModelId" : "220",
+		"TextureId" : "220"
+	},
+	"chat221":{
+		"Name" : "chat",
+		"ItemId" : "221",
+		"ModelId" : "220",
+		"TextureId" : "221"
+	},
+	"chat230":{
+		"Name" : "chat",
+		"ItemId" : "230",
+		"ModelId" : "230",
+		"TextureId" : "230"
+	},
+	"chat231":{
+		"Name" : "chat",
+		"ItemId" : "231",
+		"ModelId" : "230",
+		"TextureId" : "231"
+	},
+	"chat240":{
+		"Name" : "chat",
+		"ItemId" : "240",
+		"ModelId" : "240",
+		"TextureId" : "240"
+	},
+	"chat241":{
+		"Name" : "chat",
+		"ItemId" : "241",
+		"ModelId" : "240",
+		"TextureId" : "241"
+	},
+	"chat400":{
+		"Name" : "chat",
+		"ItemId" : "400",
+		"ModelId" : "400",
+		"TextureId" : "400"
+	},
+	"chat401":{
+		"Name" : "chat",
+		"ItemId" : "401",
+		"ModelId" : "400",
+		"TextureId" : "401"
+	},
+	"chat410":{
+		"Name" : "chat",
+		"ItemId" : "410",
+		"ModelId" : "410",
+		"TextureId" : "410"
+	},
+	"chat411":{
+		"Name" : "chat",
+		"ItemId" : "411",
+		"ModelId" : "410",
+		"TextureId" : "411"
+	},
+	"chat420":{
+		"Name" : "chat",
+		"ItemId" : "420",
+		"ModelId" : "420",
+		"TextureId" : "420"
+	},
+	"chat421":{
+		"Name" : "chat",
+		"ItemId" : "421",
+		"ModelId" : "420",
+		"TextureId" : "421"
+	},
+	"chat430":{
+		"Name" : "chat",
+		"ItemId" : "430",
+		"ModelId" : "430",
+		"TextureId" : "430"
+	},
+	"chat431":{
+		"Name" : "chat",
+		"ItemId" : "431",
+		"ModelId" : "430",
+		"TextureId" : "431"
+	},
+	"chat700":{
+		"Name" : "chat",
+		"ItemId" : "700",
+		"ModelId" : "700",
+		"TextureId" : "700"
+	},
+	"cmet000":{
+		"Name" : "cmet",
+		"ItemId" : "000",
+		"ModelId" : "000",
+		"TextureId" : "000"
+	},
+	"cmet001":{
+		"Name" : "cmet",
+		"ItemId" : "001",
+		"ModelId" : "000",
+		"TextureId" : "001"
+	},
+	"cmet010":{
+		"Name" : "cmet",
+		"ItemId" : "010",
+		"ModelId" : "010",
+		"TextureId" : "010"
+	},
+	"cmet011":{
+		"Name" : "cmet",
+		"ItemId" : "011",
+		"ModelId" : "010",
+		"TextureId" : "011"
+	},
+	"cmet020":{
+		"Name" : "cmet",
+		"ItemId" : "020",
+		"ModelId" : "020",
+		"TextureId" : "020"
+	},
+	"cmet021":{
+		"Name" : "cmet",
+		"ItemId" : "021",
+		"ModelId" : "020",
+		"TextureId" : "021"
+	},
+	"cmet030":{
+		"Name" : "cmet",
+		"ItemId" : "030",
+		"ModelId" : "030",
+		"TextureId" : "030"
+	},
+	"cmet031":{
+		"Name" : "cmet",
+		"ItemId" : "031",
+		"ModelId" : "030",
+		"TextureId" : "031"
+	},
+	"cmet040":{
+		"Name" : "cmet",
+		"ItemId" : "040",
+		"ModelId" : "040",
+		"TextureId" : "040"
+	},
+	"cmet041":{
+		"Name" : "cmet",
+		"ItemId" : "041",
+		"ModelId" : "040",
+		"TextureId" : "041"
+	},
+	"cmet200":{
+		"Name" : "cmet",
+		"ItemId" : "200",
+		"ModelId" : "200",
+		"TextureId" : "200"
+	},
+	"cmet201":{
+		"Name" : "cmet",
+		"ItemId" : "201",
+		"ModelId" : "200",
+		"TextureId" : "201"
+	},
+	"cmet210":{
+		"Name" : "cmet",
+		"ItemId" : "210",
+		"ModelId" : "210",
+		"TextureId" : "210"
+	},
+	"cmet211":{
+		"Name" : "cmet",
+		"ItemId" : "211",
+		"ModelId" : "210",
+		"TextureId" : "211"
+	},
+	"cmet400":{
+		"Name" : "cmet",
+		"ItemId" : "400",
+		"ModelId" : "400",
+		"TextureId" : "400"
+	},
+	"cmet401":{
+		"Name" : "cmet",
+		"ItemId" : "401",
+		"ModelId" : "400",
+		"TextureId" : "401"
+	},
+	"cmet410":{
+		"Name" : "cmet",
+		"ItemId" : "410",
+		"ModelId" : "410",
+		"TextureId" : "410"
+	},
+	"cmet411":{
+		"Name" : "cmet",
+		"ItemId" : "411",
+		"ModelId" : "410",
+		"TextureId" : "411"
+	},
+	"cmet420":{
+		"Name" : "cmet",
+		"ItemId" : "420",
+		"ModelId" : "420",
+		"TextureId" : "420"
+	},
+	"cmet421":{
+		"Name" : "cmet",
+		"ItemId" : "421",
+		"ModelId" : "420",
+		"TextureId" : "421"
+	},
+	"dful000":{
+		"Name" : "dful",
+		"ItemId" : "000",
+		"ModelId" : "000",
+		"TextureId" : "000"
+	},
+	"dful001":{
+		"Name" : "dful",
+		"ItemId" : "001",
+		"ModelId" : "000",
+		"TextureId" : "001"
+	},
+	"dful010":{
+		"Name" : "dful",
+		"ItemId" : "010",
+		"ModelId" : "010",
+		"TextureId" : "010"
+	},
+	"dful011":{
+		"Name" : "dful",
+		"ItemId" : "011",
+		"ModelId" : "010",
+		"TextureId" : "011"
+	},
+	"dful030":{
+		"Name" : "dful",
+		"ItemId" : "030",
+		"ModelId" : "030",
+		"TextureId" : "030"
+	},
+	"dful040":{
+		"Name" : "dful",
+		"ItemId" : "040",
+		"ModelId" : "040",
+		"TextureId" : "040"
+	},
+	"dful070":{
+		"Name" : "dful",
+		"ItemId" : "070",
+		"ModelId" : "070",
+		"TextureId" : "070"
+	},
+	"dful200":{
+		"Name" : "dful",
+		"ItemId" : "200",
+		"ModelId" : "200",
+		"TextureId" : "200"
+	},
+	"dful201":{
+		"Name" : "dful",
+		"ItemId" : "201",
+		"ModelId" : "200",
+		"TextureId" : "201"
+	},
+	"dful210":{
+		"Name" : "dful",
+		"ItemId" : "210",
+		"ModelId" : "210",
+		"TextureId" : "210"
+	},
+	"dful211":{
+		"Name" : "dful",
+		"ItemId" : "211",
+		"ModelId" : "210",
+		"TextureId" : "211"
+	},
+	"dful220":{
+		"Name" : "dful",
+		"ItemId" : "220",
+		"ModelId" : "220",
+		"TextureId" : "220"
+	},
+	"dful230":{
+		"Name" : "dful",
+		"ItemId" : "230",
+		"ModelId" : "230",
+		"TextureId" : "230"
+	},
+	"dful240":{
+		"Name" : "dful",
+		"ItemId" : "240",
+		"ModelId" : "240",
+		"TextureId" : "240"
+	},
+	"dful400":{
+		"Name" : "dful",
+		"ItemId" : "400",
+		"ModelId" : "400",
+		"TextureId" : "400"
+	},
+	"dful401":{
+		"Name" : "dful",
+		"ItemId" : "401",
+		"ModelId" : "400",
+		"TextureId" : "401"
+	},
+	"dful410":{
+		"Name" : "dful",
+		"ItemId" : "410",
+		"ModelId" : "410",
+		"TextureId" : "410"
+	},
+	"dful411":{
+		"Name" : "dful",
+		"ItemId" : "411",
+		"ModelId" : "410",
+		"TextureId" : "411"
+	},
+	"dful420":{
+		"Name" : "dful",
+		"ItemId" : "420",
+		"ModelId" : "420",
+		"TextureId" : "420"
+	},
+	"dful421":{
+		"Name" : "dful",
+		"ItemId" : "421",
+		"ModelId" : "420",
+		"TextureId" : "421"
+	},
+	"dful600":{
+		"Name" : "dful",
+		"ItemId" : "600",
+		"ModelId" : "600",
+		"TextureId" : "600"
+	},
+	"dful610":{
+		"Name" : "dful",
+		"ItemId" : "610",
+		"ModelId" : "610",
+		"TextureId" : "610"
+	},
+	"dful620":{
+		"Name" : "dful",
+		"ItemId" : "620",
+		"ModelId" : "620",
+		"TextureId" : "620"
+	},
+	"dful630":{
+		"Name" : "dful",
+		"ItemId" : "630",
+		"ModelId" : "630",
+		"TextureId" : "630"
+	},
+	"dful631":{
+		"Name" : "dful",
+		"ItemId" : "631",
+		"ModelId" : "630",
+		"TextureId" : "631"
+	},
+	"dful632":{
+		"Name" : "dful",
+		"ItemId" : "632",
+		"ModelId" : "630",
+		"TextureId" : "632"
+	},
+	"dful640":{
+		"Name" : "dful",
+		"ItemId" : "640",
+		"ModelId" : "640",
+		"TextureId" : "640"
+	},
+	"dful650":{
+		"Name" : "dful",
+		"ItemId" : "650",
+		"ModelId" : "650",
+		"TextureId" : "650"
+	},
+	"dful651":{
+		"Name" : "dful",
+		"ItemId" : "651",
+		"ModelId" : "650",
+		"TextureId" : "651"
+	},
+	"dful652":{
+		"Name" : "dful",
+		"ItemId" : "652",
+		"ModelId" : "650",
+		"TextureId" : "652"
+	},
+	"dful660":{
+		"Name" : "dful",
+		"ItemId" : "660",
+		"ModelId" : "660",
+		"TextureId" : "660"
+	},
+	"dful670":{
+		"Name" : "dful",
+		"ItemId" : "670",
+		"ModelId" : "670",
+		"TextureId" : "670"
+	},
+	"dful671":{
+		"Name" : "dful",
+		"ItemId" : "671",
+		"ModelId" : "670",
+		"TextureId" : "671"
+	},
+	"dful672":{
+		"Name" : "dful",
+		"ItemId" : "672",
+		"ModelId" : "670",
+		"TextureId" : "672"
+	},
+	"dful680":{
+		"Name" : "dful",
+		"ItemId" : "680",
+		"ModelId" : "680",
+		"TextureId" : "680"
+	},
+	"dful690":{
+		"Name" : "dful",
+		"ItemId" : "690",
+		"ModelId" : "690",
+		"TextureId" : "690"
+	},
+	"dful691":{
+		"Name" : "dful",
+		"ItemId" : "691",
+		"ModelId" : "690",
+		"TextureId" : "691"
+	},
+	"dful692":{
+		"Name" : "dful",
+		"ItemId" : "692",
+		"ModelId" : "690",
+		"TextureId" : "692"
+	},
+	"dful700":{
+		"Name" : "dful",
+		"ItemId" : "700",
+		"ModelId" : "700",
+		"TextureId" : "700"
+	},
+	"dful710":{
+		"Name" : "dful",
+		"ItemId" : "710",
+		"ModelId" : "710",
+		"TextureId" : "710"
+	},
+	"dful711":{
+		"Name" : "dful",
+		"ItemId" : "711",
+		"ModelId" : "710",
+		"TextureId" : "711"
+	},
+	"dful712":{
+		"Name" : "dful",
+		"ItemId" : "712",
+		"ModelId" : "710",
+		"TextureId" : "712"
+	},
+	"dful720":{
+		"Name" : "dful",
+		"ItemId" : "720",
+		"ModelId" : "720",
+		"TextureId" : "720"
+	},
+	"dful730":{
+		"Name" : "dful",
+		"ItemId" : "730",
+		"ModelId" : "730",
+		"TextureId" : "730"
+	},
+	"dful731":{
+		"Name" : "dful",
+		"ItemId" : "731",
+		"ModelId" : "730",
+		"TextureId" : "731"
+	},
+	"dful732":{
+		"Name" : "dful",
+		"ItemId" : "732",
+		"ModelId" : "730",
+		"TextureId" : "732"
+	},
+	"dhat000":{
+		"Name" : "dhat",
+		"ItemId" : "000",
+		"ModelId" : "000",
+		"TextureId" : "000"
+	},
+	"dhat001":{
+		"Name" : "dhat",
+		"ItemId" : "001",
+		"ModelId" : "000",
+		"TextureId" : "001"
+	},
+	"dhat010":{
+		"Name" : "dhat",
+		"ItemId" : "010",
+		"ModelId" : "010",
+		"TextureId" : "010"
+	},
+	"dhat011":{
+		"Name" : "dhat",
+		"ItemId" : "011",
+		"ModelId" : "010",
+		"TextureId" : "011"
+	},
+	"dhat020":{
+		"Name" : "dhat",
+		"ItemId" : "020",
+		"ModelId" : "020",
+		"TextureId" : "020"
+	},
+	"dhat021":{
+		"Name" : "dhat",
+		"ItemId" : "021",
+		"ModelId" : "020",
+		"TextureId" : "021"
+	},
+	"dhat200":{
+		"Name" : "dhat",
+		"ItemId" : "200",
+		"ModelId" : "200",
+		"TextureId" : "200"
+	},
+	"dhat201":{
+		"Name" : "dhat",
+		"ItemId" : "201",
+		"ModelId" : "200",
+		"TextureId" : "201"
+	},
+	"dhat210":{
+		"Name" : "dhat",
+		"ItemId" : "210",
+		"ModelId" : "210",
+		"TextureId" : "210"
+	},
+	"dhat211":{
+		"Name" : "dhat",
+		"ItemId" : "211",
+		"ModelId" : "210",
+		"TextureId" : "211"
+	},
+	"dhat220":{
+		"Name" : "dhat",
+		"ItemId" : "220",
+		"ModelId" : "220",
+		"TextureId" : "220"
+	},
+	"dhat221":{
+		"Name" : "dhat",
+		"ItemId" : "221",
+		"ModelId" : "220",
+		"TextureId" : "221"
+	},
+	"dhat230":{
+		"Name" : "dhat",
+		"ItemId" : "230",
+		"ModelId" : "230",
+		"TextureId" : "230"
+	},
+	"dhat231":{
+		"Name" : "dhat",
+		"ItemId" : "231",
+		"ModelId" : "230",
+		"TextureId" : "231"
+	},
+	"dhat240":{
+		"Name" : "dhat",
+		"ItemId" : "240",
+		"ModelId" : "240",
+		"TextureId" : "240"
+	},
+	"dhat241":{
+		"Name" : "dhat",
+		"ItemId" : "241",
+		"ModelId" : "240",
+		"TextureId" : "241"
+	},
+	"dhat250":{
+		"Name" : "dhat",
+		"ItemId" : "250",
+		"ModelId" : "250",
+		"TextureId" : "250"
+	},
+	"dhat251":{
+		"Name" : "dhat",
+		"ItemId" : "251",
+		"ModelId" : "250",
+		"TextureId" : "251"
+	},
+	"dhat400":{
+		"Name" : "dhat",
+		"ItemId" : "400",
+		"ModelId" : "400",
+		"TextureId" : "400"
+	},
+	"dhat401":{
+		"Name" : "dhat",
+		"ItemId" : "401",
+		"ModelId" : "400",
+		"TextureId" : "401"
+	},
+	"dhat410":{
+		"Name" : "dhat",
+		"ItemId" : "410",
+		"ModelId" : "410",
+		"TextureId" : "410"
+	},
+	"dhat411":{
+		"Name" : "dhat",
+		"ItemId" : "411",
+		"ModelId" : "410",
+		"TextureId" : "411"
+	},
+	"dhat420":{
+		"Name" : "dhat",
+		"ItemId" : "420",
+		"ModelId" : "420",
+		"TextureId" : "420"
+	},
+	"dhat421":{
+		"Name" : "dhat",
+		"ItemId" : "421",
+		"ModelId" : "420",
+		"TextureId" : "421"
+	},
+	"dhat430":{
+		"Name" : "dhat",
+		"ItemId" : "430",
+		"ModelId" : "430",
+		"TextureId" : "430"
+	},
+	"dhat431":{
+		"Name" : "dhat",
+		"ItemId" : "431",
+		"ModelId" : "430",
+		"TextureId" : "431"
+	},
+	"dhat440":{
+		"Name" : "dhat",
+		"ItemId" : "440",
+		"ModelId" : "440",
+		"TextureId" : "440"
+	},
+	"dhat441":{
+		"Name" : "dhat",
+		"ItemId" : "441",
+		"ModelId" : "440",
+		"TextureId" : "441"
+	},
+	"dhat450":{
+		"Name" : "dhat",
+		"ItemId" : "450",
+		"ModelId" : "450",
+		"TextureId" : "450"
+	},
+	"dhat451":{
+		"Name" : "dhat",
+		"ItemId" : "451",
+		"ModelId" : "450",
+		"TextureId" : "451"
+	},
+	"dhat460":{
+		"Name" : "dhat",
+		"ItemId" : "460",
+		"ModelId" : "460",
+		"TextureId" : "460"
+	},
+	"dhat461":{
+		"Name" : "dhat",
+		"ItemId" : "461",
+		"ModelId" : "460",
+		"TextureId" : "461"
+	},
+	"dhat470":{
+		"Name" : "dhat",
+		"ItemId" : "470",
+		"ModelId" : "470",
+		"TextureId" : "470"
+	},
+	"dhat471":{
+		"Name" : "dhat",
+		"ItemId" : "471",
+		"ModelId" : "470",
+		"TextureId" : "471"
+	},
+	"dhat480":{
+		"Name" : "dhat",
+		"ItemId" : "480",
+		"ModelId" : "480",
+		"TextureId" : "480"
+	},
+	"dhat481":{
+		"Name" : "dhat",
+		"ItemId" : "481",
+		"ModelId" : "480",
+		"TextureId" : "481"
+	},
+	"dmet000":{
+		"Name" : "dmet",
+		"ItemId" : "000",
+		"ModelId" : "000",
+		"TextureId" : "000"
+	},
+	"dmet001":{
+		"Name" : "dmet",
+		"ItemId" : "001",
+		"ModelId" : "000",
+		"TextureId" : "001"
+	},
+	"dmet010":{
+		"Name" : "dmet",
+		"ItemId" : "010",
+		"ModelId" : "010",
+		"TextureId" : "010"
+	},
+	"dmet011":{
+		"Name" : "dmet",
+		"ItemId" : "011",
+		"ModelId" : "010",
+		"TextureId" : "011"
+	},
+	"dmet020":{
+		"Name" : "dmet",
+		"ItemId" : "020",
+		"ModelId" : "020",
+		"TextureId" : "020"
+	},
+	"dmet021":{
+		"Name" : "dmet",
+		"ItemId" : "021",
+		"ModelId" : "020",
+		"TextureId" : "021"
+	},
+	"dmet030":{
+		"Name" : "dmet",
+		"ItemId" : "030",
+		"ModelId" : "030",
+		"TextureId" : "030"
+	},
+	"dmet031":{
+		"Name" : "dmet",
+		"ItemId" : "031",
+		"ModelId" : "030",
+		"TextureId" : "031"
+	},
+	"dmet040":{
+		"Name" : "dmet",
+		"ItemId" : "040",
+		"ModelId" : "040",
+		"TextureId" : "040"
+	},
+	"dmet041":{
+		"Name" : "dmet",
+		"ItemId" : "041",
+		"ModelId" : "040",
+		"TextureId" : "041"
+	},
+	"dmet050":{
+		"Name" : "dmet",
+		"ItemId" : "050",
+		"ModelId" : "050",
+		"TextureId" : "050"
+	},
+	"dmet051":{
+		"Name" : "dmet",
+		"ItemId" : "051",
+		"ModelId" : "050",
+		"TextureId" : "051"
+	},
+	"dmet060":{
+		"Name" : "dmet",
+		"ItemId" : "060",
+		"ModelId" : "060",
+		"TextureId" : "060"
+	},
+	"dmet061":{
+		"Name" : "dmet",
+		"ItemId" : "061",
+		"ModelId" : "060",
+		"TextureId" : "061"
+	},
+	"dmet070":{
+		"Name" : "dmet",
+		"ItemId" : "070",
+		"ModelId" : "070",
+		"TextureId" : "070"
+	},
+	"dmet071":{
+		"Name" : "dmet",
+		"ItemId" : "071",
+		"ModelId" : "070",
+		"TextureId" : "071"
+	},
+	"dmet080":{
+		"Name" : "dmet",
+		"ItemId" : "080",
+		"ModelId" : "080",
+		"TextureId" : "080"
+	},
+	"dmet081":{
+		"Name" : "dmet",
+		"ItemId" : "081",
+		"ModelId" : "080",
+		"TextureId" : "081"
+	},
+	"dmet090":{
+		"Name" : "dmet",
+		"ItemId" : "090",
+		"ModelId" : "090",
+		"TextureId" : "090"
+	},
+	"dmet091":{
+		"Name" : "dmet",
+		"ItemId" : "091",
+		"ModelId" : "090",
+		"TextureId" : "091"
+	},
+	"dmet100":{
+		"Name" : "dmet",
+		"ItemId" : "100",
+		"ModelId" : "100",
+		"TextureId" : "100"
+	},
+	"dmet101":{
+		"Name" : "dmet",
+		"ItemId" : "101",
+		"ModelId" : "100",
+		"TextureId" : "101"
+	},
+	"dmet110":{
+		"Name" : "dmet",
+		"ItemId" : "110",
+		"ModelId" : "110",
+		"TextureId" : "110"
+	},
+	"dmet111":{
+		"Name" : "dmet",
+		"ItemId" : "111",
+		"ModelId" : "110",
+		"TextureId" : "111"
+	},
+	"dmet200":{
+		"Name" : "dmet",
+		"ItemId" : "200",
+		"ModelId" : "200",
+		"TextureId" : "200"
+	},
+	"dmet201":{
+		"Name" : "dmet",
+		"ItemId" : "201",
+		"ModelId" : "200",
+		"TextureId" : "201"
+	},
+	"dmet210":{
+		"Name" : "dmet",
+		"ItemId" : "210",
+		"ModelId" : "210",
+		"TextureId" : "210"
+	},
+	"dmet211":{
+		"Name" : "dmet",
+		"ItemId" : "211",
+		"ModelId" : "210",
+		"TextureId" : "211"
+	},
+	"dmet220":{
+		"Name" : "dmet",
+		"ItemId" : "220",
+		"ModelId" : "220",
+		"TextureId" : "220"
+	},
+	"dmet221":{
+		"Name" : "dmet",
+		"ItemId" : "221",
+		"ModelId" : "220",
+		"TextureId" : "221"
+	},
+	"dmet230":{
+		"Name" : "dmet",
+		"ItemId" : "230",
+		"ModelId" : "230",
+		"TextureId" : "230"
+	},
+	"dmet231":{
+		"Name" : "dmet",
+		"ItemId" : "231",
+		"ModelId" : "230",
+		"TextureId" : "231"
+	},
+	"dmet240":{
+		"Name" : "dmet",
+		"ItemId" : "240",
+		"ModelId" : "240",
+		"TextureId" : "240"
+	},
+	"dmet241":{
+		"Name" : "dmet",
+		"ItemId" : "241",
+		"ModelId" : "240",
+		"TextureId" : "241"
+	},
+	"dmet250":{
+		"Name" : "dmet",
+		"ItemId" : "250",
+		"ModelId" : "250",
+		"TextureId" : "250"
+	},
+	"dmet251":{
+		"Name" : "dmet",
+		"ItemId" : "251",
+		"ModelId" : "250",
+		"TextureId" : "251"
+	},
+	"dmet260":{
+		"Name" : "dmet",
+		"ItemId" : "260",
+		"ModelId" : "260",
+		"TextureId" : "260"
+	},
+	"dmet261":{
+		"Name" : "dmet",
+		"ItemId" : "261",
+		"ModelId" : "260",
+		"TextureId" : "261"
+	},
+	"dmet270":{
+		"Name" : "dmet",
+		"ItemId" : "270",
+		"ModelId" : "270",
+		"TextureId" : "270"
+	},
+	"dmet271":{
+		"Name" : "dmet",
+		"ItemId" : "271",
+		"ModelId" : "270",
+		"TextureId" : "271"
+	},
+	"dmet280":{
+		"Name" : "dmet",
+		"ItemId" : "280",
+		"ModelId" : "280",
+		"TextureId" : "280"
+	},
+	"dmet281":{
+		"Name" : "dmet",
+		"ItemId" : "281",
+		"ModelId" : "280",
+		"TextureId" : "281"
+	},
+	"dmet400":{
+		"Name" : "dmet",
+		"ItemId" : "400",
+		"ModelId" : "400",
+		"TextureId" : "400"
+	},
+	"dmet401":{
+		"Name" : "dmet",
+		"ItemId" : "401",
+		"ModelId" : "400",
+		"TextureId" : "401"
+	},
+	"dmet410":{
+		"Name" : "dmet",
+		"ItemId" : "410",
+		"ModelId" : "410",
+		"TextureId" : "410"
+	},
+	"dmet411":{
+		"Name" : "dmet",
+		"ItemId" : "411",
+		"ModelId" : "410",
+		"TextureId" : "411"
+	},
+	"dmet420":{
+		"Name" : "dmet",
+		"ItemId" : "420",
+		"ModelId" : "420",
+		"TextureId" : "420"
+	},
+	"dmet421":{
+		"Name" : "dmet",
+		"ItemId" : "421",
+		"ModelId" : "420",
+		"TextureId" : "421"
+	},
+	"dmet430":{
+		"Name" : "dmet",
+		"ItemId" : "430",
+		"ModelId" : "430",
+		"TextureId" : "430"
+	},
+	"dmet431":{
+		"Name" : "dmet",
+		"ItemId" : "431",
+		"ModelId" : "430",
+		"TextureId" : "431"
+	},
+	"dmet600":{
+		"Name" : "dmet",
+		"ItemId" : "600",
+		"ModelId" : "600",
+		"TextureId" : "600"
+	},
+	"dmet601":{
+		"Name" : "dmet",
+		"ItemId" : "601",
+		"ModelId" : "600",
+		"TextureId" : "601"
+	},
+	"dmet450":{
+		"Name" : "dmet",
+		"ItemId" : "450",
+		"ModelId" : "450",
+		"TextureId" : "450"
+	},
+	"dmet451":{
+		"Name" : "dmet",
+		"ItemId" : "451",
+		"ModelId" : "450",
+		"TextureId" : "451"
+	},
+	"cmon300":{
+		"Name" : "cmon",
+		"ItemId" : "300",
+		"ModelId" : "300",
+		"TextureId" : "300"
+	},
+	"cmon301":{
+		"Name" : "cmon",
+		"ItemId" : "301",
+		"ModelId" : "301",
+		"TextureId" : "301"
+	},
+	"cmon302":{
+		"Name" : "cmon",
+		"ItemId" : "302",
+		"ModelId" : "302",
+		"TextureId" : "302"
+	},
+	"cmon400":{
+		"Name" : "cmon",
+		"ItemId" : "400",
+		"ModelId" : "400",
+		"TextureId" : "400"
+	},
+	"cmon401":{
+		"Name" : "cmon",
+		"ItemId" : "401",
+		"ModelId" : "401",
+		"TextureId" : "401"
+	},
+	"cmon402":{
+		"Name" : "cmon",
+		"ItemId" : "402",
+		"ModelId" : "402",
+		"TextureId" : "402"
+	},
+	"cmon500":{
+		"Name" : "cmon",
+		"ItemId" : "500",
+		"ModelId" : "500",
+		"TextureId" : "500"
+	},
+	"cmon501":{
+		"Name" : "cmon",
+		"ItemId" : "501",
+		"ModelId" : "501",
+		"TextureId" : "501"
+	},
+	"cmon502":{
+		"Name" : "cmon",
+		"ItemId" : "502",
+		"ModelId" : "502",
+		"TextureId" : "502"
+	},
+	"cmon600":{
+		"Name" : "cmon",
+		"ItemId" : "600",
+		"ModelId" : "600",
+		"TextureId" : "600"
+	},
+	"cmon601":{
+		"Name" : "cmon",
+		"ItemId" : "601",
+		"ModelId" : "601",
+		"TextureId" : "601"
+	},
+	"cmon602":{
+		"Name" : "cmon",
+		"ItemId" : "602",
+		"ModelId" : "602",
+		"TextureId" : "602"
+	},
+	"dful090":{
+		"Name" : "dful",
+		"ItemId" : "090",
+		"ModelId" : "090",
+		"TextureId" : "090"
+	},
+	"dful091":{
+		"Name" : "dful",
+		"ItemId" : "091",
+		"ModelId" : "090",
+		"TextureId" : "091"
+	},
+	"dful100":{
+		"Name" : "dful",
+		"ItemId" : "100",
+		"ModelId" : "100",
+		"TextureId" : "100"
+	},
+	"dful101":{
+		"Name" : "dful",
+		"ItemId" : "101",
+		"ModelId" : "100",
+		"TextureId" : "101"
+	},
+	"dmet130":{
+		"Name" : "dmet",
+		"ItemId" : "130",
+		"ModelId" : "130",
+		"TextureId" : "130"
+	},
+	"dmet131":{
+		"Name" : "dmet",
+		"ItemId" : "131",
+		"ModelId" : "130",
+		"TextureId" : "131"
+	},
+	"dmet140":{
+		"Name" : "dmet",
+		"ItemId" : "140",
+		"ModelId" : "140",
+		"TextureId" : "140"
+	},
+	"dmet141":{
+		"Name" : "dmet",
+		"ItemId" : "141",
+		"ModelId" : "140",
+		"TextureId" : "141"
+	},
+	"dmet150":{
+		"Name" : "dmet",
+		"ItemId" : "150",
+		"ModelId" : "150",
+		"TextureId" : "150"
+	},
+	"dmet151":{
+		"Name" : "dmet",
+		"ItemId" : "151",
+		"ModelId" : "150",
+		"TextureId" : "151"
+	},
+	"dmet160":{
+		"Name" : "dmet",
+		"ItemId" : "160",
+		"ModelId" : "160",
+		"TextureId" : "160"
+	},
+	"dmet161":{
+		"Name" : "dmet",
+		"ItemId" : "161",
+		"ModelId" : "160",
+		"TextureId" : "161"
+	},
+	"dmet170":{
+		"Name" : "dmet",
+		"ItemId" : "170",
+		"ModelId" : "170",
+		"TextureId" : "170"
+	},
+	"dmet171":{
+		"Name" : "dmet",
+		"ItemId" : "171",
+		"ModelId" : "170",
+		"TextureId" : "171"
+	},
+	"dmet180":{
+		"Name" : "dmet",
+		"ItemId" : "180",
+		"ModelId" : "180",
+		"TextureId" : "180"
+	},
+	"dmet181":{
+		"Name" : "dmet",
+		"ItemId" : "181",
+		"ModelId" : "180",
+		"TextureId" : "181"
+	},
+	"dmet320":{
+		"Name" : "dmet",
+		"ItemId" : "320",
+		"ModelId" : "320",
+		"TextureId" : "320"
+	},
+	"dmet321":{
+		"Name" : "dmet",
+		"ItemId" : "321",
+		"ModelId" : "320",
+		"TextureId" : "321"
+	},
+	"dmet330":{
+		"Name" : "dmet",
+		"ItemId" : "330",
+		"ModelId" : "330",
+		"TextureId" : "330"
+	},
+	"dmet331":{
+		"Name" : "dmet",
+		"ItemId" : "331",
+		"ModelId" : "330",
+		"TextureId" : "331"
+	},
+	"dmet350":{
+		"Name" : "dmet",
+		"ItemId" : "350",
+		"ModelId" : "350",
+		"TextureId" : "350"
+	},
+	"dmet351":{
+		"Name" : "dmet",
+		"ItemId" : "351",
+		"ModelId" : "350",
+		"TextureId" : "351"
+	},
+	"dmet360":{
+		"Name" : "dmet",
+		"ItemId" : "360",
+		"ModelId" : "360",
+		"TextureId" : "360"
+	},
+	"dmet361":{
+		"Name" : "dmet",
+		"ItemId" : "361",
+		"ModelId" : "360",
+		"TextureId" : "361"
+	},
+	"dmet370":{
+		"Name" : "dmet",
+		"ItemId" : "370",
+		"ModelId" : "370",
+		"TextureId" : "370"
+	},
+	"dmet371":{
+		"Name" : "dmet",
+		"ItemId" : "371",
+		"ModelId" : "370",
+		"TextureId" : "371"
+	},
+	"dmet380":{
+		"Name" : "dmet",
+		"ItemId" : "380",
+		"ModelId" : "380",
+		"TextureId" : "380"
+	},
+	"dmet381":{
+		"Name" : "dmet",
+		"ItemId" : "381",
+		"ModelId" : "380",
+		"TextureId" : "381"
+	},
+	"dmet390":{
+		"Name" : "dmet",
+		"ItemId" : "390",
+		"ModelId" : "390",
+		"TextureId" : "390"
+	},
+	"dmet391":{
+		"Name" : "dmet",
+		"ItemId" : "391",
+		"ModelId" : "390",
+		"TextureId" : "391"
+	},
+	"dmet470":{
+		"Name" : "dmet",
+		"ItemId" : "470",
+		"ModelId" : "470",
+		"TextureId" : "470"
+	},
+	"dmet471":{
+		"Name" : "dmet",
+		"ItemId" : "471",
+		"ModelId" : "470",
+		"TextureId" : "471"
+	},
+	"dmet480":{
+		"Name" : "dmet",
+		"ItemId" : "480",
+		"ModelId" : "480",
+		"TextureId" : "480"
+	},
+	"dmet481":{
+		"Name" : "dmet",
+		"ItemId" : "481",
+		"ModelId" : "480",
+		"TextureId" : "481"
+	},
+	"dmet490":{
+		"Name" : "dmet",
+		"ItemId" : "490",
+		"ModelId" : "490",
+		"TextureId" : "490"
+	},
+	"dmet491":{
+		"Name" : "dmet",
+		"ItemId" : "491",
+		"ModelId" : "490",
+		"TextureId" : "491"
+	},
+	"dhat040":{
+		"Name" : "dhat",
+		"ItemId" : "040",
+		"ModelId" : "040",
+		"TextureId" : "040"
+	},
+	"dhat041":{
+		"Name" : "dhat",
+		"ItemId" : "041",
+		"ModelId" : "040",
+		"TextureId" : "041"
+	},
+	"dhat050":{
+		"Name" : "dhat",
+		"ItemId" : "050",
+		"ModelId" : "050",
+		"TextureId" : "050"
+	},
+	"dhat051":{
+		"Name" : "dhat",
+		"ItemId" : "051",
+		"ModelId" : "050",
+		"TextureId" : "051"
+	},
+	"dhat060":{
+		"Name" : "dhat",
+		"ItemId" : "060",
+		"ModelId" : "060",
+		"TextureId" : "060"
+	},
+	"dhat061":{
+		"Name" : "dhat",
+		"ItemId" : "061",
+		"ModelId" : "060",
+		"TextureId" : "061"
+	},
+	"dhat270":{
+		"Name" : "dhat",
+		"ItemId" : "270",
+		"ModelId" : "270",
+		"TextureId" : "270"
+	},
+	"dhat271":{
+		"Name" : "dhat",
+		"ItemId" : "271",
+		"ModelId" : "270",
+		"TextureId" : "271"
+	},
+	"dhat290":{
+		"Name" : "dhat",
+		"ItemId" : "290",
+		"ModelId" : "290",
+		"TextureId" : "290"
+	},
+	"dhat291":{
+		"Name" : "dhat",
+		"ItemId" : "291",
+		"ModelId" : "290",
+		"TextureId" : "291"
+	},
+	"dhat300":{
+		"Name" : "dhat",
+		"ItemId" : "300",
+		"ModelId" : "300",
+		"TextureId" : "300"
+	},
+	"dhat301":{
+		"Name" : "dhat",
+		"ItemId" : "301",
+		"ModelId" : "300",
+		"TextureId" : "301"
+	},
+	"dhat510":{
+		"Name" : "dhat",
+		"ItemId" : "510",
+		"ModelId" : "510",
+		"TextureId" : "510"
+	},
+	"dhat511":{
+		"Name" : "dhat",
+		"ItemId" : "511",
+		"ModelId" : "510",
+		"TextureId" : "511"
+	},
+	"dhat520":{
+		"Name" : "dhat",
+		"ItemId" : "520",
+		"ModelId" : "520",
+		"TextureId" : "520"
+	},
+	"dhat521":{
+		"Name" : "dhat",
+		"ItemId" : "521",
+		"ModelId" : "520",
+		"TextureId" : "521"
+	},
+	"dhat530":{
+		"Name" : "dhat",
+		"ItemId" : "530",
+		"ModelId" : "530",
+		"TextureId" : "530"
+	},
+	"dhat531":{
+		"Name" : "dhat",
+		"ItemId" : "531",
+		"ModelId" : "530",
+		"TextureId" : "531"
+	},
+	"dhat540":{
+		"Name" : "dhat",
+		"ItemId" : "540",
+		"ModelId" : "540",
+		"TextureId" : "540"
+	},
+	"dhat541":{
+		"Name" : "dhat",
+		"ItemId" : "541",
+		"ModelId" : "540",
+		"TextureId" : "541"
+	},
+	"dhat550":{
+		"Name" : "dhat",
+		"ItemId" : "550",
+		"ModelId" : "550",
+		"TextureId" : "550"
+	},
+	"dhat551":{
+		"Name" : "dhat",
+		"ItemId" : "551",
+		"ModelId" : "550",
+		"TextureId" : "551"
+	},
+	"dhat560":{
+		"Name" : "dhat",
+		"ItemId" : "560",
+		"ModelId" : "560",
+		"TextureId" : "560"
+	},
+	"dhat561":{
+		"Name" : "dhat",
+		"ItemId" : "561",
+		"ModelId" : "560",
+		"TextureId" : "561"
+	},
+	"dhat570":{
+		"Name" : "dhat",
+		"ItemId" : "570",
+		"ModelId" : "570",
+		"TextureId" : "570"
+	},
+	"dhat571":{
+		"Name" : "dhat",
+		"ItemId" : "571",
+		"ModelId" : "570",
+		"TextureId" : "571"
+	},
+	"dful050":{
+		"Name" : "dful",
+		"ItemId" : "050",
+		"ModelId" : "050",
+		"TextureId" : "050"
+	},
+	"dful051":{
+		"Name" : "dful",
+		"ItemId" : "051",
+		"ModelId" : "050",
+		"TextureId" : "051"
+	},
+	"dmet120":{
+		"Name" : "dmet",
+		"ItemId" : "120",
+		"ModelId" : "120",
+		"TextureId" : "120"
+	},
+	"dmet121":{
+		"Name" : "dmet",
+		"ItemId" : "121",
+		"ModelId" : "120",
+		"TextureId" : "121"
+	},
+	"dmet290":{
+		"Name" : "dmet",
+		"ItemId" : "290",
+		"ModelId" : "290",
+		"TextureId" : "290"
+	},
+	"dmet291":{
+		"Name" : "dmet",
+		"ItemId" : "291",
+		"ModelId" : "290",
+		"TextureId" : "291"
+	},
+	"dmet300":{
+		"Name" : "dmet",
+		"ItemId" : "300",
+		"ModelId" : "300",
+		"TextureId" : "300"
+	},
+	"dmet301":{
+		"Name" : "dmet",
+		"ItemId" : "301",
+		"ModelId" : "300",
+		"TextureId" : "301"
+	},
+	"dmet310":{
+		"Name" : "dmet",
+		"ItemId" : "310",
+		"ModelId" : "310",
+		"TextureId" : "310"
+	},
+	"dmet311":{
+		"Name" : "dmet",
+		"ItemId" : "311",
+		"ModelId" : "310",
+		"TextureId" : "311"
+	},
+	"dmet460":{
+		"Name" : "dmet",
+		"ItemId" : "460",
+		"ModelId" : "460",
+		"TextureId" : "460"
+	},
+	"dmet461":{
+		"Name" : "dmet",
+		"ItemId" : "461",
+		"ModelId" : "460",
+		"TextureId" : "461"
+	},
+	"dhat030":{
+		"Name" : "dhat",
+		"ItemId" : "030",
+		"ModelId" : "030",
+		"TextureId" : "030"
+	},
+	"dhat031":{
+		"Name" : "dhat",
+		"ItemId" : "031",
+		"ModelId" : "030",
+		"TextureId" : "031"
+	},
+	"dhat490":{
+		"Name" : "dhat",
+		"ItemId" : "490",
+		"ModelId" : "490",
+		"TextureId" : "490"
+	},
+	"dhat491":{
+		"Name" : "dhat",
+		"ItemId" : "491",
+		"ModelId" : "490",
+		"TextureId" : "491"
+	},
+	"dhat500":{
+		"Name" : "dhat",
+		"ItemId" : "500",
+		"ModelId" : "500",
+		"TextureId" : "500"
+	},
+	"dhat501":{
+		"Name" : "dhat",
+		"ItemId" : "501",
+		"ModelId" : "500",
+		"TextureId" : "501"
+	},
+	"dful740":{
+		"Name" : "dful",
+		"ItemId" : "740",
+		"ModelId" : "740",
+		"TextureId" : "740"
+	},
+	"dful750":{
+		"Name" : "dful",
+		"ItemId" : "750",
+		"ModelId" : "750",
+		"TextureId" : "750"
+	},
+	"dful751":{
+		"Name" : "dful",
+		"ItemId" : "751",
+		"ModelId" : "750",
+		"TextureId" : "751"
+	},
+	"dful752":{
+		"Name" : "dful",
+		"ItemId" : "752",
+		"ModelId" : "750",
+		"TextureId" : "752"
+	},
+	"dful760":{
+		"Name" : "dful",
+		"ItemId" : "760",
+		"ModelId" : "760",
+		"TextureId" : "760"
+	},
+	"dful770":{
+		"Name" : "dful",
+		"ItemId" : "770",
+		"ModelId" : "770",
+		"TextureId" : "770"
+	},
+	"dful771":{
+		"Name" : "dful",
+		"ItemId" : "771",
+		"ModelId" : "770",
+		"TextureId" : "771"
+	},
+	"dful772":{
+		"Name" : "dful",
+		"ItemId" : "772",
+		"ModelId" : "770",
+		"TextureId" : "772"
+	},
+	"dful780":{
+		"Name" : "dful",
+		"ItemId" : "780",
+		"ModelId" : "780",
+		"TextureId" : "780"
+	},
+	"dful790":{
+		"Name" : "dful",
+		"ItemId" : "790",
+		"ModelId" : "790",
+		"TextureId" : "790"
+	},
+	"dful791":{
+		"Name" : "dful",
+		"ItemId" : "791",
+		"ModelId" : "790",
+		"TextureId" : "791"
+	},
+	"dful792":{
+		"Name" : "dful",
+		"ItemId" : "792",
+		"ModelId" : "790",
+		"TextureId" : "792"
+	},
+	"dful605":{
+		"Name" : "dful",
+		"ItemId" : "605",
+		"ModelId" : "605",
+		"TextureId" : "605"
+	},
+	"dful606":{
+		"Name" : "dful",
+		"ItemId" : "606",
+		"ModelId" : "605",
+		"TextureId" : "606"
+	},
+	"dful607":{
+		"Name" : "dful",
+		"ItemId" : "607",
+		"ModelId" : "605",
+		"TextureId" : "607"
+	},
+	"dful615":{
+		"Name" : "dful",
+		"ItemId" : "615",
+		"ModelId" : "615",
+		"TextureId" : "615"
+	},
+	"dful625":{
+		"Name" : "dful",
+		"ItemId" : "625",
+		"ModelId" : "625",
+		"TextureId" : "625"
+	},
+	"dful635":{
+		"Name" : "dful",
+		"ItemId" : "635",
+		"ModelId" : "635",
+		"TextureId" : "635"
+	},
+	"dful645":{
+		"Name" : "dful",
+		"ItemId" : "645",
+		"ModelId" : "645",
+		"TextureId" : "645"
+	},
+	"dful646":{
+		"Name" : "dful",
+		"ItemId" : "646",
+		"ModelId" : "645",
+		"TextureId" : "646"
+	},
+	"dful647":{
+		"Name" : "dful",
+		"ItemId" : "647",
+		"ModelId" : "645",
+		"TextureId" : "647"
+	},
+	"dful655":{
+		"Name" : "dful",
+		"ItemId" : "655",
+		"ModelId" : "655",
+		"TextureId" : "655"
+	},
+	"dful450":{
+		"Name" : "dful",
+		"ItemId" : "450",
+		"ModelId" : "450",
+		"TextureId" : "450"
+	},
+	"dful451":{
+		"Name" : "dful",
+		"ItemId" : "451",
+		"ModelId" : "450",
+		"TextureId" : "451"
+	},
+	"dmet190":{
+		"Name" : "dmet",
+		"ItemId" : "190",
+		"ModelId" : "190",
+		"TextureId" : "190"
+	},
+	"dmet191":{
+		"Name" : "dmet",
+		"ItemId" : "191",
+		"ModelId" : "190",
+		"TextureId" : "191"
+	},
+	"cmon700":{
+		"Name" : "cmon",
+		"ItemId" : "700",
+		"ModelId" : "700",
+		"TextureId" : "700"
+	},
+	"cmon701":{
+		"Name" : "cmon",
+		"ItemId" : "701",
+		"ModelId" : "701",
+		"TextureId" : "701"
+	},
+	"cmon702":{
+		"Name" : "cmon",
+		"ItemId" : "702",
+		"ModelId" : "702",
+		"TextureId" : "702"
+	},
+	"cmon800":{
+		"Name" : "cmon",
+		"ItemId" : "800",
+		"ModelId" : "800",
+		"TextureId" : "800"
+	},
+	"cmon801":{
+		"Name" : "cmon",
+		"ItemId" : "801",
+		"ModelId" : "801",
+		"TextureId" : "801"
+	},
+	"cmon802":{
+		"Name" : "cmon",
+		"ItemId" : "802",
+		"ModelId" : "802",
+		"TextureId" : "802"
+	},
+	"cmon0100600":{
+		"Name" : "cmon",
+		"ItemId" : "0100600",
+		"ModelId" : "0100600",
+		"TextureId" : "0100600"
+	},
+	"cmon0100601":{
+		"Name" : "cmon",
+		"ItemId" : "0100601",
+		"ModelId" : "0100601",
+		"TextureId" : "0100601"
+	},
+	"cmon0100602":{
+		"Name" : "cmon",
+		"ItemId" : "0100602",
+		"ModelId" : "0100602",
+		"TextureId" : "0100602"
+	},
+	"cmon0100700":{
+		"Name" : "cmon",
+		"ItemId" : "0100700",
+		"ModelId" : "0100700",
+		"TextureId" : "0100700"
+	},
+	"cmon0100701":{
+		"Name" : "cmon",
+		"ItemId" : "0100701",
+		"ModelId" : "0100701",
+		"TextureId" : "0100701"
+	},
+	"cmon0100702":{
+		"Name" : "cmon",
+		"ItemId" : "0100702",
+		"ModelId" : "0100702",
+		"TextureId" : "0100702"
+	},
+	"cmet0100800":{
+		"Name" : "cmet",
+		"ItemId" : "0100800",
+		"ModelId" : "0100800",
+		"TextureId" : "0100800"
+	},
+	"cful0302100":{
+		"Name" : "cful",
+		"ItemId" : "0302100",
+		"ModelId" : "0302100",
+		"TextureId" : "0302100"
+	},
+	"cmet1301200":{
+		"Name" : "cmet",
+		"ItemId" : "1301200",
+		"ModelId" : "1301200",
+		"TextureId" : "1301200"
+	},
+	"cmet1301201":{
+		"Name" : "cmet",
+		"ItemId" : "1301201",
+		"ModelId" : "1301200",
+		"TextureId" : "1301201"
+	},
+	"chat1302100":{
+		"Name" : "chat",
+		"ItemId" : "1302100",
+		"ModelId" : "1302100",
+		"TextureId" : "1302100"
+	},
+	"chat1302101":{
+		"Name" : "chat",
+		"ItemId" : "1302101",
+		"ModelId" : "1302100",
+		"TextureId" : "1302101"
+	}
+},
+// CharacterModelDetail.xlsx.tmp shi 
+
+"shield_":{
+	"cshi000":{
+		"Name" : "cshi",
+		"ItemId" : "000",
+		"ModelId" : "000",
+		"TextureId" : "000"
+	},
+	"cshi001":{
+		"Name" : "cshi",
+		"ItemId" : "001",
+		"ModelId" : "000",
+		"TextureId" : "001"
+	},
+	"cshi002":{
+		"Name" : "cshi",
+		"ItemId" : "002",
+		"ModelId" : "000",
+		"TextureId" : "002"
+	},
+	"cshi010":{
+		"Name" : "cshi",
+		"ItemId" : "010",
+		"ModelId" : "010",
+		"TextureId" : "010"
+	},
+	"cshi011":{
+		"Name" : "cshi",
+		"ItemId" : "011",
+		"ModelId" : "010",
+		"TextureId" : "011"
+	},
+	"cshi012":{
+		"Name" : "cshi",
+		"ItemId" : "012",
+		"ModelId" : "010",
+		"TextureId" : "012"
+	},
+	"cshi020":{
+		"Name" : "cshi",
+		"ItemId" : "020",
+		"ModelId" : "020",
+		"TextureId" : "020"
+	},
+	"cshi021":{
+		"Name" : "cshi",
+		"ItemId" : "021",
+		"ModelId" : "020",
+		"TextureId" : "021"
+	},
+	"cshi022":{
+		"Name" : "cshi",
+		"ItemId" : "022",
+		"ModelId" : "020",
+		"TextureId" : "022"
+	},
+	"cshi030":{
+		"Name" : "cshi",
+		"ItemId" : "030",
+		"ModelId" : "030",
+		"TextureId" : "030"
+	},
+	"cshi031":{
+		"Name" : "cshi",
+		"ItemId" : "031",
+		"ModelId" : "030",
+		"TextureId" : "031"
+	},
+	"cshi032":{
+		"Name" : "cshi",
+		"ItemId" : "032",
+		"ModelId" : "030",
+		"TextureId" : "032"
+	},
+	"cshi040":{
+		"Name" : "cshi",
+		"ItemId" : "040",
+		"ModelId" : "040",
+		"TextureId" : "040"
+	},
+	"cshi041":{
+		"Name" : "cshi",
+		"ItemId" : "041",
+		"ModelId" : "040",
+		"TextureId" : "041"
+	},
+	"cshi042":{
+		"Name" : "cshi",
+		"ItemId" : "042",
+		"ModelId" : "040",
+		"TextureId" : "042"
+	},
+	"cshi050":{
+		"Name" : "cshi",
+		"ItemId" : "050",
+		"ModelId" : "050",
+		"TextureId" : "050"
+	},
+	"cshi051":{
+		"Name" : "cshi",
+		"ItemId" : "051",
+		"ModelId" : "050",
+		"TextureId" : "051"
+	},
+	"cshi052":{
+		"Name" : "cshi",
+		"ItemId" : "052",
+		"ModelId" : "050",
+		"TextureId" : "052"
+	},
+	"cshi060":{
+		"Name" : "cshi",
+		"ItemId" : "060",
+		"ModelId" : "060",
+		"TextureId" : "060"
+	},
+	"cshi061":{
+		"Name" : "cshi",
+		"ItemId" : "061",
+		"ModelId" : "060",
+		"TextureId" : "061"
+	},
+	"cshi062":{
+		"Name" : "cshi",
+		"ItemId" : "062",
+		"ModelId" : "060",
+		"TextureId" : "062"
+	},
+	"cshi070":{
+		"Name" : "cshi",
+		"ItemId" : "070",
+		"ModelId" : "070",
+		"TextureId" : "070"
+	},
+	"cshi071":{
+		"Name" : "cshi",
+		"ItemId" : "071",
+		"ModelId" : "070",
+		"TextureId" : "071"
+	},
+	"cshi072":{
+		"Name" : "cshi",
+		"ItemId" : "072",
+		"ModelId" : "070",
+		"TextureId" : "072"
+	},
+	"cshi080":{
+		"Name" : "cshi",
+		"ItemId" : "080",
+		"ModelId" : "080",
+		"TextureId" : "080"
+	},
+	"cshi081":{
+		"Name" : "cshi",
+		"ItemId" : "081",
+		"ModelId" : "080",
+		"TextureId" : "081"
+	},
+	"cshi082":{
+		"Name" : "cshi",
+		"ItemId" : "082",
+		"ModelId" : "080",
+		"TextureId" : "082"
+	},
+	"cshi090":{
+		"Name" : "cshi",
+		"ItemId" : "090",
+		"ModelId" : "090",
+		"TextureId" : "090"
+	},
+	"cshi091":{
+		"Name" : "cshi",
+		"ItemId" : "091",
+		"ModelId" : "090",
+		"TextureId" : "091"
+	},
+	"cshi092":{
+		"Name" : "cshi",
+		"ItemId" : "092",
+		"ModelId" : "090",
+		"TextureId" : "092"
+	},
+	"dshi000":{
+		"Name" : "dshi",
+		"ItemId" : "000",
+		"ModelId" : "000",
+		"TextureId" : "000"
+	},
+	"dshi001":{
+		"Name" : "dshi",
+		"ItemId" : "001",
+		"ModelId" : "000",
+		"TextureId" : "001"
+	},
+	"dshi002":{
+		"Name" : "dshi",
+		"ItemId" : "002",
+		"ModelId" : "000",
+		"TextureId" : "002"
+	},
+	"dshi010":{
+		"Name" : "dshi",
+		"ItemId" : "010",
+		"ModelId" : "010",
+		"TextureId" : "010"
+	},
+	"dshi011":{
+		"Name" : "dshi",
+		"ItemId" : "011",
+		"ModelId" : "010",
+		"TextureId" : "011"
+	},
+	"dshi012":{
+		"Name" : "dshi",
+		"ItemId" : "012",
+		"ModelId" : "010",
+		"TextureId" : "012"
+	},
+	"dshi020":{
+		"Name" : "dshi",
+		"ItemId" : "020",
+		"ModelId" : "020",
+		"TextureId" : "020"
+	},
+	"dshi021":{
+		"Name" : "dshi",
+		"ItemId" : "021",
+		"ModelId" : "020",
+		"TextureId" : "021"
+	},
+	"dshi022":{
+		"Name" : "dshi",
+		"ItemId" : "022",
+		"ModelId" : "020",
+		"TextureId" : "022"
+	},
+	"dshi030":{
+		"Name" : "dshi",
+		"ItemId" : "030",
+		"ModelId" : "030",
+		"TextureId" : "030"
+	},
+	"dshi031":{
+		"Name" : "dshi",
+		"ItemId" : "031",
+		"ModelId" : "030",
+		"TextureId" : "031"
+	},
+	"dshi032":{
+		"Name" : "dshi",
+		"ItemId" : "032",
+		"ModelId" : "030",
+		"TextureId" : "032"
+	},
+	"dshi040":{
+		"Name" : "dshi",
+		"ItemId" : "040",
+		"ModelId" : "040",
+		"TextureId" : "040"
+	},
+	"dshi041":{
+		"Name" : "dshi",
+		"ItemId" : "041",
+		"ModelId" : "040",
+		"TextureId" : "041"
+	},
+	"dshi042":{
+		"Name" : "dshi",
+		"ItemId" : "042",
+		"ModelId" : "040",
+		"TextureId" : "042"
+	},
+	"dshi050":{
+		"Name" : "dshi",
+		"ItemId" : "050",
+		"ModelId" : "050",
+		"TextureId" : "050"
+	},
+	"dshi051":{
+		"Name" : "dshi",
+		"ItemId" : "051",
+		"ModelId" : "050",
+		"TextureId" : "051"
+	},
+	"dshi052":{
+		"Name" : "dshi",
+		"ItemId" : "052",
+		"ModelId" : "050",
+		"TextureId" : "052"
+	},
+	"dshi060":{
+		"Name" : "dshi",
+		"ItemId" : "060",
+		"ModelId" : "060",
+		"TextureId" : "060"
+	},
+	"dshi061":{
+		"Name" : "dshi",
+		"ItemId" : "061",
+		"ModelId" : "060",
+		"TextureId" : "061"
+	},
+	"dshi062":{
+		"Name" : "dshi",
+		"ItemId" : "062",
+		"ModelId" : "060",
+		"TextureId" : "062"
+	},
+	"dshi070":{
+		"Name" : "dshi",
+		"ItemId" : "070",
+		"ModelId" : "070",
+		"TextureId" : "070"
+	},
+	"dshi071":{
+		"Name" : "dshi",
+		"ItemId" : "071",
+		"ModelId" : "070",
+		"TextureId" : "071"
+	},
+	"dshi072":{
+		"Name" : "dshi",
+		"ItemId" : "072",
+		"ModelId" : "070",
+		"TextureId" : "072"
+	},
+	"dshi080":{
+		"Name" : "dshi",
+		"ItemId" : "080",
+		"ModelId" : "080",
+		"TextureId" : "080"
+	},
+	"dshi081":{
+		"Name" : "dshi",
+		"ItemId" : "081",
+		"ModelId" : "080",
+		"TextureId" : "081"
+	},
+	"dshi082":{
+		"Name" : "dshi",
+		"ItemId" : "082",
+		"ModelId" : "080",
+		"TextureId" : "082"
+	},
+	"dshi090":{
+		"Name" : "dshi",
+		"ItemId" : "090",
+		"ModelId" : "090",
+		"TextureId" : "090"
+	},
+	"dshi091":{
+		"Name" : "dshi",
+		"ItemId" : "091",
+		"ModelId" : "090",
+		"TextureId" : "091"
+	},
+	"dshi092":{
+		"Name" : "dshi",
+		"ItemId" : "092",
+		"ModelId" : "090",
+		"TextureId" : "092"
+	},
+	"dshi100":{
+		"Name" : "dshi",
+		"ItemId" : "100",
+		"ModelId" : "100",
+		"TextureId" : "100"
+	},
+	"dshi110":{
+		"Name" : "dshi",
+		"ItemId" : "110",
+		"ModelId" : "110",
+		"TextureId" : "110"
+	},
+	"dshi120":{
+		"Name" : "dshi",
+		"ItemId" : "120",
+		"ModelId" : "120",
+		"TextureId" : "120"
+	},
+	"dshi130":{
+		"Name" : "dshi",
+		"ItemId" : "130",
+		"ModelId" : "130",
+		"TextureId" : "130"
+	},
+	"dshi140":{
+		"Name" : "dshi",
+		"ItemId" : "140",
+		"ModelId" : "140",
+		"TextureId" : "140"
+	},
+	"dshi150":{
+		"Name" : "dshi",
+		"ItemId" : "150",
+		"ModelId" : "150",
+		"TextureId" : "150"
+	},
+	"dshi160":{
+		"Name" : "dshi",
+		"ItemId" : "160",
+		"ModelId" : "160",
+		"TextureId" : "160"
+	},
+	"dshi170":{
+		"Name" : "dshi",
+		"ItemId" : "170",
+		"ModelId" : "170",
+		"TextureId" : "170"
+	},
+	"dshi180":{
+		"Name" : "dshi",
+		"ItemId" : "180",
+		"ModelId" : "180",
+		"TextureId" : "180"
+	},
+	"dshi190":{
+		"Name" : "dshi",
+		"ItemId" : "190",
+		"ModelId" : "190",
+		"TextureId" : "190"
+	},
+	"dshi200":{
+		"Name" : "dshi",
+		"ItemId" : "200",
+		"ModelId" : "200",
+		"TextureId" : "200"
+	},
+	"dshi210":{
+		"Name" : "dshi",
+		"ItemId" : "210",
+		"ModelId" : "210",
+		"TextureId" : "210"
+	},
+	"dshi310":{
+		"Name" : "dshi",
+		"ItemId" : "310",
+		"ModelId" : "310",
+		"TextureId" : "310"
+	},
+	"dshi600":{
+		"Name" : "dshi",
+		"ItemId" : "600",
+		"ModelId" : "600",
+		"TextureId" : "600"
+	},
+	"dshi601":{
+		"Name" : "dshi",
+		"ItemId" : "601",
+		"ModelId" : "600",
+		"TextureId" : "601"
+	},
+	"dshi320":{
+		"Name" : "dshi",
+		"ItemId" : "320",
+		"ModelId" : "320",
+		"TextureId" : "320"
+	},
+	"dshi330":{
+		"Name" : "dshi",
+		"ItemId" : "330",
+		"ModelId" : "330",
+		"TextureId" : "330"
+	},
+	"dshi340":{
+		"Name" : "dshi",
+		"ItemId" : "340",
+		"ModelId" : "340",
+		"TextureId" : "340"
+	},
+	"dshi350":{
+		"Name" : "dshi",
+		"ItemId" : "350",
+		"ModelId" : "350",
+		"TextureId" : "350"
+	},
+	"dshi360":{
+		"Name" : "dshi",
+		"ItemId" : "360",
+		"ModelId" : "360",
+		"TextureId" : "360"
+	},
+	"dshi370":{
+		"Name" : "dshi",
+		"ItemId" : "370",
+		"ModelId" : "370",
+		"TextureId" : "370"
+	},
+	"dshi380":{
+		"Name" : "dshi",
+		"ItemId" : "380",
+		"ModelId" : "380",
+		"TextureId" : "380"
+	},
+	"dshi390":{
+		"Name" : "dshi",
+		"ItemId" : "390",
+		"ModelId" : "390",
+		"TextureId" : "390"
+	},
+	"dshi400":{
+		"Name" : "dshi",
+		"ItemId" : "400",
+		"ModelId" : "400",
+		"TextureId" : "400"
+	},
+	"dshi410":{
+		"Name" : "dshi",
+		"ItemId" : "410",
+		"ModelId" : "410",
+		"TextureId" : "410"
+	},
+	"dshi430":{
+		"Name" : "dshi",
+		"ItemId" : "430",
+		"ModelId" : "430",
+		"TextureId" : "430"
+	},
+	"dshi431":{
+		"Name" : "dshi",
+		"ItemId" : "431",
+		"ModelId" : "430",
+		"TextureId" : "431"
+	},
+	"dshi432":{
+		"Name" : "dshi",
+		"ItemId" : "432",
+		"ModelId" : "430",
+		"TextureId" : "432"
+	},
+	"dshi440":{
+		"Name" : "dshi",
+		"ItemId" : "440",
+		"ModelId" : "440",
+		"TextureId" : "440"
+	},
+	"dshi441":{
+		"Name" : "dshi",
+		"ItemId" : "441",
+		"ModelId" : "440",
+		"TextureId" : "441"
+	},
+	"dshi442":{
+		"Name" : "dshi",
+		"ItemId" : "442",
+		"ModelId" : "440",
+		"TextureId" : "442"
+	},
+	"dshi220":{
+		"Name" : "dshi",
+		"ItemId" : "220",
+		"ModelId" : "220",
+		"TextureId" : "220"
+	},
+	"dshi230":{
+		"Name" : "dshi",
+		"ItemId" : "230",
+		"ModelId" : "230",
+		"TextureId" : "230"
+	},
+	"dshi240":{
+		"Name" : "dshi",
+		"ItemId" : "240",
+		"ModelId" : "240",
+		"TextureId" : "240"
+	},
+	"dshi260":{
+		"Name" : "dshi",
+		"ItemId" : "260",
+		"ModelId" : "260",
+		"TextureId" : "260"
+	},
+	"dshi270":{
+		"Name" : "dshi",
+		"ItemId" : "270",
+		"ModelId" : "270",
+		"TextureId" : "270"
+	},
+	"dshi280":{
+		"Name" : "dshi",
+		"ItemId" : "280",
+		"ModelId" : "280",
+		"TextureId" : "280"
+	},
+	"dshi290":{
+		"Name" : "dshi",
+		"ItemId" : "290",
+		"ModelId" : "290",
+		"TextureId" : "200"
+	}
+},
+// CharacterModelDetail.xlsx.tmp wea 
+
+"weapon_":{
+	"cwea000":{
+		"Name" : "cwea",
+		"ItemId" : "000",
+		"ModelId" : "000",
+		"TextureId" : "000"
+	},
+	"cwea001":{
+		"Name" : "cwea",
+		"ItemId" : "001",
+		"ModelId" : "000",
+		"TextureId" : "001"
+	},
+	"cwea002":{
+		"Name" : "cwea",
+		"ItemId" : "002",
+		"ModelId" : "000",
+		"TextureId" : "002"
+	},
+	"cwea010":{
+		"Name" : "cwea",
+		"ItemId" : "010",
+		"ModelId" : "010",
+		"TextureId" : "010"
+	},
+	"cwea011":{
+		"Name" : "cwea",
+		"ItemId" : "011",
+		"ModelId" : "010",
+		"TextureId" : "011"
+	},
+	"cwea012":{
+		"Name" : "cwea",
+		"ItemId" : "012",
+		"ModelId" : "010",
+		"TextureId" : "012"
+	},
+	"cwea020":{
+		"Name" : "cwea",
+		"ItemId" : "020",
+		"ModelId" : "020",
+		"TextureId" : "020"
+	},
+	"cwea021":{
+		"Name" : "cwea",
+		"ItemId" : "021",
+		"ModelId" : "020",
+		"TextureId" : "021"
+	},
+	"cwea022":{
+		"Name" : "cwea",
+		"ItemId" : "022",
+		"ModelId" : "020",
+		"TextureId" : "022"
+	},
+	"cwea023":{
+		"Name" : "cwea",
+		"ItemId" : "023",
+		"ModelId" : "020",
+		"TextureId" : "023"
+	},
+	"cwea030":{
+		"Name" : "cwea",
+		"ItemId" : "030",
+		"ModelId" : "030",
+		"TextureId" : "030"
+	},
+	"cwea031":{
+		"Name" : "cwea",
+		"ItemId" : "031",
+		"ModelId" : "030",
+		"TextureId" : "031"
+	},
+	"cwea032":{
+		"Name" : "cwea",
+		"ItemId" : "032",
+		"ModelId" : "030",
+		"TextureId" : "032"
+	},
+	"cwea033":{
+		"Name" : "cwea",
+		"ItemId" : "033",
+		"ModelId" : "030",
+		"TextureId" : "033"
+	},
+	"cwea034":{
+		"Name" : "cwea",
+		"ItemId" : "034",
+		"ModelId" : "030",
+		"TextureId" : "034"
+	},
+	"cwea040":{
+		"Name" : "cwea",
+		"ItemId" : "040",
+		"ModelId" : "040",
+		"TextureId" : "040"
+	},
+	"cwea041":{
+		"Name" : "cwea",
+		"ItemId" : "041",
+		"ModelId" : "040",
+		"TextureId" : "041"
+	},
+	"cwea042":{
+		"Name" : "cwea",
+		"ItemId" : "042",
+		"ModelId" : "040",
+		"TextureId" : "042"
+	},
+	"cwea050":{
+		"Name" : "cwea",
+		"ItemId" : "050",
+		"ModelId" : "050",
+		"TextureId" : "050"
+	},
+	"cwea051":{
+		"Name" : "cwea",
+		"ItemId" : "051",
+		"ModelId" : "050",
+		"TextureId" : "051"
+	},
+	"cwea052":{
+		"Name" : "cwea",
+		"ItemId" : "052",
+		"ModelId" : "050",
+		"TextureId" : "052"
+	},
+	"cwea060":{
+		"Name" : "cwea",
+		"ItemId" : "060",
+		"ModelId" : "060",
+		"TextureId" : "060"
+	},
+	"cwea061":{
+		"Name" : "cwea",
+		"ItemId" : "061",
+		"ModelId" : "060",
+		"TextureId" : "061"
+	},
+	"cwea062":{
+		"Name" : "cwea",
+		"ItemId" : "062",
+		"ModelId" : "060",
+		"TextureId" : "062"
+	},
+	"cwea063":{
+		"Name" : "cwea",
+		"ItemId" : "063",
+		"ModelId" : "060",
+		"TextureId" : "063"
+	},
+	"cwea070":{
+		"Name" : "cwea",
+		"ItemId" : "070",
+		"ModelId" : "070",
+		"TextureId" : "070"
+	},
+	"cwea071":{
+		"Name" : "cwea",
+		"ItemId" : "071",
+		"ModelId" : "070",
+		"TextureId" : "071"
+	},
+	"cwea072":{
+		"Name" : "cwea",
+		"ItemId" : "072",
+		"ModelId" : "070",
+		"TextureId" : "072"
+	},
+	"cwea080":{
+		"Name" : "cwea",
+		"ItemId" : "080",
+		"ModelId" : "080",
+		"TextureId" : "080"
+	},
+	"cwea081":{
+		"Name" : "cwea",
+		"ItemId" : "081",
+		"ModelId" : "080",
+		"TextureId" : "081"
+	},
+	"cwea082":{
+		"Name" : "cwea",
+		"ItemId" : "082",
+		"ModelId" : "080",
+		"TextureId" : "082"
+	},
+	"cwea083":{
+		"Name" : "cwea",
+		"ItemId" : "083",
+		"ModelId" : "080",
+		"TextureId" : "083"
+	},
+	"cwea090":{
+		"Name" : "cwea",
+		"ItemId" : "090",
+		"ModelId" : "090",
+		"TextureId" : "090"
+	},
+	"cwea091":{
+		"Name" : "cwea",
+		"ItemId" : "091",
+		"ModelId" : "090",
+		"TextureId" : "091"
+	},
+	"cwea092":{
+		"Name" : "cwea",
+		"ItemId" : "092",
+		"ModelId" : "090",
+		"TextureId" : "092"
+	},
+	"cwea093":{
+		"Name" : "cwea",
+		"ItemId" : "093",
+		"ModelId" : "090",
+		"TextureId" : "093"
+	},
+	"cwea200":{
+		"Name" : "cwea",
+		"ItemId" : "200",
+		"ModelId" : "200",
+		"TextureId" : "200"
+	},
+	"cwea201":{
+		"Name" : "cwea",
+		"ItemId" : "201",
+		"ModelId" : "200",
+		"TextureId" : "201"
+	},
+	"cwea202":{
+		"Name" : "cwea",
+		"ItemId" : "202",
+		"ModelId" : "200",
+		"TextureId" : "202"
+	},
+	"cwea203":{
+		"Name" : "cwea",
+		"ItemId" : "203",
+		"ModelId" : "200",
+		"TextureId" : "203"
+	},
+	"cwea204":{
+		"Name" : "cwea",
+		"ItemId" : "204",
+		"ModelId" : "200",
+		"TextureId" : "204"
+	},
+	"cwea210":{
+		"Name" : "cwea",
+		"ItemId" : "210",
+		"ModelId" : "210",
+		"TextureId" : "210"
+	},
+	"cwea211":{
+		"Name" : "cwea",
+		"ItemId" : "211",
+		"ModelId" : "210",
+		"TextureId" : "211"
+	},
+	"cwea212":{
+		"Name" : "cwea",
+		"ItemId" : "212",
+		"ModelId" : "210",
+		"TextureId" : "212"
+	},
+	"cwea213":{
+		"Name" : "cwea",
+		"ItemId" : "213",
+		"ModelId" : "210",
+		"TextureId" : "213"
+	},
+	"cwea220":{
+		"Name" : "cwea",
+		"ItemId" : "220",
+		"ModelId" : "220",
+		"TextureId" : "220"
+	},
+	"cwea221":{
+		"Name" : "cwea",
+		"ItemId" : "221",
+		"ModelId" : "220",
+		"TextureId" : "221"
+	},
+	"cwea222":{
+		"Name" : "cwea",
+		"ItemId" : "222",
+		"ModelId" : "220",
+		"TextureId" : "222"
+	},
+	"cwea230":{
+		"Name" : "cwea",
+		"ItemId" : "230",
+		"ModelId" : "230",
+		"TextureId" : "230"
+	},
+	"cwea231":{
+		"Name" : "cwea",
+		"ItemId" : "231",
+		"ModelId" : "230",
+		"TextureId" : "231"
+	},
+	"cwea232":{
+		"Name" : "cwea",
+		"ItemId" : "232",
+		"ModelId" : "230",
+		"TextureId" : "232"
+	},
+	"cwea240":{
+		"Name" : "cwea",
+		"ItemId" : "240",
+		"ModelId" : "240",
+		"TextureId" : "240"
+	},
+	"cwea241":{
+		"Name" : "cwea",
+		"ItemId" : "241",
+		"ModelId" : "240",
+		"TextureId" : "241"
+	},
+	"cwea242":{
+		"Name" : "cwea",
+		"ItemId" : "242",
+		"ModelId" : "240",
+		"TextureId" : "242"
+	},
+	"cwea243":{
+		"Name" : "cwea",
+		"ItemId" : "243",
+		"ModelId" : "240",
+		"TextureId" : "243"
+	},
+	"cwea244":{
+		"Name" : "cwea",
+		"ItemId" : "244",
+		"ModelId" : "240",
+		"TextureId" : "244"
+	},
+	"cwea250":{
+		"Name" : "cwea",
+		"ItemId" : "250",
+		"ModelId" : "250",
+		"TextureId" : "250"
+	},
+	"cwea251":{
+		"Name" : "cwea",
+		"ItemId" : "251",
+		"ModelId" : "250",
+		"TextureId" : "251"
+	},
+	"cwea252":{
+		"Name" : "cwea",
+		"ItemId" : "252",
+		"ModelId" : "250",
+		"TextureId" : "252"
+	},
+	"cwea253":{
+		"Name" : "cwea",
+		"ItemId" : "253",
+		"ModelId" : "250",
+		"TextureId" : "253"
+	},
+	"cwea260":{
+		"Name" : "cwea",
+		"ItemId" : "260",
+		"ModelId" : "260",
+		"TextureId" : "260"
+	},
+	"cwea261":{
+		"Name" : "cwea",
+		"ItemId" : "261",
+		"ModelId" : "260",
+		"TextureId" : "261"
+	},
+	"cwea262":{
+		"Name" : "cwea",
+		"ItemId" : "262",
+		"ModelId" : "260",
+		"TextureId" : "262"
+	},
+	"cwea270":{
+		"Name" : "cwea",
+		"ItemId" : "270",
+		"ModelId" : "270",
+		"TextureId" : "270"
+	},
+	"cwea271":{
+		"Name" : "cwea",
+		"ItemId" : "271",
+		"ModelId" : "270",
+		"TextureId" : "271"
+	},
+	"cwea272":{
+		"Name" : "cwea",
+		"ItemId" : "272",
+		"ModelId" : "270",
+		"TextureId" : "272"
+	},
+	"cwea280":{
+		"Name" : "cwea",
+		"ItemId" : "280",
+		"ModelId" : "280",
+		"TextureId" : "280"
+	},
+	"cwea281":{
+		"Name" : "cwea",
+		"ItemId" : "281",
+		"ModelId" : "280",
+		"TextureId" : "281"
+	},
+	"cwea282":{
+		"Name" : "cwea",
+		"ItemId" : "282",
+		"ModelId" : "280",
+		"TextureId" : "282"
+	},
+	"cwea290":{
+		"Name" : "cwea",
+		"ItemId" : "290",
+		"ModelId" : "290",
+		"TextureId" : "290"
+	},
+	"cwea291":{
+		"Name" : "cwea",
+		"ItemId" : "291",
+		"ModelId" : "290",
+		"TextureId" : "291"
+	},
+	"cwea292":{
+		"Name" : "cwea",
+		"ItemId" : "292",
+		"ModelId" : "290",
+		"TextureId" : "292"
+	},
+	"cwea400":{
+		"Name" : "cwea",
+		"ItemId" : "400",
+		"ModelId" : "400",
+		"TextureId" : "400"
+	},
+	"cwea401":{
+		"Name" : "cwea",
+		"ItemId" : "401",
+		"ModelId" : "400",
+		"TextureId" : "401"
+	},
+	"cwea402":{
+		"Name" : "cwea",
+		"ItemId" : "402",
+		"ModelId" : "400",
+		"TextureId" : "402"
+	},
+	"cwea403":{
+		"Name" : "cwea",
+		"ItemId" : "403",
+		"ModelId" : "400",
+		"TextureId" : "403"
+	},
+	"cwea410":{
+		"Name" : "cwea",
+		"ItemId" : "410",
+		"ModelId" : "410",
+		"TextureId" : "410"
+	},
+	"cwea411":{
+		"Name" : "cwea",
+		"ItemId" : "411",
+		"ModelId" : "410",
+		"TextureId" : "411"
+	},
+	"cwea412":{
+		"Name" : "cwea",
+		"ItemId" : "412",
+		"ModelId" : "410",
+		"TextureId" : "412"
+	},
+	"cwea413":{
+		"Name" : "cwea",
+		"ItemId" : "413",
+		"ModelId" : "410",
+		"TextureId" : "413"
+	},
+	"cwea420":{
+		"Name" : "cwea",
+		"ItemId" : "420",
+		"ModelId" : "420",
+		"TextureId" : "420"
+	},
+	"cwea421":{
+		"Name" : "cwea",
+		"ItemId" : "421",
+		"ModelId" : "420",
+		"TextureId" : "421"
+	},
+	"cwea422":{
+		"Name" : "cwea",
+		"ItemId" : "422",
+		"ModelId" : "420",
+		"TextureId" : "422"
+	},
+	"cwea430":{
+		"Name" : "cwea",
+		"ItemId" : "430",
+		"ModelId" : "430",
+		"TextureId" : "430"
+	},
+	"cwea431":{
+		"Name" : "cwea",
+		"ItemId" : "431",
+		"ModelId" : "430",
+		"TextureId" : "431"
+	},
+	"cwea432":{
+		"Name" : "cwea",
+		"ItemId" : "432",
+		"ModelId" : "430",
+		"TextureId" : "432"
+	},
+	"cwea440":{
+		"Name" : "cwea",
+		"ItemId" : "440",
+		"ModelId" : "440",
+		"TextureId" : "440"
+	},
+	"cwea441":{
+		"Name" : "cwea",
+		"ItemId" : "441",
+		"ModelId" : "440",
+		"TextureId" : "441"
+	},
+	"cwea442":{
+		"Name" : "cwea",
+		"ItemId" : "442",
+		"ModelId" : "440",
+		"TextureId" : "442"
+	},
+	"cwea450":{
+		"Name" : "cwea",
+		"ItemId" : "450",
+		"ModelId" : "450",
+		"TextureId" : "450"
+	},
+	"cwea451":{
+		"Name" : "cwea",
+		"ItemId" : "451",
+		"ModelId" : "450",
+		"TextureId" : "451"
+	},
+	"cwea452":{
+		"Name" : "cwea",
+		"ItemId" : "452",
+		"ModelId" : "450",
+		"TextureId" : "452"
+	},
+	"cwea453":{
+		"Name" : "cwea",
+		"ItemId" : "453",
+		"ModelId" : "450",
+		"TextureId" : "453"
+	},
+	"cwea460":{
+		"Name" : "cwea",
+		"ItemId" : "460",
+		"ModelId" : "460",
+		"TextureId" : "460"
+	},
+	"cwea461":{
+		"Name" : "cwea",
+		"ItemId" : "461",
+		"ModelId" : "460",
+		"TextureId" : "461"
+	},
+	"cwea462":{
+		"Name" : "cwea",
+		"ItemId" : "462",
+		"ModelId" : "460",
+		"TextureId" : "462"
+	},
+	"cwea470":{
+		"Name" : "cwea",
+		"ItemId" : "470",
+		"ModelId" : "470",
+		"TextureId" : "470"
+	},
+	"cwea471":{
+		"Name" : "cwea",
+		"ItemId" : "471",
+		"ModelId" : "470",
+		"TextureId" : "471"
+	},
+	"cwea472":{
+		"Name" : "cwea",
+		"ItemId" : "472",
+		"ModelId" : "470",
+		"TextureId" : "472"
+	},
+	"cwea473":{
+		"Name" : "cwea",
+		"ItemId" : "473",
+		"ModelId" : "470",
+		"TextureId" : "473"
+	},
+	"cwea474":{
+		"Name" : "cwea",
+		"ItemId" : "474",
+		"ModelId" : "470",
+		"TextureId" : "474"
+	},
+	"cwea480":{
+		"Name" : "cwea",
+		"ItemId" : "480",
+		"ModelId" : "480",
+		"TextureId" : "480"
+	},
+	"cwea481":{
+		"Name" : "cwea",
+		"ItemId" : "481",
+		"ModelId" : "480",
+		"TextureId" : "481"
+	},
+	"cwea482":{
+		"Name" : "cwea",
+		"ItemId" : "482",
+		"ModelId" : "480",
+		"TextureId" : "482"
+	},
+	"cwea483":{
+		"Name" : "cwea",
+		"ItemId" : "483",
+		"ModelId" : "480",
+		"TextureId" : "483"
+	},
+	"cwea490":{
+		"Name" : "cwea",
+		"ItemId" : "490",
+		"ModelId" : "490",
+		"TextureId" : "490"
+	},
+	"cwea491":{
+		"Name" : "cwea",
+		"ItemId" : "491",
+		"ModelId" : "490",
+		"TextureId" : "491"
+	},
+	"cwea492":{
+		"Name" : "cwea",
+		"ItemId" : "492",
+		"ModelId" : "490",
+		"TextureId" : "492"
+	},
+	"cwea600":{
+		"Name" : "cwea",
+		"ItemId" : "600",
+		"ModelId" : "600",
+		"TextureId" : "600"
+	},
+	"cwea610":{
+		"Name" : "cwea",
+		"ItemId" : "610",
+		"ModelId" : "610",
+		"TextureId" : "610"
+	},
+	"dwea000":{
+		"Name" : "dwea",
+		"ItemId" : "000",
+		"ModelId" : "000",
+		"TextureId" : "000"
+	},
+	"dwea001":{
+		"Name" : "dwea",
+		"ItemId" : "001",
+		"ModelId" : "000",
+		"TextureId" : "001"
+	},
+	"dwea002":{
+		"Name" : "dwea",
+		"ItemId" : "002",
+		"ModelId" : "000",
+		"TextureId" : "002"
+	},
+	"dwea010":{
+		"Name" : "dwea",
+		"ItemId" : "010",
+		"ModelId" : "010",
+		"TextureId" : "010"
+	},
+	"dwea011":{
+		"Name" : "dwea",
+		"ItemId" : "011",
+		"ModelId" : "010",
+		"TextureId" : "011"
+	},
+	"dwea012":{
+		"Name" : "dwea",
+		"ItemId" : "012",
+		"ModelId" : "010",
+		"TextureId" : "012"
+	},
+	"dwea020":{
+		"Name" : "dwea",
+		"ItemId" : "020",
+		"ModelId" : "020",
+		"TextureId" : "020"
+	},
+	"dwea021":{
+		"Name" : "dwea",
+		"ItemId" : "021",
+		"ModelId" : "020",
+		"TextureId" : "021"
+	},
+	"dwea022":{
+		"Name" : "dwea",
+		"ItemId" : "022",
+		"ModelId" : "020",
+		"TextureId" : "022"
+	},
+	"dwea030":{
+		"Name" : "dwea",
+		"ItemId" : "030",
+		"ModelId" : "030",
+		"TextureId" : "030"
+	},
+	"dwea031":{
+		"Name" : "dwea",
+		"ItemId" : "031",
+		"ModelId" : "030",
+		"TextureId" : "031"
+	},
+	"dwea032":{
+		"Name" : "dwea",
+		"ItemId" : "032",
+		"ModelId" : "030",
+		"TextureId" : "032"
+	},
+	"dwea040":{
+		"Name" : "dwea",
+		"ItemId" : "040",
+		"ModelId" : "040",
+		"TextureId" : "040"
+	},
+	"dwea041":{
+		"Name" : "dwea",
+		"ItemId" : "041",
+		"ModelId" : "040",
+		"TextureId" : "041"
+	},
+	"dwea042":{
+		"Name" : "dwea",
+		"ItemId" : "042",
+		"ModelId" : "040",
+		"TextureId" : "042"
+	},
+	"dwea050":{
+		"Name" : "dwea",
+		"ItemId" : "050",
+		"ModelId" : "050",
+		"TextureId" : "050"
+	},
+	"dwea051":{
+		"Name" : "dwea",
+		"ItemId" : "051",
+		"ModelId" : "050",
+		"TextureId" : "051"
+	},
+	"dwea052":{
+		"Name" : "dwea",
+		"ItemId" : "052",
+		"ModelId" : "050",
+		"TextureId" : "052"
+	},
+	"dwea060":{
+		"Name" : "dwea",
+		"ItemId" : "060",
+		"ModelId" : "060",
+		"TextureId" : "060"
+	},
+	"dwea061":{
+		"Name" : "dwea",
+		"ItemId" : "061",
+		"ModelId" : "060",
+		"TextureId" : "061"
+	},
+	"dwea062":{
+		"Name" : "dwea",
+		"ItemId" : "062",
+		"ModelId" : "060",
+		"TextureId" : "062"
+	},
+	"dwea070":{
+		"Name" : "dwea",
+		"ItemId" : "070",
+		"ModelId" : "070",
+		"TextureId" : "070"
+	},
+	"dwea071":{
+		"Name" : "dwea",
+		"ItemId" : "071",
+		"ModelId" : "070",
+		"TextureId" : "071"
+	},
+	"dwea072":{
+		"Name" : "dwea",
+		"ItemId" : "072",
+		"ModelId" : "070",
+		"TextureId" : "072"
+	},
+	"dwea080":{
+		"Name" : "dwea",
+		"ItemId" : "080",
+		"ModelId" : "080",
+		"TextureId" : "080"
+	},
+	"dwea081":{
+		"Name" : "dwea",
+		"ItemId" : "081",
+		"ModelId" : "080",
+		"TextureId" : "081"
+	},
+	"dwea082":{
+		"Name" : "dwea",
+		"ItemId" : "082",
+		"ModelId" : "080",
+		"TextureId" : "082"
+	},
+	"dwea090":{
+		"Name" : "dwea",
+		"ItemId" : "090",
+		"ModelId" : "090",
+		"TextureId" : "090"
+	},
+	"dwea091":{
+		"Name" : "dwea",
+		"ItemId" : "091",
+		"ModelId" : "090",
+		"TextureId" : "091"
+	},
+	"dwea092":{
+		"Name" : "dwea",
+		"ItemId" : "092",
+		"ModelId" : "090",
+		"TextureId" : "092"
+	},
+	"dwea100":{
+		"Name" : "dwea",
+		"ItemId" : "100",
+		"ModelId" : "100",
+		"TextureId" : "100"
+	},
+	"dwea110":{
+		"Name" : "dwea",
+		"ItemId" : "110",
+		"ModelId" : "110",
+		"TextureId" : "110"
+	},
+	"dwea120":{
+		"Name" : "dwea",
+		"ItemId" : "120",
+		"ModelId" : "120",
+		"TextureId" : "120"
+	},
+	"dwea130":{
+		"Name" : "dwea",
+		"ItemId" : "130",
+		"ModelId" : "130",
+		"TextureId" : "130"
+	},
+	"dwea140":{
+		"Name" : "dwea",
+		"ItemId" : "140",
+		"ModelId" : "140",
+		"TextureId" : "140"
+	},
+	"dwea160":{
+		"Name" : "dwea",
+		"ItemId" : "160",
+		"ModelId" : "160",
+		"TextureId" : "160"
+	},
+	"dwea170":{
+		"Name" : "dwea",
+		"ItemId" : "170",
+		"ModelId" : "170",
+		"TextureId" : "170"
+	},
+	"dwea025":{
+		"Name" : "dwea",
+		"ItemId" : "025",
+		"ModelId" : "025",
+		"TextureId" : "025"
+	},
+	"dwea200":{
+		"Name" : "dwea",
+		"ItemId" : "200",
+		"ModelId" : "200",
+		"TextureId" : "200"
+	},
+	"dwea201":{
+		"Name" : "dwea",
+		"ItemId" : "201",
+		"ModelId" : "200",
+		"TextureId" : "201"
+	},
+	"dwea202":{
+		"Name" : "dwea",
+		"ItemId" : "202",
+		"ModelId" : "200",
+		"TextureId" : "202"
+	},
+	"dwea210":{
+		"Name" : "dwea",
+		"ItemId" : "210",
+		"ModelId" : "210",
+		"TextureId" : "210"
+	},
+	"dwea211":{
+		"Name" : "dwea",
+		"ItemId" : "211",
+		"ModelId" : "210",
+		"TextureId" : "211"
+	},
+	"dwea212":{
+		"Name" : "dwea",
+		"ItemId" : "212",
+		"ModelId" : "210",
+		"TextureId" : "212"
+	},
+	"dwea220":{
+		"Name" : "dwea",
+		"ItemId" : "220",
+		"ModelId" : "220",
+		"TextureId" : "220"
+	},
+	"dwea221":{
+		"Name" : "dwea",
+		"ItemId" : "221",
+		"ModelId" : "220",
+		"TextureId" : "221"
+	},
+	"dwea222":{
+		"Name" : "dwea",
+		"ItemId" : "222",
+		"ModelId" : "220",
+		"TextureId" : "222"
+	},
+	"dwea230":{
+		"Name" : "dwea",
+		"ItemId" : "230",
+		"ModelId" : "230",
+		"TextureId" : "230"
+	},
+	"dwea231":{
+		"Name" : "dwea",
+		"ItemId" : "231",
+		"ModelId" : "230",
+		"TextureId" : "231"
+	},
+	"dwea232":{
+		"Name" : "dwea",
+		"ItemId" : "232",
+		"ModelId" : "230",
+		"TextureId" : "232"
+	},
+	"dwea240":{
+		"Name" : "dwea",
+		"ItemId" : "240",
+		"ModelId" : "240",
+		"TextureId" : "240"
+	},
+	"dwea241":{
+		"Name" : "dwea",
+		"ItemId" : "241",
+		"ModelId" : "240",
+		"TextureId" : "241"
+	},
+	"dwea242":{
+		"Name" : "dwea",
+		"ItemId" : "242",
+		"ModelId" : "240",
+		"TextureId" : "242"
+	},
+	"dwea250":{
+		"Name" : "dwea",
+		"ItemId" : "250",
+		"ModelId" : "250",
+		"TextureId" : "250"
+	},
+	"dwea251":{
+		"Name" : "dwea",
+		"ItemId" : "251",
+		"ModelId" : "250",
+		"TextureId" : "251"
+	},
+	"dwea252":{
+		"Name" : "dwea",
+		"ItemId" : "252",
+		"ModelId" : "250",
+		"TextureId" : "252"
+	},
+	"dwea260":{
+		"Name" : "dwea",
+		"ItemId" : "260",
+		"ModelId" : "260",
+		"TextureId" : "260"
+	},
+	"dwea261":{
+		"Name" : "dwea",
+		"ItemId" : "261",
+		"ModelId" : "260",
+		"TextureId" : "261"
+	},
+	"dwea262":{
+		"Name" : "dwea",
+		"ItemId" : "262",
+		"ModelId" : "260",
+		"TextureId" : "262"
+	},
+	"dwea270":{
+		"Name" : "dwea",
+		"ItemId" : "270",
+		"ModelId" : "270",
+		"TextureId" : "270"
+	},
+	"dwea271":{
+		"Name" : "dwea",
+		"ItemId" : "271",
+		"ModelId" : "270",
+		"TextureId" : "271"
+	},
+	"dwea272":{
+		"Name" : "dwea",
+		"ItemId" : "272",
+		"ModelId" : "270",
+		"TextureId" : "272"
+	},
+	"dwea280":{
+		"Name" : "dwea",
+		"ItemId" : "280",
+		"ModelId" : "280",
+		"TextureId" : "280"
+	},
+	"dwea281":{
+		"Name" : "dwea",
+		"ItemId" : "281",
+		"ModelId" : "280",
+		"TextureId" : "281"
+	},
+	"dwea282":{
+		"Name" : "dwea",
+		"ItemId" : "282",
+		"ModelId" : "280",
+		"TextureId" : "282"
+	},
+	"dwea290":{
+		"Name" : "dwea",
+		"ItemId" : "290",
+		"ModelId" : "290",
+		"TextureId" : "290"
+	},
+	"dwea291":{
+		"Name" : "dwea",
+		"ItemId" : "291",
+		"ModelId" : "290",
+		"TextureId" : "291"
+	},
+	"dwea292":{
+		"Name" : "dwea",
+		"ItemId" : "292",
+		"ModelId" : "290",
+		"TextureId" : "292"
+	},
+	"dwea300":{
+		"Name" : "dwea",
+		"ItemId" : "300",
+		"ModelId" : "300",
+		"TextureId" : "300"
+	},
+	"dwea310":{
+		"Name" : "dwea",
+		"ItemId" : "310",
+		"ModelId" : "310",
+		"TextureId" : "310"
+	},
+	"dwea320":{
+		"Name" : "dwea",
+		"ItemId" : "320",
+		"ModelId" : "320",
+		"TextureId" : "320"
+	},
+	"dwea330":{
+		"Name" : "dwea",
+		"ItemId" : "330",
+		"ModelId" : "330",
+		"TextureId" : "330"
+	},
+	"dwea340":{
+		"Name" : "dwea",
+		"ItemId" : "340",
+		"ModelId" : "340",
+		"TextureId" : "340"
+	},
+	"dwea350":{
+		"Name" : "dwea",
+		"ItemId" : "350",
+		"ModelId" : "350",
+		"TextureId" : "350"
+	},
+	"dwea205":{
+		"Name" : "dwea",
+		"ItemId" : "205",
+		"ModelId" : "205",
+		"TextureId" : "205"
+	},
+	"dwea400":{
+		"Name" : "dwea",
+		"ItemId" : "400",
+		"ModelId" : "400",
+		"TextureId" : "400"
+	},
+	"dwea401":{
+		"Name" : "dwea",
+		"ItemId" : "401",
+		"ModelId" : "400",
+		"TextureId" : "401"
+	},
+	"dwea402":{
+		"Name" : "dwea",
+		"ItemId" : "402",
+		"ModelId" : "400",
+		"TextureId" : "402"
+	},
+	"dwea410":{
+		"Name" : "dwea",
+		"ItemId" : "410",
+		"ModelId" : "410",
+		"TextureId" : "410"
+	},
+	"dwea411":{
+		"Name" : "dwea",
+		"ItemId" : "411",
+		"ModelId" : "410",
+		"TextureId" : "411"
+	},
+	"dwea412":{
+		"Name" : "dwea",
+		"ItemId" : "412",
+		"ModelId" : "410",
+		"TextureId" : "412"
+	},
+	"dwea420":{
+		"Name" : "dwea",
+		"ItemId" : "420",
+		"ModelId" : "420",
+		"TextureId" : "420"
+	},
+	"dwea421":{
+		"Name" : "dwea",
+		"ItemId" : "421",
+		"ModelId" : "420",
+		"TextureId" : "421"
+	},
+	"dwea422":{
+		"Name" : "dwea",
+		"ItemId" : "422",
+		"ModelId" : "420",
+		"TextureId" : "422"
+	},
+	"dwea430":{
+		"Name" : "dwea",
+		"ItemId" : "430",
+		"ModelId" : "430",
+		"TextureId" : "430"
+	},
+	"dwea431":{
+		"Name" : "dwea",
+		"ItemId" : "431",
+		"ModelId" : "430",
+		"TextureId" : "431"
+	},
+	"dwea432":{
+		"Name" : "dwea",
+		"ItemId" : "432",
+		"ModelId" : "430",
+		"TextureId" : "432"
+	},
+	"dwea440":{
+		"Name" : "dwea",
+		"ItemId" : "440",
+		"ModelId" : "440",
+		"TextureId" : "440"
+	},
+	"dwea441":{
+		"Name" : "dwea",
+		"ItemId" : "441",
+		"ModelId" : "440",
+		"TextureId" : "441"
+	},
+	"dwea442":{
+		"Name" : "dwea",
+		"ItemId" : "442",
+		"ModelId" : "440",
+		"TextureId" : "442"
+	},
+	"dwea450":{
+		"Name" : "dwea",
+		"ItemId" : "450",
+		"ModelId" : "450",
+		"TextureId" : "450"
+	},
+	"dwea451":{
+		"Name" : "dwea",
+		"ItemId" : "451",
+		"ModelId" : "450",
+		"TextureId" : "451"
+	},
+	"dwea452":{
+		"Name" : "dwea",
+		"ItemId" : "452",
+		"ModelId" : "450",
+		"TextureId" : "452"
+	},
+	"dwea460":{
+		"Name" : "dwea",
+		"ItemId" : "460",
+		"ModelId" : "460",
+		"TextureId" : "460"
+	},
+	"dwea461":{
+		"Name" : "dwea",
+		"ItemId" : "461",
+		"ModelId" : "460",
+		"TextureId" : "461"
+	},
+	"dwea462":{
+		"Name" : "dwea",
+		"ItemId" : "462",
+		"ModelId" : "460",
+		"TextureId" : "462"
+	},
+	"dwea470":{
+		"Name" : "dwea",
+		"ItemId" : "470",
+		"ModelId" : "470",
+		"TextureId" : "470"
+	},
+	"dwea471":{
+		"Name" : "dwea",
+		"ItemId" : "471",
+		"ModelId" : "470",
+		"TextureId" : "471"
+	},
+	"dwea472":{
+		"Name" : "dwea",
+		"ItemId" : "472",
+		"ModelId" : "470",
+		"TextureId" : "472"
+	},
+	"dwea480":{
+		"Name" : "dwea",
+		"ItemId" : "480",
+		"ModelId" : "480",
+		"TextureId" : "480"
+	},
+	"dwea481":{
+		"Name" : "dwea",
+		"ItemId" : "481",
+		"ModelId" : "480",
+		"TextureId" : "481"
+	},
+	"dwea482":{
+		"Name" : "dwea",
+		"ItemId" : "482",
+		"ModelId" : "480",
+		"TextureId" : "482"
+	},
+	"dwea490":{
+		"Name" : "dwea",
+		"ItemId" : "490",
+		"ModelId" : "490",
+		"TextureId" : "490"
+	},
+	"dwea491":{
+		"Name" : "dwea",
+		"ItemId" : "491",
+		"ModelId" : "490",
+		"TextureId" : "491"
+	},
+	"dwea492":{
+		"Name" : "dwea",
+		"ItemId" : "492",
+		"ModelId" : "490",
+		"TextureId" : "492"
+	},
+	"dwea500":{
+		"Name" : "dwea",
+		"ItemId" : "500",
+		"ModelId" : "500",
+		"TextureId" : "500"
+	},
+	"dwea510":{
+		"Name" : "dwea",
+		"ItemId" : "510",
+		"ModelId" : "510",
+		"TextureId" : "510"
+	},
+	"dwea520":{
+		"Name" : "dwea",
+		"ItemId" : "520",
+		"ModelId" : "520",
+		"TextureId" : "520"
+	},
+	"dwea530":{
+		"Name" : "dwea",
+		"ItemId" : "530",
+		"ModelId" : "530",
+		"TextureId" : "530"
+	},
+	"dwea540":{
+		"Name" : "dwea",
+		"ItemId" : "540",
+		"ModelId" : "540",
+		"TextureId" : "540"
+	},
+	"dwea600":{
+		"Name" : "dwea",
+		"ItemId" : "600",
+		"ModelId" : "600",
+		"TextureId" : "600"
+	},
+	"dwea035":{
+		"Name" : "dwea",
+		"ItemId" : "035",
+		"ModelId" : "035",
+		"TextureId" : "035"
+	},
+	"dwea045":{
+		"Name" : "dwea",
+		"ItemId" : "045",
+		"ModelId" : "045",
+		"TextureId" : "045"
+	},
+	"dwea055":{
+		"Name" : "dwea",
+		"ItemId" : "055",
+		"ModelId" : "055",
+		"TextureId" : "055"
+	},
+	"dwea065":{
+		"Name" : "dwea",
+		"ItemId" : "065",
+		"ModelId" : "065",
+		"TextureId" : "065"
+	},
+	"dwea075":{
+		"Name" : "dwea",
+		"ItemId" : "075",
+		"ModelId" : "075",
+		"TextureId" : "075"
+	},
+	"dwea085":{
+		"Name" : "dwea",
+		"ItemId" : "085",
+		"ModelId" : "085",
+		"TextureId" : "085"
+	},
+	"dwea086":{
+		"Name" : "dwea",
+		"ItemId" : "086",
+		"ModelId" : "085",
+		"TextureId" : "086"
+	},
+	"dwea087":{
+		"Name" : "dwea",
+		"ItemId" : "087",
+		"ModelId" : "085",
+		"TextureId" : "087"
+	},
+	"dwea095":{
+		"Name" : "dwea",
+		"ItemId" : "095",
+		"ModelId" : "095",
+		"TextureId" : "095"
+	},
+	"dwea096":{
+		"Name" : "dwea",
+		"ItemId" : "096",
+		"ModelId" : "095",
+		"TextureId" : "096"
+	},
+	"dwea097":{
+		"Name" : "dwea",
+		"ItemId" : "097",
+		"ModelId" : "095",
+		"TextureId" : "097"
+	},
+	"dwea115":{
+		"Name" : "dwea",
+		"ItemId" : "115",
+		"ModelId" : "115",
+		"TextureId" : "115"
+	},
+	"dwea116":{
+		"Name" : "dwea",
+		"ItemId" : "116",
+		"ModelId" : "115",
+		"TextureId" : "116"
+	},
+	"dwea117":{
+		"Name" : "dwea",
+		"ItemId" : "117",
+		"ModelId" : "115",
+		"TextureId" : "117"
+	},
+	"dwea135":{
+		"Name" : "dwea",
+		"ItemId" : "135",
+		"ModelId" : "135",
+		"TextureId" : "135"
+	},
+	"dwea136":{
+		"Name" : "dwea",
+		"ItemId" : "136",
+		"ModelId" : "135",
+		"TextureId" : "136"
+	},
+	"dwea137":{
+		"Name" : "dwea",
+		"ItemId" : "137",
+		"ModelId" : "135",
+		"TextureId" : "137"
+	},
+	"dwea405":{
+		"Name" : "dwea",
+		"ItemId" : "405",
+		"ModelId" : "405",
+		"TextureId" : "405"
+	},
+	"dwea415":{
+		"Name" : "dwea",
+		"ItemId" : "415",
+		"ModelId" : "415",
+		"TextureId" : "415"
+	},
+	"dwea425":{
+		"Name" : "dwea",
+		"ItemId" : "425",
+		"ModelId" : "425",
+		"TextureId" : "425"
+	},
+	"dwea435":{
+		"Name" : "dwea",
+		"ItemId" : "435",
+		"ModelId" : "435",
+		"TextureId" : "435"
+	},
+	"dwea445":{
+		"Name" : "dwea",
+		"ItemId" : "445",
+		"ModelId" : "445",
+		"TextureId" : "445"
+	},
+	"dwea455":{
+		"Name" : "dwea",
+		"ItemId" : "455",
+		"ModelId" : "455",
+		"TextureId" : "455"
+	},
+	"dwea456":{
+		"Name" : "dwea",
+		"ItemId" : "456",
+		"ModelId" : "455",
+		"TextureId" : "456"
+	},
+	"dwea457":{
+		"Name" : "dwea",
+		"ItemId" : "457",
+		"ModelId" : "455",
+		"TextureId" : "457"
+	},
+	"dwea465":{
+		"Name" : "dwea",
+		"ItemId" : "465",
+		"ModelId" : "465",
+		"TextureId" : "465"
+	},
+	"dwea466":{
+		"Name" : "dwea",
+		"ItemId" : "466",
+		"ModelId" : "465",
+		"TextureId" : "466"
+	},
+	"dwea467":{
+		"Name" : "dwea",
+		"ItemId" : "467",
+		"ModelId" : "465",
+		"TextureId" : "467"
+	},
+	"dwea485":{
+		"Name" : "dwea",
+		"ItemId" : "485",
+		"ModelId" : "485",
+		"TextureId" : "485"
+	},
+	"dwea486":{
+		"Name" : "dwea",
+		"ItemId" : "486",
+		"ModelId" : "485",
+		"TextureId" : "486"
+	},
+	"dwea487":{
+		"Name" : "dwea",
+		"ItemId" : "487",
+		"ModelId" : "485",
+		"TextureId" : "487"
+	},
+	"dwea215":{
+		"Name" : "dwea",
+		"ItemId" : "215",
+		"ModelId" : "215",
+		"TextureId" : "215"
+	},
+	"dwea225":{
+		"Name" : "dwea",
+		"ItemId" : "225",
+		"ModelId" : "225",
+		"TextureId" : "225"
+	},
+	"dwea235":{
+		"Name" : "dwea",
+		"ItemId" : "235",
+		"ModelId" : "235",
+		"TextureId" : "235"
+	},
+	"dwea245":{
+		"Name" : "dwea",
+		"ItemId" : "245",
+		"ModelId" : "245",
+		"TextureId" : "245"
+	},
+	"dwea255":{
+		"Name" : "dwea",
+		"ItemId" : "255",
+		"ModelId" : "255",
+		"TextureId" : "255"
+	},
+	"dwea265":{
+		"Name" : "dwea",
+		"ItemId" : "265",
+		"ModelId" : "265",
+		"TextureId" : "265"
+	},
+	"dwea266":{
+		"Name" : "dwea",
+		"ItemId" : "266",
+		"ModelId" : "265",
+		"TextureId" : "266"
+	},
+	"dwea267":{
+		"Name" : "dwea",
+		"ItemId" : "267",
+		"ModelId" : "265",
+		"TextureId" : "267"
+	},
+	"dwea275":{
+		"Name" : "dwea",
+		"ItemId" : "275",
+		"ModelId" : "275",
+		"TextureId" : "275"
+	},
+	"dwea276":{
+		"Name" : "dwea",
+		"ItemId" : "276",
+		"ModelId" : "275",
+		"TextureId" : "276"
+	},
+	"dwea277":{
+		"Name" : "dwea",
+		"ItemId" : "277",
+		"ModelId" : "275",
+		"TextureId" : "277"
+	},
+	"dwea285":{
+		"Name" : "dwea",
+		"ItemId" : "285",
+		"ModelId" : "285",
+		"TextureId" : "285"
+	},
+	"dwea286":{
+		"Name" : "dwea",
+		"ItemId" : "286",
+		"ModelId" : "285",
+		"TextureId" : "286"
+	},
+	"dwea287":{
+		"Name" : "dwea",
+		"ItemId" : "287",
+		"ModelId" : "285",
+		"TextureId" : "287"
+	},
+	"dwea315":{
+		"Name" : "dwea",
+		"ItemId" : "315",
+		"ModelId" : "315",
+		"TextureId" : "315"
+	},
+	"dwea316":{
+		"Name" : "dwea",
+		"ItemId" : "316",
+		"ModelId" : "315",
+		"TextureId" : "316"
+	},
+	"dwea317":{
+		"Name" : "dwea",
+		"ItemId" : "317",
+		"ModelId" : "315",
+		"TextureId" : "317"
+	},
+	"dwea180":{
+		"Name" : "dwea",
+		"ItemId" : "180",
+		"ModelId" : "180",
+		"TextureId" : "180"
+	},
+	"dwea190":{
+		"Name" : "dwea",
+		"ItemId" : "190",
+		"ModelId" : "190",
+		"TextureId" : "190"
+	},
+	"dwea005":{
+		"Name" : "dwea",
+		"ItemId" : "005",
+		"ModelId" : "005",
+		"TextureId" : "005"
+	},
+	"dwea360":{
+		"Name" : "dwea",
+		"ItemId" : "360",
+		"ModelId" : "360",
+		"TextureId" : "360"
+	},
+	"dwea370":{
+		"Name" : "dwea",
+		"ItemId" : "370",
+		"ModelId" : "370",
+		"TextureId" : "370"
+	},
+	"dwea380":{
+		"Name" : "dwea",
+		"ItemId" : "380",
+		"ModelId" : "380",
+		"TextureId" : "380"
+	},
+	"dwea560":{
+		"Name" : "dwea",
+		"ItemId" : "560",
+		"ModelId" : "560",
+		"TextureId" : "560"
+	},
+	"dwea570":{
+		"Name" : "dwea",
+		"ItemId" : "570",
+		"ModelId" : "570",
+		"TextureId" : "570"
+	},
+	"dwea580":{
+		"Name" : "dwea",
+		"ItemId" : "580",
+		"ModelId" : "580",
+		"TextureId" : "580"
+	},
+	"dwea610":{
+		"Name" : "dwea",
+		"ItemId" : "610",
+		"ModelId" : "610",
+		"TextureId" : "610"
+	},
+	"dwea390":{
+		"Name" : "dwea",
+		"ItemId" : "390",
+		"ModelId" : "390",
+		"TextureId" : "610"
+	},
+	"dwea620":{
+		"Name" : "dwea",
+		"ItemId" : "620",
+		"ModelId" : "620",
+		"TextureId" : "620"
+	},
+	"dwea630":{
+		"Name" : "dwea",
+		"ItemId" : "630",
+		"ModelId" : "630",
+		"TextureId" : "630"
+	},
+	"dwea631":{
+		"Name" : "dwea",
+		"ItemId" : "631",
+		"ModelId" : "630",
+		"TextureId" : "631"
+	},
+	"dwea632":{
+		"Name" : "dwea",
+		"ItemId" : "632",
+		"ModelId" : "630",
+		"TextureId" : "632"
+	},
+	"cwea1303600":{
+		"Name" : "cwea",
+		"ItemId" : "1303600",
+		"ModelId" : "1303600",
+		"TextureId" : "1303600"
+	},
+	"cwea1303700":{
+		"Name" : "cwea",
+		"ItemId" : "1303700",
+		"ModelId" : "1303700",
+		"TextureId" : "1303700"
+	}
+},
+// CharacterModelDetail.xlsx.tmp acc 
+
+"accessory_":{
+	"caha000":{
+		"Name" : "caha",
+		"ItemId" : "000",
+		"ModelId" : "000",
+		"TextureId" : "000"
+	},
+	"caha001":{
+		"Name" : "caha",
+		"ItemId" : "001",
+		"ModelId" : "000",
+		"TextureId" : "001"
+	},
+	"caha002":{
+		"Name" : "caha",
+		"ItemId" : "002",
+		"ModelId" : "000",
+		"TextureId" : "002"
+	},
+	"caha010":{
+		"Name" : "caha",
+		"ItemId" : "010",
+		"ModelId" : "010",
+		"TextureId" : "010"
+	},
+	"caha011":{
+		"Name" : "caha",
+		"ItemId" : "011",
+		"ModelId" : "010",
+		"TextureId" : "011"
+	},
+	"caha012":{
+		"Name" : "caha",
+		"ItemId" : "012",
+		"ModelId" : "010",
+		"TextureId" : "012"
+	},
+	"caha020":{
+		"Name" : "caha",
+		"ItemId" : "020",
+		"ModelId" : "020",
+		"TextureId" : "020"
+	},
+	"caha021":{
+		"Name" : "caha",
+		"ItemId" : "021",
+		"ModelId" : "020",
+		"TextureId" : "021"
+	},
+	"caha022":{
+		"Name" : "caha",
+		"ItemId" : "022",
+		"ModelId" : "020",
+		"TextureId" : "022"
+	},
+	"caha030":{
+		"Name" : "caha",
+		"ItemId" : "030",
+		"ModelId" : "030",
+		"TextureId" : "030"
+	},
+	"caha031":{
+		"Name" : "caha",
+		"ItemId" : "031",
+		"ModelId" : "030",
+		"TextureId" : "031"
+	},
+	"caha032":{
+		"Name" : "caha",
+		"ItemId" : "032",
+		"ModelId" : "030",
+		"TextureId" : "032"
+	},
+	"caha040":{
+		"Name" : "caha",
+		"ItemId" : "040",
+		"ModelId" : "040",
+		"TextureId" : "040"
+	},
+	"caha041":{
+		"Name" : "caha",
+		"ItemId" : "041",
+		"ModelId" : "040",
+		"TextureId" : "041"
+	},
+	"caha042":{
+		"Name" : "caha",
+		"ItemId" : "042",
+		"ModelId" : "040",
+		"TextureId" : "042"
+	},
+	"caha050":{
+		"Name" : "caha",
+		"ItemId" : "050",
+		"ModelId" : "050",
+		"TextureId" : "050"
+	},
+	"caha051":{
+		"Name" : "caha",
+		"ItemId" : "051",
+		"ModelId" : "050",
+		"TextureId" : "051"
+	},
+	"caha052":{
+		"Name" : "caha",
+		"ItemId" : "052",
+		"ModelId" : "050",
+		"TextureId" : "052"
+	},
+	"cahe000":{
+		"Name" : "cahe",
+		"ItemId" : "000",
+		"ModelId" : "000",
+		"TextureId" : "000"
+	},
+	"cahe001":{
+		"Name" : "cahe",
+		"ItemId" : "001",
+		"ModelId" : "000",
+		"TextureId" : "001"
+	},
+	"cahe002":{
+		"Name" : "cahe",
+		"ItemId" : "002",
+		"ModelId" : "000",
+		"TextureId" : "002"
+	},
+	"cahe010":{
+		"Name" : "cahe",
+		"ItemId" : "010",
+		"ModelId" : "010",
+		"TextureId" : "010"
+	},
+	"cahe011":{
+		"Name" : "cahe",
+		"ItemId" : "011",
+		"ModelId" : "010",
+		"TextureId" : "011"
+	},
+	"cahe012":{
+		"Name" : "cahe",
+		"ItemId" : "012",
+		"ModelId" : "010",
+		"TextureId" : "012"
+	},
+	"cahe020":{
+		"Name" : "cahe",
+		"ItemId" : "020",
+		"ModelId" : "020",
+		"TextureId" : "020"
+	},
+	"cahe021":{
+		"Name" : "cahe",
+		"ItemId" : "021",
+		"ModelId" : "020",
+		"TextureId" : "021"
+	},
+	"cahe022":{
+		"Name" : "cahe",
+		"ItemId" : "022",
+		"ModelId" : "020",
+		"TextureId" : "022"
+	},
+	"cahe030":{
+		"Name" : "cahe",
+		"ItemId" : "030",
+		"ModelId" : "030",
+		"TextureId" : "030"
+	},
+	"cahe031":{
+		"Name" : "cahe",
+		"ItemId" : "031",
+		"ModelId" : "030",
+		"TextureId" : "031"
+	},
+	"cahe032":{
+		"Name" : "cahe",
+		"ItemId" : "032",
+		"ModelId" : "030",
+		"TextureId" : "032"
+	},
+	"cahe040":{
+		"Name" : "cahe",
+		"ItemId" : "040",
+		"ModelId" : "040",
+		"TextureId" : "040"
+	},
+	"cahe041":{
+		"Name" : "cahe",
+		"ItemId" : "041",
+		"ModelId" : "040",
+		"TextureId" : "041"
+	},
+	"cahe042":{
+		"Name" : "cahe",
+		"ItemId" : "042",
+		"ModelId" : "040",
+		"TextureId" : "042"
+	},
+	"cahe050":{
+		"Name" : "cahe",
+		"ItemId" : "050",
+		"ModelId" : "050",
+		"TextureId" : "050"
+	},
+	"cahe051":{
+		"Name" : "cahe",
+		"ItemId" : "051",
+		"ModelId" : "050",
+		"TextureId" : "051"
+	},
+	"cahe052":{
+		"Name" : "cahe",
+		"ItemId" : "052",
+		"ModelId" : "050",
+		"TextureId" : "052"
+	},
+	"cahe060":{
+		"Name" : "cahe",
+		"ItemId" : "060",
+		"ModelId" : "060",
+		"TextureId" : "060"
+	},
+	"cahe061":{
+		"Name" : "cahe",
+		"ItemId" : "061",
+		"ModelId" : "060",
+		"TextureId" : "061"
+	},
+	"cahe062":{
+		"Name" : "cahe",
+		"ItemId" : "062",
+		"ModelId" : "060",
+		"TextureId" : "062"
+	},
+	"cahe070":{
+		"Name" : "cahe",
+		"ItemId" : "070",
+		"ModelId" : "070",
+		"TextureId" : "070"
+	},
+	"cahe071":{
+		"Name" : "cahe",
+		"ItemId" : "071",
+		"ModelId" : "070",
+		"TextureId" : "071"
+	},
+	"cahe072":{
+		"Name" : "cahe",
+		"ItemId" : "072",
+		"ModelId" : "070",
+		"TextureId" : "072"
+	},
+	"cahe080":{
+		"Name" : "cahe",
+		"ItemId" : "080",
+		"ModelId" : "080",
+		"TextureId" : "080"
+	},
+	"cahe081":{
+		"Name" : "cahe",
+		"ItemId" : "081",
+		"ModelId" : "080",
+		"TextureId" : "081"
+	},
+	"cahe082":{
+		"Name" : "cahe",
+		"ItemId" : "082",
+		"ModelId" : "080",
+		"TextureId" : "082"
+	},
+	"cahe090":{
+		"Name" : "cahe",
+		"ItemId" : "090",
+		"ModelId" : "090",
+		"TextureId" : "090"
+	},
+	"cahe091":{
+		"Name" : "cahe",
+		"ItemId" : "091",
+		"ModelId" : "090",
+		"TextureId" : "091"
+	},
+	"cahe092":{
+		"Name" : "cahe",
+		"ItemId" : "092",
+		"ModelId" : "090",
+		"TextureId" : "092"
+	},
+	"cahe100":{
+		"Name" : "cahe",
+		"ItemId" : "100",
+		"ModelId" : "100",
+		"TextureId" : "100"
+	},
+	"cahe101":{
+		"Name" : "cahe",
+		"ItemId" : "101",
+		"ModelId" : "100",
+		"TextureId" : "101"
+	},
+	"cahe102":{
+		"Name" : "cahe",
+		"ItemId" : "102",
+		"ModelId" : "100",
+		"TextureId" : "102"
+	},
+	"cahi000":{
+		"Name" : "cahi",
+		"ItemId" : "000",
+		"ModelId" : "000",
+		"TextureId" : "000"
+	},
+	"cahi001":{
+		"Name" : "cahi",
+		"ItemId" : "001",
+		"ModelId" : "000",
+		"TextureId" : "001"
+	},
+	"cahi002":{
+		"Name" : "cahi",
+		"ItemId" : "002",
+		"ModelId" : "000",
+		"TextureId" : "002"
+	},
+	"cahi010":{
+		"Name" : "cahi",
+		"ItemId" : "010",
+		"ModelId" : "010",
+		"TextureId" : "010"
+	},
+	"cahi011":{
+		"Name" : "cahi",
+		"ItemId" : "011",
+		"ModelId" : "010",
+		"TextureId" : "011"
+	},
+	"cahi012":{
+		"Name" : "cahi",
+		"ItemId" : "012",
+		"ModelId" : "010",
+		"TextureId" : "012"
+	},
+	"cahi020":{
+		"Name" : "cahi",
+		"ItemId" : "020",
+		"ModelId" : "020",
+		"TextureId" : "020"
+	},
+	"cahi021":{
+		"Name" : "cahi",
+		"ItemId" : "021",
+		"ModelId" : "020",
+		"TextureId" : "021"
+	},
+	"cahi022":{
+		"Name" : "cahi",
+		"ItemId" : "022",
+		"ModelId" : "020",
+		"TextureId" : "022"
+	},
+	"cask000":{
+		"Name" : "cask",
+		"ItemId" : "000",
+		"ModelId" : "000",
+		"TextureId" : "000"
+	},
+	"cask001":{
+		"Name" : "cask",
+		"ItemId" : "001",
+		"ModelId" : "001",
+		"TextureId" : "001"
+	},
+	"cask002":{
+		"Name" : "cask",
+		"ItemId" : "002",
+		"ModelId" : "002",
+		"TextureId" : "002"
+	},
+	"casp000":{
+		"Name" : "casp",
+		"ItemId" : "000",
+		"ModelId" : "000",
+		"TextureId" : "000"
+	},
+	"casp001":{
+		"Name" : "casp",
+		"ItemId" : "001",
+		"ModelId" : "000",
+		"TextureId" : "001"
+	},
+	"casp002":{
+		"Name" : "casp",
+		"ItemId" : "002",
+		"ModelId" : "000",
+		"TextureId" : "002"
+	},
+	"casp010":{
+		"Name" : "casp",
+		"ItemId" : "010",
+		"ModelId" : "010",
+		"TextureId" : "010"
+	},
+	"casp011":{
+		"Name" : "casp",
+		"ItemId" : "011",
+		"ModelId" : "010",
+		"TextureId" : "011"
+	},
+	"casp012":{
+		"Name" : "casp",
+		"ItemId" : "012",
+		"ModelId" : "010",
+		"TextureId" : "012"
+	},
+	"casp020":{
+		"Name" : "casp",
+		"ItemId" : "020",
+		"ModelId" : "020",
+		"TextureId" : "020"
+	},
+	"casp021":{
+		"Name" : "casp",
+		"ItemId" : "021",
+		"ModelId" : "020",
+		"TextureId" : "021"
+	},
+	"casp022":{
+		"Name" : "casp",
+		"ItemId" : "022",
+		"ModelId" : "020",
+		"TextureId" : "022"
+	},
+	"casp030":{
+		"Name" : "casp",
+		"ItemId" : "030",
+		"ModelId" : "030",
+		"TextureId" : "030"
+	},
+	"casp031":{
+		"Name" : "casp",
+		"ItemId" : "031",
+		"ModelId" : "030",
+		"TextureId" : "031"
+	},
+	"casp032":{
+		"Name" : "casp",
+		"ItemId" : "032",
+		"ModelId" : "030",
+		"TextureId" : "032"
+	},
+	"casp040":{
+		"Name" : "casp",
+		"ItemId" : "040",
+		"ModelId" : "040",
+		"TextureId" : "040"
+	},
+	"casp041":{
+		"Name" : "casp",
+		"ItemId" : "041",
+		"ModelId" : "040",
+		"TextureId" : "041"
+	},
+	"casp042":{
+		"Name" : "casp",
+		"ItemId" : "042",
+		"ModelId" : "040",
+		"TextureId" : "042"
+	},
+	"casp050":{
+		"Name" : "casp",
+		"ItemId" : "050",
+		"ModelId" : "050",
+		"TextureId" : "050"
+	},
+	"casp051":{
+		"Name" : "casp",
+		"ItemId" : "051",
+		"ModelId" : "050",
+		"TextureId" : "051"
+	},
+	"casp052":{
+		"Name" : "casp",
+		"ItemId" : "052",
+		"ModelId" : "050",
+		"TextureId" : "052"
+	},
+	"casp060":{
+		"Name" : "casp",
+		"ItemId" : "060",
+		"ModelId" : "060",
+		"TextureId" : "060"
+	},
+	"casp061":{
+		"Name" : "casp",
+		"ItemId" : "061",
+		"ModelId" : "060",
+		"TextureId" : "061"
+	},
+	"casp062":{
+		"Name" : "casp",
+		"ItemId" : "062",
+		"ModelId" : "060",
+		"TextureId" : "062"
+	},
+	"casp070":{
+		"Name" : "casp",
+		"ItemId" : "070",
+		"ModelId" : "070",
+		"TextureId" : "070"
+	},
+	"casp071":{
+		"Name" : "casp",
+		"ItemId" : "071",
+		"ModelId" : "070",
+		"TextureId" : "071"
+	},
+	"casp072":{
+		"Name" : "casp",
+		"ItemId" : "072",
+		"ModelId" : "070",
+		"TextureId" : "072"
+	},
+	"casp080":{
+		"Name" : "casp",
+		"ItemId" : "080",
+		"ModelId" : "080",
+		"TextureId" : "080"
+	},
+	"casp081":{
+		"Name" : "casp",
+		"ItemId" : "081",
+		"ModelId" : "080",
+		"TextureId" : "081"
+	},
+	"casp082":{
+		"Name" : "casp",
+		"ItemId" : "082",
+		"ModelId" : "080",
+		"TextureId" : "082"
+	},
+	"casp090":{
+		"Name" : "casp",
+		"ItemId" : "090",
+		"ModelId" : "090",
+		"TextureId" : "090"
+	},
+	"casp091":{
+		"Name" : "casp",
+		"ItemId" : "091",
+		"ModelId" : "090",
+		"TextureId" : "091"
+	},
+	"casp092":{
+		"Name" : "casp",
+		"ItemId" : "092",
+		"ModelId" : "090",
+		"TextureId" : "092"
+	},
+	"casp100":{
+		"Name" : "casp",
+		"ItemId" : "100",
+		"ModelId" : "100",
+		"TextureId" : "100"
+	},
+	"casp101":{
+		"Name" : "casp",
+		"ItemId" : "101",
+		"ModelId" : "100",
+		"TextureId" : "101"
+	},
+	"casp102":{
+		"Name" : "casp",
+		"ItemId" : "102",
+		"ModelId" : "100",
+		"TextureId" : "102"
+	},
+	"casp110":{
+		"Name" : "casp",
+		"ItemId" : "110",
+		"ModelId" : "110",
+		"TextureId" : "110"
+	},
+	"casp111":{
+		"Name" : "casp",
+		"ItemId" : "111",
+		"ModelId" : "110",
+		"TextureId" : "111"
+	},
+	"casp112":{
+		"Name" : "casp",
+		"ItemId" : "112",
+		"ModelId" : "110",
+		"TextureId" : "112"
+	},
+	"dahe000":{
+		"Name" : "dahe",
+		"ItemId" : "000",
+		"ModelId" : "000",
+		"TextureId" : "000"
+	},
+	"dahe001":{
+		"Name" : "dahe",
+		"ItemId" : "001",
+		"ModelId" : "000",
+		"TextureId" : "001"
+	},
+	"dahe002":{
+		"Name" : "dahe",
+		"ItemId" : "002",
+		"ModelId" : "000",
+		"TextureId" : "002"
+	},
+	"dahe010":{
+		"Name" : "dahe",
+		"ItemId" : "010",
+		"ModelId" : "010",
+		"TextureId" : "010"
+	},
+	"dahe011":{
+		"Name" : "dahe",
+		"ItemId" : "011",
+		"ModelId" : "010",
+		"TextureId" : "011"
+	},
+	"dahe012":{
+		"Name" : "dahe",
+		"ItemId" : "012",
+		"ModelId" : "010",
+		"TextureId" : "012"
+	},
+	"dahe020":{
+		"Name" : "dahe",
+		"ItemId" : "020",
+		"ModelId" : "020",
+		"TextureId" : "020"
+	},
+	"dahe021":{
+		"Name" : "dahe",
+		"ItemId" : "021",
+		"ModelId" : "020",
+		"TextureId" : "021"
+	},
+	"dahe022":{
+		"Name" : "dahe",
+		"ItemId" : "022",
+		"ModelId" : "020",
+		"TextureId" : "022"
+	},
+	"dahe030":{
+		"Name" : "dahe",
+		"ItemId" : "030",
+		"ModelId" : "030",
+		"TextureId" : "030"
+	},
+	"dahe110":{
+		"Name" : "dahe",
+		"ItemId" : "110",
+		"ModelId" : "110",
+		"TextureId" : "110"
+	},
+	"dahi000":{
+		"Name" : "dahi",
+		"ItemId" : "000",
+		"ModelId" : "000",
+		"TextureId" : "000"
+	},
+	"dahi001":{
+		"Name" : "dahi",
+		"ItemId" : "001",
+		"ModelId" : "000",
+		"TextureId" : "001"
+	},
+	"dahi002":{
+		"Name" : "dahi",
+		"ItemId" : "002",
+		"ModelId" : "000",
+		"TextureId" : "002"
+	},
+	"dahi010":{
+		"Name" : "dahi",
+		"ItemId" : "010",
+		"ModelId" : "010",
+		"TextureId" : "010"
+	},
+	"dahi011":{
+		"Name" : "dahi",
+		"ItemId" : "011",
+		"ModelId" : "010",
+		"TextureId" : "011"
+	},
+	"dahi012":{
+		"Name" : "dahi",
+		"ItemId" : "012",
+		"ModelId" : "010",
+		"TextureId" : "012"
+	},
+	"dahi020":{
+		"Name" : "dahi",
+		"ItemId" : "020",
+		"ModelId" : "020",
+		"TextureId" : "020"
+	},
+	"dasp000":{
+		"Name" : "dasp",
+		"ItemId" : "000",
+		"ModelId" : "000",
+		"TextureId" : "000"
+	},
+	"dasp001":{
+		"Name" : "dasp",
+		"ItemId" : "001",
+		"ModelId" : "000",
+		"TextureId" : "001"
+	},
+	"dasp002":{
+		"Name" : "dasp",
+		"ItemId" : "002",
+		"ModelId" : "000",
+		"TextureId" : "002"
+	},
+	"dasp010":{
+		"Name" : "dasp",
+		"ItemId" : "010",
+		"ModelId" : "010",
+		"TextureId" : "010"
+	},
+	"dasp011":{
+		"Name" : "dasp",
+		"ItemId" : "011",
+		"ModelId" : "010",
+		"TextureId" : "011"
+	},
+	"dasp012":{
+		"Name" : "dasp",
+		"ItemId" : "012",
+		"ModelId" : "010",
+		"TextureId" : "012"
+	},
+	"dasp020":{
+		"Name" : "dasp",
+		"ItemId" : "020",
+		"ModelId" : "020",
+		"TextureId" : "020"
+	},
+	"dasp021":{
+		"Name" : "dasp",
+		"ItemId" : "021",
+		"ModelId" : "020",
+		"TextureId" : "021"
+	},
+	"dasp022":{
+		"Name" : "dasp",
+		"ItemId" : "022",
+		"ModelId" : "020",
+		"TextureId" : "022"
+	},
+	"dasp030":{
+		"Name" : "dasp",
+		"ItemId" : "030",
+		"ModelId" : "030",
+		"TextureId" : "030"
+	},
+	"dasp031":{
+		"Name" : "dasp",
+		"ItemId" : "031",
+		"ModelId" : "030",
+		"TextureId" : "031"
+	},
+	"dasp032":{
+		"Name" : "dasp",
+		"ItemId" : "032",
+		"ModelId" : "030",
+		"TextureId" : "032"
+	},
+	"dasp040":{
+		"Name" : "dasp",
+		"ItemId" : "040",
+		"ModelId" : "040",
+		"TextureId" : "040"
+	},
+	"dasp041":{
+		"Name" : "dasp",
+		"ItemId" : "041",
+		"ModelId" : "040",
+		"TextureId" : "041"
+	},
+	"dasp042":{
+		"Name" : "dasp",
+		"ItemId" : "042",
+		"ModelId" : "040",
+		"TextureId" : "042"
+	},
+	"dasp050":{
+		"Name" : "dasp",
+		"ItemId" : "050",
+		"ModelId" : "050",
+		"TextureId" : "050"
+	},
+	"dasp060":{
+		"Name" : "dasp",
+		"ItemId" : "060",
+		"ModelId" : "060",
+		"TextureId" : "060"
+	},
+	"dasp070":{
+		"Name" : "dasp",
+		"ItemId" : "070",
+		"ModelId" : "070",
+		"TextureId" : "070"
+	},
+	"dasp100":{
+		"Name" : "dasp",
+		"ItemId" : "100",
+		"ModelId" : "100",
+		"TextureId" : "100"
+	},
+	"cask300":{
+		"Name" : "cask",
+		"ItemId" : "300",
+		"ModelId" : "300",
+		"TextureId" : "300"
+	},
+	"cask301":{
+		"Name" : "cask",
+		"ItemId" : "301",
+		"ModelId" : "301",
+		"TextureId" : "301"
+	},
+	"cask302":{
+		"Name" : "cask",
+		"ItemId" : "302",
+		"ModelId" : "302",
+		"TextureId" : "302"
+	},
+	"cask400":{
+		"Name" : "cask",
+		"ItemId" : "400",
+		"ModelId" : "400",
+		"TextureId" : "400"
+	},
+	"cask401":{
+		"Name" : "cask",
+		"ItemId" : "401",
+		"ModelId" : "401",
+		"TextureId" : "401"
+	},
+	"cask402":{
+		"Name" : "cask",
+		"ItemId" : "402",
+		"ModelId" : "402",
+		"TextureId" : "402"
+	},
+	"cask500":{
+		"Name" : "cask",
+		"ItemId" : "500",
+		"ModelId" : "500",
+		"TextureId" : "500"
+	},
+	"cask501":{
+		"Name" : "cask",
+		"ItemId" : "501",
+		"ModelId" : "501",
+		"TextureId" : "501"
+	},
+	"cask502":{
+		"Name" : "cask",
+		"ItemId" : "502",
+		"ModelId" : "502",
+		"TextureId" : "502"
+	},
+	"cask600":{
+		"Name" : "cask",
+		"ItemId" : "600",
+		"ModelId" : "600",
+		"TextureId" : "600"
+	},
+	"cask601":{
+		"Name" : "cask",
+		"ItemId" : "601",
+		"ModelId" : "601",
+		"TextureId" : "600"
+	},
+	"cask602":{
+		"Name" : "cask",
+		"ItemId" : "602",
+		"ModelId" : "602",
+		"TextureId" : "600"
+	},
+	"dahe050":{
+		"Name" : "dahe",
+		"ItemId" : "050",
+		"ModelId" : "050",
+		"TextureId" : "050"
+	},
+	"dahe051":{
+		"Name" : "dahe",
+		"ItemId" : "051",
+		"ModelId" : "050",
+		"TextureId" : "051"
+	},
+	"dahe052":{
+		"Name" : "dahe",
+		"ItemId" : "052",
+		"ModelId" : "050",
+		"TextureId" : "052"
+	},
+	"dahi040":{
+		"Name" : "dahi",
+		"ItemId" : "040",
+		"ModelId" : "040",
+		"TextureId" : "040"
+	},
+	"dahi041":{
+		"Name" : "dahi",
+		"ItemId" : "041",
+		"ModelId" : "040",
+		"TextureId" : "041"
+	},
+	"dahi042":{
+		"Name" : "dahi",
+		"ItemId" : "042",
+		"ModelId" : "040",
+		"TextureId" : "042"
+	},
+	"dahi060":{
+		"Name" : "dahi",
+		"ItemId" : "060",
+		"ModelId" : "060",
+		"TextureId" : "060"
+	},
+	"dasp110":{
+		"Name" : "dasp",
+		"ItemId" : "110",
+		"ModelId" : "110",
+		"TextureId" : "110"
+	},
+	"dasp120":{
+		"Name" : "dasp",
+		"ItemId" : "120",
+		"ModelId" : "120",
+		"TextureId" : "120"
+	},
+	"dasp130":{
+		"Name" : "dasp",
+		"ItemId" : "130",
+		"ModelId" : "130",
+		"TextureId" : "130"
+	},
+	"dasp150":{
+		"Name" : "dasp",
+		"ItemId" : "150",
+		"ModelId" : "150",
+		"TextureId" : "150"
+	},
+	"dahe040":{
+		"Name" : "dahe",
+		"ItemId" : "040",
+		"ModelId" : "040",
+		"TextureId" : "040"
+	},
+	"dahi030":{
+		"Name" : "dahi",
+		"ItemId" : "030",
+		"ModelId" : "030",
+		"TextureId" : "030"
+	},
+	"dasp080":{
+		"Name" : "dasp",
+		"ItemId" : "080",
+		"ModelId" : "080",
+		"TextureId" : "080"
+	},
+	"cask700":{
+		"Name" : "cask",
+		"ItemId" : "700",
+		"ModelId" : "700",
+		"TextureId" : "700"
+	},
+	"cask701":{
+		"Name" : "cask",
+		"ItemId" : "701",
+		"ModelId" : "701",
+		"TextureId" : "701"
+	},
+	"cask702":{
+		"Name" : "cask",
+		"ItemId" : "702",
+		"ModelId" : "702",
+		"TextureId" : "702"
+	},
+	"cask800":{
+		"Name" : "cask",
+		"ItemId" : "800",
+		"ModelId" : "800",
+		"TextureId" : "800"
+	},
+	"cask801":{
+		"Name" : "cask",
+		"ItemId" : "801",
+		"ModelId" : "801",
+		"TextureId" : "801"
+	},
+	"cask802":{
+		"Name" : "cask",
+		"ItemId" : "802",
+		"ModelId" : "802",
+		"TextureId" : "802"
+	},
+	"cask0100600":{
+		"Name" : "cask",
+		"ItemId" : "0100600",
+		"ModelId" : "0100600",
+		"TextureId" : "0100600"
+	},
+	"cask0100601":{
+		"Name" : "cask",
+		"ItemId" : "0100601",
+		"ModelId" : "0100601",
+		"TextureId" : "0100601"
+	},
+	"cask0100602":{
+		"Name" : "cask",
+		"ItemId" : "0100602",
+		"ModelId" : "0100602",
+		"TextureId" : "0100602"
+	},
+	"cask0100700":{
+		"Name" : "cask",
+		"ItemId" : "0100700",
+		"ModelId" : "0100700",
+		"TextureId" : "0100700"
+	},
+	"casp1005700":{
+		"Name" : "casp",
+		"ItemId" : "1005700",
+		"ModelId" : "1005700",
+		"TextureId" : "1005700"
+	},
+	"casp1005800":{
+		"Name" : "casp",
+		"ItemId" : "1005800",
+		"ModelId" : "1005800",
+		"TextureId" : "1005800"
+	}
+},
+// CharacterModelDetail.xlsx.tmp motionParam 
+
+"motionParam_":{
+	"Syl00Wait.rra":{
+		"isLoop_" : true
+	},
+	"Syl00Run.rra":{
+		"isLoop_" : true
+	},
+	"grob01FallF.rra":{
+		"isLoop_" : true
+	},
+	"grob01Run.rra":{
+		"isLoop_" : true
+	},
+	"grob01Wait.rra":{
+		"isLoop_" : true
+	},
+	"Wrr00Wait.rra":{
+		"isLoop_" : true
+	},
+	"Wrr00Wait2.rra":{
+		"isLoop_" : true
+	},
+	"Wrr00Run.rra":{
+		"isLoop_" : true
+	},
+	"Wrr00Combo.rra":{
+		"isLoop_" : true
+	},
+	"Wrr00Combo2.rra":{
+		"isLoop_" : true
+	},
+	"Wrr00GuardWait.rra":{
+		"isLoop_" : true
+	},
+	"Wrr00GuardWalk.rra":{
+		"isLoop_" : true
+	},
+	"Wrr00ExAttackSpin.rra":{
+		"isLoop_" : true
+	},
+	"Wrr00ExChargeWait.rra":{
+		"isLoop_" : true
+	},
+	"Wrr00ExRush.rra":{
+		"isLoop_" : true
+	},
+	"Wrr00ExRoar.rra":{
+		"isLoop_" : true
+	},
+	"Wrr00ExRocket.rra":{
+		"isLoop_" : true
+	},
+	"Ber00Wait.rra":{
+		"isLoop_" : true
+	},
+	"Ber00Run.rra":{
+		"isLoop_" : true
+	},
+	"Ber00GuardWait.rra":{
+		"isLoop_" : true
+	},
+	"Ber00GuardWalk.rra":{
+		"isLoop_" : true
+	},
+	"Ber00ExRush.rra":{
+		"isLoop_" : true
+	},
+	"Ber00ExRoar.rra":{
+		"isLoop_" : true
+	},
+	"Cle00Wait.rra":{
+		"isLoop_" : true
+	},
+	"Cle00Run.rra":{
+		"isLoop_" : true
+	},
+	"Cle00GuardWait.rra":{
+		"isLoop_" : true
+	},
+	"Cle00GuardWalk.rra":{
+		"isLoop_" : true
+	},
+	"Cle00Magic1Wait.rra":{
+		"isLoop_" : true
+	},
+	"Cle00Magic1Walk.rra":{
+		"isLoop_" : true
+	},
+	"Cle00Magic2Wait.rra":{
+		"isLoop_" : true
+	},
+	"Cle00Magic2Walk.rra":{
+		"isLoop_" : true
+	},
+	"Cle00Magic3Wait.rra":{
+		"isLoop_" : true
+	},
+	"Cle00Magic3Walk.rra":{
+		"isLoop_" : true
+	},
+	"Eng00Wait.rra":{
+		"isLoop_" : true
+	},
+	"Eng00Run.rra":{
+		"isLoop_" : true
+	},
+	"Eng00RepairWait.rra":{
+		"isLoop_" : true
+	},
+	"Eng00RepairWalk.rra":{
+		"isLoop_" : true
+	},
+	"Mag00Wait.rra":{
+		"isLoop_" : true
+	},
+	"Mag00Run.rra":{
+		"isLoop_" : true
+	},
+	"Mag00Magic1Wait.rra":{
+		"isLoop_" : true
+	},
+	"Mag00Magic1Walk.rra":{
+		"isLoop_" : true
+	},
+	"Mag00Magic2Wait.rra":{
+		"isLoop_" : true
+	},
+	"Mag00Magic2Walk.rra":{
+		"isLoop_" : true
+	},
+	"Mag00Magic3Wait.rra":{
+		"isLoop_" : true
+	},
+	"Mag00ShotWait.rra":{
+		"isLoop_" : true
+	},
+	"Mag00ShotWalk.rra":{
+		"isLoop_" : true
+	},
+	"Sha00HangDance.rra":{
+		"isLoop_" : true
+	},
+	"Sha00DamageWait.rra":{
+		"isLoop_" : true
+	},
+	"Sha00DamageWaitNsh.rra":{
+		"isLoop_" : true
+	},
+	"Sha00DamageWalk.rra":{
+		"isLoop_" : true
+	},
+	"Sha00DamageReelF.rra":{
+		"isLoop_" : true
+	},
+	"Sha00DamageReelB.rra":{
+		"isLoop_" : true
+	},
+	"Sha00DamageReelR.rra":{
+		"isLoop_" : true
+	},
+	"Sha00DamageReelL.rra":{
+		"isLoop_" : true
+	},
+	"Sha00Hang.rra":{
+		"isLoop_" : true
+	},
+	"Sha00Stun.rra":{
+		"isLoop_" : true
+	},
+	"Sha00ScaredWait.rra":{
+		"isLoop_" : true
+	},
+	"Sha00ScaredWalk.rra":{
+		"isLoop_" : true
+	},
+	"Sha00FallF.rra":{
+		"isLoop_" : true
+	},
+	"Sha00FallB.rra":{
+		"isLoop_" : true
+	},
+	"Sha00Warmup.rra":{
+		"isLoop_" : true
+	},
+	"Sha00FlowerWait.rra":{
+		"isLoop_" : true
+	},
+	"Sha00FlowerWalk.rra":{
+		"isLoop_" : true
+	},
+	"Sha00GimmickRide.rra":{
+		"isLoop_" : true
+	},
+	"Sha00RobotRun.rra":{
+		"isLoop_" : true
+	},
+	"Sha00RobotWait.rra":{
+		"isLoop_" : true
+	},
+	"Prs00Wait.rra":{
+		"isLoop_" : true
+	}
+}}}
