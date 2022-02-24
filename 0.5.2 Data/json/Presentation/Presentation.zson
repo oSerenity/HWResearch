@@ -1,0 +1,88 @@
+// Gemini_Presentation.xlsx.tmp PresentInfo 
+
+{"JsonPresentation":{"presentInfo_":{
+	"Default":{
+		"Date" : 0
+	},
+	"HappySorry":{
+		"Date" : 20120627,
+		"IsEnable" : false,
+		"RewardSetId" : "SampleSet",
+		"InfomationTextId" : "HOGEHOGE"
+	},
+	"Reword_CC":{
+		"Date" : 1,
+		"EndDate" : 20130509,
+		"IsEnable" : false,
+		"RewardSetId" : "CCItems01",
+		"InfomationTextId" : "#TXPRE00001",
+		"TitleID" : "0x584108B7"
+	},
+	"Reword_IM":{
+		"Date" : 2,
+		"EndDate" : 20130613,
+		"IsEnable" : false,
+		"RewardSetId" : "IMItems01",
+		"InfomationTextId" : "#TXPRE00002",
+		"TitleID" : "0x58410A1B"
+	},
+	"Reword_SS":{
+		"Date" : 3,
+		"EndDate" : 20130613,
+		"IsEnable" : false,
+		"RewardSetId" : "SSItems01",
+		"InfomationTextId" : "#TXPRE00003",
+		"TitleID" : "0x584111D8"
+	},
+	"Reward_MC":{
+		"Date" : 4,
+		"EndDate" : 20130801,
+		"IsEnable" : false,
+		"RewardSetId" : "MCItems01",
+		"InfomationTextId" : "#TXPRE00004",
+		"TitleID" : "0x584111F7"
+	},
+	"500mDL":{
+		"Date" : 20130811,
+		"EndDate" : 20130809,
+		"IsEnable" : false,
+		"RewardSetId" : "500mDL",
+		"InfomationTextId" : "#TXPRE10001"
+	},
+	"HLItems01":{
+		"Date" : 20131102,
+		"EndDate" : 20131102,
+		"IsEnable" : false,
+		"InfomationTextId" : "#TXPRE10004"
+	},
+	"EAend01":{
+		"Date" : 20140709,
+		"EndDate" : 20140709,
+		"IsEnable" : false,
+		"HappyTicketNum" : 100,
+		"InfomationTextId" : "#TXPRE10003"
+	},
+	"DEVpresent":{
+		"Date" : 20140724,
+		"EndDate" : 20140724,
+		"IsEnable" : true,
+		"HappyTicketNum" : 1,
+		"InfomationTextId" : "#TXPRE10004",
+		"GamerTag" : "1:9"
+	},
+	"DEVpresent2":{
+		"Date" : 20140724,
+		"EndDate" : 20140724,
+		"IsEnable" : true,
+		"HappyTicketNum" : 2701,
+		"InfomationTextId" : "#TXPRE10004",
+		"GamerTag" : "3:1"
+	},
+	"ReleaseToken":{
+		"Date" : 20140724,
+		"EndDate" : 20140724,
+		"IsEnable" : true,
+		"HappyTicketNum" : 100,
+		"InfomationTextId" : "#TXPRE10003"
+	}
+}}}

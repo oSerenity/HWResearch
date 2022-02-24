@@ -1,0 +1,97 @@
+/* XDASEA_Xm8R_SPsX */ 
+// sligA_stage_gimmick.xlsx.tmp GimmickPosition 
+
+{"JsonStageSetTable":{"gimmickDecoArrangeParam_":{
+	"gligAdeco01_001":{
+		"firstModelName_" : "gdecovalentine01",
+		"firstAnimeName_" : "gdecovalentine01_000_idle_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : -116.4001,
+		"transX_" : 10773.3857,
+		"transY_" : 500,
+		"transZ_" : 12142.999
+	},
+	"gligAdeco01_002":{
+		"firstModelName_" : "gdecovalentine01",
+		"firstAnimeName_" : "gdecovalentine01_000_idle_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : -74.374,
+		"transX_" : 23567.5391,
+		"transY_" : 500,
+		"transZ_" : 3556.8135
+	},
+	"gligAdeco02_001":{
+		"firstModelName_" : "gdecovalentine02",
+		"firstAnimeName_" : "gdecovalentine02_000_idle_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"scaleX_" : 2.5,
+		"scaleY_" : 2.5,
+		"scaleZ_" : 2.5,
+		"rotY_" : -116.4001,
+		"transX_" : 10773.3857,
+		"transY_" : 500,
+		"transZ_" : 12142.999
+	},
+	"gligAdeco02_002":{
+		"firstModelName_" : "gdecovalentine02",
+		"firstAnimeName_" : "gdecovalentine02_000_idle_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"scaleX_" : 2.5,
+		"scaleY_" : 2.5,
+		"scaleZ_" : 2.5,
+		"rotY_" : -74.374,
+		"transX_" : 23567.5391,
+		"transY_" : 500,
+		"transZ_" : 3556.8135
+	},
+	"gligAdeco03_001":{
+		"firstModelName_" : "gdecovalentine03",
+		"firstAnimeName_" : "gdecovalentine03_001_idle_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"scaleX_" : 2.5,
+		"scaleY_" : 2.5,
+		"scaleZ_" : 2.5,
+		"rotY_" : -116.4001,
+		"transX_" : 10773.3857,
+		"transY_" : 500,
+		"transZ_" : 12142.999
+	},
+	"gligAdeco03_002":{
+		"firstModelName_" : "gdecovalentine03",
+		"firstAnimeName_" : "gdecovalentine03_001_idle_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"scaleX_" : 2.5,
+		"scaleY_" : 2.5,
+		"scaleZ_" : 2.5,
+		"rotY_" : -74.374,
+		"transX_" : 23567.5391,
+		"transY_" : 500,
+		"transZ_" : 3556.8135
+	},
+	"gligAdeco03_003":{
+		"firstModelName_" : "gdecovalentine02",
+		"firstAnimeName_" : "gdecovalentine02_002_idle_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"scaleX_" : 1,
+		"scaleY_" : 1,
+		"scaleZ_" : 1,
+		"rotY_" : 0,
+		"transX_" : 0,
+		"transY_" : 0,
+		"transZ_" : 0
+	}
+}}}

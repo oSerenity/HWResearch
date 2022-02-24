@@ -1,0 +1,65 @@
+/* XDASEA_Xm8R_SPsX */ 
+// gemini_stage_tactics.xlsx.tmp sbabA 
+
+{"JsonStageSetTable":{"invadeSetting_":{
+	"sbabA_gcmoA_001_b":{
+		"tagName" : "gcmoA_001",
+		"targetColor" : "BLACK",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 4,
+		"judgeAreaNo02" : 5
+	},
+	"sbabA_gcmoB_001_b":{
+		"tagName" : "gcmoB_001",
+		"targetColor" : "BLACK",
+		"enableBotArea" : false
+	},
+	"sbabA_gfmo_002_b":{
+		"tagName" : "gfmo_002",
+		"targetColor" : "BLACK",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 4,
+		"judgeAreaNo02" : 5
+	},
+	"sbabA_gfmo_001_b":{
+		"tagName" : "gfmo_001",
+		"targetColor" : "BLACK",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 5
+	},
+	"sbabA_gfmo_003_b":{
+		"tagName" : "gfmo_003",
+		"targetColor" : "BLACK",
+		"enableBotArea" : false
+	},
+	"sbabA_gcmoA_001_w":{
+		"tagName" : "gcmoA_001",
+		"targetColor" : "WHITE",
+		"enableBotArea" : false
+	},
+	"sbabA_gfmo_003_w":{
+		"tagName" : "gfmo_003",
+		"targetColor" : "WHITE",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 2,
+		"judgeAreaNo02" : 1
+	},
+	"sbabA_gcmoB_001_w":{
+		"tagName" : "gcmoB_001",
+		"targetColor" : "WHITE",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 2,
+		"judgeAreaNo02" : 1
+	},
+	"sbabA_gfmo_001_w":{
+		"tagName" : "gfmo_001",
+		"targetColor" : "WHITE",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 1
+	},
+	"sbabA_gfmo_002_w":{
+		"tagName" : "gfmo_002",
+		"targetColor" : "WHITE",
+		"enableBotArea" : false
+	}
+}}}

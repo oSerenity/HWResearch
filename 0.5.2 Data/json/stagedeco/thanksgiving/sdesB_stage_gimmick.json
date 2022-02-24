@@ -1,0 +1,53 @@
+/* XDASEA_Xm8R_SPsX */ 
+// sdesB_stage_gimmick.xlsx.tmp GimmickPosition 
+
+{"JsonStageSetTable":{"gimmickDecoArrangeParam_":{
+	"gdecothanksgiving01_001":{
+		"firstModelName_" : "gdecothanksgiving01",
+		"firstAnimeName_" : "gdecothanksgiving01_idol_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"scaleX_" : 1.2,
+		"scaleY_" : 1.2,
+		"scaleZ_" : 1.2,
+		"rotY_" : -80,
+		"transX_" : -3200,
+		"transY_" : -600,
+		"transZ_" : -550
+	},
+	"gdecothanksgiving01_002":{
+		"firstModelName_" : "gdecothanksgiving01",
+		"firstAnimeName_" : "gdecothanksgiving01_idol_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"scaleX_" : 1.2,
+		"scaleY_" : 1.2,
+		"scaleZ_" : 1.2,
+		"rotY_" : 80,
+		"transX_" : 3200,
+		"transY_" : -600,
+		"transZ_" : 1700
+	},
+	"gdecothanksgiving02_001":{
+		"firstModelName_" : "gdecothanksgiving02",
+		"firstAnimeName_" : "gdecothanksgiving02_idol_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 105.389,
+		"transX_" : -11398.305,
+		"transZ_" : 2490.42
+	},
+	"gdecothanksgiving02_002":{
+		"firstModelName_" : "gdecothanksgiving02",
+		"firstAnimeName_" : "gdecothanksgiving02_idol_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 260.536,
+		"transX_" : 13097.737,
+		"transZ_" : 3138.167
+	}
+}}}

@@ -1,0 +1,25 @@
+/* XDASEA_Xm8R_SPsX */ 
+// sdarA_stage_gimmick.xlsx.tmp GimmickPosition 
+
+{"JsonStageSetTable":{"gimmickDecoArrangeParam_":{
+	"gligBdeco01_001":{
+		"firstModelName_" : "gligBdeco01",
+		"firstAnimeName_" : "gligbdeco01_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 90,
+		"transX_" : -22781.563,
+		"transZ_" : -2996.214
+	},
+	"gligBdeco01_002":{
+		"firstModelName_" : "gligBdeco01",
+		"firstAnimeName_" : "gligbdeco01_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : -90,
+		"transX_" : 22781.563,
+		"transZ_" : 2996.214
+	}
+}}}

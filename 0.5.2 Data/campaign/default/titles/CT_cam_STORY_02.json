@@ -1,0 +1,146 @@
+// CampaignDetail.xlsx.tmp campaign 
+
+{"JsonCampaignTitle":{"campaign_":{
+	"cam_STORY_02":{
+		"index" : 15,
+		"TitleTextID" : "$TXSCT00002",
+		"DetailTextID" : "$TXSCS00002",
+		"OpenTextID" : "$TXFCL00102",
+		"Kind" : "OFFLINE",
+		"Level" : 1,
+		"BattleKind" : "STORY",
+		"MissionID_00" : "mission00",
+		"MissionID_01" : "mission01",
+		"Unlock" : "cam_STORY_01",
+		"UnlockResource" : "UnlockCost_S02"
+	}
+},
+// CampaignDetail.xlsx.tmp mission 
+
+"mission_":{
+	"mission00":{
+		"TitleTextID" : "$TXSMT00021",
+		"DetailTextID" : "$TXSMS00021",
+		"AchieveTitleTextID" : "TEXT_ID_SAMPLE",
+		"AchieveDetailTextID" : "$TXFMA10201",
+		"LabelType" : "LABEL_SAMPLE",
+		"BackgroundImage" : "sample.jpg",
+		"StageBres" : "sligA.bres",
+		"StartDemoID" : "demo_103",
+		"StageSettingID" : 1,
+		"FirstRewardPoint" : 10,
+		"RewardPoint" : 0,
+		"UnionColor" : "WHITE",
+		"RewardSetID" : "SBStar_0201_N",
+		"RewardSetID_H" : "SBStar_0201_H",
+		"RewardSetID_SH" : "SBStar_0201_SH",
+		"WhiteBotEquipmentRare" : 1,
+		"WhiteBotEquipmentLevel" : 2,
+		"BlackBotEquipmentRare" : 1,
+		"BlackBotEquipmentLevel" : 1,
+		"GameTime" : 600,
+		"GameTime_H" : 600,
+		"GameTime_SH" : 600,
+		"StartWaitTime" : 0,
+		"EndWaitTime" : 8,
+		"NormalRebirthTime" : 20,
+		"PenaltyRebirthTime" : 20,
+		"EntryWhiteMax" : 0,
+		"EntryBlackMax" : 0,
+		"ScriptGameJudgement" : true,
+		"EnableSuddenDeath" : false,
+		"BotAttackRate" : 1,
+		"BotTargetRate" : 1,
+		"BotSkillSetWarrior" : "SSEasy_W",
+		"BotSkillSetCleric" : "SSEasy_C",
+		"BotSkillSetMage" : "SSEasy_M",
+		"BotActionGuardWarrior" : false,
+		"BotActionGuardCleric" : false,
+		"BotActionDashAttackWarrior" : false,
+		"BotActionBlowAttackWarrior" : false,
+		"BotActionBlowAttackCleric" : false
+	},
+	"mission01":{
+		"TitleTextID" : "$TXSMT00022",
+		"DetailTextID" : "$TXSMS00022",
+		"AchieveTitleTextID" : "TEXT_ID_SAMPLE",
+		"AchieveDetailTextID" : "$TXFMA10202",
+		"LabelType" : "LABEL_SAMPLE",
+		"BackgroundImage" : "sample.jpg",
+		"StageBres" : "sligA.bres",
+		"StageSettingID" : 1,
+		"FirstRewardPoint" : 10,
+		"RewardPoint" : 0,
+		"UnionColor" : "WHITE",
+		"RewardSetID" : "SBStar_0202_N",
+		"RewardSetID_H" : "SBStar_0202_H",
+		"RewardSetID_SH" : "SBStar_0202_SH",
+		"WhiteBotEquipmentRare" : 4,
+		"WhiteBotEquipmentLevel" : 4,
+		"BlackBotEquipmentRare" : 4,
+		"BlackBotEquipmentLevel" : 4,
+		"GameTime" : 315,
+		"GameTime_H" : 315,
+		"GameTime_SH" : 315,
+		"StartWaitTime" : 0,
+		"EndWaitTime" : 8,
+		"NormalRebirthTime" : 20,
+		"PenaltyRebirthTime" : 20,
+		"EntryWhiteMax" : 0,
+		"EntryBlackMax" : 0,
+		"ScriptGameJudgement" : true,
+		"EnableSuddenDeath" : false,
+		"BotAttackRate" : 1,
+		"BotTargetRate" : 1,
+		"BotSkillSetWarrior" : "SSNormal_W",
+		"BotSkillSetCleric" : "SSNormal_C",
+		"BotSkillSetMage" : "SSNormal_M",
+		"BotActionGuardWarrior" : false,
+		"BotActionDashAttackWarrior" : false,
+		"BotActionBlowAttackWarrior" : false,
+		"BotActionBlowAttackCleric" : false
+	}
+},
+// CampaignDetail.xlsx.tmp reward_set 
+
+"rewardSet_":{
+	"SampleSet":{
+		"HappyStar" : 0
+	},
+	"SBStar_0201_N":{
+		"HappyStar" : 200,
+		"ItemSetID" : "SBItem_0201"
+	},
+	"SBStar_0201_H":{
+		"HappyStar" : 250
+	},
+	"SBStar_0201_SH":{
+		"HappyStar" : 300
+	},
+	"SBStar_0202_N":{
+		"HappyStar" : 300,
+		"ItemSetID" : "SBItem_0202"
+	},
+	"SBStar_0202_H":{
+		"HappyStar" : 350
+	},
+	"SBStar_0202_SH":{
+		"HappyStar" : 400
+	}
+},
+// CampaignDetail.xlsx.tmp item_detail_title 
+
+"itemDetail_":{
+	"SBItem_0201":{
+		"ItemID" : "ITEM_CAM_0012",
+		"Level" : 1,
+		"BuffID_00" : "Buff_CoolTime_00",
+		"BuffID_01" : "Buff_RespawnTime_00"
+	},
+	"SBItem_0202":{
+		"ItemID" : "ITEM_CAM_0013",
+		"Level" : 1,
+		"BuffID_00" : "Buff_UseApDown_00",
+		"BuffID_01" : "Buff_GimmickAttackUp_01"
+	}
+}}}

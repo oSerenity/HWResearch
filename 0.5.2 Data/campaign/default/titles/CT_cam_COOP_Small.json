@@ -1,0 +1,117 @@
+// CampaignDetail.xlsx.tmp campaign 
+
+{"JsonCampaignTitle":{"campaign_":{
+	"cam_COOP_Small":{
+		"index" : 12,
+		"TitleTextID" : "TEXT_ID_SAMPLE",
+		"DetailTextID" : "TEXT_ID_SAMPLE",
+		"OpenTextID" : "TEXT_ID_SAMPLE",
+		"BattleKind" : "COOP",
+		"MissionID_00" : "mission00",
+		"MissionID_01" : "mission01",
+		"MissionID_02" : "mission02",
+		"ReleaseOnly" : false
+	}
+},
+// CampaignDetail.xlsx.tmp mission 
+
+"mission_":{
+	"mission00":{
+		"TitleTextID" : "TEXT_ID_SAMPLE",
+		"DetailTextID" : "TEXT_ID_SAMPLE",
+		"AchieveTitleTextID" : "TEXT_ID_SAMPLE",
+		"AchieveDetailTextID" : "TEXT_ID_SAMPLE",
+		"LabelType" : "LABEL_SAMPLE",
+		"WhiteBotEquipmentRare" : 3,
+		"WhiteBotEquipmentLevel" : 4,
+		"BlackBotEquipmentRare" : 3,
+		"BlackBotEquipmentLevel" : 4,
+		"GameTime" : -1,
+		"GameTime_H" : -1,
+		"GameTime_SH" : -1,
+		"StartWaitTime" : -1,
+		"EndWaitTime" : -1,
+		"NormalRebirthTime" : -1,
+		"PenaltyRebirthTime" : -1,
+		"EntryWhiteMax" : 8,
+		"EntryBlackMax" : 8,
+		"BotAttackRate" : 1,
+		"BotTargetRate" : 1
+	},
+	"mission01":{
+		"TitleTextID" : "TEXT_ID_SAMPLE",
+		"DetailTextID" : "TEXT_ID_SAMPLE",
+		"AchieveTitleTextID" : "TEXT_ID_SAMPLE",
+		"AchieveDetailTextID" : "TEXT_ID_SAMPLE",
+		"LabelType" : "LABEL_SAMPLE",
+		"WhiteBotEquipmentRare" : 3,
+		"WhiteBotEquipmentLevel" : 4,
+		"BlackBotEquipmentRare" : 3,
+		"BlackBotEquipmentLevel" : 4,
+		"GameTime" : -1,
+		"GameTime_H" : -1,
+		"GameTime_SH" : -1,
+		"StartWaitTime" : -1,
+		"EndWaitTime" : -1,
+		"NormalRebirthTime" : -1,
+		"PenaltyRebirthTime" : -1,
+		"EntryWhiteMax" : 8,
+		"EntryBlackMax" : 8,
+		"BotAttackRate" : 1,
+		"BotTargetRate" : 1
+	},
+	"mission02":{
+		"TitleTextID" : "TEXT_ID_SAMPLE",
+		"DetailTextID" : "TEXT_ID_SAMPLE",
+		"AchieveTitleTextID" : "TEXT_ID_SAMPLE",
+		"AchieveDetailTextID" : "TEXT_ID_SAMPLE",
+		"LabelType" : "LABEL_SAMPLE",
+		"WhiteBotEquipmentRare" : 3,
+		"WhiteBotEquipmentLevel" : 4,
+		"BlackBotEquipmentRare" : 3,
+		"BlackBotEquipmentLevel" : 4,
+		"GameTime" : -1,
+		"GameTime_H" : -1,
+		"GameTime_SH" : -1,
+		"StartWaitTime" : -1,
+		"EndWaitTime" : -1,
+		"NormalRebirthTime" : -1,
+		"PenaltyRebirthTime" : -1,
+		"EntryWhiteMax" : 8,
+		"EntryBlackMax" : 8,
+		"BotAttackRate" : 1,
+		"BotTargetRate" : 1
+	}
+},
+// CampaignDetail.xlsx.tmp reward_set 
+
+"rewardSet_":{
+	"SampleSet":{
+		"HappyStar" : 0,
+		"ItemSetID" : "SampleWeapon"
+	},
+	"NormalBonus":{
+		"HappyStar" : 0,
+		"ItemSetID" : "SampleWeapon"
+	},
+	"HardBonus":{
+		"HappyStar" : 0,
+		"ItemSetID" : "SampleWeapon"
+	},
+	"SuperHardBonus":{
+		"HappyStar" : 0,
+		"ItemSetID" : "SampleWeapon"
+	}
+},
+// CampaignDetail.xlsx.tmp item_detail_title 
+
+"itemDetail_":{
+	"SampleWeapon":{
+		"ItemID" : "ITEM_WEPON_0045",
+		"Level" : 1
+	},
+	"SampleShield":{
+		"ItemID" : "ITEM_SHIELD_0350",
+		"Level" : 1
+	}
+}}}

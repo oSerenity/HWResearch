@@ -1,0 +1,932 @@
+/* XDASEA_Xm8R_SPsX */ 
+// sprg_test_map_stage_gimmick.xlsx.tmp GimmickPosition 
+
+{"JsonStageSetTable":{"gimmickArrangeParam_":{
+	"gcmoA_001":{
+		"gimmickType_" : "CastleMonument",
+		"rotY_" : -90,
+		"transX_" : 8937.33,
+		"transY_" : 194.78,
+		"transZ_" : -36.98,
+		"param0_" : 0
+	},
+	"gcmoB_001":{
+		"gimmickType_" : "CastleMonument",
+		"rotY_" : 90,
+		"transX_" : -8720.34,
+		"transY_" : 194.78,
+		"transZ_" : 42.21,
+		"param0_" : 0
+	},
+	"gfmo_001":{
+		"gimmickType_" : "FieldMonument",
+		"rotY_" : 0,
+		"transX_" : 0,
+		"transY_" : 100,
+		"transZ_" : 0,
+		"param0_" : 1
+	},
+	"gbom02_001":{
+		"gimmickType_" : "BombStone",
+		"shadowColorR_" : 10,
+		"shadowColorG_" : 10,
+		"shadowColorB_" : 30,
+		"rotY_" : -30,
+		"transX_" : -670,
+		"transY_" : 1000,
+		"transZ_" : -4300
+	},
+	"gbom02_002":{
+		"gimmickType_" : "BombStone",
+		"shadowColorR_" : 10,
+		"shadowColorG_" : 10,
+		"shadowColorB_" : 30,
+		"rotY_" : -30,
+		"transX_" : -400,
+		"transY_" : 1000,
+		"transZ_" : -5300
+	},
+	"gcat01_001":{
+		"gimmickType_" : "Cannon",
+		"rotY_" : -90,
+		"transX_" : 7990.84,
+		"transY_" : 0,
+		"transZ_" : 736.95
+	},
+	"gcat01_002":{
+		"gimmickType_" : "Cannon",
+		"rotY_" : -90,
+		"transX_" : 8003.35,
+		"transY_" : 0,
+		"transZ_" : -750.62
+	},
+	"gcat01_003":{
+		"gimmickType_" : "Cannon",
+		"rotY_" : 90,
+		"transX_" : 3577.95,
+		"transY_" : 0,
+		"transZ_" : -1797.5
+	},
+	"gcat01_004":{
+		"gimmickType_" : "Cannon",
+		"rotY_" : 90,
+		"transX_" : 3588.1,
+		"transY_" : 0,
+		"transZ_" : 1791.85
+	},
+	"gcat01_005":{
+		"gimmickType_" : "Cannon",
+		"rotY_" : 0,
+		"transX_" : -673.92,
+		"transY_" : 1000,
+		"transZ_" : -4961.72
+	},
+	"gcat01_021":{
+		"gimmickType_" : "Cannon",
+		"rotY_" : 90,
+		"transX_" : -7769.64,
+		"transY_" : 0,
+		"transZ_" : -726.54
+	},
+	"gcat01_022":{
+		"gimmickType_" : "Cannon",
+		"rotY_" : 90,
+		"transX_" : -7790.27,
+		"transY_" : 0,
+		"transZ_" : 760.93
+	},
+	"gcat01_023":{
+		"gimmickType_" : "Cannon",
+		"rotY_" : -90,
+		"transX_" : -3370.64,
+		"transY_" : 0,
+		"transZ_" : 1831.95
+	},
+	"gcat01_024":{
+		"gimmickType_" : "Cannon",
+		"rotY_" : -90,
+		"transX_" : -3420.28,
+		"transY_" : 0,
+		"transZ_" : -1757.41
+	},
+	"gcat01_025":{
+		"gimmickType_" : "Cannon",
+		"rotY_" : 180,
+		"transX_" : 515.29,
+		"transY_" : -1000,
+		"transZ_" : 5211.86
+	},
+	"gfla02_001":{
+		"firstModelName_" : "gfla02",
+		"firstAnimeName_" : "gfla02_000_loop",
+		"rotY_" : 90,
+		"transX_" : -5448.38,
+		"transY_" : 1100,
+		"transZ_" : -2454.37
+	},
+	"gfla01_001":{
+		"firstModelName_" : "gfla01",
+		"firstAnimeName_" : "gfla01_000_loop",
+		"rotY_" : -90,
+		"transX_" : 5653.1,
+		"transY_" : 1100,
+		"transZ_" : 2456.46
+	},
+	"glad01_001":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : -90,
+		"transX_" : 4581.62,
+		"transY_" : 0,
+		"transZ_" : -1600.42,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"glad01_002":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : -90,
+		"transX_" : 5253.99,
+		"transY_" : 0,
+		"transZ_" : -919.06,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"glad01_003":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : -90,
+		"transX_" : 5253.99,
+		"transY_" : 0,
+		"transZ_" : 941.44,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"glad01_004":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : -90,
+		"transX_" : 5044.39,
+		"transY_" : 0,
+		"transZ_" : 2669.43,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"glad01_005":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 0,
+		"transX_" : 6041.55,
+		"transY_" : 0,
+		"transZ_" : 3540.69,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"glad01_006":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 0,
+		"transX_" : 7200.35,
+		"transY_" : 0,
+		"transZ_" : 2746.64,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"glad01_007":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 180,
+		"transX_" : 6229.93,
+		"transY_" : 0,
+		"transZ_" : -3495.78,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"glad01_008":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 180,
+		"transX_" : 7317.61,
+		"transY_" : 0,
+		"transZ_" : -2728.95,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"glad01_009":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 225,
+		"transX_" : 5234.68,
+		"transY_" : 0,
+		"transZ_" : -3132.39,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"glad01_010":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 90,
+		"transX_" : -4376.88,
+		"transY_" : 0,
+		"transZ_" : 1602.51,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"glad01_011":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 90,
+		"transX_" : -5049.26,
+		"transY_" : 0,
+		"transZ_" : 921.16,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"glad01_012":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 90,
+		"transX_" : -5049.26,
+		"transY_" : 0,
+		"transZ_" : -939.34,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"glad01_013":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 90,
+		"transX_" : -4839.65,
+		"transY_" : 0,
+		"transZ_" : -2667.33,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"glad01_014":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 180,
+		"transX_" : -5836.82,
+		"transY_" : 0,
+		"transZ_" : -3538.59,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"glad01_015":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 180,
+		"transX_" : -6995.61,
+		"transY_" : 0,
+		"transZ_" : -2744.54,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"glad01_016":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 0,
+		"transX_" : -6025.2,
+		"transY_" : 0,
+		"transZ_" : 3497.87,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"glad01_017":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 0,
+		"transX_" : -7112.87,
+		"transY_" : 0,
+		"transZ_" : 2731.05,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"glad01_018":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 45,
+		"transX_" : -5029.94,
+		"transY_" : 0,
+		"transZ_" : 3134.49,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"gbal01_001":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 0,
+		"transX_" : 6280,
+		"transY_" : 650,
+		"transZ_" : 2745,
+		"param0_" : 1,
+		"param1_" : -95,
+		"param2_" : 100,
+		"param3_" : -45,
+		"param4_" : 5,
+		"param6_" : true
+	},
+	"gbal01_002":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : -90,
+		"transX_" : 5700,
+		"transY_" : 907.308,
+		"transZ_" : 1446,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -50,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_003":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : -90,
+		"transX_" : 5633.789,
+		"transY_" : 1007.308,
+		"transZ_" : 490,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -58,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_004":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : -90,
+		"transX_" : 5633.789,
+		"transY_" : 1007.308,
+		"transZ_" : -490,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -58,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_005":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : -90,
+		"transX_" : 5130,
+		"transY_" : 646.889,
+		"transZ_" : -1620,
+		"param0_" : 1,
+		"param1_" : -100,
+		"param2_" : 115,
+		"param3_" : -45,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_006":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 170,
+		"transX_" : 6731.798,
+		"transY_" : 643.945,
+		"transZ_" : -2683.314,
+		"param0_" : 1,
+		"param1_" : -90,
+		"param2_" : 85,
+		"param3_" : -45,
+		"param4_" : 5,
+		"param6_" : true
+	},
+	"gbal01_007":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 180,
+		"transX_" : 8950,
+		"transY_" : 617,
+		"transZ_" : 1650,
+		"param0_" : 1,
+		"param1_" : -95,
+		"param2_" : 95,
+		"param3_" : -45,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_008":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 0,
+		"transX_" : 8950,
+		"transY_" : 617,
+		"transZ_" : -1650,
+		"param0_" : 1,
+		"param1_" : -95,
+		"param2_" : 95,
+		"param3_" : -45,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_021":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 180,
+		"transX_" : -6063.01,
+		"transY_" : 650,
+		"transZ_" : -2744.98,
+		"param0_" : 1,
+		"param1_" : -95,
+		"param2_" : 100,
+		"param3_" : -45,
+		"param4_" : 5,
+		"param6_" : true
+	},
+	"gbal01_022":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 90,
+		"transX_" : -5483.01,
+		"transY_" : 907.308,
+		"transZ_" : -1445.9799999999998,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -50,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_023":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 90,
+		"transX_" : -5416.799,
+		"transY_" : 1007.308,
+		"transZ_" : -489.9799999999998,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -58,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_024":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 90,
+		"transX_" : -5416.799,
+		"transY_" : 1007.308,
+		"transZ_" : 490.0200000000002,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -58,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_025":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 90,
+		"transX_" : -4913.01,
+		"transY_" : 646.889,
+		"transZ_" : 1620.0200000000002,
+		"param0_" : 1,
+		"param1_" : -100,
+		"param2_" : 115,
+		"param3_" : -45,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_026":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : -10,
+		"transX_" : -6514.808,
+		"transY_" : 643.945,
+		"transZ_" : 2683.334,
+		"param0_" : 1,
+		"param1_" : -90,
+		"param2_" : 85,
+		"param3_" : -45,
+		"param4_" : 5,
+		"param6_" : true
+	},
+	"gbal01_027":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 0,
+		"transX_" : -8733.01,
+		"transY_" : 617,
+		"transZ_" : -1650,
+		"param0_" : 1,
+		"param1_" : -95,
+		"param2_" : 95,
+		"param3_" : -45,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_028":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 180,
+		"transX_" : -8733.01,
+		"transY_" : 617,
+		"transZ_" : 1650,
+		"param0_" : 1,
+		"param1_" : -95,
+		"param2_" : 95,
+		"param3_" : -45,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"ggat01_001":{
+		"bodyKind_" : "FINDABLE",
+		"gimmickType_" : "CastleGateBlack",
+		"rotY_" : 90.65805,
+		"transX_" : -5451.249,
+		"transY_" : 65,
+		"transZ_" : 4.677
+	},
+	"ggat01_002":{
+		"bodyKind_" : "FINDABLE",
+		"gimmickType_" : "CastleGateWhite",
+		"rotY_" : -89.0293,
+		"transX_" : 5668.491,
+		"transY_" : 65,
+		"transZ_" : 18.389
+	},
+	"gswi01_001":{
+		"bodyKind_" : "DISABLE",
+		"firstModelName_" : "gswi01",
+		"firstAnimeName_" : "gswi01_001_close",
+		"rotY_" : 90.65805,
+		"transX_" : -6502,
+		"transY_" : 165,
+		"transZ_" : -399.73
+	},
+	"gswi01_002":{
+		"bodyKind_" : "DISABLE",
+		"firstModelName_" : "gswi01",
+		"firstAnimeName_" : "gswi01_001_close",
+		"rotY_" : -89.0293,
+		"transX_" : 6712,
+		"transY_" : 165,
+		"transZ_" : 406
+	},
+	"gtorn01_001":{
+		"bodyKind_" : "DISABLE",
+		"firstModelName_" : "gtorn01",
+		"firstAnimeName_" : "gtorn_000_kaiten_loop",
+		"transX_" : 1000,
+		"transY_" : 0,
+		"transZ_" : 1000
+	},
+	"gtorn01_002":{
+		"bodyKind_" : "DISABLE",
+		"firstModelName_" : "gtorn01",
+		"firstAnimeName_" : "gtorn_001_appear",
+		"transX_" : 0,
+		"transY_" : 0,
+		"transZ_" : -1500
+	},
+	"gtorn01_003":{
+		"bodyKind_" : "DISABLE",
+		"firstModelName_" : "gtorn01",
+		"firstAnimeName_" : "gtorn_002_disappear",
+		"transX_" : 0,
+		"transY_" : 0,
+		"transZ_" : 2500
+	},
+	"gwind01":{
+		"bodyKind_" : "DISABLE",
+		"firstModelName_" : "gwind01",
+		"firstAnimeName_" : "gwind01_000_wait_loop",
+		"transX_" : 2000,
+		"transY_" : 0
+	}
+},
+// sprg_test_map_stage_gimmick.xlsx.tmp GimmickCamera 
+
+"gimmickCameraParam_":{
+	"gbal01_001":{
+		"distance_" : 500,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 100,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_002":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_003":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_004":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_005":{
+		"distance_" : 580,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 140,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_006":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_007":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_008":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_021":{
+		"distance_" : 500,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 100,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_022":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_023":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_024":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_025":{
+		"distance_" : 580,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 140,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_026":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_027":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_028":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gcat01_001":{
+		"distance_" : 1800,
+		"angleX_" : 20,
+		"offsetX_" : 0,
+		"offsetY_" : 440,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 0
+	},
+	"gcat01_002":{
+		"distance_" : 1800,
+		"angleX_" : 20,
+		"offsetX_" : 0,
+		"offsetY_" : 440,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 0
+	},
+	"gcat01_003":{
+		"distance_" : 1000,
+		"angleX_" : 10,
+		"offsetX_" : 0,
+		"offsetY_" : 500,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 0
+	},
+	"gcat01_004":{
+		"distance_" : 1000,
+		"angleX_" : 10,
+		"offsetX_" : 0,
+		"offsetY_" : 500,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 0
+	},
+	"gcat01_005":{
+		"distance_" : 1000,
+		"angleX_" : 10,
+		"offsetX_" : 0,
+		"offsetY_" : 500,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 0
+	},
+	"gcat01_021":{
+		"distance_" : 1800,
+		"angleX_" : 20,
+		"offsetX_" : 0,
+		"offsetY_" : 440,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 0
+	},
+	"gcat01_022":{
+		"distance_" : 1800,
+		"angleX_" : 20,
+		"offsetX_" : 0,
+		"offsetY_" : 440,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 0
+	},
+	"gcat01_023":{
+		"distance_" : 1000,
+		"angleX_" : 10,
+		"offsetX_" : 0,
+		"offsetY_" : 500,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 0
+	},
+	"gcat01_024":{
+		"distance_" : 1000,
+		"angleX_" : 10,
+		"offsetX_" : 0,
+		"offsetY_" : 500,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 0
+	},
+	"gcat01_025":{
+		"distance_" : 1000,
+		"angleX_" : 10,
+		"offsetX_" : 0,
+		"offsetY_" : 500,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 0
+	}
+},
+// sprg_test_map_stage_gimmick.xlsx.tmp collisionEntries 
+
+"collisionEntries_":{
+	"a":{
+		"signature_" : "FIL_TERRAIN_BASE",
+		"attribute_" : 0,
+		"type_" : "SPHERE",
+		"radius_" : 300,
+		"posX_" : 0,
+		"posY_" : 0,
+		"posZ_" : 0,
+		"widthX_" : 0,
+		"widthY_" : 0,
+		"widthZ_" : 0,
+		"rotX_" : 0,
+		"rotY_" : 0,
+		"rotZ_" : 0,
+		"transX_" : -200,
+		"transY_" : 70,
+		"transZ_" : 0
+	},
+	"b":{
+		"signature_" : "FIL_TERRAIN_BASE",
+		"attribute_" : 0,
+		"type_" : "SPHERE",
+		"radius_" : 300,
+		"posX_" : 0,
+		"posY_" : 0,
+		"posZ_" : 0,
+		"widthX_" : 0,
+		"widthY_" : 0,
+		"widthZ_" : 0,
+		"rotX_" : 0,
+		"rotY_" : 0,
+		"rotZ_" : 0,
+		"transX_" : -400,
+		"transY_" : 70,
+		"transZ_" : 0
+	},
+	"c":{
+		"signature_" : "FIL_TERRAIN_BASE",
+		"attribute_" : 0,
+		"type_" : "BOX",
+		"posX_" : 0,
+		"posY_" : 0,
+		"posZ_" : 0,
+		"widthX_" : 10,
+		"widthY_" : 1000,
+		"widthZ_" : 1000,
+		"rotX_" : 0,
+		"rotY_" : 45,
+		"rotZ_" : 0,
+		"transX_" : 0,
+		"transY_" : 400,
+		"transZ_" : 0
+	},
+	"d":{
+		"signature_" : "FIL_TERRAIN_BASE",
+		"attribute_" : 0,
+		"type_" : "BOX",
+		"posX_" : 0,
+		"posY_" : 0,
+		"posZ_" : 0,
+		"widthX_" : 10,
+		"widthY_" : 1000,
+		"widthZ_" : 1000,
+		"rotX_" : 0,
+		"rotY_" : 45,
+		"rotZ_" : 0,
+		"transX_" : 100,
+		"transY_" : 400,
+		"transZ_" : 0
+	},
+	"e":{
+		"signature_" : "FIL_TERRAIN_BASE",
+		"attribute_" : 0,
+		"type_" : "BOX",
+		"posX_" : 0,
+		"posY_" : 0,
+		"posZ_" : 0,
+		"widthX_" : 10,
+		"widthY_" : 1000,
+		"widthZ_" : 1000,
+		"rotX_" : 0,
+		"rotY_" : 45,
+		"rotZ_" : 0,
+		"transX_" : 200,
+		"transY_" : 400,
+		"transZ_" : 0
+	},
+	"f":{
+		"signature_" : "FIL_TERRAIN_BASE",
+		"attribute_" : 0,
+		"type_" : "BOX",
+		"posX_" : 0,
+		"posY_" : 0,
+		"posZ_" : 0,
+		"widthX_" : 10,
+		"widthY_" : 1000,
+		"widthZ_" : 1000,
+		"rotX_" : 0,
+		"rotY_" : 90,
+		"rotZ_" : 0,
+		"transX_" : 0,
+		"transY_" : 400,
+		"transZ_" : 100
+	},
+	"g":{
+		"signature_" : "FIL_TERRAIN_BASE",
+		"attribute_" : 0,
+		"type_" : "BOX",
+		"posX_" : 0,
+		"posY_" : 0,
+		"posZ_" : 0,
+		"widthX_" : 10,
+		"widthY_" : 1000,
+		"widthZ_" : 1000,
+		"rotX_" : 0,
+		"rotY_" : 0,
+		"rotZ_" : 0,
+		"transX_" : 0,
+		"transY_" : 400,
+		"transZ_" : 200
+	},
+	"h":{
+		"signature_" : "FIL_TERRAIN_BASE",
+		"attribute_" : 0,
+		"type_" : "BOX",
+		"posX_" : 0,
+		"posY_" : 0,
+		"posZ_" : 0,
+		"widthX_" : 10,
+		"widthY_" : 1000,
+		"widthZ_" : 1000,
+		"rotX_" : 0,
+		"rotY_" : 0,
+		"rotZ_" : 0,
+		"transX_" : 0,
+		"transY_" : 400,
+		"transZ_" : 300
+	}
+}}}

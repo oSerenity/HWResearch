@@ -1,0 +1,30 @@
+
+// Serialize by tll::json::Serializer
+
+{
+	"jsonCharacterLight" : 
+	{
+		"lightId" : 1,
+		"ambientEnable" : true,
+		"ambientEnable_jc" : "title=AmbientEnable,type=bool",
+		"ambientColor" : 2147483647,
+		"ambientColor_jc" : "title=AmbientColor,type=color",
+		"ambientPower" : 0.000000,
+		"ambientPower_jc" : "title=AmbientPower,type=float,min=0,max=10",
+		"diffuseEnable" : true,
+		"diffuseEnable_jc" : "title=DiffuseEnable,type=bool",
+		"diffuseColor" : 13859628,
+		"diffuseColor_jc" : "title=DiffuseColor,type=color",
+		"diffusePower" : 0.500000,
+		"diffusePower_jc" : "title=DiffusePower,type=float,min=0,max=10",
+		"lightType" : 3,
+		"lightType_jc" : "title=LightType,type=int,min=1,max=3",
+		"directionalX" : -1.396263,
+		"directionalX_deg" : -79.999969,
+		"directionalX_deg_jc" : "title=DirectionalX,type=float,min=-90.0,max=90.0",
+		"directionalY" : 3.141593,
+		"directionalY_deg" : 180.000000,
+		"directionalY_deg_jc" : "title=DirectionalY,type=float,min=-180.0,max=180.0"
+	}
+}
+

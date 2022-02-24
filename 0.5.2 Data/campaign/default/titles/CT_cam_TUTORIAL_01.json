@@ -1,0 +1,171 @@
+// CampaignDetail.xlsx.tmp campaign 
+
+{"JsonCampaignTitle":{"campaign_":{
+	"cam_TUTORIAL_01":{
+		"index" : 1,
+		"TitleTextID" : "TEXT_ID_SAMPLE",
+		"DetailTextID" : "TEXT_ID_SAMPLE",
+		"OpenTextID" : "TEXT_ID_SAMPLE",
+		"Kind" : "OFFLINE",
+		"Level" : 0,
+		"BattleKind" : "TUTORIAL",
+		"MissionID_00" : "mission00",
+		"MissionID_01" : "mission01",
+		"MissionID_02" : "mission02",
+		"ReleaseOnly" : false
+	}
+},
+// CampaignDetail.xlsx.tmp mission 
+
+"mission_":{
+	"mission00":{
+		"TitleTextID" : "$TXCMT00001",
+		"DetailTextID" : "TEXT_ID_SAMPLE",
+		"AchieveTitleTextID" : "TEXT_ID_SAMPLE",
+		"AchieveDetailTextID" : "TEXT_ID_SAMPLE",
+		"LabelType" : "LABEL_SAMPLE",
+		"BackgroundImage" : "sample.jpg",
+		"StageBres" : "sligB.bres",
+		"StartDemoID" : "demo_201",
+		"StageSettingID" : 2,
+		"FirstRewardPoint" : 0,
+		"RewardPoint" : 0,
+		"UnionColor" : "WHITE",
+		"RewardSetID" : "NormalBonus",
+		"RewardSetID_H" : "HardBonus",
+		"RewardSetID_SH" : "SuperHardBonus",
+		"WhiteBotEquipmentRare" : 1,
+		"WhiteBotEquipmentLevel" : 1,
+		"BlackBotEquipmentRare" : 1,
+		"BlackBotEquipmentLevel" : 1,
+		"GameTime" : 0,
+		"GameTime_H" : 0,
+		"GameTime_SH" : 0,
+		"StartWaitTime" : 99,
+		"EndWaitTime" : 15,
+		"NormalRebirthTime" : 0,
+		"PenaltyRebirthTime" : 0,
+		"EntryWhiteMax" : 1,
+		"EntryWhiteWarrior" : 0,
+		"EntryWhiteCleric" : 0,
+		"EntryWhiteMage" : 0,
+		"EntryBlackMax" : 0,
+		"EntryBlackWarrior" : 0,
+		"EntryBlackCleric" : 0,
+		"EntryBlackMage" : 0,
+		"ScriptGameJudgement" : false,
+		"EnableSuddenDeath" : true,
+		"BotAttackRate" : 1,
+		"BotTargetRate" : 1,
+		"BotActionGuardWarrior" : false,
+		"BotActionGuardCleric" : false,
+		"BotActionDashAttackWarrior" : false,
+		"BotActionBlowAttackWarrior" : false,
+		"BotActionBlowAttackCleric" : false
+	},
+	"mission01":{
+		"TitleTextID" : "$TXCMT00002",
+		"DetailTextID" : "TEXT_ID_SAMPLE",
+		"AchieveTitleTextID" : "TEXT_ID_SAMPLE",
+		"AchieveDetailTextID" : "TEXT_ID_SAMPLE",
+		"LabelType" : "LABEL_SAMPLE",
+		"BackgroundImage" : "sample.jpg",
+		"StageBres" : "sdarA.bres",
+		"StageSettingID" : 1,
+		"FirstRewardPoint" : 0,
+		"RewardPoint" : 0,
+		"UnionColor" : "WHITE",
+		"RewardSetID" : "NormalBonus",
+		"RewardSetID_H" : "HardBonus",
+		"RewardSetID_SH" : "SuperHardBonus",
+		"GameTime" : 0,
+		"GameTime_H" : 0,
+		"GameTime_SH" : 0,
+		"StartWaitTime" : 0,
+		"EndWaitTime" : 4,
+		"NormalRebirthTime" : 0,
+		"PenaltyRebirthTime" : 0,
+		"EntryWhiteMax" : 1,
+		"EntryWhiteWarrior" : 0,
+		"EntryWhiteCleric" : 0,
+		"EntryWhiteMage" : 0,
+		"EntryBlackMax" : 0,
+		"EntryBlackWarrior" : 0,
+		"EntryBlackCleric" : 0,
+		"EntryBlackMage" : 0,
+		"ScriptGameJudgement" : true,
+		"EnableSuddenDeath" : false,
+		"BotActionGuardWarrior" : false,
+		"BotActionGuardCleric" : false,
+		"BotActionDashAttackWarrior" : false,
+		"BotActionBlowAttackWarrior" : false,
+		"BotActionBlowAttackCleric" : false
+	},
+	"mission02":{
+		"TitleTextID" : "$TXCMT00003",
+		"DetailTextID" : "TEXT_ID_SAMPLE",
+		"AchieveTitleTextID" : "TEXT_ID_SAMPLE",
+		"AchieveDetailTextID" : "TEXT_ID_SAMPLE",
+		"LabelType" : "LABEL_SAMPLE",
+		"BackgroundImage" : "sample.jpg",
+		"StageBres" : "sligB.bres",
+		"StageSettingID" : 1,
+		"FirstRewardPoint" : 0,
+		"RewardPoint" : 0,
+		"UnionColor" : "WHITE",
+		"RewardSetID" : "NormalBonus",
+		"RewardSetID_H" : "HardBonus",
+		"RewardSetID_SH" : "SuperHardBonus",
+		"GameTime" : 0,
+		"GameTime_H" : 0,
+		"GameTime_SH" : 0,
+		"StartWaitTime" : 0,
+		"EndWaitTime" : 4,
+		"NormalRebirthTime" : 0,
+		"PenaltyRebirthTime" : 0,
+		"EntryWhiteMax" : 1,
+		"EntryWhiteWarrior" : 0,
+		"EntryWhiteCleric" : 0,
+		"EntryWhiteMage" : 0,
+		"EntryBlackMax" : 0,
+		"EntryBlackWarrior" : 0,
+		"EntryBlackCleric" : 0,
+		"EntryBlackMage" : 0,
+		"ScriptGameJudgement" : true,
+		"EnableSuddenDeath" : false,
+		"BotActionGuardWarrior" : false,
+		"BotActionGuardCleric" : false,
+		"BotActionDashAttackWarrior" : false,
+		"BotActionBlowAttackWarrior" : false,
+		"BotActionBlowAttackCleric" : false
+	}
+},
+// CampaignDetail.xlsx.tmp reward_set 
+
+"rewardSet_":{
+	"SampleSet":{
+		"HappyStar" : 0,
+		"ItemSetID" : "SampleWeapon"
+	},
+	"NormalBonus":{
+		"HappyStar" : 0
+	},
+	"HardBonus":{
+		"HappyStar" : 0
+	},
+	"SuperHardBonus":{
+		"HappyStar" : 0
+	}
+},
+// CampaignDetail.xlsx.tmp item_detail_title 
+
+"itemDetail_":{
+	"SampleWeapon":{
+		"ItemID" : "ITEM_WEPON_0045",
+		"Level" : 1
+	},
+	"SampleShield":{
+		"ItemID" : "ITEM_SHIELD_0350",
+		"Level" : 1
+	}
+}}}

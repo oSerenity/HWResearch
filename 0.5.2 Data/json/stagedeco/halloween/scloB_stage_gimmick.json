@@ -1,0 +1,49 @@
+/* XDASEA_Xm8R_SPsX */ 
+// scloB_stage_gimmick.xlsx.tmp GimmickPosition 
+
+{"JsonStageSetTable":{"gimmickDecoArrangeParam_":{
+	"gdecohalloween01_001":{
+		"firstModelName_" : "gdecohalloween01",
+		"firstAnimeName_" : "gdecohalloween01_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 63.3,
+		"transX_" : -25817.721,
+		"transY_" : 2982.939,
+		"transZ_" : -4683.573
+	},
+	"gdecohalloween01_002":{
+		"firstModelName_" : "gdecohalloween01",
+		"firstAnimeName_" : "gdecohalloween01_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 243.3,
+		"transX_" : 27317.721,
+		"transY_" : 2982.939,
+		"transZ_" : 7183.573
+	},
+	"gdecohalloween02_001":{
+		"firstModelName_" : "gdecohalloween02",
+		"firstAnimeName_" : "gdecohalloween02_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 63.3,
+		"transX_" : -26660,
+		"transY_" : 2982.939,
+		"transZ_" : -5293
+	},
+	"gdecohalloween02_002":{
+		"firstModelName_" : "gdecohalloween02",
+		"firstAnimeName_" : "gdecohalloween02_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 243.3,
+		"transX_" : 27385,
+		"transY_" : 2982.939,
+		"transZ_" : 7247
+	}
+}}}

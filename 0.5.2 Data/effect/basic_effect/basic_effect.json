@@ -1,0 +1,2057 @@
+// 00_basic_effect.xlsx.tmp Effects 
+
+{"JsonGraphicParam":{"effectParam_":{
+	"test00":{
+		"gfxFileName_" : "tst00_loop_0",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"tst04":{
+		"gfxFileName_" : "tst04_scaleA_0",
+		"scale_" : 10,
+		"clipDistance_" : 30000,
+		"doDestroyAtClip_" : true
+	},
+	"tst05":{
+		"gfxFileName_" : "tst05_scaleB_0",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"hud08":{
+		"gfxFileName_" : "hud08_won_0",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"hud09":{
+		"gfxFileName_" : "hud09_great_0",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"hud10":{
+		"gfxFileName_" : "hud10_bug_0",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"st00":{
+		"gfxFileName_" : "st00_butt_0",
+		"scale_" : 20,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"st01":{
+		"gfxFileName_" : "st01_butt_0",
+		"scale_" : 30,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"st02":{
+		"gfxFileName_" : "st02_butt_0",
+		"scale_" : 30,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"st04":{
+		"gfxFileName_" : "st04_ikada_0",
+		"scale_" : 165,
+		"clipDistance_" : 15000,
+		"isUpdateClip_" : true
+	},
+	"st05":{
+		"gfxFileName_" : "st05_flash_0",
+		"scale_" : 30,
+		"clipDistance_" : 5000,
+		"isUpdateClip_" : true
+	},
+	"st06":{
+		"gfxFileName_" : "st06_suna_0",
+		"scale_" : 30,
+		"clipDistance_" : 10000,
+		"isUpdateClip_" : true
+	},
+	"st10":{
+		"gfxFileName_" : "st10_spore_0",
+		"scale_" : 15,
+		"clipDistance_" : 7500,
+		"isUpdateClip_" : true
+	},
+	"st12":{
+		"gfxFileName_" : "st12_fairy_0",
+		"scale_" : 30,
+		"clipDistance_" : 7500,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"st14":{
+		"gfxFileName_" : "st14_spore_0",
+		"scale_" : 20,
+		"clipDistance_" : 7500,
+		"isLoop_" : true
+	},
+	"st15":{
+		"gfxFileName_" : "st15_awa",
+		"scale_" : 10,
+		"clipDistance_" : 15000,
+		"isLoop_" : true
+	},
+	"st16":{
+		"gfxFileName_" : "st16_awa_0",
+		"scale_" : 10,
+		"clipDistance_" : 15000,
+		"isUpdateClip_" : true
+	},
+	"st21":{
+		"gfxFileName_" : "st21_fish_0",
+		"scale_" : 15,
+		"clipDistance_" : 15000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"st22":{
+		"gfxFileName_" : "st22_fish_0",
+		"scale_" : 20,
+		"clipDistance_" : 10000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"st23":{
+		"gfxFileName_" : "st23_fish_0",
+		"scale_" : 20,
+		"clipDistance_" : 10000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"st24":{
+		"gfxFileName_" : "st24_fish_0",
+		"scale_" : 20,
+		"clipDistance_" : 10000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"st25":{
+		"gfxFileName_" : "st25_smoke_0",
+		"scale_" : 50,
+		"clipDistance_" : 20000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"st26":{
+		"gfxFileName_" : "st26_suna_0",
+		"scale_" : 30,
+		"clipDistance_" : 10000,
+		"isUpdateClip_" : true
+	},
+	"st29":{
+		"gfxFileName_" : "st29_fire_0",
+		"scale_" : 22,
+		"clipDistance_" : 15000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"st31":{
+		"gfxFileName_" : "st31_kinoko_0",
+		"scale_" : 18,
+		"clipDistance_" : 10000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"st32":{
+		"gfxFileName_" : "st32_light_0",
+		"scale_" : 20,
+		"clipDistance_" : 10000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"st33":{
+		"gfxFileName_" : "st33_awaA_0",
+		"scale_" : 15,
+		"clipDistance_" : 5000,
+		"isUpdateClip_" : true
+	},
+	"st34":{
+		"gfxFileName_" : "st34_awaB_0",
+		"scale_" : 30,
+		"clipDistance_" : 5000,
+		"isUpdateClip_" : true
+	},
+	"st37":{
+		"gfxFileName_" : "st37_fire_0.gfx",
+		"scale_" : 10,
+		"clipDistance_" : 7500,
+		"isUpdateClip_" : true
+	},
+	"st39":{
+		"gfxFileName_" : "st39_spore",
+		"scale_" : 20,
+		"clipDistance_" : 7500,
+		"isLoop_" : true
+	},
+	"st40":{
+		"gfxFileName_" : "st40_smoke_0.gfx",
+		"scale_" : 50,
+		"clipDistance_" : 20000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"st41":{
+		"gfxFileName_" : "st41_fire_0",
+		"scale_" : 22,
+		"clipDistance_" : 15000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"st42":{
+		"gfxFileName_" : "st42_suna_0",
+		"scale_" : 20,
+		"clipDistance_" : 10000,
+		"isUpdateClip_" : true
+	},
+	"st43":{
+		"gfxFileName_" : "st43_hotaru_0",
+		"scale_" : 20,
+		"clipDistance_" : 5000,
+		"isUpdateClip_" : true
+	},
+	"st44":{
+		"gfxFileName_" : "st44_ikada_0",
+		"scale_" : 165,
+		"clipDistance_" : 15000,
+		"isUpdateClip_" : true
+	},
+	"st45":{
+		"gfxFileName_" : "st45_flash_0",
+		"scale_" : 35,
+		"clipDistance_" : 3000,
+		"isUpdateClip_" : true
+	},
+	"st46":{
+		"gfxFileName_" : "st46_flash_0",
+		"scale_" : 35,
+		"clipDistance_" : 3000,
+		"isUpdateClip_" : true
+	},
+	"st47":{
+		"gfxFileName_" : "st47_smoke_0",
+		"scale_" : 50,
+		"clipDistance_" : 20000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"st48":{
+		"gfxFileName_" : "st48_smoke_0",
+		"scale_" : 50,
+		"clipDistance_" : 20000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"st49":{
+		"gfxFileName_" : "st49_kafun_0",
+		"scale_" : 40,
+		"clipDistance_" : 10000,
+		"isLoop_" : true
+	},
+	"st51":{
+		"gfxFileName_" : "st51_ase_0",
+		"scale_" : 20,
+		"clipDistance_" : 5000,
+		"isLoop_" : true
+	},
+	"st53":{
+		"gfxFileName_" : "st53_fire_0",
+		"scale_" : 22,
+		"clipDistance_" : 15000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"st54":{
+		"gfxFileName_" : "st54_fire_0",
+		"scale_" : 22,
+		"clipDistance_" : 15000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"st57":{
+		"gfxFileName_" : "st57_konoha_0",
+		"scale_" : 30,
+		"clipDistance_" : 10000,
+		"isUpdateClip_" : true
+	},
+	"st60":{
+		"gfxFileName_" : "st60_koori_0",
+		"scale_" : 30,
+		"clipDistance_" : 10000,
+		"isUpdateClip_" : true
+	},
+	"st61":{
+		"gfxFileName_" : "st61_smoke_0",
+		"scale_" : 50,
+		"clipDistance_" : 20000,
+		"isUpdateClip_" : true
+	},
+	"st62":{
+		"gfxFileName_" : "st62_smoke_0",
+		"scale_" : 50,
+		"clipDistance_" : 20000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"st63":{
+		"gfxFileName_" : "st63_mist",
+		"scale_" : 50,
+		"clipDistance_" : 40000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"st64":{
+		"gfxFileName_" : "st64_rain",
+		"scale_" : 30,
+		"clipDistance_" : 20000,
+		"isUpdateClip_" : true
+	},
+	"st65":{
+		"gfxFileName_" : "st65_rain",
+		"scale_" : 30,
+		"clipDistance_" : 20000,
+		"isUpdateClip_" : true
+	},
+	"st66":{
+		"gfxFileName_" : "st66_rain",
+		"scale_" : 30,
+		"clipDistance_" : 20000,
+		"isUpdateClip_" : true
+	},
+	"st67":{
+		"gfxFileName_" : "st67_thunder",
+		"scale_" : 30,
+		"clipDistance_" : 60000,
+		"isUpdateClip_" : true
+	},
+	"Cdum01c":{
+		"gfxFileName_" : "ef_Cdum01c",
+		"scale_" : 30,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Cdum02c":{
+		"gfxFileName_" : "ef_Cdum02c",
+		"scale_" : 30,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Cwav01c":{
+		"gfxFileName_" : "ef_Cwav01c",
+		"scale_" : 29,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cwav02c":{
+		"gfxFileName_" : "ef_Cwav02c",
+		"scale_" : 35,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cwav03c":{
+		"gfxFileName_" : "ef_Cwav03c",
+		"scale_" : 35,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cwav04c":{
+		"gfxFileName_" : "ef_Cwav04c",
+		"scale_" : 60,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cwav05c":{
+		"gfxFileName_" : "ef_Cwav05c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cbom01c":{
+		"gfxFileName_" : "ef_Cbom01c",
+		"scale_" : 30,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cbom02c":{
+		"gfxFileName_" : "ef_Cbom02c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cbom03c":{
+		"gfxFileName_" : "ef_Cbom03c",
+		"scale_" : 35,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cbom04c":{
+		"gfxFileName_" : "ef_Cbom04c",
+		"scale_" : 85,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cbom05c":{
+		"gfxFileName_" : "ef_Cbom05c",
+		"scale_" : 30,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Csmo01c":{
+		"gfxFileName_" : "ef_Csmo01c",
+		"scale_" : 8,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Csmo02c":{
+		"gfxFileName_" : "ef_Csmo02c",
+		"scale_" : 8,
+		"clipDistance_" : 30000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Csmo03c":{
+		"gfxFileName_" : "ef_Csmo03c",
+		"scale_" : 15,
+		"clipDistance_" : 30000,
+		"doDestroyAtClip_" : true
+	},
+	"Csmo04c":{
+		"gfxFileName_" : "ef_Csmo04c",
+		"scale_" : 18,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cpmg01c":{
+		"gfxFileName_" : "ef_Cpmg01c",
+		"scale_" : 5,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Cpmg06c":{
+		"gfxFileName_" : "ef_Cpmg06c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cpmg07c":{
+		"gfxFileName_" : "ef_Cpmg07c",
+		"scale_" : 20,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Cpmg08c":{
+		"gfxFileName_" : "ef_Cpmg08c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cwmg01c":{
+		"gfxFileName_" : "ef_Cwmg01c",
+		"scale_" : 5,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Cwmg02c":{
+		"gfxFileName_" : "ef_Cwmg02c",
+		"scale_" : 2,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cwmg03c":{
+		"gfxFileName_" : "ef_Cwmg03c",
+		"scale_" : 2,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cwmg04c":{
+		"gfxFileName_" : "ef_Cwmg04c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cwmg05c":{
+		"gfxFileName_" : "ef_Cwmg05c",
+		"scale_" : 1,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cwmg06c":{
+		"gfxFileName_" : "ef_Cwmg06c",
+		"scale_" : 12,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cwmg07c":{
+		"gfxFileName_" : "ef_Cwmg07c",
+		"scale_" : 12,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cwmg08c":{
+		"gfxFileName_" : "ef_Cwmg08c",
+		"scale_" : 12,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cwmg09c":{
+		"gfxFileName_" : "ef_Cwmg09c",
+		"scale_" : 2,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cwmg10c":{
+		"gfxFileName_" : "ef_Cwmg10c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cwmg11c":{
+		"gfxFileName_" : "ef_Cwmg11c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Swit01f":{
+		"gfxFileName_" : "ef_Swit01f",
+		"scale_" : 15,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Swit01e":{
+		"gfxFileName_" : "ef_Swit01e",
+		"scale_" : 15,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Swit02c":{
+		"gfxFileName_" : "ef_Swit02c",
+		"scale_" : 17,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Sict01f":{
+		"gfxFileName_" : "ef_Sict01f",
+		"scale_" : 15,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Cwmg12c":{
+		"gfxFileName_" : "ef_Cwmg12c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Cwmg13c":{
+		"gfxFileName_" : "ef_Cwmg13c",
+		"scale_" : 2,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Slis04c":{
+		"gfxFileName_" : "ef_Slis04c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Cdus01c":{
+		"gfxFileName_" : "ef_Cdus01c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cdus02c":{
+		"gfxFileName_" : "ef_Cdus02c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Sics01c":{
+		"gfxFileName_" : "ef_Sics01c",
+		"scale_" : 60,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Sics02c":{
+		"gfxFileName_" : "ef_Sics02c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Chit01f":{
+		"gfxFileName_" : "ef_Chit01f",
+		"scale_" : 15,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Chit01e":{
+		"gfxFileName_" : "ef_Chit01e",
+		"scale_" : 15,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Chit02f":{
+		"gfxFileName_" : "ef_Chit02f",
+		"scale_" : 15,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Chit02e":{
+		"gfxFileName_" : "ef_Chit02e",
+		"scale_" : 15,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Chit03f":{
+		"gfxFileName_" : "ef_Chit03f",
+		"scale_" : 15,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Chit03e":{
+		"gfxFileName_" : "ef_Chit03e",
+		"scale_" : 15,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Chit04c":{
+		"gfxFileName_" : "ef_Chit04c",
+		"scale_" : 20,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam01c":{
+		"gfxFileName_" : "ef_Ccam01c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true
+	},
+	"Ccam02c":{
+		"gfxFileName_" : "ef_Ccam02c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true
+	},
+	"Ccam03c":{
+		"gfxFileName_" : "ef_Ccam03c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam04c":{
+		"gfxFileName_" : "ef_Ccam04c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam05c":{
+		"gfxFileName_" : "ef_Ccam05c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam06c":{
+		"gfxFileName_" : "ef_Ccam06c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam07c":{
+		"gfxFileName_" : "ef_Ccam07c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam08c":{
+		"gfxFileName_" : "ef_Ccam08c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam09c":{
+		"gfxFileName_" : "ef_Ccam09c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam10c":{
+		"gfxFileName_" : "ef_Ccam10c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam11c":{
+		"gfxFileName_" : "ef_Ccam11c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam12c":{
+		"gfxFileName_" : "ef_Ccam12c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam13c":{
+		"gfxFileName_" : "ef_Ccam13c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam14c":{
+		"gfxFileName_" : "ef_Ccam14c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam15c":{
+		"gfxFileName_" : "ef_Ccam15c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam16c":{
+		"gfxFileName_" : "ef_Ccam16c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam17c":{
+		"gfxFileName_" : "ef_Ccam17c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam18c":{
+		"gfxFileName_" : "ef_Ccam18c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam19c":{
+		"gfxFileName_" : "ef_Ccam19c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam20c":{
+		"gfxFileName_" : "ef_Ccam20c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam21c":{
+		"gfxFileName_" : "ef_Ccam21c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam22c":{
+		"gfxFileName_" : "ef_Ccam22c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam23c":{
+		"gfxFileName_" : "ef_Ccam23c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam24c":{
+		"gfxFileName_" : "ef_Ccam24c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam25c":{
+		"gfxFileName_" : "ef_Ccam25c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam26c":{
+		"gfxFileName_" : "ef_Ccam26c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam27c":{
+		"gfxFileName_" : "ef_Ccam27c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam28c":{
+		"gfxFileName_" : "ef_Ccam28c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam29c":{
+		"gfxFileName_" : "ef_Ccam29c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam30c":{
+		"gfxFileName_" : "ef_Ccam30c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam31c":{
+		"gfxFileName_" : "ef_Ccam31c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam32c":{
+		"gfxFileName_" : "ef_Ccam32c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam33c":{
+		"gfxFileName_" : "ef_Ccam33c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam34c":{
+		"gfxFileName_" : "ef_Ccam34c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam35c":{
+		"gfxFileName_" : "ef_Ccam35c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam36c":{
+		"gfxFileName_" : "ef_Ccam36c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ccam37c":{
+		"gfxFileName_" : "ef_Ccam37c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true
+	},
+	"Amov01c":{
+		"gfxFileName_" : "ef_Amov01c",
+		"scale_" : 12,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Amov02c":{
+		"gfxFileName_" : "ef_Amov02c",
+		"scale_" : 12,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Amov03c":{
+		"gfxFileName_" : "ef_Amov03c",
+		"scale_" : 30,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Amov04c":{
+		"gfxFileName_" : "ef_Amov04c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Amov05c":{
+		"gfxFileName_" : "ef_Amov05c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Amov06c":{
+		"gfxFileName_" : "ef_Amov06c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Adea02c":{
+		"gfxFileName_" : "ef_Adea02c",
+		"scale_" : 5,
+		"clipDistance_" : 15000,
+		"doDestroyAtClip_" : true
+	},
+	"Adea03c":{
+		"gfxFileName_" : "ef_Adea03c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Avoi01c":{
+		"gfxFileName_" : "ef_Avoi01c",
+		"scale_" : 5,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Avoi02c":{
+		"gfxFileName_" : "ef_Avoi02c",
+		"scale_" : 15,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Avoi03c":{
+		"gfxFileName_" : "ef_Avoi03c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Sspi01c":{
+		"gfxFileName_" : "ef_Sspi01c",
+		"scale_" : 30,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Sspi02c":{
+		"gfxFileName_" : "ef_Sspi02c",
+		"scale_" : 30,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Spow01c":{
+		"gfxFileName_" : "ef_Spow01c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Spow02c":{
+		"gfxFileName_" : "ef_Spow02c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Spow03c":{
+		"gfxFileName_" : "ef_Spow03c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Spow04c":{
+		"gfxFileName_" : "ef_Spow04c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Spow05c":{
+		"gfxFileName_" : "ef_Spow05c",
+		"scale_" : 60,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Srus01c":{
+		"gfxFileName_" : "ef_Srus01c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Srus02c":{
+		"gfxFileName_" : "ef_Srus02c",
+		"scale_" : 30,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ssto01c":{
+		"gfxFileName_" : "ef_Ssto01c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Ssto02f":{
+		"gfxFileName_" : "ef_Ssto02f",
+		"scale_" : 15,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Sroa01c":{
+		"gfxFileName_" : "ef_Sroa01c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Sroc01c":{
+		"gfxFileName_" : "ef_Sroc01c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Sroc02c":{
+		"gfxFileName_" : "ef_Sroc02c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Sroc03e":{
+		"gfxFileName_" : "ef_Sroc03e",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ssup01c":{
+		"gfxFileName_" : "ef_Ssup01c",
+		"scale_" : 8,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Ssup02c":{
+		"gfxFileName_" : "ef_Ssup02c",
+		"scale_" : 8,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ssup03c":{
+		"gfxFileName_" : "ef_Ssup03c",
+		"scale_" : 8,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Ssup04c":{
+		"gfxFileName_" : "ef_Ssup04c",
+		"scale_" : 30,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ssup05c":{
+		"gfxFileName_" : "ef_Ssup05c",
+		"scale_" : 8,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Shud02c":{
+		"gfxFileName_" : "ef_Shud02c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Shud03c":{
+		"gfxFileName_" : "ef_Shud03c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Shud09c":{
+		"gfxFileName_" : "ef_Shud09c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Shud10c":{
+		"gfxFileName_" : "ef_Shud10c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Cpmg02c":{
+		"gfxFileName_" : "ef_Cpmg02c",
+		"scale_" : 2,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Shud01f":{
+		"gfxFileName_" : "ef_Shud01f",
+		"scale_" : 50,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Sdis01c":{
+		"gfxFileName_" : "ef_Sdis01c",
+		"scale_" : 15,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Shol01f":{
+		"gfxFileName_" : "ef_Shol01f",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Shol01e":{
+		"gfxFileName_" : "ef_Shol01e",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Cpmg03c":{
+		"gfxFileName_" : "ef_Cpmg03c",
+		"scale_" : 2,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cpmg04c":{
+		"gfxFileName_" : "ef_Cpmg04c",
+		"scale_" : 2,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cpmg05c":{
+		"gfxFileName_" : "ef_Cpmg05c",
+		"scale_" : 2,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Sdas02c":{
+		"gfxFileName_" : "ef_Sdas02c",
+		"scale_" : 30,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Smat02c":{
+		"gfxFileName_" : "ef_Smat02c",
+		"scale_" : 80,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Smat03c":{
+		"gfxFileName_" : "ef_Smat03c",
+		"scale_" : 80,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Smat04c":{
+		"gfxFileName_" : "ef_Smat04c",
+		"scale_" : 80,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ssuc01c":{
+		"gfxFileName_" : "ef_Ssuc01c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Ssuc02f":{
+		"gfxFileName_" : "ef_Ssuc02f",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Ssuc03c":{
+		"gfxFileName_" : "ef_Ssuc03c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Ssuc04c":{
+		"gfxFileName_" : "ef_Ssuc04c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Ssuc05c":{
+		"gfxFileName_" : "ef_Ssuc05c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Sfir01f":{
+		"gfxFileName_" : "ef_Sfir01f",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Sfir02c":{
+		"gfxFileName_" : "ef_Sfir02c",
+		"scale_" : 1,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Slib01f":{
+		"gfxFileName_" : "ef_Slib01f",
+		"scale_" : 1,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Slib02f":{
+		"gfxFileName_" : "ef_Slib02f",
+		"scale_" : 1,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Slib03f":{
+		"gfxFileName_" : "ef_Slib03f",
+		"scale_" : 1,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Slib04c":{
+		"gfxFileName_" : "ef_Slib04c",
+		"scale_" : 20,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Slib05c":{
+		"gfxFileName_" : "ef_Slib05c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Slib06c":{
+		"gfxFileName_" : "ef_Slib06c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Swin01f":{
+		"gfxFileName_" : "ef_Swin01f",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Swin01f":{
+		"gfxFileName_" : "ef_Swin01f",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Swin02c":{
+		"gfxFileName_" : "ef_Swin02c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Swin03c":{
+		"gfxFileName_" : "ef_Swin03c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Sice01f":{
+		"gfxFileName_" : "ef_Sice01f",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Sice04c":{
+		"gfxFileName_" : "ef_Sice04c",
+		"scale_" : 12,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Smat01c":{
+		"gfxFileName_" : "ef_Smat01c",
+		"scale_" : 80,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Shol02c":{
+		"gfxFileName_" : "ef_Shol02c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Sdas01c":{
+		"gfxFileName_" : "ef_Sdas01c",
+		"scale_" : 20,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Sice02c":{
+		"gfxFileName_" : "ef_Sice02c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Sice03c":{
+		"gfxFileName_" : "ef_Sice03c",
+		"scale_" : 50,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Senf01c":{
+		"gfxFileName_" : "ef_Senf01c",
+		"scale_" : 1,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Senf02c":{
+		"gfxFileName_" : "ef_Senf02c",
+		"scale_" : 1,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Senl01c":{
+		"gfxFileName_" : "ef_Senl01c",
+		"scale_" : 3,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Senl02c":{
+		"gfxFileName_" : "ef_Senl02c",
+		"scale_" : 30,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Senw01c":{
+		"gfxFileName_" : "ef_Senw01c",
+		"scale_" : 3,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Senw02c":{
+		"gfxFileName_" : "ef_Senw02c",
+		"scale_" : 30,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Seni01c":{
+		"gfxFileName_" : "ef_Seni01c",
+		"scale_" : 3,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Seni02c":{
+		"gfxFileName_" : "ef_Seni02c",
+		"scale_" : 30,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Smag01f":{
+		"gfxFileName_" : "ef_Smag01f",
+		"scale_" : 1,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Slis01f":{
+		"gfxFileName_" : "ef_Slis01f",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Slis02c":{
+		"gfxFileName_" : "ef_Slis02c",
+		"scale_" : 20,
+		"clipDistance_" : 10000
+	},
+	"Slis03c":{
+		"gfxFileName_" : "ef_Slis03c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Cwmg10c":{
+		"gfxFileName_" : "ef_Cwmg10c",
+		"scale_" : 16,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Spha01c":{
+		"gfxFileName_" : "ef_Spha01c",
+		"scale_" : 20,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Cwmg04c":{
+		"gfxFileName_" : "ef_Cwmg04c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Smet01f":{
+		"gfxFileName_" : "ef_Smet01f",
+		"scale_" : 40,
+		"clipDistance_" : 20000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Smet01e":{
+		"gfxFileName_" : "ef_Smet01e",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Smet02c":{
+		"gfxFileName_" : "ef_Smet02c",
+		"scale_" : 24,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Bbur01c":{
+		"gfxFileName_" : "ef_Bbur01c",
+		"scale_" : 1,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Bpar01c":{
+		"gfxFileName_" : "ef_Bpar01c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Bpar02c":{
+		"gfxFileName_" : "ef_Bpar02c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Bsno01c":{
+		"gfxFileName_" : "ef_Bsno01c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Bsno02c":{
+		"gfxFileName_" : "ef_Bsno02c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Bsno03c":{
+		"gfxFileName_" : "ef_Bsno03c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Bsno04c":{
+		"gfxFileName_" : "ef_Bsno04c",
+		"scale_" : 50,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Bsta01c":{
+		"gfxFileName_" : "ef_Bsta01c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Bsta02c":{
+		"gfxFileName_" : "ef_Bsta02c",
+		"scale_" : 4,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Bsca01c":{
+		"gfxFileName_" : "ef_Bsca01c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Gcan02f":{
+		"gfxFileName_" : "ef_Gcan02f",
+		"scale_" : 8,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Gcan02e":{
+		"gfxFileName_" : "ef_Gcan02e",
+		"scale_" : 8,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Gbal02c":{
+		"gfxFileName_" : "ef_Gbal02c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Gant01c":{
+		"gfxFileName_" : "ef_Gant01c",
+		"scale_" : 20,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Gant02c":{
+		"gfxFileName_" : "ef_Gant02c",
+		"scale_" : 20,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Shud04c":{
+		"gfxFileName_" : "ef_Shud04c",
+		"scale_" : 50,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Shud05c":{
+		"gfxFileName_" : "ef_Shud05c",
+		"scale_" : 15,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Sche02c":{
+		"gfxFileName_" : "ef_Sche02c",
+		"scale_" : 16,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Shud06c":{
+		"gfxFileName_" : "ef_Shud06c",
+		"scale_" : 18,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Shud07c":{
+		"gfxFileName_" : "ef_Shud07c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Shud08c":{
+		"gfxFileName_" : "ef_Shud08c",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Sche01c":{
+		"gfxFileName_" : "ef_Sche01c",
+		"scale_" : 20,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ssas01c":{
+		"gfxFileName_" : "ef_Ssas01c",
+		"scale_" : 23,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Ssas02c":{
+		"gfxFileName_" : "ef_Ssas02c",
+		"scale_" : 20,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Slia03f":{
+		"gfxFileName_" : "ef_Slia03f",
+		"scale_" : 10,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Slia04c":{
+		"gfxFileName_" : "ef_Slia04c",
+		"scale_" : 60,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Stor01f":{
+		"gfxFileName_" : "ef_Stor01f",
+		"scale_" : 60,
+		"clipDistance_" : 15000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Sbli01c":{
+		"gfxFileName_" : "ef_Sbli01c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Shap01c":{
+		"gfxFileName_" : "ef_Shap01c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Shap02c":{
+		"gfxFileName_" : "ef_Shap02c",
+		"scale_" : 18,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Shap03c":{
+		"gfxFileName_" : "ef_Shap03c",
+		"scale_" : 18,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Gcan01c":{
+		"gfxFileName_" : "ef_Gcan01c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Gmon01c":{
+		"gfxFileName_" : "ef_Gmon01c",
+		"scale_" : 30,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Gmon03c":{
+		"gfxFileName_" : "ef_Gmon03c",
+		"scale_" : 25,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Gmon04c":{
+		"gfxFileName_" : "ef_Gmon04c",
+		"scale_" : 40,
+		"clipDistance_" : 15000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Gmon04f":{
+		"gfxFileName_" : "ef_Gmon04f",
+		"scale_" : 40,
+		"clipDistance_" : 15000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Gmon04e":{
+		"gfxFileName_" : "ef_Gmon04e",
+		"scale_" : 40,
+		"clipDistance_" : 15000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Gmon05c":{
+		"gfxFileName_" : "ef_Gmon05c",
+		"scale_" : 40,
+		"clipDistance_" : 15000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Gmon05f":{
+		"gfxFileName_" : "ef_Gmon05f",
+		"scale_" : 40,
+		"clipDistance_" : 15000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Gmon05e":{
+		"gfxFileName_" : "ef_Gmon05e",
+		"scale_" : 40,
+		"clipDistance_" : 15000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Gflo01c":{
+		"gfxFileName_" : "ef_Gflo01c",
+		"scale_" : 165,
+		"clipDistance_" : 30000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Gbub01c":{
+		"gfxFileName_" : "ef_Gbub01c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Gbub02c":{
+		"gfxFileName_" : "ef_Gbub02c",
+		"scale_" : 40,
+		"clipDistance_" : 8000,
+		"doDestroyAtClip_" : true
+	},
+	"Gbub03c":{
+		"gfxFileName_" : "ef_Gbub03c",
+		"scale_" : 27,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Gque01c":{
+		"gfxFileName_" : "ef_Gque01c",
+		"scale_" : 20,
+		"clipDistance_" : 30000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Gque02c":{
+		"gfxFileName_" : "ef_Gque02c",
+		"scale_" : 30,
+		"clipDistance_" : 30000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Gque03c":{
+		"gfxFileName_" : "ef_Gque03c",
+		"scale_" : 30,
+		"clipDistance_" : 30000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Gque04c":{
+		"gfxFileName_" : "ef_Gque04c",
+		"scale_" : 50,
+		"clipDistance_" : 30000,
+		"doDestroyAtClip_" : true
+	},
+	"Gque05c":{
+		"gfxFileName_" : "ef_Gque05c",
+		"scale_" : 70,
+		"clipDistance_" : 30000,
+		"doDestroyAtClip_" : true
+	},
+	"Gque06c":{
+		"gfxFileName_" : "ef_Gque06c",
+		"scale_" : 30,
+		"clipDistance_" : 30000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Gjum01c":{
+		"gfxFileName_" : "ef_Gjum01c",
+		"scale_" : 20,
+		"clipDistance_" : 20000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Gjum04c":{
+		"gfxFileName_" : "ef_Gjum04c",
+		"scale_" : 20,
+		"clipDistance_" : 12000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Gbat02c":{
+		"gfxFileName_" : "ef_Gbat02c",
+		"scale_" : 20,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Gspi01c":{
+		"gfxFileName_" : "ef_Gspi01c",
+		"scale_" : 20,
+		"clipDistance_" : 8000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Gbat01c":{
+		"gfxFileName_" : "ef_Gbat01c",
+		"scale_" : 20,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"menu01":{
+		"gfxFileName_" : "ef_menu01",
+		"scale_" : 20,
+		"clipDistance_" : 20000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Adat01c":{
+		"gfxFileName_" : "ef_Adat01c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Asba01c":{
+		"gfxFileName_" : "ef_Asba01c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Stom01c":{
+		"gfxFileName_" : "ef_Stom01c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Sfur01c":{
+		"gfxFileName_" : "ef_Sfur01c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Sfur02c":{
+		"gfxFileName_" : "ef_Sfur02c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Sdsp01c":{
+		"gfxFileName_" : "ef_Sdsp01c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Sdsp02c":{
+		"gfxFileName_" : "ef_Sdsp02c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Sdsp03c":{
+		"gfxFileName_" : "ef_Sdsp03c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Swwa01c":{
+		"gfxFileName_" : "ef_Swwa01c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Swwa02c":{
+		"gfxFileName_" : "ef_Swwa02c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Swwa03c":{
+		"gfxFileName_" : "ef_Swwa03c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Sslp01f":{
+		"gfxFileName_" : "ef_Sslp01f",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Sslp01e":{
+		"gfxFileName_" : "ef_Sslp01e",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Smto01c":{
+		"gfxFileName_" : "ef_Smto01c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Sbtr01c":{
+		"gfxFileName_" : "ef_Sbtr01c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Sbtr02c":{
+		"gfxFileName_" : "ef_Sbtr02c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Grob01c":{
+		"gfxFileName_" : "ef_Grob01c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Grob02c":{
+		"gfxFileName_" : "ef_Grob02c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Grob03c":{
+		"gfxFileName_" : "ef_Grob03c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Grob04c":{
+		"gfxFileName_" : "ef_Grob04c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	},
+	"Grob05c":{
+		"gfxFileName_" : "ef_Grob05c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Gmin01c":{
+		"gfxFileName_" : "ef_Gmin01c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Gmin02c":{
+		"gfxFileName_" : "ef_Gmin02c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Grar01c":{
+		"gfxFileName_" : "ef_Grar01c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Gmis01c":{
+		"gfxFileName_" : "ef_Gmis01c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Gmis02c":{
+		"gfxFileName_" : "ef_Gmis02c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Ghmi01f":{
+		"gfxFileName_" : "ef_Ghmi01f",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Ghmi01e":{
+		"gfxFileName_" : "ef_Ghmi01e",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Ghmi02f":{
+		"gfxFileName_" : "ef_Ghmi02f",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Ghmi02e":{
+		"gfxFileName_" : "ef_Ghmi02e",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Gdmi01c":{
+		"gfxFileName_" : "ef_Gdmi01c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Gdmi02c":{
+		"gfxFileName_" : "ef_Gdmi02c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Srep01c":{
+		"gfxFileName_" : "ef_Srep01c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"doDestroyAtClip_" : true
+	},
+	"Sjam01c":{
+		"gfxFileName_" : "ef_Sjam01c",
+		"scale_" : 10,
+		"clipDistance_" : 5000,
+		"isLoop_" : true,
+		"isUpdateClip_" : true
+	}
+}}}

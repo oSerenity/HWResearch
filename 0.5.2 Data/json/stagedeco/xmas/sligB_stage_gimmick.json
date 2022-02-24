@@ -1,0 +1,408 @@
+/* XDASEA_Xm8R_SPsX */ 
+// sligB_stage_gimmick.xlsx.tmp GimmickPosition 
+
+{"JsonStageSetTable":{"gimmickDecoArrangeParam_":{
+	"gligBdeco01_001":{
+		"firstModelName_" : "gligBdeco01",
+		"firstAnimeName_" : "gligbdeco01_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : -66.5703,
+		"transX_" : 16597.0379,
+		"transY_" : 100,
+		"transZ_" : -4169.9669
+	},
+	"gligBdeco01_002":{
+		"firstModelName_" : "gligBdeco01",
+		"firstAnimeName_" : "gligbdeco01_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 63.9297,
+		"transX_" : -16238.7022,
+		"transY_" : 100,
+		"transZ_" : -4307.0636
+	},
+	"treeL_001":{
+		"firstModelName_" : "gligBdeco02",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"transX_" : 8498.5039,
+		"transY_" : 400,
+		"transZ_" : 4465.0861
+	},
+	"treeL_002":{
+		"firstModelName_" : "gligBdeco02",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 55.0042,
+		"transX_" : 5565.2354,
+		"transY_" : 100,
+		"transZ_" : 2154.7534
+	},
+	"treeL_003":{
+		"firstModelName_" : "gligBdeco02",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"transX_" : 789.7932,
+		"transY_" : 100,
+		"transZ_" : -6654.2655
+	},
+	"treeL_004":{
+		"firstModelName_" : "gligBdeco02",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"transX_" : 789.7932,
+		"transY_" : 100,
+		"transZ_" : -6654.2655
+	},
+	"treeL_005":{
+		"firstModelName_" : "gligBdeco02",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"transX_" : 241.5036,
+		"transY_" : 100,
+		"transZ_" : 1228.4002
+	},
+	"treeL_006":{
+		"firstModelName_" : "gligBdeco02",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"transX_" : -7609.8477,
+		"transY_" : 100,
+		"transZ_" : 4433.8382
+	},
+	"treeL_007":{
+		"firstModelName_" : "gligBdeco02",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotX_" : 0.6819,
+		"rotY_" : -0.0036,
+		"rotZ_" : 3.1359,
+		"transX_" : -4773.02,
+		"transY_" : 564.3612,
+		"transZ_" : 3066.73
+	},
+	"treeL_008":{
+		"firstModelName_" : "gligBdeco02",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"transX_" : 10868.7682,
+		"transY_" : 100,
+		"transZ_" : -2632.0516
+	},
+	"treeL_009":{
+		"firstModelName_" : "gligBdeco02",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 130.5,
+		"transX_" : -11349.0487,
+		"transY_" : 100,
+		"transZ_" : -950.0492
+	},
+	"treeM_001":{
+		"firstModelName_" : "gligBdeco03",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"transX_" : 8093.8804,
+		"transY_" : 404.2347,
+		"transZ_" : 4329.479
+	},
+	"treeM_002":{
+		"firstModelName_" : "gligBdeco03",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 55.0042,
+		"transX_" : 5179.5523,
+		"transY_" : 100,
+		"transZ_" : 2132.8135
+	},
+	"treeM_003":{
+		"firstModelName_" : "gligBdeco03",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 180,
+		"transX_" : 690.3658,
+		"transY_" : 100,
+		"transZ_" : -6301.0116
+	},
+	"treeM_004":{
+		"firstModelName_" : "gligBdeco03",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"transX_" : -1806.5998,
+		"transY_" : 537.8293,
+		"transZ_" : -3132.903
+	},
+	"treeM_005":{
+		"firstModelName_" : "gligBdeco03",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 180,
+		"transX_" : -2078.8336,
+		"transY_" : 537.1839,
+		"transZ_" : -2894.4927
+	},
+	"treeM_006":{
+		"firstModelName_" : "gligBdeco03",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 120,
+		"transX_" : -59.4281,
+		"transY_" : 105.5944,
+		"transZ_" : 952.6265
+	},
+	"treeM_007":{
+		"firstModelName_" : "gligBdeco03",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"transX_" : -151.66,
+		"transY_" : 98.5272,
+		"transZ_" : 1315.778
+	},
+	"treeM_008":{
+		"firstModelName_" : "gligBdeco03",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"transX_" : -8773.1027,
+		"transY_" : 104.6267,
+		"transZ_" : 944.5744
+	},
+	"treeM_009":{
+		"firstModelName_" : "gligBdeco03",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : -120,
+		"transX_" : -7695.6338,
+		"transY_" : 104.6267,
+		"transZ_" : 4845.2766
+	},
+	"treeM_010":{
+		"firstModelName_" : "gligBdeco03",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotX_" : -0.3999,
+		"rotY_" : -8.5438,
+		"rotZ_" : -5.1512,
+		"transX_" : -3702.6354,
+		"transY_" : 545.1143,
+		"transZ_" : 2762.2805
+	},
+	"treeM_011":{
+		"firstModelName_" : "gligBdeco03",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"transX_" : 10470.697,
+		"transY_" : 101,
+		"transZ_" : -2422.1217
+	},
+	"treeM_012":{
+		"firstModelName_" : "gligBdeco03",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"transX_" : 14013.7841,
+		"transY_" : 101,
+		"transZ_" : -4299.2734
+	},
+	"treeM_013":{
+		"firstModelName_" : "gligBdeco03",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 130.5,
+		"transX_" : -10930.8902,
+		"transY_" : 101,
+		"transZ_" : -783.692
+	},
+	"treeM_014":{
+		"firstModelName_" : "gligBdeco03",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 130.5,
+		"transX_" : -14659.3385,
+		"transY_" : 101,
+		"transZ_" : -2258.7641
+	},
+	"treeS_001":{
+		"firstModelName_" : "gligBdeco04",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 55.0042,
+		"transX_" : 5360.0885,
+		"transY_" : 100,
+		"transZ_" : 1882.8299
+	},
+	"treeS_002":{
+		"firstModelName_" : "gligBdeco04",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 90,
+		"transX_" : 10743.015,
+		"transY_" : 100,
+		"transZ_" : -2265.0399
+	},
+	"treeS_003":{
+		"firstModelName_" : "gligBdeco04",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"transX_" : 14152.6806,
+		"transY_" : 103.7542,
+		"transZ_" : -4049.3724
+	},
+	"treeS_004":{
+		"firstModelName_" : "gligBdeco04",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : -139.5,
+		"transX_" : -10988.3006,
+		"transY_" : 100,
+		"transZ_" : -1092.7807
+	},
+	"treeS_005":{
+		"firstModelName_" : "gligBdeco04",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 130.5,
+		"transX_" : -14559.5183,
+		"transY_" : 103.7542,
+		"transZ_" : -2526.6795
+	},
+	"yukidaruma_001":{
+		"firstModelName_" : "gligBdeco05",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 5.518,
+		"transX_" : 3875.54,
+		"transY_" : 847.37,
+		"transZ_" : -4228.396
+	},
+	"yukidaruma_002":{
+		"firstModelName_" : "gligBdeco05",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 201.798,
+		"transX_" : -5947.363,
+		"transY_" : 792.326,
+		"transZ_" : 7999.702
+	},
+	"yukidaruma_003":{
+		"firstModelName_" : "gligBdeco05",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 86.11,
+		"transX_" : -5877.168,
+		"transY_" : 916.327,
+		"transZ_" : -5416.607
+	},
+	"yukidaruma_004":{
+		"firstModelName_" : "gligBdeco05",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 160.922,
+		"transX_" : 7568.951,
+		"transY_" : 797.37,
+		"transZ_" : 4048.652
+	},
+	"yukidaruma_005":{
+		"firstModelName_" : "gligBdeco05",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 76.019,
+		"transX_" : -534.501,
+		"transY_" : 885.37,
+		"transZ_" : -3495.318
+	},
+	"yukidaruma_006":{
+		"firstModelName_" : "gligBdeco05",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 161.642,
+		"transX_" : -8262.212,
+		"transY_" : 472.327,
+		"transZ_" : 1356.88
+	},
+	"yukidaruma_007":{
+		"firstModelName_" : "gligBdeco05",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : -32.025,
+		"transX_" : 7882.996,
+		"transY_" : 476.87,
+		"transZ_" : 380.204
+	},
+	"santa_001":{
+		"firstModelName_" : "gligBdeco06",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : -168.0017,
+		"transX_" : 7949.9566,
+		"transY_" : 795.4163,
+		"transZ_" : -918.3424
+	},
+	"santa_002":{
+		"firstModelName_" : "gligBdeco06",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : -25.2046,
+		"transX_" : -7804.3682,
+		"transY_" : 795.4163,
+		"transZ_" : -150.8632
+	},
+	"santa_003":{
+		"firstModelName_" : "gligBdeco06",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 154.7954,
+		"transX_" : -8487.608,
+		"transY_" : 795.4163,
+		"transZ_" : -1263.7111
+	},
+	"santa_004":{
+		"firstModelName_" : "gligBdeco06",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 11.9983,
+		"transX_" : 9167.0279,
+		"transY_" : 795.4163,
+		"transZ_" : -445.0731
+	}
+}}}

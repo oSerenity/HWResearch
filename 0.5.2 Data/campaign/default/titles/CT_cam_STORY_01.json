@@ -1,0 +1,87 @@
+// CampaignDetail.xlsx.tmp campaign 
+
+{"JsonCampaignTitle":{"campaign_":{
+	"cam_STORY_01":{
+		"index" : 14,
+		"TitleTextID" : "$TXSCT00001",
+		"DetailTextID" : "$TXSCS00001",
+		"OpenTextID" : "TEXT_ID_SAMPLE",
+		"Kind" : "OFFLINE",
+		"Level" : 1,
+		"BattleKind" : "STORY",
+		"MissionID_00" : "mission00"
+	}
+},
+// CampaignDetail.xlsx.tmp mission 
+
+"mission_":{
+	"mission00":{
+		"TitleTextID" : "$TXSMT00011",
+		"DetailTextID" : "$TXSMS00011",
+		"AchieveTitleTextID" : "TEXT_ID_SAMPLE",
+		"AchieveDetailTextID" : "TEXT_ID_SAMPLE",
+		"LabelType" : "LABEL_SAMPLE",
+		"BackgroundImage" : "sample.jpg",
+		"StageBres" : "sligA.bres",
+		"StartDemoID" : "demo_101",
+		"EndDemoID" : "demo_102",
+		"StageSettingID" : 1,
+		"FirstRewardPoint" : 10,
+		"RewardPoint" : 0,
+		"UnionColor" : "WHITE",
+		"RewardSetID" : "SBStar_0101_N",
+		"RewardSetID_H" : "SBStar_0101_H",
+		"RewardSetID_SH" : "SBStar_0101_SH",
+		"WhiteBotEquipmentRare" : 3,
+		"WhiteBotEquipmentLevel" : 3,
+		"BlackBotEquipmentRare" : 4,
+		"BlackBotEquipmentLevel" : 5,
+		"GameTime" : 1200,
+		"GameTime_H" : 600,
+		"GameTime_SH" : 300,
+		"StartWaitTime" : 0,
+		"EndWaitTime" : 8,
+		"NormalRebirthTime" : 7,
+		"PenaltyRebirthTime" : 5,
+		"EntryWhiteMax" : 0,
+		"EntryBlackMax" : 0,
+		"ScriptGameJudgement" : true,
+		"EnableSuddenDeath" : false,
+		"BotAttackRate" : 1,
+		"BotTargetRate" : 1,
+		"BotSkillSetWarrior" : "NoSkill",
+		"BotSkillSetCleric" : "NoSkill",
+		"BotSkillSetMage" : "NoSkill",
+		"BotActionGuardWarrior" : false,
+		"BotActionGuardCleric" : true,
+		"BotActionDashAttackWarrior" : false,
+		"BotActionBlowAttackWarrior" : false,
+		"BotActionBlowAttackCleric" : false
+	}
+},
+// CampaignDetail.xlsx.tmp reward_set 
+
+"rewardSet_":{
+	"SampleSet":{
+		"HappyStar" : 0
+	},
+	"SBStar_0101_N":{
+		"HappyStar" : 200,
+		"ItemSetID" : "SBItem_0101"
+	},
+	"SBStar_0101_H":{
+		"HappyStar" : 250
+	},
+	"SBStar_0101_SH":{
+		"HappyStar" : 300
+	}
+},
+// CampaignDetail.xlsx.tmp item_detail_title 
+
+"itemDetail_":{
+	"SBItem_0101":{
+		"ItemID" : "ITEM_CAM_0011",
+		"Level" : 3,
+		"BuffID_00" : "Buff_Roar_00"
+	}
+}}}

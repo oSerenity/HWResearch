@@ -1,0 +1,41 @@
+/* XDASEA_Xm8R_SPsX */ 
+// sligA_stage_gimmick.xlsx.tmp GimmickPosition 
+
+{"JsonStageSetTable":{"gimmickDecoArrangeParam_":{
+	"gdecohalloween01_001":{
+		"firstModelName_" : "gdecohalloween01",
+		"firstAnimeName_" : "gdecohalloween01_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : -116.4001,
+		"transX_" : 10773.3857,
+		"transY_" : 500,
+		"transZ_" : 12142.999
+	},
+	"gdecohalloween01_002":{
+		"firstModelName_" : "gdecohalloween01",
+		"firstAnimeName_" : "gdecohalloween01_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : -74.374,
+		"transX_" : 23567.5391,
+		"transY_" : 500,
+		"transZ_" : 3556.8135
+	},
+	"gdecohalloween02_001":{
+		"firstModelName_" : "gdecohalloween02",
+		"firstAnimeName_" : "gdecohalloween02_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"scaleX_" : 0.7,
+		"scaleY_" : 0.7,
+		"scaleZ_" : 0.7,
+		"rotY_" : 80,
+		"transX_" : -12500,
+		"transY_" : -200,
+		"transZ_" : -1800
+	}
+}}}

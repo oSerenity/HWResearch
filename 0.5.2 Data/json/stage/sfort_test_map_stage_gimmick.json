@@ -1,0 +1,776 @@
+/* XDASEA_Xm8R_SPsX */ 
+// sfort_test_map_stage_gimmick.xlsx.tmp GimmickPosition 
+
+{"JsonStageSetTable":{"gimmickArrangeParam_":{
+	"gcmoA_001":{
+		"gimmickType_" : "CastleMonument",
+		"rotY_" : 0,
+		"transX_" : 0,
+		"transY_" : 187.4751,
+		"transZ_" : -10819.3044,
+		"param0_" : 0,
+		"param1_" : 0,
+		"param2_" : 180
+	},
+	"gcmoB_001":{
+		"gimmickType_" : "CastleMonument",
+		"rotY_" : 180,
+		"transX_" : 0,
+		"transY_" : 187.4751,
+		"transZ_" : 10819.3044,
+		"param0_" : 0,
+		"param1_" : 0,
+		"param2_" : 180
+	},
+	"gfmo_001":{
+		"gimmickType_" : "FieldMonument",
+		"rotY_" : 0,
+		"transX_" : 0,
+		"transY_" : 151,
+		"transZ_" : 0,
+		"param0_" : 1,
+		"param1_" : 0,
+		"param2_" : 180
+	},
+	"gcat01_001":{
+		"gimmickType_" : "Cannon",
+		"rotY_" : 164.7146,
+		"transX_" : -1730.0746,
+		"transY_" : 0,
+		"transZ_" : -5203.623
+	},
+	"gcat01_002":{
+		"gimmickType_" : "Cannon",
+		"rotY_" : -159.1789,
+		"transX_" : 3446.9506,
+		"transY_" : 0,
+		"transZ_" : -5324.3768
+	},
+	"gcat01_003":{
+		"gimmickType_" : "Cannon",
+		"rotY_" : -15.28540000000001,
+		"transX_" : 1730.0746,
+		"transY_" : 0,
+		"transZ_" : 5203.623
+	},
+	"gcat01_004":{
+		"gimmickType_" : "Cannon",
+		"rotY_" : -339.1789,
+		"transX_" : -3446.9506,
+		"transY_" : 0,
+		"transZ_" : 5324.3768
+	},
+	"gfla01_001":{
+		"firstModelName_" : "gfla02",
+		"firstAnimeName_" : "gfla02_000_loop",
+		"rotY_" : 0,
+		"transX_" : 2455.4157,
+		"transY_" : 1100,
+		"transZ_" : -7544.5843
+	},
+	"gfla02_001":{
+		"firstModelName_" : "gfla01",
+		"firstAnimeName_" : "gfla01_000_loop",
+		"rotY_" : 180,
+		"transX_" : -2455.4157,
+		"transY_" : 1100,
+		"transZ_" : 7544.5843
+	},
+	"glad01_001":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 0,
+		"transX_" : -920.1071,
+		"transY_" : 0,
+		"transZ_" : -7145.4657,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"glad01_002":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 0,
+		"transX_" : 940.3873,
+		"transY_" : 0,
+		"transZ_" : -7145.4657,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"glad01_003":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 90,
+		"transX_" : 2745.5866,
+		"transY_" : 0,
+		"transZ_" : -9091.8212,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"glad01_004":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : -90,
+		"transX_" : -2730,
+		"transY_" : 0,
+		"transZ_" : -9209.0771,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"glad01_005":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 180,
+		"transX_" : 935.5121,
+		"transY_" : 0,
+		"transZ_" : -12735.3118,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"glad01_006":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 180,
+		"transX_" : -1008.5323,
+		"transY_" : 0,
+		"transZ_" : -12735.3118,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"glad01_007":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 180,
+		"transX_" : 920.1071,
+		"transY_" : 0,
+		"transZ_" : 7145.4657,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"glad01_008":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 180,
+		"transX_" : -940.3873,
+		"transY_" : 0,
+		"transZ_" : 7145.4657,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"glad01_009":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : -90,
+		"transX_" : -2745.5866,
+		"transY_" : 0,
+		"transZ_" : 9091.8212,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"glad01_010":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 90,
+		"transX_" : 2730,
+		"transY_" : 0,
+		"transZ_" : 9209.0771,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"glad01_011":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 0,
+		"transX_" : -935.5121,
+		"transY_" : 0,
+		"transZ_" : 12735.3118,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"glad01_012":{
+		"gimmickType_" : "Ladder",
+		"rotY_" : 0,
+		"transX_" : 1008.5323,
+		"transY_" : 0,
+		"transZ_" : 12735.3118,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"gbal01_001":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 0,
+		"transX_" : 1511.58813,
+		"transY_" : 860,
+		"transZ_" : -7261.96118,
+		"param0_" : 1,
+		"param1_" : -95,
+		"param2_" : 100,
+		"param3_" : -45,
+		"param4_" : 5,
+		"param6_" : true
+	},
+	"gbal01_002":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 90,
+		"transX_" : 2733.46826,
+		"transY_" : 637,
+		"transZ_" : -8122.06458,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -50,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_003":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 0,
+		"transX_" : -478.27747,
+		"transY_" : 1000,
+		"transZ_" : -7503.12842,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -58,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_004":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : -90,
+		"transX_" : -2793.50586,
+		"transY_" : 637,
+		"transZ_" : -8137.6422,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -58,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_005":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 0,
+		"transX_" : -1642.06445,
+		"transY_" : 637,
+		"transZ_" : -7003.43433,
+		"param0_" : 1,
+		"param1_" : -100,
+		"param2_" : 115,
+		"param3_" : -45,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_006":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 90,
+		"transX_" : -1663.51233,
+		"transY_" : 600,
+		"transZ_" : -10819.26361,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -58,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_007":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 0,
+		"transX_" : 482.43738,
+		"transY_" : 1000,
+		"transZ_" : -7503.12842,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -58,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_008":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : -90,
+		"transX_" : 1663.51233,
+		"transY_" : 600,
+		"transZ_" : -10819.26361,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -58,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_009":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 180,
+		"transX_" : -1511.58813,
+		"transY_" : 860,
+		"transZ_" : 7261.96118,
+		"param0_" : 1,
+		"param1_" : -95,
+		"param2_" : 100,
+		"param3_" : -45,
+		"param4_" : 5,
+		"param6_" : true
+	},
+	"gbal01_010":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : -90,
+		"transX_" : -2733.46826,
+		"transY_" : 637,
+		"transZ_" : 8122.06458,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -50,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_011":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 180,
+		"transX_" : 478.27747,
+		"transY_" : 1000,
+		"transZ_" : 7503.12842,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -58,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_012":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 90,
+		"transX_" : 2793.50586,
+		"transY_" : 637,
+		"transZ_" : 8137.6422,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -58,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_013":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 180,
+		"transX_" : 1642.06445,
+		"transY_" : 637,
+		"transZ_" : 7003.43433,
+		"param0_" : 1,
+		"param1_" : -100,
+		"param2_" : 115,
+		"param3_" : -45,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_014":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : -90,
+		"transX_" : 1663.51233,
+		"transY_" : 600,
+		"transZ_" : 10819.26361,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -58,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_015":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 180,
+		"transX_" : -482.43738,
+		"transY_" : 1000,
+		"transZ_" : 7503.12842,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -58,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_016":{
+		"gimmickType_" : "Ballista",
+		"rotY_" : 90,
+		"transX_" : -1663.51233,
+		"transY_" : 600,
+		"transZ_" : 10819.26361,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -58,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"ggat01_001":{
+		"bodyKind_" : "FINDABLE",
+		"gimmickType_" : "CastleGateWhite",
+		"rotY_" : 0,
+		"transX_" : 0,
+		"transY_" : 75,
+		"transZ_" : -7550
+	},
+	"ggat01_002":{
+		"bodyKind_" : "FINDABLE",
+		"gimmickType_" : "CastleGateBlack",
+		"rotY_" : 180,
+		"transX_" : 0,
+		"transY_" : 75,
+		"transZ_" : 7550
+	},
+	"gbar01_001":{
+		"gimmickType_" : "CastleBarricade",
+		"rotY_" : 0,
+		"transX_" : -939.3973,
+		"transY_" : 637.5,
+		"transZ_" : -7899.6421,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"gbar01_002":{
+		"gimmickType_" : "CastleBarricade",
+		"rotY_" : 0,
+		"transX_" : 942.9742,
+		"transY_" : 637.5,
+		"transZ_" : -7899.6421,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"gbar01_003":{
+		"gimmickType_" : "CastleBarricade",
+		"rotY_" : 90,
+		"transX_" : 2000,
+		"transY_" : 637.5,
+		"transZ_" : -9062.8249,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"gbar01_004":{
+		"gimmickType_" : "CastleBarricade",
+		"rotY_" : -90,
+		"transX_" : -1998.6926,
+		"transY_" : 637.5,
+		"transZ_" : -9190.2044,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"gbar01_005":{
+		"gimmickType_" : "CastleBarricade",
+		"rotY_" : 180,
+		"transX_" : 922.811,
+		"transY_" : 637.5,
+		"transZ_" : -11995,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"gbar01_006":{
+		"gimmickType_" : "CastleBarricade",
+		"rotY_" : 180,
+		"transX_" : -986.042,
+		"transY_" : 637.5,
+		"transZ_" : -11995,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"gbar01_007":{
+		"gimmickType_" : "CastleBarricade",
+		"rotY_" : 180,
+		"transX_" : 939.3973,
+		"transY_" : 637.5,
+		"transZ_" : 7900,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"gbar01_008":{
+		"gimmickType_" : "CastleBarricade",
+		"rotY_" : 180,
+		"transX_" : -942.9742,
+		"transY_" : 637.5,
+		"transZ_" : 7900,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"gbar01_009":{
+		"gimmickType_" : "CastleBarricade",
+		"rotY_" : -90,
+		"transX_" : -2000,
+		"transY_" : 637.5,
+		"transZ_" : 9062.8249,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"gbar01_010":{
+		"gimmickType_" : "CastleBarricade",
+		"rotY_" : 90,
+		"transX_" : 1998.6926,
+		"transY_" : 637.5,
+		"transZ_" : 9190.2044,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"gbar01_011":{
+		"gimmickType_" : "CastleBarricade",
+		"rotY_" : 0,
+		"transX_" : -922.811,
+		"transY_" : 637.5,
+		"transZ_" : 11995,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"gbar01_012":{
+		"gimmickType_" : "CastleBarricade",
+		"rotY_" : 0,
+		"transX_" : 986.042,
+		"transY_" : 637.5,
+		"transZ_" : 11995,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"gbom02_001":{
+		"gimmickType_" : "BombStone",
+		"rotY_" : 225,
+		"transX_" : -1232,
+		"transY_" : 637.5,
+		"transZ_" : -7417
+	},
+	"gbom02_002":{
+		"gimmickType_" : "BombStone",
+		"rotY_" : 45,
+		"transX_" : 1232,
+		"transY_" : 637.5,
+		"transZ_" : 7417
+	},
+	"gmon01_001":{
+		"gimmickType_" : "BatteringRam",
+		"rotY_" : 180,
+		"transX_" : 0,
+		"transY_" : 0,
+		"transZ_" : -6550,
+		"param0_" : "POWER_COLOR_BLACK",
+		"param1_" : "ggat01_001"
+	},
+	"gmon01_002":{
+		"gimmickType_" : "BatteringRam",
+		"rotY_" : 0,
+		"transX_" : 0,
+		"transY_" : 0,
+		"transZ_" : 6550,
+		"param0_" : "POWER_COLOR_WHITE",
+		"param1_" : "ggat01_002"
+	},
+	"start_001":{
+		"gimmickType_" : "KeepOutChit",
+		"rotY_" : 180,
+		"transX_" : 0,
+		"transY_" : 75,
+		"transZ_" : -8597.1087
+	},
+	"start_002":{
+		"gimmickType_" : "KeepOut",
+		"rotY_" : 90,
+		"transX_" : -1605.5,
+		"transY_" : 600,
+		"transZ_" : -10202.5
+	},
+	"start_003":{
+		"gimmickType_" : "KeepOut",
+		"rotY_" : -90,
+		"transX_" : 1605.5,
+		"transY_" : 600,
+		"transZ_" : -10202.5
+	},
+	"start_004":{
+		"gimmickType_" : "KeepOutChit",
+		"rotY_" : 0,
+		"transX_" : 0,
+		"transY_" : 75,
+		"transZ_" : 8597.1087
+	},
+	"start_005":{
+		"gimmickType_" : "KeepOut",
+		"rotY_" : -90,
+		"transX_" : 1605.5,
+		"transY_" : 600,
+		"transZ_" : 10202.5
+	},
+	"start_006":{
+		"gimmickType_" : "KeepOut",
+		"rotY_" : 90,
+		"transX_" : -1605.5,
+		"transY_" : 600,
+		"transZ_" : 10202.5
+	}
+},
+// sfort_test_map_stage_gimmick.xlsx.tmp GimmickCamera 
+
+"gimmickCameraParam_":{
+	"gbal01_001":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_002":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_003":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_004":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_005":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_006":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_007":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_008":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_009":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_010":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_011":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_012":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_013":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_014":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_015":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_016":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gcat01_001":{
+		"distance_" : 1800,
+		"angleX_" : 20,
+		"offsetX_" : 0,
+		"offsetY_" : 440,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 0
+	},
+	"gcat01_002":{
+		"distance_" : 1800,
+		"angleX_" : 20,
+		"offsetX_" : 0,
+		"offsetY_" : 440,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 0
+	},
+	"gcat01_003":{
+		"distance_" : 1800,
+		"angleX_" : 20,
+		"offsetX_" : 0,
+		"offsetY_" : 440,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 0
+	},
+	"gcat01_004":{
+		"distance_" : 1800,
+		"angleX_" : 20,
+		"offsetX_" : 0,
+		"offsetY_" : 440,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 0
+	},
+	"gmon01_001":{
+		"distance_" : 1500,
+		"angleX_" : 40,
+		"offsetX_" : 0,
+		"offsetY_" : 800,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 0
+	},
+	"gmon01_002":{
+		"distance_" : 1500,
+		"angleX_" : 40,
+		"offsetX_" : 0,
+		"offsetY_" : 800,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 0
+	}
+},
+// sfort_test_map_stage_gimmick.xlsx.tmp collisionEntries 
+
+"collisionEntries_":{
+
+}}}

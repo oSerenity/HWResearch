@@ -1,0 +1,83 @@
+// CampaignDetail.xlsx.tmp campaign 
+
+{"JsonCampaignTitle":{"campaign_":{
+	"cam_WARS_Rainbow":{
+		"index" : 8,
+		"TitleTextID" : "$TXWCT00001",
+		"DetailTextID" : "TEXT_ID_SAMPLE",
+		"OpenTextID" : "TEXT_ID_SAMPLE",
+		"Kind" : "OFFLINE",
+		"Level" : 2,
+		"BattleKind" : "WARS",
+		"MissionID_00" : "mission00",
+		"RewardSetID" : "SampleSet"
+	}
+},
+// CampaignDetail.xlsx.tmp mission 
+
+"mission_":{
+	"mission00":{
+		"TitleTextID" : "$TXWCT00001",
+		"DetailTextID" : "TEXT_ID_SAMPLE",
+		"AchieveTitleTextID" : "TEXT_ID_SAMPLE",
+		"AchieveDetailTextID" : "TEXT_ID_SAMPLE",
+		"LabelType" : "LABEL_SAMPLE",
+		"BackgroundImage" : "sample.jpg",
+		"StageBres" : "sligA.bres",
+		"FirstRewardPoint" : 10,
+		"RewardPoint" : 0,
+		"UnionColor" : "WHITE",
+		"RewardSetID" : "NormalBonus",
+		"RewardSetID_H" : "HardBonus",
+		"RewardSetID_SH" : "SuperHardBonus",
+		"WhiteBotEquipmentRare" : 1,
+		"WhiteBotEquipmentLevel" : 1,
+		"BlackBotEquipmentRare" : 1,
+		"BlackBotEquipmentLevel" : 1,
+		"GameTime" : -1,
+		"GameTime_H" : -1,
+		"GameTime_SH" : -1,
+		"StartWaitTime" : 8,
+		"EndWaitTime" : 8,
+		"NormalRebirthTime" : -1,
+		"PenaltyRebirthTime" : -1,
+		"EntryWhiteMax" : 15,
+		"EntryBlackMax" : 15,
+		"ScriptGameJudgement" : false,
+		"EnableSuddenDeath" : true,
+		"BotAttackRate" : 1,
+		"BotTargetRate" : 1,
+		"BotActionDashAttackWarrior" : false,
+		"BotActionBlowAttackWarrior" : false,
+		"BotActionFullAttackMage" : false
+	}
+},
+// CampaignDetail.xlsx.tmp reward_set 
+
+"rewardSet_":{
+	"SampleSet":{
+		"HappyStar" : 0,
+		"ItemSetID" : "SampleWeapon"
+	},
+	"NormalBonus":{
+		"HappyStar" : 0
+	},
+	"HardBonus":{
+		"HappyStar" : 0
+	},
+	"SuperHardBonus":{
+		"HappyStar" : 0
+	}
+},
+// CampaignDetail.xlsx.tmp item_detail_title 
+
+"itemDetail_":{
+	"SampleWeapon":{
+		"ItemID" : "ITEM_WEPON_0045",
+		"Level" : 1
+	},
+	"SampleShield":{
+		"ItemID" : "ITEM_SHIELD_0350",
+		"Level" : 1
+	}
+}}}

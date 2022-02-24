@@ -1,0 +1,272 @@
+/* XDASEA_Xm8R_SPsX */ 
+// sbabB_stage_effect.xlsx.tmp 配置 
+
+{"JsonStageSetTable":{"effectArrangeParam_":{
+	"jump01":{
+		"groupID_" : 0,
+		"effectTag_" : "Ccam02c",
+		"effectScale_" : 1.5,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 14130,
+		"effectTransY_" : 300,
+		"effectTransZ_" : -4690
+	},
+	"jump02":{
+		"groupID_" : 0,
+		"effectTag_" : "Ccam02c",
+		"effectScale_" : 1.5,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -14130,
+		"effectTransY_" : 300,
+		"effectTransZ_" : 4690
+	},
+	"eff01":{
+		"groupID_" : 0,
+		"effectTag_" : "Gbub01c",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 14130,
+		"effectTransY_" : -1000,
+		"effectTransZ_" : -4690
+	},
+	"eff02":{
+		"groupID_" : 0,
+		"effectTag_" : "Gbub01c",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -14130,
+		"effectTransY_" : -1000,
+		"effectTransZ_" : 4690
+	}
+},
+// sbabB_stage_effect.xlsx.tmp グループ 
+
+"effectGroupParam_":{
+	"crgrp001":{
+		"groupID_" : 1,
+		"randomTimer_" : 1,
+		"randomCount_" : 1
+	},
+	"crgrp002":{
+		"groupID_" : 2,
+		"randomTimer_" : 2.5,
+		"randomCount_" : 1
+	},
+	"crgrp003":{
+		"groupID_" : 3,
+		"randomTimer_" : 2,
+		"randomCount_" : 1
+	},
+	"crgrp004":{
+		"groupID_" : 4,
+		"randomTimer_" : 2.5,
+		"randomCount_" : 1
+	},
+	"crgrp005":{
+		"groupID_" : 5,
+		"randomTimer_" : 2,
+		"randomCount_" : 1
+	},
+	"crgrp006":{
+		"groupID_" : 6,
+		"randomTimer_" : 3,
+		"randomCount_" : 2
+	},
+	"crgrp007":{
+		"groupID_" : 7,
+		"randomTimer_" : 2.5,
+		"randomCount_" : 1
+	},
+	"crgrp008":{
+		"groupID_" : 8,
+		"randomTimer_" : 2,
+		"randomCount_" : 1
+	},
+	"crgrp009":{
+		"groupID_" : 9,
+		"randomTimer_" : 3,
+		"randomCount_" : 2
+	},
+	"crgrp010":{
+		"groupID_" : 10,
+		"randomTimer_" : 2.5,
+		"randomCount_" : 1
+	},
+	"crgrp011":{
+		"groupID_" : 11,
+		"randomTimer_" : 2,
+		"randomCount_" : 1
+	},
+	"crgrp012":{
+		"groupID_" : 12,
+		"randomTimer_" : 2.5,
+		"randomCount_" : 1
+	},
+	"crgrp013":{
+		"groupID_" : 13,
+		"randomTimer_" : 2,
+		"randomCount_" : 1
+	},
+	"crgrp014":{
+		"groupID_" : 14,
+		"randomTimer_" : 2.5,
+		"randomCount_" : 1
+	},
+	"crgrp015":{
+		"groupID_" : 15,
+		"randomTimer_" : 3,
+		"randomCount_" : 1
+	},
+	"crgrp016":{
+		"groupID_" : 16,
+		"randomTimer_" : 60,
+		"randomCount_" : 280
+	}
+},
+// sbabB_stage_effect.xlsx.tmp SE 
+
+"effectPlaySeParam_":{
+	"taki001":{
+		"seName_" : "SE130000",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 7123,
+		"playPosY_" : -100,
+		"playPosZ_" : 6252
+	},
+	"taki002":{
+		"seName_" : "SE130000",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 6447,
+		"playPosY_" : -100,
+		"playPosZ_" : -3037
+	},
+	"taki003":{
+		"seName_" : "SE130000",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 2852,
+		"playPosY_" : -100,
+		"playPosZ_" : -7575
+	},
+	"taki004":{
+		"seName_" : "SE130000",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 1728,
+		"playPosY_" : -100,
+		"playPosZ_" : -9074
+	},
+	"taki005":{
+		"seName_" : "SE130000",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -3540,
+		"playPosY_" : -100,
+		"playPosZ_" : -9570
+	},
+	"taki006":{
+		"seName_" : "SE130000",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -6057,
+		"playPosY_" : -12,
+		"playPosZ_" : -9508
+	},
+	"taki007":{
+		"seName_" : "SE130000",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -11761,
+		"playPosY_" : -100,
+		"playPosZ_" : -9367
+	},
+	"taki008":{
+		"seName_" : "SE130000",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -15868,
+		"playPosY_" : -100,
+		"playPosZ_" : -1900
+	},
+	"taki009":{
+		"seName_" : "SE130000",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -11221,
+		"playPosY_" : -100,
+		"playPosZ_" : 10060
+	},
+	"taki010":{
+		"seName_" : "SE130000",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -9712,
+		"playPosY_" : -100,
+		"playPosZ_" : 10344
+	},
+	"kaze001":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 21882,
+		"playPosY_" : 1589,
+		"playPosZ_" : 6525
+	},
+	"kaze002":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 7515,
+		"playPosY_" : 1589,
+		"playPosZ_" : 13230
+	},
+	"kaze003":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 14798,
+		"playPosY_" : -121,
+		"playPosZ_" : 7134
+	},
+	"kaze004":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 15456,
+		"playPosY_" : 80,
+		"playPosZ_" : 9968
+	},
+	"kaze005":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 17607,
+		"playPosY_" : 304,
+		"playPosZ_" : 7920
+	}
+}}}

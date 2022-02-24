@@ -1,0 +1,862 @@
+/* XDASEA_Xm8R_SPsX */ 
+// scloB_stage_effect.xlsx.tmp 配置 
+
+{"JsonStageSetTable":{"effectArrangeParam_":{
+	"entotu001":{
+		"groupID_" : 0,
+		"effectTag_" : "st62",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -24439,
+		"effectTransY_" : 4285,
+		"effectTransZ_" : -1311
+	},
+	"entotu002":{
+		"groupID_" : 0,
+		"effectTag_" : "st62",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 25940,
+		"effectTransY_" : 4285,
+		"effectTransZ_" : 3808
+	},
+	"ochib001":{
+		"groupID_" : 0,
+		"effectTag_" : "st57",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 4329,
+		"effectTransY_" : 1000,
+		"effectTransZ_" : 3100
+	},
+	"ochib002":{
+		"groupID_" : 0,
+		"effectTag_" : "st57",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -3751,
+		"effectTransY_" : 1000,
+		"effectTransZ_" : 3300
+	},
+	"ochib003":{
+		"groupID_" : 0,
+		"effectTag_" : "st57",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 600,
+		"effectTransY_" : 1000,
+		"effectTransZ_" : -4600
+	},
+	"ochib004":{
+		"groupID_" : 0,
+		"effectTag_" : "st57",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -3751,
+		"effectTransY_" : 1000,
+		"effectTransZ_" : 3300
+	},
+	"ochib005":{
+		"groupID_" : 0,
+		"effectTag_" : "st57",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 5173,
+		"effectTransY_" : 1000,
+		"effectTransZ_" : 2700
+	},
+	"ochib006":{
+		"groupID_" : 0,
+		"effectTag_" : "st57",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 3564,
+		"effectTransY_" : 2000,
+		"effectTransZ_" : 4500
+	},
+	"ochib007":{
+		"groupID_" : 0,
+		"effectTag_" : "st57",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 1074,
+		"effectTransY_" : 1000,
+		"effectTransZ_" : -4012
+	},
+	"ochib008":{
+		"groupID_" : 0,
+		"effectTag_" : "st57",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -900,
+		"effectTransY_" : 2500,
+		"effectTransZ_" : -12845
+	},
+	"smoke001":{
+		"groupID_" : 0,
+		"effectTag_" : "st14",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -7671,
+		"effectTransY_" : -620,
+		"effectTransZ_" : 2232
+	},
+	"smoke005":{
+		"groupID_" : 0,
+		"effectTag_" : "st14",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 8800,
+		"effectTransY_" : -450,
+		"effectTransZ_" : 3191
+	},
+	"smoke006":{
+		"groupID_" : 0,
+		"effectTag_" : "st14",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -7701,
+		"effectTransY_" : -580,
+		"effectTransZ_" : 1893
+	},
+	"smoke007":{
+		"groupID_" : 0,
+		"effectTag_" : "st14",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -1122,
+		"effectTransY_" : 200,
+		"effectTransZ_" : -3625
+	},
+	"smoke008":{
+		"groupID_" : 0,
+		"effectTag_" : "st14",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -1255,
+		"effectTransY_" : 250,
+		"effectTransZ_" : -4280
+	},
+	"smoke009":{
+		"groupID_" : 0,
+		"effectTag_" : "st14",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 1308,
+		"effectTransY_" : 250,
+		"effectTransZ_" : -4433
+	},
+	"smoke012":{
+		"groupID_" : 0,
+		"effectTag_" : "st14",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -15633,
+		"effectTransY_" : 4100,
+		"effectTransZ_" : -4316
+	},
+	"smoke013":{
+		"groupID_" : 0,
+		"effectTag_" : "st14",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -15994,
+		"effectTransY_" : 4153,
+		"effectTransZ_" : -4873
+	},
+	"smoke014":{
+		"groupID_" : 0,
+		"effectTag_" : "st14",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -5474,
+		"effectTransY_" : 2470,
+		"effectTransZ_" : -8917
+	},
+	"smoke015":{
+		"groupID_" : 0,
+		"effectTag_" : "st14",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -5229,
+		"effectTransY_" : 2500,
+		"effectTransZ_" : -9609
+	},
+	"ase001":{
+		"groupID_" : 0,
+		"effectTag_" : "st51",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 9377.042,
+		"effectTransY_" : 678.253,
+		"effectTransZ_" : 4140.949
+	},
+	"ase002":{
+		"groupID_" : 0,
+		"effectTag_" : "st51",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -7764.403,
+		"effectTransY_" : 678.253,
+		"effectTransZ_" : 770.187
+	},
+	"ase003":{
+		"groupID_" : 0,
+		"effectTag_" : "st51",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -11558.336,
+		"effectTransY_" : 4383.158,
+		"effectTransZ_" : -1252.564
+	},
+	"ase004":{
+		"groupID_" : 0,
+		"effectTag_" : "st51",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -14727.945,
+		"effectTransY_" : 5418.393,
+		"effectTransZ_" : -5823.31
+	},
+	"ase005":{
+		"groupID_" : 0,
+		"effectTag_" : "st51",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 13347.137,
+		"effectTransY_" : 4373.209,
+		"effectTransZ_" : 2497.913
+	},
+	"ase006":{
+		"groupID_" : 0,
+		"effectTag_" : "st51",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 18390.464,
+		"effectTransY_" : 5236.01,
+		"effectTransZ_" : -27.155
+	},
+	"ase007":{
+		"groupID_" : 0,
+		"effectTag_" : "st51",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 4760,
+		"effectTransY_" : 3789,
+		"effectTransZ_" : -8543
+	},
+	"ase008":{
+		"groupID_" : 0,
+		"effectTag_" : "st51",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -5677.069,
+		"effectTransY_" : 3746.782,
+		"effectTransZ_" : -8094.788
+	},
+	"kira01":{
+		"groupID_" : 0,
+		"effectTag_" : "st05",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectTransX_" : -2164,
+		"effectTransY_" : -100,
+		"effectTransZ_" : 903
+	},
+	"kira02":{
+		"groupID_" : 0,
+		"effectTag_" : "st05",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectTransX_" : -307,
+		"effectTransY_" : -100,
+		"effectTransZ_" : 2175
+	},
+	"kira03":{
+		"groupID_" : 0,
+		"effectTag_" : "st05",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectTransX_" : 1872,
+		"effectTransY_" : -100,
+		"effectTransZ_" : 1101
+	},
+	"kira04":{
+		"groupID_" : 0,
+		"effectTag_" : "st05",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectTransX_" : 800,
+		"effectTransY_" : -100,
+		"effectTransZ_" : 2000
+	},
+	"kira05":{
+		"groupID_" : 0,
+		"effectTag_" : "st05",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectTransX_" : -2351,
+		"effectTransY_" : -100,
+		"effectTransZ_" : -300
+	},
+	"kira06":{
+		"groupID_" : 0,
+		"effectTag_" : "st05",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectTransX_" : 1908,
+		"effectTransY_" : -100,
+		"effectTransZ_" : -560
+	},
+	"kira07":{
+		"groupID_" : 0,
+		"effectTag_" : "st05",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectTransX_" : 5100,
+		"effectTransY_" : -100,
+		"effectTransZ_" : 1230
+	},
+	"kira08":{
+		"groupID_" : 0,
+		"effectTag_" : "st05",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectTransX_" : 4635,
+		"effectTransY_" : -100,
+		"effectTransZ_" : 885
+	},
+	"lamp01":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.5,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -24053.073,
+		"effectTransY_" : 3556.134,
+		"effectTransZ_" : -5070.684
+	},
+	"lamp02":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.5,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -24214.2,
+		"effectTransY_" : 3556.134,
+		"effectTransZ_" : -4750.318
+	},
+	"lamp03":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.5,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -24915.246,
+		"effectTransY_" : 3556.134,
+		"effectTransZ_" : -3356.444
+	},
+	"lamp04":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.5,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -25076.374,
+		"effectTransY_" : 3556.134,
+		"effectTransZ_" : -3036.077
+	},
+	"lamp05":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.5,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -27583.102,
+		"effectTransY_" : 3556.134,
+		"effectTransZ_" : -4350.443
+	},
+	"lamp06":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.5,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -27376.62,
+		"effectTransY_" : 3556.134,
+		"effectTransZ_" : -4760.987
+	},
+	"lamp07":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.5,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -26809.325,
+		"effectTransY_" : 3556.134,
+		"effectTransZ_" : -5888.927
+	},
+	"lamp08":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.5,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -26602.843,
+		"effectTransY_" : 3556.134,
+		"effectTransZ_" : -6299.472
+	},
+	"lamp09":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.5,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 25553.073,
+		"effectTransY_" : 3556.134,
+		"effectTransZ_" : 7570.684
+	},
+	"lamp10":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.5,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 25714.2,
+		"effectTransY_" : 3556.134,
+		"effectTransZ_" : 7250.318
+	},
+	"lamp11":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.5,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 26415.246,
+		"effectTransY_" : 3556.134,
+		"effectTransZ_" : 5856.444
+	},
+	"lamp12":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.5,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 26576.374,
+		"effectTransY_" : 3556.134,
+		"effectTransZ_" : 5536.077
+	},
+	"lamp13":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.5,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 29083.102,
+		"effectTransY_" : 3556.134,
+		"effectTransZ_" : 6850.443
+	},
+	"lamp14":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.5,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 28876.62,
+		"effectTransY_" : 3556.134,
+		"effectTransZ_" : 7260.987
+	},
+	"lamp15":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.5,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 28309.325,
+		"effectTransY_" : 3556.134,
+		"effectTransZ_" : 8388.927
+	},
+	"lamp16":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.5,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 28102.843,
+		"effectTransY_" : 3556.134,
+		"effectTransZ_" : 8799.472
+	}
+},
+// scloB_stage_effect.xlsx.tmp グループ 
+
+"effectGroupParam_":{
+	"water01":{
+		"groupID_" : 1,
+		"randomTimer_" : 60,
+		"randomCount_" : 40
+	},
+	"water02":{
+		"groupID_" : 2,
+		"randomTimer_" : 60,
+		"randomCount_" : 40
+	},
+	"water03":{
+		"groupID_" : 3,
+		"randomTimer_" : 60,
+		"randomCount_" : 10
+	},
+	"water04":{
+		"groupID_" : 4,
+		"randomTimer_" : 60,
+		"randomCount_" : 20
+	},
+	"water05":{
+		"groupID_" : 5,
+		"randomTimer_" : 60,
+		"randomCount_" : 20
+	},
+	"water06":{
+		"groupID_" : 6,
+		"randomTimer_" : 60,
+		"randomCount_" : 20
+	},
+	"water07":{
+		"groupID_" : 7,
+		"randomTimer_" : 60,
+		"randomCount_" : 10
+	},
+	"water08":{
+		"groupID_" : 8,
+		"randomTimer_" : 60,
+		"randomCount_" : 20
+	},
+	"water09":{
+		"groupID_" : 9,
+		"randomTimer_" : 60,
+		"randomCount_" : 40
+	},
+	"water10":{
+		"groupID_" : 10,
+		"randomTimer_" : 60,
+		"randomCount_" : 40
+	},
+	"water11":{
+		"groupID_" : 11,
+		"randomTimer_" : 60,
+		"randomCount_" : 40
+	},
+	"water12":{
+		"groupID_" : 12,
+		"randomTimer_" : 60,
+		"randomCount_" : 40
+	}
+},
+// scloB_stage_effect.xlsx.tmp SE 
+
+"effectPlaySeParam_":{
+	"taki001":{
+		"seName_" : "SE130000",
+		"playVolume_" : 0.5,
+		"playRange_" : 150000,
+		"playPosX_" : 5817,
+		"playPosY_" : -322,
+		"playPosZ_" : 1010
+	},
+	"taki002":{
+		"seName_" : "SE130000",
+		"playRange_" : 150000,
+		"playPosX_" : 3300,
+		"playPosY_" : -260,
+		"playPosZ_" : -2161
+	},
+	"taki003":{
+		"seName_" : "SE130000",
+		"playRange_" : 150000,
+		"playPosX_" : -3120,
+		"playPosY_" : -250,
+		"playPosZ_" : -2080
+	},
+	"taki004":{
+		"seName_" : "SE130000",
+		"playRange_" : 150000,
+		"playPosX_" : 0,
+		"playPosY_" : -350,
+		"playPosZ_" : 3800
+	},
+	"taki005":{
+		"seName_" : "SE130000",
+		"playRange_" : 150000,
+		"playPosX_" : -40,
+		"playPosY_" : -150,
+		"playPosZ_" : 1850
+	},
+	"tori001":{
+		"seName_" : "SE130050",
+		"playRange_" : 150000,
+		"playPosX_" : 25400,
+		"playPosY_" : 3100,
+		"playPosZ_" : 10400
+	},
+	"tori002":{
+		"seName_" : "SE130050",
+		"playRange_" : 150000,
+		"playPosX_" : 520,
+		"playPosY_" : 900,
+		"playPosZ_" : -4500
+	},
+	"tori003":{
+		"seName_" : "SE130050",
+		"playRange_" : 150000,
+		"playPosX_" : -23890,
+		"playPosY_" : 3800,
+		"playPosZ_" : -7828
+	},
+	"kaze001":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : 24000,
+		"playPosY_" : 8072,
+		"playPosZ_" : 8232
+	},
+	"kaze002":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : -22548,
+		"playPosY_" : 8072,
+		"playPosZ_" : -5744
+	},
+	"kaze003":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : -19387,
+		"playPosY_" : 7109,
+		"playPosZ_" : -5640
+	},
+	"kaze004":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : -19242,
+		"playPosY_" : 7230,
+		"playPosZ_" : 161
+	},
+	"kaze005":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : -26657,
+		"playPosY_" : 1002,
+		"playPosZ_" : -311
+	},
+	"kaze006":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : 139,
+		"playPosY_" : 5506,
+		"playPosZ_" : -12881
+	},
+	"kaze007":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : -1750,
+		"playPosY_" : 5487,
+		"playPosZ_" : -9482
+	},
+	"kaze008":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : -2004,
+		"playPosY_" : 4224,
+		"playPosZ_" : -3471
+	},
+	"kaze009":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : -5789,
+		"playPosY_" : 3970,
+		"playPosZ_" : 276
+	},
+	"kaze010":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : -3083,
+		"playPosY_" : 4044,
+		"playPosZ_" : 4689
+	},
+	"kaze011":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : 2394,
+		"playPosY_" : 4082,
+		"playPosZ_" : 4849
+	},
+	"kaze012":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : 5532,
+		"playPosY_" : 3939,
+		"playPosZ_" : 482
+	},
+	"kaze013":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : 1863,
+		"playPosY_" : 4296,
+		"playPosZ_" : -3412
+	},
+	"kaze014":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : 19561,
+		"playPosY_" : 6934,
+		"playPosZ_" : 3693
+	},
+	"kaze015":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : 22329,
+		"playPosY_" : 6942,
+		"playPosZ_" : 9090
+	},
+	"kaze016":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : 28066,
+		"playPosY_" : 7035,
+		"playPosZ_" : 2798
+	},
+	"kaze017":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : -6500,
+		"playPosY_" : 8000,
+		"playPosZ_" : -600
+	},
+	"kaze018":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : -13000,
+		"playPosY_" : 9000,
+		"playPosZ_" : 4500
+	},
+	"kaze019":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : 6100,
+		"playPosY_" : 8000,
+		"playPosZ_" : 100
+	},
+	"kaze020":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : -12300,
+		"playPosY_" : 9000,
+		"playPosZ_" : -2000
+	},
+	"kaze021":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : -5500,
+		"playPosY_" : 10000,
+		"playPosZ_" : -9500
+	},
+	"kaze022":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : 16200,
+		"playPosY_" : 10100,
+		"playPosZ_" : -2000
+	},
+	"kaze023":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : 7000,
+		"playPosY_" : 10000,
+		"playPosZ_" : -6500
+	},
+	"kaze024":{
+		"seName_" : "SE130100",
+		"playRange_" : 150000,
+		"playPosX_" : -16600,
+		"playPosY_" : 11000,
+		"playPosZ_" : -2200
+	}
+}}}

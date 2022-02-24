@@ -1,0 +1,43 @@
+
+// Serialize by tll::json::Serializer
+
+{
+	"jsonPlayerProfile" : 
+	{
+		"powerColor" : 1,
+		"powerColor_jc" : "title=powerColor,type=int,min=0,max=1",
+		"sexType" : 0,
+		"sexType_jc" : "title=maleFemale,type=int,min=0,max=1",
+		"jobType" : 0,
+		"jobType_jc" : "title=jobType,type=int,min=0,max=2",
+		"skinColor" : 0,
+		"skinColor_jc" : "title=skinColor,type=int,min=0,max=4",
+		"bodyModel" : 3,
+		"bodyModel_jc" : "title=bodyModel,type=int,min=0,max=9",
+		"faceModel" : 0,
+		"faceModel_jc" : "title=faceModel,type=int,min=0,max=9",
+		"hairModel" : 0,
+		"hairModel_jc" : "title=hairModel,type=int,min=-1,max=9",
+		"hairColor" : 0,
+		"hairColor_jc" : "title=hairColor,type=int,min=0,max=9",
+		"fullfaceModel" : 0,
+		"fullfaceModel_jc" : "title=fullfaceModel,type=int,min=-1,max=9",
+		"helmetModel" : -1,
+		"helmetModel_jc" : "title=helmetModel,type=int,min=-1,max=9",
+		"hatModel" : -1,
+		"hatModel_jc" : "title=hatModel,type=int,min=-1,max=9",
+		"shieldModel" : 0,
+		"shieldModel_jc" : "title=shieldModel,type=int,min=-1,max=9",
+		"shieldColor" : 0,
+		"shieldColor_jc" : "title=shieldColor,type=int,min=0,max=9",
+		"weaponModel" : 0,
+		"weaponModel_jc" : "title=weaponModel,type=int,min=-1,max=9",
+		"weaponColor" : 0,
+		"weaponColor_jc" : "title=weaponColor,type=int,min=0,max=9",
+		"cameraHorizonRotateDitrctionInv" : false,
+		"cameraHorizonRotateDitrctionInv_jc" : "title=cameraRotareInv,type=bool",
+		"cameraZoomModeDitectionInv" : false,
+		"cameraZoomModeDitectionInv_jc" : "title=cameraZoomModeInv,type=bool"
+	}
+}
+

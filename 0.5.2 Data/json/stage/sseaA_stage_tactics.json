@@ -1,0 +1,37 @@
+/* XDASEA_Xm8R_SPsX */ 
+// gemini_stage_tactics.xlsx.tmp sseaA 
+
+{"JsonStageSetTable":{"invadeSetting_":{
+	"sseaA_gcmoB_001_b":{
+		"tagName" : "gcmoB_001",
+		"targetColor" : "BLACK",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 3
+	},
+	"sseaA_gcmoA_001_b":{
+		"tagName" : "gcmoA_001",
+		"targetColor" : "BLACK",
+		"enableBotArea" : false
+	},
+	"sseaA_gfmo_001_b":{
+		"tagName" : "gfmo_001",
+		"targetColor" : "BLACK",
+		"enableBotArea" : false
+	},
+	"sseaA_gcmoB_001_w":{
+		"tagName" : "gcmoB_001",
+		"targetColor" : "WHITE",
+		"enableBotArea" : false
+	},
+	"sseaA_gcmoA_001_w":{
+		"tagName" : "gcmoA_001",
+		"targetColor" : "WHITE",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 1
+	},
+	"sseaA_gfmo_001_w":{
+		"tagName" : "gfmo_001",
+		"targetColor" : "WHITE",
+		"enableBotArea" : false
+	}
+}}}

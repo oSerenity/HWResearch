@@ -1,0 +1,63 @@
+/* XDASEA_Xm8R_SPsX */ 
+// gemini_stage_tactics.xlsx.tmp scloA 
+
+{"JsonStageSetTable":{"invadeSetting_":{
+	"scloA_gcmoB_001_b":{
+		"tagName" : "gcmoB_001",
+		"targetColor" : "BLACK",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 7,
+		"judgeAreaNo02" : 5
+	},
+	"scloA_gcmoA_001_b":{
+		"tagName" : "gcmoA_001",
+		"targetColor" : "BLACK",
+		"enableBotArea" : false
+	},
+	"scloA_gfmo_001_b":{
+		"tagName" : "gfmo_001",
+		"targetColor" : "BLACK",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 7
+	},
+	"scloA_gfmo_002_b":{
+		"tagName" : "gfmo_002",
+		"targetColor" : "BLACK",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 7
+	},
+	"scloA_gfmo_003_b":{
+		"tagName" : "gfmo_003",
+		"targetColor" : "BLACK",
+		"enableBotArea" : false
+	},
+	"scloA_gcmoB_001_w":{
+		"tagName" : "gcmoB_001",
+		"targetColor" : "WHITE",
+		"enableBotArea" : false
+	},
+	"scloA_gcmoA_001_w":{
+		"tagName" : "gcmoA_001",
+		"targetColor" : "WHITE",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 1,
+		"judgeAreaNo02" : 3
+	},
+	"scloA_gfmo_003_w":{
+		"tagName" : "gfmo_003",
+		"targetColor" : "WHITE",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 1
+	},
+	"scloA_gfmo_002_w":{
+		"tagName" : "gfmo_002",
+		"targetColor" : "WHITE",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 1
+	},
+	"scloA_gfmo_001_w":{
+		"tagName" : "gfmo_001",
+		"targetColor" : "WHITE",
+		"enableBotArea" : false
+	}
+}}}

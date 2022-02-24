@@ -1,0 +1,2497 @@
+/* XDASEA_Xm8R_SPsX */ 
+// menuList.xlsx.tmp Sheet1 
+
+{"JsonMenuParam":{"menu_":{
+	"title":{
+		"menuType_" : 1,
+		"waitTime_" : 1,
+		"btnLabel_" : [
+"$TXMTI00001"
+],
+		"inA_" : [
+"NSC[1]vsc_mainmenu"
+],
+		"seA_" : [
+"SE_ACT_TITLE_OK"
+]
+	},
+	"main":{
+		"titleName_" : "$TXMTI00002",
+		"keyHelp_" : [
+"#TXCKH00021"
+],
+		"hasKeyHelp_" : true,
+		"hasNews_" : true,
+		"hasNotice_" : true,
+		"btnLabel_" : [
+"$TXMMA00104", 
+"$TXMMA00005", 
+"$TXMMA00006", 
+"$TXMMA00007", "$TXMMA00008", 
+"$TXMMA00105", 
+"$TXMMA00010"
+],
+		"inA_" : [
+"NSC[1]vsc_gameplay",
+"NSC[1]vsc_rankingmenu",
+"ACI",
+"NSC[1]vsc_hel",
+"NSC[1]vsc_dlc",
+"NSC[1]vsc_crossPlatform",
+"NSC[1]vsc_endcommercial"
+],
+		"seA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_CANCEL"
+],
+		"inB_" : [
+"RTN[1]vsc_title",
+"RTN[1]vsc_title",
+"RTN[1]vsc_title",
+"RTN[1]vsc_title",
+"RTN[1]vsc_title",
+"RTN[1]vsc_title",
+"RTN[1]vsc_title"
+],
+		"seB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"inX_" : [
+"RTN[1]vsc_stampRelay",
+"RTN[1]vsc_stampRelay",
+"RTN[1]vsc_stampRelay",
+"RTN[1]vsc_stampRelay",
+"RTN[1]vsc_stampRelay",
+"RTN[1]vsc_stampRelay",
+"RTN[1]vsc_stampRelay"
+],
+		"state_" : [
+0,
+0,  
+0, 
+0, 
+0, 
+128, 
+128, 
+0
+]
+	},
+	"mainWif":{
+		"titleName_" : "$TXMTI00002",
+		"keyHelp_" : [
+"#TXCKH00021"
+],
+		"hasKeyHelp_" : true,
+		"hasNews_" : true,
+		"hasNotice_" : true,
+		"btnLabel_" : [
+"$TXMMA00104",
+"$TXMMA00005",  
+"$TXMMA00005", 
+"$TXMMA00006", 
+"$TXMMA00007", 
+"$TXMMA00008", 
+"$TXMMA00105", 
+"$TXMMA00010"
+],
+		"inA_" : [
+"NSC[1]vsc_gameplay",
+"",
+"NSC[1]vsc_rankingmenu",
+"ACI",
+"NSC[1]vsc_hel",
+"NSC[1]vsc_dlc",
+"NSC[1]vsc_crossPlatform",
+"NSC[1]vsc_endcommercial"
+],
+		"seA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_CANCEL"
+],
+		"inB_" : [
+"RTN[1]vsc_title",
+"RTN[1]vsc_title",
+"RTN[1]vsc_title",
+"RTN[1]vsc_title",
+"RTN[1]vsc_title",
+"RTN[1]vsc_title",
+"RTN[1]vsc_title",
+"RTN[1]vsc_title"
+],
+		"seB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"inX_" : [
+"RTN[1]vsc_stampRelay",
+"RTN[1]vsc_stampRelay",
+"RTN[1]vsc_stampRelay",
+"RTN[1]vsc_stampRelay",
+"RTN[1]vsc_stampRelay",
+"RTN[1]vsc_stampRelay",
+"RTN[1]vsc_stampRelay",
+"RTN[1]vsc_stampRelay"
+],
+		"state_" : [
+0,
+0,  
+0, 
+0, 
+0, 
+128, 
+128, 
+0
+]
+	},
+	"limitMain":{
+		"titleName_" : "$TXMTI00002",
+		"keyHelp_" : [
+"#TXCKH00021"
+],
+		"hasKeyHelp_" : true,
+		"hasNews_" : true,
+		"hasNotice_" : true,
+		"btnLabel_" : [
+"$TXMMA00104", 
+"$TXMMA00009", 
+"$TXMMA00005", 
+"$TXMMA00006", 
+"$TXMMA00007", 
+"$TXMMA00105", 
+"$TXMMA00010" 
+]
+,
+		"inA_" : [
+"NSC[1]vsc_gameplay",
+"",
+"NSC[1]vsc_lea",
+"ACI",
+"NSC[1]vsc_hel",
+"NSC[1]vsc_crossPlatform",
+"NSC[1]vsc_endcommercial"
+],
+		"seA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_CANCEL"
+],
+		"inB_" : [
+"RTN[1]vsc_title",
+"RTN[1]vsc_title",
+"RTN[1]vsc_title",
+"RTN[1]vsc_title",
+"RTN[1]vsc_title",
+"RTN[1]vsc_title",
+"RTN[1]vsc_title"
+],
+		"seB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"state_" : [
+0,
+0,
+0,
+0,
+0,
+0,
+0
+]
+	},
+	"gamePlay":{
+		"titleName_" : "$TXMMA00104",
+		"keyHelp_" : [
+"#TXCKH00018"
+],
+		"hasHelp_" : true,
+		"hasKeyHelp_" : true,
+		"btnLabel_" : [
+"$TXMMA00001", 
+"$TXMMA00002", 
+"$TXMIS00001",
+"$TXMHS00003", 
+"$TXMHS00002", 
+"$TXMMA00106",
+"$TXMMA00004",  
+"$TXCKH00002" 
+],
+		"btnHelp_" : [
+"$TXMMA00011",
+"$TXMMA00012",
+"$TXMIS00017",
+"$TXMHS00103",
+"$TXMHS00102",
+"$TXMMA00021",
+"$TXMMA00014",
+"$TXMMP00012"
+],
+		"inA_" : [
+"NSC[1]vsc_mul",
+"NSC[1]vsc_singlemode",
+"NSC[1]vsc_missionMain",
+"NSC[1]vsc_happybox",
+"NSC[1]vsc_spinlev1",
+"NSC[1]vsc_dlc",
+"NSC[1]vsc_cus",
+"RTN[1]vsc_mainmenu"
+],
+		"seA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_CANCEL"
+],
+		"inB_" : [
+"RTN[1]vsc_mainmenu",
+"RTN[1]vsc_mainmenu",
+"RTN[1]vsc_mainmenu",
+"RTN[1]vsc_mainmenu",
+"RTN[1]vsc_mainmenu",
+"RTN[1]vsc_mainmenu",
+"RTN[1]vsc_mainmenu",
+"RTN[1]vsc_mainmenu"
+],
+		"seB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"state_" : [
+0, 
+0, 
+0,
+0, 
+0, 
+256,
+0,  
+0 
+]
+	},
+	"rankingmenu1":{
+		"titleName_" : "$TXMMA00005",
+		"keyHelp_" : [
+"#TXCKH00018"
+],
+		"hasHelp_" : true,
+		"hasKeyHelp_" : true,
+		"btnLabel_" : [
+"$TXMMA00022", 
+"$TXCKH00002" 
+],
+		"btnHelp_" : [
+"$TXMMA00024",
+"$TXMMP00012" 
+],
+		"inA_" : [
+"NSC[1]vsc_lea1",
+"RTN[1]vsc_mainmenu"
+],
+		"seA_" : [
+"SE_ACT_OK", 
+"SE_ACT_CANCEL"
+],
+		"inB_" : [
+"RTN[1]vsc_mainmenu",
+"RTN[1]vsc_mainmenu"
+],
+		"seB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+]
+	},
+	"rankingmenu2":{
+		"titleName_" : "$TXMMA00005",
+		"keyHelp_" : [
+"#TXCKH00018"
+],
+		"hasHelp_" : true,
+		"hasKeyHelp_" : true,
+		"btnLabel_" : [
+"$TXMMA00022", 
+"$TXMMA00023", 
+"$TXULI00008",
+"$TXCKH00002" 
+],
+		"btnHelp_" : [
+"$TXMMA00024", 
+"$TXMMA00025", 
+"$TXULI00009", 
+"$TXMMP00012" 
+],
+		"inA_" : [
+"NSC[1]vsc_lea1",
+"NSC[1]vsc_lea2",
+"NSC[1]vsc_leagueStart",
+"RTN[1]vsc_mainmenu"
+],
+		"seA_" : [
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_CANCEL"
+],
+		"inB_" : [
+"RTN[1]vsc_mainmenu",
+"RTN[1]vsc_mainmenu",
+"RTN[1]vsc_mainmenu",
+"RTN[1]vsc_mainmenu"
+],
+		"seB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+]
+	},
+	"limitGamePlay":{
+		"titleName_" : "$TXMMA00104",
+		"keyHelp_" : [
+"#TXCKH00018"
+],
+		"hasHelp_" : true,
+		"hasKeyHelp_" : true,
+		"btnLabel_" : [
+"$TXMMA00001", 
+"$TXMMA00103", 
+"$TXMMA00102", 
+"$TXMMA00004", 
+"$TXMMA00003", 
+"$TXMMA00101", 
+"$TXCKH00002" 
+]
+,
+		"btnHelp_" : [
+"$TXMMA00011",
+"$TXMMA00113",
+"$TXMMA00112",
+"$TXMMA00014",
+"$TXMMA00013",
+"$TXMMA00111",
+"$TXMMP00012"
+]
+,
+		"inA_" : [
+"NSC[1]vsc_mul",
+"BTN[2]",
+"NSC[1]vsc_spi",
+"NSC[1]vsc_cus",
+"NSC[1]vsc_tut",
+"NSC[1]vsc_sta",
+"RTN[1]vsc_mainmenu"
+],
+		"seA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_CANCEL"
+],
+		"inB_" : [
+"RTN[1]vsc_mainmenu",
+"RTN[1]vsc_mainmenu",
+"RTN[1]vsc_mainmenu",
+"RTN[1]vsc_mainmenu",
+"RTN[1]vsc_mainmenu",
+"RTN[1]vsc_mainmenu",
+"RTN[1]vsc_mainmenu"
+],
+		"seB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+]
+	},
+	"coopmenu":{
+		"titleName_" : "$TXMMP00004",
+		"keyHelp_" : [
+"#TXCKI00128",
+"#TXCKI00129"
+],
+		"useListType_" : 0,
+		"hasHelp_" : true,
+		"hasKeyHelp_" : true,
+		"btnLabel_" : [
+"$TXMBC00001",
+"$TXMMP00013",
+"$TXMMP00014",
+"$TXCKH00002",
+"",
+""
+],
+		"btnHelp_" : [
+"$TXMBC00003",
+"$TXMMP00015",
+"$TXMMP00016",
+"$TXMBC00005"
+]
+ ,
+		"inA_" : [
+"BTN[1]",
+"BTN[3]",
+"BTN[4]",
+"BTN[0]"
+],
+		"seA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_CANCEL"
+],
+		"inB_" : [
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]"
+],
+		"seB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"inRB_" : [
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]"
+],
+		"state_" : [
+0,
+0,
+128,
+0,
+0,
+0
+],
+		" " : [
+"$TXMLO00017"
+],
+		"CListA_" : [
+"MLS[1]list1",
+"MLS[2]list1",
+"MLS[3]list1",
+"MLS[4]list1",
+"MLS[5]list1",
+"MLS[6]list1",
+"MLS[7]list1",
+"MLS[8]list1",
+"MLS[9]list1",
+"MLS[10]list1",
+"MLS[11]list1",
+"MLS[12]list1",
+"MLS[13]list1",
+"MLS[14]list1",
+"MLS[15]list1"
+]
+,
+		"seCLA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK"
+],
+		"CListB_" : [
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]"
+],
+		"seCLB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"CListRB_" : [
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]"
+]
+	},
+	"challengecoop":{
+		"titleName_" : "$TXMMP00003",
+		"keyHelp_" : [
+"#TXCKH00018",
+"#TXCKH00019"
+],
+		"useListType_" : 0,
+		"hasHelp_" : true,
+		"hasKeyHelp_" : true,
+		"btnLabel_" : [
+"$TXMTM00002", 
+"$TXMLO00014",
+"$TXMMP00013", 
+"$TXMMP00014", 
+"$TXCKH00002"
+],
+		"btnHelp_" : [
+"$TXMPM00006",
+"$TXMLO00015",
+"$TXMMP00015",
+"$TXMMP00016",
+"$TXMMP00012"
+],
+		"inA_" : [
+"BTN[1]",
+"BTN[102]",
+"BTN[2]",
+"BTN[3]",
+"BTN[0]"
+],
+		"seA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_CANCEL"
+],
+		"inB_" : [
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]"
+],
+		"seB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"inRB_" : [
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]"
+],
+		"state_" : [
+0,
+0,
+0,
+128,
+0
+],
+		" " : [
+"$TXMLO00017"
+],
+		"CListA_" : [
+"MLS[1]list1",
+"MLS[2]list1",
+"MLS[3]list1",
+"MLS[4]list1",
+"MLS[5]list1",
+"MLS[6]list1",
+"MLS[7]list1",
+"MLS[8]list1",
+"MLS[9]list1",
+"MLS[10]list1",
+"MLS[11]list1",
+"MLS[12]list1",
+"MLS[13]list1",
+"MLS[14]list1",
+"MLS[15]list1"
+]
+,
+		"seCLA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK"
+],
+		"CListB_" : [
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]"
+],
+		"seCLB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"CListRB_" : [
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]"
+]
+	},
+	"comlevel":{
+		"titleName_" : "$TXMNC00001",
+		"keyHelp_" : [
+"#TXCKH00018"
+],
+		"hasHelp_" : true,
+		"hasKeyHelp_" : true,
+		"btnLabel_" : [
+"$TXMCT00022",
+"$TXMCT00010", 
+"$TXMCT00011", 
+"$TXCKH00002"
+],
+		"btnHelp_" : [
+"$TXMCT00017",
+"$TXMCT00018",
+"$TXMCT00019",
+"$TXMCT00004"
+],
+		"inA_" : [
+"BTN[1]",
+"BTN[2]",
+"BTN[3]",
+"BTN[0]"
+],
+		"seA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_CANCEL"
+],
+		"inB_" : [
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]"
+],
+		"seB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+]
+	},
+	"commenu":{
+		"titleName_" : "$TXMNC00001",
+		"keyHelp_" : [
+"#TXCKH00074"
+],
+		"menuType_" : 2,
+		"btnLabel_" : [
+"BTN[1]",
+"BTN[2]",
+"BTN[3]",
+"BTN[4]",
+"BTN[5]",
+"BTN[6]",
+"BTN[7]",
+"BTN[8]",
+"BTN[9]",
+"BTN[10]",
+"BTN[11]"
+],
+		"btnHelp_" : [
+"$TXMMP00018",
+"$TXMMP00018",
+"$TXMMP00018",
+"$TXMMP00018",
+"$TXMMP00018",
+"$TXMMP00018",
+"$TXMMP00018",
+"$TXMMP00018",
+"$TXMMP00018",
+"$TXMMP00018",
+"$TXMMP00018"
+]
+,
+		"inA_" : [
+"BTN[1]",
+"BTN[2]",
+"BTN[3]",
+"BTN[4]",
+"BTN[5]",
+"BTN[6]",
+"BTN[7]",
+"BTN[8]",
+"BTN[9]",
+"BTN[10]",
+"BTN[11]"
+],
+		"seA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK"
+],
+		"inB_" : [
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]"
+],
+		"seB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"inY_" : [
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]"
+]
+	},
+	"singlemode":{
+		"titleName_" : "$TXMCT00001",
+		"keyHelp_" : [
+"#TXCKH00018"
+],
+		"hasHelp_" : true,
+		"hasKeyHelp_" : true,
+		"btnLabel_" : [
+"$TXMFT00001", 
+"$TXMNC00001", 
+"$TXMMA00003", 
+"$TXCKH00002"
+],
+		"btnHelp_" : [
+"$TXMCT00002",
+"$TXMCT00003",
+"$TXMMA00013",
+"$TXMMP00112"
+],
+		"inA_" : [
+"NSC[1]vsc_campaignPanel",
+"NSC[1]vsc_comlevel",
+"NSC[1]vsc_tut",
+"RTN[1]vsc_gameplay"
+],
+		"seA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_CANCEL"
+],
+		"inB_" : [
+"RTN[1]vsc_gameplay",
+"RTN[1]vsc_gameplay",
+"RTN[1]vsc_gameplay",
+"RTN[1]vsc_gameplay"
+],
+		"seB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"state_" : [
+128, 
+0,
+0, 
+0
+]
+	},
+	"tutorialmenu":{
+		"titleName_" : "#TXCKH00018",
+		"keyHelp_" : [
+"#TXCKH00018"
+],
+		"hasHelp_" : true,
+		"hasKeyHelp_" : true,
+		"btnLabel_" : [
+"$TXMTT00001", 
+"$TXMTT00002",
+"$TXMTT00003", 
+"$TXMTT00004", 
+"$TXMTT00005", 
+"$TXCKH00002" 
+]
+,
+		"btnHelp_" : [
+"$TXMTT00011", 
+"$TXMTT00012",
+"$TXMTT00013", 
+"$TXMTT00014", 
+"$TXMTT00015", 
+"$TXMMP00112" 
+]
+,
+		"inA_" : [
+"NSC[1]vsc_tutorialgame",
+"NSC[1]vsc_tutorialgame",
+"NSC[1]vsc_tutorialgame",
+"NSC[1]vsc_tutorialgame",
+"NSC[1]vsc_tutorialgame",
+"RTN[1]vsc_singlemode"
+],
+		"seA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_CANCEL"
+],
+		"inB_" : [
+"RTN[1]vsc_singlemode",
+"RTN[1]vsc_singlemode",
+"RTN[1]vsc_singlemode",
+"RTN[1]vsc_singlemode",
+"RTN[1]vsc_singlemode",
+"RTN[1]vsc_singlemode"
+],
+		"seB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+]
+	},
+	"coopLobby":{
+		"titleName_" : "#TXMLO00101",
+		"keyHelp_" : [
+"#TXCKI00128",
+"#TXCKI00129"
+],
+		"useListType_" : 1,
+		"hasHelp_" : true,
+		"hasKeyHelp_" : true,
+		"hasInfo_" : true,
+		"btnLabel_" : [
+"$TXMMP00013", 
+"$TXMMP00014",
+"$TXMLO00014", 
+"$TXMLO00003" 
+]
+,
+		"btnHelp_" : [
+"$TXMMP00015", 
+"$TXMMP00016",
+"$TXMLO00015", 
+"$TXMLO00002" 
+]
+,
+		"inA_" : [
+"BTN[1]",
+"BTN[2]",
+"BTN[3]",
+"BTN[0]"
+],
+		"seA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_CANCEL"
+],
+		"inB_" : [
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]"
+],
+		"seB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"inRB_" : [
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]"
+],
+		"state_" : [
+0, 
+128,
+0, 
+0
+]
+,
+		" " : [
+"$TXMLO00017"
+],
+		"CListA_" : [
+"MLS[1]list1",
+"MLS[2]list1",
+"MLS[3]list1",
+"MLS[4]list1",
+"MLS[5]list1",
+"MLS[6]list1",
+"MLS[7]list1",
+"MLS[8]list1",
+"MLS[9]list1",
+"MLS[10]list1",
+"MLS[11]list1",
+"MLS[12]list1",
+"MLS[13]list1",
+"MLS[14]list1",
+"MLS[15]list1"
+]
+,
+		"seCLA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK"
+],
+		"CListB_" : [
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]"
+],
+		"seCLB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"CListRB_" : [
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]"
+]
+	},
+	"eventLobby":{
+		"titleName_" : "#TXMLO00101",
+		"keyHelp_" : [
+"#TXCKI00128",
+"#TXCKI00129"
+],
+		"useListType_" : 2,
+		"hasHelp_" : true,
+		"hasKeyHelp_" : true,
+		"hasInfo_" : true,
+		"btnLabel_" : [
+"$TXMMP00013", 
+"$TXMMP00014",
+"$TXMLO00014", 
+"$TXMLO00003" 
+]
+,
+		"btnHelp_" : [
+"$TXMMP00015", 
+"$TXMMP00016",
+"$TXMLO00015", 
+"$TXMLO00002" 
+]
+,
+		"inA_" : [
+"BTN[1]",
+"BTN[2]",
+"BTN[3]",
+"BTN[0]"
+],
+		"seA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_CANCEL"
+],
+		"inB_" : [
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]"
+],
+		"seB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"inRB_" : [
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]"
+],
+		"state_" : [
+0, 
+128,
+0, 
+0
+]
+,
+		" " : [
+"$TXMLO00017"
+],
+		"CListA_" : [
+"MLS[1]list1",
+"MLS[2]list1",
+"MLS[3]list1",
+"MLS[4]list1",
+"MLS[5]list1",
+"MLS[6]list1",
+"MLS[7]list1",
+"MLS[8]list1",
+"MLS[9]list1",
+"MLS[10]list1",
+"MLS[11]list1",
+"MLS[12]list1",
+"MLS[13]list1",
+"MLS[14]list1",
+"MLS[15]list1"
+]
+,
+		"seCLA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK"
+],
+		"CListB_" : [
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]"
+],
+		"seCLB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"CListRB_" : [
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]"
+]
+	},
+	"login":{
+		"menuType_" : 5
+	},
+	"multiplay":{
+		"titleName_" : "$TXMMA00001",
+		"keyHelp_" : [
+"#TXCKH00077",
+"#TXCKH00078"
+],
+		"useListType_" : 0,
+		"hasHelp_" : true,
+		"hasKeyHelp_" : true,
+		"btnLabel_" : [
+"$TXMMP00002",
+"$TXMMP00004",
+"$TXMMP00005",
+"$TXMMP00013",
+"$TXMMP00014",
+"$TXMMA00101",
+"$TXCKH00002"
+]
+,
+		"btnHelp_" : [
+"$TXMMP00007",
+"$TXMMP00009",
+"$TXMMP00010",
+"$TXMMP00015",
+"$TXMMP00016",
+"$TXMMA00111",
+"$TXMMP00112"
+]
+,
+		"inA_" : [
+"NSC[1]vsc_quickmatch",
+"NSC[1]vsc_coopmenu",
+"NSC[1]vsc_privatematch",
+"BTN[4]",
+"BTN[5]",
+"NSC[1]vsc_sta",
+"BTN[0]"
+],
+		"seA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_CANCEL"
+],
+		"inB_" : [
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]"
+],
+		"seB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"inLB_" : [
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]"
+],
+		"inRB_" : [
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]"
+],
+		"state_" : [
+0,
+0,
+0,
+0,
+128,
+0,
+0
+],
+		" " : [
+"$TXMLO00017"
+],
+		"CListA_" : [
+"MLS[1]list1",
+"MLS[2]list1",
+"MLS[3]list1",
+"MLS[4]list1",
+"MLS[5]list1",
+"MLS[6]list1",
+"MLS[7]list1",
+"MLS[8]list1",
+"MLS[9]list1",
+"MLS[10]list1",
+"MLS[11]list1",
+"MLS[12]list1",
+"MLS[13]list1",
+"MLS[14]list1",
+"MLS[15]list1"
+]
+,
+		"seCLA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK"
+],
+		"CListB_" : [
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]"
+],
+		"seCLB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"CListRB_" : [
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]"
+]
+	},
+	"sc_lobby":{
+		"titleName_" : "$TXMLO00001",
+		"keyHelp_" : [
+"#TXCKH00079",
+"#TXMLO00017"
+],
+		"useListType_" : 2,
+		"hasHelp_" : true,
+		"hasKeyHelp_" : true,
+		"hasInfo_" : true,
+		"btnLabel_" : [
+"$TXMMP00013",
+"$TXMMP00014",
+"$TXMLO00014",
+"$TXMLO00003"
+]
+,
+		"btnHelp_" : [
+"$TXMMP00015",
+"$TXMMP00016",
+"$TXMLO00015",
+"$TXMLO00002"
+]
+,
+		"inA_" : [
+"BTN[1]",
+"BTN[2]",
+"BTN[7]",
+"BTN[3]"
+],
+		"seA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK"
+],
+		"inB_" : [
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]"
+],
+		"seB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"inLB_" : [
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]"
+],
+		"inRB_" : [
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]"
+],
+		"state_" : [
+0,
+128,
+0,
+0
+]
+,
+		"LListHelp_" : [
+"$TXMLO00017"
+],
+		"LListA_" : [
+"MLS[1]list1",
+"MLS[2]list1",
+"MLS[3]list1",
+"MLS[4]list1",
+"MLS[5]list1",
+"MLS[6]list1",
+"MLS[7]list1",
+"MLS[8]list1",
+"MLS[9]list1",
+"MLS[10]list1",
+"MLS[11]list1",
+"MLS[12]list1",
+"MLS[13]list1",
+"MLS[14]list1",
+"MLS[15]list1"
+]
+,
+		"seLLA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK"
+],
+		"LListB_" : [
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]"
+],
+		"seLLB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"LListLB_" : [
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]"
+],
+		"LListRB_" : [
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]"
+],
+		"RListHelp_" : [
+"$TXMLO00017"
+],
+		"RListA_" : [
+"MLS[1]list2",
+"MLS[2]list2",
+"MLS[3]list2",
+"MLS[4]list2",
+"MLS[5]list2",
+"MLS[6]list2",
+"MLS[7]list2",
+"MLS[8]list2",
+"MLS[9]list2",
+"MLS[10]list2",
+"MLS[11]list2",
+"MLS[12]list2",
+"MLS[13]list2",
+"MLS[14]list2",
+"MLS[15]list2"
+]
+,
+		"seRLA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK"
+],
+		"RListB_" : [
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]"
+],
+		"seRLB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"RListLB_" : [
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]"
+],
+		"RListRB_" : [
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]"
+]
+	},
+	"sc_quickmatch":{
+		"titleName_" : "$TXMMP00002",
+		"keyHelp_" : [
+"#TXCKH00018",
+"#TXMLO00017"
+],
+		"useListType_" : 0,
+		"hasHelp_" : true,
+		"hasKeyHelp_" : true,
+		"btnLabel_" : [
+"$TXMBC00001",
+"$TXMMP00006",
+"$TXMMP00013",
+"$TXMMP00014",
+"$TXCKH00002"
+]
+,
+		"btnHelp_" : [
+"$TXMBC00003",
+"$TXMMP00018",
+"$TXMMP00015",
+"$TXMMP00016",
+"$TXMBC00005"
+]
+,
+		"inA_" : [
+"BTN[1]",
+"NSC[1]vsc_stageselect",
+"BTN[5]",
+"BTN[6]",
+"BTN[0]"
+],
+		"seA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_CANCEL"
+],
+		"inB_" : [
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]"
+],
+		"seB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"inLB_" : [
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]"
+],
+		"inRB_" : [
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]"
+],
+		"state_" : [
+0,
+0,
+0,
+128,
+0
+]
+,
+		" " : [
+"$TXMLO00017"
+],
+		"CListA_" : [
+"MLS[1]list1",
+"MLS[2]list1",
+"MLS[3]list1",
+"MLS[4]list1",
+"MLS[5]list1",
+"MLS[6]list1",
+"MLS[7]list1",
+"MLS[8]list1",
+"MLS[9]list1",
+"MLS[10]list1",
+"MLS[11]list1",
+"MLS[12]list1",
+"MLS[13]list1",
+"MLS[14]list1",
+"MLS[15]list1"
+]
+,
+		"seCLA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK"
+],
+		"CListB_" : [
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]"
+],
+		"seCLB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"CListRB_" : [
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]"
+]
+	},
+	"sc_privatematch":{
+		"titleName_" : "$TXMMP00005",
+		"keyHelp_" : [
+"#TXCKH10019",
+"$TXMLO00017"
+],
+		"useListType_" : 3,
+		"hasHelp_" : true,
+		"hasKeyHelp_" : true,
+		"hasInfo_" : true,
+		"btnLabel_" : [
+"$TXMMP00013",
+"$TXMMP00014",
+"$TXMMP00017",
+"$TXMLO00014",
+"$TXMTM00002",
+"$TXCKH00002"
+]
+,
+		"btnHelp_" : [
+"$TXMMP00015",
+"$TXMMP00016",
+"$TXMPM00003",
+"$TXMLO00015",
+"$TXMTM00004",
+"$TXMBC00005"
+]
+,
+		"inA_" : [
+"BTN[1]",
+"BTN[2]",
+"NSC[1]vsc_stageselect",
+"BTN[7]",
+"BTN[4]",
+"BTN[5]"
+],
+		"seA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK"
+],
+		"inB_" : [
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]"
+],
+		"seB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"inLB_" : [
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]"
+],
+		"inRB_" : [
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]"
+],
+		"state_" : [
+0,
+128,
+0,
+0,
+0,
+0
+]
+,
+		"LListHelp_" : [
+"$TXMLO00017"
+],
+		"LListA_" : [
+"MLS[1]list1",
+"MLS[2]list1",
+"MLS[3]list1",
+"MLS[4]list1",
+"MLS[5]list1",
+"MLS[6]list1",
+"MLS[7]list1",
+"MLS[8]list1",
+"MLS[9]list1",
+"MLS[10]list1",
+"MLS[11]list1",
+"MLS[12]list1",
+"MLS[13]list1",
+"MLS[14]list1",
+"MLS[15]list1"
+]
+,
+		"seLLA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK"
+],
+		"LListB_" : [
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]"
+],
+		"seLLB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"LListLB_" : [
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]"
+],
+		"LListRB_" : [
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]"
+],
+		"RListHelp_" : [
+"$TXMLO00017"
+],
+		"RListA_" : [
+"MLS[1]list2",
+"MLS[2]list2",
+"MLS[3]list2",
+"MLS[4]list2",
+"MLS[5]list2",
+"MLS[6]list2",
+"MLS[7]list2",
+"MLS[8]list2",
+"MLS[9]list2",
+"MLS[10]list2",
+"MLS[11]list2",
+"MLS[12]list2",
+"MLS[13]list2",
+"MLS[14]list2",
+"MLS[15]list2"
+]
+,
+		"seRLA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK"
+],
+		"RListB_" : [
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]"
+],
+		"seRLB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"RListLB_" : [
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]"
+],
+		"RListRB_" : [
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]",
+"BTN[101]"
+]
+	},
+	"sc_stageselect":{
+		"titleName_" : "$TXMMP00017",
+		"keyHelp_" : [
+"#TXCKH00041"
+],
+		"menuType_" : 2,
+		"btnLabel_" : [
+"BTN[1]",
+"BTN[2]",
+"BTN[3]",
+"BTN[4]",
+"BTN[5]",
+"BTN[6]",
+"BTN[7]",
+"BTN[8]",
+"BTN[9]",
+"BTN[10]",
+"BTN[11]"
+],
+		"btnHelp_" : [
+"$TXMMP00018",
+"$TXMMP00018",
+"$TXMMP00018",
+"$TXMMP00018",
+"$TXMMP00018",
+"$TXMMP00018",
+"$TXMMP00018",
+"$TXMMP00018",
+"$TXMMP00018",
+"$TXMMP00018",
+"$TXMMP00018"
+]
+,
+		"inA_" : [
+"BTN[1]",
+"BTN[2]",
+"BTN[3]",
+"BTN[4]",
+"BTN[5]",
+"BTN[6]",
+"BTN[7]",
+"BTN[8]",
+"BTN[9]",
+"BTN[10]",
+"BTN[11]"
+],
+		"seA_" : [
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK",
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK", 
+"SE_ACT_OK"
+],
+		"inB_" : [
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]",
+"BTN[0]"
+],
+		"seB_" : [
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL", 
+"SE_ACT_CANCEL"
+],
+		"inY_" : [
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]",
+"BTN[100]"
+]
+	}
+}}}

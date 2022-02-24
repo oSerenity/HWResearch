@@ -1,0 +1,104 @@
+/* XDASEA_Xm8R_SPsX */ 
+// sligA_stage_gimmick.xlsx.tmp GimmickPosition 
+
+{"JsonStageSetTable":{"gimmickDecoArrangeParam_":{
+	"gligAdeco01_001":{
+		"firstModelName_" : "gligAdeco01",
+		"firstAnimeName_" : "gligadeco01_idle_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : -116.4001,
+		"transX_" : 10773.3857,
+		"transY_" : 500,
+		"transZ_" : 12142.999
+	},
+	"gligAdeco01_002":{
+		"firstModelName_" : "gligAdeco01",
+		"firstAnimeName_" : "gligadeco01_idle_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : -74.374,
+		"transX_" : 23567.5391,
+		"transY_" : 500,
+		"transZ_" : 3556.8135
+	},
+	"gligAdeco02_001":{
+		"firstModelName_" : "gligAdeco02",
+		"firstAnimeName_" : "gligadeco02_idle_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 80,
+		"transX_" : -15417,
+		"transY_" : 1200,
+		"transZ_" : -1800
+	},
+	"gligAdeco03_001":{
+		"firstModelName_" : "gligAdeco03",
+		"firstAnimeName_" : "gligadeco03_idle_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : -116.4001,
+		"transX_" : 10773.3857,
+		"transY_" : 500,
+		"transZ_" : 12142.999
+	},
+	"gligAdeco03_002":{
+		"firstModelName_" : "gligAdeco03",
+		"firstAnimeName_" : "gligadeco03_idle_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : -74.374,
+		"transX_" : 23567.5391,
+		"transY_" : 500,
+		"transZ_" : 3556.8135
+	},
+	"gligAdeco03_003":{
+		"firstModelName_" : "gligAdeco03",
+		"firstAnimeName_" : "gligadeco03_idle_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 0,
+		"transX_" : 1600,
+		"transY_" : -800,
+		"transZ_" : 4425
+	},
+	"gligAdeco03_005":{
+		"firstModelName_" : "gligAdeco03",
+		"firstAnimeName_" : "gligadeco03_idle_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 180,
+		"transX_" : -20,
+		"transY_" : -800,
+		"transZ_" : -6900
+	},
+	"gligAdeco03_006":{
+		"firstModelName_" : "gligAdeco03",
+		"firstAnimeName_" : "gligadeco03_idle_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 270,
+		"transX_" : -10650,
+		"transY_" : -500,
+		"transZ_" : 5300
+	},
+	"gligAdeco04_001":{
+		"firstModelName_" : "gligAdeco04",
+		"firstAnimeName_" : "gligadeco04_idle_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 0,
+		"transX_" : 0,
+		"transY_" : 0,
+		"transZ_" : 0
+	}
+}}}

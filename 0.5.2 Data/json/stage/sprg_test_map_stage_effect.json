@@ -1,0 +1,65 @@
+/* XDASEA_Xm8R_SPsX */ 
+// sprg_test_map_stage_effect.xlsx.tmp 配置 
+
+{"JsonStageSetTable":{"effectArrangeParam_":{
+	"butt000":{
+		"groupID_" : 0,
+		"effectTag_" : "st00",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 100,
+		"effectTransY_" : 100,
+		"effectTransZ_" : -500,
+		"effectEMTName_" : "path001",
+		"effectEMTSpeed_" : 0.7
+	},
+	"FairyA000":{
+		"groupID_" : 0,
+		"effectTag_" : "st12",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 200,
+		"effectTransY_" : 100,
+		"effectTransZ_" : -500,
+		"effectEMTName_" : "path002",
+		"effectEMTSpeed_" : 1
+	},
+	"butt002":{
+		"groupID_" : 0,
+		"effectTag_" : "st00",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 100,
+		"effectTransY_" : 100,
+		"effectTransZ_" : 500
+	},
+	"FairyA002":{
+		"groupID_" : 0,
+		"effectTag_" : "st12",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 200,
+		"effectTransY_" : 100,
+		"effectTransZ_" : 500
+	}
+},
+// sprg_test_map_stage_effect.xlsx.tmp グループ 
+
+"effectGroupParam_":{
+
+},
+// sprg_test_map_stage_effect.xlsx.tmp SE 
+
+"effectPlaySeParam_":{
+	"TestSe":{
+		"seName_" : "SE130000"
+	}
+}}}

@@ -1,0 +1,481 @@
+/* XDASEA_Xm8R_SPsX */ 
+// DLCPermission.xlsx.tmp DLCPermissionSt1 
+
+{"JsonDLCPermission":{"unlock_":{
+	"Unlock_000":{
+		"Kind" : "EYE",
+		"Index" : "INDEX_24",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000000"
+	},
+	"Unlock_001":{
+		"Kind" : "MOUTH",
+		"Index" : "INDEX_24",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000000"
+	},
+	"Unlock_002":{
+		"Kind" : "EYE",
+		"Index" : "INDEX_20",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000000"
+	},
+	"Unlock_003":{
+		"Kind" : "MOUTH",
+		"Index" : "INDEX_20",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000000"
+	},
+	"Unlock_004":{
+		"Kind" : "EYE",
+		"Index" : "INDEX_21",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000000"
+	},
+	"Unlock_005":{
+		"Kind" : "MOUTH",
+		"Index" : "INDEX_21",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000000"
+	},
+	"Unlock_006":{
+		"Kind" : "EYE",
+		"Index" : "INDEX_26",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000000"
+	},
+	"Unlock_007":{
+		"Kind" : "MOUTH",
+		"Index" : "INDEX_26",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000000"
+	},
+	"Unlock_008":{
+		"Kind" : "EYE",
+		"Index" : "INDEX_23",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000000"
+	},
+	"Unlock_009":{
+		"Kind" : "MOUTH",
+		"Index" : "INDEX_23",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000000"
+	},
+	"Unlock_010":{
+		"Kind" : "SKIN_COLOR",
+		"Index" : "INDEX_12",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000000"
+	},
+	"Unlock_011":{
+		"Kind" : "SKIN_COLOR",
+		"Index" : "INDEX_13",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000000"
+	},
+	"Unlock_012":{
+		"Kind" : "SKIN_COLOR",
+		"Index" : "INDEX_14",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000000"
+	},
+	"Unlock_013":{
+		"Kind" : "SKIN_COLOR",
+		"Index" : "INDEX_15",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000000"
+	},
+	"Unlock_014":{
+		"Kind" : "SKIN_COLOR",
+		"Index" : "INDEX_16",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000000"
+	},
+	"Unlock_015":{
+		"Kind" : "SKIN_COLOR",
+		"Index" : "INDEX_17",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000000"
+	},
+	"Unlock_100":{
+		"Kind" : "EYE",
+		"Index" : "INDEX_28",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000100"
+	},
+	"Unlock_101":{
+		"Kind" : "MOUTH",
+		"Index" : "INDEX_25",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000100"
+	},
+	"Unlock_102":{
+		"Kind" : "EYE",
+		"Index" : "INDEX_27",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000100"
+	},
+	"Unlock_103":{
+		"Kind" : "MOUTH",
+		"Index" : "INDEX_27",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000100"
+	},
+	"Unlock_104":{
+		"Kind" : "EYE",
+		"Index" : "INDEX_22",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000100"
+	},
+	"Unlock_105":{
+		"Kind" : "MOUTH",
+		"Index" : "INDEX_22",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000100"
+	},
+	"Unlock_106":{
+		"Kind" : "EYE",
+		"Index" : "INDEX_25",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000100"
+	},
+	"Unlock_107":{
+		"Kind" : "MOUTH",
+		"Index" : "INDEX_28",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000100"
+	},
+	"Unlock_108":{
+		"Kind" : "EYE",
+		"Index" : "INDEX_29",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000100"
+	},
+	"Unlock_109":{
+		"Kind" : "MOUTH",
+		"Index" : "INDEX_29",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000100"
+	},
+	"Unlock_110":{
+		"Kind" : "SKIN_COLOR",
+		"Index" : "INDEX_06",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000100"
+	},
+	"Unlock_111":{
+		"Kind" : "SKIN_COLOR",
+		"Index" : "INDEX_07",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000100"
+	},
+	"Unlock_112":{
+		"Kind" : "SKIN_COLOR",
+		"Index" : "INDEX_08",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000100"
+	},
+	"Unlock_113":{
+		"Kind" : "SKIN_COLOR",
+		"Index" : "INDEX_09",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000100"
+	},
+	"Unlock_114":{
+		"Kind" : "SKIN_COLOR",
+		"Index" : "INDEX_10",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000100"
+	},
+	"Unlock_115":{
+		"Kind" : "SKIN_COLOR",
+		"Index" : "INDEX_11",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "10000100"
+	},
+	"Unlock_200":{
+		"Kind" : "HAIR",
+		"Index" : "INDEX_10",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "20000000"
+	},
+	"Unlock_201":{
+		"Kind" : "HAIR",
+		"Index" : "INDEX_19",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "20000000"
+	},
+	"Unlock_202":{
+		"Kind" : "HAIR",
+		"Index" : "INDEX_13",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "20000000"
+	},
+	"Unlock_203":{
+		"Kind" : "HAIR",
+		"Index" : "INDEX_14",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "20000000"
+	},
+	"Unlock_204":{
+		"Kind" : "HAIR",
+		"Index" : "INDEX_12",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "20000000"
+	},
+	"Unlock_205":{
+		"Kind" : "HAIR",
+		"Index" : "INDEX_08",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "20000000"
+	},
+	"Unlock_300":{
+		"Kind" : "HAIR",
+		"Index" : "INDEX_22",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "20000100"
+	},
+	"Unlock_301":{
+		"Kind" : "HAIR",
+		"Index" : "INDEX_18",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "20000100"
+	},
+	"Unlock_302":{
+		"Kind" : "HAIR",
+		"Index" : "INDEX_11",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "20000100"
+	},
+	"Unlock_303":{
+		"Kind" : "HAIR",
+		"Index" : "INDEX_17",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "20000100"
+	},
+	"Unlock_304":{
+		"Kind" : "HAIR",
+		"Index" : "INDEX_24",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "20000100"
+	},
+	"Unlock_305":{
+		"Kind" : "HAIR",
+		"Index" : "INDEX_15",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "20000100"
+	},
+	"Unlock_400":{
+		"Kind" : "HAIR",
+		"Index" : "INDEX_26",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "20000200"
+	},
+	"Unlock_401":{
+		"Kind" : "HAIR",
+		"Index" : "INDEX_20",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "20000200"
+	},
+	"Unlock_402":{
+		"Kind" : "HAIR",
+		"Index" : "INDEX_23",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "20000200"
+	},
+	"Unlock_403":{
+		"Kind" : "HAIR",
+		"Index" : "INDEX_21",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "20000200"
+	},
+	"Unlock_404":{
+		"Kind" : "HAIR",
+		"Index" : "INDEX_16",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "20000200"
+	},
+	"Unlock_405":{
+		"Kind" : "HAIR",
+		"Index" : "INDEX_25",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "20000200"
+	},
+	"Unlock_500":{
+		"Kind" : "HAIR_COLOR",
+		"Index" : "INDEX_06",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "30000000"
+	},
+	"Unlock_501":{
+		"Kind" : "HAIR_COLOR",
+		"Index" : "INDEX_07",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "30000000"
+	},
+	"Unlock_502":{
+		"Kind" : "HAIR_COLOR",
+		"Index" : "INDEX_08",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "30000000"
+	},
+	"Unlock_503":{
+		"Kind" : "HAIR_COLOR",
+		"Index" : "INDEX_09",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "30000000"
+	},
+	"Unlock_504":{
+		"Kind" : "HAIR_COLOR",
+		"Index" : "INDEX_10",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "30000000"
+	},
+	"Unlock_505":{
+		"Kind" : "HAIR_COLOR",
+		"Index" : "INDEX_11",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "30000000"
+	},
+	"Unlock_600":{
+		"Kind" : "HAIR_COLOR",
+		"Index" : "INDEX_12",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "30000100"
+	},
+	"Unlock_601":{
+		"Kind" : "HAIR_COLOR",
+		"Index" : "INDEX_13",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "30000100"
+	},
+	"Unlock_602":{
+		"Kind" : "HAIR_COLOR",
+		"Index" : "INDEX_14",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "30000100"
+	},
+	"Unlock_603":{
+		"Kind" : "HAIR_COLOR",
+		"Index" : "INDEX_15",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "30000100"
+	},
+	"Unlock_604":{
+		"Kind" : "HAIR_COLOR",
+		"Index" : "INDEX_16",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "30000100"
+	},
+	"Unlock_605":{
+		"Kind" : "HAIR_COLOR",
+		"Index" : "INDEX_17",
+		"IsShow" : false,
+		"IsUse" : false,
+		"OfferID" : "30000100"
+	},
+	"Unlock_700":{
+		"Kind" : "STAGE",
+		"Index" : "INDEX_SDAR_B",
+		"IsShow" : false,
+		"IsUse" : false
+	},
+	"Unlock_701":{
+		"Kind" : "STAGE",
+		"Index" : "INDEX_SSEA_B",
+		"IsShow" : false,
+		"IsUse" : false
+	},
+	"Unlock_800":{
+		"Kind" : "STAGE",
+		"Index" : "INDEX_SDES_B",
+		"IsShow" : false,
+		"IsUse" : false
+	},
+	"Unlock_801":{
+		"Kind" : "STAGE",
+		"Index" : "INDEX_SCLO_A",
+		"IsShow" : false,
+		"IsUse" : false
+	},
+	"Unlock_802":{
+		"Kind" : "STAGE",
+		"Index" : "INDEX_SCLO_B",
+		"IsShow" : false,
+		"IsUse" : false
+	},
+	"Unlock_900":{
+		"Kind" : "STAGE",
+		"Index" : "INDEX_SBAB_A",
+		"IsShow" : false,
+		"IsUse" : false
+	},
+	"Unlock_901":{
+		"Kind" : "STAGE",
+		"Index" : "INDEX_SBAB_B",
+		"IsShow" : false,
+		"IsUse" : false
+	}
+}}}

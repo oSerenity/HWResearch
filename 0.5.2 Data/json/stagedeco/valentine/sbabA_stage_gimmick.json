@@ -1,0 +1,27 @@
+/* XDASEA_Xm8R_SPsX */ 
+// sbabA_stage_gimmick.xlsx.tmp GimmickPosition 
+
+{"JsonStageSetTable":{"gimmickDecoArrangeParam_":{
+	"gdecovalentine01_001":{
+		"firstModelName_" : "gdecovalentine01",
+		"firstAnimeName_" : "gdecovalentine01_000_idle_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 90,
+		"transX_" : -20296.6,
+		"transY_" : -95,
+		"transZ_" : 0
+	},
+	"gdecovalentine01_002":{
+		"firstModelName_" : "gdecovalentine01",
+		"firstAnimeName_" : "gdecovalentine01_000_idle_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : -90,
+		"transX_" : 20296.6,
+		"transY_" : -95,
+		"transZ_" : 0
+	}
+}}}

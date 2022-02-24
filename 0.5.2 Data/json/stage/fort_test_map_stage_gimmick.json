@@ -1,0 +1,657 @@
+/* XDASEA_Xm8R_SPsX */ 
+// fort_test_map_stage_gimmick.xlsx.tmp GimmickPosition 
+
+{"JsonStageSetTable":{"gimmickArrangeParam_":{
+	"gcmoA_001":{
+		"enable_" : true,
+		"gimmickType_" : "CastleMonument",
+		"firstModelName_" : "gcmoA",
+		"firstAnimeName_" : "gcmoa_000_wait01_loop",
+		"rotY_" : 0,
+		"transX_" : 0,
+		"transY_" : 187.4751,
+		"transZ_" : -10819.3044
+	},
+	"gcmoB_001":{
+		"enable_" : true,
+		"gimmickType_" : "CastleMonument",
+		"firstModelName_" : "gcmoB",
+		"firstAnimeName_" : "gcomb_000_wait01_loop",
+		"rotY_" : 180,
+		"transX_" : 0,
+		"transY_" : 187.4751,
+		"transZ_" : 10819.3044
+	},
+	"gfmo_001":{
+		"enable_" : true,
+		"gimmickType_" : "FieldMonument",
+		"firstModelName_" : "gfmoA",
+		"firstAnimeName_" : "gfmoa_000_wait01_loop",
+		"rotY_" : 0,
+		"transX_" : 0,
+		"transY_" : 151,
+		"transZ_" : 0
+	},
+	"gbom02_001":{
+		"enable_" : false,
+		"gimmickType_" : "BombStone",
+		"firstModelName_" : "gbom02",
+		"shadowColorR_" : 10,
+		"shadowColorG_" : 10,
+		"shadowColorB_" : 30,
+		"rotY_" : 0,
+		"transX_" : 0,
+		"transY_" : 0,
+		"transZ_" : 0
+	},
+	"gcat01_001":{
+		"enable_" : true,
+		"gimmickType_" : "Cannon",
+		"firstModelName_" : "gcat01",
+		"firstAnimeName_" : "gcat01_000_load",
+		"rotY_" : 164.7146,
+		"transX_" : -1730.0746,
+		"transY_" : 0,
+		"transZ_" : -5203.623
+	},
+	"gcat01_002":{
+		"enable_" : true,
+		"gimmickType_" : "Cannon",
+		"firstModelName_" : "gcat01",
+		"firstAnimeName_" : "gcat01_000_load",
+		"rotY_" : -159.1789,
+		"transX_" : 3446.9506,
+		"transY_" : 0,
+		"transZ_" : -5324.3768
+	},
+	"gcat01_003":{
+		"enable_" : true,
+		"gimmickType_" : "Cannon",
+		"firstModelName_" : "gcat03",
+		"firstAnimeName_" : "gcat01_002_load",
+		"rotY_" : -15.28540000000001,
+		"transX_" : 1730.0746,
+		"transY_" : 0,
+		"transZ_" : 5203.623
+	},
+	"gcat01_004":{
+		"enable_" : true,
+		"gimmickType_" : "Cannon",
+		"firstModelName_" : "gcat02",
+		"firstAnimeName_" : "gcat01_001_load",
+		"rotY_" : -339.1789,
+		"transX_" : -3446.9506,
+		"transY_" : 0,
+		"transZ_" : 5324.3768
+	},
+	"gfla02_001":{
+		"enable_" : true,
+		"gimmickType_" : "gfla02",
+		"firstModelName_" : "gfla02",
+		"firstAnimeName_" : "gfla02_000_loop",
+		"rotY_" : 0,
+		"transX_" : 2455.4157,
+		"transY_" : 1100,
+		"transZ_" : -7544.5843
+	},
+	"gfla01_001":{
+		"enable_" : true,
+		"gimmickType_" : "gfla01",
+		"firstModelName_" : "gfla01",
+		"firstAnimeName_" : "gfla01_000_loop",
+		"rotY_" : 180,
+		"transX_" : -2455.4157,
+		"transY_" : 1100,
+		"transZ_" : 7544.5843
+	},
+	"glad01_001":{
+		"enable_" : true,
+		"gimmickType_" : "Ladder",
+		"firstModelName_" : "glad01",
+		"firstAnimeName_" : "glad01_000_appear",
+		"rotY_" : 0,
+		"transX_" : -920.1071,
+		"transY_" : 0,
+		"transZ_" : -7145.4657,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"glad01_002":{
+		"enable_" : true,
+		"gimmickType_" : "Ladder",
+		"firstModelName_" : "glad01",
+		"firstAnimeName_" : "glad01_000_appear",
+		"rotY_" : 0,
+		"transX_" : 940.3873,
+		"transY_" : 0,
+		"transZ_" : -7145.4657,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"glad01_003":{
+		"enable_" : true,
+		"gimmickType_" : "Ladder",
+		"firstModelName_" : "glad01",
+		"firstAnimeName_" : "glad01_000_appear",
+		"rotY_" : 90,
+		"transX_" : 2745.5866,
+		"transY_" : 0,
+		"transZ_" : -9091.8212,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"glad01_004":{
+		"enable_" : true,
+		"gimmickType_" : "Ladder",
+		"firstModelName_" : "glad01",
+		"firstAnimeName_" : "glad01_000_appear",
+		"rotY_" : -90,
+		"transX_" : -2730,
+		"transY_" : 0,
+		"transZ_" : -9209.0771,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"glad01_005":{
+		"enable_" : true,
+		"gimmickType_" : "Ladder",
+		"firstModelName_" : "glad01",
+		"firstAnimeName_" : "glad01_000_appear",
+		"rotY_" : 180,
+		"transX_" : 935.5121,
+		"transY_" : 0,
+		"transZ_" : -12735.3118,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"glad01_006":{
+		"enable_" : true,
+		"gimmickType_" : "Ladder",
+		"firstModelName_" : "glad01",
+		"firstAnimeName_" : "glad01_000_appear",
+		"rotY_" : 180,
+		"transX_" : -1008.5323,
+		"transY_" : 0,
+		"transZ_" : -12735.3118,
+		"param0_" : "POWER_COLOR_BLACK"
+	},
+	"glad01_007":{
+		"enable_" : true,
+		"gimmickType_" : "Ladder",
+		"firstModelName_" : "glad01",
+		"firstAnimeName_" : "glad01_000_appear",
+		"rotY_" : 180,
+		"transX_" : 920.1071,
+		"transY_" : 0,
+		"transZ_" : 7145.4657,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"glad01_008":{
+		"enable_" : true,
+		"gimmickType_" : "Ladder",
+		"firstModelName_" : "glad01",
+		"firstAnimeName_" : "glad01_000_appear",
+		"rotY_" : 180,
+		"transX_" : -940.3873,
+		"transY_" : 0,
+		"transZ_" : 7145.4657,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"glad01_009":{
+		"enable_" : true,
+		"gimmickType_" : "Ladder",
+		"firstModelName_" : "glad01",
+		"firstAnimeName_" : "glad01_000_appear",
+		"rotY_" : -90,
+		"transX_" : -2745.5866,
+		"transY_" : 0,
+		"transZ_" : 9091.8212,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"glad01_010":{
+		"enable_" : true,
+		"gimmickType_" : "Ladder",
+		"firstModelName_" : "glad01",
+		"firstAnimeName_" : "glad01_000_appear",
+		"rotY_" : 90,
+		"transX_" : 2730,
+		"transY_" : 0,
+		"transZ_" : 9209.0771,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"glad01_011":{
+		"enable_" : true,
+		"gimmickType_" : "Ladder",
+		"firstModelName_" : "glad01",
+		"firstAnimeName_" : "glad01_000_appear",
+		"rotY_" : 0,
+		"transX_" : -935.5121,
+		"transY_" : 0,
+		"transZ_" : 12735.3118,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"glad01_012":{
+		"enable_" : true,
+		"gimmickType_" : "Ladder",
+		"firstModelName_" : "glad01",
+		"firstAnimeName_" : "glad01_000_appear",
+		"rotY_" : 0,
+		"transX_" : 1008.5323,
+		"transY_" : 0,
+		"transZ_" : 12735.3118,
+		"param0_" : "POWER_COLOR_WHITE"
+	},
+	"gbal01_001":{
+		"enable_" : true,
+		"gimmickType_" : "Ballista",
+		"firstModelName_" : "gbal01",
+		"firstAnimeName_" : "gbal01_000_load",
+		"rotY_" : 0,
+		"transX_" : 1511.5881,
+		"transY_" : 900,
+		"transZ_" : -7280.4887,
+		"param0_" : 1,
+		"param1_" : -95,
+		"param2_" : 100,
+		"param3_" : -45,
+		"param4_" : 5,
+		"param6_" : true
+	},
+	"gbal01_002":{
+		"enable_" : true,
+		"gimmickType_" : "Ballista",
+		"firstModelName_" : "gbal01",
+		"firstAnimeName_" : "gbal01_000_load",
+		"rotY_" : 32.3789,
+		"transX_" : 2675.3319,
+		"transY_" : 637.4,
+		"transZ_" : -8158.98,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -50,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_003":{
+		"enable_" : true,
+		"gimmickType_" : "Ballista",
+		"firstModelName_" : "gbal01",
+		"firstAnimeName_" : "gbal01_000_load",
+		"rotY_" : -3.1371,
+		"transX_" : -456.9585,
+		"transY_" : 1000,
+		"transZ_" : -7523.0346,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -58,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_004":{
+		"enable_" : true,
+		"gimmickType_" : "Ballista",
+		"firstModelName_" : "gbal01",
+		"firstAnimeName_" : "gbal01_000_load",
+		"rotY_" : -40.1159,
+		"transX_" : -2771.2091,
+		"transY_" : 636.6368,
+		"transZ_" : -8137.6422,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -58,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_005":{
+		"enable_" : true,
+		"gimmickType_" : "Ballista",
+		"firstModelName_" : "gbal01",
+		"firstAnimeName_" : "gbal01_000_load",
+		"rotY_" : 0,
+		"transX_" : -1700,
+		"transY_" : 639.5807,
+		"transZ_" : -7145.4173,
+		"param0_" : 1,
+		"param1_" : -100,
+		"param2_" : 115,
+		"param3_" : -45,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_006":{
+		"enable_" : true,
+		"gimmickType_" : "Ballista",
+		"firstModelName_" : "gbal01",
+		"firstAnimeName_" : "gbal01_000_load",
+		"rotY_" : 180,
+		"transX_" : -1511.5881,
+		"transY_" : 900,
+		"transZ_" : 7280.4887,
+		"param0_" : 1,
+		"param1_" : -95,
+		"param2_" : 100,
+		"param3_" : -45,
+		"param4_" : 5,
+		"param6_" : true
+	},
+	"gbal01_007":{
+		"enable_" : true,
+		"gimmickType_" : "Ballista",
+		"firstModelName_" : "gbal01",
+		"firstAnimeName_" : "gbal01_000_load",
+		"rotY_" : 212.3789,
+		"transX_" : -2675.3319,
+		"transY_" : 637.4,
+		"transZ_" : 8158.98,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -50,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_008":{
+		"enable_" : true,
+		"gimmickType_" : "Ballista",
+		"firstModelName_" : "gbal01",
+		"firstAnimeName_" : "gbal01_000_load",
+		"rotY_" : 176.8629,
+		"transX_" : 456.9585,
+		"transY_" : 1000,
+		"transZ_" : 7523.0346,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -58,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_009":{
+		"enable_" : true,
+		"gimmickType_" : "Ballista",
+		"firstModelName_" : "gbal01",
+		"firstAnimeName_" : "gbal01_000_load",
+		"rotY_" : 139.8841,
+		"transX_" : 2771.2091,
+		"transY_" : 636.6368,
+		"transZ_" : 8137.6422,
+		"param0_" : 1,
+		"param1_" : -115,
+		"param2_" : 115,
+		"param3_" : -58,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"gbal01_010":{
+		"enable_" : true,
+		"gimmickType_" : "Ballista",
+		"firstModelName_" : "gbal01",
+		"firstAnimeName_" : "gbal01_000_load",
+		"rotY_" : 180,
+		"transX_" : 1700,
+		"transY_" : 639.5807,
+		"transZ_" : 7145.4173,
+		"param0_" : 1,
+		"param1_" : -100,
+		"param2_" : 115,
+		"param3_" : -45,
+		"param4_" : 15,
+		"param6_" : true
+	},
+	"ggat01_001":{
+		"enable_" : true,
+		"gimmickType_" : "CastleGate",
+		"firstModelName_" : "ggat01",
+		"firstAnimeName_" : "ggat01_000_open",
+		"rotY_" : 0,
+		"transX_" : 0,
+		"transY_" : 75,
+		"transZ_" : -7550
+	},
+	"ggat01_002":{
+		"enable_" : true,
+		"gimmickType_" : "CastleGate",
+		"firstModelName_" : "ggat01",
+		"firstAnimeName_" : "ggat01_001_close",
+		"rotY_" : 180,
+		"transX_" : 0,
+		"transY_" : 75,
+		"transZ_" : 7550
+	},
+	"gbar01_001":{
+		"enable_" : true,
+		"firstModelName_" : "gbar01",
+		"firstAnimeName_" : "gbar01_000_appear",
+		"rotY_" : 0,
+		"transX_" : -939.3973,
+		"transY_" : 637.5,
+		"transZ_" : -7899.6421
+	},
+	"gbar01_002":{
+		"enable_" : true,
+		"firstModelName_" : "gbar01",
+		"firstAnimeName_" : "gbar01_000_appear",
+		"rotY_" : 0,
+		"transX_" : 942.9742,
+		"transY_" : 637.5,
+		"transZ_" : -7899.6421
+	},
+	"gbar01_003":{
+		"enable_" : true,
+		"firstModelName_" : "gbar01",
+		"firstAnimeName_" : "gbar01_000_appear",
+		"rotY_" : 90,
+		"transX_" : 2000,
+		"transY_" : 637.5,
+		"transZ_" : -9062.8249
+	},
+	"gbar01_004":{
+		"enable_" : true,
+		"firstModelName_" : "gbar01",
+		"firstAnimeName_" : "gbar01_000_appear",
+		"rotY_" : -90,
+		"transX_" : -1998.6926,
+		"transY_" : 637.5,
+		"transZ_" : -9190.2044
+	},
+	"gbar01_005":{
+		"enable_" : true,
+		"firstModelName_" : "gbar01",
+		"firstAnimeName_" : "gbar01_000_appear",
+		"rotY_" : 180,
+		"transX_" : 922.811,
+		"transY_" : 637.5,
+		"transZ_" : -12002.4018
+	},
+	"gbar01_006":{
+		"enable_" : true,
+		"firstModelName_" : "gbar01",
+		"firstAnimeName_" : "gbar01_000_appear",
+		"rotY_" : 180,
+		"transX_" : -986.042,
+		"transY_" : 637.5,
+		"transZ_" : -12002.4018
+	},
+	"gbar01_007":{
+		"enable_" : true,
+		"firstModelName_" : "gbar01",
+		"firstAnimeName_" : "gbar01_000_appear",
+		"rotY_" : 0,
+		"transX_" : 939.3973,
+		"transY_" : 637.5,
+		"transZ_" : 7899.6421
+	},
+	"gbar01_008":{
+		"enable_" : true,
+		"firstModelName_" : "gbar01",
+		"firstAnimeName_" : "gbar01_000_appear",
+		"rotY_" : 0,
+		"transX_" : -942.9742,
+		"transY_" : 637.5,
+		"transZ_" : 7899.6421
+	},
+	"gbar01_009":{
+		"enable_" : true,
+		"firstModelName_" : "gbar01",
+		"firstAnimeName_" : "gbar01_000_appear",
+		"rotY_" : -90,
+		"transX_" : -2000,
+		"transY_" : 637.5,
+		"transZ_" : 9062.8249
+	},
+	"gbar01_010":{
+		"enable_" : true,
+		"firstModelName_" : "gbar01",
+		"firstAnimeName_" : "gbar01_000_appear",
+		"rotY_" : 90,
+		"transX_" : 1998.6926,
+		"transY_" : 637.5,
+		"transZ_" : 9190.2044
+	},
+	"gbar01_011":{
+		"enable_" : true,
+		"firstModelName_" : "gbar01",
+		"firstAnimeName_" : "gbar01_000_appear",
+		"rotY_" : 0,
+		"transX_" : -922.811,
+		"transY_" : 637.5,
+		"transZ_" : 12002.4018
+	},
+	"gbar01_012":{
+		"enable_" : true,
+		"firstModelName_" : "gbar01",
+		"firstAnimeName_" : "gbar01_000_appear",
+		"rotY_" : 0,
+		"transX_" : 986.042,
+		"transY_" : 637.5,
+		"transZ_" : 12002.4018
+	}
+},
+// fort_test_map_stage_gimmick.xlsx.tmp GimmickCamera 
+
+"gimmickCameraParam_":{
+	"gbal01_001":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_002":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_003":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_004":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_005":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_006":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_007":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_008":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_009":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gbal01_010":{
+		"distance_" : 600,
+		"angleX_" : 10,
+		"offsetX_" : -50,
+		"offsetY_" : 150,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 1
+	},
+	"gcat01_001":{
+		"distance_" : 1800,
+		"angleX_" : 20,
+		"offsetX_" : 0,
+		"offsetY_" : 440,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 0
+	},
+	"gcat01_002":{
+		"distance_" : 1800,
+		"angleX_" : 20,
+		"offsetX_" : 0,
+		"offsetY_" : 440,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 0
+	},
+	"gcat01_003":{
+		"distance_" : 1800,
+		"angleX_" : 20,
+		"offsetX_" : 0,
+		"offsetY_" : 440,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 0
+	},
+	"gcat01_004":{
+		"distance_" : 1800,
+		"angleX_" : 20,
+		"offsetX_" : 0,
+		"offsetY_" : 440,
+		"lookAtOffsetX_" : 0,
+		"lookAtOffsetY_" : 0,
+		"lookMode_" : 0
+	}
+}}}

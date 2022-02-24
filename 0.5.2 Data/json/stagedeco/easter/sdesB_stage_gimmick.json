@@ -1,0 +1,25 @@
+/* XDASEA_Xm8R_SPsX */ 
+// sdesB_stage_gimmick.xlsx.tmp GimmickPosition 
+
+{"JsonStageSetTable":{"gimmickDecoArrangeParam_":{
+	"gdecoeaster01_001":{
+		"firstModelName_" : "gdecoeaster01",
+		"firstAnimeName_" : "gdecoeaster01_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 105.389,
+		"transX_" : -11398.305,
+		"transZ_" : 2490.42
+	},
+	"gdecoeaster01_002":{
+		"firstModelName_" : "gdecoeaster01",
+		"firstAnimeName_" : "gdecoeaster01_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 260.536,
+		"transX_" : 13097.737,
+		"transZ_" : 3138.167
+	}
+}}}

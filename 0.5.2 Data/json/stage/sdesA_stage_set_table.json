@@ -1,0 +1,305 @@
+/* XDASEA_Xm8R_SPsX */ 
+// sdesA.xlsx.tmp &header 
+
+{"JsonStageSetTable":{"header_":{
+	"hoge":{
+
+	}
+},
+// sdesA.xlsx.tmp &area 
+
+"area_":{
+	"st_area_01":{
+		"no" : 1,
+		"type" : 2,
+		"left" : -20202.454194568454,
+		"top" : -3652.555338541668,
+		"right" : -9994.642857142858,
+		"bottom" : 9424.689592633927,
+		"rotation" : 25,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"st_area_02":{
+		"no" : 2,
+		"type" : 2,
+		"left" : -15105.108351934524,
+		"top" : -10045.535714285713,
+		"right" : -6067.3653738839275,
+		"bottom" : -2600.6179082961316,
+		"rotation" : 25,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"st_area_03":{
+		"no" : 3,
+		"type" : 2,
+		"left" : -11166.944521949404,
+		"top" : 1647.2563244047633,
+		"right" : -5077.2705078125,
+		"bottom" : 12785.802641369045,
+		"rotation" : 25,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"st_area_04_a":{
+		"no" : 4,
+		"type" : 2,
+		"left" : -7729.464285714286,
+		"top" : -4458.614676339286,
+		"right" : -1238.6073521205362,
+		"bottom" : 2408.0025809151775,
+		"rotation" : 25,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"st_area_04_b":{
+		"no" : 4,
+		"type" : 2,
+		"left" : -3015.1785714285724,
+		"top" : -4971.4285714285725,
+		"right" : 3475.6783621651775,
+		"bottom" : 4942.857142857145,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"st_area_04_c":{
+		"no" : 4,
+		"type" : 2,
+		"left" : 1688.7602306547633,
+		"top" : -3242.3084077380954,
+		"right" : 7091.116187686013,
+		"bottom" : 5403.255789620533,
+		"rotation" : 330,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"st_area_05":{
+		"no" : 5,
+		"type" : 2,
+		"left" : 4433.682105654763,
+		"top" : -8456.461588541667,
+		"right" : 15305.829148065473,
+		"bottom" : -2096.7721121651775,
+		"rotation" : 310,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"st_area_06":{
+		"no" : 6,
+		"type" : 2,
+		"left" : 5287.481398809527,
+		"top" : 3439.855375744046,
+		"right" : 12822.415015811013,
+		"bottom" : 13674.382672991072,
+		"rotation" : 310,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"st_area_07":{
+		"no" : 7,
+		"type" : 2,
+		"left" : 9409.337797619045,
+		"top" : -4323.7234933035725,
+		"right" : 22008.701869419645,
+		"bottom" : 6316.717819940473,
+		"rotation" : 310,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gfmo_003":{
+		"no" : 100,
+		"type" : 1,
+		"left" : -13441.749209449404,
+		"top" : -8134.440104166668,
+		"right" : -12415.877423967635,
+		"bottom" : -7108.568318684895,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gfmo_002":{
+		"no" : 100,
+		"type" : 1,
+		"left" : -443.75,
+		"top" : -442.85714285714493,
+		"right" : 312.15551467168916,
+		"bottom" : 313.0483718145442,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gfmo_001":{
+		"no" : 100,
+		"type" : 1,
+		"left" : 9780.543154761901,
+		"top" : 9832.510230654763,
+		"right" : 10806.414940243674,
+		"bottom" : 10858.38201613653,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoB_001_wl":{
+		"no" : 100,
+		"type" : 2,
+		"left" : -18296.783156622026,
+		"top" : -500.05347842261835,
+		"right" : -12848.665945870536,
+		"bottom" : 5404.046921502973,
+		"rotation" : 353,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoB_001_fl":{
+		"no" : 100,
+		"type" : 2,
+		"left" : -17845.311337425595,
+		"top" : 747.4446614583321,
+		"right" : -14366.644577752977,
+		"bottom" : 4205.866931733632,
+		"rotation" : 353,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoB_001_gt":{
+		"no" : 100,
+		"type" : 2,
+		"left" : -14816.739908854166,
+		"top" : 1833.1589471726183,
+		"right" : -13649.84377906436,
+		"bottom" : 2631.198701404388,
+		"rotation" : 353,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoB_001":{
+		"no" : 100,
+		"type" : 2,
+		"left" : -16888.168480282736,
+		"top" : 1333.1589471726183,
+		"right" : -14889.650326683408,
+		"bottom" : 3532.91451590402,
+		"rotation" : 353,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoA_001_wl":{
+		"no" : 100,
+		"type" : 2,
+		"left" : 13247.572544642855,
+		"top" : -1727.1414620535724,
+		"right" : 18718.16871279762,
+		"bottom" : 4217.671712239586,
+		"rotation" : 7,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoA_001_fl":{
+		"no" : 100,
+		"type" : 2,
+		"left" : 14760.226004464282,
+		"top" : -460.3283110119046,
+		"right" : 18231.83913457961,
+		"bottom" : 3050.1988002232174,
+		"rotation" : 7,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoA_001_gt":{
+		"no" : 100,
+		"type" : 2,
+		"left" : 14060.226004464282,
+		"top" : 668.243117559523,
+		"right" : 15227.122134254088,
+		"bottom" : 1466.2828717912925,
+		"rotation" : 7,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoA_001":{
+		"no" : 100,
+		"type" : 2,
+		"left" : 15303.083147321427,
+		"top" : 196.81454613095047,
+		"right" : 17298.10224260603,
+		"bottom" : 2394.3638392857137,
+		"rotation" : 7,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoB_001_siege":{
+		"no" : 1001,
+		"type" : 1,
+		"left" : -21361.90650576637,
+		"top" : -5747.621372767859,
+		"right" : -5614.286295572918,
+		"bottom" : 9999.998837425591,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoA_001_siege":{
+		"no" : 1000,
+		"type" : 1,
+		"left" : 5974.51171875,
+		"top" : -6860.328311011905,
+		"right" : 21722.131928943454,
+		"bottom" : 8887.291899181545,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	}
+},
+// sdesA.xlsx.tmp &footer 
+
+"footer_":{
+	"hoge":{
+
+	}
+}}}

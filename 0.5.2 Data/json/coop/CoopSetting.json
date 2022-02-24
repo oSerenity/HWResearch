@@ -1,0 +1,1134 @@
+/* XDASEA_Xm8R_SPsX */ 
+// Gemini_CoopSetting.xlsx.tmp Bonus 
+
+{"JsonCoopSetting":{"bonus_":{
+	"Normal":{
+		"DefaultBonus" : 0,
+		"StrongBonus01" : 300,
+		"StrongBonus02" : 600,
+		"StrongBonus03" : 1000,
+		"WinBonus01" : 50,
+		"WinBonus02" : 200,
+		"WinBonus03" : 400,
+		"TotalScore01" : 900,
+		"TotalBonus01" : 0,
+		"TotalScore02" : 1200,
+		"TotalBonus02" : 300,
+		"TotalScore03" : 3000,
+		"TotalBonus03" : 500,
+		"TotalScore04" : 4500,
+		"TotalBonus04" : 700,
+		"TotalScore05" : 8000,
+		"TotalBonus05" : 1000
+	},
+	"Massively":{
+		"DefaultBonus" : 0,
+		"StrongBonus01" : 200,
+		"StrongBonus02" : 600,
+		"StrongBonus03" : 1000,
+		"WinBonus01" : 50,
+		"WinBonus02" : 200,
+		"WinBonus03" : 400,
+		"TotalScore01" : 900,
+		"TotalBonus01" : 0,
+		"TotalScore02" : 1200,
+		"TotalBonus02" : 50,
+		"TotalScore03" : 3000,
+		"TotalBonus03" : 150,
+		"TotalScore04" : 4500,
+		"TotalBonus04" : 500,
+		"TotalScore05" : 8000,
+		"TotalBonus05" : 1000
+	},
+	"Special":{
+		"DefaultBonus" : 0,
+		"StrongBonus01" : 200,
+		"StrongBonus02" : 600,
+		"StrongBonus03" : 1000,
+		"WinBonus01" : 50,
+		"WinBonus02" : 200,
+		"WinBonus03" : 400,
+		"TotalScore01" : 900,
+		"TotalBonus01" : 0,
+		"TotalScore02" : 1200,
+		"TotalBonus02" : 50,
+		"TotalScore03" : 3000,
+		"TotalBonus03" : 150,
+		"TotalScore04" : 4500,
+		"TotalBonus04" : 500,
+		"TotalScore05" : 8000,
+		"TotalBonus05" : 1000
+	}
+},
+// Gemini_CoopSetting.xlsx.tmp Special 
+
+"special_":{
+	"Default":{
+		"TryPlayTime" : 30,
+		"TryWaitTime" : 1380,
+		"ShorteningRestTime" : 1500,
+		"CostTicket" : 18,
+		"CostMinute" : 60,
+		"PenaltyTime" : 600,
+		"GradeUpCost" : 8
+	},
+	"SC_Easy":{
+		"TryPlayTime" : 30,
+		"TryWaitTime" : 1380,
+		"ShorteningRestTime" : 1500,
+		"CostTicket" : 18,
+		"CostMinute" : 60,
+		"PenaltyTime" : 600,
+		"GradeUpCost" : 8
+	},
+	"SC_Hard":{
+		"TryPlayTime" : 30,
+		"TryWaitTime" : 1380,
+		"ShorteningRestTime" : 1500,
+		"CostTicket" : 18,
+		"CostMinute" : 60,
+		"PenaltyTime" : 600,
+		"GradeUpCost" : 18
+	},
+	"EM_Easy":{
+		"TryPlayTime" : 30,
+		"TryWaitTime" : 1380,
+		"ShorteningRestTime" : 1500,
+		"CostTicket" : 18,
+		"CostMinute" : 60,
+		"PenaltyTime" : 600,
+		"GradeUpCost" : 8
+	},
+	"EM_Hard":{
+		"TryPlayTime" : 30,
+		"TryWaitTime" : 1380,
+		"ShorteningRestTime" : 1500,
+		"CostTicket" : 18,
+		"CostMinute" : 60,
+		"PenaltyTime" : 600,
+		"GradeUpCost" : 18
+	},
+	"DF_Easy":{
+		"TryPlayTime" : 30,
+		"TryWaitTime" : 1380,
+		"ShorteningRestTime" : 1500,
+		"CostTicket" : 18,
+		"CostMinute" : 60,
+		"PenaltyTime" : 600,
+		"GradeUpCost" : 8,
+		"CustomizePointCost" : 100
+	},
+	"DF_Hard":{
+		"TryPlayTime" : 30,
+		"TryWaitTime" : 1380,
+		"ShorteningRestTime" : 1500,
+		"CostTicket" : 18,
+		"CostMinute" : 60,
+		"PenaltyTime" : 600,
+		"GradeUpCost" : 18,
+		"CustomizePointCost" : 100
+	}
+},
+// Gemini_CoopSetting.xlsx.tmp PointSetting 
+
+"pointSetting_":{
+	"Default":{
+		"PointRate_NormalWin" : 1,
+		"PointRate_NormalLose" : 0.8,
+		"PointRate_TimeUpWin" : 0.5,
+		"PointRate_TimeUpLose" : 0.4,
+		"RewardNeedPoint" : 100,
+		"RewardAddPoint" : 15
+	},
+	"SC_Easy":{
+		"PointRate_NormalWin" : 1,
+		"PointRate_NormalLose" : 0.1,
+		"PointRate_TimeUpWin" : 0.8,
+		"PointRate_TimeUpLose" : 0.3,
+		"RewardNeedPoint" : 100,
+		"RewardAddPoint" : 0
+	},
+	"SC_Hard":{
+		"PointRate_NormalWin" : 1,
+		"PointRate_NormalLose" : 0.1,
+		"PointRate_TimeUpWin" : 0.8,
+		"PointRate_TimeUpLose" : 0.3,
+		"RewardNeedPoint" : 100,
+		"RewardAddPoint" : 0
+	},
+	"EM_Easy":{
+		"PointRate_NormalWin" : 1,
+		"PointRate_NormalLose" : 0.4,
+		"PointRate_TimeUpWin" : 0.8,
+		"PointRate_TimeUpLose" : 0.5,
+		"RewardNeedPoint" : 100,
+		"RewardAddPoint" : 0
+	},
+	"EM_Hard":{
+		"PointRate_NormalWin" : 1,
+		"PointRate_NormalLose" : 0.4,
+		"PointRate_TimeUpWin" : 0.8,
+		"PointRate_TimeUpLose" : 0.5,
+		"RewardNeedPoint" : 100,
+		"RewardAddPoint" : 0
+	},
+	"DF_Easy":{
+		"PointRate_NormalWin" : 1,
+		"PointRate_NormalLose" : 1,
+		"PointRate_TimeUpWin" : 1,
+		"PointRate_TimeUpLose" : 1,
+		"RewardNeedPoint" : 100,
+		"RewardAddPoint" : 0
+	},
+	"DF_Hard":{
+		"PointRate_NormalWin" : 1,
+		"PointRate_NormalLose" : 1,
+		"PointRate_TimeUpWin" : 1,
+		"PointRate_TimeUpLose" : 1,
+		"RewardNeedPoint" : 100,
+		"RewardAddPoint" : 0
+	}
+},
+// Gemini_CoopSetting.xlsx.tmp PointRanking 
+
+"pointRanking_":{
+	"Default":{
+		"Rank01" : 100,
+		"Rank02" : 90,
+		"Rank03" : 80,
+		"Rank04" : 68,
+		"Rank05" : 67,
+		"Rank06" : 66,
+		"Rank07" : 66,
+		"Rank08" : 66,
+		"Rank09" : 65,
+		"Rank10" : 65,
+		"Rank11" : 64,
+		"Rank12" : 64,
+		"Rank13" : 64,
+		"Rank14" : 63,
+		"Rank15" : 63,
+		"Rank16" : 62,
+		"Rank17" : 62,
+		"Rank18" : 62,
+		"Rank19" : 61,
+		"Rank20" : 61,
+		"Rank21" : 60,
+		"Rank22" : 60,
+		"Rank23" : 60,
+		"Rank24" : 59,
+		"Rank25" : 50,
+		"Rank26" : 50,
+		"Rank27" : 50,
+		"Rank28" : 49,
+		"Rank29" : 49,
+		"Rank30" : 48
+	},
+	"SC_Easy":{
+		"Rank01" : 100,
+		"Rank02" : 90,
+		"Rank03" : 85,
+		"Rank04" : 75,
+		"Rank05" : 74,
+		"Rank06" : 74,
+		"Rank07" : 73,
+		"Rank08" : 73,
+		"Rank09" : 72,
+		"Rank10" : 71,
+		"Rank11" : 70,
+		"Rank12" : 69,
+		"Rank13" : 69,
+		"Rank14" : 68,
+		"Rank15" : 68,
+		"Rank16" : 67,
+		"Rank17" : 66,
+		"Rank18" : 66,
+		"Rank19" : 65,
+		"Rank20" : 65,
+		"Rank21" : 64,
+		"Rank22" : 64,
+		"Rank23" : 63,
+		"Rank24" : 62,
+		"Rank25" : 61,
+		"Rank26" : 60,
+		"Rank27" : 55,
+		"Rank28" : 50,
+		"Rank29" : 49,
+		"Rank30" : 48
+	},
+	"SC_Hard":{
+		"Rank01" : 100,
+		"Rank02" : 90,
+		"Rank03" : 85,
+		"Rank04" : 75,
+		"Rank05" : 74,
+		"Rank06" : 74,
+		"Rank07" : 73,
+		"Rank08" : 73,
+		"Rank09" : 72,
+		"Rank10" : 71,
+		"Rank11" : 70,
+		"Rank12" : 69,
+		"Rank13" : 69,
+		"Rank14" : 68,
+		"Rank15" : 68,
+		"Rank16" : 67,
+		"Rank17" : 66,
+		"Rank18" : 66,
+		"Rank19" : 65,
+		"Rank20" : 65,
+		"Rank21" : 64,
+		"Rank22" : 64,
+		"Rank23" : 63,
+		"Rank24" : 62,
+		"Rank25" : 61,
+		"Rank26" : 60,
+		"Rank27" : 55,
+		"Rank28" : 50,
+		"Rank29" : 49,
+		"Rank30" : 48
+	},
+	"EM_Easy":{
+		"Rank01" : 100,
+		"Rank02" : 90,
+		"Rank03" : 85,
+		"Rank04" : 75,
+		"Rank05" : 74,
+		"Rank06" : 74,
+		"Rank07" : 73,
+		"Rank08" : 73,
+		"Rank09" : 72,
+		"Rank10" : 71,
+		"Rank11" : 70,
+		"Rank12" : 69,
+		"Rank13" : 69,
+		"Rank14" : 68,
+		"Rank15" : 68,
+		"Rank16" : 67,
+		"Rank17" : 66,
+		"Rank18" : 66,
+		"Rank19" : 65,
+		"Rank20" : 65,
+		"Rank21" : 64,
+		"Rank22" : 64,
+		"Rank23" : 63,
+		"Rank24" : 62,
+		"Rank25" : 61,
+		"Rank26" : 60,
+		"Rank27" : 55,
+		"Rank28" : 50,
+		"Rank29" : 49,
+		"Rank30" : 48
+	},
+	"EM_Hard":{
+		"Rank01" : 100,
+		"Rank02" : 90,
+		"Rank03" : 85,
+		"Rank04" : 75,
+		"Rank05" : 74,
+		"Rank06" : 74,
+		"Rank07" : 73,
+		"Rank08" : 73,
+		"Rank09" : 72,
+		"Rank10" : 71,
+		"Rank11" : 70,
+		"Rank12" : 69,
+		"Rank13" : 69,
+		"Rank14" : 68,
+		"Rank15" : 68,
+		"Rank16" : 67,
+		"Rank17" : 66,
+		"Rank18" : 66,
+		"Rank19" : 65,
+		"Rank20" : 65,
+		"Rank21" : 64,
+		"Rank22" : 64,
+		"Rank23" : 63,
+		"Rank24" : 62,
+		"Rank25" : 61,
+		"Rank26" : 60,
+		"Rank27" : 55,
+		"Rank28" : 50,
+		"Rank29" : 49,
+		"Rank30" : 48
+	},
+	"DF_Easy":{
+		"Rank01" : 100,
+		"Rank02" : 100,
+		"Rank03" : 100,
+		"Rank04" : 100,
+		"Rank05" : 100,
+		"Rank06" : 100,
+		"Rank07" : 100,
+		"Rank08" : 100,
+		"Rank09" : 72,
+		"Rank10" : 71,
+		"Rank11" : 70,
+		"Rank12" : 69,
+		"Rank13" : 69,
+		"Rank14" : 68,
+		"Rank15" : 68,
+		"Rank16" : 67,
+		"Rank17" : 66,
+		"Rank18" : 66,
+		"Rank19" : 65,
+		"Rank20" : 65,
+		"Rank21" : 64,
+		"Rank22" : 64,
+		"Rank23" : 63,
+		"Rank24" : 62,
+		"Rank25" : 61,
+		"Rank26" : 60,
+		"Rank27" : 55,
+		"Rank28" : 50,
+		"Rank29" : 49,
+		"Rank30" : 48
+	},
+	"DF_Hard":{
+		"Rank01" : 100,
+		"Rank02" : 100,
+		"Rank03" : 100,
+		"Rank04" : 100,
+		"Rank05" : 100,
+		"Rank06" : 100,
+		"Rank07" : 100,
+		"Rank08" : 100,
+		"Rank09" : 72,
+		"Rank10" : 71,
+		"Rank11" : 70,
+		"Rank12" : 69,
+		"Rank13" : 69,
+		"Rank14" : 68,
+		"Rank15" : 68,
+		"Rank16" : 67,
+		"Rank17" : 66,
+		"Rank18" : 66,
+		"Rank19" : 65,
+		"Rank20" : 65,
+		"Rank21" : 64,
+		"Rank22" : 64,
+		"Rank23" : 63,
+		"Rank24" : 62,
+		"Rank25" : 61,
+		"Rank26" : 60,
+		"Rank27" : 55,
+		"Rank28" : 50,
+		"Rank29" : 49,
+		"Rank30" : 48
+	}
+},
+// Gemini_CoopSetting.xlsx.tmp BountyHunter 
+
+"bountyHunter_":{
+	"Default":{
+		"BountySuccessTotal" : 80000,
+		"PlayerBountyMax" : 7777,
+		"InitialBountyLevel01" : 50,
+		"InitialBountyLevel02" : 100,
+		"InitialBountyLevel03" : 150,
+		"InitialBountyLevel04" : 200,
+		"InitialBountyLevel05" : 250,
+		"CastleMonumentBounty" : 25000,
+		"FieldMonumentBounty" : 5000,
+		"ExtinctionTime" : 6,
+		"ExtinctionBonus" : 40000,
+		"HUDDrawEnemyBountyNum" : 4,
+		"HUDDrawAutoMarkingBountyValue" : 2000,
+		"HUDDrawAutoMarkingBountyNum" : 1,
+		"HUDBountyIconSizeS_BorderValue" : 1000,
+		"HUDBountyIconSizeM_BorderValue" : 3000,
+		"HUDBountyIconSizeL_BorderValue" : 10000,
+		"HUDBountyIconSizeS_DrawDistance" : 6500,
+		"HUDBountyIconSizeM_DrawDistance" : 6500,
+		"HUDBountyIconSizeL_DrawDistance" : 7000,
+		"HUDBountyIconCastleMonument_DrawDistance" : 8000,
+		"HUDBountyIconFieldMonument_DrawDistance" : 8000
+	},
+	"EM_Easy":{
+		"BountySuccessTotal" : 80000,
+		"PlayerBountyMax" : 7777,
+		"InitialBountyLevel01" : 50,
+		"InitialBountyLevel02" : 100,
+		"InitialBountyLevel03" : 150,
+		"InitialBountyLevel04" : 200,
+		"InitialBountyLevel05" : 250,
+		"CastleMonumentBounty" : 25000,
+		"FieldMonumentBounty" : 5000,
+		"ExtinctionTime" : 6,
+		"ExtinctionBonus" : 40000,
+		"HUDDrawEnemyBountyNum" : 4,
+		"HUDDrawAutoMarkingBountyValue" : 2000,
+		"HUDDrawAutoMarkingBountyNum" : 1,
+		"HUDBountyIconSizeS_BorderValue" : 1000,
+		"HUDBountyIconSizeM_BorderValue" : 3000,
+		"HUDBountyIconSizeL_BorderValue" : 10000,
+		"HUDBountyIconSizeS_DrawDistance" : 6500,
+		"HUDBountyIconSizeM_DrawDistance" : 6500,
+		"HUDBountyIconSizeL_DrawDistance" : 7000,
+		"HUDBountyIconCastleMonument_DrawDistance" : 8000,
+		"HUDBountyIconFieldMonument_DrawDistance" : 8000
+	},
+	"EM_Hard":{
+		"BountySuccessTotal" : 80000,
+		"PlayerBountyMax" : 7777,
+		"InitialBountyLevel01" : 50,
+		"InitialBountyLevel02" : 100,
+		"InitialBountyLevel03" : 150,
+		"InitialBountyLevel04" : 200,
+		"InitialBountyLevel05" : 250,
+		"CastleMonumentBounty" : 25000,
+		"FieldMonumentBounty" : 5000,
+		"ExtinctionTime" : 6,
+		"ExtinctionBonus" : 40000,
+		"HUDDrawEnemyBountyNum" : 4,
+		"HUDDrawAutoMarkingBountyValue" : 2000,
+		"HUDDrawAutoMarkingBountyNum" : 1,
+		"HUDBountyIconSizeS_BorderValue" : 1000,
+		"HUDBountyIconSizeM_BorderValue" : 3000,
+		"HUDBountyIconSizeL_BorderValue" : 10000,
+		"HUDBountyIconSizeS_DrawDistance" : 6500,
+		"HUDBountyIconSizeM_DrawDistance" : 6500,
+		"HUDBountyIconSizeL_DrawDistance" : 7000,
+		"HUDBountyIconCastleMonument_DrawDistance" : 8000,
+		"HUDBountyIconFieldMonument_DrawDistance" : 8000
+	}
+},
+// Gemini_CoopSetting.xlsx.tmp BountySetting 
+
+"bountySetting_":{
+	"BY_SCORE":{
+		"Param00" : 500
+	},
+	"KILL_ENEMY_01":{
+		"BountyValue" : 100,
+		"Param00" : 100
+	},
+	"KILL_ENEMY_02":{
+		"BountyValue" : 200,
+		"Param00" : 375
+	},
+	"KILL_ENEMY_03":{
+		"BountyValue" : 250,
+		"Param00" : 650
+	},
+	"KILL_ENEMY_04":{
+		"BountyValue" : 300,
+		"Param00" : 925
+	},
+	"KILL_ENEMY_05":{
+		"BountyValue" : 400,
+		"Param00" : 1200
+	},
+	"KILL_ENEMY_06":{
+		"BountyValue" : 800,
+		"Param00" : 1475
+	},
+	"KILL_ENEMY_07":{
+		"BountyValue" : 1200,
+		"Param00" : 1750
+	},
+	"KILL_ENEMY_08":{
+		"BountyValue" : 1500,
+		"Param00" : 2300
+	},
+	"KILL_ENEMY_09":{
+		"BountyValue" : 1700,
+		"Param00" : 2850
+	},
+	"KILL_ENEMY_10":{
+		"BountyValue" : 1800,
+		"Param00" : 3400
+	},
+	"KILL_ENEMY_11":{
+		"BountyValue" : 1900,
+		"Param00" : 3950
+	},
+	"KILL_ENEMY_12":{
+		"BountyValue" : 2000,
+		"Param00" : 4500
+	},
+	"KILL_ENEMY_13":{
+		"BountyValue" : 2100,
+		"Param00" : 5600
+	},
+	"KILL_ENEMY_14":{
+		"BountyValue" : 2200,
+		"Param00" : 6700
+	},
+	"KILL_ENEMY_15":{
+		"BountyValue" : 2500,
+		"Param00" : 7777
+	}
+},
+// Gemini_CoopSetting.xlsx.tmp BountyRegulation 
+
+"bountyRegulation_":{
+	"REGULATION_01":{
+		"TotalPrizeRate" : 0,
+		"BountyAddRateBySuperior" : 0.6,
+		"BountyAddRateByInferior" : 0.6,
+		"FieldMonumentBountyRate" : 1,
+		"CastleMonumentBountyRate" : 1
+	},
+	"REGULATION_02":{
+		"TotalPrizeRate" : 0.05,
+		"BountyAddRateBySuperior" : 0.6,
+		"BountyAddRateByInferior" : 0.6,
+		"FieldMonumentBountyRate" : 1,
+		"CastleMonumentBountyRate" : 1
+	},
+	"REGULATION_03":{
+		"TotalPrizeRate" : 0.1,
+		"BountyAddRateBySuperior" : 0.8,
+		"BountyAddRateByInferior" : 0.6,
+		"FieldMonumentBountyRate" : 1,
+		"CastleMonumentBountyRate" : 1
+	},
+	"REGULATION_04":{
+		"TotalPrizeRate" : 0.15,
+		"BountyAddRateBySuperior" : 0.8,
+		"BountyAddRateByInferior" : 0.6,
+		"FieldMonumentBountyRate" : 1,
+		"CastleMonumentBountyRate" : 1
+	},
+	"REGULATION_05":{
+		"TotalPrizeRate" : 0.2,
+		"BountyAddRateBySuperior" : 1,
+		"BountyAddRateByInferior" : 0.8,
+		"FieldMonumentBountyRate" : 1,
+		"CastleMonumentBountyRate" : 1
+	},
+	"REGULATION_06":{
+		"TotalPrizeRate" : 0.25,
+		"BountyAddRateBySuperior" : 1,
+		"BountyAddRateByInferior" : 0.8,
+		"FieldMonumentBountyRate" : 1,
+		"CastleMonumentBountyRate" : 1
+	},
+	"REGULATION_07":{
+		"TotalPrizeRate" : 0.3,
+		"BountyAddRateBySuperior" : 1,
+		"BountyAddRateByInferior" : 0.8,
+		"FieldMonumentBountyRate" : 1,
+		"CastleMonumentBountyRate" : 1
+	},
+	"REGULATION_08":{
+		"TotalPrizeRate" : 0.35,
+		"BountyAddRateBySuperior" : 2,
+		"BountyAddRateByInferior" : 1,
+		"FieldMonumentBountyRate" : 1,
+		"CastleMonumentBountyRate" : 1
+	},
+	"REGULATION_09":{
+		"TotalPrizeRate" : 0.4,
+		"BountyAddRateBySuperior" : 2,
+		"BountyAddRateByInferior" : 1,
+		"FieldMonumentBountyRate" : 1,
+		"CastleMonumentBountyRate" : 1
+	},
+	"REGULATION_10":{
+		"TotalPrizeRate" : 0.45,
+		"BountyAddRateBySuperior" : 2,
+		"BountyAddRateByInferior" : 1,
+		"FieldMonumentBountyRate" : 1,
+		"CastleMonumentBountyRate" : 1
+	},
+	"REGULATION_11":{
+		"TotalPrizeRate" : 0.5,
+		"BountyAddRateBySuperior" : 2,
+		"BountyAddRateByInferior" : 1,
+		"FieldMonumentBountyRate" : 1,
+		"CastleMonumentBountyRate" : 1
+	},
+	"REGULATION_12":{
+		"TotalPrizeRate" : 0.55,
+		"BountyAddRateBySuperior" : 2,
+		"BountyAddRateByInferior" : 1,
+		"FieldMonumentBountyRate" : 1,
+		"CastleMonumentBountyRate" : 1
+	},
+	"REGULATION_13":{
+		"TotalPrizeRate" : 0.6,
+		"BountyAddRateBySuperior" : 2,
+		"BountyAddRateByInferior" : 1,
+		"FieldMonumentBountyRate" : 1,
+		"CastleMonumentBountyRate" : 1
+	},
+	"REGULATION_14":{
+		"TotalPrizeRate" : 0.65,
+		"BountyAddRateBySuperior" : 3,
+		"BountyAddRateByInferior" : 1.2,
+		"FieldMonumentBountyRate" : 1,
+		"CastleMonumentBountyRate" : 1
+	},
+	"REGULATION_15":{
+		"TotalPrizeRate" : 0.7,
+		"BountyAddRateBySuperior" : 3,
+		"BountyAddRateByInferior" : 1.2,
+		"FieldMonumentBountyRate" : 1,
+		"CastleMonumentBountyRate" : 1
+	},
+	"REGULATION_16":{
+		"TotalPrizeRate" : 0.75,
+		"BountyAddRateBySuperior" : 3,
+		"BountyAddRateByInferior" : 1.2,
+		"FieldMonumentBountyRate" : 1,
+		"CastleMonumentBountyRate" : 1
+	},
+	"REGULATION_17":{
+		"TotalPrizeRate" : 0.8,
+		"BountyAddRateBySuperior" : 3,
+		"BountyAddRateByInferior" : 1.2,
+		"FieldMonumentBountyRate" : 1,
+		"CastleMonumentBountyRate" : 1
+	},
+	"REGULATION_18":{
+		"TotalPrizeRate" : 0.85,
+		"BountyAddRateBySuperior" : 3,
+		"BountyAddRateByInferior" : 1.2,
+		"FieldMonumentBountyRate" : 1,
+		"CastleMonumentBountyRate" : 1
+	},
+	"REGULATION_19":{
+		"TotalPrizeRate" : 0.9,
+		"BountyAddRateBySuperior" : 3,
+		"BountyAddRateByInferior" : 1.2,
+		"FieldMonumentBountyRate" : 1,
+		"CastleMonumentBountyRate" : 1
+	},
+	"REGULATION_20":{
+		"TotalPrizeRate" : 0.95,
+		"BountyAddRateBySuperior" : 3,
+		"BountyAddRateByInferior" : 1.2,
+		"FieldMonumentBountyRate" : 1,
+		"CastleMonumentBountyRate" : 1
+	}
+},
+// Gemini_CoopSetting.xlsx.tmp WaveBonus 
+
+"waveBonus_":{
+	"Default":{
+		"Wave01" : 1,
+		"Wave02" : 1,
+		"Wave03" : 1,
+		"Wave04" : 1,
+		"Wave05" : 1,
+		"Wave06" : 1,
+		"Wave07" : 1,
+		"Wave08" : 1,
+		"Wave09" : 1,
+		"Wave10" : 1,
+		"Wave11" : 1,
+		"Wave12" : 1
+	},
+	"DF_Easy":{
+		"Wave01" : 0.1,
+		"Wave02" : 0.14,
+		"Wave03" : 0.5,
+		"Wave04" : 0.6,
+		"Wave05" : 0.65,
+		"Wave06" : 1,
+		"Wave07" : 1,
+		"Wave08" : 1,
+		"Wave09" : 1,
+		"Wave10" : 1,
+		"Wave11" : 1,
+		"Wave12" : 1
+	},
+	"DF_Hard":{
+		"Wave01" : 0.1,
+		"Wave02" : 0.14,
+		"Wave03" : 0.3,
+		"Wave04" : 0.34,
+		"Wave05" : 0.38,
+		"Wave06" : 0.6,
+		"Wave07" : 0.66,
+		"Wave08" : 0.75,
+		"Wave09" : 1,
+		"Wave10" : 1,
+		"Wave11" : 1,
+		"Wave12" : 1
+	}
+},
+// Gemini_CoopSetting.xlsx.tmp WavePowerUp 
+
+"wavePowerUp_":{
+	"limit":{
+		"PhysicalDamageRate" : 11,
+		"MagicDamageRate" : 11,
+		"HpMax" : 11,
+		"ApMax" : 11,
+		"GimmickReload" : 11,
+		"GimmickDefenseRate" : 11,
+		"ExpForMeat" : 11
+	},
+	"M_0":{
+		"PhysicalDamageRate" : 1,
+		"MagicDamageRate" : 1,
+		"HpMax" : 0,
+		"ApMax" : 0,
+		"GimmickReload" : 1,
+		"GimmickDefenseRate" : 1,
+		"ExpForMeat" : 150
+	},
+	"M_1":{
+		"PhysicalDamageRate" : 1.2,
+		"MagicDamageRate" : 1.15,
+		"HpMax" : 20,
+		"ApMax" : 12,
+		"GimmickReload" : 1.2,
+		"GimmickDefenseRate" : 0.9,
+		"ExpForMeat" : 145
+	},
+	"M_2":{
+		"PhysicalDamageRate" : 1.35,
+		"MagicDamageRate" : 1.3,
+		"HpMax" : 35,
+		"ApMax" : 22,
+		"GimmickReload" : 1.4,
+		"GimmickDefenseRate" : 0.85,
+		"ExpForMeat" : 140
+	},
+	"M_3":{
+		"PhysicalDamageRate" : 1.52,
+		"MagicDamageRate" : 1.5,
+		"HpMax" : 47,
+		"ApMax" : 30,
+		"GimmickReload" : 1.5,
+		"GimmickDefenseRate" : 0.8,
+		"ExpForMeat" : 135
+	},
+	"M_4":{
+		"PhysicalDamageRate" : 1.75,
+		"MagicDamageRate" : 1.66,
+		"HpMax" : 55,
+		"ApMax" : 35,
+		"GimmickReload" : 1.6,
+		"GimmickDefenseRate" : 0.75,
+		"ExpForMeat" : 130
+	},
+	"M_5":{
+		"PhysicalDamageRate" : 1.85,
+		"MagicDamageRate" : 1.72,
+		"HpMax" : 61,
+		"ApMax" : 40,
+		"GimmickReload" : 1.65,
+		"GimmickDefenseRate" : 0.7,
+		"ExpForMeat" : 125
+	},
+	"M_6":{
+		"PhysicalDamageRate" : 1.97,
+		"MagicDamageRate" : 1.82,
+		"HpMax" : 66,
+		"ApMax" : 44,
+		"GimmickReload" : 1.7,
+		"GimmickDefenseRate" : 0.65,
+		"ExpForMeat" : 120
+	},
+	"M_7":{
+		"PhysicalDamageRate" : 2.17,
+		"MagicDamageRate" : 2,
+		"HpMax" : 70,
+		"ApMax" : 47,
+		"GimmickReload" : 1.75,
+		"GimmickDefenseRate" : 0.6,
+		"ExpForMeat" : 110
+	},
+	"M_8":{
+		"PhysicalDamageRate" : 2.4,
+		"MagicDamageRate" : 2.2,
+		"HpMax" : 73,
+		"ApMax" : 49,
+		"GimmickReload" : 1.8,
+		"GimmickDefenseRate" : 0.55,
+		"ExpForMeat" : 100
+	},
+	"M_9":{
+		"PhysicalDamageRate" : 2.8,
+		"MagicDamageRate" : 2.5,
+		"HpMax" : 76,
+		"ApMax" : 51,
+		"GimmickReload" : 1.85,
+		"GimmickDefenseRate" : 0.5,
+		"ExpForMeat" : 85
+	},
+	"M_10":{
+		"PhysicalDamageRate" : 3.4,
+		"MagicDamageRate" : 3.1,
+		"HpMax" : 78,
+		"ApMax" : 53,
+		"GimmickReload" : 1.9,
+		"GimmickDefenseRate" : 0.45,
+		"ExpForMeat" : 70
+	},
+	"M_11":{
+		"PhysicalDamageRate" : 4,
+		"MagicDamageRate" : 3.6,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 0.4,
+		"ExpForMeat" : 50
+	},
+	"M_12":{
+		"PhysicalDamageRate" : 7,
+		"MagicDamageRate" : 5.6000000000000005,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_13":{
+		"PhysicalDamageRate" : 7,
+		"MagicDamageRate" : 5.6000000000000005,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_14":{
+		"PhysicalDamageRate" : 7,
+		"MagicDamageRate" : 5.6,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_15":{
+		"PhysicalDamageRate" : 7,
+		"MagicDamageRate" : 5.6,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_16":{
+		"PhysicalDamageRate" : 7,
+		"MagicDamageRate" : 5.6,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_17":{
+		"PhysicalDamageRate" : 7,
+		"MagicDamageRate" : 5.6,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_18":{
+		"PhysicalDamageRate" : 7,
+		"MagicDamageRate" : 5.6,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_19":{
+		"PhysicalDamageRate" : 7,
+		"MagicDamageRate" : 5.6,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_20":{
+		"PhysicalDamageRate" : 7,
+		"MagicDamageRate" : 5.6,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_21":{
+		"PhysicalDamageRate" : 7,
+		"MagicDamageRate" : 5.6,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_22":{
+		"PhysicalDamageRate" : 7,
+		"MagicDamageRate" : 5.6,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_23":{
+		"PhysicalDamageRate" : 7,
+		"MagicDamageRate" : 5.6,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_24":{
+		"PhysicalDamageRate" : 7,
+		"MagicDamageRate" : 5.6,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_25":{
+		"PhysicalDamageRate" : 7,
+		"MagicDamageRate" : 5.6,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_26":{
+		"PhysicalDamageRate" : 7,
+		"MagicDamageRate" : 5.6,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_27":{
+		"PhysicalDamageRate" : 7,
+		"MagicDamageRate" : 5.6,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_28":{
+		"PhysicalDamageRate" : 7,
+		"MagicDamageRate" : 5.6,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_29":{
+		"PhysicalDamageRate" : 7,
+		"MagicDamageRate" : 5.6,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_30":{
+		"PhysicalDamageRate" : 20,
+		"MagicDamageRate" : 20,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_31":{
+		"PhysicalDamageRate" : 20,
+		"MagicDamageRate" : 20,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_32":{
+		"PhysicalDamageRate" : 20,
+		"MagicDamageRate" : 20,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_33":{
+		"PhysicalDamageRate" : 20,
+		"MagicDamageRate" : 20,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_34":{
+		"PhysicalDamageRate" : 20,
+		"MagicDamageRate" : 20,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_35":{
+		"PhysicalDamageRate" : 20,
+		"MagicDamageRate" : 20,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_36":{
+		"PhysicalDamageRate" : 20,
+		"MagicDamageRate" : 20,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_37":{
+		"PhysicalDamageRate" : 20,
+		"MagicDamageRate" : 20,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_38":{
+		"PhysicalDamageRate" : 20,
+		"MagicDamageRate" : 20,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_39":{
+		"PhysicalDamageRate" : 20,
+		"MagicDamageRate" : 20,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	},
+	"M_40":{
+		"PhysicalDamageRate" : 20,
+		"MagicDamageRate" : 20,
+		"HpMax" : 80,
+		"ApMax" : 55,
+		"GimmickReload" : 2.0989,
+		"GimmickDefenseRate" : 3,
+		"ExpForMeat" : 60
+	}
+}}}

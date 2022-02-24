@@ -1,0 +1,27 @@
+/* XDASEA_Xm8R_SPsX */ 
+// scloA_stage_gimmick.xlsx.tmp GimmickPosition 
+
+{"JsonStageSetTable":{"gimmickDecoArrangeParam_":{
+	"gligAdeco01_001":{
+		"firstModelName_" : "gligAdeco01",
+		"firstAnimeName_" : "gligadeco01_idle_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : -90,
+		"transX_" : 24257.585,
+		"transY_" : 0,
+		"transZ_" : -2344.33
+	},
+	"gligAdeco01_002":{
+		"firstModelName_" : "gligAdeco01",
+		"firstAnimeName_" : "gligadeco01_idle_loop",
+		"shadowColorR_" : 255,
+		"shadowColorG_" : 255,
+		"shadowColorB_" : 255,
+		"rotY_" : 90,
+		"transX_" : -24257.581,
+		"transY_" : 0,
+		"transZ_" : -2344.33
+	}
+}}}

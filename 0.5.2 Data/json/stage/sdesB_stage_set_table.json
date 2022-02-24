@@ -1,0 +1,344 @@
+/* XDASEA_Xm8R_SPsX */ 
+// sdesB.xlsx.tmp &header 
+
+{"JsonStageSetTable":{"header_":{
+	"hoge":{
+
+	}
+},
+// sdesB.xlsx.tmp &area 
+
+"area_":{
+	"st_area_01_01":{
+		"no" : 1,
+		"type" : 2,
+		"left" : -18096.401977539062,
+		"top" : -5630.147298177082,
+		"right" : -6438.045247395832,
+		"bottom" : 9982.664998372398,
+		"rotation" : 19,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"st_area_02_01":{
+		"no" : 2,
+		"type" : 2,
+		"left" : -8436.519368489582,
+		"top" : 7441.9189453125,
+		"right" : -2571.7163085937463,
+		"bottom" : 11387.36775716146,
+		"rotation" : 19,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"st_area_02_02":{
+		"no" : 2,
+		"type" : 2,
+		"left" : -6752.667236328125,
+		"top" : 1335.9334309895857,
+		"right" : 1448.1002807617224,
+		"bottom" : 8119.220987955734,
+		"rotation" : 19,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"st_area_03_01":{
+		"no" : 3,
+		"type" : 2,
+		"left" : -9617.171223958332,
+		"top" : 11194.124348958335,
+		"right" : -3683.3129882812463,
+		"bottom" : 14529.55754597982,
+		"rotation" : 19,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"st_area_03_03":{
+		"no" : 3,
+		"type" : 2,
+		"left" : -5195.005289713539,
+		"top" : 9395.03173828125,
+		"right" : 3115.2308146158902,
+		"bottom" : 15584.008280436202,
+		"rotation" : 331,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"st_area_04_01":{
+		"no" : 4,
+		"type" : 2,
+		"left" : -10924.798583984375,
+		"top" : -14134.753417968748,
+		"right" : 7898.321533203125,
+		"bottom" : -2709.804280598957,
+		"rotation" : 19,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"st_area_04_02":{
+		"no" : 4,
+		"type" : 2,
+		"left" : 4434.16748046875,
+		"top" : -7446.931966145832,
+		"right" : 12743.840535481773,
+		"bottom" : -768.6828613281214,
+		"rotation" : 356,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"st_area_05_01":{
+		"no" : 5,
+		"type" : 2,
+		"left" : 897.1700032552108,
+		"top" : 5074.898274739586,
+		"right" : 9736.85506184896,
+		"bottom" : 10403.622436523437,
+		"rotation" : 19,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"st_area_05_02":{
+		"no" : 5,
+		"type" : 2,
+		"left" : 1974.6541341145857,
+		"top" : 8187.556966145836,
+		"right" : 8523.186747233077,
+		"bottom" : 12804.25669352214,
+		"rotation" : 61,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"st_area_05_03":{
+		"no" : 5,
+		"type" : 2,
+		"left" : 2626.529947916668,
+		"top" : 4752.91748046875,
+		"right" : 11983.246866861984,
+		"bottom" : 7101.809946695968,
+		"rotation" : 33,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"st_area_06_01":{
+		"no" : 6,
+		"type" : 2,
+		"left" : 7100.8341471354215,
+		"top" : 1303.4810384114607,
+		"right" : 16443.55570475261,
+		"bottom" : 6892.198689778648,
+		"rotation" : 33,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"st_area_06_02":{
+		"no" : 6,
+		"type" : 2,
+		"left" : 5873.64501953125,
+		"top" : -934.1044108072892,
+		"right" : 16655.00590006511,
+		"bottom" : 3461.3784790039062,
+		"rotation" : 356,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoA_001":{
+		"no" : 100,
+		"type" : 2,
+		"left" : -12196.490478515625,
+		"top" : 1331.7199707031286,
+		"right" : -10223.214848836261,
+		"bottom" : 3540.06779988607,
+		"rotation" : 345,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoA_001_fl":{
+		"no" : 100,
+		"type" : 2,
+		"left" : -13148.93595377604,
+		"top" : 771.2727864583358,
+		"right" : -9712.220764160156,
+		"bottom" : 4215.93017578125,
+		"rotation" : 345,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoA_001_wl":{
+		"no" : 100,
+		"type" : 2,
+		"left" : -13642.787679036457,
+		"top" : -590.6880696614571,
+		"right" : -8191.5069580078125,
+		"bottom" : 5349.879964192711,
+		"rotation" : 345,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoA_001_gt":{
+		"no" : 100,
+		"type" : 2,
+		"left" : -10200.504557291664,
+		"top" : 1626.7313639322928,
+		"right" : -9052.68834431966,
+		"bottom" : 2382.9098383585624,
+		"rotation" : 345,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoB_001":{
+		"no" : 100,
+		"type" : 2,
+		"left" : 11910.48583984375,
+		"top" : 2012.6403808593786,
+		"right" : 13919.449106852218,
+		"bottom" : 4214.541880289718,
+		"rotation" : 9,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoB_001_fl":{
+		"no" : 100,
+		"type" : 2,
+		"left" : 11402.327473958335,
+		"top" : 1392.7693684895857,
+		"right" : 14855.247497558593,
+		"bottom" : 4863.787841796875,
+		"rotation" : 9,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoB_001_wl":{
+		"no" : 100,
+		"type" : 2,
+		"left" : 9945.833333333335,
+		"top" : 28.92049153646076,
+		"right" : 15321.153767903648,
+		"bottom" : 5979.58984375,
+		"rotation" : 9,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoB_001_gt":{
+		"no" : 100,
+		"type" : 2,
+		"left" : 10720.853678385421,
+		"top" : 2440.629069010418,
+		"right" : 11832.845815022788,
+		"bottom" : 3232.122484842941,
+		"rotation" : 9,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gfmo_003":{
+		"no" : 100,
+		"type" : 1,
+		"left" : -190.48665364583212,
+		"top" : -5570.058186848957,
+		"right" : 754.3952306111678,
+		"bottom" : -4625.176302591957,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gfmo_002":{
+		"no" : 100,
+		"type" : 1,
+		"left" : -4805.391438802082,
+		"top" : 4992.183430989586,
+		"right" : -3860.509554545082,
+		"bottom" : 5937.065315246582,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gfmo_001":{
+		"no" : 100,
+		"type" : 1,
+		"left" : 5165.572102864586,
+		"top" : 7921.638997395836,
+		"right" : 6110.453987121582,
+		"bottom" : 8866.520881652832,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoA_001_siege":{
+		"no" : 1001,
+		"type" : 1,
+		"left" : -16516.669718424476,
+		"top" : -6166.668701171875,
+		"right" : -737.4999999999964,
+		"bottom" : 9612.501017252609,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoB_001_siege":{
+		"no" : 1000,
+		"type" : 1,
+		"left" : 2514.029947916668,
+		"top" : -5222.08251953125,
+		"right" : 18293.19966634115,
+		"bottom" : 10557.087198893234,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	}
+},
+// sdesB.xlsx.tmp &footer 
+
+"footer_":{
+	"hoge":{
+
+	}
+}}}

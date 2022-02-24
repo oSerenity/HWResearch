@@ -1,0 +1,777 @@
+/* XDASEA_Xm8R_SPsX */ 
+// scloA_stage_effect.xlsx.tmp 配置 
+
+{"JsonStageSetTable":{"effectArrangeParam_":{
+	"kafun002":{
+		"groupID_" : 0,
+		"effectTag_" : "st49",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -18084,
+		"effectTransY_" : 195,
+		"effectTransZ_" : -562
+	},
+	"kafun004":{
+		"groupID_" : 0,
+		"effectTag_" : "st49",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 18073,
+		"effectTransY_" : 195,
+		"effectTransZ_" : -545
+	},
+	"kafun005":{
+		"groupID_" : 0,
+		"effectTag_" : "st49",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 6877,
+		"effectTransY_" : -5261,
+		"effectTransZ_" : 2203
+	},
+	"kafun006":{
+		"groupID_" : 0,
+		"effectTag_" : "st49",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 6359,
+		"effectTransY_" : -5318,
+		"effectTransZ_" : 2683
+	},
+	"kafun007":{
+		"groupID_" : 0,
+		"effectTag_" : "st49",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -5232,
+		"effectTransY_" : -5288,
+		"effectTransZ_" : -1328
+	},
+	"kafun008":{
+		"groupID_" : 0,
+		"effectTag_" : "st49",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -5767,
+		"effectTransY_" : -5281,
+		"effectTransZ_" : 154
+	},
+	"kafun009":{
+		"groupID_" : 0,
+		"effectTag_" : "st49",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -6479,
+		"effectTransY_" : -5352,
+		"effectTransZ_" : 2360
+	},
+	"kafun010":{
+		"groupID_" : 0,
+		"effectTag_" : "st49",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -2046,
+		"effectTransY_" : -5296,
+		"effectTransZ_" : 1407
+	},
+	"kafun011":{
+		"groupID_" : 0,
+		"effectTag_" : "st49",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -1911,
+		"effectTransY_" : -5321,
+		"effectTransZ_" : 2071
+	},
+	"kafun012":{
+		"groupID_" : 0,
+		"effectTag_" : "st49",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 1034,
+		"effectTransY_" : -5336,
+		"effectTransZ_" : 1509
+	},
+	"kafun013":{
+		"groupID_" : 0,
+		"effectTag_" : "st49",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 1641,
+		"effectTransY_" : -5280,
+		"effectTransZ_" : 1215
+	},
+	"Sweat001":{
+		"groupID_" : 0,
+		"effectTag_" : "st51",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -10776,
+		"effectTransY_" : -3444,
+		"effectTransZ_" : -5733
+	},
+	"Sweat002":{
+		"groupID_" : 0,
+		"effectTag_" : "st51",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 10793,
+		"effectTransY_" : -3444,
+		"effectTransZ_" : -5669
+	},
+	"Sweat003":{
+		"groupID_" : 0,
+		"effectTag_" : "st51",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : -19,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -6711,
+		"effectTransY_" : -4799,
+		"effectTransZ_" : 13502
+	},
+	"Sweat004":{
+		"groupID_" : 0,
+		"effectTag_" : "st51",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 24,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 6724,
+		"effectTransY_" : -4799,
+		"effectTransZ_" : 13467
+	},
+	"Sweat005":{
+		"groupID_" : 0,
+		"effectTag_" : "st51",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : -18,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -11986,
+		"effectTransY_" : 1461,
+		"effectTransZ_" : 210
+	},
+	"Sweat006":{
+		"groupID_" : 0,
+		"effectTag_" : "st51",
+		"effectScale_" : 2,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 16,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 11789,
+		"effectTransY_" : 1465,
+		"effectTransZ_" : 837
+	},
+	"ChimA001":{
+		"groupID_" : 0,
+		"effectTag_" : "st48",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 21515,
+		"effectTransY_" : 1370,
+		"effectTransZ_" : -4732
+	},
+	"ChimB001":{
+		"groupID_" : 0,
+		"effectTag_" : "st48",
+		"effectScale_" : 1,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -21515,
+		"effectTransY_" : 1370,
+		"effectTransZ_" : 44
+	},
+	"lamp01":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.7,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 22901.378,
+		"effectTransY_" : 360.712,
+		"effectTransZ_" : -3193.948
+	},
+	"lamp02":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.7,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 22901.138,
+		"effectTransY_" : 360.712,
+		"effectTransZ_" : -1410.699
+	},
+	"lamp03":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.7,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 23528.854,
+		"effectTransY_" : 360.712,
+		"effectTransZ_" : -960.506
+	},
+	"lamp04":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.7,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 25073.727,
+		"effectTransY_" : 360.712,
+		"effectTransZ_" : -956.749
+	},
+	"lamp05":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.7,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 23528.371,
+		"effectTransY_" : 360.712,
+		"effectTransZ_" : -3725.202
+	},
+	"lamp06":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.7,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 25077.547,
+		"effectTransY_" : 360.712,
+		"effectTransZ_" : -3725.202
+	},
+	"lamp07":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.7,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 25636.038,
+		"effectTransY_" : 360.712,
+		"effectTransZ_" : -3149.309
+	},
+	"lamp08":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.7,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 0,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : 25639.205,
+		"effectTransY_" : 360.712,
+		"effectTransZ_" : -1579.282
+	},
+	"lamp09":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.7,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 90,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -22898.847,
+		"effectTransY_" : 360.712,
+		"effectTransZ_" : -1495.766
+	},
+	"lamp10":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.7,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 90,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -23523.022,
+		"effectTransY_" : 360.712,
+		"effectTransZ_" : -955.75
+	},
+	"lamp11":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.7,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 90,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -25075.794,
+		"effectTransY_" : 360.712,
+		"effectTransZ_" : -955.75
+	},
+	"lamp12":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.7,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 90,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -25639.581,
+		"effectTransY_" : 360.712,
+		"effectTransZ_" : -1540.669
+	},
+	"lamp13":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.7,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 90,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -25639.581,
+		"effectTransY_" : 360.712,
+		"effectTransZ_" : -3108.784
+	},
+	"lamp14":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.7,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 90,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -25075.789,
+		"effectTransY_" : 360.712,
+		"effectTransZ_" : -3730.304
+	},
+	"lamp15":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.7,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 90,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -23523.026,
+		"effectTransY_" : 360.712,
+		"effectTransZ_" : -3730.304
+	},
+	"lamp16":{
+		"groupID_" : 0,
+		"effectTag_" : "st29",
+		"effectScale_" : 0.7,
+		"effectRotateX_" : 0,
+		"effectRotateY_" : 90,
+		"effectRotateZ_" : 0,
+		"effectTransX_" : -22898.875,
+		"effectTransY_" : 360.712,
+		"effectTransZ_" : -3278.631
+	}
+},
+// scloA_stage_effect.xlsx.tmp グループ 
+
+"effectGroupParam_":{
+
+},
+// scloA_stage_effect.xlsx.tmp SE 
+
+"effectPlaySeParam_":{
+	"taki001":{
+		"seName_" : "SE130000",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -116,
+		"playPosY_" : -5750,
+		"playPosZ_" : -283
+	},
+	"taki002":{
+		"seName_" : "SE130000",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 5750,
+		"playPosY_" : -5750,
+		"playPosZ_" : 6019
+	},
+	"taki003":{
+		"seName_" : "SE130000",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 3342,
+		"playPosY_" : -5750,
+		"playPosZ_" : 866
+	},
+	"taki004":{
+		"seName_" : "SE130000",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -3277,
+		"playPosY_" : -5750,
+		"playPosZ_" : 850
+	},
+	"taki005":{
+		"seName_" : "SE130000",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 140,
+		"playPosY_" : -5750,
+		"playPosZ_" : 8807
+	},
+	"tori001":{
+		"seName_" : "SE130050",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -24500,
+		"playPosY_" : 1000,
+		"playPosZ_" : -6683
+	},
+	"tori002":{
+		"seName_" : "SE130050",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 630,
+		"playPosY_" : -4200,
+		"playPosZ_" : -6300
+	},
+	"tori003":{
+		"seName_" : "SE130050",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 3650,
+		"playPosY_" : -4144,
+		"playPosZ_" : -14856
+	},
+	"tori004":{
+		"seName_" : "SE130050",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 24050,
+		"playPosY_" : 831,
+		"playPosZ_" : -6300
+	},
+	"kaze001":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -21900,
+		"playPosY_" : 5090,
+		"playPosZ_" : -12260
+	},
+	"kaze002":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 21800,
+		"playPosY_" : 5090,
+		"playPosZ_" : -7400
+	},
+	"kaze003":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -24910,
+		"playPosY_" : 4000,
+		"playPosZ_" : -13237
+	},
+	"kaze004":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -18127,
+		"playPosY_" : 4231,
+		"playPosZ_" : -12851
+	},
+	"kaze005":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -14622,
+		"playPosY_" : 4264,
+		"playPosZ_" : -4584
+	},
+	"kaze006":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -19883,
+		"playPosY_" : 4000,
+		"playPosZ_" : -6561
+	},
+	"kaze007":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -5605,
+		"playPosY_" : -1526,
+		"playPosZ_" : -13004
+	},
+	"kaze008":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -5615,
+		"playPosY_" : -1570,
+		"playPosZ_" : -7796
+	},
+	"kaze009":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -5778,
+		"playPosY_" : -1165,
+		"playPosZ_" : -2985
+	},
+	"kaze010":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -3534,
+		"playPosY_" : -1511,
+		"playPosZ_" : 2051
+	},
+	"kaze011":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -3,
+		"playPosY_" : -2094,
+		"playPosZ_" : 6926
+	},
+	"kaze012":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 3890,
+		"playPosY_" : -1531,
+		"playPosZ_" : 1798
+	},
+	"kaze013":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 6173,
+		"playPosY_" : -1527,
+		"playPosZ_" : -4369
+	},
+	"kaze014":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 73,
+		"playPosY_" : -812,
+		"playPosZ_" : -11982
+	},
+	"kaze015":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -3943,
+		"playPosY_" : -608,
+		"playPosZ_" : -14961
+	},
+	"kaze016":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -4000,
+		"playPosY_" : -818,
+		"playPosZ_" : -17853
+	},
+	"kaze017":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 1876,
+		"playPosY_" : -603,
+		"playPosZ_" : -19743
+	},
+	"kaze018":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 4554,
+		"playPosY_" : -627,
+		"playPosZ_" : -13389
+	},
+	"kaze019":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 15244,
+		"playPosY_" : 4227,
+		"playPosZ_" : -4448
+	},
+	"kaze020":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 18400,
+		"playPosY_" : 4226,
+		"playPosZ_" : -12686
+	},
+	"kaze021":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 25213,
+		"playPosY_" : 4293,
+		"playPosZ_" : -13665
+	},
+	"kaze022":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 21854,
+		"playPosY_" : 3992,
+		"playPosZ_" : -5655
+	},
+	"kaze023":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -4500,
+		"playPosY_" : 0,
+		"playPosZ_" : -10000
+	},
+	"kaze024":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 15500,
+		"playPosY_" : 4000,
+		"playPosZ_" : -5300
+	},
+	"kaze025":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -7500,
+		"playPosY_" : 6000,
+		"playPosZ_" : 2800
+	},
+	"kaze026":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 13500,
+		"playPosY_" : 7000,
+		"playPosZ_" : 5000
+	},
+	"kaze027":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 7200,
+		"playPosY_" : 6000,
+		"playPosZ_" : 3000
+	},
+	"kaze028":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -13300,
+		"playPosY_" : 7000,
+		"playPosZ_" : 4500
+	},
+	"kaze029":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : 12000,
+		"playPosY_" : 2000,
+		"playPosZ_" : -10000
+	},
+	"kaze030":{
+		"seName_" : "SE130100",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 150000,
+		"playPosX_" : -16700,
+		"playPosY_" : 4000,
+		"playPosZ_" : -5200
+	},
+	"pool":{
+		"seName_" : "SE130800",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 10000,
+		"playPosX_" : 60,
+		"playPosY_" : -5700,
+		"playPosZ_" : -5240
+	},
+	"flagV":{
+		"seName_" : "SE131650",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 1000,
+		"playPosX_" : -22000,
+		"playPosY_" : 1800,
+		"playPosZ_" : -4800
+	},
+	"flagR":{
+		"seName_" : "SE131650",
+		"playPriority_" : 0,
+		"playVolume_" : 1,
+		"playRange_" : 1000,
+		"playPosX_" : 22000,
+		"playPosY_" : 1800,
+		"playPosZ_" : 150
+	}
+}}}

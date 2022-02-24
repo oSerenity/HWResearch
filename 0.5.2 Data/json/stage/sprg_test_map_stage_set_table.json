@@ -1,0 +1,175 @@
+/* XDASEA_Xm8R_SPsX */ 
+// sprg_test_map.xlsx.tmp &header 
+
+{"JsonStageSetTable":{"header_":{
+	"hoge":{
+
+	}
+},
+// sprg_test_map.xlsx.tmp &area 
+
+"area_":{
+	"st_area_01":{
+		"no" : 1,
+		"type" : 2,
+		"left" : -14883.33158493042,
+		"top" : -9133.333333333334,
+		"right" : -4066.666952768963,
+		"bottom" : 8766.66531032986,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"st_area_02":{
+		"no" : 2,
+		"type" : 2,
+		"left" : -4166.664632161459,
+		"top" : -9133.333333333334,
+		"right" : 4333.335367838539,
+		"bottom" : 8766.66531032986,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"st_area_03":{
+		"no" : 3,
+		"type" : 2,
+		"left" : 4300.001356336805,
+		"top" : -9150,
+		"right" : 14799.999321831597,
+		"bottom" : 8749.998643663195,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoB_001":{
+		"no" : 100,
+		"type" : 2,
+		"left" : -8733.333333333334,
+		"top" : -1216.6666666666678,
+		"right" : -6716.666666666666,
+		"bottom" : 1216.666666666666,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoA_001":{
+		"no" : 100,
+		"type" : 2,
+		"left" : 6966.666666666664,
+		"top" : -1216.664632161459,
+		"right" : 8983.333333333332,
+		"bottom" : 1216.668701171875,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoB_001_fl":{
+		"no" : 100,
+		"type" : 2,
+		"left" : -9705.557250976562,
+		"top" : -1738.8909233940976,
+		"right" : -6066.666666666668,
+		"bottom" : 1766.6663275824648,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoA_001_fl":{
+		"no" : 100,
+		"type" : 2,
+		"left" : 6261.109754774305,
+		"top" : -1755.5575900607637,
+		"right" : 9900.0003390842,
+		"bottom" : 1749.9996609157988,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoB_001_wl":{
+		"no" : 100,
+		"type" : 2,
+		"left" : -10138.890584309896,
+		"top" : -2866.666666666667,
+		"right" : -4866.666666666668,
+		"bottom" : 2883.333333333332,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoA_001_wl":{
+		"no" : 100,
+		"type" : 2,
+		"left" : 5100,
+		"top" : -2866.664632161459,
+		"right" : 10350,
+		"bottom" : 2816.6670057508672,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoB_001_gt":{
+		"no" : 100,
+		"type" : 2,
+		"left" : -6550,
+		"top" : -383.331298828125,
+		"right" : -5400,
+		"bottom" : 350.0020345052071,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gcmoA_001_gt":{
+		"no" : 100,
+		"type" : 2,
+		"left" : 5683.333333333332,
+		"top" : -333.331298828125,
+		"right" : 6833.333333333332,
+		"bottom" : 400.0020345052071,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	},
+	"gfmo_001":{
+		"no" : 100,
+		"type" : 1,
+		"left" : -722.2235785590292,
+		"top" : -738.8909233940976,
+		"right" : 716.6670057508672,
+		"bottom" : 733.3329942491309,
+		"rotation" : 0,
+		"attach" : 0,
+		"option" : 0,
+		"offsety" : 0,
+		"height" : 0
+	}
+},
+// sprg_test_map.xlsx.tmp &footer 
+
+"footer_":{
+	"hoge":{
+
+	}
+}}}

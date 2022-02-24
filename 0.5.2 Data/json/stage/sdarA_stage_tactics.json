@@ -1,0 +1,97 @@
+/* XDASEA_Xm8R_SPsX */ 
+// gemini_stage_tactics.xlsx.tmp sdarA 
+
+{"JsonStageSetTable":{"invadeSetting_":{
+	"sdarA_gcmoB_001_b":{
+		"tagName" : "gcmoB_001",
+		"targetColor" : "BLACK",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 6,
+		"judgeAreaNo02" : 7,
+		"judgeAreaNo03" : 9,
+		"judgeAreaNo04" : 10
+	},
+	"sdarA_gcmoA_001_b":{
+		"tagName" : "gcmoA_001",
+		"targetColor" : "BLACK",
+		"enableBotArea" : false
+	},
+	"sdarA_gfmo_002_b":{
+		"tagName" : "gfmo_002",
+		"targetColor" : "BLACK",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 7,
+		"judgeAreaNo02" : 9,
+		"judgeAreaNo03" : 10
+	},
+	"sdarA_gfmo_001_b":{
+		"tagName" : "gfmo_001",
+		"targetColor" : "BLACK",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 9,
+		"judgeAreaNo02" : 10
+	},
+	"sdarA_gfmo_005_b":{
+		"tagName" : "gfmo_005",
+		"targetColor" : "BLACK",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 10
+	},
+	"sdarA_gfmo_003_b":{
+		"tagName" : "gfmo_003",
+		"targetColor" : "BLACK",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 10
+	},
+	"sdarA_gfmo_004_b":{
+		"tagName" : "gfmo_004",
+		"targetColor" : "BLACK",
+		"enableBotArea" : false
+	},
+	"sdarA_gcmoB_001_w":{
+		"tagName" : "gcmoB_001",
+		"targetColor" : "WHITE",
+		"enableBotArea" : false
+	},
+	"sdarA_gcmoA_001_w":{
+		"tagName" : "gcmoA_001",
+		"targetColor" : "WHITE",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 6,
+		"judgeAreaNo02" : 4,
+		"judgeAreaNo03" : 2,
+		"judgeAreaNo04" : 1
+	},
+	"sdarA_gfmo_004_w":{
+		"tagName" : "gfmo_004",
+		"targetColor" : "WHITE",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 4,
+		"judgeAreaNo02" : 2,
+		"judgeAreaNo03" : 1
+	},
+	"sdarA_gfmo_003_w":{
+		"tagName" : "gfmo_003",
+		"targetColor" : "WHITE",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 2,
+		"judgeAreaNo02" : 1
+	},
+	"sdarA_gfmo_005_w":{
+		"tagName" : "gfmo_005",
+		"targetColor" : "WHITE",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 1
+	},
+	"sdarA_gfmo_001_w":{
+		"tagName" : "gfmo_001",
+		"targetColor" : "WHITE",
+		"enableBotArea" : false,
+		"judgeAreaNo01" : 1
+	},
+	"sdarA_gfmo_002_w":{
+		"tagName" : "gfmo_002",
+		"targetColor" : "WHITE",
+		"enableBotArea" : false
+	}
+}}}
