@@ -1,10 +1,18 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////
 //
-//	ƒtƒ@ƒCƒ‹–¼Fcam_on_0102\mission00.nut 
-//	ŠT—v	FƒIƒtƒ‰ƒCƒ“ƒLƒƒƒ“ƒy[ƒ“ ƒŒƒxƒ‹1 ƒLƒƒƒ“ƒy[ƒ“2 ƒ~ƒbƒVƒ‡ƒ“1 
-//	ì¬	F—‡ 
-//	ì¬“ú	F110606 
-//	–Ú“I	Fm“¢”°nw’è‚Ì“G‚ğ“|‚¹ 
+//	ãƒ•ã‚¡ã‚¤ãƒ«åï¼šcam_on_0102\mission00.nut 
+//	æ¦‚è¦	ï¼šã‚ªãƒ•ãƒ©ã‚¤ãƒ³ã‚­ãƒ£ãƒ³ãƒšãƒ¼ãƒ³ ãƒ¬ãƒ™ãƒ«1 ã‚­ãƒ£ãƒ³ãƒšãƒ¼ãƒ³2 ãƒŸãƒƒã‚·ãƒ§ãƒ³1 
+//	ä½œæˆ	ï¼šè½åˆ 
+//	ä½œæˆæ—¥	ï¼š110606 
+//	ç›®çš„	ï¼šï¼»è¨ä¼ï¼½æŒ‡å®šã®æ•µã‚’å€’ã› 
+//
+///////////////////////////////////////////////////////////////////////////////////////////////
+//
+// File name: cam_on_0102 \ mission00.nut
+// Summary: Offline Campaign Level 1 Campaign 2 Mission 1
+// Created: Ochiai
+// Creation date: 110606
+// Purpose: [Subjugation] Defeat the specified enemy
 //
 ///////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -12,33 +20,37 @@
 function loadMission() 
 {
 	print("[sample mission] load()\n");
-//ƒ~ƒbƒVƒ‡ƒ“‚ÌƒXƒe[ƒW‚ğ“Ç‚İ‚Ş‘O‚Ìˆ—‚ğİ’è‚µ‚æ‚¤I 
+        //ãƒŸãƒƒã‚·ãƒ§ãƒ³ã®ã‚¹ãƒ†ãƒ¼ã‚¸ã‚’èª­ã¿è¾¼ã‚€å‰ã®å‡¦ç†ã‚’è¨­å®šã—ã‚ˆã†ï¼ 
+	// Let's set the process before loading the mission stage!
 	scr_SetDisableGimmickType( GIMMICK_RAFT );
-	//ŠJí‘OƒoƒŠƒP[ƒh••‚¶ 
+	//é–‹æˆ¦å‰ãƒãƒªã‚±ãƒ¼ãƒ‰å°ã˜ 
+	// Barricade seal before the start of war
 	scr_SetDisableGimmickType( GIMMICK_KEEP_OUT );
 
 }
 function startMission() 
 {
 	print("[sample mission] start()\n");
-	//•œŠˆŠÔİ’è 
+	//å¾©æ´»æ™‚é–“è¨­å®š 
+	// Resurrection time setting
 	scr_SetRebirthTime( SCR_REBIRTH_TARGET_PLAYER, SCR_REBIRTH_TYPE_NORMAL, 0 );
 	scr_SetRebirthTime( SCR_REBIRTH_TARGET_PLAYER, SCR_REBIRTH_TYPE_PENALTY, 0 );
 
 
 
-//Bot“o˜^ 
+//Botç™»éŒ² 
+	// Bot registration
 	scr_BotPlayerRegistAndCreate( 101, "NOOB01", POWER_COLOR_WHITE );
 	scr_BotPlayerRegistAndCreate( 102, "MEDIC01", POWER_COLOR_WHITE );
 	scr_BotPlayerRegistAndCreate( 103, "MAGE01", POWER_COLOR_WHITE );
 //	scr_BotPlayerRegistAndCreate( 104, "NOOB02", POWER_COLOR_WHITE );
 
-	scr_BotPlayerRegistAndCreate( 201, "IQ1", POWER_COLOR_BLACK );	//4”Ôƒ‚ƒjƒ…ƒƒ“ƒg 
-	scr_BotPlayerRegistAndCreate( 202, "IQ2", POWER_COLOR_BLACK );	//4”Ôƒ‚ƒjƒ…ƒƒ“ƒg 
-	scr_BotPlayerRegistAndCreate( 203, "IQ2", POWER_COLOR_BLACK );	//5”Ôƒ‚ƒjƒ…ƒƒ“ƒg 
-	scr_BotPlayerRegistAndCreate( 204, "IQ3", POWER_COLOR_BLACK );	//5”Ôƒ‚ƒjƒ…ƒƒ“ƒg 
-	scr_BotPlayerRegistAndCreate( 205, "IQ3", POWER_COLOR_BLACK );	//6”Ôƒ‚ƒjƒ…ƒƒ“ƒg 
-	scr_BotPlayerRegistAndCreate( 206, "IQ1", POWER_COLOR_BLACK );	//6”Ôƒ‚ƒjƒ…ƒƒ“ƒg 
+	scr_BotPlayerRegistAndCreate( 201, "IQ1", POWER_COLOR_BLACK );	//4ç•ªãƒ¢ãƒ‹ãƒ¥ãƒ¡ãƒ³ãƒˆ 
+	scr_BotPlayerRegistAndCreate( 202, "IQ2", POWER_COLOR_BLACK );	//4ç•ªãƒ¢ãƒ‹ãƒ¥ãƒ¡ãƒ³ãƒˆ 
+	scr_BotPlayerRegistAndCreate( 203, "IQ2", POWER_COLOR_BLACK );	//5ç•ªãƒ¢ãƒ‹ãƒ¥ãƒ¡ãƒ³ãƒˆ 
+	scr_BotPlayerRegistAndCreate( 204, "IQ3", POWER_COLOR_BLACK );	//5ç•ªãƒ¢ãƒ‹ãƒ¥ãƒ¡ãƒ³ãƒˆ 
+	scr_BotPlayerRegistAndCreate( 205, "IQ3", POWER_COLOR_BLACK );	//6ç•ªãƒ¢ãƒ‹ãƒ¥ãƒ¡ãƒ³ãƒˆ 
+	scr_BotPlayerRegistAndCreate( 206, "IQ1", POWER_COLOR_BLACK );	//6ç•ªãƒ¢ãƒ‹ãƒ¥ãƒ¡ãƒ³ãƒˆ 
 	scr_BotPlayerRegistAndCreate( 207, "IQ7", POWER_COLOR_BLACK );	//1_IQ7 
 	scr_BotPlayerRegistAndCreate( 208, "IQ7", POWER_COLOR_BLACK );	//1_IQ7 
 	scr_BotPlayerRegistAndCreate( 209, "IQ6", POWER_COLOR_BLACK );	//2_IQ6 
@@ -59,43 +71,47 @@ function startMission()
 	scr_BotPlayerRegistAndCreate( 224, "IQ4D", POWER_COLOR_BLACK );	//7_IQ4D 
 	scr_BotPlayerRegistAndCreate( 225, "IQ9_BOSS", POWER_COLOR_BLACK );	//boss 
 
-//ƒR[ƒ‹ƒoƒbƒN‚Ìİ’è‚ğ‚µ‚Ä‚¨‚­‚æI 
-	scr_SetMessageCallback( "miscb_PlayerSally_First", 1, CB_TYPE_ONCE, MESSAGE_PLAYER_SALLY );		//‰‰ñoŒ‚‚µ‚½‚ÌƒR[ƒ‹ƒoƒbƒN 
-	scr_SetMessageCallback( "miscb_TimeOver", 2, CB_TYPE_ONCE,  MESSAGE_GAME_TIME_OVER );		//ƒ^ƒCƒ€ƒI[ƒo[ 
-	scr_AddDeathEnemyCallback( "miscb_BotDead225", 225 );	//•W“I”­Œ©‘OŒ‚”j 
-	scr_SetTimerCallback( "miscb_BossDamage", 3, CB_TYPE_ONCE, 10.0 );	//ƒ{ƒX‚Ìƒ_ƒ[ƒWŠÄ‹ 
+        //ã‚³ãƒ¼ãƒ«ãƒãƒƒã‚¯ã®è¨­å®šã‚’ã—ã¦ãŠãã‚ˆï¼ 
+	// Set the callback!
+	scr_SetMessageCallback( "miscb_PlayerSally_First", 1, CB_TYPE_ONCE, MESSAGE_PLAYER_SALLY );	//åˆå›å‡ºæ’ƒã—ãŸæ™‚ã®ã‚³ãƒ¼ãƒ«ãƒãƒƒã‚¯ // Callback for the first sortie
+	scr_SetMessageCallback( "miscb_TimeOver", 2, CB_TYPE_ONCE,  MESSAGE_GAME_TIME_OVER );		//ã‚¿ã‚¤ãƒ ã‚ªãƒ¼ãƒãƒ¼æ™‚ // When the time is over
+	scr_AddDeathEnemyCallback( "miscb_BotDead225", 225 );	//æ¨™çš„ç™ºè¦‹å‰æ’ƒç ´ // Defeat before target discovery
+	scr_SetTimerCallback( "miscb_BossDamage", 3, CB_TYPE_ONCE, 10.0 );	//ãƒœã‚¹ã®ãƒ€ãƒ¡ãƒ¼ã‚¸ç›£è¦– // Boss damage monitoring
 //	scr_SetTimerCallback( "miscb_BossSelfDeath", 4, CB_TYPE_ONCE, 8.3 );	
-	scr_AddStandbyEnemyCallback( "miscb_RespawnBoss", 225, STANDBY_COUNT_START_TIMING );	//ƒ{ƒX‚Ì©EŠÄ‹ 
+	scr_AddStandbyEnemyCallback( "miscb_RespawnBoss", 225, STANDBY_COUNT_START_TIMING );	//ãƒœã‚¹ã®è‡ªæ®ºç›£è¦– // Boss suicide monitoring
 
 
 
-//ƒgƒ‰ƒbƒv“o˜^ 
-	scr_RegistTrapBox( 1001,   10699.2 ,0.0 ,12135.0 ,2255.1 ,1500.0 ,1990.8 ,-25.0  );	//é 
-	scr_RegistTrapBox( 1002,   -6084.3 ,0.0 ,8836.1 ,462.6 ,1000.0 ,4236.5 ,-25.0  );	//è‘Oƒ[ƒv 
-	scr_RegistTrapBox( 1003,   7756.5 ,0.0 ,1295.8 ,486.8 ,1000.0 ,4709.5 ,-10.4  );	//‰œƒ[ƒv 
+        //ãƒˆãƒ©ãƒƒãƒ—ç™»éŒ² 
+	// Trap registration
+	scr_RegistTrapBox( 1001,   10699.2 ,0.0 ,12135.0 ,2255.1 ,1500.0 ,1990.8 ,-25.0  );	//åŸ 
+	scr_RegistTrapBox( 1002,   -6084.3 ,0.0 ,8836.1 ,462.6 ,1000.0 ,4236.5 ,-25.0  );	//æ‰‹å‰ãƒ¯ãƒ¼ãƒ— 
+	scr_RegistTrapBox( 1003,   7756.5 ,0.0 ,1295.8 ,486.8 ,1000.0 ,4709.5 ,-10.4  );	//å¥¥ãƒ¯ãƒ¼ãƒ— 
 
-	scr_RegistTrapSphere( 1005, -11654.087891, 294.309204, 1797.633179, 2600.0 );	//ƒ‚ƒjƒ…ƒƒ“ƒg05”Ô 
-	scr_RegistTrapSphere( 1006, -6923.963379, 770.740051, -3653.058105, 2600.0 );	//ƒ‚ƒjƒ…ƒƒ“ƒg04”Ô 
-	scr_RegistTrapSphere( 1906, -850.916687, 278.537170, -2393.886719,  2600.0 );	//ƒ‚ƒjƒ…ƒƒ“ƒg03”Ô 
+	scr_RegistTrapSphere( 1005, -11654.087891, 294.309204, 1797.633179, 2600.0 );	//ãƒ¢ãƒ‹ãƒ¥ãƒ¡ãƒ³ãƒˆ05ç•ª 
+	scr_RegistTrapSphere( 1006, -6923.963379, 770.740051, -3653.058105, 2600.0 );	//ãƒ¢ãƒ‹ãƒ¥ãƒ¡ãƒ³ãƒˆ04ç•ª 
+	scr_RegistTrapSphere( 1906, -850.916687, 278.537170, -2393.886719,  2600.0 );	//ãƒ¢ãƒ‹ãƒ¥ãƒ¡ãƒ³ãƒˆ03ç•ª 
 
-	scr_RegistTrapSphere( 1007, 1665.90, 100.0, 2447.8, 2400.0 );	//ƒ{ƒXˆÊ’u 
+	scr_RegistTrapSphere( 1007, 1665.90, 100.0, 2447.8, 2400.0 );	//ãƒœã‚¹ä½ç½® 
 
-//ƒgƒ‰ƒbƒvƒR[ƒ‹ƒoƒbƒN 
+        //ãƒˆãƒ©ãƒƒãƒ—ã‚³ãƒ¼ãƒ«ãƒãƒƒã‚¯ 
+	// Trap callback
 	scr_SetTrapInCallback( "miscb_TrapIn1002", 10002, CB_TYPE_ALWAYS, 1002 );
 	scr_SetTrapInCallback( "miscb_TrapIn1003", 10003, CB_TYPE_ALWAYS, 1003 );
 
 
 
-	//ƒIƒtƒ‰ƒCƒ“ƒLƒƒƒ“ƒy[ƒ“‚g‚t‚cİ’è 
-	scr_SetDisableTacticalInfomation();	//ƒoƒi[ƒeƒLƒXƒg‚ğ”ñ•\¦ 
-	scr_SetEnablePlayerHeroPopup( false );	//ƒq[ƒ[ƒ|ƒbƒvƒAƒbƒv‚Ì”ñ•\¦ 
-	scr_SetEnableInputPlayerVoiceReaction( false );	//ƒŠƒAƒNƒVƒ‡ƒ“ƒ{ƒCƒXƒ}ƒNƒ‚Ì”ñ•\¦ 
+	//ã‚ªãƒ•ãƒ©ã‚¤ãƒ³ã‚­ãƒ£ãƒ³ãƒšãƒ¼ãƒ³ï¼¨ï¼µï¼¤è¨­å®š 
+	// Offline campaign HUD setting
+	scr_SetDisableTacticalInfomation();	//ãƒãƒŠãƒ¼ãƒ†ã‚­ã‚¹ãƒˆã‚’éè¡¨ç¤º // Hide banner text
+	scr_SetEnablePlayerHeroPopup( false );	//ãƒ’ãƒ¼ãƒ­ãƒ¼ãƒãƒƒãƒ—ã‚¢ãƒƒãƒ—ã®éè¡¨ç¤º 
+	scr_SetEnableInputPlayerVoiceReaction( false );	//ãƒªã‚¢ã‚¯ã‚·ãƒ§ãƒ³ãƒœã‚¤ã‚¹ãƒã‚¯ãƒ­ã®éè¡¨ç¤º 
 	scr_BotPlayerDisableLearningSkillByLevelUp();
 	scr_SetEnableGameWinDemo( false );
 
 
 
-//oŒ‚‘OƒƒbƒZ[ƒW 
+//å‡ºæ’ƒå‰ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ 
 	scr_WaitStart( 0.4 );	
 	while( scr_Waiting() )	
 	{
@@ -111,16 +127,16 @@ function startMission()
 	}
 	scr_PauseOff();
 
-	scr_OpenMissionConditionText(  0, "TXHFC02101" );	//’B¬ğŒ‚ğ•\¦(Ô‚¢ƒƒ{ƒbƒg‚ğ”j‰ó‚µ‚ë) 
+	scr_OpenMissionConditionText(  0, "TXHFC02101" );	//é”æˆæ¡ä»¶ã‚’è¡¨ç¤º(èµ¤ã„ãƒ­ãƒœãƒƒãƒˆã‚’ç ´å£Šã—ã‚) 
 
 
-	// ƒvƒŒƒCƒ„[¶¬‚ğ‘Ò‚¿‚Ü‚·
+	// ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ç”Ÿæˆã‚’å¾…ã¡ã¾ã™
 	mis_WaitPlayerCreate();
-	scr_PlayerSetForceRespawnPosition( 10216.331055, 500.000000, 11851.6, -115.0 );	//ƒvƒŒƒCƒ„[‚ÌoŒ»ˆÊ’u‚ğŒÅ’è 
+	scr_PlayerSetForceRespawnPosition( 10216.331055, 500.000000, 11851.6, -115.0 );	//ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã®å‡ºç¾ä½ç½®ã‚’å›ºå®š 
 
 
 
-// ƒQ[ƒ€ŠJn‚ğ‘Ò‚¿‚Ü‚· 
+// ã‚²ãƒ¼ãƒ é–‹å§‹ã‚’å¾…ã¡ã¾ã™ 
 	mis_WaitGameStart();
 
 }
@@ -131,21 +147,21 @@ function mis_WaitPlayerCreate()
 		suspend();
 	}
 }
-//ƒQ[ƒ€ŠJn‚ğ‘Ò‚Âˆ— 
+//ã‚²ãƒ¼ãƒ é–‹å§‹ã‚’å¾…ã¤å‡¦ç† 
 function mis_WaitGameStart()
 {
-	while( GAME_STATE_PLAYING != scr_GetGamePlayingStatus() )	//‚à‚µij“à‚ÌğŒ‚ª–‚½‚³‚ê‚Ä‚¢‚éˆÈ‰º‚Ìˆ—‚ğŒJ‚è•Ô‚µÀs‚·‚é
+	while( GAME_STATE_PLAYING != scr_GetGamePlayingStatus() )	//ã‚‚ã—ï¼ˆï¼‰å†…ã®æ¡ä»¶ãŒæº€ãŸã•ã‚Œã¦ã„ã‚‹æ™‚ä»¥ä¸‹ã®å‡¦ç†ã‚’ç¹°ã‚Šè¿”ã—å®Ÿè¡Œã™ã‚‹
 	{
-		local state;						//ƒ[ƒJƒ‹•Ï”iˆê“xŒ‹‰Ê‚ª‹A‚Á‚½‚ç–Y‚ê‚éŠÖ”j‚ğİ’è‚·‚é 
-		state = GetGamePlayingStatus();				//•Ï”‚ÉŠÖ”‚ÌŒ‹‰Ê‚Ì’li–ß‚è’lj‚ğ‘ã“ü‚·‚é 
+		local state;						//ãƒ­ãƒ¼ã‚«ãƒ«å¤‰æ•°ï¼ˆä¸€åº¦çµæœãŒå¸°ã£ãŸã‚‰å¿˜ã‚Œã‚‹é–¢æ•°ï¼‰ã‚’è¨­å®šã™ã‚‹ 
+		state = GetGamePlayingStatus();				//å¤‰æ•°ã«é–¢æ•°ã®çµæœã®å€¤ï¼ˆæˆ»ã‚Šå€¤ï¼‰ã‚’ä»£å…¥ã™ã‚‹ 
 		
-		print("[sample mission] mis_WaitGameStart state = " + state + "\n" );	//ƒfƒoƒbƒOƒƒO‚É•Ï”‚ğ•\¦‚·‚é 
+		print("[sample mission] mis_WaitGameStart state = " + state + "\n" );	//ãƒ‡ãƒãƒƒã‚°ãƒ­ã‚°ã«å¤‰æ•°ã‚’è¡¨ç¤ºã™ã‚‹ 
 		suspend();	
 	}
 
-	//BOT‚ğƒQ[ƒ€‚É”z’u 
+	//BOTã‚’ã‚²ãƒ¼ãƒ ã«é…ç½® 
 
-	//“G 
+	//æ•µ 
 	scr_BotPlayerSpawnToWorld( 207, -13466.93, 525.00, 2926.1, 0.0 );	//1_IQ7 
 	scr_BotPlayerSpawnToWorld( 208, -13471.62, 510.63, 1999.7, 0.0 );	//1_IQ7 
 	scr_BotPlayerSpawnToWorld( 209, -10070.56, 520.95, 1696.5, 0.0 );	//2_IQ6 
@@ -190,62 +206,65 @@ function mis_WaitGameStart()
 
 function mis_BannerInfoTimer(fn_name,time)
 {
-	//“¯‚h‚cƒ^ƒCƒ}[ƒR[ƒ‹ƒoƒbƒN‚ÌƒZƒbƒgE“ü‚ê‘Ö‚¦ 
+	//åŒï¼©ï¼¤ã‚¿ã‚¤ãƒãƒ¼ã‚³ãƒ¼ãƒ«ãƒãƒƒã‚¯ã®ã‚»ãƒƒãƒˆãƒ»å…¥ã‚Œæ›¿ãˆ 
+	// Set / replace the same ID timer callback
 	scr_RemoveCallbackFromId( 80000 );	
 	suspend();
 	scr_SetTimerCallback( fn_name, 80000, CB_TYPE_ONCE, time );
 }
 function miscb_BunnerInfoRemove()
 {
-	//ƒoƒi[ƒCƒ“ƒtƒHƒ[ƒVƒ‡ƒ“íœ 
+	//ãƒãƒŠãƒ¼ã‚¤ãƒ³ãƒ•ã‚©ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³å‰Šé™¤ 
+	// Delete banner information
 	print( "BunnerRemove!\n" );
 	scr_CloseMissionExpainText( 0 );
 }
-//•Ï”‚Ìİ’è 
+//å¤‰æ•°ã®è¨­å®š 
 
 gMonument05 <- 0;
 gMonument04 <- 0;
 gMonument03 <- 0;
 
 ////////////////////////////////////////////////
-// ‚±‚±‚©‚ç‚ÍƒR[ƒ‹ƒoƒbƒNˆ— 
+// ã“ã“ã‹ã‚‰ã¯ã‚³ãƒ¼ãƒ«ãƒãƒƒã‚¯å‡¦ç† 
+// Callback processing from here
 ////////////////////////////////////////////////
 function miscb_BossDamage()
 {
 	print( "bossdamage!\n" );
 	if(scr_BotPlayerGetLifeRate( 225 ) <= 0.95 )
 	{
-		//BOSS‚ğ”­Œ©I 
+		//BOSSã‚’ç™ºè¦‹ï¼ 
 		scr_RemoveCallbackFromId( 3 );
 		scr_RemoveCallbackFromId( 10007 );
 		scr_RemoveDeathEnemyCallback( 225 );
 		scr_AddTargetEnemyCallback( "miscb_KillTarget01", 225, "" );
 		scr_BotPlayerSetActionTrigger( 225, true );
-		scr_CloseMissionStateText( 0 );	//’B¬ó‹µ‚ğ”ñ•\¦ 
+		scr_CloseMissionStateText( 0 );	//é”æˆçŠ¶æ³ã‚’éè¡¨ç¤º 
 		scr_OpenMissionConditionText(  0, "TXHFC02101" );
 
 	}
 	else
 	{
-		scr_SetTimerCallback( "miscb_BossDamage", 3, CB_TYPE_ONCE, 5.0 );	//ƒ{ƒX‚Ìƒ_ƒ[ƒWŠÄ‹ 
+		scr_SetTimerCallback( "miscb_BossDamage", 3, CB_TYPE_ONCE, 5.0 );	//ãƒœã‚¹ã®ãƒ€ãƒ¡ãƒ¼ã‚¸ç›£è¦– 
 	}
 }
 function miscb_RespawnBoss()
 {
-	scr_BotPlayerSpawnToWorld( 225, 1665.90, 100.0, 2447.8, 0.0 );	//boss‚Ì©E‚ğŠÄ‹‚µ‚ÄƒŠƒXƒ|[ƒ“ 
+	scr_BotPlayerSpawnToWorld( 225, 1665.90, 100.0, 2447.8, 0.0 );	//bossã®è‡ªæ®ºã‚’ç›£è¦–ã—ã¦ãƒªã‚¹ãƒãƒ¼ãƒ³ 
 }
-//ƒvƒŒƒCƒ„[‚ªoŒ‚‚µ‚½‚ÌƒR[ƒ‹ƒoƒbƒNˆ—
+//ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ãŒå‡ºæ’ƒã—ãŸæ™‚ã®ã‚³ãƒ¼ãƒ«ãƒãƒƒã‚¯å‡¦ç†
 function miscb_PlayerSally_First()
 {
 	print( "Player is sally!\n" );
 	
 
-	//ƒJƒƒ‰‚ğŠñ‚è‚Ì”wŒã‹“_‚É•ÏX 
-	scr_SetGameCameraAngleType( ANGLE_ZOOM_IN );	//ƒJƒƒ‰‚ğƒY[ƒ€‚Éİ’è 
+	//ã‚«ãƒ¡ãƒ©ã‚’å¯„ã‚Šã®èƒŒå¾Œè¦–ç‚¹ã«å¤‰æ›´ 
+	scr_SetGameCameraAngleType( ANGLE_ZOOM_IN );	//ã‚«ãƒ¡ãƒ©ã‚’ã‚ºãƒ¼ãƒ ã«è¨­å®š 
 	scr_ResetGameCameraBehind( false );
 
 
-	//ƒ‚ƒjƒ…ƒƒ“ƒg‘€ì 
+	//ãƒ¢ãƒ‹ãƒ¥ãƒ¡ãƒ³ãƒˆæ“ä½œ 
 	scr_CompleteMonumentBuild( "gfmo_003", POWER_COLOR_WHITE );	//T06 
 
 	scr_CompleteMonumentBuild( "gfmo_004", POWER_COLOR_BLACK );	//T05 
@@ -260,8 +279,8 @@ function miscb_PlayerSally_First()
 	scr_SetBreakMonumentCallback( "miscb_BreakMonument03", 20006, CB_TYPE_ONCE, "gfmo_005" );
 	gMonument03 = 1 ;
 	
-	scr_WaitStart( 1.0 );	//‚P•b‘Ò‚Â‚æ 
-	while( scr_Waiting() )	//‘Ò‚Â‚Ì‚ªI‚é‚Ì‚ğŠÄ‹‚·‚é‚æ 
+	scr_WaitStart( 1.0 );	//ï¼‘ç§’å¾…ã¤ã‚ˆ 
+	while( scr_Waiting() )	//å¾…ã¤ã®ãŒçµ‚ã‚‹ã®ã‚’ç›£è¦–ã™ã‚‹ã‚ˆ 
 	{
 		suspend();
 	}
@@ -286,9 +305,9 @@ function miscb_PlayerSally_First()
 	}
 	scr_PauseOff();
 
-//	scr_OpenMissionConditionText(  0, "$TXHFC12101" );	//’B¬ğŒ‚ğ•\¦ 
-//	scr_OpenMissionStateText(  0, "$TXHFS12101" );	//’B¬ó‹µ‚ğ•\¦ 
-	scr_OpenMissionConditionText(  0, "TXHFC02102" );	//Ô‚¢ƒƒ{ƒbƒg‚ğŒ©‚Â‚¯‚é 
+//	scr_OpenMissionConditionText(  0, "$TXHFC12101" );	//é”æˆæ¡ä»¶ã‚’è¡¨ç¤º 
+//	scr_OpenMissionStateText(  0, "$TXHFS12101" );	//é”æˆçŠ¶æ³ã‚’è¡¨ç¤º 
+	scr_OpenMissionConditionText(  0, "TXHFC02102" );	//èµ¤ã„ãƒ­ãƒœãƒƒãƒˆã‚’è¦‹ã¤ã‘ã‚‹ 
 
 
 	scr_SetTrapInCallback( "miscb_TrapIn1001", 10001, CB_TYPE_ALWAYS, 1001 );	
@@ -299,7 +318,7 @@ function miscb_PlayerSally_First()
 
 
 
-	//–¡•û 
+	//å‘³æ–¹ 
 	scr_BotPlayerSpawnToMonument( 101, "gfmo_003" );
 	scr_BotPlayerSpawnToMonument( 102, "gfmo_003" );
 	scr_BotPlayerSpawnToMonument( 103, "gfmo_003" );
@@ -311,9 +330,9 @@ function miscb_PlayerSally_First()
 //	scr_BotPlayerSetActionTrigger( 104, true );
 
 
-	//ƒŠƒXƒ|[ƒ“Œü‚«‚ğ•ÏX 
-	scr_SetMonumentRebirthDirection( "gfmo_005", 9.29, 9.29 );	//‚R”Ôƒ^ƒ[ 
-	scr_SetMonumentRebirthDirection( "gfmo_006", -120.0, -120.0 );	//‚Q”Ôƒ^ƒ[ 
+	//ãƒªã‚¹ãƒãƒ¼ãƒ³å‘ãã‚’å¤‰æ›´ 
+	scr_SetMonumentRebirthDirection( "gfmo_005", 9.29, 9.29 );	//ï¼“ç•ªã‚¿ãƒ¯ãƒ¼ 
+	scr_SetMonumentRebirthDirection( "gfmo_006", -120.0, -120.0 );	//ï¼’ç•ªã‚¿ãƒ¯ãƒ¼ 
 
 }
 function mis_KillAllEnemy()
@@ -351,8 +370,8 @@ function miscb_KillTarget01()
 	scr_RemoveTargetEnemyCallback( 225 );
 	scr_RemoveCallbackAll();
 	mis_KillAllEnemy();
-	scr_CloseMissionConditionText( 0 );	//’B¬ğŒ‚ğ”ñ•\¦ 
-	scr_CloseMissionStateText( 0 );	//’B¬ó‹µ‚ğ”ñ•\¦ 
+	scr_CloseMissionConditionText( 0 );	//é”æˆæ¡ä»¶ã‚’éè¡¨ç¤º 
+	scr_CloseMissionStateText( 0 );	//é”æˆçŠ¶æ³ã‚’éè¡¨ç¤º 
 	scr_CloseMissionExpainText( 0 );
 
 
@@ -379,8 +398,8 @@ function miscb_BotDead225()
 	scr_GameSetMissionSuccess();
 	scr_RemoveDeathEnemyCallback( 225 );
 	mis_KillAllEnemy();
-	scr_CloseMissionConditionText( 0 );	//’B¬ğŒ‚ğ”ñ•\¦ 
-	scr_CloseMissionStateText( 0 );	//’B¬ó‹µ‚ğ”ñ•\¦ 
+	scr_CloseMissionConditionText( 0 );	//é”æˆæ¡ä»¶ã‚’éè¡¨ç¤º 
+	scr_CloseMissionStateText( 0 );	//é”æˆçŠ¶æ³ã‚’éè¡¨ç¤º 
 	scr_CloseMissionExpainText( 0 );
 
 
@@ -404,8 +423,8 @@ function miscb_TimeOver()
 	print( "TimeOver!\n" );
 	
 	scr_RemoveCallbackAll();
-	scr_CloseMissionConditionText( 0 );	//’B¬ğŒ‚ğ”ñ•\¦ 
-	scr_CloseMissionStateText( 0 );	//’B¬ó‹µ‚ğ”ñ•\¦ 
+	scr_CloseMissionConditionText( 0 );	//é”æˆæ¡ä»¶ã‚’éè¡¨ç¤º 
+	scr_CloseMissionStateText( 0 );	//é”æˆçŠ¶æ³ã‚’éè¡¨ç¤º 
 	scr_CloseMissionExpainText( 0 );
 
 
@@ -424,7 +443,7 @@ function miscb_TimeOver()
 	}
 	scr_PauseOff();
 
-	scr_GameSetMissionFailure();	//ƒ~ƒbƒVƒ‡ƒ“¸”s 
+	scr_GameSetMissionFailure();	//ãƒŸãƒƒã‚·ãƒ§ãƒ³å¤±æ•— 
 
 }
 function mis_WarpInfo()
@@ -473,7 +492,8 @@ function miscb_TrapIn1003()
 function miscb_TrapIn1906()
 {
 	print( "TrapIn 1906!\n" );
-	//3”Ô‚É‚a‚n‚””z’u 
+	//3ç•ªã«ï¼¢ï¼¯ï½”é…ç½® 
+	// Place Bot at No. 3
 	scr_BotPlayerSpawnToMonument( 205, "gfmo_005" );
 	scr_AddDeathEnemyCallback( "miscb_BotDead205", 205 );
 	scr_BotPlayerSetActionTrigger( 205, true );
@@ -486,7 +506,8 @@ function miscb_TrapIn1906()
 function miscb_TrapIn1005()
 {
 	print( "TrapIn 1005!\n" );
-	//5”Ô‚É‚a‚n‚””z’u 
+	//5ç•ªã«ï¼¢ï¼¯ï½”é…ç½® 
+	// Place Bot at No. 5
 	scr_BotPlayerSpawnToMonument( 201, "gfmo_004" );
 	scr_AddDeathEnemyCallback( "miscb_BotDead201", 201 );
 	scr_BotPlayerSetActionTrigger( 201, true );
@@ -499,7 +520,8 @@ function miscb_TrapIn1005()
 function miscb_TrapIn1006()
 {
 	print( "TrapIn 1006!\n" );
-	//4”Ô‚É‚a‚n‚””z’u 
+	//4ç•ªã«ï¼¢ï¼¯ï½”é…ç½® 
+	// Place Bot at No. 4
 	scr_BotPlayerSpawnToMonument( 203, "gfmo_002" );
 	scr_AddDeathEnemyCallback( "miscb_BotDead203", 203 );
 	scr_BotPlayerSetActionTrigger( 203, true );
@@ -512,7 +534,8 @@ function miscb_TrapIn1006()
 function miscb_TrapIn1007()
 {
 	print( "TrapIn 1007!\n" );
-	//BOSS‚ğ”­Œ©I 
+	//BOSSã‚’ç™ºè¦‹ï¼ 
+	// Discover BOSS!
 	scr_RemoveDeathEnemyCallback( 225 );
 	scr_RemoveCallbackFromId( 3 );
 	scr_AddTargetEnemyCallback( "miscb_KillTarget01", 225, "" );
@@ -525,11 +548,11 @@ function miscb_TrapIn1007()
 //		suspend();
 //	}
 //	scr_PauseOff();
-	mis_BannerInfoTimer("miscb_BunnerInfoRemove",4.0);	//ƒoƒi[‚ğíœ‚·‚é 
+	mis_BannerInfoTimer("miscb_BunnerInfoRemove",4.0);	//ãƒãƒŠãƒ¼ã‚’å‰Šé™¤ã™ã‚‹ 
 	scr_CreateSceneSound( 66621, 850, 0.0, 0.0, 0.0 );
-	scr_OpenMissionExpainText( 0, "#TXCMB21031" );	// Ô‚¢‚Ì‚Í‚Á‚¯[ƒ“ 
+	scr_OpenMissionExpainText( 0, "#TXCMB21031" );	// èµ¤ã„ã®ã¯ã£ã‘ãƒ¼ãƒ³ 
 
-//	scr_CloseMissionStateText( 0 );	//’B¬ó‹µ‚ğ”ñ•\¦ 
+//	scr_CloseMissionStateText( 0 );	//é”æˆçŠ¶æ³ã‚’éè¡¨ç¤º 
 	scr_OpenMissionConditionText(  0, "TXHFC02101" );
 
 
@@ -622,20 +645,20 @@ function miscb_BotRespawn206()
 	scr_BotPlayerSpawnToMonument( 206, "gfmo_005" );
 	}
 }
-//ƒ[ƒv
+//ãƒ¯ãƒ¼ãƒ—
 function mis_WarpToMonument06()
 {
-	// ƒtƒF[ƒh‚µ‚Äƒ[ƒv
+	// ãƒ•ã‚§ãƒ¼ãƒ‰ã—ã¦ãƒ¯ãƒ¼ãƒ—
 	scr_FadeOutBlack( 1.0 );
 	while( !scr_IsFadeFinish() )
 	{
 		suspend();
 	}
-	// ƒ[ƒv
+	// ãƒ¯ãƒ¼ãƒ—
 	scr_PlayerWarp( -10127.3, 182.9, 5465.3, -143.0 );
-	// 1ƒtƒŒ[ƒ€‘Ò‚½‚È‚¢‚Æƒ[ƒv‚ªŠ®—¹‚µ‚È‚¢
+	// 1ãƒ•ãƒ¬ãƒ¼ãƒ å¾…ãŸãªã„ã¨ãƒ¯ãƒ¼ãƒ—ãŒå®Œäº†ã—ãªã„
 	suspend();
-	// ƒJƒƒ‰‚ğ”wŒã‚ÖƒŠƒZƒbƒg
+	// ã‚«ãƒ¡ãƒ©ã‚’èƒŒå¾Œã¸ãƒªã‚»ãƒƒãƒˆ
 	scr_ResetGameCameraBehind( true );
 	
 	scr_FadeIn( 1.0 );
@@ -646,17 +669,21 @@ function mis_WarpToMonument06()
 }
 function mis_WarpToMonument02()
 {
-	// ƒtƒF[ƒh‚µ‚Äƒ[ƒv
+	// ãƒ•ã‚§ãƒ¼ãƒ‰ã—ã¦ãƒ¯ãƒ¼ãƒ—
+	// Fade and warp
 	scr_FadeOutBlack( 1.0 );
 	while( !scr_IsFadeFinish() )
 	{
 		suspend();
 	}
-	// ƒ[ƒv
+	// ãƒ¯ãƒ¼ãƒ—
+	// Warp
 	scr_PlayerWarp( 4065.4, 461.4, 372.2, -121.0 );
-	// 1ƒtƒŒ[ƒ€‘Ò‚½‚È‚¢‚Æƒ[ƒv‚ªŠ®—¹‚µ‚È‚¢
+	// 1ãƒ•ãƒ¬ãƒ¼ãƒ å¾…ãŸãªã„ã¨ãƒ¯ãƒ¼ãƒ—ãŒå®Œäº†ã—ãªã„
+	// Warp will not complete unless you wait 1 frame
 	suspend();
-	// ƒJƒƒ‰‚ğ”wŒã‚ÖƒŠƒZƒbƒg
+	// ã‚«ãƒ¡ãƒ©ã‚’èƒŒå¾Œã¸ãƒªã‚»ãƒƒãƒˆ
+	// Reset the camera to the back
 	scr_ResetGameCameraBehind( true );
 	
 	scr_FadeIn( 1.0 );
