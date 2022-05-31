@@ -11,7 +11,7 @@
 // File name: cam_STORY01 \ mission00.nut
 // Overview: Scenario Campaign Level 1 Campaign 1 Mission 1
 // Created: Ochiai
-// Creation date: 110606
+// Creation date: 11/06/06 AKA 06/06/2011
 // Purpose: [Irregular War] Victory
 ///////////////////////////////////////////////////////////////////////////////////////////////
 
