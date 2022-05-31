@@ -11,16 +11,18 @@
 // File name: cam_STORY01 \ mission00.nut
 // Overview: Scenario Campaign Level 1 Campaign 1 Mission 1
 // Created: Ochiai
-// Creation date: 11/06/06 AKA 06/06/2011
+// Creation Date: 11/06/06 AKA 06/06/2011
 // Purpose: [Irregular War] Victory
 ///////////////////////////////////////////////////////////////////////////////////////////////
 
 function loadMission() 
 {
 	print("[sample mission] load()\n");
-//ミッションのステージを読み込む前の処理を設定しよう！ 
+        //ミッションのステージを読み込む前の処理を設定しよう！
+	// Let's set the process before loading the mission stage!
 	scr_SetDisableGimmickType( GIMMICK_RAFT );
 	//開戦前バリケード封じ 
+	// Barricade seal before the start of war
 	scr_SetDisableGimmickType( GIMMICK_KEEP_OUT );
 	scr_SetDisableGimmickType( GIMMICK_CANNON );
 	scr_SetDisableGimmickType( GIMMICK_BOMBSTONE );
@@ -33,6 +35,7 @@ function startMission()
 
 
 	//復活時間設定 
+	// Resurrection time setting
 	scr_SetRebirthTime( SCR_REBIRTH_TARGET_PLAYER, SCR_REBIRTH_TYPE_NORMAL, 0 );
 	scr_SetRebirthTime( SCR_REBIRTH_TARGET_PLAYER, SCR_REBIRTH_TYPE_PENALTY, 0 );
 
@@ -40,6 +43,7 @@ function startMission()
 	scr_SetRebirthTime( SCR_REBIRTH_TARGET_BLACK, SCR_REBIRTH_TYPE_PENALTY, 8 );
 
 	//BOTの登録 
+	// BOT registration
 	scr_BotPlayerRegistAndCreate( 101, "NOOB01", POWER_COLOR_WHITE );
 	scr_BotPlayerRegistAndCreate( 102, "MEDIC01", POWER_COLOR_WHITE );
 	scr_BotPlayerRegistAndCreate( 103, "MAGE01", POWER_COLOR_WHITE );
@@ -71,7 +75,8 @@ function startMission()
 	scr_BotPlayerRegistAndCreate( 224, "GATE_KEEPER", POWER_COLOR_BLACK );	
 	scr_BotPlayerRegistAndCreate( 225, "GATE_KEEPER", POWER_COLOR_BLACK );	
 
-//コールバックの設定 
+        //コールバックの設定 
+	// Callback settings
 	scr_SetMessageCallback( "miscb_PlayerSally_First", 1000, CB_TYPE_ONCE, MESSAGE_PLAYER_SALLY );
 //	scr_SetMessageCallback( "miscb_GameSetWinWhite", 1100, CB_TYPE_ONCE, MESSAGE_GAME_SET_WIN_WHITE );
 //	scr_SetMessageCallback( "miscb_GameSetWinBlack", 1200, CB_TYPE_ONCE, MESSAGE_GAME_SET_WIN_BLACK );
@@ -85,6 +90,7 @@ function startMission()
 
 
 	//オフラインキャンペーンＨＵＤ設定 
+	// Offline campaign HUD setting
 	scr_SetDisableTacticalInfomation();	//バナーテキストを非表示 
 	scr_SetEnablePlayerHeroPopup( false );	//ヒーローポップアップの非表示 
 	scr_SetEnableInputPlayerVoiceReaction( false );	//リアクションボイスマクロの非表示 
