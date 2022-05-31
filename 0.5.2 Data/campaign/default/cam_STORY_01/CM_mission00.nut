@@ -1,19 +1,26 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////
 //
-//	ƒtƒ@ƒCƒ‹–¼Fcam_STORY01\mission00.nut 
-//	ŠT—v	FƒVƒiƒŠƒIƒLƒƒƒ“ƒy[ƒ“ ƒŒƒxƒ‹1 ƒLƒƒƒ“ƒy[ƒ“1 ƒ~ƒbƒVƒ‡ƒ“1 
-//	ì¬	F—‡ 
-//	ì¬“ú	F110606 
-//	–Ú“I	Fm•Ï‘¥í‘ˆnŸ—˜ 
+//	ãƒ•ã‚¡ã‚¤ãƒ«åï¼šcam_STORY01\mission00.nut 
+//	æ¦‚è¦	ï¼šã‚·ãƒŠãƒªã‚ªã‚­ãƒ£ãƒ³ãƒšãƒ¼ãƒ³ ãƒ¬ãƒ™ãƒ«1 ã‚­ãƒ£ãƒ³ãƒšãƒ¼ãƒ³1 ãƒŸãƒƒã‚·ãƒ§ãƒ³1 
+//	ä½œæˆ	ï¼šè½åˆ 
+//	ä½œæˆæ—¥	ï¼š110606 
+//	ç›®çš„	ï¼šï¼»å¤‰å‰‡æˆ¦äº‰ï¼½å‹åˆ© 
 //
+///////////////////////////////////////////////////////////////////////////////////////////////
+//
+// File name: cam_STORY01 \ mission00.nut
+// Overview: Scenario Campaign Level 1 Campaign 1 Mission 1
+// Created: Ochiai
+// Creation date: 110606
+// Purpose: [Irregular War] Victory
 ///////////////////////////////////////////////////////////////////////////////////////////////
 
 function loadMission() 
 {
 	print("[sample mission] load()\n");
-//ƒ~ƒbƒVƒ‡ƒ“‚ÌƒXƒe[ƒW‚ğ“Ç‚İ‚Ş‘O‚Ìˆ—‚ğİ’è‚µ‚æ‚¤I 
+//ãƒŸãƒƒã‚·ãƒ§ãƒ³ã®ã‚¹ãƒ†ãƒ¼ã‚¸ã‚’èª­ã¿è¾¼ã‚€å‰ã®å‡¦ç†ã‚’è¨­å®šã—ã‚ˆã†ï¼ 
 	scr_SetDisableGimmickType( GIMMICK_RAFT );
-	//ŠJí‘OƒoƒŠƒP[ƒh••‚¶ 
+	//é–‹æˆ¦å‰ãƒãƒªã‚±ãƒ¼ãƒ‰å°ã˜ 
 	scr_SetDisableGimmickType( GIMMICK_KEEP_OUT );
 	scr_SetDisableGimmickType( GIMMICK_CANNON );
 	scr_SetDisableGimmickType( GIMMICK_BOMBSTONE );
@@ -25,14 +32,14 @@ function startMission()
 	print("[sample mission] start()\n");
 
 
-	//•œŠˆŠÔİ’è 
+	//å¾©æ´»æ™‚é–“è¨­å®š 
 	scr_SetRebirthTime( SCR_REBIRTH_TARGET_PLAYER, SCR_REBIRTH_TYPE_NORMAL, 0 );
 	scr_SetRebirthTime( SCR_REBIRTH_TARGET_PLAYER, SCR_REBIRTH_TYPE_PENALTY, 0 );
 
 	scr_SetRebirthTime( SCR_REBIRTH_TARGET_BLACK, SCR_REBIRTH_TYPE_NORMAL, 8 );
 	scr_SetRebirthTime( SCR_REBIRTH_TARGET_BLACK, SCR_REBIRTH_TYPE_PENALTY, 8 );
 
-	//BOT‚Ì“o˜^ 
+	//BOTã®ç™»éŒ² 
 	scr_BotPlayerRegistAndCreate( 101, "NOOB01", POWER_COLOR_WHITE );
 	scr_BotPlayerRegistAndCreate( 102, "MEDIC01", POWER_COLOR_WHITE );
 	scr_BotPlayerRegistAndCreate( 103, "MAGE01", POWER_COLOR_WHITE );
@@ -64,23 +71,23 @@ function startMission()
 	scr_BotPlayerRegistAndCreate( 224, "GATE_KEEPER", POWER_COLOR_BLACK );	
 	scr_BotPlayerRegistAndCreate( 225, "GATE_KEEPER", POWER_COLOR_BLACK );	
 
-//ƒR[ƒ‹ƒoƒbƒN‚Ìİ’è 
+//ã‚³ãƒ¼ãƒ«ãƒãƒƒã‚¯ã®è¨­å®š 
 	scr_SetMessageCallback( "miscb_PlayerSally_First", 1000, CB_TYPE_ONCE, MESSAGE_PLAYER_SALLY );
 //	scr_SetMessageCallback( "miscb_GameSetWinWhite", 1100, CB_TYPE_ONCE, MESSAGE_GAME_SET_WIN_WHITE );
 //	scr_SetMessageCallback( "miscb_GameSetWinBlack", 1200, CB_TYPE_ONCE, MESSAGE_GAME_SET_WIN_BLACK );
 	scr_SetMessageCallback( "miscb_GameSetWinWhite", 1100, CB_TYPE_ONCE, MESSAGE_GAME_BREAK_BLACK_CASTLE_MONUMENT );
 	scr_SetMessageCallback( "miscb_GameSetWinBlack", 1200, CB_TYPE_ONCE, MESSAGE_GAME_BREAK_WHITE_CASTLE_MONUMENT );
-	scr_SetMessageCallback( "miscb_TimeOver", 80002, CB_TYPE_ONCE,  MESSAGE_GAME_TIME_OVER );		//ƒ^ƒCƒ€ƒI[ƒo[ 
+	scr_SetMessageCallback( "miscb_TimeOver", 80002, CB_TYPE_ONCE,  MESSAGE_GAME_TIME_OVER );		//ã‚¿ã‚¤ãƒ ã‚ªãƒ¼ãƒãƒ¼æ™‚ 
 
 
-	scr_SetMessageCallback( "miscb_PlayerDead", 1300, CB_TYPE_ONCE, MESSAGE_PLAYER_DEAD );	//‰‰ñ€–S 
-	scr_SetBreakCastleGateCallback( "miscb_BreakCastleGate", 1400, CB_TYPE_ONCE, POWER_COLOR_BLACK );	//“GŒR‚Ìé–å”j‰ó 
+	scr_SetMessageCallback( "miscb_PlayerDead", 1300, CB_TYPE_ONCE, MESSAGE_PLAYER_DEAD );	//åˆå›æ­»äº¡æ™‚ 
+	scr_SetBreakCastleGateCallback( "miscb_BreakCastleGate", 1400, CB_TYPE_ONCE, POWER_COLOR_BLACK );	//æ•µè»ã®åŸé–€ç ´å£Š 
 
 
-	//ƒIƒtƒ‰ƒCƒ“ƒLƒƒƒ“ƒy[ƒ“‚g‚t‚cİ’è 
-	scr_SetDisableTacticalInfomation();	//ƒoƒi[ƒeƒLƒXƒg‚ğ”ñ•\¦ 
-	scr_SetEnablePlayerHeroPopup( false );	//ƒq[ƒ[ƒ|ƒbƒvƒAƒbƒv‚Ì”ñ•\¦ 
-	scr_SetEnableInputPlayerVoiceReaction( false );	//ƒŠƒAƒNƒVƒ‡ƒ“ƒ{ƒCƒXƒ}ƒNƒ‚Ì”ñ•\¦ 
+	//ã‚ªãƒ•ãƒ©ã‚¤ãƒ³ã‚­ãƒ£ãƒ³ãƒšãƒ¼ãƒ³ï¼¨ï¼µï¼¤è¨­å®š 
+	scr_SetDisableTacticalInfomation();	//ãƒãƒŠãƒ¼ãƒ†ã‚­ã‚¹ãƒˆã‚’éè¡¨ç¤º 
+	scr_SetEnablePlayerHeroPopup( false );	//ãƒ’ãƒ¼ãƒ­ãƒ¼ãƒãƒƒãƒ—ã‚¢ãƒƒãƒ—ã®éè¡¨ç¤º 
+	scr_SetEnableInputPlayerVoiceReaction( false );	//ãƒªã‚¢ã‚¯ã‚·ãƒ§ãƒ³ãƒœã‚¤ã‚¹ãƒã‚¯ãƒ­ã®éè¡¨ç¤º 
 	scr_SetEnableTacticalBannerText( SCR_BANNER_ALLY_GATE_DAMAGED, true );
 	scr_SetEnableTacticalBannerText( SCR_BANNER_ALLY_GATE_75, true );
 	scr_SetEnableTacticalBannerText( SCR_BANNER_ALLY_GATE_50, true );
@@ -95,7 +102,7 @@ function startMission()
 
 
 
-//ƒgƒ‰ƒbƒNƒ{ƒbƒg‚ÌƒŠƒXƒ|[ƒ“‚ğ§Œä 
+//ãƒˆãƒ©ãƒƒã‚¯ãƒœãƒƒãƒˆã®ãƒªã‚¹ãƒãƒ¼ãƒ³ã‚’åˆ¶å¾¡ 
 	scr_BotPlayerSetRespawnEnable( 201, false );	//MOB_T 
 	scr_BotPlayerSetRespawnEnable( 202, false );	//MOB_T 
 	scr_BotPlayerSetRespawnEnable( 203, false );	//MOB_T 
@@ -120,7 +127,7 @@ function startMission()
 	scr_BotPlayerSetRespawnEnable( 224, false );	
 	scr_BotPlayerSetRespawnEnable( 225, false );	
 
-//ƒ{ƒbƒg‚ÌƒgƒŠƒK[‚ğ§Œä 
+//ãƒœãƒƒãƒˆã®ãƒˆãƒªã‚¬ãƒ¼ã‚’åˆ¶å¾¡ 
 	scr_BotPlayerSetActionTrigger( 201, true );
 	scr_BotPlayerSetActionTrigger( 202, true );
 	scr_BotPlayerSetActionTrigger( 203, true );
@@ -131,47 +138,47 @@ function startMission()
 
 
 
-//ƒgƒ‰ƒbƒv‚Ìİ’è 
-	scr_RegistTrapBox( 1000, 10699.2 ,0.0 ,12135.0 ,2255.1 ,1500.0 ,1990.8 ,-25.0   );	//é 
+//ãƒˆãƒ©ãƒƒãƒ—ã®è¨­å®š 
+	scr_RegistTrapBox( 1000, 10699.2 ,0.0 ,12135.0 ,2255.1 ,1500.0 ,1990.8 ,-25.0   );	//åŸ 
 
-	scr_RegistTrapBox( 1001, 8013.3 ,200.0 ,11430.3 ,371.9 ,2000.0 ,4693.1 ,-25.0  );	//éo‚Ä‚·‚® 
+	scr_RegistTrapBox( 1001, 8013.3 ,200.0 ,11430.3 ,371.9 ,2000.0 ,4693.1 ,-25.0  );	//åŸå‡ºã¦ã™ã 
 
-	scr_RegistTrapBox( 1002, 5143.2 ,0.0 ,7388.0 ,371.9 ,1000.0 ,639.2 ,-20.9  );	//‹´’Ê‚éƒ‹[ƒg 
-	scr_RegistTrapBox( 1003, 4310.4 ,200.0 ,9698.5 ,377.3 ,1000.0 ,696.6 ,-20.9  );	//ƒoƒ‰‚Ì“¹’Ê‚éƒ‹[ƒg 
-	scr_RegistTrapBox( 1004, 2434.3 ,0.0 ,11640.2 ,261.3 ,1000.0 ,566.6 ,-20.9  );	//ƒA[ƒ`‚ğ’Ê‚éƒ‹[ƒg 
+	scr_RegistTrapBox( 1002, 5143.2 ,0.0 ,7388.0 ,371.9 ,1000.0 ,639.2 ,-20.9  );	//æ©‹é€šã‚‹ãƒ«ãƒ¼ãƒˆ 
+	scr_RegistTrapBox( 1003, 4310.4 ,200.0 ,9698.5 ,377.3 ,1000.0 ,696.6 ,-20.9  );	//ãƒãƒ©ã®é“é€šã‚‹ãƒ«ãƒ¼ãƒˆ 
+	scr_RegistTrapBox( 1004, 2434.3 ,0.0 ,11640.2 ,261.3 ,1000.0 ,566.6 ,-20.9  );	//ã‚¢ãƒ¼ãƒã‚’é€šã‚‹ãƒ«ãƒ¼ãƒˆ 
 
-	scr_RegistTrapBox( 1005, -4369.4 ,0.0 ,7275.1 ,564.2 ,1000.0 ,1381.3 ,-57.9   );	//Œü‚©‚Á‚Ä‰E‚Ì‹´ 
-	scr_RegistTrapBox( 1006, -5639.3 ,0.0 ,10387.2 ,508.2 ,1000.0 ,2142.3 ,-331.8   );	//Œü‚©‚Á‚Ä¶‚Ì’[ 
+	scr_RegistTrapBox( 1005, -4369.4 ,0.0 ,7275.1 ,564.2 ,1000.0 ,1381.3 ,-57.9   );	//å‘ã‹ã£ã¦å³ã®æ©‹ 
+	scr_RegistTrapBox( 1006, -5639.3 ,0.0 ,10387.2 ,508.2 ,1000.0 ,2142.3 ,-331.8   );	//å‘ã‹ã£ã¦å·¦ã®ç«¯ 
 
-	scr_RegistTrapBox( 1007,  -9981.6 ,0.0 ,5761.9 ,211.5 ,1000.0 ,2119.8 ,-44.4  );	//ƒwƒr[oŒ» 
-	scr_RegistTrapBox( 1008, -10087.9 ,0.0 ,228.9 ,4539.4 ,1000.0 ,234.7 ,-46.1  );	//ƒ^ƒ[‚S•‚É 
+	scr_RegistTrapBox( 1007,  -9981.6 ,0.0 ,5761.9 ,211.5 ,1000.0 ,2119.8 ,-44.4  );	//ãƒ˜ãƒ“ãƒ¼å‡ºç¾ 
+	scr_RegistTrapBox( 1008, -10087.9 ,0.0 ,228.9 ,4539.4 ,1000.0 ,234.7 ,-46.1  );	//ã‚¿ãƒ¯ãƒ¼ï¼”é»’ã« 
 
-	scr_RegistTrapBox( 1009, 11007.8 ,0.0 ,2603.5 ,283.7 ,1000.0 ,1065.6 ,-21.7  );	//’†‰›ƒ‹[ƒg 
-	scr_RegistTrapBox( 1010, 12314.0 ,0.0 ,735.6 ,229.2 ,1000.0 ,1055.1 ,-356.1  );	//ƒA[ƒ`’Ê‚éƒ‹[ƒg 
-	scr_RegistTrapBox( 1011, 11884.8 ,0.0 ,5536.7 ,227.5 ,1000.0 ,581.8 ,-24.8  );	//‹´‚ğ’Ê‚éƒ‹[ƒg 
+	scr_RegistTrapBox( 1009, 11007.8 ,0.0 ,2603.5 ,283.7 ,1000.0 ,1065.6 ,-21.7  );	//ä¸­å¤®ãƒ«ãƒ¼ãƒˆ 
+	scr_RegistTrapBox( 1010, 12314.0 ,0.0 ,735.6 ,229.2 ,1000.0 ,1055.1 ,-356.1  );	//ã‚¢ãƒ¼ãƒé€šã‚‹ãƒ«ãƒ¼ãƒˆ 
+	scr_RegistTrapBox( 1011, 11884.8 ,0.0 ,5536.7 ,227.5 ,1000.0 ,581.8 ,-24.8  );	//æ©‹ã‚’é€šã‚‹ãƒ«ãƒ¼ãƒˆ 
 
-	scr_RegistTrapBox( 1012, 19491.7 ,0.0 ,5146.8 ,229.2 ,1000.0 ,4319.1 ,-345.9  );	//“Gé–å‘O 
+	scr_RegistTrapBox( 1012, 19491.7 ,0.0 ,5146.8 ,229.2 ,1000.0 ,4319.1 ,-345.9  );	//æ•µåŸé–€å‰ 
 
-	scr_RegistTrapBox( 1013, -3531.97 ,0.0 ,704.243 ,2618.4 ,1000.0 ,191.0 ,-46.64  );	//ƒ^ƒ[‚T•‚Å –‚–@g‚¢ŒR’coŒ‚ 
-	scr_RegistTrapBox( 1013, -4768.34 ,0.0 ,-3435.5 ,2619.5 ,1000.0 ,186.5 ,-100.5  );	//ƒ^ƒ[‚T•‚Å–‚–@g‚¢ŒR’coŒ‚ 
-	scr_RegistTrapBox( 1013, -1868.34 ,0.0 ,-6225.8 ,2618.4 ,1000.0 ,188.7 ,-171.6  );	//ƒ^ƒ[‚T•‚Å–‚–@g‚¢ŒR’coŒ‚ 
+	scr_RegistTrapBox( 1013, -3531.97 ,0.0 ,704.243 ,2618.4 ,1000.0 ,191.0 ,-46.64  );	//ã‚¿ãƒ¯ãƒ¼ï¼•é»’ã§ é­”æ³•ä½¿ã„è»å›£å‡ºæ’ƒ 
+	scr_RegistTrapBox( 1013, -4768.34 ,0.0 ,-3435.5 ,2619.5 ,1000.0 ,186.5 ,-100.5  );	//ã‚¿ãƒ¯ãƒ¼ï¼•é»’ã§é­”æ³•ä½¿ã„è»å›£å‡ºæ’ƒ 
+	scr_RegistTrapBox( 1013, -1868.34 ,0.0 ,-6225.8 ,2618.4 ,1000.0 ,188.7 ,-171.6  );	//ã‚¿ãƒ¯ãƒ¼ï¼•é»’ã§é­”æ³•ä½¿ã„è»å›£å‡ºæ’ƒ 
 	
-	scr_RegistTrapBox( 1014,  2077.9 ,0.0 ,-1445.3 ,179.4 ,1000.0 ,2285.4 ,-36.0  );	//ƒ^ƒ[‚U‚Åƒwƒr[ƒJƒXƒ^ƒ€ 
-	scr_RegistTrapBox( 1014,   2218.2 ,0.0 ,992.3 ,160.1 ,1000.0 ,1704.4 ,-296.6  );	//ƒ^ƒ[‚U‚Åƒwƒr[ƒJƒXƒ^ƒ€ 
+	scr_RegistTrapBox( 1014,  2077.9 ,0.0 ,-1445.3 ,179.4 ,1000.0 ,2285.4 ,-36.0  );	//ã‚¿ãƒ¯ãƒ¼ï¼–ã§ãƒ˜ãƒ“ãƒ¼ã‚«ã‚¹ã‚¿ãƒ  
+	scr_RegistTrapBox( 1014,   2218.2 ,0.0 ,992.3 ,160.1 ,1000.0 ,1704.4 ,-296.6  );	//ã‚¿ãƒ¯ãƒ¼ï¼–ã§ãƒ˜ãƒ“ãƒ¼ã‚«ã‚¹ã‚¿ãƒ  
 	
-	scr_RegistTrapBox( 1015,   7164.4 ,0.0 ,1715.1 ,174.2 ,1000.0 ,4250.4 ,-12.6  );	//“Gé‚Í–Ú‚Ì‘O‚¾I 
+	scr_RegistTrapBox( 1015,   7164.4 ,0.0 ,1715.1 ,174.2 ,1000.0 ,4250.4 ,-12.6  );	//æ•µåŸã¯ç›®ã®å‰ã ï¼ 
 
 
-//ƒgƒ‰ƒbƒvÁ‹° 
-	scr_RegistTrapBox( 2002,   3886.0 ,0.0 ,9566.6 ,147.8 ,1000.0 ,697.9 ,-20.9  );	//‹´’Ê‚éƒ‹[ƒg 
-	scr_RegistTrapBox( 2003,   4727.6 ,0.0 ,7166.9 ,147.8 ,1000.0 ,697.9 ,-20.9  );	//ƒoƒ‰‚Ì“¹’Ê‚éƒ‹[ƒg 
-	scr_RegistTrapBox( 2004,   2117.5 ,0.0 ,11465.6 ,153.1 ,1000.0 ,697.9 ,-20.9  );	//ƒA[ƒ`‚ğ’Ê‚éƒ‹[ƒg 
+//ãƒˆãƒ©ãƒƒãƒ—æ¶ˆå»åºŠ 
+	scr_RegistTrapBox( 2002,   3886.0 ,0.0 ,9566.6 ,147.8 ,1000.0 ,697.9 ,-20.9  );	//æ©‹é€šã‚‹ãƒ«ãƒ¼ãƒˆ 
+	scr_RegistTrapBox( 2003,   4727.6 ,0.0 ,7166.9 ,147.8 ,1000.0 ,697.9 ,-20.9  );	//ãƒãƒ©ã®é“é€šã‚‹ãƒ«ãƒ¼ãƒˆ 
+	scr_RegistTrapBox( 2004,   2117.5 ,0.0 ,11465.6 ,153.1 ,1000.0 ,697.9 ,-20.9  );	//ã‚¢ãƒ¼ãƒã‚’é€šã‚‹ãƒ«ãƒ¼ãƒˆ 
 
-	scr_RegistTrapBox( 2009,   11287.3 ,0.0 ,2946.5 ,89.5 ,1000.0 ,1230.4 ,-21.7  );	//’†‰›ƒ‹[ƒg 
-	scr_RegistTrapBox( 2010,   12590.7 ,0.0 ,745.4 ,78.6 ,1000.0 ,1055.1 ,-356.1  );	//ƒA[ƒ`’Ê‚éƒ‹[ƒg 
-	scr_RegistTrapBox( 2011,   12114.1 ,0.0 ,5681.5 ,87.8 ,1000.0 ,577.6 ,-24.8  );	//‹´‚ğ’Ê‚éƒ‹[ƒg 
+	scr_RegistTrapBox( 2009,   11287.3 ,0.0 ,2946.5 ,89.5 ,1000.0 ,1230.4 ,-21.7  );	//ä¸­å¤®ãƒ«ãƒ¼ãƒˆ 
+	scr_RegistTrapBox( 2010,   12590.7 ,0.0 ,745.4 ,78.6 ,1000.0 ,1055.1 ,-356.1  );	//ã‚¢ãƒ¼ãƒé€šã‚‹ãƒ«ãƒ¼ãƒˆ 
+	scr_RegistTrapBox( 2011,   12114.1 ,0.0 ,5681.5 ,87.8 ,1000.0 ,577.6 ,-24.8  );	//æ©‹ã‚’é€šã‚‹ãƒ«ãƒ¼ãƒˆ 
 
-//ƒgƒ‰ƒbƒvƒCƒ“ƒR[ƒ‹ƒoƒbƒN 
+//ãƒˆãƒ©ãƒƒãƒ—ã‚¤ãƒ³ã‚³ãƒ¼ãƒ«ãƒãƒƒã‚¯ 
 	scr_SetTrapInCallback( "miscb_TrapIn1000", 10000, CB_TYPE_ONCE, 1000 );	
 //	scr_SetTrapOutCallback( "miscb_TrapOut1000", 100000, CB_TYPE_ONCE, 1000 );
 
@@ -201,7 +208,7 @@ function startMission()
 	scr_SetTrapInCallback( "miscb_TrapIn2010", 12010, CB_TYPE_ONCE, 2010 );
 	scr_SetTrapInCallback( "miscb_TrapIn2011", 12011, CB_TYPE_ONCE, 2011 );
 
-//oŒ‚‘OƒƒbƒZ[ƒW 
+//å‡ºæ’ƒå‰ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ 
 	scr_WaitStart( 0.4 );	
 	while( scr_Waiting() )	
 	{
@@ -232,15 +239,15 @@ function startMission()
 	}
 	scr_PauseOff();
 
-	//’B¬ğŒ•\¦ 
-	scr_OpenMissionConditionText(  0, "TXHFC01101" );	//í“¬‚ÉŸ—˜‚¹‚æ 
+	//é”æˆæ¡ä»¶è¡¨ç¤º 
+	scr_OpenMissionConditionText(  0, "TXHFC01101" );	//æˆ¦é—˜ã«å‹åˆ©ã›ã‚ˆ 
 
-	// ƒvƒŒƒCƒ„[¶¬‚ğ‘Ò‚¿‚Ü‚·
+	// ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ç”Ÿæˆã‚’å¾…ã¡ã¾ã™
 	mis_WaitPlayerCreate();
-	scr_PlayerSetForceRespawnPosition( 10216.331055, 500.000000, 11851.6, -115.0 );	//ƒvƒŒƒCƒ„[‚ÌoŒ»ˆÊ’u‚ğŒÅ’è 
+	scr_PlayerSetForceRespawnPosition( 10216.331055, 500.000000, 11851.6, -115.0 );	//ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã®å‡ºç¾ä½ç½®ã‚’å›ºå®š 
 
 
-// ƒQ[ƒ€ŠJn‚ğ‘Ò‚¿‚Ü‚·
+// ã‚²ãƒ¼ãƒ é–‹å§‹ã‚’å¾…ã¡ã¾ã™
 	mis_WaitGameStart();
 
 }
@@ -261,8 +268,8 @@ function mis_WaitGameStart()
 		print("[sample mission] mis_WaitGameStart state = " + state + "\n" );
 		suspend();	
 	}
-	//BOT‚ğƒQ[ƒ€‚É”z’u 
-	//–¡•û
+	//BOTã‚’ã‚²ãƒ¼ãƒ ã«é…ç½® 
+	//å‘³æ–¹
 	scr_BotPlayerSpawnToMonument( 101, "gcmoA_001" );
 	scr_BotPlayerSpawnToMonument( 102, "gcmoA_001" );
 	scr_BotPlayerSpawnToMonument( 103, "gcmoA_001" );
@@ -277,7 +284,7 @@ function mis_WaitGameStart()
 //	scr_BotPlayerSetActionTrigger( 104, true );
 
 }
-//”Ä—pƒtƒ@ƒ“ƒNƒVƒ‡ƒ“ ////
+//æ±ç”¨ãƒ•ã‚¡ãƒ³ã‚¯ã‚·ãƒ§ãƒ³ ////
 function mis_Wait( sec )
 {
 	print("waitsec()\n");
@@ -302,38 +309,38 @@ function mis_MassageDialog( doc_id )
 function mis_CameraSet()
 {
 	print("cameraset()\n");
-//	scr_SetInputDisable( SCR_INPUT_MOVE );	//ˆÚ“®‚ğ‹Ö~ 
-	scr_SetInputDisable( SCR_INPUT_CAMERA );	//ƒJƒƒ‰‚ğ‹Ö~ 
+//	scr_SetInputDisable( SCR_INPUT_MOVE );	//ç§»å‹•ã‚’ç¦æ­¢ 
+	scr_SetInputDisable( SCR_INPUT_CAMERA );	//ã‚«ãƒ¡ãƒ©ã‚’ç¦æ­¢ 
 	scr_WaitStart( 0.65 );	
 	while( scr_Waiting() )	
 	{
 		suspend();
 	}
-//	scr_SetInputEnable( SCR_INPUT_MOVE );	//ˆÚ“®‚ğ‹Ö~‰ğœ 
-	scr_SetInputEnable( SCR_INPUT_CAMERA );	//ƒJƒƒ‰‹Ö~‰ğœ 
+//	scr_SetInputEnable( SCR_INPUT_MOVE );	//ç§»å‹•ã‚’ç¦æ­¢è§£é™¤ 
+	scr_SetInputEnable( SCR_INPUT_CAMERA );	//ã‚«ãƒ¡ãƒ©ç¦æ­¢è§£é™¤ 
 }
 function mis_BannerInfoTimer(fn_name,time)
 {
-	//“¯‚h‚cƒ^ƒCƒ}[ƒR[ƒ‹ƒoƒbƒN‚ÌƒZƒbƒgE“ü‚ê‘Ö‚¦ 
+	//åŒï¼©ï¼¤ã‚¿ã‚¤ãƒãƒ¼ã‚³ãƒ¼ãƒ«ãƒãƒƒã‚¯ã®ã‚»ãƒƒãƒˆãƒ»å…¥ã‚Œæ›¿ãˆ 
 	scr_RemoveCallbackFromId( 80000 );	
 	suspend();
 	scr_SetTimerCallback( fn_name, 80000, CB_TYPE_ONCE, time );
 }
 function miscb_BunnerInfoRemove()
 {
-	//ƒoƒi[ƒCƒ“ƒtƒHƒ[ƒVƒ‡ƒ“íœ 
+	//ãƒãƒŠãƒ¼ã‚¤ãƒ³ãƒ•ã‚©ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³å‰Šé™¤ 
 	print( "BunnerRemove!\n" );
 	scr_CloseMissionExpainText( 0 );
 }
 
 //////////////////////////////////////////////////////////////
-//ƒvƒŒƒCƒ„[‚ª‰‰ñoŒ‚‚µ‚½‚ÌƒR[ƒ‹ƒoƒbƒNˆ—‚É‚Â‚¢‚Ä‘‚±‚¤I 
+//ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ãŒåˆå›å‡ºæ’ƒã—ãŸæ™‚ã®ã‚³ãƒ¼ãƒ«ãƒãƒƒã‚¯å‡¦ç†ã«ã¤ã„ã¦æ›¸ã“ã†ï¼ 
 function miscb_PlayerSally_First()
 {
 	print( "Player is sally!\n" );
 	
 	scr_ResetGameCameraDirection( 7904.0, 10745.0, false );
-	scr_SetGameCameraAngleType( ANGLE_ZOOM_IN );	//ƒJƒƒ‰‘€ì 
+	scr_SetGameCameraAngleType( ANGLE_ZOOM_IN );	//ã‚«ãƒ¡ãƒ©æ“ä½œ 
 
 	mis_Wait( 0.5 );
 	
@@ -341,12 +348,12 @@ function miscb_PlayerSally_First()
 
 //	scr_OpenMissionConditionText(  0, "$TXHFC11101" );
 //	scr_OpenMissionStateText(  0, "$TXHFS11101" );
-	scr_OpenMissionConditionText(  0, "TXHFC01102" );	//“G‚Ìé‚ÉŒ}‚¦ 
+	scr_OpenMissionConditionText(  0, "TXHFC01102" );	//æ•µã®åŸã«è¿ãˆ 
 	
 	scr_BotPlayerSetSyncBreakCastleMonumentWithPlayer( POWER_COLOR_WHITE, true );
 
-	//“¹ˆÄ“à@7601 ‰º“ñŒ…‚Ó‚â‚µ‚Ä‚­B‚P‚Qí—Ş—\’è 
-	//“ü‚èŒûA‚µ‚å‚Á‚Ï‚ÈA‚V”ÔA‚U”ÔA‚T”ÔA‚S”ÔA‚R”ÔA‚Q”ÔA‚P”ÔŒš’zA–å”ÔE‚µAé–å”j‰ó 
+	//é“æ¡ˆå†…ã€€7601 ä¸‹äºŒæ¡ãµã‚„ã—ã¦ãã€‚ï¼‘ï¼’ç¨®é¡äºˆå®š 
+	//å…¥ã‚Šå£ã€ã—ã‚‡ã£ã±ãªã€ï¼—ç•ªã€ï¼–ç•ªã€ï¼•ç•ªã€ï¼”ç•ªã€ï¼“ç•ªã€ï¼’ç•ªã€ï¼‘ç•ªå»ºç¯‰ã€é–€ç•ªæ®ºã—ã€åŸé–€ç ´å£Š 
 	scr_CreateSceneEffect( 7601, "Ccam01c",    9129.495117, 581.000000, 11331.468,   -115.0 );
 
 }
@@ -354,14 +361,14 @@ function miscb_TimeOver()
 {
 	print( "TimeOver!\n" );
 	scr_RemoveCallbackAll();
-	scr_CloseMissionConditionText( 0 );	//’B¬ğŒ‚ğ”ñ•\¦ 
-	scr_CloseMissionStateText( 0 );	//’B¬ó‹µ‚ğ”ñ•\¦ 
+	scr_CloseMissionConditionText( 0 );	//é”æˆæ¡ä»¶ã‚’éè¡¨ç¤º 
+	scr_CloseMissionStateText( 0 );	//é”æˆçŠ¶æ³ã‚’éè¡¨ç¤º 
 	scr_CloseMissionExpainText( 0 );
 
 	
 	mis_MassageDialog( "C111_16" );
 
-	scr_GameSetMissionFailure();	//ƒ~ƒbƒVƒ‡ƒ“¸”s 
+	scr_GameSetMissionFailure();	//ãƒŸãƒƒã‚·ãƒ§ãƒ³å¤±æ•— 
 }
 function miscb_GameSetWinWhite()
 {
@@ -370,8 +377,8 @@ function miscb_GameSetWinWhite()
 	scr_GameSetMissionSuccess();
 
 	scr_RemoveCallbackAll();
-	scr_CloseMissionConditionText( 0 );	//’B¬ğŒ‚ğ”ñ•\¦ 
-	scr_CloseMissionStateText( 0 );	//’B¬ó‹µ‚ğ”ñ•\¦ 
+	scr_CloseMissionConditionText( 0 );	//é”æˆæ¡ä»¶ã‚’éè¡¨ç¤º 
+	scr_CloseMissionStateText( 0 );	//é”æˆçŠ¶æ³ã‚’éè¡¨ç¤º 
 	scr_CloseMissionExpainText( 0 );
 
 	scr_BotPlayerSetLife( 201, 0 );
@@ -408,17 +415,17 @@ function miscb_GameSetWinBlack()
 	
 	scr_GameSetMissionFailure();
 	scr_RemoveCallbackAll();
-	scr_CloseMissionConditionText( 0 );	//’B¬ğŒ‚ğ”ñ•\¦ 
-	scr_CloseMissionStateText( 0 );	//’B¬ó‹µ‚ğ”ñ•\¦ 
+	scr_CloseMissionConditionText( 0 );	//é”æˆæ¡ä»¶ã‚’éè¡¨ç¤º 
+	scr_CloseMissionStateText( 0 );	//é”æˆçŠ¶æ³ã‚’éè¡¨ç¤º 
 	scr_CloseMissionExpainText( 0 );
 
 
-	// ƒ^ƒCƒ~ƒ“ƒO‚ÍƒrƒbƒOƒ^ƒ[”j‰ó’¼ŒãBƒoƒi[ƒeƒLƒXƒg•\¦‚ğ‘Ò‚Âˆ—‚ğ“ü‚ê‚æ‚¤I 
+	// ã‚¿ã‚¤ãƒŸãƒ³ã‚°ã¯ãƒ“ãƒƒã‚°ã‚¿ãƒ¯ãƒ¼ç ´å£Šç›´å¾Œã€‚ãƒãƒŠãƒ¼ãƒ†ã‚­ã‚¹ãƒˆè¡¨ç¤ºã‚’å¾…ã¤å‡¦ç†ã‚’å…¥ã‚Œã‚ˆã†ï¼ 
 	mis_Wait( 1.6 );
 		
 	mis_MassageDialog( "C111_14" );
 }
-//©•ª‚Ìé‚É‚¢‚Â‚Ã‚¯‚é‚Æ“G”­¶ 
+//è‡ªåˆ†ã®åŸã«ã„ã¤ã¥ã‘ã‚‹ã¨æ•µç™ºç”Ÿ 
 function miscb_TrapIn1000()
 {
 	print( "TrapIn 1000!\n" );
@@ -433,7 +440,7 @@ function miscb_TrapOut1000()
 }
 function miscb_InOwnCastle()
 {
-	//é‚Ì’†‚É1•ªˆÈã‚¢‚½ 
+	//åŸã®ä¸­ã«1åˆ†ä»¥ä¸Šã„ãŸ 
 	scr_RemoveCallbackFromId( 10000 );
 	scr_RemoveCallbackFromId( 100000 );
 	suspend();
@@ -450,7 +457,7 @@ function miscb_InOwnCastle()
 //////////////////////////////////
 function miscb_TrapIn1001()
 {
-	//é–å‚Ì‚·‚®‘O‚É‚ ‚éƒgƒ‰ƒbƒv 
+	//åŸé–€ã®ã™ãå‰ã«ã‚ã‚‹ãƒˆãƒ©ãƒƒãƒ— 
 	print( "TrapIn 1001!\n" );
 	mis_Wait( 0.6 );
 
@@ -473,24 +480,24 @@ function miscb_TrapIn1001()
 //		suspend();
 //	}
 
-	mis_BannerInfoTimer("miscb_BunnerInfo0102",3.0);	//ƒoƒi[‚ğŸ‚Ì‚à‚Ì‚ÉXV 
+	mis_BannerInfoTimer("miscb_BunnerInfo0102",3.0);	//ãƒãƒŠãƒ¼ã‚’æ¬¡ã®ã‚‚ã®ã«æ›´æ–° 
 	scr_CreateSceneSound( 66621, 850, 0.0, 0.0, 0.0 );
-	scr_OpenMissionExpainText( 0, "#TXCMB11031" );	//‚Ğ‚¢Io‚½  
+	scr_OpenMissionExpainText( 0, "#TXCMB11031" );	//ã²ã„ï¼å‡ºãŸ  
 
-	//‚Q‚O‚P”Ô‚ª€‚ñ‚¾‚ç–îˆóo‚·B 
+	//ï¼’ï¼ï¼‘ç•ªãŒæ­»ã‚“ã ã‚‰çŸ¢å°å‡ºã™ã€‚ 
 	scr_AddDeathEnemyCallback( "miscb_KilledBot201", 201 );
 	
 }
 function miscb_BunnerInfo0102()
 {
-	//ƒoƒi[ƒCƒ“ƒtƒHƒ[ƒVƒ‡ƒ“‘±‚« 
+	//ãƒãƒŠãƒ¼ã‚¤ãƒ³ãƒ•ã‚©ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ç¶šã 
 	print( "Bunner0101!\n" );
-	mis_BannerInfoTimer("miscb_BunnerInfoRemove",8.0);	//ƒoƒi[‚ğíœ‚·‚é 
-	scr_OpenMissionExpainText( 0, "#TXCMB11032" );	//‚Ğ‚¢Io‚½  
+	mis_BannerInfoTimer("miscb_BunnerInfoRemove",8.0);	//ãƒãƒŠãƒ¼ã‚’å‰Šé™¤ã™ã‚‹ 
+	scr_OpenMissionExpainText( 0, "#TXCMB11032" );	//ã²ã„ï¼å‡ºãŸ  
 }
 function miscb_KilledBot201()
 {
-	print( "“G‚Í€‚ñ‚¾‚Ì‚Å—U“±!\n" );
+	print( "æ•µã¯æ­»ã‚“ã ã®ã§èª˜å°!\n" );
 	scr_RemoveDeathEnemyCallback( 201 );
 	scr_CreateSceneEffect( 7602, "Ccam01c",    5881.153320, 507.000000, 10418.968,   -108.0 );
 }
@@ -498,11 +505,11 @@ function miscb_KilledBot201()
 gFirstMonument <- 0;
 function miscb_TrapIn1002()
 {
-	//‹´‚Ì‚ ‚é“¹‚ğ’Ê‚éƒ‹[ƒgB 
+	//æ©‹ã®ã‚ã‚‹é“ã‚’é€šã‚‹ãƒ«ãƒ¼ãƒˆã€‚ 
 	print( "TrapIn 1002!\n" );
 	scr_RemoveCallbackFromId( 12002 );
 
-	//ƒ^ƒ[oŒ»‚ğ‘Ò‚Â 
+	//ã‚¿ãƒ¯ãƒ¼å‡ºç¾ã‚’å¾…ã¤ 
 	mis_Wait( 1.0 );
 
 	scr_BotPlayerSpawnToWorld( 206,  3626.75, 100.08, 6674.7, 0.0 );	//MOBsF 
@@ -513,7 +520,7 @@ function miscb_TrapIn1002()
 	scr_BotPlayerSetActionTrigger( 206, true );
 	scr_BotPlayerSetActionTrigger( 207, true );
 
-	//ƒ{ƒbƒg‚ÌƒŠƒXƒ|[ƒ“ŠÇ— 
+	//ãƒœãƒƒãƒˆã®ãƒªã‚¹ãƒãƒ¼ãƒ³ç®¡ç† 
 	scr_BotPlayerSetRespawnEnable( 204, false );	//MOB_T 
 	scr_BotPlayerSetRespawnEnable( 205, false );	//MOB_T 
 
@@ -528,22 +535,22 @@ function miscb_TrapIn1002()
 }
 function miscb_TrapIn2002()
 {
-	//‹´‚Ì‚ ‚é“¹‚ğ’Ê‚éƒ‹[ƒg‚ğ‹t‚©‚ç 
+	//æ©‹ã®ã‚ã‚‹é“ã‚’é€šã‚‹ãƒ«ãƒ¼ãƒˆã‚’é€†ã‹ã‚‰ 
 	print( "TrapIn 2002!\n" );
 	scr_RemoveCallbackFromId( 10002 );
 }
-//ƒ‚ƒjƒ…ƒƒ“ƒgó‘Ô•Ï” 0=–¢Œš’z@1=•Œš’z 2=”’Œš’z 
+//ãƒ¢ãƒ‹ãƒ¥ãƒ¡ãƒ³ãƒˆçŠ¶æ…‹å¤‰æ•° 0=æœªå»ºç¯‰ã€€1=é»’å»ºç¯‰ 2=ç™½å»ºç¯‰ 
 gMonument07 <- 0 ;
 function miscb_TrapIn1003()
 {
-	//³–Ê‚Ìƒoƒ‰‚Ì“¹‚ğ’Ê‚éƒ‹[ƒgBƒ^ƒ[‚P‚ğ•‚ÉB 
+	//æ­£é¢ã®ãƒãƒ©ã®é“ã‚’é€šã‚‹ãƒ«ãƒ¼ãƒˆã€‚ã‚¿ãƒ¯ãƒ¼ï¼‘ã‚’é»’ã«ã€‚ 
 	print( "TrapIn 1003!\n" );
 	scr_CompleteMonumentBuild( "gfmo_001", POWER_COLOR_BLACK );
 	scr_SetBreakMonumentCallback( "miscb_BreakMonument07", 20001, CB_TYPE_ONCE, "gfmo_001" );
 	gMonument07 = 1 ;
 	scr_RemoveCallbackFromId( 12003 );
 
-	//ƒ^ƒ[oŒ»‚ğ‘Ò‚Â 
+	//ã‚¿ãƒ¯ãƒ¼å‡ºç¾ã‚’å¾…ã¤ 
 	mis_Wait( 1.0 );
 
 	scr_BotPlayerSpawnToMonument( 204, "gfmo_001" );
@@ -551,14 +558,14 @@ function miscb_TrapIn1003()
 	mis_Wait( 0.2 );
 	scr_BotPlayerSpawnToMonument( 205, "gfmo_001" );
 
-	//ƒ{ƒbƒg‚ÌƒŠƒXƒ|[ƒ“ŠÇ— 
+	//ãƒœãƒƒãƒˆã®ãƒªã‚¹ãƒãƒ¼ãƒ³ç®¡ç† 
 	scr_BotPlayerSetRespawnEnable( 204, true );	//MOB_T 
 	scr_BotPlayerSetRespawnEnable( 205, false );	//MOB_T 
 
 
-	mis_InfomationAboutTower();	//‚à‚µ‰‚Ì“Gƒ^ƒ[‚È‚ç‰ğàƒƒbƒZ[ƒW 
-//	scr_OpenMissionConditionText1( 0, "TXHFC01106", 7 );	//‚±‚Ìƒ^ƒ[‚ÉŠÖ‚µ‚Ä‚Ì‚İİ’è‚·‚é 
-	scr_OpenMissionConditionText(  0, "TXHFC01105" );	//ƒ^ƒ[‚ğ—§‚Ä‚Â‚Â“G‚Ìé‚Ö 
+	mis_InfomationAboutTower();	//ã‚‚ã—åˆã®æ•µã‚¿ãƒ¯ãƒ¼ãªã‚‰è§£èª¬ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ 
+//	scr_OpenMissionConditionText1( 0, "TXHFC01106", 7 );	//ã“ã®ã‚¿ãƒ¯ãƒ¼ã«é–¢ã—ã¦ã®ã¿è¨­å®šã™ã‚‹ 
+	scr_OpenMissionConditionText(  0, "TXHFC01105" );	//ã‚¿ãƒ¯ãƒ¼ã‚’ç«‹ã¦ã¤ã¤æ•µã®åŸã¸ 
 
 	mis_Wait( 3.0 );
 	scr_BotPlayerSpawnToWorld( 206, -2340.44, 499.98, 8250.4, 0.0 );	//MOBsd 
@@ -573,7 +580,7 @@ function miscb_TrapIn1003()
 }
 function miscb_TrapIn2003()
 {
-	//³–Ê‚Ìƒoƒ‰‚Ì“¹‚ğ’Ê‚éƒ‹[ƒg‚ğ‹t‚©‚çB 
+	//æ­£é¢ã®ãƒãƒ©ã®é“ã‚’é€šã‚‹ãƒ«ãƒ¼ãƒˆã‚’é€†ã‹ã‚‰ã€‚ 
 	print( "TrapIn 2003!\n" );
 	scr_RemoveCallbackFromId( 10003 );
 }
@@ -583,35 +590,35 @@ function mis_InfomationAboutTower()
 	{
 		gFirstMonument = 1;
 
-		mis_BannerInfoTimer("miscb_BunnerInfo0202",3.0);	//ƒoƒi[‚ğŸ‚Ì‚à‚Ì‚ÉXV 
+		mis_BannerInfoTimer("miscb_BunnerInfo0202",3.0);	//ãƒãƒŠãƒ¼ã‚’æ¬¡ã®ã‚‚ã®ã«æ›´æ–° 
 		scr_CreateSceneSound( 66621, 850, 0.0, 0.0, 0.0 );
-		scr_OpenMissionExpainText( 0, "#TXCMB11041" );	//‚Ğ‚¢Io‚½  
+		scr_OpenMissionExpainText( 0, "#TXCMB11041" );	//ã²ã„ï¼å‡ºãŸ  
 	}
 }
 function miscb_BunnerInfo0202()
 {
-	//ƒoƒi[ƒCƒ“ƒtƒHƒ[ƒVƒ‡ƒ“‘±‚« 
+	//ãƒãƒŠãƒ¼ã‚¤ãƒ³ãƒ•ã‚©ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ç¶šã 
 	print( "Bunner0202!\n" );
-	mis_BannerInfoTimer("miscb_BunnerInfo0203",4.0);	//ƒoƒi[‚ğíœ‚·‚é 
-	scr_OpenMissionExpainText( 0, "#TXCMB11042" );	//‚Ğ‚¢Io‚½  
+	mis_BannerInfoTimer("miscb_BunnerInfo0203",4.0);	//ãƒãƒŠãƒ¼ã‚’å‰Šé™¤ã™ã‚‹ 
+	scr_OpenMissionExpainText( 0, "#TXCMB11042" );	//ã²ã„ï¼å‡ºãŸ  
 }
 function miscb_BunnerInfo0203()
 {
-	//ƒoƒi[ƒCƒ“ƒtƒHƒ[ƒVƒ‡ƒ“‘±‚« 
+	//ãƒãƒŠãƒ¼ã‚¤ãƒ³ãƒ•ã‚©ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ç¶šã 
 	print( "Bunner0203!\n" );
-	mis_BannerInfoTimer("miscb_BunnerInfo0204",4.0);	//ƒoƒi[‚ğíœ‚·‚é 
-	scr_OpenMissionExpainText( 0, "#TXCMB11043" );	//‚Ğ‚¢Io‚½  
+	mis_BannerInfoTimer("miscb_BunnerInfo0204",4.0);	//ãƒãƒŠãƒ¼ã‚’å‰Šé™¤ã™ã‚‹ 
+	scr_OpenMissionExpainText( 0, "#TXCMB11043" );	//ã²ã„ï¼å‡ºãŸ  
 }
 function miscb_BunnerInfo0204()
 {
-	//ƒoƒi[ƒCƒ“ƒtƒHƒ[ƒVƒ‡ƒ“‘±‚« 
+	//ãƒãƒŠãƒ¼ã‚¤ãƒ³ãƒ•ã‚©ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ç¶šã 
 	print( "Bunner0204!\n" );
-	mis_BannerInfoTimer("miscb_BunnerInfoRemove",12.0);	//ƒoƒi[‚ğíœ‚·‚é 
-	scr_OpenMissionExpainText( 0, "#TXCMB11044" );	//‚Ğ‚¢Io‚½  
+	mis_BannerInfoTimer("miscb_BunnerInfoRemove",12.0);	//ãƒãƒŠãƒ¼ã‚’å‰Šé™¤ã™ã‚‹ 
+	scr_OpenMissionExpainText( 0, "#TXCMB11044" );	//ã²ã„ï¼å‡ºãŸ  
 }
 function miscb_TrapIn1004()
 {
-	//Î‚ÌƒA[ƒ`‚ª‚ ‚é“¹‚ğ’Ê‚éƒ‹[ƒgB 
+	//çŸ³ã®ã‚¢ãƒ¼ãƒãŒã‚ã‚‹é“ã‚’é€šã‚‹ãƒ«ãƒ¼ãƒˆã€‚ 
 	print( "TrapIn 1004!\n" );
 	scr_RemoveCallbackFromId( 12004 );
 
@@ -630,25 +637,25 @@ function miscb_TrapIn1004()
 }
 function miscb_TrapIn2004()
 {
-	//Î‚ÌƒA[ƒ`‚ª‚ ‚é“¹‚ğ’Ê‚éƒ‹[ƒg‚ğ‹t‚©‚çB 
+	//çŸ³ã®ã‚¢ãƒ¼ãƒãŒã‚ã‚‹é“ã‚’é€šã‚‹ãƒ«ãƒ¼ãƒˆã‚’é€†ã‹ã‚‰ã€‚ 
 	print( "TrapIn 2004!\n" );
 	scr_RemoveCallbackFromId( 10004 );
 }
 function miscb_BreakMonument07()
 {
-	//ƒ^ƒ[7‚ğ”j‰óB 
+	//ã‚¿ãƒ¯ãƒ¼7ã‚’ç ´å£Šã€‚ 
 	print( "BreakM01!\n" );
 	gMonument07 = 0;
 
-	scr_SetBuildMonumentCallback( "miscb_BuildMonument07", 200012, CB_TYPE_ONCE, "gfmo_001", MONUMENT_BUILD_OWNERSHIP );	//4”Ôƒ^ƒ[‚ğŒš‚Ä‚½ 
+	scr_SetBuildMonumentCallback( "miscb_BuildMonument07", 200012, CB_TYPE_ONCE, "gfmo_001", MONUMENT_BUILD_OWNERSHIP );	//4ç•ªã‚¿ãƒ¯ãƒ¼ã‚’å»ºã¦ãŸ 
 
-	//ƒ{ƒbƒg‚ÌƒŠƒXƒ|[ƒ“ŠÇ— 
+	//ãƒœãƒƒãƒˆã®ãƒªã‚¹ãƒãƒ¼ãƒ³ç®¡ç† 
 	scr_BotPlayerSetRespawnEnable( 204, false );	//MOB_T 
 	scr_BotPlayerSetRespawnEnable( 205, false );	//MOB_T 
 }
 function miscb_BuildMonument07()
 {
-	//ƒ^ƒ[7‚ğŒš’zB 
+	//ã‚¿ãƒ¯ãƒ¼7ã‚’å»ºç¯‰ã€‚ 
 //	scr_CreateSceneEffect( 7603, "Ccam01c",    2073.381348, 508.000031, 9141.7005,   -114.0 );
 	scr_CreateSceneEffect( 7603, "Ccam01c",    1188.517822, 507.999847, 8519.669922,   -93.0 );
 	scr_CreateSceneEffect( 17603, "Ccam01c",    -3524.177734, 507.999939, 9489.948242,   -57.0 );
@@ -659,7 +666,7 @@ function miscb_BuildMonument07()
 gMonument06 <- 0;
 function miscb_TrapIn1005()
 {
-	//ƒ^ƒ[2Œü‚©‚Á‚Ä‰E‚Ì‹´ 
+	//ã‚¿ãƒ¯ãƒ¼2å‘ã‹ã£ã¦å³ã®æ©‹ 
 	print( "TrapIn 1005!\n" );
 	mis_BuildTower06Black();
 	scr_RemoveCallbackFromId( 10006 );
@@ -672,7 +679,7 @@ function miscb_TrapIn1006()
 }
 function mis_BuildTower06Black()
 {
-	//ƒ^ƒ[6‚ªƒNƒ‚¶‚á‚È‚¯‚ê‚Î•‚É‚µ‚Ä“GoŒ» 
+	//ã‚¿ãƒ¯ãƒ¼6ãŒã‚¯ãƒ­ã˜ã‚ƒãªã‘ã‚Œã°é»’ã«ã—ã¦æ•µå‡ºç¾ 
 	print( "builedM06!\n" );
 	if(gMonument06 == 0){
 		scr_CompleteMonumentBuild( "gfmo_003", POWER_COLOR_BLACK );
@@ -699,29 +706,29 @@ function mis_BuildTower06Black()
 		scr_BotPlayerSetRespawnEnable( 209, false );	//MOB_T 
 	}
 
-		scr_OpenMissionConditionText(  0, "TXHFC01105" );	//ƒ^ƒ[‚ğ—§‚Ä‚Â‚Â“G‚Ìé‚Ö 
+		scr_OpenMissionConditionText(  0, "TXHFC01105" );	//ã‚¿ãƒ¯ãƒ¼ã‚’ç«‹ã¦ã¤ã¤æ•µã®åŸã¸ 
 
-	mis_InfomationAboutTower();	//‚à‚µ‰‚Ì“Gƒ^ƒ[‚È‚ç‰ğàƒƒbƒZ[ƒW 
+	mis_InfomationAboutTower();	//ã‚‚ã—åˆã®æ•µã‚¿ãƒ¯ãƒ¼ãªã‚‰è§£èª¬ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ 
 
 
 }
 function miscb_BreakMonument06()
 {
-	//ƒ^ƒ[6‚ğ”j‰ó 
+	//ã‚¿ãƒ¯ãƒ¼6ã‚’ç ´å£Š 
 	print( "BreakM06!\n" );
 	gMonument06 = 0;
 
-	scr_OpenMissionConditionText(  0, "TXHFC01105" );	//ƒ^ƒ[‚ğ—§‚Ä‚Â‚Â“G‚Ìé‚Ö 
+	scr_OpenMissionConditionText(  0, "TXHFC01105" );	//ã‚¿ãƒ¯ãƒ¼ã‚’ç«‹ã¦ã¤ã¤æ•µã®åŸã¸ 
 
 	scr_BotPlayerSetRespawnEnable( 208, false );	//MOB_T 
 	scr_BotPlayerSetRespawnEnable( 209, false );	//MOB_T 
 
-	scr_SetBuildMonumentCallback( "miscb_BuildMonument06", 2000232, CB_TYPE_ONCE, "gfmo_003", MONUMENT_BUILD_OWNERSHIP );	//4”Ôƒ^ƒ[‚ğŒš‚Ä‚½ 
+	scr_SetBuildMonumentCallback( "miscb_BuildMonument06", 2000232, CB_TYPE_ONCE, "gfmo_003", MONUMENT_BUILD_OWNERSHIP );	//4ç•ªã‚¿ãƒ¯ãƒ¼ã‚’å»ºã¦ãŸ 
 
 }
 function miscb_BuildMonument06()
 {
-	//ƒ^ƒ[6‚ğŒš’zB 
+	//ã‚¿ãƒ¯ãƒ¼6ã‚’å»ºç¯‰ã€‚ 
 		print( "BilllM06!\n" );
 	scr_CreateSceneEffect( 7604, "Ccam01c",  -8232.653320, 575.804260, 6802.891,   -127.0 );
 }
@@ -729,17 +736,17 @@ function miscb_BuildMonument06()
 gMonument05 <- 0;
 function miscb_TrapIn1007()
 {
-	//ƒwƒr[oŒ» 
+	//ãƒ˜ãƒ“ãƒ¼å‡ºç¾ 
 	print( "TrapIn 1007!\n" );
-	scr_OpenMissionConditionText(  0, "TXHFC01105" );	//ƒ^ƒ[‚ğ—§‚Ä‚Â‚Â“G‚Ìé‚Ö 
+	scr_OpenMissionConditionText(  0, "TXHFC01105" );	//ã‚¿ãƒ¯ãƒ¼ã‚’ç«‹ã¦ã¤ã¤æ•µã®åŸã¸ 
 	
-	//ƒ^ƒ[5‚ğ•‚É‚µ‚Äƒ^ƒCƒ}[‚ğİ’u 
+	//ã‚¿ãƒ¯ãƒ¼5ã‚’é»’ã«ã—ã¦ã‚¿ã‚¤ãƒãƒ¼ã‚’è¨­ç½® 
 	if(gMonument05 == 0)
 	{
 		scr_CompleteMonumentBuild( "gfmo_004", POWER_COLOR_BLACK );
 		scr_SetBreakMonumentCallback( "miscb_BreakMonument05", 20004, CB_TYPE_ONCE, "gfmo_004" );
 		gMonument05 = 1 ;
-		//ƒ^ƒCƒ}[‚Åƒ{ƒbƒg‚ğ¢Š«‚·‚é‚â‚Â 
+		//ã‚¿ã‚¤ãƒãƒ¼ã§ãƒœãƒƒãƒˆã‚’å¬å–šã™ã‚‹ã‚„ã¤ 
 		scr_SetTimerCallback( "miscb_BotSpawn201202tower05", 1201202, CB_TYPE_ONCE, 10.0 );
 
 	}
@@ -758,20 +765,20 @@ function miscb_TrapIn1007()
 	scr_BotPlayerSetActionTrigger( 213, true );
 	scr_BotPlayerSetActionTrigger( 214, true );
 
-	mis_BannerInfoTimer("miscb_BunnerInfo0302",3.0);	//ƒoƒi[‚ğŸ‚Ì‚à‚Ì‚ÉXV 
+	mis_BannerInfoTimer("miscb_BunnerInfo0302",3.0);	//ãƒãƒŠãƒ¼ã‚’æ¬¡ã®ã‚‚ã®ã«æ›´æ–° 
 	scr_CreateSceneSound( 66621, 850, 0.0, 0.0, 0.0 );
-	scr_OpenMissionExpainText( 0, "#TXCMB11051" );	//‚Ì‚ë‚Ü‚ª‚Å‚Ä‚«‚½‚º  
+	scr_OpenMissionExpainText( 0, "#TXCMB11051" );	//ã®ã‚ã¾ãŒã§ã¦ããŸãœ  
 }
 function miscb_BreakMonument05()
 {
-	//ƒ^ƒ[5‚ğ”j‰ó 
+	//ã‚¿ãƒ¯ãƒ¼5ã‚’ç ´å£Š 
 	print( "BreakM05!\n" );
 	gMonument05 = 0;
 
 	scr_BotPlayerSetRespawnEnable( 208, false );	//MOB_T 
 	scr_BotPlayerSetRespawnEnable( 209, false );	//MOB_T 
 	
-	//ƒ^ƒ[‚S‚ğ•‚É 
+	//ã‚¿ãƒ¯ãƒ¼ï¼”ã‚’é»’ã« 
 	if(gMonument04 == 0)
 	{
 		scr_CompleteMonumentBuild( "gfmo_002", POWER_COLOR_BLACK );
@@ -794,20 +801,20 @@ function miscb_BreakMonument05()
 }
 function miscb_BuildMonument05()
 {
-	//ƒ^ƒ[5‚ğŒš’zB 
+	//ã‚¿ãƒ¯ãƒ¼5ã‚’å»ºç¯‰ã€‚ 
 	scr_CreateSceneEffect( 7605, "Ccam01c",    -11196.185547, 107.000000, 1232.786,   137.0 );
 	scr_CreateSceneEffect( 17605, "Ccam01c",    -9156.767578, 107.000000, -1266.61,   140.0 );
 }
 function miscb_BunnerInfo0302()
 {
-	//ƒoƒi[ƒCƒ“ƒtƒHƒ[ƒVƒ‡ƒ“‘±‚« 
+	//ãƒãƒŠãƒ¼ã‚¤ãƒ³ãƒ•ã‚©ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ç¶šã 
 	print( "Bunner0302!\n" );
-	mis_BannerInfoTimer("miscb_BunnerInfoRemove",5.0);	//ƒoƒi[‚ğíœ‚·‚é 
-	scr_OpenMissionExpainText( 0, "#TXCMB11052" );	//‚©‚ñ‚¯[‚Ë‚¥  
+	mis_BannerInfoTimer("miscb_BunnerInfoRemove",5.0);	//ãƒãƒŠãƒ¼ã‚’å‰Šé™¤ã™ã‚‹ 
+	scr_OpenMissionExpainText( 0, "#TXCMB11052" );	//ã‹ã‚“ã‘ãƒ¼ã­ã‡  
 }
 function miscb_BotSpawn201202tower05()
 {
-	//ƒ^ƒ[5‚ª•‚È‚ç“GoŒ» 
+	//ã‚¿ãƒ¯ãƒ¼5ãŒé»’ãªã‚‰æ•µå‡ºç¾ 
 	if(gMonument05 == 1)
 	{
 		print( "sp201202toM05!\n" );
@@ -823,13 +830,13 @@ function miscb_BotSpawn201202tower05()
 gMonument04 <- 0;
 function miscb_TrapIn1008()
 {
-	//ƒ^ƒ[4‚ª•‚È‚ç“GoŒ» 
+	//ã‚¿ãƒ¯ãƒ¼4ãŒé»’ãªã‚‰æ•µå‡ºç¾ 
 	print( "TrapIn 1008!\n" );
 
 	scr_BotPlayerSetRespawnEnable( 208, false );	//MOB_T 
 	scr_BotPlayerSetRespawnEnable( 209, false );	//MOB_T 
 	
-	//ƒ^ƒ[‚S‚ğ•‚É 
+	//ã‚¿ãƒ¯ãƒ¼ï¼”ã‚’é»’ã« 
 	if(gMonument04 == 0)
 	{
 		scr_CompleteMonumentBuild( "gfmo_002", POWER_COLOR_BLACK );
@@ -850,7 +857,7 @@ function miscb_TrapIn1008()
 gMonument03 <- 0;
 function miscb_BreakMonument04()
 {
-	//ƒ^ƒ[‚S‚ğ”j‰ó‚µ‚½‚çƒ^ƒ[3‚ğ•‚É‚µ‚Â‚Âƒ{ƒbƒgƒŠƒXƒ|[ƒ“‚ğ§Œä 
+	//ã‚¿ãƒ¯ãƒ¼ï¼”ã‚’ç ´å£Šã—ãŸã‚‰ã‚¿ãƒ¯ãƒ¼3ã‚’é»’ã«ã—ã¤ã¤ãƒœãƒƒãƒˆãƒªã‚¹ãƒãƒ¼ãƒ³ã‚’åˆ¶å¾¡ 
 	print( "BreakM04!\n" );
 	gMonument04 = 3;
 
@@ -865,7 +872,7 @@ function miscb_BreakMonument04()
 		gMonument03 = 1 ;
 	}
 
-	//Ÿ‚ÌƒCƒxƒ“ƒg‚É”õ‚¦‹´‚Ì–‚pt‚ğE‚µ‚Ä‚¨‚­ 
+	//æ¬¡ã®ã‚¤ãƒ™ãƒ³ãƒˆã«å‚™ãˆæ©‹ã®é­”è¡“å¸«ã‚’æ®ºã—ã¦ãŠã 
 	if(scr_BotPlayerGetLife( 210 ) != 0 )
 	{
 		print( "remove210!\n" );
@@ -883,12 +890,12 @@ function miscb_BreakMonument04()
 }
 function miscb_BuildMonument04()
 {
-	//ƒ^ƒ[4‚ğŒš’zB 
+	//ã‚¿ãƒ¯ãƒ¼4ã‚’å»ºç¯‰ã€‚ 
 	scr_CreateSceneEffect( 7606, "Ccam01c",  -7112.963867, 547.423950, -3246.082,   82.0 );
 }
 function miscb_TrapIn1013()
 {
-	//ƒ^ƒ[3‚ª—§‚Á‚Ä‚¢‚È‚¯‚ê‚Î—§‚Ä‚Â‚Â–‚–@g‚¢ŒR’c‚ğoŒ»‚³‚¹‚Â‚ÂƒƒbƒZ[ƒW‚éB 
+	//ã‚¿ãƒ¯ãƒ¼3ãŒç«‹ã£ã¦ã„ãªã‘ã‚Œã°ç«‹ã¦ã¤ã¤é­”æ³•ä½¿ã„è»å›£ã‚’å‡ºç¾ã•ã›ã¤ã¤ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚‹ã€‚ 
 	print( "TrapIn 1013!\n" );
 
 	scr_BotPlayerSetRespawnEnable( 208, false );	//MOB_T 
@@ -903,15 +910,15 @@ function miscb_TrapIn1013()
 	}
 
 
-	//’†ƒ{ƒX–‚–@g‚¢‚ğ¢Š« 
-	scr_ResetGameCameraDirection( -3015.471436, -1726.461182, false );	//ƒ{ƒX‚Á‚Û‚¢“z‚Ì•ûŒü‚ğŒü‚­
-	if(scr_GetGameCameraAngleType() == ANGLE_ZOOM_OUT2 )	//ƒJƒƒ‰‚ª‚’¼Œ©‰º‚ë‚µ‚Ìê‡‚ÍŒ©‰º‚ë‚µ‚É 
+	//ä¸­ãƒœã‚¹é­”æ³•ä½¿ã„ã‚’å¬å–š 
+	scr_ResetGameCameraDirection( -3015.471436, -1726.461182, false );	//ãƒœã‚¹ã£ã½ã„å¥´ã®æ–¹å‘ã‚’å‘ã
+	if(scr_GetGameCameraAngleType() == ANGLE_ZOOM_OUT2 )	//ã‚«ãƒ¡ãƒ©ãŒå‚ç›´è¦‹ä¸‹ã‚ã—ã®å ´åˆã¯è¦‹ä¸‹ã‚ã—ã« 
 	{
 		scr_SetGameCameraAngleType( ANGLE_ZOOM_OUT );
 	}
 	mis_CameraSet();
-	scr_CreateSceneEffect( 51, "Slis02c", -3015.471436, 555.281494, -1726.461182, 0.0  );	//——‹ 
-	scr_CreateSceneEffect( 52, "Slis03c", -3015.471436, 555.281494, -1726.461182, 0.0  );	//——‹ 
+	scr_CreateSceneEffect( 51, "Slis02c", -3015.471436, 555.281494, -1726.461182, 0.0  );	//è½é›· 
+	scr_CreateSceneEffect( 52, "Slis03c", -3015.471436, 555.281494, -1726.461182, 0.0  );	//è½é›· 
 	scr_CreateSceneSound( 50110, 80950, -3015.471436, 555.281494, -1726.461182 );
 	scr_BotPlayerSpawnToWorld( 219,  -3015.471436, 555.281494, -1726.461182, -80.0 );	//DARKMAGE 
 	suspend();
@@ -919,7 +926,7 @@ function miscb_TrapIn1013()
 	scr_RemoveScene( 52, false );
 	mis_CameraSet();
 
-	//ƒUƒR–‚–@g‚¢‚ğ¢Š« 
+	//ã‚¶ã‚³é­”æ³•ä½¿ã„ã‚’å¬å–š 
 	scr_BotPlayerSpawnToWorld( 210,  -3736.853271, 100.000000, -4393.96289, -100.0 );	//CAndle 
 	scr_BotPlayerSpawnToWorld( 211,  -2430.222656, 100.000000, -3913.61547, -100.0 );	//CAndle 
 	scr_BotPlayerSpawnToWorld( 215,  -3871.904785, 101.303963, -267.150269, -100.0 );	//CAndle 
@@ -937,7 +944,7 @@ function miscb_TrapIn1013()
 	scr_BotPlayerSetActionTrigger( 218, true );
 	scr_BotPlayerSetActionTrigger( 219, true );
 
-	//candle‚ÌƒŠƒXƒ|[ƒ“‚ğ‰ğœ 
+	//candleã®ãƒªã‚¹ãƒãƒ¼ãƒ³ã‚’è§£é™¤ 
 	scr_AddStandbyEnemyCallback( "miscb_respawn210Tower03", 210, STANDBY_CAN_RESPAWN_TIMING );
 	scr_AddStandbyEnemyCallback( "miscb_respawn211Tower03", 211, STANDBY_CAN_RESPAWN_TIMING );
 	scr_AddStandbyEnemyCallback( "miscb_respawn215Tower03", 215, STANDBY_CAN_RESPAWN_TIMING );
@@ -948,31 +955,31 @@ function miscb_TrapIn1013()
 
 	mis_Wait( 0.4 );
 
-	mis_BannerInfoTimer("miscb_BunnerInfo0402",3.0);	//ƒoƒi[‚ğŸ‚Ì‚à‚Ì‚ÉXV 
+	mis_BannerInfoTimer("miscb_BunnerInfo0402",3.0);	//ãƒãƒŠãƒ¼ã‚’æ¬¡ã®ã‚‚ã®ã«æ›´æ–° 
 	scr_CreateSceneSound( 66621, 850, 0.0, 0.0, 0.0 );
-	scr_OpenMissionExpainText( 0, "#TXCMB11061" );	//‚Ş‚è‚¾‚º  
+	scr_OpenMissionExpainText( 0, "#TXCMB11061" );	//ã‚€ã‚Šã ãœ  
 
-//	scr_AddStandbyEnemyCallback( "miscb_BotDead219", 219, STANDBY_COUNT_START_TIMING );	//ƒ_[ƒNƒƒCƒW€–S‚ÉƒCƒxƒ“ƒg 
+//	scr_AddStandbyEnemyCallback( "miscb_BotDead219", 219, STANDBY_COUNT_START_TIMING );	//ãƒ€ãƒ¼ã‚¯ãƒ¡ã‚¤ã‚¸æ­»äº¡æ™‚ã«ã‚¤ãƒ™ãƒ³ãƒˆ 
 	scr_AddTargetEnemyCallback( "miscb_BotDead219", 219, "$TXHFI11101" );
 
 }
 function miscb_BunnerInfo0402()
 {
-	//ƒoƒi[ƒCƒ“ƒtƒHƒ[ƒVƒ‡ƒ“‘±‚« 
+	//ãƒãƒŠãƒ¼ã‚¤ãƒ³ãƒ•ã‚©ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ç¶šã 
 	print( "Bunner0402!\n" );
-	mis_BannerInfoTimer("miscb_BunnerInfo0403",3.0);	//ƒoƒi[‚ğíœ‚·‚é 
-	scr_OpenMissionExpainText( 0, "#TXCMB11062" );	//‚Æ‚ñ‚ª‚è  
+	mis_BannerInfoTimer("miscb_BunnerInfo0403",3.0);	//ãƒãƒŠãƒ¼ã‚’å‰Šé™¤ã™ã‚‹ 
+	scr_OpenMissionExpainText( 0, "#TXCMB11062" );	//ã¨ã‚“ãŒã‚Š  
 }
 function miscb_BunnerInfo0403()
 {
-	//ƒoƒi[ƒCƒ“ƒtƒHƒ[ƒVƒ‡ƒ“‘±‚« 
+	//ãƒãƒŠãƒ¼ã‚¤ãƒ³ãƒ•ã‚©ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ç¶šã 
 	print( "Bunner0403!\n" );
-	mis_BannerInfoTimer("miscb_BunnerInfoRemove",6.0);	//ƒoƒi[‚ğíœ‚·‚é 
-	scr_OpenMissionExpainText( 0, "#TXCMB11063" );	//ƒK[ƒh‚·‚ê‚Î  
+	mis_BannerInfoTimer("miscb_BunnerInfoRemove",6.0);	//ãƒãƒŠãƒ¼ã‚’å‰Šé™¤ã™ã‚‹ 
+	scr_OpenMissionExpainText( 0, "#TXCMB11063" );	//ã‚¬ãƒ¼ãƒ‰ã™ã‚Œã°  
 }
 function mis_respawnTower03( regist_id )
 {
-	//G‹›‚ÌƒŠƒXƒ|[ƒ“İ’è 
+	//é›‘é­šã®ãƒªã‚¹ãƒãƒ¼ãƒ³è¨­å®š 
 	print( "respawn!\n" );
 	if(gMonument03 == 1)
 	{
@@ -1011,10 +1018,10 @@ function miscb_respawn218Tower03()
 }
 function miscb_BreakMonument03()
 {
-	//ƒ^ƒ[3‚ğ”j‰óBƒ{ƒbƒg‚ÌƒXƒ|[ƒ“§Œä 
+	//ã‚¿ãƒ¯ãƒ¼3ã‚’ç ´å£Šã€‚ãƒœãƒƒãƒˆã®ã‚¹ãƒãƒ¼ãƒ³åˆ¶å¾¡ 
 	print( "break03!\n" );
 	gMonument03 = 2;
-	mis_BuildTower02();	//ƒ^ƒ[‚È‚¯‚ê‚ÎŒš‚Ä‚é 
+	mis_BuildTower02();	//ã‚¿ãƒ¯ãƒ¼ãªã‘ã‚Œã°å»ºã¦ã‚‹ 
 
 	scr_RemoveStandbyEnemyCallback( 210 );
 	scr_RemoveStandbyEnemyCallback( 211 );
@@ -1028,15 +1035,15 @@ function miscb_BreakMonument03()
 }
 function miscb_BuildMonument03()
 {
-	//ƒ^ƒ[3‚ğŒš’zB 
+	//ã‚¿ãƒ¯ãƒ¼3ã‚’å»ºç¯‰ã€‚ 
 	scr_CreateSceneEffect( 7607, "Ccam01c",    -226.529510, 107.000000, -2125.499,   60.0 );
 	scr_CreateSceneEffect( 17607, "Ccam01c",    1641.938477, 107.000000, -1096.174,   60.0 );
 }
 function miscb_BotDead219()
 {
-	//ƒ_[ƒNƒƒCƒW‚P‚ğE‚µ‚½Bè‰º‚ğE‚µ‚ÄƒŠƒXƒ|[ƒ“§Œä 
+	//ãƒ€ãƒ¼ã‚¯ãƒ¡ã‚¤ã‚¸ï¼‘ã‚’æ®ºã—ãŸã€‚æ‰‹ä¸‹ã‚’æ®ºã—ã¦ãƒªã‚¹ãƒãƒ¼ãƒ³åˆ¶å¾¡ 
 	print( "kill219!\n" );
-	mis_BuildTower02();	//ƒ^ƒ[‚È‚¯‚ê‚ÎŒš‚Ä‚é 
+	mis_BuildTower02();	//ã‚¿ãƒ¯ãƒ¼ãªã‘ã‚Œã°å»ºã¦ã‚‹ 
 	scr_RemoveTargetEnemyCallback( 219 );	
 
 	scr_RemoveStandbyEnemyCallback( 210 );
@@ -1057,25 +1064,25 @@ function miscb_BotDead219()
 gMonument02 <- 0;
 function mis_BuildTower02()
 {
-	//ƒ^ƒ[2‚ğŒš‚Ä‚é 
+	//ã‚¿ãƒ¯ãƒ¼2ã‚’å»ºã¦ã‚‹ 
 	print( "build02!\n" );
 	if(gMonument02 == 0)
 	{
 		scr_CompleteMonumentBuild( "gfmo_006", POWER_COLOR_BLACK );
 		scr_SetBreakMonumentCallback( "miscb_BreakMonument02", 20006, CB_TYPE_ONCE, "gfmo_006" );
 		gMonument02 = 1 ;
-		//ƒ^ƒ[oŒ»‚ğ‘Ò‚Â 
+		//ã‚¿ãƒ¯ãƒ¼å‡ºç¾ã‚’å¾…ã¤ 
 		scr_WaitStart( 1.0 );
 		while( scr_Waiting() ){
 			suspend();
 		}
-		//ƒ^ƒCƒ}[‚Åƒ{ƒbƒg‚ğ¢Š«‚·‚é‚â‚Â 
+		//ã‚¿ã‚¤ãƒãƒ¼ã§ãƒœãƒƒãƒˆã‚’å¬å–šã™ã‚‹ã‚„ã¤ 
 		scr_SetTimerCallback( "miscb_BotSpawn201202tower02", 201202, CB_TYPE_ONCE, 10.0 );
 	}
 }
 function miscb_BotSpawn201202tower02()
 {
-	//‚à‚µƒ^ƒ[2‚ªŒš‚Á‚Ä‚¢‚ê‚Îƒ{ƒbƒg‚ğƒXƒ|[ƒ“‚µ‚ÄƒŠƒXƒ|[ƒ“§Œä 
+	//ã‚‚ã—ã‚¿ãƒ¯ãƒ¼2ãŒå»ºã£ã¦ã„ã‚Œã°ãƒœãƒƒãƒˆã‚’ã‚¹ãƒãƒ¼ãƒ³ã—ã¦ãƒªã‚¹ãƒãƒ¼ãƒ³åˆ¶å¾¡ 
 	print( "botrespawn201202!\n" );
 	if(gMonument02 == 1)
 	{
@@ -1092,20 +1099,20 @@ function miscb_BotSpawn201202tower02()
 
 function miscb_TrapIn1014()
 {
-	//ƒ^ƒ[2‚ğŒš‚ÄAƒwƒr[ŒR’c‚Æƒ_[ƒNƒƒCƒW¢Š«BƒƒbƒZ[ƒW 
+	//ã‚¿ãƒ¯ãƒ¼2ã‚’å»ºã¦ã€ãƒ˜ãƒ“ãƒ¼è»å›£ã¨ãƒ€ãƒ¼ã‚¯ãƒ¡ã‚¤ã‚¸å¬å–šã€‚ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ 
 	print( "TrapIn 1014!\n" );
 
-	mis_BuildTower02();	//ƒ^ƒ[‚È‚¯‚ê‚ÎŒš‚Ä‚é 
+	mis_BuildTower02();	//ã‚¿ãƒ¯ãƒ¼ãªã‘ã‚Œã°å»ºã¦ã‚‹ 
 
-	//’†ƒ{ƒX–‚–@g‚¢‚ğ¢Š« 
-	scr_ResetGameCameraDirection( 5072.511230, 1043.21582, false );	//ƒ{ƒX‚Á‚Û‚¢“z‚Ì•ûŒü‚ğŒü‚­
-	if(scr_GetGameCameraAngleType() == ANGLE_ZOOM_OUT2 )	//ƒJƒƒ‰‚ª‚’¼Œ©‰º‚ë‚µ‚Ìê‡‚ÍŒ©‰º‚ë‚µ‚É 
+	//ä¸­ãƒœã‚¹é­”æ³•ä½¿ã„ã‚’å¬å–š 
+	scr_ResetGameCameraDirection( 5072.511230, 1043.21582, false );	//ãƒœã‚¹ã£ã½ã„å¥´ã®æ–¹å‘ã‚’å‘ã
+	if(scr_GetGameCameraAngleType() == ANGLE_ZOOM_OUT2 )	//ã‚«ãƒ¡ãƒ©ãŒå‚ç›´è¦‹ä¸‹ã‚ã—ã®å ´åˆã¯è¦‹ä¸‹ã‚ã—ã« 
 	{
 		scr_SetGameCameraAngleType( ANGLE_ZOOM_OUT );
 	}
 	mis_CameraSet();
-	scr_CreateSceneEffect( 51, "Slis02c", 5072.511230, 574.698059, 1043.21582, 0.0  );	//——‹ 
-	scr_CreateSceneEffect( 52, "Slis03c", 5072.511230, 574.698059, 1043.21582, 0.0  );	//——‹ 
+	scr_CreateSceneEffect( 51, "Slis02c", 5072.511230, 574.698059, 1043.21582, 0.0  );	//è½é›· 
+	scr_CreateSceneEffect( 52, "Slis03c", 5072.511230, 574.698059, 1043.21582, 0.0  );	//è½é›· 
 	scr_CreateSceneSound( 50110, 80950, 5072.511230, 574.698059, 1043.21582 );
 	scr_BotPlayerSpawnToWorld( 223,  5072.511230, 574.698059, 1043.21582, -120.0 );	//DARKMAGE 
 	suspend();
@@ -1113,7 +1120,7 @@ function miscb_TrapIn1014()
 	scr_RemoveScene( 52, false );
 	mis_CameraSet();
 
-	//heavyŒR’c 
+	//heavyè»å›£ 
 	scr_BotPlayerSpawnToWorld( 212,  3682.265869, 258.899048, -363.73843, -120.0 );	//heavy 
 	scr_BotPlayerSpawnToWorld( 213,  3483.224609, 237.147568, -60.030273, -120.0 );	//heavy 
 	scr_BotPlayerSpawnToWorld( 214,  3275.635742, 250.485199, 240.265594, -120.0 );	//heavy 
@@ -1128,18 +1135,18 @@ function miscb_TrapIn1014()
 	scr_BotPlayerSetActionTrigger( 222, true );
 	scr_BotPlayerSetActionTrigger( 223, true );
 
-	scr_AddStandbyEnemyCallback( "miscb_BotDead223", 223, STANDBY_COUNT_START_TIMING );	//ƒ_[ƒNƒƒCƒW€–S‚ÉƒCƒxƒ“ƒg 
+	scr_AddStandbyEnemyCallback( "miscb_BotDead223", 223, STANDBY_COUNT_START_TIMING );	//ãƒ€ãƒ¼ã‚¯ãƒ¡ã‚¤ã‚¸æ­»äº¡æ™‚ã«ã‚¤ãƒ™ãƒ³ãƒˆ 
 
 	mis_Wait( 0.4 );
 
-	mis_BannerInfoTimer("miscb_BunnerInfoRemove",3.0);	//ƒoƒi[‚ğíœ‚·‚é 
+	mis_BannerInfoTimer("miscb_BunnerInfoRemove",3.0);	//ãƒãƒŠãƒ¼ã‚’å‰Šé™¤ã™ã‚‹ 
 	scr_CreateSceneSound( 66621, 850, 0.0, 0.0, 0.0 );
-	scr_OpenMissionExpainText( 0, "#TXCMB11071" );	//‘åŒQ‚¾‚æ’Ç‚¢  
+	scr_OpenMissionExpainText( 0, "#TXCMB11071" );	//å¤§ç¾¤ã ã‚ˆè¿½ã„  
 
 }
 function miscb_BotDead223()
 {
-	//ƒ_[ƒNƒƒCƒW2‚ğE‚µ‚½Bè‰º‚ğE‚µ‚ÄƒŠƒXƒ|[ƒ“§Œä 
+	//ãƒ€ãƒ¼ã‚¯ãƒ¡ã‚¤ã‚¸2ã‚’æ®ºã—ãŸã€‚æ‰‹ä¸‹ã‚’æ®ºã—ã¦ãƒªã‚¹ãƒãƒ¼ãƒ³åˆ¶å¾¡ 
 	print( "kill223!\n" );
 	scr_RemoveStandbyEnemyCallback( 223 );
 
@@ -1153,7 +1160,7 @@ function miscb_BotDead223()
 }
 function miscb_BreakMonument02()
 {
-	//ƒ^ƒ[2‚ğ”j‰óB ƒ{ƒbƒg‚ÌƒXƒ|[ƒ“‚ğ§Œä 
+	//ã‚¿ãƒ¯ãƒ¼2ã‚’ç ´å£Šã€‚ ãƒœãƒƒãƒˆã®ã‚¹ãƒãƒ¼ãƒ³ã‚’åˆ¶å¾¡ 
 	print( "BreakM02!\n" );
 	gMonument02 = 2;
 
@@ -1165,7 +1172,7 @@ function miscb_BreakMonument02()
 }
 function miscb_BuildMonument02()
 {
-	//ƒ^ƒ[7‚ğŒš’zB 
+	//ã‚¿ãƒ¯ãƒ¼7ã‚’å»ºç¯‰ã€‚ 
 	scr_CreateSceneEffect( 7608, "Ccam01c",    5720.996582, 583.861816, 639.827,   150.0 );
 	scr_CreateSceneEffect( 7609, "Ccam01c",    6801.886719, 506.000000, -1198.486,   61.0 );
 	scr_CreateSceneEffect( 17609, "Ccam01c",    10003.981445, 107.000000, -645.2927,   0.0 );
@@ -1175,17 +1182,17 @@ function miscb_BuildMonument02()
 /////////////////////////////////////
 function miscb_TrapIn1015()
 {
-	//“Gé‚ª‹ß‚¢–‚ğ‹³‚¦‚éƒƒbƒZ[ƒWƒ^ƒCƒ~ƒ“ƒO 
+	//æ•µåŸãŒè¿‘ã„äº‹ã‚’æ•™ãˆã‚‹ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚¿ã‚¤ãƒŸãƒ³ã‚° 
 	print( "TrapIn 1015!\n" );
-	mis_BannerInfoTimer("miscb_BunnerInfoRemove",3.0);	//ƒoƒi[‚ğíœ‚·‚é 
+	mis_BannerInfoTimer("miscb_BunnerInfoRemove",3.0);	//ãƒãƒŠãƒ¼ã‚’å‰Šé™¤ã™ã‚‹ 
 	scr_CreateSceneSound( 66621, 850, 0.0, 0.0, 0.0 );
-	scr_OpenMissionExpainText( 0, "#TXCMB11081" );	//‚à‚¤‚·‚®‚¾‚º  
+	scr_OpenMissionExpainText( 0, "#TXCMB11081" );	//ã‚‚ã†ã™ãã ãœ  
 
 }
 gMonument01 <- 0;
 function miscb_TrapIn1009()
 {
-	//“Gé‘O’†‰›ƒ‹[ƒg 
+	//æ•µåŸå‰ä¸­å¤®ãƒ«ãƒ¼ãƒˆ 
 	print( "TrapIn 1009!\n" );
 	scr_RemoveCallbackFromId( 12009 );
 	scr_CompleteMonumentBuild( "gfmo_007", POWER_COLOR_BLACK );
@@ -1207,13 +1214,13 @@ function miscb_TrapIn1009()
 function miscb_TrapIn2009()
 {
 	print( "TrapIn 2009!\n" );
-	//‹t‚©‚ç 
+	//é€†ã‹ã‚‰ 
 	scr_RemoveCallbackFromId( 10009 );
 }
 gNearCastle <- 0;
 function miscb_BreakMonument01()
 {
-	//ƒ^ƒ[1‰ó‚µ‚½‚çé‚ÉƒXƒ|[ƒ“ 
+	//ã‚¿ãƒ¯ãƒ¼1å£Šã—ãŸã‚‰åŸã«ã‚¹ãƒãƒ¼ãƒ³ 
 	print( "BreakM01!\n" );
 	gMonument01 = 0;
 	gNearCastle = 1;
@@ -1230,12 +1237,12 @@ function miscb_BreakMonument01()
 }
 function miscb_BuildMonument01()
 {
-	//ƒ^ƒ[7‚ğŒš’zB 
+	//ã‚¿ãƒ¯ãƒ¼7ã‚’å»ºç¯‰ã€‚ 
 	scr_CreateSceneEffect( 7610, "Ccam01c",    16025.333984, 507.000000, 5348.7539,   100.0 );
 }
 function miscb_TrapIn1010()
 {
-	//ƒA[ƒ`‚Ì‚ ‚éƒ‹[ƒg
+	//ã‚¢ãƒ¼ãƒã®ã‚ã‚‹ãƒ«ãƒ¼ãƒˆ
 	print( "TrapIn 1010!\n" );
 	scr_RemoveCallbackFromId( 12010 );
 	gNearCastle = 1;
@@ -1256,7 +1263,7 @@ function miscb_TrapIn2010()
 }
 function miscb_TrapIn1011()
 {
-	//‹´‚Ì‚ ‚éƒ‹[ƒg 
+	//æ©‹ã®ã‚ã‚‹ãƒ«ãƒ¼ãƒˆ 
 	print( "TrapIn 1011!\n" );
 	scr_RemoveCallbackFromId( 12011 );
 
@@ -1280,21 +1287,21 @@ function miscb_TrapIn2011()
 //////////////////////////////////////////
 function miscb_TrapIn1012()
 {
-	//“Gé‚Ì–Ú‚Ì‘O‚Ü‚Å—ˆ‚½‚çƒQ[ƒgƒL[ƒp[oŒ»‚µ‚ÄƒƒbƒZ[ƒW 
+	//æ•µåŸã®ç›®ã®å‰ã¾ã§æ¥ãŸã‚‰ã‚²ãƒ¼ãƒˆã‚­ãƒ¼ãƒ‘ãƒ¼å‡ºç¾ã—ã¦ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ 
 	print( "TrapIn 1012!\n" );
 
-	//ƒQ[ƒgƒL[ƒp[‚ğ¢Š« 
-	scr_ResetGameCameraDirection(  20984.414063, 4283.028809, false );	//ƒ{ƒX‚Á‚Û‚¢“z‚Ì•ûŒü‚ğŒü‚­
-	if(scr_GetGameCameraAngleType() == ANGLE_ZOOM_OUT2 )	//ƒJƒƒ‰‚ª‚’¼Œ©‰º‚ë‚µ‚Ìê‡‚ÍŒ©‰º‚ë‚µ‚É 
+	//ã‚²ãƒ¼ãƒˆã‚­ãƒ¼ãƒ‘ãƒ¼ã‚’å¬å–š 
+	scr_ResetGameCameraDirection(  20984.414063, 4283.028809, false );	//ãƒœã‚¹ã£ã½ã„å¥´ã®æ–¹å‘ã‚’å‘ã
+	if(scr_GetGameCameraAngleType() == ANGLE_ZOOM_OUT2 )	//ã‚«ãƒ¡ãƒ©ãŒå‚ç›´è¦‹ä¸‹ã‚ã—ã®å ´åˆã¯è¦‹ä¸‹ã‚ã—ã« 
 	{
 		scr_SetGameCameraAngleType( ANGLE_ZOOM_OUT );
 	}
 	mis_CameraSet();
-	scr_CreateSceneEffect( 51, "Slis02c", 20277.980469, 500.000000, 3998.363037, 0.0  );	//——‹ 
-	scr_CreateSceneEffect( 52, "Slis03c", 20277.980469, 500.000000, 3998.363037, 0.0  );	//——‹ 
+	scr_CreateSceneEffect( 51, "Slis02c", 20277.980469, 500.000000, 3998.363037, 0.0  );	//è½é›· 
+	scr_CreateSceneEffect( 52, "Slis03c", 20277.980469, 500.000000, 3998.363037, 0.0  );	//è½é›· 
 	scr_CreateSceneSound( 50110, 80950, 20277.980469, 500.000000, 3998.363037 );
-	scr_CreateSceneEffect( 53, "Slis02c", 20515.289063, 500.000000, 4850.882324, 0.0  );	//——‹2 
-	scr_CreateSceneEffect( 54, "Slis03c", 20515.289063, 500.000000, 4850.882324, 0.0  );	//——‹2 
+	scr_CreateSceneEffect( 53, "Slis02c", 20515.289063, 500.000000, 4850.882324, 0.0  );	//è½é›·2 
+	scr_CreateSceneEffect( 54, "Slis03c", 20515.289063, 500.000000, 4850.882324, 0.0  );	//è½é›·2 
 	scr_CreateSceneSound( 50110, 80950, 20515.289063, 500.000000, 4850.882324 );
 	scr_BotPlayerSpawnToWorld( 224,  20277.980469, 500.000000, 3998.363037, -80.0 );	//Buket 
 	scr_BotPlayerSpawnToWorld( 225,  20515.289063, 500.000000, 4850.882324, -80.0 );	//buket 
@@ -1317,13 +1324,13 @@ function miscb_TrapIn1012()
 	scr_AddStandbyEnemyCallback( "miscb_BotDead224", 224, STANDBY_COUNT_START_TIMING );
 	scr_AddStandbyEnemyCallback( "miscb_BotDead225", 225, STANDBY_COUNT_START_TIMING );
 
-	//ƒƒbƒZ[ƒW 
+	//ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ 
 	mis_MassageDialog( "C111_09" );
 
-//	scr_OpenMissionStateText(  0, "$TXHFS11102" );	//’B¬ó‹µ‚ğXV 
-	scr_OpenMissionConditionText(  0, "TXHFC01103" );	//“G‚Ìé“à‚ÉN“ü‚·‚é 
+//	scr_OpenMissionStateText(  0, "$TXHFS11102" );	//é”æˆçŠ¶æ³ã‚’æ›´æ–° 
+	scr_OpenMissionConditionText(  0, "TXHFC01103" );	//æ•µã®åŸå†…ã«ä¾µå…¥ã™ã‚‹ 
 
-	//ƒUƒR‚ÌƒXƒ|[ƒ“‚ğŒÅ’è 
+	//ã‚¶ã‚³ã®ã‚¹ãƒãƒ¼ãƒ³ã‚’å›ºå®š 
 	scr_BotPlayerSetRespawnEnable( 201, false );	
 	scr_BotPlayerSetRespawnEnable( 202, false );	
 	scr_BotPlayerSetRespawnEnable( 203, false );	
@@ -1335,20 +1342,20 @@ function miscb_TrapIn1012()
 }
 function miscb_KillBot224()
 {
-	//–å”Ô‚ğE‚µ‚½ 
+	//é–€ç•ªã‚’æ®ºã—ãŸ 
 	print( "kill224!\n" );
-	scr_RemoveTargetEnemyCallback( 224 );	//“¢”°•\¦‚ğ‰ğœ 
+	scr_RemoveTargetEnemyCallback( 224 );	//è¨ä¼è¡¨ç¤ºã‚’è§£é™¤ 
 }
 function miscb_KillBot225()
 {
-	//–å”Ô‚ğE‚µ‚½ 
+	//é–€ç•ªã‚’æ®ºã—ãŸ 
 	print( "kill224!\n" );
-	scr_RemoveTargetEnemyCallback( 225 );	//“¢”°•\¦‚ğ‰ğœ 
+	scr_RemoveTargetEnemyCallback( 225 );	//è¨ä¼è¡¨ç¤ºã‚’è§£é™¤ 
 }
 gkillCountGateKeeper <- 0;
 function miscb_BotDead224()
 {
-	//–å”Ô‚ª€‚ñ‚¾ 
+	//é–€ç•ªãŒæ­»ã‚“ã  
 	print( "dead224!\n" );
 	scr_RemoveStandbyEnemyCallback( 224 );	
 	gkillCountGateKeeper = (gkillCountGateKeeper + 1);
@@ -1356,7 +1363,7 @@ function miscb_BotDead224()
 }
 function miscb_BotDead225()
 {
-	//–å”Ô‚ª€‚ñ‚¾ 
+	//é–€ç•ªãŒæ­»ã‚“ã  
 	print( "dead225!\n" );
 	scr_RemoveStandbyEnemyCallback( 225 );	
 	gkillCountGateKeeper = (gkillCountGateKeeper + 1);
@@ -1364,21 +1371,21 @@ function miscb_BotDead225()
 }
 function mis_MassageAtKillGateKeeper()
 {
-	//–å”Ô‚ğ‚Q‘Ì“|‚µ‚½‚ÉƒƒbƒZ[ƒW 
+	//é–€ç•ªã‚’ï¼’ä½“å€’ã—ãŸæ™‚ã«ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ 
 	if(gkillCountGateKeeper == 2 )
 	{
-		mis_BannerInfoTimer("miscb_BunnerInfo0502",3.0);	//ƒoƒi[‚ğŸ‚Ì‚à‚Ì‚ÉXV 
+		mis_BannerInfoTimer("miscb_BunnerInfo0502",3.0);	//ãƒãƒŠãƒ¼ã‚’æ¬¡ã®ã‚‚ã®ã«æ›´æ–° 
 	scr_CreateSceneSound( 66621, 850, 0.0, 0.0, 0.0 );
-		scr_OpenMissionExpainText( 0, "#TXCMB11101" );	//‚Ğ‚¢Io‚½  
+		scr_OpenMissionExpainText( 0, "#TXCMB11101" );	//ã²ã„ï¼å‡ºãŸ  
 		scr_CreateSceneEffect( 7611, "Ccam01c",   20289.458984, 506.000000, 4498.917,   106.0 );
 	}
 }
 function miscb_BunnerInfo0502()
 {
-	//ƒoƒi[ƒCƒ“ƒtƒHƒ[ƒVƒ‡ƒ“‘±‚« 
+	//ãƒãƒŠãƒ¼ã‚¤ãƒ³ãƒ•ã‚©ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ç¶šã 
 	print( "Bunner0502!\n" );
-	mis_BannerInfoTimer("miscb_BunnerInfoRemove",12.0);	//ƒoƒi[‚ğíœ‚·‚é 
-	scr_OpenMissionExpainText( 0, "#TXCMB11102" );	//‚¶‚å‚¤‚à‚ñ‚±‚í‚¹  
+	mis_BannerInfoTimer("miscb_BunnerInfoRemove",12.0);	//ãƒãƒŠãƒ¼ã‚’å‰Šé™¤ã™ã‚‹ 
+	scr_OpenMissionExpainText( 0, "#TXCMB11102" );	//ã˜ã‚‡ã†ã‚‚ã‚“ã“ã‚ã›  
 
 	scr_SetRebirthTime( SCR_REBIRTH_TARGET_BLACK, SCR_REBIRTH_TYPE_NORMAL,  18 );
 	scr_SetRebirthTime( SCR_REBIRTH_TARGET_BLACK, SCR_REBIRTH_TYPE_PENALTY, 18 );
@@ -1390,7 +1397,7 @@ function miscb_BunnerInfo0502()
 }
 function miscb_PlayerDead()
 {
-	//ƒvƒŒƒCƒ„[‚ª‰‚ß‚Ä€–S‚µ‚½ 
+	//ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ãŒåˆã‚ã¦æ­»äº¡ã—ãŸ 
 	print( "playerDead!\n" );
 
 	mis_Wait( 2.8 );
@@ -1398,14 +1405,14 @@ function miscb_PlayerDead()
 }
 function miscb_BreakCastleGate()
 {
-	//“Gé‚Ìé–å‚ğ”j‰ó‚µ‚½‚ÉƒƒbƒZ[ƒW  
+	//æ•µåŸã®åŸé–€ã‚’ç ´å£Šã—ãŸæ™‚ã«ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸  
 	mis_Wait( 0.2 );
 
-	mis_BannerInfoTimer("miscb_BunnerInfoRemove",12.0);	//ƒoƒi[‚ğíœ‚·‚é 
+	mis_BannerInfoTimer("miscb_BunnerInfoRemove",12.0);	//ãƒãƒŠãƒ¼ã‚’å‰Šé™¤ã™ã‚‹ 
 	scr_CreateSceneSound( 66621, 850, 0.0, 0.0, 0.0 );
-	scr_OpenMissionExpainText( 0, "#TXCMB11111" );	//ƒrƒbƒOƒ^ƒ[‰ó‚¹   
-//	scr_OpenMissionStateText(  0, "$TXHFS11103" );	//’B¬ó‹µ‚ğXV 
-	scr_OpenMissionConditionText(  0, "TXHFC01104" );	//ƒrƒbƒOƒ^ƒ[‚ğ‰ó‚¹ 
+	scr_OpenMissionExpainText( 0, "#TXCMB11111" );	//ãƒ“ãƒƒã‚°ã‚¿ãƒ¯ãƒ¼å£Šã›   
+//	scr_OpenMissionStateText(  0, "$TXHFS11103" );	//é”æˆçŠ¶æ³ã‚’æ›´æ–° 
+	scr_OpenMissionConditionText(  0, "TXHFC01104" );	//ãƒ“ãƒƒã‚°ã‚¿ãƒ¯ãƒ¼ã‚’å£Šã› 
 	
 	scr_CreateSceneEffect( 7612, "Ccam01c",    23401.218750, 506.000000, 3611.394,   105.0 );
 
