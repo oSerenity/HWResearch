@@ -94,9 +94,6 @@ function startMission()
 	scr_SetDisableTacticalInfomation();	//バナーテキストを非表示 
 	scr_SetEnablePlayerHeroPopup( false );	//ヒーローポップアップの非表示 
 	scr_SetEnableInputPlayerVoiceReaction( false );	//リアクションボイスマクロの非表示 
-	scr_SetDisableTacticalInfomation (); // Hide banner text
-	scr_SetEnablePlayerHeroPopup (false); // Hide hero popup
-	scr_SetEnableInputPlayerVoiceReaction (false); // Hide reaction voice macro
 	scr_SetEnableTacticalBannerText( SCR_BANNER_ALLY_GATE_DAMAGED, true );
 	scr_SetEnableTacticalBannerText( SCR_BANNER_ALLY_GATE_75, true );
 	scr_SetEnableTacticalBannerText( SCR_BANNER_ALLY_GATE_50, true );
@@ -112,7 +109,6 @@ function startMission()
 
 
 //トラックボットのリスポーンを制御 
-// Control the respawn of the truck bot
 	scr_BotPlayerSetRespawnEnable( 201, false );	//MOB_T 
 	scr_BotPlayerSetRespawnEnable( 202, false );	//MOB_T 
 	scr_BotPlayerSetRespawnEnable( 203, false );	//MOB_T 
@@ -138,7 +134,6 @@ function startMission()
 	scr_BotPlayerSetRespawnEnable( 225, false );	
 
 //ボットのトリガーを制御 
-// Control bot triggers
 	scr_BotPlayerSetActionTrigger( 201, true );
 	scr_BotPlayerSetActionTrigger( 202, true );
 	scr_BotPlayerSetActionTrigger( 203, true );
@@ -150,74 +145,46 @@ function startMission()
 
 
 //トラップの設定 
-// Trap settings
 	scr_RegistTrapBox( 1000, 10699.2 ,0.0 ,12135.0 ,2255.1 ,1500.0 ,1990.8 ,-25.0   );	//城 
-	scr_RegistTrapBox( 1000, 10699.2 ,0.0 ,12135.0 ,2255.1 ,1500.0 ,1990.8 ,-25.0   );	//city
 
 	scr_RegistTrapBox( 1001, 8013.3 ,200.0 ,11430.3 ,371.9 ,2000.0 ,4693.1 ,-25.0  );	//城出てすぐ 
-	scr_RegistTrapBox( 1001, 8013.3, 200.0, 11430.3, 371.9, 2000.0, 4693.1, -25.0  ); 	// Immediately after leaving the castle
 
 	scr_RegistTrapBox( 1002, 5143.2 ,0.0 ,7388.0 ,371.9 ,1000.0 ,639.2 ,-20.9  );	//橋通るルート 
 	scr_RegistTrapBox( 1003, 4310.4 ,200.0 ,9698.5 ,377.3 ,1000.0 ,696.6 ,-20.9  );	//バラの道通るルート 
 	scr_RegistTrapBox( 1004, 2434.3 ,0.0 ,11640.2 ,261.3 ,1000.0 ,566.6 ,-20.9  );	//アーチを通るルート 
-	scr_RegistTrapBox (1002, 5143.2, 0.0, 7388.0, 371.9, 1000.0, 639.2, -20.9); 	// Route through the bridge
-	scr_RegistTrapBox (1003, 4310.4, 200.0, 9698.5, 377.3, 1000.0, 696.6, -20.9); 	// Route through the rose road
-	scr_RegistTrapBox (1004, 2434.3, 0.0, 11640.2, 261.3, 1000.0, 566.6, -20.9); 	// Route through the arch
 
 	scr_RegistTrapBox( 1005, -4369.4 ,0.0 ,7275.1 ,564.2 ,1000.0 ,1381.3 ,-57.9   );	//向かって右の橋 
 	scr_RegistTrapBox( 1006, -5639.3 ,0.0 ,10387.2 ,508.2 ,1000.0 ,2142.3 ,-331.8   );	//向かって左の端 
-	scr_RegistTrapBox (1005, -4369.4, 0.0, 7275.1, 564.2, 1000.0, 1381.3, -57.9); 		// The bridge on the right
-	scr_RegistTrapBox (1006, -5639.3, 0.0, 10387.2, 508.2, 1000.0, 2142.3, -331.8); 	// Left edge towards
 
 	scr_RegistTrapBox( 1007,  -9981.6 ,0.0 ,5761.9 ,211.5 ,1000.0 ,2119.8 ,-44.4  );	//ヘビー出現 
 	scr_RegistTrapBox( 1008, -10087.9 ,0.0 ,228.9 ,4539.4 ,1000.0 ,234.7 ,-46.1  );	//タワー４黒に 
-	scr_RegistTrapBox (1007, -9981.6, 0.0, 5761.9, 211.5, 1000.0, 2119.8, -44.4); // Heavy appearance
-	scr_RegistTrapBox (1008, -10087.9, 0.0, 228.9, 4539.4, 1000.0, 234.7, -46.1); // Tower 4 in black
 
 	scr_RegistTrapBox( 1009, 11007.8 ,0.0 ,2603.5 ,283.7 ,1000.0 ,1065.6 ,-21.7  );	//中央ルート 
 	scr_RegistTrapBox( 1010, 12314.0 ,0.0 ,735.6 ,229.2 ,1000.0 ,1055.1 ,-356.1  );	//アーチ通るルート 
 	scr_RegistTrapBox( 1011, 11884.8 ,0.0 ,5536.7 ,227.5 ,1000.0 ,581.8 ,-24.8  );	//橋を通るルート 
-	scr_RegistTrapBox (1009, 11007.8, 0.0, 2603.5, 283.7, 1000.0, 1065.6, -21.7); 	// Central route
-	scr_RegistTrapBox (1010, 12314.0, 0.0, 735.6, 229.2, 1000.0, 1055.1, -356.1); 	// Route through the arch
-	scr_RegistTrapBox (1011, 11884.8, 0.0, 5536.7, 227.5, 1000.0, 581.8, -24.8); 	// Route through the bridge
 
 	scr_RegistTrapBox( 1012, 19491.7 ,0.0 ,5146.8 ,229.2 ,1000.0 ,4319.1 ,-345.9  );	//敵城門前 
-	scr_RegistTrapBox( 1012, 19491.7 ,0.0 ,5146.8 ,229.2 ,1000.0 ,4319.1 ,-345.9 ); 	//in front of the enemy city gate
 
 	scr_RegistTrapBox( 1013, -3531.97 ,0.0 ,704.243 ,2618.4 ,1000.0 ,191.0 ,-46.64  );	//タワー５黒で 魔法使い軍団出撃 
 	scr_RegistTrapBox( 1013, -4768.34 ,0.0 ,-3435.5 ,2619.5 ,1000.0 ,186.5 ,-100.5  );	//タワー５黒で魔法使い軍団出撃 
 	scr_RegistTrapBox( 1013, -1868.34 ,0.0 ,-6225.8 ,2618.4 ,1000.0 ,188.7 ,-171.6  );	//タワー５黒で魔法使い軍団出撃 
-	scr_RegistTrapBox (1013, -3531.97, 0.0, 704.243, 2618.4, 1000.0, 191.0, -46.64); 	// Tower 5 Black Wizard Army Sortie
-	scr_RegistTrapBox (1013, -4768.34, 0.0, -3435.5, 2619.5, 1000.0, 186.5, -100.5); 	// Tower 5 Black Wizard Army Sortie
-	scr_RegistTrapBox (1013, -1868.34, 0.0, -6225.8, 2618.4, 1000.0, 188.7, -171.6); 	// Tower 5 Black Wizard Army Sortie
 	
 	scr_RegistTrapBox( 1014,  2077.9 ,0.0 ,-1445.3 ,179.4 ,1000.0 ,2285.4 ,-36.0  );	//タワー６でヘビーカスタム 
 	scr_RegistTrapBox( 1014,   2218.2 ,0.0 ,992.3 ,160.1 ,1000.0 ,1704.4 ,-296.6  );	//タワー６でヘビーカスタム 
-	scr_RegistTrapBox (1014, 2077.9, 0.0, -1445.3, 179.4, 1000.0, 2285.4, -36.0); 		// Heavy Custom at Tower 6
-	scr_RegistTrapBox (1014, 2218.2, 0.0, 992.3, 160.1, 1000.0, 1704.4, -296.6); 		// Heavy Custom at Tower 6
 	
 	scr_RegistTrapBox( 1015,   7164.4 ,0.0 ,1715.1 ,174.2 ,1000.0 ,4250.4 ,-12.6  );	//敵城は目の前だ！ 
-	scr_RegistTrapBox (1015, 7164.4, 0.0, 1715.1, 174.2, 1000.0, 4250.4, -12.6); 		// The enemy castle is right in front of you!
 
 
 //トラップ消去床 
-// Trap erase floor
 	scr_RegistTrapBox( 2002,   3886.0 ,0.0 ,9566.6 ,147.8 ,1000.0 ,697.9 ,-20.9  );	//橋通るルート 
 	scr_RegistTrapBox( 2003,   4727.6 ,0.0 ,7166.9 ,147.8 ,1000.0 ,697.9 ,-20.9  );	//バラの道通るルート 
 	scr_RegistTrapBox( 2004,   2117.5 ,0.0 ,11465.6 ,153.1 ,1000.0 ,697.9 ,-20.9  );	//アーチを通るルート 
-	scr_RegistTrapBox (2002, 3886.0, 0.0, 9566.6, 147.8, 1000.0, 697.9, -20.9); 	// Route through the bridge
-	scr_RegistTrapBox (2003, 4727.6, 0.0, 7166.9, 147.8, 1000.0, 697.9, -20.9); 	// Route through the rose road
-	scr_RegistTrapBox (2004, 2117.5,0.0,11465.6,153.1,1000.0,697.9,-20.9); 			// Route through the arch
 
 	scr_RegistTrapBox( 2009,   11287.3 ,0.0 ,2946.5 ,89.5 ,1000.0 ,1230.4 ,-21.7  );	//中央ルート 
 	scr_RegistTrapBox( 2010,   12590.7 ,0.0 ,745.4 ,78.6 ,1000.0 ,1055.1 ,-356.1  );	//アーチ通るルート 
 	scr_RegistTrapBox( 2011,   12114.1 ,0.0 ,5681.5 ,87.8 ,1000.0 ,577.6 ,-24.8  );	//橋を通るルート 
-	scr_RegistTrapBox (2009, 11287.3, 0.0, 2946.5, 89.5, 1000.0, 1230.4, -21.7); // Central route
-	scr_RegistTrapBox (2010, 12590.7, 0.0, 745.4, 78.6, 1000.0, 1055.1, -356.1); // Route through the arch
-	scr_RegistTrapBox (2011, 12114.1, 0.0, 5681.5, 87.8, 1000.0, 577.6, -24.8); // Route through the bridge
 
 //トラップインコールバック 
-// Trap in callback
 	scr_SetTrapInCallback( "miscb_TrapIn1000", 10000, CB_TYPE_ONCE, 1000 );	
 //	scr_SetTrapOutCallback( "miscb_TrapOut1000", 100000, CB_TYPE_ONCE, 1000 );
 
@@ -248,7 +215,6 @@ function startMission()
 	scr_SetTrapInCallback( "miscb_TrapIn2011", 12011, CB_TYPE_ONCE, 2011 );
 
 //出撃前メッセージ 
-// Message before sortie
 	scr_WaitStart( 0.4 );	
 	while( scr_Waiting() )	
 	{
@@ -280,17 +246,14 @@ function startMission()
 	scr_PauseOff();
 
 	//達成条件表示 
-	//Indicates that the condition is met
 	scr_OpenMissionConditionText(  0, "TXHFC01101" );	//戦闘に勝利せよ 
 
 	// プレイヤー生成を待ちます
-	// Wait for player generation
 	mis_WaitPlayerCreate();
 	scr_PlayerSetForceRespawnPosition( 10216.331055, 500.000000, 11851.6, -115.0 );	//プレイヤーの出現位置を固定 
 
 
 // ゲーム開始を待ちます
-// Wait for the game to start
 	mis_WaitGameStart();
 
 }
@@ -313,8 +276,6 @@ function mis_WaitGameStart()
 	}
 	//BOTをゲームに配置 
 	//味方
-	// Place BOT in the game
-	// Allies
 	scr_BotPlayerSpawnToMonument( 101, "gcmoA_001" );
 	scr_BotPlayerSpawnToMonument( 102, "gcmoA_001" );
 	scr_BotPlayerSpawnToMonument( 103, "gcmoA_001" );
@@ -330,7 +291,6 @@ function mis_WaitGameStart()
 
 }
 //汎用ファンクション ////
-// Generic function ////
 function mis_Wait( sec )
 {
 	print("waitsec()\n");
@@ -356,9 +316,7 @@ function mis_CameraSet()
 {
 	print("cameraset()\n");
 //	scr_SetInputDisable( SCR_INPUT_MOVE );	//移動を禁止 
-	scr_SetInputDisable (SCR_INPUT_MOVE); // Prohibit movement
 	scr_SetInputDisable( SCR_INPUT_CAMERA );	//カメラを禁止 
-	scr_SetInputDisable (SCR_INPUT_CAMERA); // Prohibit camera
 	scr_WaitStart( 0.65 );	
 	while( scr_Waiting() )	
 	{
@@ -366,13 +324,10 @@ function mis_CameraSet()
 	}
 //	scr_SetInputEnable( SCR_INPUT_MOVE );	//移動を禁止解除 
 	scr_SetInputEnable( SCR_INPUT_CAMERA );	//カメラ禁止解除 
-	scr_SetInputEnable (SCR_INPUT_MOVE); // Unban movement
-	scr_SetInputEnable (SCR_INPUT_CAMERA); // Camera prohibition lifted
 }
 function mis_BannerInfoTimer(fn_name,time)
 {
 	//同ＩＤタイマーコールバックのセット・入れ替え 
-	// Set / replace the same ID timer callback
 	scr_RemoveCallbackFromId( 80000 );	
 	suspend();
 	scr_SetTimerCallback( fn_name, 80000, CB_TYPE_ONCE, time );
@@ -380,21 +335,18 @@ function mis_BannerInfoTimer(fn_name,time)
 function miscb_BunnerInfoRemove()
 {
 	//バナーインフォメーション削除 
-	// Delete banner information
 	print( "BunnerRemove!\n" );
 	scr_CloseMissionExpainText( 0 );
 }
 
 //////////////////////////////////////////////////////////////
 //プレイヤーが初回出撃した時のコールバック処理について書こう！ 
-// Let's write about the callback process when the player first sorties!
 function miscb_PlayerSally_First()
 {
 	print( "Player is sally!\n" );
 	
 	scr_ResetGameCameraDirection( 7904.0, 10745.0, false );
 	scr_SetGameCameraAngleType( ANGLE_ZOOM_IN );	//カメラ操作 
-	scr_SetGameCameraAngleType (ANGLE_ZOOM_IN); // Camera operation
 
 	mis_Wait( 0.5 );
 	
@@ -403,14 +355,11 @@ function miscb_PlayerSally_First()
 //	scr_OpenMissionConditionText(  0, "$TXHFC11101" );
 //	scr_OpenMissionStateText(  0, "$TXHFS11101" );
 	scr_OpenMissionConditionText(  0, "TXHFC01102" );	//敵の城に迎え 
-	scr_OpenMissionConditionText (0, "TXHFC01102"); // Meet the enemy's castle
 	
 	scr_BotPlayerSetSyncBreakCastleMonumentWithPlayer( POWER_COLOR_WHITE, true );
 
 	//道案内　7601 下二桁ふやしてく。１２種類予定 
 	//入り口、しょっぱな、７番、６番、５番、４番、３番、２番、１番建築、門番殺し、城門破壊 
-	// Directions 7601 The last two digits will increase. 12 types planned
-	// Entrance, salty, 7th, 6th, 5th, 4th, 3rd, 2nd, 1st architecture, gatekeeper killing, castle gate destruction
 	scr_CreateSceneEffect( 7601, "Ccam01c",    9129.495117, 581.000000, 11331.468,   -115.0 );
 
 }
@@ -420,15 +369,12 @@ function miscb_TimeOver()
 	scr_RemoveCallbackAll();
 	scr_CloseMissionConditionText( 0 );	//達成条件を非表示 
 	scr_CloseMissionStateText( 0 );	//達成状況を非表示 
-	scr_CloseMissionConditionText (0); // Hide achievement conditions
-	scr_CloseMissionStateText (0); // Hide achievement status
 	scr_CloseMissionExpainText( 0 );
 
 	
 	mis_MassageDialog( "C111_16" );
 
 	scr_GameSetMissionFailure();	//ミッション失敗 
-	scr_GameSetMissionFailure (); // Mission failed
 }
 function miscb_GameSetWinWhite()
 {
@@ -439,8 +385,6 @@ function miscb_GameSetWinWhite()
 	scr_RemoveCallbackAll();
 	scr_CloseMissionConditionText( 0 );	//達成条件を非表示 
 	scr_CloseMissionStateText( 0 );	//達成状況を非表示 
-	scr_CloseMissionConditionText (0); // Hide achievement conditions
-	scr_CloseMissionStateText (0); // Hide achievement status
 	scr_CloseMissionExpainText( 0 );
 
 	scr_BotPlayerSetLife( 201, 0 );
@@ -479,19 +423,15 @@ function miscb_GameSetWinBlack()
 	scr_RemoveCallbackAll();
 	scr_CloseMissionConditionText( 0 );	//達成条件を非表示 
 	scr_CloseMissionStateText( 0 );	//達成状況を非表示 
-	scr_CloseMissionConditionText (0); // Hide achievement conditions
-	scr_CloseMissionStateText (0); // Hide achievement status
 	scr_CloseMissionExpainText( 0 );
 
 
 	// タイミングはビッグタワー破壊直後。バナーテキスト表示を待つ処理を入れよう！ 
-	// The timing is right after the big tower is destroyed. Let's put in the process of waiting for the banner text display!
 	mis_Wait( 1.6 );
 		
 	mis_MassageDialog( "C111_14" );
 }
 //自分の城にいつづけると敵発生 
-// Whenever you stay in your castle, an enemy will occur
 function miscb_TrapIn1000()
 {
 	print( "TrapIn 1000!\n" );
@@ -507,7 +447,6 @@ function miscb_TrapOut1000()
 function miscb_InOwnCastle()
 {
 	//城の中に1分以上いた 
-	// I was in the castle for over a minute
 	scr_RemoveCallbackFromId( 10000 );
 	scr_RemoveCallbackFromId( 100000 );
 	suspend();
@@ -525,7 +464,6 @@ function miscb_InOwnCastle()
 function miscb_TrapIn1001()
 {
 	//城門のすぐ前にあるトラップ 
-	// Trap right in front of the castle gate
 	print( "TrapIn 1001!\n" );
 	mis_Wait( 0.6 );
 
@@ -549,30 +487,23 @@ function miscb_TrapIn1001()
 //	}
 
 	mis_BannerInfoTimer("miscb_BunnerInfo0102",3.0);	//バナーを次のものに更新 
-	mis_BannerInfoTimer ("miscb_BunnerInfo0102", 3.0); // Update banner to:
 	scr_CreateSceneSound( 66621, 850, 0.0, 0.0, 0.0 );
 	scr_OpenMissionExpainText( 0, "#TXCMB11031" );	//ひい！出た  
-	scr_OpenMissionExpainText (0, "# TXCMB11031"); // Hi! Came out
 
 	//２０１番が死んだら矢印出す。 
-	// When No. 201 dies, put out an arrow.
 	scr_AddDeathEnemyCallback( "miscb_KilledBot201", 201 );
 	
 }
 function miscb_BunnerInfo0102()
 {
 	//バナーインフォメーション続き 
-	// Banner information continued
 	print( "Bunner0101!\n" );
 	mis_BannerInfoTimer("miscb_BunnerInfoRemove",8.0);	//バナーを削除する 
-	mis_BannerInfoTimer ("miscb_BunnerInfoRemove", 8.0); // Remove the banner
 	scr_OpenMissionExpainText( 0, "#TXCMB11032" );	//ひい！出た  
-	scr_OpenMissionExpainText (0, "# TXCMB11032"); // Hi! Came out
 }
 function miscb_KilledBot201()
 {
 	print( "敵は死んだので誘導!\n" );
-	print ("Enemy is dead, so guide! \ N");
 	scr_RemoveDeathEnemyCallback( 201 );
 	scr_CreateSceneEffect( 7602, "Ccam01c",    5881.153320, 507.000000, 10418.968,   -108.0 );
 }
@@ -581,12 +512,10 @@ gFirstMonument <- 0;
 function miscb_TrapIn1002()
 {
 	//橋のある道を通るルート。 
-	// A route that goes through a road with a bridge.
 	print( "TrapIn 1002!\n" );
 	scr_RemoveCallbackFromId( 12002 );
 
 	//タワー出現を待つ 
-	// Wait for the tower to appear
 	mis_Wait( 1.0 );
 
 	scr_BotPlayerSpawnToWorld( 206,  3626.75, 100.08, 6674.7, 0.0 );	//MOBsF 
@@ -598,7 +527,6 @@ function miscb_TrapIn1002()
 	scr_BotPlayerSetActionTrigger( 207, true );
 
 	//ボットのリスポーン管理 
-	// Bot respawn management
 	scr_BotPlayerSetRespawnEnable( 204, false );	//MOB_T 
 	scr_BotPlayerSetRespawnEnable( 205, false );	//MOB_T 
 
@@ -614,17 +542,14 @@ function miscb_TrapIn1002()
 function miscb_TrapIn2002()
 {
 	//橋のある道を通るルートを逆から 
-	// Reverse the route through the road with a bridge
 	print( "TrapIn 2002!\n" );
 	scr_RemoveCallbackFromId( 10002 );
 }
 //モニュメント状態変数 0=未建築　1=黒建築 2=白建築 
-// Monument state variable 0 = unbuilt 1 = black building 2 = white building
 gMonument07 <- 0 ;
 function miscb_TrapIn1003()
 {
 	//正面のバラの道を通るルート。タワー１を黒に。 
-	// Route through the rose road in front. Turn Tower 1 black.
 	print( "TrapIn 1003!\n" );
 	scr_CompleteMonumentBuild( "gfmo_001", POWER_COLOR_BLACK );
 	scr_SetBreakMonumentCallback( "miscb_BreakMonument07", 20001, CB_TYPE_ONCE, "gfmo_001" );
@@ -632,7 +557,6 @@ function miscb_TrapIn1003()
 	scr_RemoveCallbackFromId( 12003 );
 
 	//タワー出現を待つ 
-	// Wait for the tower to appear
 	mis_Wait( 1.0 );
 
 	scr_BotPlayerSpawnToMonument( 204, "gfmo_001" );
@@ -641,17 +565,13 @@ function miscb_TrapIn1003()
 	scr_BotPlayerSpawnToMonument( 205, "gfmo_001" );
 
 	//ボットのリスポーン管理 
-	// Bot respawn management
 	scr_BotPlayerSetRespawnEnable( 204, true );	//MOB_T 
 	scr_BotPlayerSetRespawnEnable( 205, false );	//MOB_T 
 
 
 	mis_InfomationAboutTower();	//もし初の敵タワーなら解説メッセージ 
-	mis_InfomationAboutTower (); // Commentary message if it is the first enemy tower
-//	scr_OpenMissionConditionText1( 0, "TXHFC01106", 7 );	//このタワーに関してのみ設定する
-	scr_OpenMissionConditionText1 (0, "TXHFC01106", 7); // Set only for this tower
+//	scr_OpenMissionConditionText1( 0, "TXHFC01106", 7 );	//このタワーに関してのみ設定する 
 	scr_OpenMissionConditionText(  0, "TXHFC01105" );	//タワーを立てつつ敵の城へ 
-	scr_OpenMissionConditionText (0, "TXHFC01105"); // Go to the enemy's castle while building a tower
 
 	mis_Wait( 3.0 );
 	scr_BotPlayerSpawnToWorld( 206, -2340.44, 499.98, 8250.4, 0.0 );	//MOBsd 
@@ -667,7 +587,6 @@ function miscb_TrapIn1003()
 function miscb_TrapIn2003()
 {
 	//正面のバラの道を通るルートを逆から。 
-	// Reverse the route through the rose road in front.
 	print( "TrapIn 2003!\n" );
 	scr_RemoveCallbackFromId( 10003 );
 }
@@ -678,46 +597,34 @@ function mis_InfomationAboutTower()
 		gFirstMonument = 1;
 
 		mis_BannerInfoTimer("miscb_BunnerInfo0202",3.0);	//バナーを次のものに更新 
-		mis_BannerInfoTimer ("miscb_BunnerInfo0202", 3.0); // Update banner to:
 		scr_CreateSceneSound( 66621, 850, 0.0, 0.0, 0.0 );
 		scr_OpenMissionExpainText( 0, "#TXCMB11041" );	//ひい！出た  
-		scr_OpenMissionExpainText (0, "# TXCMB11041"); // Hi! Came out
 	}
 }
 function miscb_BunnerInfo0202()
 {
 	//バナーインフォメーション続き 
-	// Banner information continued
 	print( "Bunner0202!\n" );
 	mis_BannerInfoTimer("miscb_BunnerInfo0203",4.0);	//バナーを削除する 
 	scr_OpenMissionExpainText( 0, "#TXCMB11042" );	//ひい！出た  
-	mis_BannerInfoTimer ("miscb_BunnerInfo0203", 4.0); // Remove the banner
-	scr_OpenMissionExpainText (0, "# TXCMB11042"); // Hi! Came out
 }
 function miscb_BunnerInfo0203()
 {
 	//バナーインフォメーション続き 
-	// Banner information continued
 	print( "Bunner0203!\n" );
 	mis_BannerInfoTimer("miscb_BunnerInfo0204",4.0);	//バナーを削除する 
-	scr_OpenMissionExpainText( 0, "#TXCMB11043" );	//ひい！出た 
-	mis_BannerInfoTimer ("miscb_BunnerInfo0204", 4.0); // Remove the banner
-	scr_OpenMissionExpainText (0, "# TXCMB11043"); // Hi! Came out
+	scr_OpenMissionExpainText( 0, "#TXCMB11043" );	//ひい！出た  
 }
 function miscb_BunnerInfo0204()
 {
 	//バナーインフォメーション続き 
-	// Banner information continued
 	print( "Bunner0204!\n" );
 	mis_BannerInfoTimer("miscb_BunnerInfoRemove",12.0);	//バナーを削除する 
 	scr_OpenMissionExpainText( 0, "#TXCMB11044" );	//ひい！出た  
-	mis_BannerInfoTimer ("miscb_BunnerInfoRemove", 12.0); // Remove the banner
-	scr_OpenMissionExpainText (0, "# TXCMB11044"); // Hi! Came out
 }
 function miscb_TrapIn1004()
 {
-	//石のアーチがある道を通るルート。
-	// Banner information continued
+	//石のアーチがある道を通るルート。 
 	print( "TrapIn 1004!\n" );
 	scr_RemoveCallbackFromId( 12004 );
 
@@ -737,29 +644,24 @@ function miscb_TrapIn1004()
 function miscb_TrapIn2004()
 {
 	//石のアーチがある道を通るルートを逆から。 
-	// Reverse the route through the road with the stone arch.
 	print( "TrapIn 2004!\n" );
 	scr_RemoveCallbackFromId( 10004 );
 }
 function miscb_BreakMonument07()
 {
 	//タワー7を破壊。 
-	// Destroy Tower 7.
 	print( "BreakM01!\n" );
 	gMonument07 = 0;
 
 	scr_SetBuildMonumentCallback( "miscb_BuildMonument07", 200012, CB_TYPE_ONCE, "gfmo_001", MONUMENT_BUILD_OWNERSHIP );	//4番タワーを建てた 
-	scr_SetBuildMonumentCallback( "miscb_BuildMonument07", 200012, CB_TYPE_ONCE, "gfmo_001", MONUMENT_BUILD_OWNERSHIP );	// Built the 4th tower
 
 	//ボットのリスポーン管理 
-	// Bot respawn management
 	scr_BotPlayerSetRespawnEnable( 204, false );	//MOB_T 
 	scr_BotPlayerSetRespawnEnable( 205, false );	//MOB_T 
 }
 function miscb_BuildMonument07()
 {
 	//タワー7を建築。 
-	// Build Tower 7.
 //	scr_CreateSceneEffect( 7603, "Ccam01c",    2073.381348, 508.000031, 9141.7005,   -114.0 );
 	scr_CreateSceneEffect( 7603, "Ccam01c",    1188.517822, 507.999847, 8519.669922,   -93.0 );
 	scr_CreateSceneEffect( 17603, "Ccam01c",    -3524.177734, 507.999939, 9489.948242,   -57.0 );
@@ -771,7 +673,6 @@ gMonument06 <- 0;
 function miscb_TrapIn1005()
 {
 	//タワー2向かって右の橋 
-	// Bridge on the right towards Tower 2
 	print( "TrapIn 1005!\n" );
 	mis_BuildTower06Black();
 	scr_RemoveCallbackFromId( 10006 );
@@ -785,7 +686,6 @@ function miscb_TrapIn1006()
 function mis_BuildTower06Black()
 {
 	//タワー6がクロじゃなければ黒にして敵出現 
-	// If Tower 6 is not black, make it black and an enemy appears
 	print( "builedM06!\n" );
 	if(gMonument06 == 0){
 		scr_CompleteMonumentBuild( "gfmo_003", POWER_COLOR_BLACK );
@@ -813,34 +713,28 @@ function mis_BuildTower06Black()
 	}
 
 		scr_OpenMissionConditionText(  0, "TXHFC01105" );	//タワーを立てつつ敵の城へ 
-		scr_OpenMissionConditionText (0, "TXHFC01105"); // Go to the enemy's castle while building a tower
 
 	mis_InfomationAboutTower();	//もし初の敵タワーなら解説メッセージ 
-	mis_InfomationAboutTower (); // Commentary message if it is the first enemy tower
 
 
 }
 function miscb_BreakMonument06()
 {
 	//タワー6を破壊 
-	// Destroy Tower 6
 	print( "BreakM06!\n" );
 	gMonument06 = 0;
 
 	scr_OpenMissionConditionText(  0, "TXHFC01105" );	//タワーを立てつつ敵の城へ 
-	scr_OpenMissionConditionText (0, "TXHFC01105"); 	// Go to the enemy's castle while building a tower
 
 	scr_BotPlayerSetRespawnEnable( 208, false );	//MOB_T 
 	scr_BotPlayerSetRespawnEnable( 209, false );	//MOB_T 
 
 	scr_SetBuildMonumentCallback( "miscb_BuildMonument06", 2000232, CB_TYPE_ONCE, "gfmo_003", MONUMENT_BUILD_OWNERSHIP );	//4番タワーを建てた 
-	scr_SetBuildMonumentCallback ("miscb_BuildMonument06", 2000232, CB_TYPE_ONCE, "gfmo_003", MONUMENT_BUILD_OWNERSHIP);	// Built the 4th tower
 
 }
 function miscb_BuildMonument06()
 {
 	//タワー6を建築。 
-	// Build Tower 6.
 		print( "BilllM06!\n" );
 	scr_CreateSceneEffect( 7604, "Ccam01c",  -8232.653320, 575.804260, 6802.891,   -127.0 );
 }
@@ -849,20 +743,16 @@ gMonument05 <- 0;
 function miscb_TrapIn1007()
 {
 	//ヘビー出現 
-	// Heavy appearance
 	print( "TrapIn 1007!\n" );
 	scr_OpenMissionConditionText(  0, "TXHFC01105" );	//タワーを立てつつ敵の城へ 
-	scr_OpenMissionConditionText (0, "TXHFC01105"); 	// Go to the enemy's castle while building a tower
 	
 	//タワー5を黒にしてタイマーを設置 
-	// Turn tower 5 black and set a timer
 	if(gMonument05 == 0)
 	{
 		scr_CompleteMonumentBuild( "gfmo_004", POWER_COLOR_BLACK );
 		scr_SetBreakMonumentCallback( "miscb_BreakMonument05", 20004, CB_TYPE_ONCE, "gfmo_004" );
 		gMonument05 = 1 ;
 		//タイマーでボットを召喚するやつ 
-		// The one who summons a bot with a timer
 		scr_SetTimerCallback( "miscb_BotSpawn201202tower05", 1201202, CB_TYPE_ONCE, 10.0 );
 
 	}
@@ -882,15 +772,12 @@ function miscb_TrapIn1007()
 	scr_BotPlayerSetActionTrigger( 214, true );
 
 	mis_BannerInfoTimer("miscb_BunnerInfo0302",3.0);	//バナーを次のものに更新 
-	mis_BannerInfoTimer ("miscb_BunnerInfo0302", 3.0); 	// Update banner to:
 	scr_CreateSceneSound( 66621, 850, 0.0, 0.0, 0.0 );
 	scr_OpenMissionExpainText( 0, "#TXCMB11051" );	//のろまがでてきたぜ  
-	scr_OpenMissionExpainText (0, "# TXCMB11051"); 	// I'm getting lazy
 }
 function miscb_BreakMonument05()
 {
 	//タワー5を破壊 
-	// Destroy Tower 5
 	print( "BreakM05!\n" );
 	gMonument05 = 0;
 
