@@ -438,7 +438,7 @@
 		"effectRotateX_" : 0,
 		"effectRotateY_" : 0,
 		"effectRotateZ_" : 0,
-		"effectTransX_" : 9398.369999999999,
+		"effectTransX_" : 9398.37,
 		"effectTransY_" : 2220.31,
 		"effectTransZ_" : 788.37
 	},
@@ -537,7 +537,7 @@
 		"effectRotateX_" : 0,
 		"effectRotateY_" : 0,
 		"effectRotateZ_" : 0,
-		"effectTransX_" : -9398.369999999999,
+		"effectTransX_" : -9398.37,
 		"effectTransY_" : 2220.31,
 		"effectTransZ_" : -788
 	},
@@ -1175,7 +1175,7 @@
 		"effectRotateX_" : 0,
 		"effectRotateY_" : 0,
 		"effectRotateZ_" : 0,
-		"effectTransX_" : 6419.2300000000005,
+		"effectTransX_" : 6419.23,
 		"effectTransY_" : 1503.81,
 		"effectTransZ_" : 1384.78
 	},

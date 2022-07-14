@@ -154,6 +154,12 @@
 	},
 	"GimmickBoneParamEx":{
 		"Label" : "GimmickEx,StaticParam"
+	},
+	"DLCPermissionSt1":{
+		"Label" : "DLCPermission,StaticParam"
+	},
+	"KeyboardCustomize":{
+		"Label" : "GameEnvironment,StaticParam"
 	}
 },
 // ContentsTable.xlsx.tmp TicketPanel 

@@ -1619,5 +1619,56 @@
 // sdesB_stage_gimmick.xlsx.tmp collisionEntries 
 
 "collisionEntries_":{
-
+	"FlatA":{
+		"signature_" : "FIL_TERRAIN_BASE",
+		"attribute_" : 1,
+		"type_" : "BOX",
+		"posX_" : 0,
+		"posY_" : 0,
+		"posZ_" : 0,
+		"widthX_" : 700,
+		"widthY_" : 400,
+		"widthZ_" : 200,
+		"rotX_" : 0,
+		"rotY_" : 0,
+		"rotZ_" : 0,
+		"transX_" : -875.008789,
+		"transY_" : 1000,
+		"transZ_" : 14427.932617
+	},
+	"FlatB":{
+		"signature_" : "FIL_TERRAIN_BASE",
+		"attribute_" : 1,
+		"type_" : "BOX",
+		"posX_" : 0,
+		"posY_" : 0,
+		"posZ_" : 0,
+		"widthX_" : 600,
+		"widthY_" : 1500,
+		"widthZ_" : 400,
+		"rotX_" : 0,
+		"rotY_" : 20,
+		"rotZ_" : 0,
+		"transX_" : -2437.71,
+		"transY_" : 1238.1,
+		"transZ_" : -12271.1
+	},
+	"FlatC":{
+		"signature_" : "FIL_TERRAIN_BASE",
+		"attribute_" : 0,
+		"type_" : "BOX",
+		"radius_" : 0,
+		"posX_" : 0,
+		"posY_" : 0,
+		"posZ_" : 0,
+		"widthX_" : 300,
+		"widthY_" : 320,
+		"widthZ_" : 40,
+		"rotX_" : 0,
+		"rotY_" : -40,
+		"rotZ_" : 0,
+		"transX_" : -4687,
+		"transY_" : -200,
+		"transZ_" : -5605
+	}
 }}}

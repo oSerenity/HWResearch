@@ -2209,5 +2209,55 @@
 // sdarA_stage_gimmick.xlsx.tmp collisionEntries 
 
 "collisionEntries_":{
-
+	"FlatA":{
+		"signature_" : "FIL_TERRAIN_BASE",
+		"attribute_" : 1,
+		"type_" : "BOX",
+		"posX_" : 0,
+		"posY_" : 0,
+		"posZ_" : 0,
+		"widthX_" : 500,
+		"widthY_" : 50,
+		"widthZ_" : 400,
+		"rotX_" : 0,
+		"rotY_" : 0,
+		"rotZ_" : 0,
+		"transX_" : 4270.19043,
+		"transY_" : 1491.501709,
+		"transZ_" : 1824.167725
+	},
+	"FlatB":{
+		"signature_" : "FIL_TERRAIN_BASE",
+		"attribute_" : 1,
+		"type_" : "BOX",
+		"posX_" : 0,
+		"posY_" : 0,
+		"posZ_" : 0,
+		"widthX_" : 150,
+		"widthY_" : 450,
+		"widthZ_" : 150,
+		"rotX_" : 30,
+		"rotY_" : 0,
+		"rotZ_" : 0,
+		"transX_" : -24293.1,
+		"transY_" : 250.1,
+		"transZ_" : 2181.1
+	},
+	"FlatC":{
+		"signature_" : "FIL_TERRAIN_BASE",
+		"attribute_" : 1,
+		"type_" : "BOX",
+		"posX_" : 0,
+		"posY_" : 0,
+		"posZ_" : 0,
+		"widthX_" : 100,
+		"widthY_" : 600,
+		"widthZ_" : 100,
+		"rotX_" : 0,
+		"rotY_" : 0,
+		"rotZ_" : 0,
+		"transX_" : 24293.1,
+		"transY_" : 250.1,
+		"transZ_" : -2181.1
+	}
 }}}

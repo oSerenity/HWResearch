@@ -195,7 +195,7 @@
 	},
 	"Berserker01":{
 		"item_0_" : "RUSH",
-		"item_1_" : "POWER_STRIKE",
+		"item_1_" : "DOUBLE_SPINNING",
 		"item_2_" : "SPINNING_BLADE",
 		"item_3_" : "SMASH",
 		"item_4_" : "RUSH",
@@ -221,7 +221,7 @@
 		"item_6_" : "POWER_STRIKE",
 		"item_7_" : "RUSH",
 		"item_8_" : "SPINNING_BLADE",
-		"item_9_" : "SMASH",
+		"item_9_" : "DOUBLE_SPINNING",
 		"item_10_" : "POWER_STRIKE",
 		"item_11_" : "RUSH",
 		"item_12_" : "SPINNING_BLADE",
@@ -4179,13 +4179,11 @@
 		"pause_" : "PAUSE_SCENE"
 	},
 	"CustomizationLink":{
-		"textId_" : "$TXCDI00132",
-		"symbol_" : "NOTHING",
+		"textId_" : "#TXCDI00183",
+		"symbol_" : "CAUTION",
 		"button_" : "OK",
-		"pause_" : "PAUSE_SCENE",
-		"keyAlign_" : "LEFT_HORIZON",
-		"input0Type_" : "Y",
-		"input0Label_" : "#TXKYB00013"
+		"se_" : "SE_SYS_NORMAL_DIALOG",
+		"pause_" : "PAUSE_SCENE"
 	},
 	"RecommendTutorial":{
 		"textId_" : "$TXCDI00129",
@@ -4288,7 +4286,7 @@
 		"button_" : "NOTHING",
 		"se_" : "SE_SYS_NORMAL_DIALOG",
 		"pause_" : "PAUSE_SCENE",
-		"keyAlign_" : "LEFT_HORIZON",
+		"keyAlign_" : "RIGHT_HORIZON",
 		"input0Type_" : "A",
 		"input0Label_" : "#TXKAB00002"
 	},
@@ -4298,7 +4296,7 @@
 		"button_" : "NOTHING",
 		"se_" : "SE_SYS_NORMAL_DIALOG",
 		"pause_" : "PAUSE_SCENE",
-		"keyAlign_" : "LEFT_HORIZON",
+		"keyAlign_" : "RIGHT_HORIZON",
 		"input0Type_" : "Y",
 		"input0Label_" : "#TXKYB00009",
 		"input1Type_" : "A",
@@ -4310,7 +4308,7 @@
 		"button_" : "NOTHING",
 		"se_" : "SE_SYS_NORMAL_DIALOG",
 		"pause_" : "PAUSE_SCENE",
-		"keyAlign_" : "LEFT_HORIZON",
+		"keyAlign_" : "RIGHT_HORIZON",
 		"input0Type_" : "A",
 		"input0Label_" : "#TXKAB00002"
 	},
@@ -4320,7 +4318,7 @@
 		"button_" : "NOTHING",
 		"se_" : "SE_SYS_NORMAL_DIALOG",
 		"pause_" : "PAUSE_SCENE",
-		"keyAlign_" : "LEFT_HORIZON",
+		"keyAlign_" : "RIGHT_HORIZON",
 		"input0Type_" : "A",
 		"input0Label_" : "#TXKAB00010"
 	},
@@ -4330,7 +4328,7 @@
 		"button_" : "NOTHING",
 		"se_" : "SE_SYS_NORMAL_DIALOG",
 		"pause_" : "PAUSE_SCENE",
-		"keyAlign_" : "LEFT_HORIZON",
+		"keyAlign_" : "RIGHT_HORIZON",
 		"input0Type_" : "Y",
 		"input0Label_" : "#TXKYB00007",
 		"input1Type_" : "A",
@@ -4342,7 +4340,7 @@
 		"button_" : "NOTHING",
 		"se_" : "SE_SYS_NORMAL_DIALOG",
 		"pause_" : "PAUSE_SCENE",
-		"keyAlign_" : "LEFT_HORIZON",
+		"keyAlign_" : "RIGHT_HORIZON",
 		"input0Type_" : "A",
 		"input0Label_" : "#TXKAB00002"
 	},
@@ -4352,7 +4350,7 @@
 		"button_" : "NOTHING",
 		"se_" : "SE_SYS_NORMAL_DIALOG",
 		"pause_" : "PAUSE_SCENE",
-		"keyAlign_" : "LEFT_HORIZON",
+		"keyAlign_" : "RIGHT_HORIZON",
 		"input0Type_" : "Y",
 		"input0Label_" : "#TXKYB00010",
 		"input1Type_" : "A",
@@ -4364,7 +4362,7 @@
 		"button_" : "NOTHING",
 		"se_" : "SE_SYS_NORMAL_DIALOG",
 		"pause_" : "PAUSE_SCENE",
-		"keyAlign_" : "LEFT_HORIZON",
+		"keyAlign_" : "RIGHT_HORIZON",
 		"input0Type_" : "A",
 		"input0Label_" : "#TXKAB00002"
 	},
@@ -4374,7 +4372,7 @@
 		"button_" : "NOTHING",
 		"se_" : "SE_SYS_NORMAL_DIALOG",
 		"pause_" : "PAUSE_SCENE",
-		"keyAlign_" : "LEFT_HORIZON",
+		"keyAlign_" : "RIGHT_HORIZON",
 		"input0Type_" : "Y",
 		"input0Label_" : "#TXKYB00008",
 		"input1Type_" : "A",
@@ -4589,6 +4587,62 @@
 		"sideTextId_" : "#TXMPG40012",
 		"polluxEnable_" : true
 	},
+	"JOB_12":{
+		"tab_" : "JOB",
+		"page_" : 12,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG40113",
+		"sideTextId_" : "#TXMPG40013",
+		"polluxEnable_" : false
+	},
+	"JOB_13":{
+		"tab_" : "JOB",
+		"page_" : 13,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG40114",
+		"sideTextId_" : "#TXMPG40014",
+		"polluxEnable_" : false
+	},
+	"JOB_14":{
+		"tab_" : "JOB",
+		"page_" : 14,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG40117",
+		"sideTextId_" : "#TXMPG40017",
+		"polluxEnable_" : true
+	},
+	"JOB_15":{
+		"tab_" : "JOB",
+		"page_" : 15,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG40115",
+		"sideTextId_" : "#TXMPG40015",
+		"polluxEnable_" : false
+	},
+	"JOB_16":{
+		"tab_" : "JOB",
+		"page_" : 16,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG40120",
+		"sideTextId_" : "#TXMPG40020",
+		"polluxEnable_" : true
+	},
+	"JOB_17":{
+		"tab_" : "JOB",
+		"page_" : 17,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG40116",
+		"sideTextId_" : "#TXMPG40016",
+		"polluxEnable_" : false
+	},
+	"JOB_18":{
+		"tab_" : "JOB",
+		"page_" : 18,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG40123",
+		"sideTextId_" : "#TXMPG40023",
+		"polluxEnable_" : true
+	},
 	"GIMMICK_0":{
 		"tab_" : "GIMMICK",
 		"page_" : 0,
@@ -4634,7 +4688,7 @@
 		"page_" : 5,
 		"image_" : 1,
 		"titleTextId_" : "#TXMPG60103",
-		"sideTextId_" : "#TXMPG60007",
+		"sideTextId_" : "#TXMPG60008",
 		"polluxEnable_" : false
 	},
 	"GIMMICK_6":{
@@ -4642,7 +4696,7 @@
 		"page_" : 6,
 		"image_" : 1,
 		"titleTextId_" : "#TXMPG60103",
-		"sideTextId_" : "#TXMPG60008",
+		"sideTextId_" : "#TXMPG60009",
 		"polluxEnable_" : false
 	},
 	"GIMMICK_7":{
@@ -4650,7 +4704,7 @@
 		"page_" : 7,
 		"image_" : 1,
 		"titleTextId_" : "#TXMPG60103",
-		"sideTextId_" : "#TXMPG60009",
+		"sideTextId_" : "#TXMPG60010",
 		"polluxEnable_" : false
 	},
 	"GIMMICK_8":{
@@ -4658,7 +4712,7 @@
 		"page_" : 8,
 		"image_" : 1,
 		"titleTextId_" : "#TXMPG60103",
-		"sideTextId_" : "#TXMPG60010",
+		"sideTextId_" : "#TXMPG60011",
 		"polluxEnable_" : false
 	},
 	"GIMMICK_9":{
@@ -4666,7 +4720,7 @@
 		"page_" : 9,
 		"image_" : 1,
 		"titleTextId_" : "#TXMPG60103",
-		"sideTextId_" : "#TXMPG60011",
+		"sideTextId_" : "#TXMPG60013",
 		"polluxEnable_" : false
 	},
 	"GIMMICK_10":{
@@ -4674,7 +4728,7 @@
 		"page_" : 10,
 		"image_" : 1,
 		"titleTextId_" : "#TXMPG60103",
-		"sideTextId_" : "#TXMPG60013",
+		"sideTextId_" : "#TXMPG60014",
 		"polluxEnable_" : false
 	},
 	"GIMMICK_11":{
@@ -4682,15 +4736,15 @@
 		"page_" : 11,
 		"image_" : 1,
 		"titleTextId_" : "#TXMPG60103",
-		"sideTextId_" : "#TXMPG60014",
+		"sideTextId_" : "#TXMPG60015",
 		"polluxEnable_" : false
 	},
 	"GIMMICK_12":{
 		"tab_" : "GIMMICK",
 		"page_" : 12,
 		"image_" : 1,
-		"titleTextId_" : "#TXMPG60103",
-		"sideTextId_" : "#TXMPG60015",
+		"titleTextId_" : "#TXMPG60104",
+		"sideTextId_" : "#TXMPG60016",
 		"polluxEnable_" : false
 	},
 	"GIMMICK_13":{
@@ -4698,15 +4752,15 @@
 		"page_" : 13,
 		"image_" : 1,
 		"titleTextId_" : "#TXMPG60104",
-		"sideTextId_" : "#TXMPG60016",
+		"sideTextId_" : "#TXMPG60017",
 		"polluxEnable_" : false
 	},
 	"GIMMICK_14":{
 		"tab_" : "GIMMICK",
 		"page_" : 14,
 		"image_" : 1,
-		"titleTextId_" : "#TXMPG60104",
-		"sideTextId_" : "#TXMPG60017",
+		"titleTextId_" : "#TXMPG60105",
+		"sideTextId_" : "#TXMPG60018",
 		"polluxEnable_" : false
 	},
 	"GIMMICK_15":{
@@ -4714,7 +4768,7 @@
 		"page_" : 15,
 		"image_" : 1,
 		"titleTextId_" : "#TXMPG60105",
-		"sideTextId_" : "#TXMPG60018",
+		"sideTextId_" : "#TXMPG60019",
 		"polluxEnable_" : false
 	},
 	"GIMMICK_16":{
@@ -4722,7 +4776,7 @@
 		"page_" : 16,
 		"image_" : 1,
 		"titleTextId_" : "#TXMPG60105",
-		"sideTextId_" : "#TXMPG60019",
+		"sideTextId_" : "#TXMPG60020",
 		"polluxEnable_" : false
 	},
 	"GIMMICK_17":{
@@ -4730,7 +4784,7 @@
 		"page_" : 17,
 		"image_" : 1,
 		"titleTextId_" : "#TXMPG60105",
-		"sideTextId_" : "#TXMPG60020",
+		"sideTextId_" : "#TXMPG60021",
 		"polluxEnable_" : false
 	},
 	"GIMMICK_18":{
@@ -4738,7 +4792,7 @@
 		"page_" : 18,
 		"image_" : 1,
 		"titleTextId_" : "#TXMPG60105",
-		"sideTextId_" : "#TXMPG60021",
+		"sideTextId_" : "#TXMPG60022",
 		"polluxEnable_" : false
 	},
 	"GIMMICK_19":{
@@ -4746,7 +4800,7 @@
 		"page_" : 19,
 		"image_" : 1,
 		"titleTextId_" : "#TXMPG60105",
-		"sideTextId_" : "#TXMPG60022",
+		"sideTextId_" : "#TXMPG60023",
 		"polluxEnable_" : false
 	},
 	"GIMMICK_20":{
@@ -4754,7 +4808,7 @@
 		"page_" : 20,
 		"image_" : 1,
 		"titleTextId_" : "#TXMPG60105",
-		"sideTextId_" : "#TXMPG60023",
+		"sideTextId_" : "#TXMPG60038",
 		"polluxEnable_" : false
 	},
 	"GIMMICK_21":{
@@ -4809,8 +4863,8 @@
 		"tab_" : "GIMMICK",
 		"page_" : 27,
 		"image_" : 1,
-		"titleTextId_" : "#TXMPG60107",
-		"sideTextId_" : "#TXMPG60029",
+		"titleTextId_" : "#TXMPG60106",
+		"sideTextId_" : "#TXMPG60007",
 		"polluxEnable_" : false
 	},
 	"GIMMICK_28":{
@@ -4818,12 +4872,20 @@
 		"page_" : 28,
 		"image_" : 1,
 		"titleTextId_" : "#TXMPG60107",
-		"sideTextId_" : "#TXMPG60030",
+		"sideTextId_" : "#TXMPG60029",
 		"polluxEnable_" : false
 	},
 	"GIMMICK_29":{
 		"tab_" : "GIMMICK",
 		"page_" : 29,
+		"image_" : 1,
+		"titleTextId_" : "#TXMPG60107",
+		"sideTextId_" : "#TXMPG60030",
+		"polluxEnable_" : false
+	},
+	"GIMMICK_30":{
+		"tab_" : "GIMMICK",
+		"page_" : 30,
 		"image_" : 1,
 		"titleTextId_" : "#TXMPG60108",
 		"sideTextId_" : "#TXMPG60031",

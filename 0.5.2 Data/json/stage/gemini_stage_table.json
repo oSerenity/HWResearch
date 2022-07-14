@@ -5,6 +5,7 @@
 	"scloA":{
 		"id_" : "STAGE_SCLO_A",
 		"PlayTime" : 900,
+		"QuickPlayTime" : 600,
 		"PlayerNum" : 18,
 		"BgmId" : 10030,
 		"Reverb" : 100,
@@ -19,11 +20,12 @@
 		"LimitJumpInCastleGateRate" : 0,
 		"CoopLimitJumpInPassageTime" : 720,
 		"CoopLimitJumpInCastleMonumentRate" : 0.25,
-		"UseEventMatch" : false
+		"DecorationID" : 3
 	},
 	"scloB":{
 		"id_" : "STAGE_SCLO_B",
 		"PlayTime" : 900,
+		"QuickPlayTime" : 600,
 		"PlayerNum" : 12,
 		"BgmId" : 10035,
 		"Reverb" : 90,
@@ -38,11 +40,12 @@
 		"LimitJumpInCastleGateRate" : 0,
 		"CoopLimitJumpInPassageTime" : 720,
 		"CoopLimitJumpInCastleMonumentRate" : 0.25,
-		"UseEventMatch" : false
+		"DecorationID" : 3
 	},
 	"sdarA":{
 		"id_" : "STAGE_SDAR_A",
 		"PlayTime" : 900,
+		"QuickPlayTime" : 600,
 		"PlayerNum" : 24,
 		"BgmId" : 10025,
 		"Reverb" : 30,
@@ -56,11 +59,13 @@
 		"LimitJumpInCastleMonumentRate" : 0.25,
 		"LimitJumpInCastleGateRate" : 0,
 		"CoopLimitJumpInPassageTime" : 720,
-		"CoopLimitJumpInCastleMonumentRate" : 0.25
+		"CoopLimitJumpInCastleMonumentRate" : 0.25,
+		"DecorationID" : 3
 	},
 	"sdarB":{
 		"id_" : "STAGE_SDAR_B",
 		"PlayTime" : 900,
+		"QuickPlayTime" : 600,
 		"PlayerNum" : 18,
 		"BgmId" : 10050,
 		"Reverb" : 40,
@@ -74,11 +79,13 @@
 		"LimitJumpInCastleMonumentRate" : 0.25,
 		"LimitJumpInCastleGateRate" : 0,
 		"CoopLimitJumpInPassageTime" : 720,
-		"CoopLimitJumpInCastleMonumentRate" : 0.25
+		"CoopLimitJumpInCastleMonumentRate" : 0.25,
+		"DecorationID" : 3
 	},
 	"sdesA":{
 		"id_" : "STAGE_SDES_A",
 		"PlayTime" : 900,
+		"QuickPlayTime" : 600,
 		"PlayerNum" : 24,
 		"BgmId" : 10010,
 		"Reverb" : 70,
@@ -92,11 +99,13 @@
 		"LimitJumpInCastleMonumentRate" : 0.25,
 		"LimitJumpInCastleGateRate" : 0,
 		"CoopLimitJumpInPassageTime" : 720,
-		"CoopLimitJumpInCastleMonumentRate" : 0.25
+		"CoopLimitJumpInCastleMonumentRate" : 0.25,
+		"DecorationID" : 3
 	},
 	"sdesB":{
 		"id_" : "STAGE_SDES_B",
 		"PlayTime" : 900,
+		"QuickPlayTime" : 600,
 		"PlayerNum" : 18,
 		"BgmId" : 10015,
 		"Reverb" : 80,
@@ -109,11 +118,13 @@
 		"LimitJumpInCastleMonumentRate" : 0.25,
 		"LimitJumpInCastleGateRate" : 0,
 		"CoopLimitJumpInPassageTime" : 720,
-		"CoopLimitJumpInCastleMonumentRate" : 0.25
+		"CoopLimitJumpInCastleMonumentRate" : 0.25,
+		"DecorationID" : 3
 	},
 	"sligA":{
 		"id_" : "STAGE_SLIG_A",
 		"PlayTime" : 900,
+		"QuickPlayTime" : 600,
 		"PlayerNum" : 24,
 		"BgmId" : 10000,
 		"Reverb" : 10,
@@ -127,11 +138,13 @@
 		"LimitJumpInCastleMonumentRate" : 0.25,
 		"LimitJumpInCastleGateRate" : 0,
 		"CoopLimitJumpInPassageTime" : 720,
-		"CoopLimitJumpInCastleMonumentRate" : 0.25
+		"CoopLimitJumpInCastleMonumentRate" : 0.25,
+		"DecorationID" : 3
 	},
 	"sligB":{
 		"id_" : "STAGE_SLIG_B",
 		"PlayTime" : 900,
+		"QuickPlayTime" : 600,
 		"PlayerNum" : 18,
 		"BgmId" : 10001,
 		"Reverb" : 20,
@@ -144,11 +157,13 @@
 		"LimitJumpInCastleMonumentRate" : 0.25,
 		"LimitJumpInCastleGateRate" : 0,
 		"CoopLimitJumpInPassageTime" : 720,
-		"CoopLimitJumpInCastleMonumentRate" : 0.25
+		"CoopLimitJumpInCastleMonumentRate" : 0.25,
+		"DecorationID" : 3
 	},
 	"sseaA":{
 		"id_" : "STAGE_SSEA_A",
 		"PlayTime" : 900,
+		"QuickPlayTime" : 600,
 		"PlayerNum" : 12,
 		"BgmId" : 10020,
 		"Reverb" : 50,
@@ -162,11 +177,12 @@
 		"LimitJumpInCastleGateRate" : 0,
 		"CoopLimitJumpInPassageTime" : 720,
 		"CoopLimitJumpInCastleMonumentRate" : 0.25,
-		"UseEventMatch" : false
+		"DecorationID" : 3
 	},
 	"sseaB":{
 		"id_" : "STAGE_SSEA_B",
 		"PlayTime" : 900,
+		"QuickPlayTime" : 600,
 		"PlayerNum" : 18,
 		"BgmId" : 10021,
 		"Reverb" : 60,
@@ -181,11 +197,12 @@
 		"LimitJumpInCastleGateRate" : 0,
 		"CoopLimitJumpInPassageTime" : 720,
 		"CoopLimitJumpInCastleMonumentRate" : 0.25,
-		"UseEventMatch" : false
+		"DecorationID" : 3
 	},
 	"sbabA":{
 		"id_" : "STAGE_SBAB_A",
 		"PlayTime" : 900,
+		"QuickPlayTime" : 600,
 		"PlayerNum" : 24,
 		"BgmId" : 10040,
 		"Reverb" : 30,
@@ -199,11 +216,13 @@
 		"LimitJumpInCastleMonumentRate" : 0.25,
 		"LimitJumpInCastleGateRate" : 0,
 		"CoopLimitJumpInPassageTime" : 720,
-		"CoopLimitJumpInCastleMonumentRate" : 0.25
+		"CoopLimitJumpInCastleMonumentRate" : 0.25,
+		"DecorationID" : 3
 	},
 	"sbabB":{
 		"id_" : "STAGE_SBAB_B",
 		"PlayTime" : 900,
+		"QuickPlayTime" : 600,
 		"PlayerNum" : 24,
 		"BgmId" : 10045,
 		"Reverb" : 10,
@@ -217,17 +236,20 @@
 		"LimitJumpInCastleMonumentRate" : 0.25,
 		"LimitJumpInCastleGateRate" : 0,
 		"CoopLimitJumpInPassageTime" : 720,
-		"CoopLimitJumpInCastleMonumentRate" : 0.25
+		"CoopLimitJumpInCastleMonumentRate" : 0.25,
+		"DecorationID" : 3
 	},
 	"sprg_test_map":{
 		"id_" : "STAGE_DEBUG_00",
 		"PlayTime" : 1800,
+		"QuickPlayTime" : 1800,
 		"BgmId" : 5005,
 		"MenuBgIndex" : 0
 	},
 	"sfort_test_map":{
 		"id_" : "STAGE_DEBUG_01",
 		"PlayTime" : 3000,
+		"QuickPlayTime" : 3000,
 		"BgmId" : 5005,
 		"MenuBgIndex" : 0
 	}

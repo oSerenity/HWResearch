@@ -606,7 +606,7 @@
 		},
 		{
 			"@class" : "tll::actor::command::Frame",
-			"frame_" : 12.0
+			"frame_" : 10.0
 		},
 		{
 			"@class" : "command::Hit",

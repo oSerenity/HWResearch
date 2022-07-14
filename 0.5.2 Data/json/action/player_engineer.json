@@ -1246,6 +1246,14 @@
 		},
 		{
 			"@class" : "tll::actor::command::Frame",
+			"frame_" : 5
+		},
+		{
+			"@class" : "command::PlayGameVoice",
+			"id_" : 1400
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
 			"frame_" : 250
 		},
 		{
@@ -1255,10 +1263,6 @@
 		{
 			"@class" : "command::PadVibration",
 			"vibType_" : "PAD_VIBRATION_FALL_DEAD"
-		},
-		{
-			"@class" : "command::PlayGameVoice",
-			"id_" : 1400
 		},
 		{
 			"@class" : "command::PlayGameSe",

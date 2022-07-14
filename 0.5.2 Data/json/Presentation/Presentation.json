@@ -56,6 +56,34 @@
 		"IsEnable" : false,
 		"InfomationTextId" : "#TXPRE10004"
 	},
+	"NewComer":{
+		"Date" : 20141023,
+		"EndDate" : 20141023,
+		"IsEnable" : true,
+		"RewardSetId" : "NewComer1",
+		"InfomationTextId" : "#TXPRE00005"
+	},
+	"NewComer2":{
+		"Date" : 20141106,
+		"EndDate" : 20141106,
+		"IsEnable" : true,
+		"RewardSetId" : "NewComer2",
+		"InfomationTextId" : "#TXPRE00006"
+	},
+	"NewComer3":{
+		"Date" : 20141120,
+		"EndDate" : 20141120,
+		"IsEnable" : true,
+		"RewardSetId" : "NewComer3",
+		"InfomationTextId" : "#TXPRE00007"
+	},
+	"Halloween":{
+		"Date" : 20141102,
+		"EndDate" : 20141102,
+		"IsEnable" : true,
+		"RewardSetId" : "HLItems01",
+		"InfomationTextId" : "#TXPRE00008"
+	},
 	"EAend01":{
 		"Date" : 20140709,
 		"EndDate" : 20140709,
@@ -63,27 +91,250 @@
 		"HappyTicketNum" : 100,
 		"InfomationTextId" : "#TXPRE10003"
 	},
-	"DEVpresent":{
-		"Date" : 20140724,
-		"EndDate" : 20140724,
+	"DEVpresent1":{
+		"Date" : 20141016,
+		"EndDate" : 20141016,
 		"IsEnable" : true,
-		"HappyTicketNum" : 1,
+		"HappyTicketNum" : 3000,
 		"InfomationTextId" : "#TXPRE10004",
-		"GamerTag" : "1:9"
+		"GamerTag" : "1:85275"
 	},
 	"DEVpresent2":{
-		"Date" : 20140724,
-		"EndDate" : 20140724,
+		"Date" : 20141016,
+		"EndDate" : 20141016,
 		"IsEnable" : true,
-		"HappyTicketNum" : 2701,
+		"HappyTicketNum" : 3000,
 		"InfomationTextId" : "#TXPRE10004",
-		"GamerTag" : "3:1"
+		"GamerTag" : "6:582"
 	},
-	"ReleaseToken":{
-		"Date" : 20140724,
-		"EndDate" : 20140724,
+	"DEVpresent3":{
+		"Date" : 20141016,
+		"EndDate" : 20141016,
+		"IsEnable" : true,
+		"HappyTicketNum" : 3000,
+		"InfomationTextId" : "#TXPRE10004",
+		"GamerTag" : "3:253513"
+	},
+	"Lbreset":{
+		"Date" : 20140801,
+		"EndDate" : 20140801,
 		"IsEnable" : true,
 		"HappyTicketNum" : 100,
 		"InfomationTextId" : "#TXPRE10003"
+	},
+	"V120_01":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "3:126078"
+	},
+	"V120_02":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "1:152377"
+	},
+	"V120_03":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "3:1"
+	},
+	"V120_04":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "5:130884"
+	},
+	"V120_05":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "1:113126"
+	},
+	"V120_06":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "6:140412"
+	},
+	"V120_07":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "2:176375"
+	},
+	"V120_08":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "6:116597"
+	},
+	"V120_09":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "4:97631"
+	},
+	"V120_10":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "6:138939"
+	},
+	"V120_11":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "3:113093"
+	},
+	"V120_12":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "4:69479"
+	},
+	"V120_13":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "1:130800"
+	},
+	"V120_14":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "2:133796"
+	},
+	"V120_15":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "6:84870"
+	},
+	"V120_16":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "2:152289"
+	},
+	"V120_17":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "4:161073"
+	},
+	"V120_18":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "3:170787"
+	},
+	"V120_19":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "1:132235"
+	},
+	"V120_20":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "2:183688"
+	},
+	"V120_21":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "6:104742"
+	},
+	"V120_22":{
+		"Date" : 20140820,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v121",
+		"InfomationTextId" : "#TXPRE10005",
+		"GamerTag" : "6:134425"
+	},
+	"V140_1":{
+		"Date" : 20140917,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_v140",
+		"InfomationTextId" : "#TXPRE10006",
+		"GamerTag" : "5:133714"
+	},
+	"V160_1":{
+		"Date" : 20141002,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_ali",
+		"InfomationTextId" : "#TXPRE10007",
+		"GamerTag" : "3:168129"
+	},
+	"V170_1":{
+		"Date" : 20141002,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_3",
+		"InfomationTextId" : "#TXPRE10008",
+		"GamerTag" : "4:118605"
+	},
+	"V170_2":{
+		"Date" : 20141002,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_t",
+		"InfomationTextId" : "#TXPRE10009",
+		"GamerTag" : "5:62290"
+	},
+	"V170_21":{
+		"Date" : 20141002,
+		"EndDate" : 20141231,
+		"IsEnable" : true,
+		"RewardSetId" : "apology_t",
+		"InfomationTextId" : "#TXPRE10009"
 	}
 }}}

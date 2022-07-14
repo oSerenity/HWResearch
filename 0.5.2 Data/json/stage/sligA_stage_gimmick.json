@@ -1944,5 +1944,51 @@
 // sligA_stage_gimmick.xlsx.tmp collisionEntries 
 
 "collisionEntries_":{
-
+	"FlatA":{
+		"signature_" : "FIL_TERRAIN_BASE",
+		"attribute_" : 1,
+		"type_" : "BOX",
+		"posX_" : 0,
+		"posY_" : 0,
+		"posZ_" : 0,
+		"widthX_" : 200,
+		"widthY_" : 900,
+		"widthZ_" : 200,
+		"rotX_" : 0,
+		"rotY_" : 0,
+		"rotZ_" : 0,
+		"transX_" : -7405.1,
+		"transY_" : 0,
+		"transZ_" : 10148.1
+	},
+	"FlatB":{
+		"signature_" : "FIL_TERRAIN_BASE",
+		"attribute_" : 1,
+		"type_" : "SPHERE",
+		"radius_" : 150,
+		"posX_" : 0,
+		"posY_" : 0,
+		"posZ_" : 0,
+		"rotX_" : 0,
+		"rotY_" : 0,
+		"rotZ_" : 0,
+		"transX_" : -6376.1,
+		"transY_" : 150,
+		"transZ_" : -993.4
+	},
+	"FlatC":{
+		"signature_" : "FIL_TERRAIN_BASE",
+		"attribute_" : 1,
+		"type_" : "SPHERE",
+		"radius_" : 200,
+		"posX_" : 0,
+		"posY_" : 0,
+		"posZ_" : 0,
+		"rotX_" : 0,
+		"rotY_" : 0,
+		"rotZ_" : 0,
+		"transX_" : 8821.1,
+		"transY_" : 200,
+		"transZ_" : 2925.29
+	}
 }}}

@@ -7615,15 +7615,15 @@
 		"JobType" : "MAGE",
 		"SexType" : "MALE",
 		"PersonalityType" : "TYPE_B",
-		"EyeType" : "EYE_16",
+		"EyeType" : "EYE_19",
 		"EyeOffsetType" : "DEFAULT",
-		"MouthType" : "MOUTH_20",
+		"MouthType" : "MOUTH_11",
 		"MouthOffsetType" : "DEFAULT",
-		"HairType" : "HAIR_03",
+		"HairType" : "HAIR_00",
 		"HairColorType" : "HAIR_COLOR_02",
-		"SkinColorType" : "SKIN_COLOR_15",
-		"EquipHead" : "ITEM_SPINNER_HEAD_1",
-		"EquipBody" : "ITEM_SPINNER_ARMOR_1"
+		"SkinColorType" : "SKIN_COLOR_01",
+		"EquipHead" : "ITEM_DLC_HEAD_1061",
+		"EquipBody" : "ITEM_DLC_ARMOR_1051"
 	},
 	"Mascot_Levelup_white":{
 		"JobType" : "MAGE",
@@ -7681,5 +7681,15 @@
 		"HairColorType" : "HAIR_COLOR_02",
 		"SkinColorType" : "SKIN_COLOR_01",
 		"EquipBody" : "ITEM_SPINNER_ARMOR_1"
+	}
+},
+// Gemini_Bot.xlsx.tmp FlexParam 
+
+"flexParams_":{
+	"FlexParam":{
+		"TARGET_TRANSFORM_RANGE_01" : 100,
+		"TARGET_TRANSFORM_RANGE_02" : 1300,
+		"JOIN_TEAM_SKILL_CANCEL_TIME" : 20,
+		"JOIN_TEAM_SKILL_REJECT_TIME" : 20
 	}
 }}}

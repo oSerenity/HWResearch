@@ -350,9 +350,13 @@
 // Geimini_アイテム取得条件パラメータ.xlsx.tmp BoxLotteryTable 
 
 "boxLotteryTable_":{
-	"hoge":{
-		"NormalBoxRate" : 0.9,
-		"RedBoxRate" : 0.1
+	"Default":{
+		"NormalBoxRate" : 0.95,
+		"RedBoxRate" : 0.05
+	},
+	"Special":{
+		"NormalBoxRate" : 0.95,
+		"RedBoxRate" : 0.05
 	}
 },
 // Geimini_アイテム取得条件パラメータ.xlsx.tmp BoxNumberTable 
@@ -1946,9 +1950,7 @@
 		"AppearRate15" : 0
 	},
 	"Rank012":{
-		"AppearRate01" : 40,
-		"AppearRate02" : 30,
-		"AppearRate03" : 30,
+		"AppearRate01" : 100,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -1956,8 +1958,8 @@
 		"AppearRate15" : 0
 	},
 	"Rank013":{
+		"AppearRate01" : 50,
 		"AppearRate02" : 50,
-		"AppearRate03" : 50,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -1991,9 +1993,7 @@
 		"AppearRate15" : 0
 	},
 	"Rank022":{
-		"AppearRate01" : 40,
-		"AppearRate02" : 30,
-		"AppearRate03" : 30,
+		"AppearRate01" : 100,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -2001,7 +2001,8 @@
 		"AppearRate15" : 0
 	},
 	"Rank023":{
-		"AppearRate02" : 70,
+		"AppearRate01" : 35,
+		"AppearRate02" : 35,
 		"AppearRate03" : 30,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
@@ -2010,9 +2011,8 @@
 		"AppearRate15" : 0
 	},
 	"Rank024":{
+		"AppearRate02" : 50,
 		"AppearRate03" : 50,
-		"AppearRate04" : 40,
-		"AppearRate05" : 10,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -2021,8 +2021,7 @@
 	},
 	"Rank025":{
 		"AppearRate03" : 50,
-		"AppearRate04" : 40,
-		"AppearRate05" : 10,
+		"AppearRate04" : 50,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -2038,9 +2037,8 @@
 		"AppearRate15" : 0
 	},
 	"Rank032":{
-		"AppearRate01" : 40,
-		"AppearRate02" : 30,
-		"AppearRate03" : 30,
+		"AppearRate01" : 50,
+		"AppearRate02" : 50,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -2048,8 +2046,8 @@
 		"AppearRate15" : 0
 	},
 	"Rank033":{
-		"AppearRate02" : 70,
-		"AppearRate03" : 30,
+		"AppearRate02" : 50,
+		"AppearRate03" : 50,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -2057,9 +2055,9 @@
 		"AppearRate15" : 0
 	},
 	"Rank034":{
-		"AppearRate03" : 40,
-		"AppearRate04" : 30,
-		"AppearRate05" : 10,
+		"AppearRate02" : 50,
+		"AppearRate03" : 30,
+		"AppearRate04" : 20,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -2067,9 +2065,8 @@
 		"AppearRate15" : 0
 	},
 	"Rank035":{
-		"AppearRate03" : 40,
-		"AppearRate04" : 30,
-		"AppearRate05" : 10,
+		"AppearRate03" : 50,
+		"AppearRate04" : 50,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -2085,9 +2082,8 @@
 		"AppearRate15" : 0
 	},
 	"Rank042":{
-		"AppearRate01" : 40,
-		"AppearRate02" : 30,
-		"AppearRate03" : 30,
+		"AppearRate01" : 50,
+		"AppearRate02" : 50,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -2096,8 +2092,7 @@
 	},
 	"Rank043":{
 		"AppearRate02" : 50,
-		"AppearRate03" : 40,
-		"AppearRate04" : 10,
+		"AppearRate03" : 50,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -2105,9 +2100,8 @@
 		"AppearRate15" : 0
 	},
 	"Rank044":{
-		"AppearRate04" : 60,
-		"AppearRate05" : 30,
-		"AppearRate06" : 10,
+		"AppearRate03" : 50,
+		"AppearRate04" : 50,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -2115,9 +2109,9 @@
 		"AppearRate15" : 0
 	},
 	"Rank045":{
-		"AppearRate04" : 60,
-		"AppearRate05" : 30,
-		"AppearRate06" : 10,
+		"AppearRate03" : 50,
+		"AppearRate04" : 30,
+		"AppearRate05" : 20,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -2133,9 +2127,8 @@
 		"AppearRate15" : 0
 	},
 	"Rank052":{
-		"AppearRate01" : 40,
-		"AppearRate02" : 30,
-		"AppearRate03" : 30,
+		"AppearRate02" : 50,
+		"AppearRate03" : 50,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -2143,8 +2136,9 @@
 		"AppearRate15" : 0
 	},
 	"Rank053":{
-		"AppearRate02" : 40,
-		"AppearRate03" : 30,
+		"AppearRate02" : 35,
+		"AppearRate03" : 35,
+		"AppearRate04" : 30,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -2152,10 +2146,8 @@
 		"AppearRate15" : 0
 	},
 	"Rank054":{
-		"AppearRate04" : 40,
-		"AppearRate05" : 35,
-		"AppearRate06" : 15,
-		"AppearRate07" : 10,
+		"AppearRate04" : 50,
+		"AppearRate05" : 50,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -2163,10 +2155,9 @@
 		"AppearRate15" : 0
 	},
 	"Rank055":{
-		"AppearRate04" : 40,
-		"AppearRate05" : 35,
-		"AppearRate06" : 15,
-		"AppearRate07" : 10,
+		"AppearRate04" : 50,
+		"AppearRate05" : 45,
+		"AppearRate06" : 5,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -2182,9 +2173,8 @@
 		"AppearRate15" : 0
 	},
 	"Rank062":{
-		"AppearRate01" : 40,
-		"AppearRate02" : 30,
-		"AppearRate03" : 30,
+		"AppearRate02" : 50,
+		"AppearRate03" : 50,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -2192,9 +2182,9 @@
 		"AppearRate15" : 0
 	},
 	"Rank063":{
-		"AppearRate03" : 40,
-		"AppearRate04" : 40,
-		"AppearRate05" : 20,
+		"AppearRate03" : 35,
+		"AppearRate04" : 35,
+		"AppearRate05" : 30,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -2202,9 +2192,8 @@
 		"AppearRate15" : 0
 	},
 	"Rank064":{
-		"AppearRate05" : 70,
-		"AppearRate06" : 20,
-		"AppearRate07" : 10,
+		"AppearRate04" : 50,
+		"AppearRate05" : 50,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -2212,9 +2201,10 @@
 		"AppearRate15" : 0
 	},
 	"Rank065":{
-		"AppearRate05" : 70,
-		"AppearRate06" : 20,
-		"AppearRate07" : 10,
+		"AppearRate04" : 45,
+		"AppearRate05" : 45,
+		"AppearRate06" : 7,
+		"AppearRate07" : 3,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -2230,9 +2220,8 @@
 		"AppearRate15" : 0
 	},
 	"Rank072":{
-		"AppearRate01" : 40,
-		"AppearRate02" : 30,
-		"AppearRate03" : 30,
+		"AppearRate02" : 50,
+		"AppearRate03" : 50,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -2240,6 +2229,16 @@
 		"AppearRate15" : 0
 	},
 	"Rank073":{
+		"AppearRate03" : 35,
+		"AppearRate04" : 35,
+		"AppearRate05" : 30,
+		"AppearRate11" : 0,
+		"AppearRate12" : 0,
+		"AppearRate13" : 0,
+		"AppearRate14" : 0,
+		"AppearRate15" : 0
+	},
+	"Rank074":{
 		"AppearRate04" : 50,
 		"AppearRate05" : 50,
 		"AppearRate11" : 0,
@@ -2248,22 +2247,11 @@
 		"AppearRate14" : 0,
 		"AppearRate15" : 0
 	},
-	"Rank074":{
-		"AppearRate05" : 70,
-		"AppearRate06" : 15,
-		"AppearRate07" : 10,
-		"AppearRate08" : 5,
-		"AppearRate11" : 0,
-		"AppearRate12" : 0,
-		"AppearRate13" : 0,
-		"AppearRate14" : 0,
-		"AppearRate15" : 0
-	},
 	"Rank075":{
-		"AppearRate05" : 70,
-		"AppearRate06" : 15,
-		"AppearRate07" : 10,
-		"AppearRate08" : 5,
+		"AppearRate05" : 80,
+		"AppearRate06" : 10,
+		"AppearRate07" : 7,
+		"AppearRate08" : 3,
 		"AppearRate11" : 0,
 		"AppearRate12" : 0,
 		"AppearRate13" : 0,
@@ -2339,16 +2327,16 @@
 		"AppearRate15" : 0
 	},
 	"Normal00":{
-		"AppearRate01" : 0.25,
-		"AppearRate02" : 0.25,
+		"AppearRate01" : 0.15,
+		"AppearRate02" : 0.2,
 		"AppearRate03" : 0.2,
-		"AppearRate04" : 0.15,
-		"AppearRate05" : 0.1,
-		"AppearRate06" : 0.018,
-		"AppearRate07" : 0.016,
-		"AppearRate08" : 0.014,
-		"AppearRate09" : 0.001,
-		"AppearRate10" : 0.001
+		"AppearRate04" : 0.2,
+		"AppearRate05" : 0.2,
+		"AppearRate06" : 0.02,
+		"AppearRate07" : 0.015,
+		"AppearRate08" : 0.01,
+		"AppearRate09" : 0.003,
+		"AppearRate10" : 0.002
 	},
 	"Deluxe00":{
 		"AppearRate01" : 0,
@@ -2401,9 +2389,9 @@
 	"Gorgeous00":{
 		"AppearRate01" : 0,
 		"AppearRate02" : 0,
-		"AppearRate03" : 0.34,
-		"AppearRate04" : 0.33,
-		"AppearRate05" : 0.33,
+		"AppearRate03" : 0.35,
+		"AppearRate04" : 0.35,
+		"AppearRate05" : 0.3,
 		"AppearRate06" : 0,
 		"AppearRate07" : 0,
 		"AppearRate08" : 0,
@@ -2419,8 +2407,13 @@
 		"AppearRate06" : 0.33,
 		"AppearRate07" : 0.3,
 		"AppearRate08" : 0.3,
-		"AppearRate09" : 0.035,
-		"AppearRate10" : 0.035
+		"AppearRate09" : 0.015,
+		"AppearRate10" : 0.02,
+		"AppearRate11" : 0,
+		"AppearRate12" : 0,
+		"AppearRate13" : 0,
+		"AppearRate14" : 0,
+		"AppearRate15" : 0.035
 	},
 	"Gorgeous02":{
 		"AppearRate01" : 0,
@@ -2431,8 +2424,13 @@
 		"AppearRate06" : 0,
 		"AppearRate07" : 0,
 		"AppearRate08" : 0,
-		"AppearRate09" : 0.55,
-		"AppearRate10" : 0.45
+		"AppearRate09" : 0.25,
+		"AppearRate10" : 0.25,
+		"AppearRate11" : 0,
+		"AppearRate12" : 0,
+		"AppearRate13" : 0,
+		"AppearRate14" : 0,
+		"AppearRate15" : 0.5
 	},
 	"Gorgeous03":{
 		"AppearRate01" : 0,
@@ -2512,11 +2510,12 @@
 		"AppearRate03" : 0,
 		"AppearRate04" : 0,
 		"AppearRate05" : 0,
-		"AppearRate06" : 0.5,
-		"AppearRate07" : 0.49,
+		"AppearRate06" : 0.45,
+		"AppearRate07" : 0.44,
 		"AppearRate08" : 0.01,
 		"AppearRate09" : 0,
-		"AppearRate10" : 0
+		"AppearRate10" : 0,
+		"AppearRate15" : 0.1
 	},
 	"TreasureMap02":{
 		"AppearRate01" : 0,
@@ -2529,6 +2528,161 @@
 		"AppearRate08" : 0,
 		"AppearRate09" : 0.99,
 		"AppearRate10" : 0.01
+	},
+	"cam_EVENT_001_W":{
+		"AppearRate01" : 100,
+		"AppearRate02" : 0,
+		"AppearRate03" : 0,
+		"AppearRate04" : 0,
+		"AppearRate05" : 0,
+		"AppearRate06" : 0,
+		"AppearRate07" : 0,
+		"AppearRate08" : 0,
+		"AppearRate09" : 0,
+		"AppearRate10" : 0,
+		"AppearRate11" : 0,
+		"AppearRate12" : 0,
+		"AppearRate13" : 0,
+		"AppearRate14" : 0,
+		"AppearRate15" : 0
+	},
+	"cam_EVENT_002_W":{
+		"AppearRate02" : 50,
+		"AppearRate03" : 50,
+		"AppearRate04" : 0,
+		"AppearRate05" : 0,
+		"AppearRate06" : 0,
+		"AppearRate07" : 0,
+		"AppearRate08" : 0,
+		"AppearRate09" : 0,
+		"AppearRate10" : 0,
+		"AppearRate11" : 0,
+		"AppearRate12" : 0,
+		"AppearRate13" : 0,
+		"AppearRate14" : 0,
+		"AppearRate15" : 0
+	},
+	"cam_EVENT_003_W":{
+		"AppearRate03" : 25,
+		"AppearRate04" : 20,
+		"AppearRate05" : 20,
+		"AppearRate06" : 0,
+		"AppearRate07" : 0,
+		"AppearRate08" : 0,
+		"AppearRate09" : 0,
+		"AppearRate10" : 0,
+		"AppearRate11" : 0,
+		"AppearRate12" : 0,
+		"AppearRate13" : 0,
+		"AppearRate14" : 0,
+		"AppearRate15" : 35
+	},
+	"cam_EVENT_004_W":{
+		"AppearRate04" : 35,
+		"AppearRate05" : 15,
+		"AppearRate06" : 0,
+		"AppearRate07" : 0,
+		"AppearRate08" : 0,
+		"AppearRate09" : 0,
+		"AppearRate10" : 0,
+		"AppearRate11" : 0,
+		"AppearRate12" : 0,
+		"AppearRate13" : 0,
+		"AppearRate14" : 0,
+		"AppearRate15" : 50
+	},
+	"cam_EVENT_005_W":{
+		"AppearRate05" : 10,
+		"AppearRate06" : 0,
+		"AppearRate07" : 0,
+		"AppearRate08" : 0,
+		"AppearRate09" : 0,
+		"AppearRate10" : 0,
+		"AppearRate11" : 0,
+		"AppearRate12" : 0,
+		"AppearRate13" : 0,
+		"AppearRate14" : 0,
+		"AppearRate15" : 90
+	},
+	"cam_EVENT_001_L":{
+		"AppearRate01" : 100,
+		"AppearRate02" : 0,
+		"AppearRate03" : 0,
+		"AppearRate04" : 0,
+		"AppearRate05" : 0,
+		"AppearRate06" : 0,
+		"AppearRate07" : 0,
+		"AppearRate08" : 0,
+		"AppearRate09" : 0,
+		"AppearRate10" : 0,
+		"AppearRate11" : 0,
+		"AppearRate12" : 0,
+		"AppearRate13" : 0,
+		"AppearRate14" : 0,
+		"AppearRate15" : 0
+	},
+	"cam_EVENT_002_L":{
+		"AppearRate01" : 50,
+		"AppearRate02" : 50,
+		"AppearRate03" : 0,
+		"AppearRate04" : 0,
+		"AppearRate05" : 0,
+		"AppearRate06" : 0,
+		"AppearRate07" : 0,
+		"AppearRate08" : 0,
+		"AppearRate09" : 0,
+		"AppearRate10" : 0,
+		"AppearRate11" : 0,
+		"AppearRate12" : 0,
+		"AppearRate13" : 0,
+		"AppearRate14" : 0,
+		"AppearRate15" : 0
+	},
+	"cam_EVENT_003_L":{
+		"AppearRate02" : 50,
+		"AppearRate03" : 38,
+		"AppearRate04" : 0,
+		"AppearRate05" : 0,
+		"AppearRate06" : 0,
+		"AppearRate07" : 0,
+		"AppearRate08" : 0,
+		"AppearRate09" : 0,
+		"AppearRate10" : 0,
+		"AppearRate11" : 0,
+		"AppearRate12" : 0,
+		"AppearRate13" : 0,
+		"AppearRate14" : 0,
+		"AppearRate15" : 12
+	},
+	"cam_EVENT_004_L":{
+		"AppearRate03" : 50,
+		"AppearRate04" : 32,
+		"AppearRate05" : 0,
+		"AppearRate06" : 0,
+		"AppearRate07" : 0,
+		"AppearRate08" : 0,
+		"AppearRate09" : 0,
+		"AppearRate10" : 0,
+		"AppearRate11" : 0,
+		"AppearRate12" : 0,
+		"AppearRate13" : 0,
+		"AppearRate14" : 0,
+		"AppearRate15" : 18
+	},
+	"cam_EVENT_005_L":{
+		"AppearRate03" : 50,
+		"AppearRate04" : 15,
+		"AppearRate05" : 10,
+		"AppearRate06" : 0,
+		"AppearRate07" : 0,
+		"AppearRate08" : 0,
+		"AppearRate09" : 0,
+		"AppearRate10" : 0,
+		"AppearRate11" : 0,
+		"AppearRate12" : 0,
+		"AppearRate13" : 0,
+		"AppearRate14" : 0,
+		"AppearRate15" : 25
 	}
 },
 // Geimini_アイテム取得条件パラメータ.xlsx.tmp LuckyLevelTable 

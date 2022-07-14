@@ -96,6 +96,18 @@
 		"detailTextID" : "#TXOMO23001",
 		"tipsTextID" : "$TXOMO33001"
 	},
+	"mis4_TM001":{
+		"index" : 40,
+		"type" : "PLAY_TREASURE_MAP",
+		"param" : 1,
+		"rank" : 4,
+		"sortNumber" : 9,
+		"rewardSet" : "Rmis4_TM001",
+		"titleTextID" : "#TXOTM14001",
+		"summaryTextID" : "#TXOTM04001",
+		"detailTextID" : "#TXOTM24001",
+		"tipsTextID" : "$TXOTM34001"
+	},
 	"mis4_TR001":{
 		"index" : 41,
 		"type" : "PLAY_TRAINING",
@@ -153,6 +165,18 @@
 		"summaryTextID" : "#TXOHT04001",
 		"detailTextID" : "#TXOHT24001",
 		"tipsTextID" : "$TXOHT34001"
+	},
+	"mis5_SS001":{
+		"index" : 50,
+		"type" : "USE_BOOST_SPAWN",
+		"param" : 1,
+		"rank" : 5,
+		"sortNumber" : 16,
+		"rewardSet" : "Rmis5_SS001",
+		"titleTextID" : "#TXOSS15001",
+		"summaryTextID" : "#TXOSS05001",
+		"detailTextID" : "#TXOSS25001",
+		"tipsTextID" : "$TXOSS35001"
 	},
 	"mis5_QM001":{
 		"index" : 51,
@@ -347,7 +371,7 @@
 		"tipsTextID" : "$TXOCO37001"
 	},
 	"mis8_CS001":{
-		"index" : 80,
+		"index" : 81,
 		"type" : "UNLOCK_JOB_STYLE",
 		"param" : 1,
 		"rank" : 8,

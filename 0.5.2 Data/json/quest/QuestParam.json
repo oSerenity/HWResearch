@@ -228,7 +228,7 @@
 		"DescriptionTextID" : "$TXCQS00065"
 	},
 	"TotalBallistaKill01":{
-		"Param0" : 300,
+		"Param0" : 200,
 		"Param1" : 0,
 		"NameTextID" : "$TXCQN00054",
 		"DescriptionTextID" : "$TXCQS00054",

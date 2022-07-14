@@ -1661,5 +1661,39 @@
 // sligB_stage_gimmick.xlsx.tmp collisionEntries 
 
 "collisionEntries_":{
-
+	"near_river":{
+		"signature_" : "FIL_TERRAIN_BASE",
+		"attribute_" : 1,
+		"type_" : "BOX",
+		"posX_" : 0,
+		"posY_" : 0,
+		"posZ_" : 0,
+		"widthX_" : 500,
+		"widthY_" : 350,
+		"widthZ_" : 200,
+		"rotX_" : 0,
+		"rotY_" : 60,
+		"rotZ_" : 0,
+		"transX_" : 7900,
+		"transY_" : 100,
+		"transZ_" : 50
+	},
+	"near_river3":{
+		"signature_" : "FIL_TERRAIN_BASE",
+		"attribute_" : 1,
+		"type_" : "SPHERE",
+		"radius_" : 150,
+		"posX_" : 8200,
+		"posY_" : 240,
+		"posZ_" : -50,
+		"widthX_" : 0,
+		"widthY_" : 0,
+		"widthZ_" : 0,
+		"rotX_" : 0,
+		"rotY_" : 0,
+		"rotZ_" : 0,
+		"transX_" : -200,
+		"transY_" : 70,
+		"transZ_" : 0
+	}
 }}}

@@ -13,7 +13,7 @@
 	},
 	"Berserker":{
 		"jobType" : "WARRIOR",
-		"isEnable" : false,
+		"isEnable" : true,
 		"priority" : 2,
 		"imageNo" : 4,
 		"nameTextID" : "$TXSTN10001",
@@ -32,7 +32,7 @@
 	},
 	"Engineer":{
 		"jobType" : "CLERIC",
-		"isEnable" : false,
+		"isEnable" : true,
 		"priority" : 2,
 		"imageNo" : 5,
 		"nameTextID" : "$TXSTN20001",
@@ -51,7 +51,7 @@
 	},
 	"Sylph":{
 		"jobType" : "MAGE",
-		"isEnable" : false,
+		"isEnable" : true,
 		"priority" : 2,
 		"imageNo" : 6,
 		"nameTextID" : "$TXSTN30001",

@@ -32,6 +32,8 @@
 	},
 	"Gorgeous":{
 		"Enable" : true,
+		"Date" : 20170202,
+		"EndDay" : 20170218,
 		"ExistBlank" : false,
 		"Weapon" : 0,
 		"Shield" : 0,
@@ -40,7 +42,7 @@
 		"Accessory" : 0,
 		"Random" : 0,
 		"Lucky" : 0,
-		"UseFreeTicket" : true,
+		"UseFreeTicket" : false,
 		"UseJobSeal" : true,
 		"UseStarFragment" : true
 	}
@@ -86,10 +88,14 @@
 		"LotteryTableID_03" : "Card02"
 	},
 	"MultiGorgeous00":{
-		"LotteryTableID_01" : "Gorgeous01"
+		"LotteryTableID_01" : "Gorgeous00",
+		"LotteryTableID_02" : "Gorgeous00",
+		"LotteryTableID_03" : "Gorgeous01"
 	},
 	"MultiGorgeous01":{
-		"LotteryTableID_01" : "Gorgeous02"
+		"LotteryTableID_01" : "Gorgeous00",
+		"LotteryTableID_02" : "Gorgeous00",
+		"LotteryTableID_03" : "Gorgeous02"
 	}
 },
 // Geimini_ItemSpinner.xlsx.tmp HyperPointTable 
@@ -257,17 +263,17 @@
 	"DxStart_3":{
 		"PointRate00" : 0,
 		"PointRate01" : 0,
-		"PointRate02" : 0.8,
+		"PointRate02" : 0.7,
 		"PointRate03" : 0,
 		"PointRate04" : 0,
 		"PointRate05" : 0,
-		"PointRate06" : 0.18,
+		"PointRate06" : 0.25,
 		"PointRate07" : 0,
 		"PointRate08" : 0,
 		"PointRate09" : 0,
 		"PointRate10" : 0,
 		"PointRate11" : 0,
-		"PointRate12" : 0.02,
+		"PointRate12" : 0.05,
 		"PointRate13" : 0,
 		"PointRate14" : 0,
 		"PointRate15" : 0,
@@ -284,17 +290,17 @@
 	"DxEnd_3":{
 		"PointRate00" : 0,
 		"PointRate01" : 0,
-		"PointRate02" : 0.8,
+		"PointRate02" : 0.7,
 		"PointRate03" : 0,
 		"PointRate04" : 0,
 		"PointRate05" : 0,
-		"PointRate06" : 0.18,
+		"PointRate06" : 0.25,
 		"PointRate07" : 0,
 		"PointRate08" : 0,
 		"PointRate09" : 0,
 		"PointRate10" : 0,
 		"PointRate11" : 0,
-		"PointRate12" : 0.02,
+		"PointRate12" : 0.05,
 		"PointRate13" : 0,
 		"PointRate14" : 0,
 		"PointRate15" : 0,
@@ -313,22 +319,54 @@
 		"PointRate01" : 0,
 		"PointRate02" : 0,
 		"PointRate03" : 0,
-		"PointRate04" : 1,
+		"PointRate04" : 0.7,
 		"PointRate05" : 0,
 		"PointRate06" : 0,
 		"PointRate07" : 0,
-		"PointRate08" : 0
+		"PointRate08" : 0.25,
+		"PointRate09" : 0,
+		"PointRate10" : 0,
+		"PointRate11" : 0,
+		"PointRate12" : 0.05,
+		"PointRate13" : 0,
+		"PointRate14" : 0,
+		"PointRate15" : 0,
+		"PointRate16" : 0,
+		"PointRate17" : 0,
+		"PointRate18" : 0,
+		"PointRate19" : 0,
+		"PointRate20" : 0,
+		"PointRate21" : 0,
+		"PointRate22" : 0,
+		"PointRate23" : 0,
+		"PointRate24" : 0
 	},
 	"GgEnd_3":{
 		"PointRate00" : 0,
 		"PointRate01" : 0,
 		"PointRate02" : 0,
 		"PointRate03" : 0,
-		"PointRate04" : 1,
+		"PointRate04" : 0.7,
 		"PointRate05" : 0,
 		"PointRate06" : 0,
 		"PointRate07" : 0,
-		"PointRate08" : 0
+		"PointRate08" : 0.25,
+		"PointRate09" : 0,
+		"PointRate10" : 0,
+		"PointRate11" : 0,
+		"PointRate12" : 0.05,
+		"PointRate13" : 0,
+		"PointRate14" : 0,
+		"PointRate15" : 0,
+		"PointRate16" : 0,
+		"PointRate17" : 0,
+		"PointRate18" : 0,
+		"PointRate19" : 0,
+		"PointRate20" : 0,
+		"PointRate21" : 0,
+		"PointRate22" : 0,
+		"PointRate23" : 0,
+		"PointRate24" : 0
 	}
 },
 // Geimini_ItemSpinner.xlsx.tmp BonusLotteryTable 
@@ -367,15 +405,16 @@
 
 "costTable_":{
 	"Normal":{
-		"Cost" : 300
+		"Cost" : 300,
+		"Ticket" : 0
 	},
 	"Deluxe":{
 		"Cost" : 7200,
 		"Ticket" : 18
 	},
 	"Gorgeous":{
-		"Cost" : 11200,
-		"Ticket" : 28
+		"Cost" : 9600,
+		"Ticket" : 24
 	}
 },
 // Geimini_ItemSpinner.xlsx.tmp TicketPrice 

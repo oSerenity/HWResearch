@@ -5,9 +5,9 @@
 	"Default":{
 		"move" : 0,
 		"attack" : 256,
-		"skillA" : 51,
+		"skillA" : 49,
 		"skillB" : 50,
-		"teamSkill" : 49,
+		"teamSkill" : 51,
 		"skillChange" : 16,
 		"skillA_1" : 97,
 		"skillA_2" : 98,
@@ -18,7 +18,7 @@
 		"skillY_1" : 103,
 		"skillY_2" : 104,
 		"skillY_3" : 105,
-		"shot" : 512,
+		"shot" : 32,
 		"gimmick" : 69,
 		"specialAttack" : 70,
 		"camRotL" : 512,
@@ -32,9 +32,11 @@
 		"voiceMacro_right" : 114,
 		"voiceMacro_down" : 115,
 		"gimShot" : 256,
-		"gimChange" : 67,
+		"gimChange" : 512,
 		"gimReload" : 82,
 		"gimGetOff" : 69,
-		"skillSelection " : 32
+		"skillChange_Revers" : false,
+		"control_mode" : 1,
+		"skillChange_WheelDelay" : 0.025
 	}
 }}}

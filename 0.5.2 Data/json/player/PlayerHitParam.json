@@ -2555,7 +2555,7 @@
 				"dirTarget_": "DIR_PLAYER",
 				"camShake_": "C_MID_Low",
 				"radius_": 320,
-				"damageRate_": 3.6,
+				"damageRate_": 3.5,
 				"gimmickDamageRate_": 1.2,
 				"center_": [
 					0,

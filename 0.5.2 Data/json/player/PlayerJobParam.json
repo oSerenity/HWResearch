@@ -708,12 +708,12 @@
 		"HpRecoverSpeed" : 1.2,
 		"HpBoostRecoverSpeed" : 25,
 		"HpBoostRecoverStartSec" : 3.5,
-		"ApMax" : 85,
+		"ApMax" : 80,
 		"ApRecoverSpeed" : 4.5,
 		"ApBoostRecoverSpeed" : 30,
 		"ApBoostRecoverStartSec" : 3.5,
 		"ConstructSpeed" : 125,
-		"MoveSpeed" : 8.2,
+		"MoveSpeed" : 8.4,
 		"CastleDamageRate" : 0.1
 	},
 	"Lvl2":{
@@ -730,12 +730,12 @@
 		"HpRecoverSpeed" : 1.2,
 		"HpBoostRecoverSpeed" : 25,
 		"HpBoostRecoverStartSec" : 3.5,
-		"ApMax" : 100,
+		"ApMax" : 95,
 		"ApRecoverSpeed" : 4.5,
 		"ApBoostRecoverSpeed" : 30,
 		"ApBoostRecoverStartSec" : 3.5,
 		"ConstructSpeed" : 125,
-		"MoveSpeed" : 8.2,
+		"MoveSpeed" : 8.4,
 		"CastleDamageRate" : 0.3
 	},
 	"Lvl3":{
@@ -752,12 +752,12 @@
 		"HpRecoverSpeed" : 1.2,
 		"HpBoostRecoverSpeed" : 25,
 		"HpBoostRecoverStartSec" : 3.5,
-		"ApMax" : 115,
+		"ApMax" : 110,
 		"ApRecoverSpeed" : 4.5,
 		"ApBoostRecoverSpeed" : 30,
 		"ApBoostRecoverStartSec" : 3.5,
 		"ConstructSpeed" : 125,
-		"MoveSpeed" : 8.2,
+		"MoveSpeed" : 8.4,
 		"CastleDamageRate" : 0.6
 	},
 	"Lvl4":{
@@ -774,12 +774,12 @@
 		"HpRecoverSpeed" : 1.2,
 		"HpBoostRecoverSpeed" : 25,
 		"HpBoostRecoverStartSec" : 3.5,
-		"ApMax" : 125,
+		"ApMax" : 115,
 		"ApRecoverSpeed" : 4.5,
 		"ApBoostRecoverSpeed" : 30,
 		"ApBoostRecoverStartSec" : 3.5,
 		"ConstructSpeed" : 125,
-		"MoveSpeed" : 8.2,
+		"MoveSpeed" : 8.4,
 		"CastleDamageRate" : 1
 	},
 	"Lvl5":{
@@ -796,12 +796,12 @@
 		"HpRecoverSpeed" : 1.2,
 		"HpBoostRecoverSpeed" : 25,
 		"HpBoostRecoverStartSec" : 3.5,
-		"ApMax" : 130,
+		"ApMax" : 120,
 		"ApRecoverSpeed" : 4.5,
 		"ApBoostRecoverSpeed" : 30,
 		"ApBoostRecoverStartSec" : 3.5,
 		"ConstructSpeed" : 125,
-		"MoveSpeed" : 8.2,
+		"MoveSpeed" : 8.4,
 		"CastleDamageRate" : 1.1
 	},
 	"State_Cheer":{

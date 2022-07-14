@@ -51,6 +51,7 @@
 		"doodlebugSpeedRate_" : 0.36,
 		"dashAttack2Spd_" : 3600,
 		"playerModelNearClip_" : 300,
+		"vsYoungAttackLimit_" : 100,
 		"kingBlowRate_" : 1.05,
 		"rushSpeed_" : 1600,
 		"rushTurnSpeed_" : 265,

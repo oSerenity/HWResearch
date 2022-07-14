@@ -9,7 +9,7 @@
 		"shadowColorB_" : 30,
 		"rotY_" : -90,
 		"transX_" : 16158.86078,
-		"transY_" : 387.4699999999998,
+		"transY_" : 387.47,
 		"transZ_" : 0,
 		"param0_" : 0,
 		"param1_" : -90,
@@ -22,7 +22,7 @@
 		"shadowColorB_" : 30,
 		"rotY_" : 90,
 		"transX_" : -16158.86,
-		"transY_" : 387.4699999999998,
+		"transY_" : 387.47,
 		"transZ_" : 0,
 		"param0_" : 0,
 		"param1_" : 0,
@@ -509,7 +509,7 @@
 		"shadowColorB_" : 30,
 		"rotY_" : -90,
 		"transX_" : 15561.68365,
-		"transY_" : 189.15545999999995,
+		"transY_" : 189.15546,
 		"transZ_" : 798.51189
 	},
 	"gcat01_002":{
@@ -542,7 +542,7 @@
 		"shadowColorB_" : 30,
 		"rotY_" : 90,
 		"transX_" : -15561.68364,
-		"transY_" : 189.15545999999995,
+		"transY_" : 189.15546,
 		"transZ_" : -798.51218
 	},
 	"gcat01_022":{
@@ -1835,5 +1835,38 @@
 // sseaB_stage_gimmick.xlsx.tmp collisionEntries 
 
 "collisionEntries_":{
-
+	"FlatA":{
+		"signature_" : "FIL_TERRAIN_BASE",
+		"attribute_" : 1,
+		"type_" : "BOX",
+		"posX_" : 0,
+		"posY_" : 0,
+		"posZ_" : 0,
+		"widthX_" : 400,
+		"widthY_" : 100,
+		"widthZ_" : 280,
+		"rotX_" : 41,
+		"rotY_" : 180,
+		"rotZ_" : 40,
+		"transX_" : 15560,
+		"transY_" : 400,
+		"transZ_" : -2050
+	},
+	"FlatB":{
+		"signature_" : "FIL_TERRAIN_BASE",
+		"attribute_" : 1,
+		"type_" : "BOX",
+		"posX_" : 0,
+		"posY_" : 0,
+		"posZ_" : 0,
+		"widthX_" : 400,
+		"widthY_" : 100,
+		"widthZ_" : 280,
+		"rotX_" : 41,
+		"rotY_" : 0,
+		"rotZ_" : -40,
+		"transX_" : -15560,
+		"transY_" : 400,
+		"transZ_" : 2050
+	}
 }}}

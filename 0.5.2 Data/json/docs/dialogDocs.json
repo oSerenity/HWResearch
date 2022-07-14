@@ -2530,6 +2530,22 @@
 		"picIndex1_" : [1,1,1,1],
 		"picIndex2_" : [1,1,4,1]
 	},
+	"T000_06StdK":{
+		"pageNum_" : 4,
+		"textId_" : ["#TXTMA00061","#TXTMA00062","#TXTMA00063","#TXTMA00064"],
+		"profile_" : ["NOOB01","NOOB01","NOOB01","NOOB01"],
+		"animation_" : ["Sha00Clap","Sha00Clap","Sha00Clap","Sha00Clap"],
+		"animFrame_" : [33,33,33,33],
+		"powerColor_" : [1,1,1,1],
+		"light_" : ["C00","C00","C00","C00"],
+		"lookAtH_" : [120,120,120,120],
+		"camDirX_" : [0,0,0,0],
+		"camDirY_" : [-15,-15,-15,-15],
+		"camDist_" : [380,380,380,380],
+		"viewType_" : [1,1,2,1],
+		"picIndex1_" : [1,1,1,1],
+		"picIndex2_" : [1,1,24,1]
+	},
 	"T000_07":{
 		"pageNum_" : 2,
 		"textId_" : ["#TXTMA00071","#TXTMA00072"],
@@ -2594,6 +2610,22 @@
 		"picIndex1_" : [1,1],
 		"picIndex2_" : [1,1]
 	},
+	"T000_08cStdK":{
+		"pageNum_" : 2,
+		"textId_" : ["#TXTMA00085","#TXTMA00092"],
+		"profile_" : ["NOOB01","NOOB01"],
+		"animation_" : ["Sha00Clap","Sha00Clap"],
+		"animFrame_" : [33,33],
+		"powerColor_" : [1,1],
+		"light_" : ["C00","C00"],
+		"lookAtH_" : [120,120],
+		"camDirX_" : [0,0],
+		"camDirY_" : [-15,-15],
+		"camDist_" : [380,380],
+		"viewType_" : [1,1],
+		"picIndex1_" : [1,1],
+		"picIndex2_" : [1,1]
+	},
 	"T000_08d":{
 		"pageNum_" : 2,
 		"textId_" : ["#TXTMA00087","#TXTMA00088"],
@@ -2625,6 +2657,22 @@
 		"viewType_" : [1,1],
 		"picIndex1_" : [1,1],
 		"picIndex2_" : [1,1]
+	},
+	"T000_09StdK":{
+		"pageNum_" : 1,
+		"textId_" : ["#TXTMA00092"],
+		"profile_" : ["NOOB01"],
+		"animation_" : ["Sha00Clap"],
+		"animFrame_" : [33],
+		"powerColor_" : [1],
+		"light_" : ["C00"],
+		"lookAtH_" : [120],
+		"camDirX_" : [0],
+		"camDirY_" : [-15],
+		"camDist_" : [380],
+		"viewType_" : [1],
+		"picIndex1_" : [1],
+		"picIndex2_" : [1]
 	},
 	"T000_10":{
 		"pageNum_" : 1,

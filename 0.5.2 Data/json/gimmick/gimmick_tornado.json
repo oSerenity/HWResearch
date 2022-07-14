@@ -55,13 +55,13 @@
 			"label_" : "Stor01f",
 			"boneName_" : "",
 			"transX_" : 0,
-			"transY_" : 50,
+			"transY_" : 0,
 			"transZ_" : 0,
 			"rotX_" : 0,
 			"rotY_" : 0,
 			"rotZ_" : 0,
 			"coordKind_" : "CONSTRAIN",
-			"scale_" : 0.0
+			"scale_" : 1.0
 		},
 		{
 			"@class" : "command::PlayGameSe",
@@ -90,12 +90,20 @@
 			"isNext_" : false
 		},
 		{
+			"@class" : "tll::actor::command::LerpFrame",
+			"lerpFrame_" : 21
+		},
+		{
 			"@class" : "tll::actor::command::Anm",
 			"animeName_" : "gtorn_002_disappear"
 		},
 		{
 			"@class" : "command::PlayGameSe",
 			"seId_" : 90700
+		},
+		{
+			"@class" : "tll::actor::command::Frame",
+			"frame_" : 210
 		},
 		{
 			"@class" : "tll::actor::command::FrameEnd"

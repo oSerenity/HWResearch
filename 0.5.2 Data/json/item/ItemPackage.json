@@ -44,11 +44,10 @@
 		"BuffID_00" : "Buff_Scapegoat_00"
 	},
 	"SBItem_0303":{
-		"ItemID" : "ITEM_CAM_0016",
+		"ItemID" : "ITEM_CAM_0033",
 		"Level" : 3,
-		"BuffID_00" : "Buff_FaintGuardRateDown_00",
-		"BuffID_01" : "Buff_ScaryGuardRateDown_00",
-		"BuffID_02" : "Buff_FreezeGuardRateDown_00"
+		"BuffID_00" : "Buff_GuardUp_01",
+		"BuffID_01" : "Buff_BlowDefenseLvl_00"
 	},
 	"SBItem_0401":{
 		"ItemID" : "ITEM_CAM_0017",
@@ -90,13 +89,16 @@
 		"BuffID_01" : "Buff_AttackUp_02"
 	},
 	"SBItem_0602":{
-		"ItemID" : "ITEM_CAM_0032",
+		"ItemID" : "ITEM_CAM_0034",
 		"Level" : 1,
-		"BuffID_00" : "Buff_AttackUp_01"
+		"BuffID_00" : "Buff_AttackUp_02",
+		"BuffID_01" : "Buff_BlowAttackLvl_00"
 	},
 	"SBItem_0603":{
-		"ItemID" : "ITEM_CAM_0031",
-		"Level" : 1
+		"ItemID" : "ITEM_CAM_0035",
+		"Level" : 1,
+		"BuffID_00" : "Buff_UseApDown_02",
+		"BuffID_01" : "Buff_CoolTime_00"
 	},
 	"KING_Eq_H":{
 		"ItemID" : "ITEM_KING_HELM_0001",
@@ -212,6 +214,16 @@
 		"BuffID_00" : "Buff_MaxHPUp_01",
 		"BuffID_01" : "Buff_APSelfCureUp_01"
 	},
+	"Valentine01":{
+		"ItemID" : "ITEM_EVN_SHIELD_036",
+		"Level" : 1,
+		"BuffID_00" : "Buff_DamageAPUp_02"
+	},
+	"Easter01":{
+		"ItemID" : "ITEM_DLC_WEAPON_1490",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
 	"SpTreasureMap01":{
 		"ItemID" : "ITEM_SPMT_WEAPON_0001",
 		"Level" : 1,
@@ -221,6 +233,473 @@
 		"ItemID" : "ITEM_SPMT_WEAPON_0001",
 		"Level" : 1,
 		"BuffID_00" : "*"
+	},
+	"DisplayItem_01":{
+		"ItemID" : "ITEM_DLC_HEAD_1171",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"DisplayItem_02":{
+		"ItemID" : "ITEM_DLC_ARMOR_1151",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"DisplayItem_03":{
+		"ItemID" : "ITEM_DLC_WEAPON_1221",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"DisplayItem_04":{
+		"ItemID" : "ITEM_DLC_SHIELD_1021",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"DisplayItem_05":{
+		"ItemID" : "ITEM_DLC_HEAD_1061",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"DisplayItem_06":{
+		"ItemID" : "ITEM_DLC_ARMOR_1051",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"DisplayItem_07":{
+		"ItemID" : "ITEM_DLC_WEAPON_1071",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"DisplayItem_08":{
+		"ItemID" : "ITEM_DLC_SHIELD_1121",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"DisplayItem_09":{
+		"ItemID" : "DUMMY",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"DisplayItem_10":{
+		"ItemID" : "DUMMY",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"DisplayItem_11":{
+		"ItemID" : "DUMMY",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"DisplayItem_12":{
+		"ItemID" : "DUMMY",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"DisplayItem_13":{
+		"ItemID" : "DUMMY",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"DisplayItem_14":{
+		"ItemID" : "DUMMY",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"DisplayItem_15":{
+		"ItemID" : "DUMMY",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"LimitedDisplayItem_000":{
+		"ItemID" : "ITEM_DLC_HEAD_1171",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"LimitedDisplayItem_001":{
+		"ItemID" : "ITEM_DLC_ARMOR_1151",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"LimitedDisplayItem_002":{
+		"ItemID" : "ITEM_DLC_WEAPON_1221",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"LimitedDisplayItem_003":{
+		"ItemID" : "ITEM_DLC_SHIELD_1021",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"LimitedDisplayItem_004":{
+		"ItemID" : "ITEM_DLC_HEAD_1061",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"LimitedDisplayItem_005":{
+		"ItemID" : "ITEM_DLC_ARMOR_1051",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"LimitedDisplayItem_006":{
+		"ItemID" : "ITEM_DLC_WEAPON_1071",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"LimitedDisplayItem_007":{
+		"ItemID" : "ITEM_DLC_SHIELD_1121",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"LimitedDisplayItem_008":{
+		"ItemID" : "DUMMY",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"LimitedDisplayItem_009":{
+		"ItemID" : "DUMMY",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"LimitedDisplayItem_010":{
+		"ItemID" : "DUMMY",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"LimitedDisplayItem_011":{
+		"ItemID" : "DUMMY",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"LimitedDisplayItem_012":{
+		"ItemID" : "DUMMY",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"LimitedDisplayItem_013":{
+		"ItemID" : "DUMMY",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"LimitedDisplayItem_014":{
+		"ItemID" : "DUMMY",
+		"Level" : 1,
+		"BuffID_00" : "*"
+	},
+	"NCI_1":{
+		"ItemID" : "ITEM_DLC_HEAD_00",
+		"Level" : 1
+	},
+	"NCI_2":{
+		"ItemID" : "ITEM_DLC_WEAPON_95",
+		"Level" : 1
+	},
+	"NCI_3":{
+		"ItemID" : "ITEM_DLC_HEAD_146",
+		"Level" : 1
+	},
+	"NCI_4":{
+		"ItemID" : "ITEM_DLC_WEAPON_315",
+		"Level" : 1
+	},
+	"NCI_5":{
+		"ItemID" : "ITEM_DLC_HEAD_110",
+		"Level" : 1,
+		"BuffID_00" : "Buff_ExpUp_01"
+	},
+	"NCI_6":{
+		"ItemID" : "ITEM_DLC_WEAPON_260",
+		"Level" : 1,
+		"BuffID_00" : "Buff_Reincarnation_00"
+	},
+	"SteamItem_001":{
+		"ItemID" : "ITEM_DLCPO_WEAPON_0001",
+		"Level" : 1,
+		"BuffID_00" : "Buff_SpinningBlade_00"
+	},
+	"SteamItem_002":{
+		"ItemID" : "ITEM_DLCPO_WEAPON_0002",
+		"Level" : 1
+	},
+	"SteamItem_003":{
+		"ItemID" : "ITEM_DLCPO_WEAPON_0003",
+		"Level" : 1
+	},
+	"SteamItem_004":{
+		"ItemID" : "ITEM_DLCPO_WEAPON_0004",
+		"Level" : 1,
+		"BuffID_00" : "Buff_GimmickDamageUp_01"
+	},
+	"SteamItem_005":{
+		"ItemID" : "ITEM_DLCPO_WEAPON_0005",
+		"Level" : 1,
+		"BuffID_00" : "Buff_BlowAttackLvl_01"
+	},
+	"SteamItem_006":{
+		"ItemID" : "ITEM_DLCPO_WEAPON_0006",
+		"Level" : 1
+	},
+	"SteamItem_007":{
+		"ItemID" : "ITEM_DLCPO_WEAPON_0007",
+		"Level" : 1
+	},
+	"SteamItem_008":{
+		"ItemID" : "ITEM_DLCPO_WEAPON_0008",
+		"Level" : 1
+	},
+	"SteamItem_009":{
+		"ItemID" : "ITEM_DLCPO_WEAPON_0009",
+		"Level" : 1,
+		"BuffID_00" : "Buff_MonumentUp_01"
+	},
+	"SteamItem_010":{
+		"ItemID" : "ITEM_DLCPO_ARMOR_0001",
+		"Level" : 1,
+		"BuffID_00" : "Buff_GuardUp_01"
+	},
+	"SteamItem_011":{
+		"ItemID" : "ITEM_DLCPO_ARMOR_0002",
+		"Level" : 1,
+		"BuffID_00" : "Buff_GuardUp_01"
+	},
+	"SteamItem_012":{
+		"ItemID" : "ITEM_DLCPO_ARMOR_0003",
+		"Level" : 1
+	},
+	"SteamItem_013":{
+		"ItemID" : "ITEM_DLCPO_ARMOR_0004",
+		"Level" : 1
+	},
+	"SteamItem_014":{
+		"ItemID" : "ITEM_DLCPO_ARMOR_0005",
+		"Level" : 1
+	},
+	"SteamItem_015":{
+		"ItemID" : "ITEM_DLCPO_ARMOR_0006",
+		"Level" : 1,
+		"BuffID_00" : "Buff_SacredSong_00"
+	},
+	"SteamItem_016":{
+		"ItemID" : "ITEM_DLCPO_ARMOR_0007",
+		"Level" : 1
+	},
+	"SteamItem_017":{
+		"ItemID" : "ITEM_DLCPO_ARMOR_0008",
+		"Level" : 1,
+		"BuffID_00" : "Buff_SpeedUp_00"
+	},
+	"SteamItem_018":{
+		"ItemID" : "ITEM_DLCPO_ARMOR_0009",
+		"Level" : 1,
+		"BuffID_00" : "Buff_FaintGuardRateDown_01"
+	},
+	"SteamItem_019":{
+		"ItemID" : "ITEM_DLCPO_HELM_0001",
+		"Level" : 1,
+		"BuffID_00" : "Buff_MaxHPUp_01"
+	},
+	"SteamItem_020":{
+		"ItemID" : "ITEM_DLCPO_HELM_0002",
+		"Level" : 1,
+		"BuffID_00" : "Buff_RocketMan_00"
+	},
+	"SteamItem_021":{
+		"ItemID" : "ITEM_DLCPO_HELM_0003",
+		"Level" : 1,
+		"BuffID_00" : "Buff_APSelfCureUp_01"
+	},
+	"SteamItem_022":{
+		"ItemID" : "ITEM_DLCPO_HELM_0004",
+		"Level" : 1,
+		"BuffID_00" : "Buff_Scapegoat_00"
+	},
+	"SteamItem_023":{
+		"ItemID" : "ITEM_DLCPO_HELM_0005",
+		"Level" : 1,
+		"BuffID_00" : "Buff_HPSelfCureUp_01"
+	},
+	"SteamItem_024":{
+		"ItemID" : "ITEM_DLCPO_HELM_0006",
+		"Level" : 1,
+		"BuffID_00" : "Buff_ExpUp_01"
+	},
+	"SteamItem_025":{
+		"ItemID" : "ITEM_DLCPO_HELM_0007",
+		"Level" : 1,
+		"BuffID_00" : "Buff_Blizzard_00"
+	},
+	"SteamItem_026":{
+		"ItemID" : "ITEM_DLCPO_HELM_0008",
+		"Level" : 1,
+		"BuffID_00" : "Buff_MaxHPUp_01"
+	},
+	"SteamItem_027":{
+		"ItemID" : "ITEM_DLCPO_HELM_0009",
+		"Level" : 1,
+		"BuffID_00" : "Buff_MaxAPUp_01"
+	},
+	"SteamItem_028":{
+		"ItemID" : "ITEM_DLCPO_SHIELD_0001",
+		"Level" : 1,
+		"BuffID_00" : "Buff_DamageAPUp_01"
+	},
+	"SteamItem_029":{
+		"ItemID" : "ITEM_DLCPO_SHIELD_0002",
+		"Level" : 1
+	},
+	"SteamItem_030":{
+		"ItemID" : "ITEM_DLCPO_SHIELD_0003",
+		"Level" : 1,
+		"BuffID_00" : "Buff_ShieldGuardUp_00"
+	},
+	"SteamItem_031":{
+		"ItemID" : "ITEM_DLCPO_SHIELD_0004",
+		"Level" : 1,
+		"BuffID_00" : "Buff_ShieldMasicGuardUp_00"
+	},
+	"SteamItem_032":{
+		"ItemID" : "ITEM_DLCPO_SHIELD_0005",
+		"Level" : 1,
+		"BuffID_00" : "Buff_DamageAPUp_01"
+	},
+	"SteamItem_033":{
+		"ItemID" : "ITEM_DLCPO_SHIELD_0006",
+		"Level" : 1
+	},
+	"SteamItem_034":{
+		"ItemID" : "ITEM_DLCPO_ACC_0001",
+		"Level" : 1,
+		"BuffID_00" : "Buff_UseApDown_00"
+	},
+	"SteamItem_035":{
+		"ItemID" : "ITEM_DLCPO_ACC_0002",
+		"Level" : 1,
+		"BuffID_00" : "Buff_CoolTime_00"
+	},
+	"SteamItem_036":{
+		"ItemID" : "ITEM_DLCPO_ACC_0003",
+		"Level" : 1,
+		"BuffID_00" : "Buff_RespawnTime_01"
+	},
+	"event1":{
+		"ItemID" : "ITEM_DLC_ACC_0101",
+		"Level" : 1,
+		"BuffID_00" : "Buff_SpecialCrucifix_03"
+	},
+	"nutcracker":{
+		"ItemID" : "ITEM_DLC_HEAD_1221",
+		"Level" : 1,
+		"BuffID_00" : "Buff_CastSpeedRate_Reincarnatio",
+		"BuffID_01" : "Buff_APSelfCureUp_02"
+	},
+	"FlowerBat_test":{
+		"ItemID" : "ITEM_DLC_WEAPON_186",
+		"Level" : 1,
+		"BuffID_00" : "Buff_FaintAttackRateUp_00"
+	},
+	"PurpleShield_test":{
+		"ItemID" : "ITEM_DLC_SHIELD_111",
+		"Level" : 1,
+		"BuffID_00" : "Buff_ShieldGuardUp_02"
+	},
+	"MouseNose_test":{
+		"ItemID" : "ITEM_DLC_ACC_0020",
+		"Level" : 1,
+		"BuffID_00" : "Buff_UseApDown_00",
+		"BuffID_01" : "Buff_GimmickAttackUp_01"
+	},
+	"PassengerJet_test":{
+		"ItemID" : "ITEM_DLC_ACC_0090",
+		"Level" : 1,
+		"BuffID_00" : "Buff_GimmickAttackUp_01"
+	},
+	"SpecialController_test":{
+		"ItemID" : "ITEM_DLC_ACC_0145",
+		"Level" : 1,
+		"BuffID_00" : "Buff_RespawnTime_01",
+		"BuffID_01" : "Buff_UseApDown_00"
+	},
+	"CelestialShield_test":{
+		"ItemID" : "ITEM_DLC_SHIELD_1101",
+		"Level" : 1
+	},
+	"GriffinHead_test":{
+		"ItemID" : "ITEM_DLC_HEAD_1041",
+		"Level" : 1
+	},
+	"GriffinArmor_test":{
+		"ItemID" : "ITEM_DLC_ARMOR_1031",
+		"Level" : 1
+	},
+	"BloodthirstyEmperor_test":{
+		"ItemID" : "ITEM_DLCPO_WEAPON_0002",
+		"Level" : 1
+	},
+	"HotDogHammer_test":{
+		"ItemID" : "ITEM_DLCPO_WEAPON_0004",
+		"Level" : 1,
+		"BuffID_00" : "Buff_GimmickDamageUp_01"
+	},
+	"BeatenUmbrella_test":{
+		"ItemID" : "ITEM_DLCPO_WEAPON_0007",
+		"Level" : 1
+	},
+	"FuzzyClothes_test":{
+		"ItemID" : "ITEM_DLCPO_ARMOR_0007",
+		"Level" : 1
+	},
+	"RuneHelm_test":{
+		"ItemID" : "ITEM_DLCPO_HELM_0001",
+		"Level" : 1,
+		"BuffID_00" : "Buff_MaxHPUp_01"
+	},
+	"BushyHat_test":{
+		"ItemID" : "ITEM_DLCPO_HELM_0007",
+		"Level" : 1,
+		"BuffID_00" : "Buff_Blizzard_00"
+	},
+	"TeddyBear_test":{
+		"ItemID" : "ITEM_DLCPO_ACC_0001",
+		"Level" : 1,
+		"BuffID_00" : "Buff_UseApDown_00",
+		"BuffID_01" : "Buff_GimmickAttackUp_01"
+	},
+	"PrincessesFavorite_test":{
+		"ItemID" : "ITEM_CAM_0035",
+		"Level" : 1,
+		"BuffID_00" : "Buff_UseApDown_02"
+	},
+	"SublimeRobe_test":{
+		"ItemID" : "ITEM_CAM_0033",
+		"Level" : 1,
+		"BuffID_00" : "Buff_GuardUp_01"
+	},
+	"GoldenSkullSword_test":{
+		"ItemID" : "ITEM_CAM_0034",
+		"Level" : 1,
+		"BuffID_00" : "Buff_AttackUp_02"
+	},
+	"DemonicArmor_test":{
+		"ItemID" : "ITEM_DLCPO_ARMOR_0001",
+		"Level" : 1,
+		"BuffID_00" : "Buff_GuardUp_01"
+	},
+	"ServingUniform_test":{
+		"ItemID" : "ITEM_DLCPO_ARMOR_0004",
+		"Level" : 1
+	},
+	"ChefHat_test":{
+		"ItemID" : "ITEM_DLCPO_HELM_0004",
+		"Level" : 1,
+		"BuffID_00" : "Buff_Scapegoat_00"
+	},
+	"DevilShield_test":{
+		"ItemID" : "ITEM_DLCPO_SHIELD_0001",
+		"Level" : 1,
+		"BuffID_00" : "Buff_DamageAPUp_01"
+	},
+	"PizzaShield_test":{
+		"ItemID" : "ITEM_DLCPO_SHIELD_0004",
+		"Level" : 1,
+		"BuffID_00" : "Buff_ShieldMasicGuardUp_00"
 	}
 },
 // Geimini_ItemPackage.xlsx.tmp itemSet 
@@ -231,10 +710,11 @@
 		"DetailID_01" : "FirstItem_02"
 	},
 	"KingEquipment":{
-		"DetailID_00" : "KING_Eq_H",
+		"DetailID_00" : "KING_Eq_H_2",
 		"DetailID_01" : "KING_Eq_W",
 		"DetailID_02" : "KING_Eq_S",
-		"DetailID_03" : "KING_Eq_A"
+		"DetailID_03" : "KING_Eq_A_2",
+		"DetailID_04" : "KING_Eq_ACC_2"
 	},
 	"CardBonusItemSet":{
 		"DetailID_00" : "CardBonusItemLv1",
@@ -258,8 +738,124 @@
 		"DetailID_01" : "Haloween02",
 		"DetailID_02" : "Haloween03"
 	},
+	"ValentineSet":{
+		"DetailID_00" : "Valentine01"
+	},
+	"EasterSet":{
+		"DetailID_00" : "Easter01"
+	},
 	"db_equp":{
 		"DetailID_00" : "db_equp"
+	},
+	"NCItem1":{
+		"DetailID_00" : "NCI_1",
+		"DetailID_01" : "NCI_2"
+	},
+	"NCItem2":{
+		"DetailID_00" : "NCI_3",
+		"DetailID_01" : "NCI_4"
+	},
+	"NCItem3":{
+		"DetailID_00" : "NCI_5",
+		"DetailID_01" : "NCI_6"
+	},
+	"NCItemW":{
+		"DetailID_00" : "NCI_2",
+		"DetailID_01" : "NCI_4",
+		"DetailID_02" : "NCI_6"
+	},
+	"WarriorSet_001":{
+		"DetailID_00" : "SteamItem_019",
+		"DetailID_01" : "SteamItem_010",
+		"DetailID_02" : "SteamItem_002",
+		"DetailID_03" : "SteamItem_028"
+	},
+	"WarriorSet_002":{
+		"DetailID_00" : "SteamItem_020",
+		"DetailID_01" : "SteamItem_011",
+		"DetailID_02" : "SteamItem_003",
+		"DetailID_03" : "SteamItem_029"
+	},
+	"WarriorSet_003":{
+		"DetailID_00" : "SteamItem_021",
+		"DetailID_01" : "SteamItem_012",
+		"DetailID_02" : "SteamItem_001",
+		"DetailID_03" : "SteamItem_030"
+	},
+	"ClericSet_001":{
+		"DetailID_00" : "SteamItem_022",
+		"DetailID_01" : "SteamItem_013",
+		"DetailID_02" : "SteamItem_004",
+		"DetailID_03" : "SteamItem_031"
+	},
+	"ClericSet_002":{
+		"DetailID_00" : "SteamItem_023",
+		"DetailID_01" : "SteamItem_014",
+		"DetailID_02" : "SteamItem_005",
+		"DetailID_03" : "SteamItem_032"
+	},
+	"ClericSet_003":{
+		"DetailID_00" : "SteamItem_024",
+		"DetailID_01" : "SteamItem_015",
+		"DetailID_02" : "SteamItem_006",
+		"DetailID_03" : "SteamItem_033"
+	},
+	"MageSet_001":{
+		"DetailID_00" : "SteamItem_025",
+		"DetailID_01" : "SteamItem_016",
+		"DetailID_02" : "SteamItem_007",
+		"DetailID_03" : "SteamItem_034"
+	},
+	"MageSet_002":{
+		"DetailID_00" : "SteamItem_026",
+		"DetailID_01" : "SteamItem_017",
+		"DetailID_02" : "SteamItem_008",
+		"DetailID_03" : "SteamItem_035"
+	},
+	"MageSet_003":{
+		"DetailID_00" : "SteamItem_027",
+		"DetailID_01" : "SteamItem_018",
+		"DetailID_02" : "SteamItem_009",
+		"DetailID_03" : "SteamItem_036"
+	},
+	"event1":{
+		"DetailID_00" : "event1"
+	},
+	"nutcracker":{
+		"DetailID_00" : "nutcracker"
+	},
+	"TrasferTest_1":{
+		"DetailID_00" : "FlowerBat_test",
+		"DetailID_01" : "PurpleShield_test",
+		"DetailID_02" : "MouseNose_test",
+		"DetailID_03" : "PassengerJet_test",
+		"DetailID_04" : "SpecialController_test"
+	},
+	"TrasferTest_2":{
+		"DetailID_00" : "CelestialShield_test",
+		"DetailID_01" : "GriffinHead_test",
+		"DetailID_02" : "GriffinArmor_test",
+		"DetailID_03" : "BloodthirstyEmperor_test",
+		"DetailID_04" : "HotDogHammer_test"
+	},
+	"TrasferTest_3":{
+		"DetailID_00" : "BeatenUmbrella_test",
+		"DetailID_01" : "FuzzyClothes_test",
+		"DetailID_02" : "RuneHelm_test",
+		"DetailID_03" : "BushyHat_test",
+		"DetailID_04" : "TeddyBear_test"
+	},
+	"TrasferTest_4":{
+		"DetailID_00" : "PrincessesFavorite_test",
+		"DetailID_01" : "SublimeRobe_test",
+		"DetailID_02" : "GoldenSkullSword_test",
+		"DetailID_03" : "DemonicArmor_test",
+		"DetailID_04" : "ServingUniform_test"
+	},
+	"TrasferTest_5":{
+		"DetailID_00" : "ChefHat_test",
+		"DetailID_01" : "DevilShield_test",
+		"DetailID_02" : "PizzaShield_test"
 	}
 },
 // Geimini_ItemPackage.xlsx.tmp rewardSet 
@@ -897,6 +1493,92 @@
 	"HLItems01":{
 		"ItemSetID" : "HaloweenSet"
 	},
+	"ValentinePresent":{
+		"HappyCardTicket" : 3,
+		"HappyCardJobTicket_W" : 1,
+		"HappyCardJobTicket_C" : 1,
+		"HappyCardJobTicket_M" : 1,
+		"BoostSpawnTicket" : 2,
+		"ItemSetID" : "ValentineSet"
+	},
+	"EasterPresent":{
+		"HappyCardJobTicket_W" : 3,
+		"HappyCardJobTicket_C" : 3,
+		"HappyCardJobTicket_M" : 3,
+		"BoostSpawnTicket" : 1,
+		"ItemSetID" : "EasterSet"
+	},
+	"apology_v121":{
+		"HappyCardTicket" : 5,
+		"HappyCardJobTicket_W" : 1,
+		"HappyCardJobTicket_C" : 1,
+		"HappyCardJobTicket_M" : 1,
+		"BoostSpawnTicket" : 2
+	},
+	"apology_v140":{
+		"HappyCardTicket" : 6,
+		"HappyCardStarTicket" : 3,
+		"HappyCardJobTicket_W" : 2,
+		"HappyCardJobTicket_C" : 2,
+		"HappyCardJobTicket_M" : 2,
+		"BoostSpawnTicket" : 2
+	},
+	"apology_ali":{
+		"HappyCardTicket" : 3,
+		"HappyCardStarTicket" : 3,
+		"HappyCardJobTicket_W" : 1,
+		"HappyCardJobTicket_C" : 1,
+		"HappyCardJobTicket_M" : 1,
+		"BoostSpawnTicket" : 1
+	},
+	"apology_1":{
+		"HappyCardTicket" : 3,
+		"HappyCardStarTicket" : 3,
+		"BoostSpawnTicket" : 1
+	},
+	"apology_2":{
+		"HappyCardTicket" : 5,
+		"HappyCardJobTicket_W" : 1,
+		"HappyCardJobTicket_C" : 1,
+		"HappyCardJobTicket_M" : 1,
+		"BoostSpawnTicket" : 2
+	},
+	"apology_3":{
+		"HappyCardTicket" : 8,
+		"HappyCardStarTicket" : 5,
+		"HappyCardJobTicket_W" : 1,
+		"HappyCardJobTicket_C" : 1,
+		"HappyCardJobTicket_M" : 1,
+		"BoostSpawnTicket" : 5
+	},
+	"apology_s":{
+		"HappyCardTicket" : 3,
+		"HappyCardStarTicket" : 10,
+		"BoostSpawnTicket" : 1
+	},
+	"apology_t":{
+		"HappyTicket" : 20,
+		"HappyCardStarTicket" : 12,
+		"HappyCardJobTicket_W" : 1,
+		"HappyCardJobTicket_C" : 1,
+		"HappyCardJobTicket_M" : 1,
+		"BoostSpawnTicket" : 1
+	},
+	"star":{
+		"HappyCardStarTicket" : 1
+	},
+	"nutcracker":{
+		"HappyCardTicket" : 3,
+		"HappyCardStarTicket" : 3,
+		"HappyCardJobTicket_W" : 1,
+		"HappyCardJobTicket_C" : 1,
+		"HappyCardJobTicket_M" : 1,
+		"BoostSpawnTicket" : 1,
+		"ItemSetID" : "nutcracker"
+	},
+	"event1":{
+		"ItemSetID" : "event1"
+	},
 	"db_star":{
 		"HappyStar" : 10
 	},
@@ -910,5 +1592,78 @@
 	},
 	"db_equp":{
 		"ItemSetID" : "db_equp"
+	},
+	"NewComer1":{
+		"HappyCardTicket" : 1,
+		"HappyCardStarTicket" : 5,
+		"ItemSetID" : "NCItem1"
+	},
+	"NewComer2":{
+		"HappyCardTicket" : 1,
+		"HappyCardStarTicket" : 5,
+		"ItemSetID" : "NCItem2"
+	},
+	"NewComer3":{
+		"HappyCardTicket" : 1,
+		"HappyCardStarTicket" : 5,
+		"ItemSetID" : "NCItem3"
+	},
+	"NewComerWeapon":{
+		"HappyCardTicket" : 1,
+		"HappyCardJobTicket_W" : 2,
+		"HappyCardJobTicket_C" : 2,
+		"HappyCardJobTicket_M" : 2,
+		"ItemSetID" : "NCItemW"
+	},
+	"TP_Value_20":{
+		"HappyTicket" : 20
+	},
+	"TP_Extreme_100":{
+		"HappyTicket" : 100
+	},
+	"TP_Starter_420":{
+		"HappyTicket" : 420
+	},
+	"IP_Warrior_001":{
+		"ItemSetID" : "WarriorSet_001"
+	},
+	"IP_Warrior_002":{
+		"ItemSetID" : "WarriorSet_002"
+	},
+	"IP_Warrior_003":{
+		"ItemSetID" : "WarriorSet_003"
+	},
+	"IP_Cleric_001":{
+		"ItemSetID" : "ClericSet_001"
+	},
+	"IP_Cleric_002":{
+		"ItemSetID" : "ClericSet_002"
+	},
+	"IP_Cleric_003":{
+		"ItemSetID" : "ClericSet_003"
+	},
+	"IP_Mage_001":{
+		"ItemSetID" : "MageSet_001"
+	},
+	"IP_Mage_002":{
+		"ItemSetID" : "MageSet_002"
+	},
+	"IP_Mage_003":{
+		"ItemSetID" : "MageSet_003"
+	},
+	"TrasferTest_1":{
+		"ItemSetID" : "TrasferTest_1"
+	},
+	"TrasferTest_2":{
+		"ItemSetID" : "TrasferTest_2"
+	},
+	"TrasferTest_3":{
+		"ItemSetID" : "TrasferTest_3"
+	},
+	"TrasferTest_4":{
+		"ItemSetID" : "TrasferTest_4"
+	},
+	"TrasferTest_5":{
+		"ItemSetID" : "TrasferTest_5"
 	}
 }}}
