@@ -1,149 +1,132 @@
-/* XDASEA_Xm8R_SPsX */ 
+/* XDASEA_Xm8R_SPsX */
 //
-//	キャンペーンシーケンス
+// Campaign Sequence
 //
 
 function initCampaignThread() {
-	RunScriptFunction( SQ_THREAD_GAME, "startCampaignThread" );
-	SetPatternThreadId( SQ_THREAD_GAME, SQ_THREAD_PATTERN_ALWAYS );
-	ChangeForcusThreadId( -1 );		// デバッグメニューを閉じる 
+	// Run the campaign thread
+	RunScriptFunction(SQ_THREAD_GAME, "startCampaignThread");
+	SetPatternThreadId(SQ_THREAD_GAME, SQ_THREAD_PATTERN_ALWAYS);
+	ChangeForcusThreadId(-1); // Close the debug menu
 }
 
 function startCampaignThread() {
-	// セレクターを常駐させる 
-	IncludeScriptFile( "nut\\sq_thread_ini_selector.nut" );
-	RunScriptFunction( SQ_THREAD_INI_SELECTOR, "iniSelectorThread" );
-	EnableForcusThreadId( SQ_THREAD_INI_SELECTOR, true );
+	// Activate the selector thread
+	IncludeScriptFile("nut\\sq_thread_ini_selector.nut");
+	RunScriptFunction(SQ_THREAD_INI_SELECTOR, "iniSelectorThread");
+	EnableForcusThreadId(SQ_THREAD_INI_SELECTOR, true);
 
-	runDemoCampaign(0,SQ_THREAD_GAME,true);
+	// Run the demo campaign
+	runDemoCampaign(0, SQ_THREAD_GAME, true);
 }
 
 function loadMissionScript() {
-	// ミッションスクリプトのロード
+	// Load the mission script
 	local campaign_name = GetRunningCampaignName();
-	
-	// とりあえず破棄
+
+	// Destroy the mission Bres resources
 	MissionBresDestroyRequest();
-	// 破棄待ち
-	while ( false == MissionBresIsDestroyComplete() )
-	{
+
+	// Wait until the destruction is complete
+	while (false == MissionBresIsDestroyComplete()) {
 		suspend();
 	}
-	
-	MissionBresLoadRequest( campaign_name );
-	// ロード終了待ち
-	while ( false == MissionBresIsLoadComplete() )
-	{
+
+	MissionBresLoadRequest(campaign_name);
+
+	// Wait until the loading is complete
+	while (false == MissionBresIsLoadComplete()) {
 		suspend();
 	}
-	
-//	local mission_name = GetRunningMissionName();
-//	local mission_file_name = "campaign/default/" + campaign_name + "/" + mission_name + "/" + mission_name + ".nut";
-//	IncludeScriptFile( mission_file_name );
+
+	// Load the mission script file
+	// local mission_name = GetRunningMissionName();
+	// local mission_file_name = "campaign/default/" + campaign_name + "/" + mission_name + "/" + mission_name + ".nut";
+	// IncludeScriptFile(mission_file_name);
 }
 
-
-
-
-
-function SetupDemo()
-{
-	// ゲームのリソースとメニューのリソースを入れ替える
+function SetupDemo() {
+	// Swap game resources with menu resources
 	changeResourceForMenu();
 
-	local startUpSceneIds = SetupMenu( SQ_THREAD_GAME );
+	local startUpSceneIds = SetupMenu(SQ_THREAD_GAME);
 
 	StartMenuBG();
 }
 
-
-function SetupViewerCampaignDemo()
-{
-	// キャンペーンの開始
+function SetupViewerCampaignDemo() {
+	// Start the campaign
 	RequestCampaign();
 	suspend();
 
-	// 準備完了待ち
-	while( !IsRunningCampaign() )
-	{
+	// Wait until the preparation is complete
+	while (!IsRunningCampaign()) {
 		suspend();
 	}
 	suspend();
 }
 
-function PlayStartDemo()
-{
+function PlayStartDemo() {
 	GeminiNowLoadingStart();
-	while(!GeminiIsNowLoadingStart())
-	{
+	while (!GeminiIsNowLoadingStart()) {
 		suspend();
 	}
-	
-	// キャンペーンの開始
+
+	// Start the campaign demo
 	StartOpeningCampaignDemo();
 
-	RequestMenu( SQ_THREAD_GAME );
+	RequestMenu(SQ_THREAD_GAME);
 }
 
-function PlayEndDemo()
-{
-	if(IsRunningMissionSuccess())
-	{
+function PlayEndDemo() {
+	if (IsRunningMissionSuccess()) {
 		GeminiNowLoadingStop();
-		while(!GeminiIsNowLoadingStop())
-		{
+		while (!GeminiIsNowLoadingStop()) {
 			suspend();
 		}
 		GeminiNowLoadingEnd();
-	
-		// デモ開始
+
+		// Start the closing campaign demo
 		StartClosingCampaignDemo();
 	}
 
 	ReleaseCampaignDemo();
 }
 
-function PlayGameDemo(mode, thread_id, is_debug_mode)
-{
-	// ゲーム開始
-	// メニューのリソースとゲームのリソースを入れ替え
+function PlayGameDemo(mode, thread_id, is_debug_mode) {
+	// Start the game
+	// Swap menu resources with game resources
 	changeResourceForGame();
 
 	SetDispList(true);
 
-	// ゲームプレイ 
-	ezGamePlay( mode, thread_id, is_debug_mode );
+	// Play the game
+	ezGamePlay(mode, thread_id, is_debug_mode);
 
 	GeminiNowLoadingPut(1);
 
 	SetDispList(true);
 
-	// オートセーブ
-	if( IsGameResultFinished() ) {
-		ezSaveData( false, true );
+	// Autosave
+	if (IsGameResultFinished()) {
+		ezSaveData(false, true);
 	}
 }
 
-
-
-
-function runDemoCampaign( mode, thread_id, is_debug_mode ) {
-
+function runDemoCampaign(mode, thread_id, is_debug_mode) {
 	GeminiNowLoadingStart();
 	GeminiNowLoadingPut(0);
 
-	ezBackgroundLoadAndConfig( thread_id, false, false, false );
+	ezBackgroundLoadAndConfig(thread_id, false, false, false);
 
-	// デモ開始
-	// ゲームのリソースとメニューのリソースを入れ替える
-	
+	// Start the demo
+	// Swap game resources with menu resources
 	SetupDemo();
 
-	local releaseFlags = (1<<SCENE_GROUP_MENU) | (1<<SCENE_GROUP_HUD) | (1<<SCENE_GROUP_MENUBG);
+	local releaseFlags = (1 << SCENE_GROUP_MENU) | (1 << SCENE_GROUP_HUD) | (1 << SCENE_GROUP_MENUBG);
 
-	// ループ 
-	while (true)
-	{
+	// Loop
+	while (true) {
 		GeminiNowLoadingEnd();
 
 		SetupViewerCampaignDemo();
@@ -151,21 +134,21 @@ function runDemoCampaign( mode, thread_id, is_debug_mode ) {
 		PlayStartDemo();
 
 		GeminiNowLoadingPut(0);
-		
-		// シーンを解放する
+
+		// Release scenes
 		SceneManagerOrderRelaseSceneByGroup(releaseFlags);
-		
+
 		SceneManagerDelCurrentScene("menu_bg");
 
-		// 念のためSyncしておく 
+		// Synchronize resident resources
 		loadResidentResourceThreadSync();
 
-		PlayGameDemo( mode, thread_id, is_debug_mode );
+		PlayGameDemo(mode, thread_id, is_debug_mode);
 
 		GraphicsCatalogDestroy();
 		DestroyScaleformMenu(false);
 
-		// シーンを解放する。
+		// Release scenes
 		SceneManagerOrderRelaseSceneByGroup(releaseFlags);
 
 		SetupDemo();
@@ -173,5 +156,3 @@ function runDemoCampaign( mode, thread_id, is_debug_mode ) {
 		PlayEndDemo();
 	}
 }
-
-
