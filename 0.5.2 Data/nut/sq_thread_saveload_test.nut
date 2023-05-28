@@ -1,12 +1,13 @@
-/* XDASEA_Xm8R_SPsX */ 
+/* XDASEA_Xm8R_SPsX */
 //
-//	SaveLoadTestのシーケンス
+// SaveLoadTest Sequence
 //
 
 function initSaveLoadTest() {
-	RunScriptFunction( SQ_THREAD_GAME, "startSaveLoadThread" );
-	SetPatternThreadId( SQ_THREAD_GAME, SQ_THREAD_PATTERN_ALWAYS );
-	ChangeForcusThreadId( -1 );		// デバッグメニューを閉じる 
+	// Run the SaveLoadTest thread
+	RunScriptFunction(SQ_THREAD_GAME, "startSaveLoadThread");
+	SetPatternThreadId(SQ_THREAD_GAME, SQ_THREAD_PATTERN_ALWAYS);
+	ChangeForcusThreadId(-1); // Close the debug menu
 }
 
 function startSaveLoadThread() {
@@ -15,20 +16,19 @@ function startSaveLoadThread() {
 	
 	suspend();
 	
-	InitializeGameRule();	// ゲームルール
-	InitializeSaveData();	// セーブデータ
+	InitializeGameRule(); // Initialize game rules
+	InitializeSaveData(); // Initialize save data
 	suspend();
 	
 	SaveLoadTool_Initialize();
 
-	while( true ) {
+	while (true) {
 		suspend();
 		
 		SaveLoadTool_Execute();
 		SaveLoadTool_Draw();
 		
-		if( SaveLoadTool_IsExit() )
-		{
+		if (SaveLoadTool_IsExit()) {
 			suspend();
 			break;
 		}
