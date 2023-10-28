@@ -35,7 +35,7 @@ class Program{
     {
         try
         {
-            string content = File.ReadAllText(filePath);
+            string content = File.ReadAllText(@filePath);
             return content.Contains(searchString);
         }
         catch (Exception e)
