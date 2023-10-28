@@ -26,8 +26,9 @@ class Program{
                 Console.WriteLine(file);
             }
 
-            GenerateTraceGraph(matchingFiles);
+            //GenerateTraceGraph(matchingFiles);
         }
+	Console.ReadLine();
     }
 
     static bool FileContainsText(string filePath, string searchString)
@@ -54,11 +55,10 @@ class Program{
     static List<string> SearchTextInFiles(string directoryPath, string searchString)
     {
         List<string> matchingFiles = new List<string>();
-
+	
         if (Directory.Exists(directoryPath))
         {
-            string[] files = Directory.GetFiles(directoryPath, "*.txt", SearchOption.AllDirectories);
-
+            string[] files = Directory.GetFiles(directoryPath, "*.txt", SearchOption.AllDirectories);	
             foreach (var file in files)
             {
                 if (FileContainsText(file, searchString))
