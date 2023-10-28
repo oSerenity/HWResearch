@@ -26,7 +26,7 @@ class Program{
                 Console.WriteLine(file);
             }
 
-            //GenerateTraceGraph(matchingFiles);
+            GenerateTraceGraph(matchingFiles);
         }
 	Console.ReadLine();
     }
