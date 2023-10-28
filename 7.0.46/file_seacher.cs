@@ -1,32 +1,33 @@
-#Gonna be a file seacher for the doomsday version data
-
 using System;
 using System.IO;
 using System.Collections.Generic;
 using System.Diagnostics;
 
 class Program{
-    Console.WriteLine("Enter a string to search for: ");
-    string searchString = Console.ReadLine();
+    
+    public static void Main(){
+        Console.WriteLine("Enter a string to search for: ");
+        string searchString = Console.ReadLine();
 
-    Console.WriteLine("Enter the directory path to search in: ");
-    string directoryPath = Console.ReadLine();
+        Console.WriteLine("Enter the directory path to search in: ");
+        string directoryPath = Console.ReadLine();
 
-    List<string> matchingFiles = SearchTextInFiles(directoryPath, searchString);
+        List<string> matchingFiles = SearchTextInFiles(directoryPath, searchString);
 
-    if (matchingFiles.Count == 0)
-    {
-        Console.WriteLine("No matching files found.");
-    }
-    else
-    {
-        Console.WriteLine("Matching files:");
-        foreach (var file in matchingFiles)
+        if (matchingFiles.Count == 0)
         {
-            Console.WriteLine(file);
+            Console.WriteLine("No matching files found.");
         }
+        else
+        {
+            Console.WriteLine("Matching files:");
+            foreach (var file in matchingFiles)
+            {
+                Console.WriteLine(file);
+            }
 
-        GenerateTraceGraph(matchingFiles);
+            GenerateTraceGraph(matchingFiles);
+        }
     }
 
     static List<string> SearchTextInFiles(string directoryPath, string searchString)
