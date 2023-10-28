@@ -30,6 +30,27 @@ class Program{
         }
     }
 
+    static bool FileContainsText(string filePath, string searchString)
+    {
+        try
+        {
+            string content = File.ReadAllText(filePath);
+            return content.Contains(searchString);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(string.Format("Error reading file {0}: {1}", filePath, e.Message));
+            return false;
+        }
+    }
+
+    static bool AreRelated(string file1, string file2)
+    {
+        // Define your logic to determine if two files are related
+        // For this example, you can use a simple heuristic such as checking if they share the same directory.
+        return Path.GetDirectoryName(file1) == Path.GetDirectoryName(file2);
+    }
+
     static List<string> SearchTextInFiles(string directoryPath, string searchString)
     {
         List<string> matchingFiles = new List<string>();
